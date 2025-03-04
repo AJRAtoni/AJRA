@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,11 +12,9 @@
     <meta property="og:description" content="Calendario de eventos de AJRA">
     <meta property="og:image" content="images/eventos/eventos.png">
     <meta property="og:url" content="https://eventos.ajra.es">
-    <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="d475f634-84bb-448f-9a73-b0576d734398"
-        async></script>
+    <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="d475f634-84bb-448f-9a73-b0576d734398" async></script>
     <link href="css/eventos.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
     <header>
         <a href="https://ajra.es">
@@ -27,10 +24,9 @@
     <div class="home">
         <img src="images/eventos/logo.png" alt="AJRA" style="border-radius: 50%; margin-bottom: 25px;">
         <h1>CALENDARIO DE EVENTOS</h1>
-        <h2>Listado de eventos de interes para AJRA</h2>
-        <a
-            href="https://news.ajra.es">
-            <h2 class="suscribirse">SUSCRIBETE</h2>
+        <h2>Listado de eventos de interés para AJRA</h2>
+        <a href="https://news.ajra.es">
+            <h2 class="suscribirse">SUSCRÍBETE</h2>
         </a>
     </div>
     <div class="filter-buttons">
@@ -39,152 +35,76 @@
         <button onclick="filterEvents('curiosidades')" class="botonesfiltro">CURIOSIDADES</button>
         <button onclick="filterEvents('deportes')" class="botonesfiltro">DEPORTES</button>
         <button onclick="filterEvents('festividades')" class="botonesfiltro">FESTIVIDADES</button>
-        <button onclick="filterEvents('tecnologia')" class="botonesfiltro">TECNOLOGIA</button>
+        <button onclick="filterEvents('tecnologia')" class="botonesfiltro">TECNOLOGÍA</button>
         <button onclick="filterEvents('videojuegos')" class="botonesfiltro">VIDEOJUEGOS</button>
         <input type="text" id="searchInput" class="buscador" oninput="searchEvents()" placeholder="Buscar evento...">
     </div>
     <div id="events" class="row"></div>
-    <footer>2025 &copy; Desarrollado con 🧠 & 💛 por <a href="https://ajra.es"
-            style="text-decoration: none; color: black"> &lt;/AJRA&gt; </a></footer>
+    <footer>2025 &copy; Desarrollado con 🧠 & 💛 por <a href="https://ajra.es" style="text-decoration: none; color: black"> &lt;/AJRA&gt; </a></footer>
 </body>
-
-</html>
-<script src="https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.46/moment-timezone.min.js" integrity="sha512-Ne/lsUAQFATS+KrR4oPYWUtbM3C0I7eIORtGaC+xOdO/V1g3rfSzUwjsLd9/MkFw6iEqafr78LwrK75iZc3Emw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
 <script>
     const SPREADSHEET_ID = '1bjuRsUCQLT_MwgKQ9GR7gPHJyYq339v-JHM_ErPbGjI';
-const API_KEY = 'AIzaSyBVknxjJb5j7AFLBrltXfOptE1xWweeGJ0';
-const eventsContainer = document.getElementById('events');
-const placeholderimagen = 'images/eventos/eventos.png';
+    const API_KEY = 'AIzaSyBVknxjJb5j7AFLBrltXfOptE1xWweeGJ0';
+    const eventsContainer = document.getElementById('events');
+    const placeholderimagen = 'images/eventos/eventos.png';
+    let allEvents = [];
 
-let allEvents = [];
+    const formatDate = (date) => {
+        return new Intl.DateTimeFormat('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' }).format(date);
+    };
 
-const formatDate = date => moment(date).format('DD/MM/YYYY');
+    const calculateDaysRemaining = (eventDate) => {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        const eventDay = new Date(eventDate);
+        eventDay.setHours(0, 0, 0, 0);
+        const diffDays = Math.ceil((eventDay - today) / (1000 * 60 * 60 * 24));
+        return diffDays > 0 ? `FALTAN ${diffDays} DÍAS` : "HOY";
+    };
 
-const createEventCard = ({ titulo, eventDate, descripcion, imagen, url }) => {
-    const today = moment.tz(moment.tz.guess()).startOf('day');
-    const eventMoment = moment.tz(eventDate, moment.tz.guess());
-    const daysRemaining = eventMoment.diff(today, 'days');
-    const diasfaltan = `FALTAN ${daysRemaining} DÍAS`;
+    const parseDate = (dateString) => {
+        const [day, month, yearShort] = dateString.split('/').map(Number);
+        const year = yearShort < 100 ? 2000 + yearShort : yearShort;
+        return new Date(year, month - 1, day);
+    };
 
-    const card = document.createElement('div');
-    card.className = 'card';
-
-    const linkElement = document.createElement('a');
-    linkElement.href = url;
-    linkElement.target = '_blank';
-
-    const imageElement = document.createElement('img');
-    imageElement.className = 'event-image';
-    imageElement.src = imagen || placeholderimagen;
-    imageElement.alt = titulo;
-
-    if (url) {
-        const linkElement = document.createElement('a');
-        linkElement.href = url;
-        linkElement.target = '_blank';
-        linkElement.appendChild(imageElement);
-        card.appendChild(linkElement);
-    } else {
-        card.appendChild(imageElement);
-    }
-
-    const cardBody = document.createElement('div');
-    cardBody.className = 'card-body';
-
-    const eventTitle = document.createElement('h2');
-    eventTitle.className = 'titulo';
-    eventTitle.textContent = titulo;
-
-    const eventDateElement = document.createElement('p');
-    eventDateElement.className = 'fecha';
-    eventDateElement.textContent = formatDate(eventDate);
-
-    const eventDescription = document.createElement('p');
-    eventDescription.className = 'descripcion';
-    eventDescription.textContent = descripcion;
-
-    const daysRemainingContainer = document.createElement('div');
-    daysRemainingContainer.className = 'faltan-container';
-
-    const daysRemainingElement = document.createElement('p');
-    daysRemainingElement.className = 'faltan';
-    daysRemainingElement.textContent = diasfaltan;
-    daysRemainingContainer.appendChild(daysRemainingElement);
-
-    [eventTitle, eventDateElement, eventDescription, daysRemainingContainer].forEach(element => cardBody.appendChild(element));
-
-    card.appendChild(cardBody);
-
-    return card;
-};
-
-const fetchGoogleSheetEvents = () => {
-    const now = moment.tz(moment.tz.guess()).startOf('day').toDate();
-    const sheetRange = 'Eventos!A2:F';
-    const sheetUrl = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${sheetRange}?key=${API_KEY}`;
-
-    fetch(sheetUrl)
-        .then(response => response.json())
-        .then(data => {
-            const rows = data.values || [];
-            allEvents = rows
-                .map(row => {
-                    const [titulo, dateString, descripcion, imageUrl, categoriaRow, url] = row;
-                    const eventDate = moment(dateString, 'DD/MM/YYYY').toDate();
-                    return !isNaN(eventDate.getTime()) && eventDate >= now
-                        ? { titulo, eventDate, descripcion, imagen: imageUrl || placeholderimagen, categoria: categoriaRow, url }
-                        : null;
-                })
-
-
-                .filter(Boolean)
-                .sort((a, b) => a.eventDate - b.eventDate);
-
-            displayEvents(allEvents);
-        })
-        .catch(error => console.error('Error:', error));
-}
-
-const displayEvents = (events) => {
-    eventsContainer.innerHTML = '';
-    events.forEach(event => {
-        eventsContainer.appendChild(createEventCard(event));
-    });
-}
-
-function filterEvents(categoria) {
-    document.querySelectorAll('.botonesfiltro').forEach(button => {
-        button.classList.add('inactive');
-    });
-
-    if (categoria === 'todos') {
-        document.querySelectorAll('.botonesfiltro').forEach(button => {
-            button.classList.remove('inactive');
+    const displayEvents = (events) => {
+        eventsContainer.innerHTML = '';
+        events.forEach(({ titulo, eventDate, descripcion, imagen, url }) => {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.innerHTML = `
+                <a href="${url || '#'}" target="_blank">
+                    <img src="${imagen}" class="event-image" alt="${titulo}">
+                </a>
+                <div class="card-body">
+                    <h2 class="titulo">${titulo}</h2>
+                    <p class="fecha">${formatDate(eventDate)}</p>
+                    <p class="descripcion">${descripcion}</p>
+                    <div class="faltan-container">
+                        <p class="faltan">${calculateDaysRemaining(eventDate)}</p>
+                    </div>
+                </div>`;
+            eventsContainer.appendChild(card);
         });
-    } else {
-        document.querySelector(`.botonesfiltro[onclick="filterEvents('${categoria}')"]`).classList.remove('inactive');
-    }
+    };
 
-    if (categoria === 'todos') {
+    const fetchGoogleSheetEvents = async () => {
+        const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/Eventos!A2:F?key=${API_KEY}`);
+        const data = await response.json();
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+
+        allEvents = (data.values || []).map(row => {
+            const [titulo, dateString, descripcion, imageUrl, categoria, url] = row;
+            const eventDate = parseDate(dateString);
+            return (!isNaN(eventDate.getTime()) && eventDate >= today) 
+                ? { titulo, eventDate, descripcion, imagen: imageUrl || placeholderimagen, categoria, url }
+                : null;
+        }).filter(Boolean).sort((a, b) => a.eventDate - b.eventDate);
         displayEvents(allEvents);
-    } else {
-        const filteredEvents = allEvents.filter(event => event.categoria === categoria);
-        displayEvents(filteredEvents);
-    }
-}
+    };
 
-function searchEvents() {
-    const searchString = document.getElementById('searchInput').value.toLowerCase();
-
-    const filteredEvents = allEvents.filter(event =>
-        (event.titulo ? event.titulo.toLowerCase().includes(searchString) : false) ||
-        (event.descripcion ? event.descripcion.toLowerCase().includes(searchString) : false)
-    );
-
-    displayEvents(filteredEvents);
-}
-
-fetchGoogleSheetEvents();
+    fetchGoogleSheetEvents();
 </script>
+</html>
