@@ -49,151 +49,142 @@
 </body>
 
 </html>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.46/moment-timezone.min.js" integrity="sha512-Ne/lsUAQFATS+KrR4oPYWUtbM3C0I7eIORtGaC+xOdO/V1g3rfSzUwjsLd9/MkFw6iEqafr78LwrK75iZc3Emw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <script>
     const SPREADSHEET_ID = '1bjuRsUCQLT_MwgKQ9GR7gPHJyYq339v-JHM_ErPbGjI';
-    const API_KEY = 'AIzaSyBVknxjJb5j7AFLBrltXfOptE1xWweeGJ0';
-    const eventsContainer = document.getElementById('events');
-    const placeholderimagen = 'images/eventos/eventos.png';
+const API_KEY = 'AIzaSyBVknxjJb5j7AFLBrltXfOptE1xWweeGJ0';
+const eventsContainer = document.getElementById('events');
+const placeholderimagen = 'images/eventos/eventos.png';
 
-    let allEvents = [];
+let allEvents = [];
 
-    // Función para formatear la fecha en DD/MM/YYYY usando Intl.DateTimeFormat
-    const formatDate = (date) => {
-        return new Intl.DateTimeFormat('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' }).format(date);
-    };
+const formatDate = date => moment(date).format('DD/MM/YYYY');
 
-    // Función para calcular los días restantes
-    const calculateDaysRemaining = (eventDate) => {
-        const today = new Date();
-        today.setHours(0, 0, 0, 0); // Asegurar que se compara sin horas
-        const eventDay = new Date(eventDate);
-        eventDay.setHours(0, 0, 0, 0);
+const createEventCard = ({ titulo, eventDate, descripcion, imagen, url }) => {
+    const today = moment.tz(moment.tz.guess()).startOf('day');
+    const eventMoment = moment.tz(eventDate, moment.tz.guess());
+    const daysRemaining = eventMoment.diff(today, 'days');
+    const diasfaltan = `FALTAN ${daysRemaining} DÍAS`;
 
-        const diffTime = eventDay - today;
-        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); // Convertir milisegundos a días
+    const card = document.createElement('div');
+    card.className = 'card';
 
-        return diffDays >= 0 ? `FALTAN ${diffDays} DÍAS` : "EVENTO PASADO";
-    };
+    const linkElement = document.createElement('a');
+    linkElement.href = url;
+    linkElement.target = '_blank';
 
-    const createEventCard = ({ titulo, eventDate, descripcion, imagen, url }) => {
-        const daysRemainingText = calculateDaysRemaining(eventDate);
+    const imageElement = document.createElement('img');
+    imageElement.className = 'event-image';
+    imageElement.src = imagen || placeholderimagen;
+    imageElement.alt = titulo;
 
-        const card = document.createElement('div');
-        card.className = 'card';
-
-        const imageElement = document.createElement('img');
-        imageElement.className = 'event-image';
-        imageElement.src = imagen || placeholderimagen;
-        imageElement.alt = titulo;
-
-        if (url) {
-            const linkElement = document.createElement('a');
-            linkElement.href = url;
-            linkElement.target = '_blank';
-            linkElement.appendChild(imageElement);
-            card.appendChild(linkElement);
-        } else {
-            card.appendChild(imageElement);
-        }
-
-        const cardBody = document.createElement('div');
-        cardBody.className = 'card-body';
-
-        const eventTitle = document.createElement('h2');
-        eventTitle.className = 'titulo';
-        eventTitle.textContent = titulo;
-
-        const eventDateElement = document.createElement('p');
-        eventDateElement.className = 'fecha';
-        eventDateElement.textContent = formatDate(eventDate);
-
-        const eventDescription = document.createElement('p');
-        eventDescription.className = 'descripcion';
-        eventDescription.textContent = descripcion;
-
-        const daysRemainingContainer = document.createElement('div');
-        daysRemainingContainer.className = 'faltan-container';
-
-        const daysRemainingElement = document.createElement('p');
-        daysRemainingElement.className = 'faltan';
-        daysRemainingElement.textContent = daysRemainingText;
-        daysRemainingContainer.appendChild(daysRemainingElement);
-
-        [eventTitle, eventDateElement, eventDescription, daysRemainingContainer].forEach(element => cardBody.appendChild(element));
-
-        card.appendChild(cardBody);
-
-        return card;
-    };
-
-    const fetchGoogleSheetEvents = () => {
-        const now = new Date();
-        now.setHours(0, 0, 0, 0); // Ignorar horas para comparación
-
-        const sheetRange = 'Eventos!A2:F';
-        const sheetUrl = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${sheetRange}?key=${API_KEY}`;
-
-        fetch(sheetUrl)
-            .then(response => response.json())
-            .then(data => {
-                const rows = data.values || [];
-                allEvents = rows
-                    .map(row => {
-                        const [titulo, dateString, descripcion, imageUrl, categoriaRow, url] = row;
-                        const [day, month, year] = dateString.split('/').map(num => parseInt(num, 10));
-                        const eventDate = new Date(year, month - 1, day); // Meses en JS van de 0 a 11
-
-                        return !isNaN(eventDate.getTime()) && eventDate >= now
-                            ? { titulo, eventDate, descripcion, imagen: imageUrl || placeholderimagen, categoria: categoriaRow, url }
-                            : null;
-                    })
-                    .filter(Boolean)
-                    .sort((a, b) => a.eventDate - b.eventDate);
-
-                displayEvents(allEvents);
-            })
-            .catch(error => console.error('Error:', error));
-    };
-
-    const displayEvents = (events) => {
-        eventsContainer.innerHTML = '';
-        events.forEach(event => {
-            eventsContainer.appendChild(createEventCard(event));
-        });
-    };
-
-    function filterEvents(categoria) {
-        document.querySelectorAll('.botonesfiltro').forEach(button => {
-            button.classList.add('inactive');
-        });
-
-        if (categoria === 'todos') {
-            document.querySelectorAll('.botonesfiltro').forEach(button => {
-                button.classList.remove('inactive');
-            });
-        } else {
-            document.querySelector(`.botonesfiltro[onclick="filterEvents('${categoria}')"]`).classList.remove('inactive');
-        }
-
-        if (categoria === 'todos') {
-            displayEvents(allEvents);
-        } else {
-            const filteredEvents = allEvents.filter(event => event.categoria === categoria);
-            displayEvents(filteredEvents);
-        }
+    if (url) {
+        const linkElement = document.createElement('a');
+        linkElement.href = url;
+        linkElement.target = '_blank';
+        linkElement.appendChild(imageElement);
+        card.appendChild(linkElement);
+    } else {
+        card.appendChild(imageElement);
     }
 
-    function searchEvents() {
-        const searchString = document.getElementById('searchInput').value.toLowerCase();
+    const cardBody = document.createElement('div');
+    cardBody.className = 'card-body';
 
-        const filteredEvents = allEvents.filter(event =>
-            (event.titulo ? event.titulo.toLowerCase().includes(searchString) : false) ||
-            (event.descripcion ? event.descripcion.toLowerCase().includes(searchString) : false)
-        );
+    const eventTitle = document.createElement('h2');
+    eventTitle.className = 'titulo';
+    eventTitle.textContent = titulo;
 
+    const eventDateElement = document.createElement('p');
+    eventDateElement.className = 'fecha';
+    eventDateElement.textContent = formatDate(eventDate);
+
+    const eventDescription = document.createElement('p');
+    eventDescription.className = 'descripcion';
+    eventDescription.textContent = descripcion;
+
+    const daysRemainingContainer = document.createElement('div');
+    daysRemainingContainer.className = 'faltan-container';
+
+    const daysRemainingElement = document.createElement('p');
+    daysRemainingElement.className = 'faltan';
+    daysRemainingElement.textContent = diasfaltan;
+    daysRemainingContainer.appendChild(daysRemainingElement);
+
+    [eventTitle, eventDateElement, eventDescription, daysRemainingContainer].forEach(element => cardBody.appendChild(element));
+
+    card.appendChild(cardBody);
+
+    return card;
+};
+
+const fetchGoogleSheetEvents = () => {
+    const now = moment.tz(moment.tz.guess()).startOf('day').toDate();
+    const sheetRange = 'Eventos!A2:F';
+    const sheetUrl = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${sheetRange}?key=${API_KEY}`;
+
+    fetch(sheetUrl)
+        .then(response => response.json())
+        .then(data => {
+            const rows = data.values || [];
+            allEvents = rows
+                .map(row => {
+                    const [titulo, dateString, descripcion, imageUrl, categoriaRow, url] = row;
+                    const eventDate = moment(dateString, 'DD/MM/YYYY').toDate();
+                    return !isNaN(eventDate.getTime()) && eventDate >= now
+                        ? { titulo, eventDate, descripcion, imagen: imageUrl || placeholderimagen, categoria: categoriaRow, url }
+                        : null;
+                })
+
+
+                .filter(Boolean)
+                .sort((a, b) => a.eventDate - b.eventDate);
+
+            displayEvents(allEvents);
+        })
+        .catch(error => console.error('Error:', error));
+}
+
+const displayEvents = (events) => {
+    eventsContainer.innerHTML = '';
+    events.forEach(event => {
+        eventsContainer.appendChild(createEventCard(event));
+    });
+}
+
+function filterEvents(categoria) {
+    document.querySelectorAll('.botonesfiltro').forEach(button => {
+        button.classList.add('inactive');
+    });
+
+    if (categoria === 'todos') {
+        document.querySelectorAll('.botonesfiltro').forEach(button => {
+            button.classList.remove('inactive');
+        });
+    } else {
+        document.querySelector(`.botonesfiltro[onclick="filterEvents('${categoria}')"]`).classList.remove('inactive');
+    }
+
+    if (categoria === 'todos') {
+        displayEvents(allEvents);
+    } else {
+        const filteredEvents = allEvents.filter(event => event.categoria === categoria);
         displayEvents(filteredEvents);
     }
+}
 
-    fetchGoogleSheetEvents();
+function searchEvents() {
+    const searchString = document.getElementById('searchInput').value.toLowerCase();
+
+    const filteredEvents = allEvents.filter(event =>
+        (event.titulo ? event.titulo.toLowerCase().includes(searchString) : false) ||
+        (event.descripcion ? event.descripcion.toLowerCase().includes(searchString) : false)
+    );
+
+    displayEvents(filteredEvents);
+}
+
+fetchGoogleSheetEvents();
 </script>
