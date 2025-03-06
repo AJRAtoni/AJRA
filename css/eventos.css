@@ -6,10 +6,9 @@ body {
     overflow-x: hidden;
 }
 
-body a {color: black; text-decoration: none;}
+body a { color: black; text-decoration: none; }
 
 .home {
-    justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,6 +16,8 @@ body a {color: black; text-decoration: none;}
     margin: auto;
     margin-bottom: 1.5rem;
     max-width: 500px;
+    min-height: 450px; /* 🔹 Reserva espacio antes de que carguen imágenes y texto */
+    justify-content: center;
 }
 
 .home h1,
@@ -30,16 +31,27 @@ h2 {
     font-weight: normal;
 }
 
+/* 🔹 Avatar con tamaño fijo para evitar CLS */
 .avatar {
-    max-width: 75px;
-    height: auto;
+    width: 75px;
+    height: 75px;
     padding: 2rem;
     border-radius: 50%;
     transition: transform 0.5s ease-in-out;
+    object-fit: cover;
+    display: block; /* 🔹 Evita espacios no deseados en algunos navegadores */
 }
 
 .avatar:hover {
     transform: scale(1.05);
+}
+
+/* 🔹 Evitar cambios de tamaño en el logo */
+.home img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: block; /* 🔹 Evita que la imagen afecte la estructura del DOM */
 }
 
 .card {
@@ -57,6 +69,7 @@ h2 {
 .card img {
     width: 100%;
     height: auto;
+    display: block; /* 🔹 Evita CLS */
 }
 
 .card-body {
@@ -125,6 +138,7 @@ footer {
     margin-top: 4rem;
 }
 
+/* 🔹 Botón de suscripción sin cambios de tamaño */
 .suscribirse {
     display: inline-block;
     background-color: rgb(108, 41, 240);
@@ -165,7 +179,6 @@ footer {
     border-radius: 0.5rem;
     text-align: center;
     text-decoration: none;
-
 }
 
 .botonesfiltro.inactive {
@@ -180,13 +193,16 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
-.buscador {
-    margin: 1.5rem 1rem 1.5rem 1rem;
+    .buscador {
+        margin: 1.5rem 1rem 1.5rem 1rem;
     }
 }
 
+/* 🔹 Imágenes de eventos con proporción fija para evitar CLS */
 .event-image {
     width: 100%;
     height: auto;
     aspect-ratio: 2 / 3;
-    object-fit: cover;}
+    object-fit: cover;
+    display: block; /* 🔹 Evita que la imagen cause cambios en el diseño */
+}

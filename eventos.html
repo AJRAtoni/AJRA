@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +13,11 @@
     <meta property="og:description" content="Calendario de eventos de AJRA">
     <meta property="og:image" content="images/eventos/eventos.webp">
     <meta property="og:url" content="https://eventos.ajra.es">
-    <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="d475f634-84bb-448f-9a73-b0576d734398" async></script>
+    <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="d475f634-84bb-448f-9a73-b0576d734398"
+        async></script>
     <link href="css/eventos.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
     <header>
         <a href="https://ajra.es">
@@ -22,7 +25,8 @@
         </a>
     </header>
     <div class="home">
-        <img src="images/eventos/logo.webp" alt="AJRA" width="300" height="300" style="border-radius: 50%; margin-bottom: 25px;">
+        <img src="images/eventos/logo.webp" alt="AJRA" width="300" height="300"
+            style="border-radius: 50%; margin-bottom: 25px;">
         <h1>CALENDARIO DE EVENTOS</h1>
         <h2>Listado de eventos de interés para AJRA</h2>
         <a href="https://news.ajra.es">
@@ -40,7 +44,8 @@
         <input type="text" id="searchInput" class="buscador" oninput="searchEvents()" placeholder="Buscar evento...">
     </div>
     <div id="events" class="row"></div>
-    <footer>2025 &copy; Desarrollado con 🧠 & 💛 por <a href="https://ajra.es" style="text-decoration: none; color: black"> &lt;/AJRA&gt; </a></footer>
+    <footer>2025 &copy; Desarrollado con 🧠 & 💛 por <a href="https://ajra.es"
+            style="text-decoration: none; color: black"> &lt;/AJRA&gt; </a></footer>
 </body>
 <script>
     const SPREADSHEET_ID = '1bjuRsUCQLT_MwgKQ9GR7gPHJyYq339v-JHM_ErPbGjI';
@@ -98,7 +103,7 @@
         allEvents = (data.values || []).map(row => {
             const [titulo, dateString, descripcion, imageUrl, categoria, url] = row;
             const eventDate = parseDate(dateString);
-            return (!isNaN(eventDate.getTime()) && eventDate >= today) 
+            return (!isNaN(eventDate.getTime()) && eventDate >= today)
                 ? { titulo, eventDate, descripcion, imagen: imageUrl || placeholderimagen, categoria, url }
                 : null;
         }).filter(Boolean).sort((a, b) => a.eventDate - b.eventDate);
@@ -107,4 +112,5 @@
 
     fetchGoogleSheetEvents();
 </script>
+
 </html>
