@@ -1,134 +1,102 @@
 const SPREADSHEET_ID = '1bjuRsUCQLT_MwgKQ9GR7gPHJyYq339v-JHM_ErPbGjI';
 const API_KEY = 'AIzaSyBVknxjJb5j7AFLBrltXfOptE1xWweeGJ0';
 const eventsContainer = document.getElementById('events');
-const placeholderimagen = 'images/eventos/eventos.png';
-
+const placeholderimagen = 'images/eventos/eventos.webp';
 let allEvents = [];
 
-const formatDate = date => moment(date).format('DD/MM/YYYY');
-
-const createEventCard = ({ titulo, eventDate, descripcion, imagen, url }) => {
-    const today = moment.tz(moment.tz.guess()).startOf('day');
-    const eventMoment = moment.tz(eventDate, moment.tz.guess());
-    const daysRemaining = eventMoment.diff(today, 'days');
-    const diasfaltan = `FALTAN ${daysRemaining} DÍAS`;
-
-    const card = document.createElement('div');
-    card.className = 'card';
-
-    const linkElement = document.createElement('a');
-    linkElement.href = url;
-    linkElement.target = '_blank';
-
-    const imageElement = document.createElement('img');
-    imageElement.className = 'event-image';
-    imageElement.src = imagen || placeholderimagen;
-    imageElement.alt = titulo;
-
-    if (url) {
-        const linkElement = document.createElement('a');
-        linkElement.href = url;
-        linkElement.target = '_blank';
-        linkElement.appendChild(imageElement);
-        card.appendChild(linkElement);
-    } else {
-        card.appendChild(imageElement);
-    }
-
-    const cardBody = document.createElement('div');
-    cardBody.className = 'card-body';
-
-    const eventTitle = document.createElement('h2');
-    eventTitle.className = 'titulo';
-    eventTitle.textContent = titulo;
-
-    const eventDateElement = document.createElement('p');
-    eventDateElement.className = 'fecha';
-    eventDateElement.textContent = formatDate(eventDate);
-
-    const eventDescription = document.createElement('p');
-    eventDescription.className = 'descripcion';
-    eventDescription.textContent = descripcion;
-
-    const daysRemainingContainer = document.createElement('div');
-    daysRemainingContainer.className = 'faltan-container';
-
-    const daysRemainingElement = document.createElement('p');
-    daysRemainingElement.className = 'faltan';
-    daysRemainingElement.textContent = diasfaltan;
-    daysRemainingContainer.appendChild(daysRemainingElement);
-
-    [eventTitle, eventDateElement, eventDescription, daysRemainingContainer].forEach(element => cardBody.appendChild(element));
-
-    card.appendChild(cardBody);
-
-    return card;
+// 📌 Formatea la fecha en formato DD/MM/YYYY
+const formatDate = (date) => {
+    return new Intl.DateTimeFormat('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' }).format(date);
 };
 
-const fetchGoogleSheetEvents = () => {
-    const now = moment.tz(moment.tz.guess()).startOf('day').toDate();
-    const sheetRange = 'Eventos!A2:F';
-    const sheetUrl = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${sheetRange}?key=${API_KEY}`;
+// 📌 Calcula cuántos días faltan para el evento
+const calculateDaysRemaining = (eventDate) => {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const eventDay = new Date(eventDate);
+    eventDay.setHours(0, 0, 0, 0);
+    const diffDays = Math.ceil((eventDay - today) / (1000 * 60 * 60 * 24));
+    return diffDays > 0 ? `FALTAN ${diffDays} DÍAS` : "HOY";
+};
 
-    fetch(sheetUrl)
-        .then(response => response.json())
-        .then(data => {
-            const rows = data.values || [];
-            allEvents = rows
-                .map(row => {
-                    const [titulo, dateString, descripcion, imageUrl, categoriaRow, url] = row;
-                    const eventDate = moment(dateString, 'DD/MM/YYYY').toDate();
-                    return !isNaN(eventDate.getTime()) && eventDate >= now
-                        ? { titulo, eventDate, descripcion, imagen: imageUrl || placeholderimagen, categoria: categoriaRow, url }
-                        : null;
-                })
+// 📌 Convierte fechas del formato "DD/MM/YY" a `Date()`
+const parseDate = (dateString) => {
+    const [day, month, yearShort] = dateString.split('/').map(Number);
+    const year = yearShort < 100 ? 2000 + yearShort : yearShort;
+    return new Date(year, month - 1, day);
+};
 
-
-                .filter(Boolean)
-                .sort((a, b) => a.eventDate - b.eventDate);
-
-            displayEvents(allEvents);
-        })
-        .catch(error => console.error('Error:', error));
-}
-
+// 📌 Muestra los eventos en la página
 const displayEvents = (events) => {
     eventsContainer.innerHTML = '';
-    events.forEach(event => {
-        eventsContainer.appendChild(createEventCard(event));
+    events.forEach(({ titulo, eventDate, descripcion, imagen, url }) => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+            <a href="${url || '#'}" target="_blank">
+                <img src="${imagen}" class="event-image" alt="${titulo}" loading="lazy">
+            </a>
+            <div class="card-body">
+                <h2 class="titulo">${titulo}</h2>
+                <p class="fecha">${formatDate(eventDate)}</p>
+                <p class="descripcion">${descripcion}</p>
+                <div class="faltan-container">
+                    <p class="faltan">${calculateDaysRemaining(eventDate)}</p>
+                </div>
+            </div>`;
+        eventsContainer.appendChild(card);
     });
-}
+};
 
+// 📌 Obtiene los eventos desde Google Sheets
+const fetchGoogleSheetEvents = async () => {
+    try {
+        const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/Eventos!A2:F?key=${API_KEY}`);
+        const data = await response.json();
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+
+        allEvents = (data.values || []).map(row => {
+            const [titulo, dateString, descripcion, imageUrl, categoria, url] = row;
+            const eventDate = parseDate(dateString);
+            return (!isNaN(eventDate.getTime()) && eventDate >= today)
+                ? { titulo, eventDate, descripcion, imagen: imageUrl || placeholderimagen, categoria, url }
+                : null;
+        }).filter(Boolean).sort((a, b) => a.eventDate - b.eventDate);
+
+        displayEvents(allEvents);
+    } catch (error) {
+        console.error('Error al cargar eventos:', error);
+    }
+};
+
+// 📌 Filtra eventos por categoría
 function filterEvents(categoria) {
+    if (!allEvents.length) return;
+
     document.querySelectorAll('.botonesfiltro').forEach(button => {
         button.classList.add('inactive');
     });
 
-    if (categoria === 'todos') {
-        document.querySelectorAll('.botonesfiltro').forEach(button => {
-            button.classList.remove('inactive');
-        });
-    } else {
-        document.querySelector(`.botonesfiltro[onclick="filterEvents('${categoria}')"]`).classList.remove('inactive');
-    }
+    const activeButton = document.querySelector(`button[data-category="${categoria}"]`);
+    if (activeButton) activeButton.classList.remove('inactive');
 
-    if (categoria === 'todos') {
-        displayEvents(allEvents);
-    } else {
-        const filteredEvents = allEvents.filter(event => event.categoria === categoria);
-        displayEvents(filteredEvents);
-    }
-}
-
-function searchEvents() {
-    const searchString = document.getElementById('searchInput').value.toLowerCase();
-
-    const filteredEvents = allEvents.filter(event =>
-        (event.titulo ? event.titulo.toLowerCase().includes(searchString) : false) ||
-        (event.descripcion ? event.descripcion.toLowerCase().includes(searchString) : false)
-    );
+    const filteredEvents = categoria === 'todos'
+        ? allEvents
+        : allEvents.filter(event => event.categoria.toLowerCase() === categoria.toLowerCase());
 
     displayEvents(filteredEvents);
 }
 
-fetchGoogleSheetEvents();
+// 📌 Configura eventos al cargar la página
+document.addEventListener("DOMContentLoaded", function () {
+    fetchGoogleSheetEvents();
+
+    document.querySelectorAll('.botonesfiltro').forEach(button => {
+        button.addEventListener("click", function () {
+            filterEvents(this.getAttribute("data-category"));
+        });
+    });
+
+    document.getElementById("searchInput").addEventListener("input", searchEvents);
+});

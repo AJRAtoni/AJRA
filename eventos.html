@@ -34,14 +34,14 @@
         </a>
     </div>
     <div class="filter-buttons">
-        <button onclick="filterEvents('todos')" class="botonesfiltro">TODOS</button>
-        <button onclick="filterEvents('cineytv')" class="botonesfiltro">CINEYTV</button>
-        <button onclick="filterEvents('curiosidades')" class="botonesfiltro">CURIOSIDADES</button>
-        <button onclick="filterEvents('deportes')" class="botonesfiltro">DEPORTES</button>
-        <button onclick="filterEvents('festividades')" class="botonesfiltro">FESTIVIDADES</button>
-        <button onclick="filterEvents('tecnologia')" class="botonesfiltro">TECNOLOGÍA</button>
-        <button onclick="filterEvents('videojuegos')" class="botonesfiltro">VIDEOJUEGOS</button>
-        <input type="text" id="searchInput" class="buscador" oninput="searchEvents()" placeholder="Buscar evento...">
+        <button data-category="todos" class="botonesfiltro">TODOS</button>
+        <button data-category="cineytv" class="botonesfiltro">CINEYTV</button>
+        <button data-category="curiosidades" class="botonesfiltro">CURIOSIDADES</button>
+        <button data-category="deportes" class="botonesfiltro">DEPORTES</button>
+        <button data-category="festividades" class="botonesfiltro">FESTIVIDADES</button>
+        <button data-category="tecnologia" class="botonesfiltro">TECNOLOGÍA</button>
+        <button data-category="videojuegos" class="botonesfiltro">VIDEOJUEGOS</button>
+        <input type="text" id="searchInput" class="buscador" placeholder="Buscar evento...">
     </div>
     <div id="events" class="row"></div>
     <footer>2025 &copy; Desarrollado con 🧠 & 💛 por <a href="https://ajra.es"
