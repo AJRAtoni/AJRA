@@ -259,13 +259,17 @@ END:VCALENDAR`;
 
             let shareText = `Este evento creo que te puede interesar:\n\n"${title}" el próximo ${formattedDate}.\n\n📍 Más info: ${url}\n\nMás eventos en https://ajra.es/eventos.`;
 
-            // 📌 Si es móvil y la Web Share API está disponible, usar el menú nativo
+            // 📌 Detectar si es un dispositivo móvil
             const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+            // 📌 Si es móvil y la Web Share API está disponible, compartir automáticamente
             if (isMobile && navigator.share) {
+                const isInstagram = navigator.userAgent.toLowerCase().includes("instagram");
+
                 navigator.share({
                     title: title,
-                    text: shareText,
-                    url: url
+                    text: isInstagram ? shareText : `${shareText} ${url}`,
+                    url: isInstagram ? undefined : url
                 }).catch(error => console.error("Error al compartir:", error));
                 return;
             }
@@ -279,7 +283,7 @@ END:VCALENDAR`;
             document.getElementById("facebook-share").href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodeURIComponent(shareText)}`;
             document.getElementById("whatsapp-share").href = `https://wa.me/?text=${encodeURIComponent(shareText)}`;
             document.getElementById("telegram-share").href = `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(shareText)}`;
-            document.getElementById("threads-share").href = `https://www.threads.net/intent/post?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(url)}`;
+            document.getElementById("threads-share").href = `https://www.threads.net/intent/post?text=${encodeURIComponent(shareText)}`;
 
             // Mostrar modal en escritorio
             const shareModal = document.getElementById("shareModal");
