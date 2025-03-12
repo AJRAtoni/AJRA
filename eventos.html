@@ -247,53 +247,55 @@ END:VCALENDAR`;
 
     // 📌 Escuchar clicks en botones de compartir
     document.addEventListener("DOMContentLoaded", function () {
-        const shareModal = document.getElementById("shareModal");
-        const shareOptions = document.getElementById("shareOptions");
-        const closeButton = document.querySelector(".close");
+        document.addEventListener("click", function (event) {
+            const button = event.target.closest(".share-event");
+            if (!button) return;
 
-        if (!shareModal || !shareOptions || !closeButton) {
-            console.error("No se encontraron elementos del modal de compartir.");
-            return;
-        }
+            const title = button.getAttribute("data-title") || "Evento";
+            const eventDateRaw = button.getAttribute("data-date");
+            const eventDate = eventDateRaw ? new Date(eventDateRaw) : null;
+            const formattedDate = eventDate && !isNaN(eventDate.getTime()) ? formatDate(eventDate) : "Fecha no disponible";
+            const url = button.getAttribute("data-url") || "https://ajra.es/eventos";
 
-            document.addEventListener("click", function (event) {
-                const button = event.target.closest(".share-event");
-                if (!button) return;
+            let shareText = `Este evento creo que te puede interesar:\n\n"${title}" el próximo ${formattedDate}.\n\nMás eventos en https://ajra.es/eventos.`;
 
-                const title = button.getAttribute("data-title") || "Evento";
-                const eventDateRaw = button.getAttribute("data-date");
-                const eventDate = eventDateRaw ? new Date(eventDateRaw) : null;
-                const formattedDate = eventDate && !isNaN(eventDate.getTime()) ? formatDate(eventDate) : "Fecha no disponible";
-                const urlRaw = button.getAttribute("data-url");
-                const url = urlRaw && urlRaw.trim() !== "" && urlRaw !== "null" ? urlRaw : null;
-                const imageSrc = button.closest(".card").querySelector(".event-image").src;
-                let shareText = `"${title}" el próximo ${formattedDate}.\n\n` +
-                                `No te lo pierdas. 🔥\n\n`;
-                
-                shareText += `Más eventos en http://ajra.es/eventos.`;
-                const encodedText = encodeURIComponent(shareText);
+            // 📌 Si es móvil y la Web Share API está disponible, usar el menú nativo
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+            if (isMobile && navigator.share) {
+                navigator.share({
+                    title: title,
+                    text: shareText,
+                    url: url
+                }).catch(error => console.error("Error al compartir:", error));
+                return;
+            }
 
-                document.getElementById("shareEventTitle").textContent = title;
-                document.getElementById("shareEventImage").src = imageSrc;
-                let twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}`;
-                document.getElementById("twitter-share").href = twitterUrl;
-                document.getElementById("facebook-share").href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodedText}&picture=${encodeURIComponent(imageSrc)}`;
-                document.getElementById("whatsapp-share").href = `https://wa.me/?text=${encodedText}`;
-                document.getElementById("telegram-share").href = `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodedText}`;
-                document.getElementById("threads-share").href = `https://www.threads.net/intent/post?text=${encodedText}&url=${encodeURIComponent(url)}`;
+            // 📌 Si Web Share API no está disponible, mostrar el modal en escritorio
+            const imageSrc = button.closest(".card").querySelector(".event-image").src;
+            document.getElementById("shareEventTitle").textContent = title;
+            document.getElementById("shareEventImage").src = imageSrc;
 
-                shareModal.style.display = "flex";
-                shareModal.style.opacity = "1";
-                shareModal.style.zIndex = "9999";
-            });
+            document.getElementById("twitter-share").href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}`;
+            document.getElementById("facebook-share").href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodeURIComponent(shareText)}`;
+            document.getElementById("whatsapp-share").href = `https://wa.me/?text=${encodeURIComponent(shareText)}`;
+            document.getElementById("telegram-share").href = `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(shareText)}`;
+            document.getElementById("threads-share").href = `https://www.threads.net/intent/post?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(url)}`;
 
-        closeButton.addEventListener("click", function () {
-            shareModal.style.display = "none";
+            // Mostrar modal en escritorio
+            const shareModal = document.getElementById("shareModal");
+            shareModal.style.display = "flex";
+            shareModal.style.opacity = "1";
+            shareModal.style.zIndex = "9999";
+        });
+
+        // Cerrar el modal en escritorio
+        document.querySelector(".close").addEventListener("click", function () {
+            document.getElementById("shareModal").style.display = "none";
         });
 
         window.addEventListener("click", function (event) {
-            if (event.target === shareModal) {
-                shareModal.style.display = "none";
+            if (event.target === document.getElementById("shareModal")) {
+                document.getElementById("shareModal").style.display = "none";
             }
         });
     });
