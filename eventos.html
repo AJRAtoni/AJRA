@@ -257,20 +257,16 @@ END:VCALENDAR`;
             const formattedDate = eventDate && !isNaN(eventDate.getTime()) ? formatDate(eventDate) : "Fecha no disponible";
             const url = button.getAttribute("data-url") && button.getAttribute("data-url").trim() !== "" ? button.getAttribute("data-url") : "https://ajra.es/eventos";
 
-            let shareText = `Este evento creo que te puede interesar:\n\n"${title}" el próximo ${formattedDate}.\n\n📍 Más info: ${url}\n\nMás eventos en https://ajra.es/eventos.`;
+            let shareText = `Este evento creo que te puede interesar:\n\n"${title}" el próximo ${formattedDate}.\n\n${url}\n\nMás eventos en https://ajra.es/eventos.`;
 
-            // 📌 Detectar si es un dispositivo móvil
+            // 📌 Si es móvil y la Web Share API está disponible, usar el menú nativo
             const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
-            // 📌 Si es móvil y la Web Share API está disponible, compartir automáticamente
             if (isMobile && navigator.share) {
-                const isInstagram = navigator.userAgent.toLowerCase().includes("instagram");
-
                 navigator.share({
                     title: title,
-                    text: isInstagram ? shareText : `${shareText} ${url}`,
-                    url: isInstagram ? undefined : url
-                }).catch(error => console.error("Error al compartir:", error));
+                    text: shareText,
+                    url: url
+                }).catch(error => console.error("Error al compartir:", error))   
                 return;
             }
 
