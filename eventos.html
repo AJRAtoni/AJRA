@@ -16,7 +16,7 @@
     <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="d475f634-84bb-448f-9a73-b0576d734398"
         async></script>
     <link href="css/eventos.css" rel="stylesheet" type="text/css" />
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></head>
 
 <body>
     <header>
@@ -46,6 +46,34 @@
     <div id="events" class="row"></div>
     <footer>2025 &copy; Desarrollado con 🧠 & 💛 por <a href="https://ajra.es"
             style="text-decoration: none; color: black"> &lt;/AJRA&gt; </a></footer>
+
+
+    <!-- 📌 Modal para compartir eventos -->
+    <div id="shareModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>COMPARTIR EVENTO</h3>
+            <h4 id="shareEventTitle"></h4>
+            <img id="shareEventImage" src="" alt="Evento" class="share-event-image">
+            <div id="shareOptions" class="share-buttons">
+                <a href="#" id="twitter-share" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" id="facebook-share" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" id="whatsapp-share" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="#" id="telegram-share" target="_blank">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="#" id="threads-share" target="_blank">
+                    <i class="fab fa-threads"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 <script>
     const SPREADSHEET_ID = '1bjuRsUCQLT_MwgKQ9GR7gPHJyYq339v-JHM_ErPbGjI';
@@ -92,8 +120,14 @@
                 <p class="descripcion">${descripcion}</p>
                 <div class="faltan-container">
                     <p class="faltan">${calculateDaysRemaining(eventDate)}</p>
-                    <p class="faltan add-to-calendar" data-title="${titulo}" data-date="${eventDate.toISOString()}" data-description="${descripcion}">+</p>
+                    <div class="faltan-icons">
+                        <p class="faltan add-to-calendar" data-title="${titulo}" data-date="${eventDate.toISOString()}" data-description="${descripcion}">
+                            <i class="fas fa-calendar-plus"></i>
+                        </p>
+                        <p class="faltan share-event" data-title="${titulo}" data-url="${url}" data-date="${eventDate}">                            <i class="fas fa-arrow-up-from-bracket"></i>
+                        </p>
                     </div>
+                </div>
             </div>`;
             eventsContainer.appendChild(card);
         });
@@ -200,17 +234,71 @@ END:VCALENDAR`;
 
     // 📌 Escuchar clicks en botones de calendario
     document.addEventListener("click", function (event) {
-        if (event.target.classList.contains("add-to-calendar")) {
-            const title = event.target.getAttribute("data-title");
-            const date = event.target.getAttribute("data-date");
-            const description = event.target.getAttribute("data-description");
-            const eventUrl = "https://ajra.es/eventos";
+        const button = event.target.closest(".add-to-calendar");
+        if (!button) return;
 
-            generateICSFile(title, date, description, eventUrl);
-        }
+        const title = button.getAttribute("data-title");
+        const date = button.getAttribute("data-date");
+        const description = button.getAttribute("data-description");
+        const eventUrl = "https://ajra.es/eventos";
+
+        generateICSFile(title, date, description, eventUrl);
     });
 
-    // 📌 Configura eventos al cargar la página
+    // 📌 Escuchar clicks en botones de compartir
+    document.addEventListener("DOMContentLoaded", function () {
+        const shareModal = document.getElementById("shareModal");
+        const shareOptions = document.getElementById("shareOptions");
+        const closeButton = document.querySelector(".close");
+
+        if (!shareModal || !shareOptions || !closeButton) {
+            console.error("No se encontraron elementos del modal de compartir.");
+            return;
+        }
+
+            document.addEventListener("click", function (event) {
+                const button = event.target.closest(".share-event");
+                if (!button) return;
+
+                const title = button.getAttribute("data-title") || "Evento";
+                const eventDateRaw = button.getAttribute("data-date");
+                const eventDate = eventDateRaw ? new Date(eventDateRaw) : null;
+                const formattedDate = eventDate && !isNaN(eventDate.getTime()) ? formatDate(eventDate) : "Fecha no disponible";
+                const urlRaw = button.getAttribute("data-url");
+                const url = urlRaw && urlRaw.trim() !== "" && urlRaw !== "null" ? urlRaw : null;
+                const imageSrc = button.closest(".card").querySelector(".event-image").src;
+                let shareText = `"${title}" el próximo ${formattedDate}.\n\n` +
+                                `No te lo pierdas. 🔥\n\n`;
+                
+                shareText += `Más eventos en http://ajra.es/eventos.`;
+                const encodedText = encodeURIComponent(shareText);
+
+                document.getElementById("shareEventTitle").textContent = title;
+                document.getElementById("shareEventImage").src = imageSrc;
+                let twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}`;
+                document.getElementById("twitter-share").href = twitterUrl;
+                document.getElementById("facebook-share").href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodedText}&picture=${encodeURIComponent(imageSrc)}`;
+                document.getElementById("whatsapp-share").href = `https://wa.me/?text=${encodedText}`;
+                document.getElementById("telegram-share").href = `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodedText}`;
+                document.getElementById("threads-share").href = `https://www.threads.net/intent/post?text=${encodedText}&url=${encodeURIComponent(url)}`;
+
+                shareModal.style.display = "flex";
+                shareModal.style.opacity = "1";
+                shareModal.style.zIndex = "9999";
+            });
+
+        closeButton.addEventListener("click", function () {
+            shareModal.style.display = "none";
+        });
+
+        window.addEventListener("click", function (event) {
+            if (event.target === shareModal) {
+                shareModal.style.display = "none";
+            }
+        });
+    });
+
+    // Cerrar el modal al hacer clic en la 'x' o fuera del modal
     document.addEventListener("DOMContentLoaded", function () {
         fetchGoogleSheetEvents();
 

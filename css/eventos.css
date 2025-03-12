@@ -116,9 +116,11 @@ h2 {
 
 .faltan-container {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  gap: 7px;
+  align-items: center;
+  width: 100%;
+  flex-wrap: nowrap; /* Evita el salto de línea */
+  gap: 10px;
 }
 
 .faltan {
@@ -126,13 +128,24 @@ h2 {
   background-color: rgb(108, 41, 240);
   font-size: 0.875rem;
   color: white;
-  padding: 1rem 1.2rem;
+  padding: 0.7rem 0.8rem;
   border-radius: 0.5rem;
   text-align: center;
   text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 1;
+  flex-grow: 1;
+  max-width: 49%;
 }
+
 .faltan.add-to-calendar {
   cursor: pointer;
+}
+
+.faltan i {
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
 }
 
 footer {
@@ -208,4 +221,71 @@ footer {
   aspect-ratio: 2 / 3;
   object-fit: cover;
   display: block;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.close {
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.share-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.share-buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgb(108, 41, 240);
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.share-buttons i {
+  font-size: 2rem;
+}
+
+.share-event-image {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+  object-fit: cover;
 }
