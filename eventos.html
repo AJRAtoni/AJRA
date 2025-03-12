@@ -240,7 +240,7 @@ END:VCALENDAR`;
         const title = button.getAttribute("data-title");
         const date = button.getAttribute("data-date");
         const description = button.getAttribute("data-description");
-        const eventUrl = "https://ajra.es/eventos";
+        const eventUrl = button.getAttribute("data-url");
 
         generateICSFile(title, date, description, eventUrl);
     });
@@ -255,9 +255,9 @@ END:VCALENDAR`;
             const eventDateRaw = button.getAttribute("data-date");
             const eventDate = eventDateRaw ? new Date(eventDateRaw) : null;
             const formattedDate = eventDate && !isNaN(eventDate.getTime()) ? formatDate(eventDate) : "Fecha no disponible";
-            const url = button.getAttribute("data-url") || "https://ajra.es/eventos";
+            const url = button.getAttribute("data-url") && button.getAttribute("data-url").trim() !== "" ? button.getAttribute("data-url") : "https://ajra.es/eventos";
 
-            let shareText = `Este evento creo que te puede interesar:\n\n"${title}" el próximo ${formattedDate}.\n\nMás eventos en https://ajra.es/eventos.`;
+            let shareText = `Este evento creo que te puede interesar:\n\n"${title}" el próximo ${formattedDate}.\n\n📍 Más info: ${url}\n\nMás eventos en https://ajra.es/eventos.`;
 
             // 📌 Si es móvil y la Web Share API está disponible, usar el menú nativo
             const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
