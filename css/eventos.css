@@ -117,7 +117,7 @@ h2 {
 .faltan-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 7px;
 }
 
@@ -126,10 +126,13 @@ h2 {
   background-color: rgb(108, 41, 240);
   font-size: 0.875rem;
   color: white;
-  padding: 0.65rem;
+  padding: 1rem 1.2rem;
   border-radius: 0.5rem;
   text-align: center;
   text-decoration: none;
+}
+.faltan.add-to-calendar {
+  cursor: pointer;
 }
 
 footer {
