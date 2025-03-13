@@ -330,7 +330,7 @@ a {
 }
 .tv1 {
   grid-area: tv1;
-  background: linear-gradient(180deg, #ffdf00 0%, rgba(255, 223, 0, 0.75) 100%);
+  background: linear-gradient(180deg, #9146ff 0%, #6209e5 100%);
   aspect-ratio: auto;
 }
 .tv2 {
