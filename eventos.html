@@ -254,8 +254,8 @@ END:VCALENDAR`;
             const title = button.getAttribute("data-title") || "Evento";
             const eventDateRaw = button.getAttribute("data-date");
             const eventDate = eventDateRaw ? new Date(eventDateRaw) : null;
-            const formattedDate = eventDate && !isNaN(eventDate.getTime()) ? formatDate(eventDate) : "Fecha no disponible";
-            const url = button.getAttribute("data-url") && button.getAttribute("data-url").trim() !== "" ? button.getAttribute("data-url") : "https://ajra.es/eventos";
+            const formattedDate = formatDate(new Date(button.getAttribute("data-date")));
+            let url = button.getAttribute("data-url")?.trim() || "";
 
             let shareText = `Este evento creo que te puede interesar:\n\n"${title}" el próximo ${formattedDate}.\n\n${url}\n\nMás eventos en https://ajra.es/eventos.`;
 
