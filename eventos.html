@@ -78,179 +78,177 @@
             </div>
         </div>
     </div>
-</body>
-<script>
-    const SPREADSHEET_ID = '1bjuRsUCQLT_MwgKQ9GR7gPHJyYq339v-JHM_ErPbGjI';
-    const API_KEY = 'AIzaSyBVknxjJb5j7AFLBrltXfOptE1xWweeGJ0';
-    const eventsContainer = document.getElementById('events');
-    const placeholderimagen = 'images/eventos/eventos.webp';
-    let allEvents = [];
+    <script>
+        const SPREADSHEET_ID = '1bjuRsUCQLT_MwgKQ9GR7gPHJyYq339v-JHM_ErPbGjI';
+        const API_KEY = 'AIzaSyBVknxjJb5j7AFLBrltXfOptE1xWweeGJ0';
+        const eventsContainer = document.getElementById('events');
+        const placeholderimagen = 'images/eventos/eventos.webp';
+        let allEvents = [];
 
-    // 📌 Formatea la fecha en formato DD/MM/YYYY
-    const formatDate = (date) => {
-        return new Intl.DateTimeFormat('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' }).format(date);
-    };
+        // 📌 Formatea la fecha en formato DD/MM/YYYY
+        const formatDate = (date) => {
+            return new Intl.DateTimeFormat('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' }).format(date);
+        };
 
-    // 📌 Calcula cuántos días faltan para el evento
-    const calculateDaysRemaining = (eventDate) => {
-        const today = new Date();
-        today.setHours(0, 0, 0, 0);
-        const eventDay = new Date(eventDate);
-        eventDay.setHours(0, 0, 0, 0);
-        const diffDays = Math.ceil((eventDay - today) / (1000 * 60 * 60 * 24));
-        return diffDays > 0 ? `FALTAN ${diffDays} DÍAS` : "HOY";
-    };
-
-    // 📌 Convierte fechas del formato "DD/MM/YY" a `Date()`
-    const parseDate = (dateString) => {
-        const [day, month, yearShort] = dateString.split('/').map(Number);
-        const year = yearShort < 100 ? 2000 + yearShort : yearShort;
-        return new Date(year, month - 1, day);
-    };
-
-    // 📌 Muestra los eventos en la página
-    const displayEvents = (events) => {
-        eventsContainer.innerHTML = '';
-        events.forEach(({ titulo, eventDate, descripcion, imagen, url }) => {
-            const card = document.createElement('div');
-            card.className = 'card';
-            card.innerHTML = `
-            <a href="${url || '#'}" target="_blank">
-                <img src="${imagen}" class="event-image" alt="${titulo}" loading="lazy">
-            </a>
-            <div class="card-body">
-                <h2 class="titulo">${titulo}</h2>
-                <p class="fecha">${formatDate(eventDate)}</p>
-                <p class="descripcion">${descripcion}</p>
-                <div class="faltan-container">
-                    <p class="faltan">${calculateDaysRemaining(eventDate)}</p>
-                    <div class="faltan-icons">
-                        <p class="faltan add-to-calendar" data-title="${titulo}" data-date="${eventDate.toISOString()}" data-description="${descripcion}">
-                            <i class="fas fa-calendar-plus"></i>
-                        </p>
-                        <p class="faltan share-event" data-title="${titulo}" data-url="${url}" data-date="${eventDate}">                            <i class="fas fa-arrow-up-from-bracket"></i>
-                        </p>
-                    </div>
-                </div>
-            </div>`;
-            eventsContainer.appendChild(card);
-        });
-    };
-
-    // 📌 Obtiene los eventos desde Google Sheets
-    const fetchGoogleSheetEvents = async () => {
-        try {
-            const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/Eventos!A2:F?key=${API_KEY}`);
-            const data = await response.json();
+        // 📌 Calcula cuántos días faltan para el evento
+        const calculateDaysRemaining = (eventDate) => {
             const today = new Date();
             today.setHours(0, 0, 0, 0);
+            const eventDay = new Date(eventDate);
+            eventDay.setHours(0, 0, 0, 0);
+            const diffDays = Math.ceil((eventDay - today) / (1000 * 60 * 60 * 24));
+            return diffDays > 0 ? `FALTAN ${diffDays} DÍAS` : "HOY";
+        };
 
-            allEvents = (data.values || []).map(row => {
-                const [titulo, dateString, descripcion, imageUrl, categoria, url] = row;
-                const eventDate = parseDate(dateString);
-                return (!isNaN(eventDate.getTime()) && eventDate >= today)
-                    ? { titulo, eventDate, descripcion, imagen: imageUrl || placeholderimagen, categoria, url }
-                    : null;
-            }).filter(Boolean).sort((a, b) => a.eventDate - b.eventDate);
+        // 📌 Convierte fechas del formato "DD/MM/YY" a `Date()`
+        const parseDate = (dateString) => {
+            const [day, month, yearShort] = dateString.split('/').map(Number);
+            const year = yearShort < 100 ? 2000 + yearShort : yearShort;
+            return new Date(year, month - 1, day);
+        };
 
-            displayEvents(allEvents);
-        } catch (error) {
-            console.error('Error al cargar eventos:', error);
-        }
-    };
-
-    // 📌 Filtra eventos por categoría
-    function filterEvents(categoria) {
-        if (!allEvents.length) return;
-
-        // Selecciona todos los botones de filtro
-        const buttons = document.querySelectorAll('.botonesfiltro');
-
-        // Si la categoría es 'todos', mantener todos los botones activos
-        if (categoria === 'todos') {
-            buttons.forEach(button => {
-                button.classList.remove('inactive');
-                button.classList.add('active');
+        // 📌 Muestra los eventos en la página
+        const displayEvents = (events) => {
+            eventsContainer.innerHTML = '';
+            events.forEach(({ titulo, eventDate, descripcion, imagen, url }) => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = `
+                <a href="${url || '#'}" target="_blank">
+                    <img src="${imagen}" class="event-image" alt="${titulo}" loading="lazy">
+                </a>
+                <div class="card-body">
+                    <h2 class="titulo">${titulo}</h2>
+                    <p class="fecha">${formatDate(eventDate)}</p>
+                    <p class="descripcion">${descripcion}</p>
+                    <div class="faltan-container">
+                        <p class="faltan">${calculateDaysRemaining(eventDate)}</p>
+                        <div class="faltan-icons">
+                            <p class="faltan add-to-calendar" data-title="${titulo}" data-date="${eventDate.toISOString()}" data-description="${descripcion}">
+                                <i class="fas fa-calendar-plus"></i>
+                            </p>
+                            <p class="faltan share-event" data-title="${titulo}" data-url="${url}" data-date="${eventDate}">                            <i class="fas fa-arrow-up-from-bracket"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>`;
+                eventsContainer.appendChild(card);
             });
-        } else {
-            // Remover la clase 'active' de todos los botones y añadir 'inactive'
-            buttons.forEach(button => {
-                button.classList.remove('active');
-                button.classList.add('inactive');
-            });
+        };
 
-            // Buscar el botón que corresponde a la categoría seleccionada
-            const activeButton = [...buttons].find(button => button.getAttribute("onclick") === `filterEvents('${categoria}')`);
+        // 📌 Obtiene los eventos desde Google Sheets
+        const fetchGoogleSheetEvents = async () => {
+            try {
+                const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/Eventos!A2:F?key=${API_KEY}`);
+                const data = await response.json();
+                const today = new Date();
+                today.setHours(0, 0, 0, 0);
 
-            if (activeButton) {
-                activeButton.classList.add('active');
-                activeButton.classList.remove('inactive');
+                allEvents = (data.values || []).map(row => {
+                    const [titulo, dateString, descripcion, imageUrl, categoria, url] = row;
+                    const eventDate = parseDate(dateString);
+                    return (!isNaN(eventDate.getTime()) && eventDate >= today)
+                        ? { titulo, eventDate, descripcion, imagen: imageUrl || placeholderimagen, categoria, url }
+                        : null;
+                }).filter(Boolean).sort((a, b) => a.eventDate - b.eventDate);
+
+                displayEvents(allEvents);
+            } catch (error) {
+                console.error('Error al cargar eventos:', error);
             }
+        };
+
+        // 📌 Filtra eventos por categoría
+        function filterEvents(categoria) {
+            if (!allEvents.length) return;
+
+            // Selecciona todos los botones de filtro
+            const buttons = document.querySelectorAll('.botonesfiltro');
+
+            // Si la categoría es 'todos', mantener todos los botones activos
+            if (categoria === 'todos') {
+                buttons.forEach(button => {
+                    button.classList.remove('inactive');
+                    button.classList.add('active');
+                });
+            } else {
+                // Remover la clase 'active' de todos los botones y añadir 'inactive'
+                buttons.forEach(button => {
+                    button.classList.remove('active');
+                    button.classList.add('inactive');
+                });
+
+                // Buscar el botón que corresponde a la categoría seleccionada
+                const activeButton = [...buttons].find(button => button.getAttribute("onclick") === `filterEvents('${categoria}')`);
+
+                if (activeButton) {
+                    activeButton.classList.add('active');
+                    activeButton.classList.remove('inactive');
+                }
+            }
+
+            // Filtrar eventos y mostrarlos
+            const filteredEvents = categoria === 'todos'
+                ? allEvents
+                : allEvents.filter(event => event.categoria.toLowerCase() === categoria.toLowerCase());
+
+            displayEvents(filteredEvents);
+        };
+        // 📌 Busca eventos por título o descripción
+        function searchEvents() {
+            const searchString = document.getElementById('searchInput').value.toLowerCase();
+
+            const filteredEvents = allEvents.filter(event =>
+                (event.titulo ? event.titulo.toLowerCase().includes(searchString) : false) ||
+                (event.descripcion ? event.descripcion.toLowerCase().includes(searchString) : false)
+            );
+
+            displayEvents(filteredEvents);
         }
 
-        // Filtrar eventos y mostrarlos
-        const filteredEvents = categoria === 'todos'
-            ? allEvents
-            : allEvents.filter(event => event.categoria.toLowerCase() === categoria.toLowerCase());
+        // 📌 Genera y descarga un archivo .ics
+        function generateICSFile(eventTitle, eventDate, eventDescription, eventUrl) {
+            const startDate = new Date(eventDate);
+            startDate.setHours(0, 0, 0, 0);
+            const endDate = new Date(startDate);
+            endDate.setDate(endDate.getDate() + 1);
 
-        displayEvents(filteredEvents);
-    };
-    // 📌 Busca eventos por título o descripción
-    function searchEvents() {
-        const searchString = document.getElementById('searchInput').value.toLowerCase();
+            const icsContent = `BEGIN:VCALENDAR
+            VERSION:2.0
+            BEGIN:VEVENT
+            SUMMARY:${eventTitle}
+            DESCRIPTION:${eventDescription} - by AJRA
+            DTSTART;VALUE=DATE:${startDate.toISOString().split('T')[0].replace(/-/g, "")}
+            DTEND;VALUE=DATE:${endDate.toISOString().split('T')[0].replace(/-/g, "")}
+            URL:${eventUrl}
+            END:VEVENT
+            END:VCALENDAR`;
 
-        const filteredEvents = allEvents.filter(event =>
-            (event.titulo ? event.titulo.toLowerCase().includes(searchString) : false) ||
-            (event.descripcion ? event.descripcion.toLowerCase().includes(searchString) : false)
-        );
+            const blob = new Blob([icsContent], { type: "text/calendar" });
+            const url = URL.createObjectURL(blob);
 
-        displayEvents(filteredEvents);
-    }
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = `${eventTitle.replace(/\s+/g, "_")}.ics`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
 
-    // 📌 Genera y descarga un archivo .ics
-    function generateICSFile(eventTitle, eventDate, eventDescription, eventUrl) {
-        const startDate = new Date(eventDate);
-        startDate.setHours(0, 0, 0, 0);
-        const endDate = new Date(startDate);
-        endDate.setDate(endDate.getDate() + 1);
+        // 📌 Escuchar clicks en botones de calendario
+        document.addEventListener("click", function (event) {
+            const button = event.target.closest(".add-to-calendar");
+            if (!button) return;
 
-        const icsContent = `BEGIN:VCALENDAR
-VERSION:2.0
-BEGIN:VEVENT
-SUMMARY:${eventTitle}
-DESCRIPTION:${eventDescription} - by AJRA
-DTSTART;VALUE=DATE:${startDate.toISOString().split('T')[0].replace(/-/g, "")}
-DTEND;VALUE=DATE:${endDate.toISOString().split('T')[0].replace(/-/g, "")}
-URL:${eventUrl}
-END:VEVENT
-END:VCALENDAR`;
+            const title = button.getAttribute("data-title");
+            const date = button.getAttribute("data-date");
+            const description = button.getAttribute("data-description");
+            const eventUrl = button.getAttribute("data-url");
 
-        const blob = new Blob([icsContent], { type: "text/calendar" });
-        const url = URL.createObjectURL(blob);
+            generateICSFile(title, date, description, eventUrl);
+        });
 
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = `${eventTitle.replace(/\s+/g, "_")}.ics`;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-    }
-
-    // 📌 Escuchar clicks en botones de calendario
-    document.addEventListener("click", function (event) {
-        const button = event.target.closest(".add-to-calendar");
-        if (!button) return;
-
-        const title = button.getAttribute("data-title");
-        const date = button.getAttribute("data-date");
-        const description = button.getAttribute("data-description");
-        const eventUrl = button.getAttribute("data-url");
-
-        generateICSFile(title, date, description, eventUrl);
-    });
-
-    // 📌 Escuchar clicks en botones de compartir
-    document.addEventListener("DOMContentLoaded", function () {
+        // 📌 Escuchar clicks en botones de compartir
         document.addEventListener("click", function (event) {
             const button = event.target.closest(".share-event");
             if (!button) return;
@@ -270,7 +268,7 @@ END:VCALENDAR`;
                     title: title,
                     text: shareText,
                     url: url
-                }).catch(error => console.error("Error al compartir:", error))   
+                }).catch(error => console.error("Error al compartir:", error));   
                 return;
             }
 
@@ -302,15 +300,13 @@ END:VCALENDAR`;
                 document.getElementById("shareModal").style.display = "none";
             }
         });
-    });
 
-    // Cerrar el modal al hacer clic en la 'x' o fuera del modal
-    document.addEventListener("DOMContentLoaded", function () {
-        fetchGoogleSheetEvents();
+        // Inicializar la aplicación cuando el DOM esté cargado
+        document.addEventListener("DOMContentLoaded", function () {
+            fetchGoogleSheetEvents();
+            document.getElementById("searchInput").addEventListener("input", searchEvents);
+        });
 
-        document.getElementById("searchInput").addEventListener("input", searchEvents);
-    });
-
-</script>
-
+    </script>
+</body>
 </html>
