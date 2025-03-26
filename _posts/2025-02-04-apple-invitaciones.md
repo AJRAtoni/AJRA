@@ -1,7 +1,7 @@
 ---
 title: Invitaciones, la nueva app de Apple
 description: Apple lanza 'Invitaciones', una nueva app que convierte tus eventos en algo más personal, visual y organizado. Todo integrado en tu ecosistema iOS.
-image: images/posts/apple-invites.webp
+image: https://ajra.es/images/posts/apple-invites.webp
 slug: invitaciones-apple-app-eventos
 date: 2025-02-04
 ---

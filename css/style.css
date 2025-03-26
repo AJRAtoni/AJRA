@@ -206,25 +206,21 @@ a {
   grid-area: articulo1;
   background: linear-gradient(180deg, #fbfbfc 0%, #dbdbdb 100%);
   aspect-ratio: auto;
-  border: 1px solid grey;
 }
 .articulo2 {
   grid-area: articulo2;
   background: linear-gradient(180deg, #fbfbfc 0%, #dbdbdb 100%);
   aspect-ratio: auto;
-  border: 1px solid grey;
 }
 .articulo3 {
   grid-area: articulo3;
   background: linear-gradient(180deg, #fbfbfc 0%, #dbdbdb 100%);
   aspect-ratio: auto;
-  border: 1px solid grey;
 }
 .articulo4 {
   grid-area: articulo4;
   background: linear-gradient(180deg, #fbfbfc 0%, #dbdbdb 100%);
   aspect-ratio: auto;
-  border: 1px solid grey;
 }
 .destacada {
   max-width: 50%;
