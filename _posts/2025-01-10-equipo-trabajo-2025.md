@@ -24,28 +24,28 @@ Al final me decidi a probar un año con el **iPhone 16 Plus** y por el momento n
 
 ## Periféricos y Accesorios
 
-- **Apple Vision Pro**: He sustituido las pantallas tradicionales por las **Apple Vision Pro**, lo que ha revolucionado mi espacio de trabajo. Estas gafas me permiten tener múltiples pantallas virtuales, creando un entorno inmersivo y adaptable a mis necesidades. La integración con el MacBook es fluida, ofreciendo una experiencia de usuario sin precedentes.
+**Apple Vision Pro**: He sustituido las pantallas tradicionales por las **Apple Vision Pro**, lo que ha revolucionado mi espacio de trabajo. Estas gafas me permiten tener múltiples pantallas virtuales, creando un entorno inmersivo y adaptable a mis necesidades. La integración con el MacBook es fluida, ofreciendo una experiencia de usuario sin precedentes.
 ![Imagen de las Apple Vision Pro](https://res.cloudinary.com/dtu8yguig/image/upload/v1743093837/Apple_Vision_Pro_VR_headset_vf4zd2.webp)
 
 
-- **Magic Keyboard con Touch ID**: Sigo confiando en este teclado por su precisión y la comodidad que ofrece el **Touch ID** para desbloquear el Mac y autorizar operaciones.
+**Magic Keyboard con Touch ID**: Sigo confiando en este teclado por su precisión y la comodidad que ofrece el **Touch ID** para desbloquear el Mac y autorizar operaciones.
 
-- **Magic Trackpad**: Permanece como mi herramienta principal de navegación. Su respuesta táctil y gestos intuitivos facilitan enormemente la interacción diaria con el sistema.
+**Magic Trackpad**: Permanece como mi herramienta principal de navegación. Su respuesta táctil y gestos intuitivos facilitan enormemente la interacción diaria con el sistema.
 
 ## Software y Aplicaciones
 
-- **Canva y Pixelmator**: Continúan siendo mi elección predilecta para diseño gráfico y creación de contenido visual.
+**Canva y Pixelmator**: Continúan siendo mi elección predilecta para diseño gráfico y creación de contenido visual.
 
-- **Visual Studio Code**: Indispensable para tareas de programación y edición de código, ofreciendo una amplia gama de extensiones que enriquecen mi flujo de trabajo.
+**Visual Studio Code**: Indispensable para tareas de programación y edición de código, ofreciendo una amplia gama de extensiones que enriquecen mi flujo de trabajo.
 
-- **Draw Things**: Esta nueva incorporación me permite generar imágenes asistidas por IA de manera local, protegiendo mi privacidad y agilizando el proceso creativo. Es sorprendente cómo una idea puede materializarse en cuestión de minutos.
+**Draw Things**: Esta nueva incorporación me permite generar imágenes asistidas por IA de manera local, protegiendo mi privacidad y agilizando el proceso creativo. Es sorprendente cómo una idea puede materializarse en cuestión de minutos.
 
-- **LM Studio**: Otra herramienta que he integrado es **LM Studio**, una aplicación de escritorio que facilita la ejecución y experimentación con modelos de lenguaje de gran tamaño de código abierto directamente en mi Mac. Esto me brinda mayor control y seguridad sobre mis datos al operar de forma local.
+**LM Studio**: Otra herramienta que he integrado es **LM Studio**, una aplicación de escritorio que facilita la ejecución y experimentación con modelos de lenguaje de gran tamaño de código abierto directamente en mi Mac. Esto me brinda mayor control y seguridad sobre mis datos al operar de forma local.
 
 ## Dispositivos Portátiles y Audio
 
-- **Apple Watch Series 9**: Me acompaña diariamente, ayudándome a mantenerme activo y organizado. Las nuevas funcionalidades y mejoras en salud y conectividad lo hacen aún más imprescindible.
+**Apple Watch Series 9**: Me acompaña diariamente, ayudándome a mantenerme activo y organizado. Las nuevas funcionalidades y mejoras en salud y conectividad lo hacen aún más imprescindible.
 
-- **EarPods con USB-C**: He optado por estos auriculares con cable, evitando la necesidad de cargarlos constantemente. La calidad de sonido es excelente y la comodidad de uso es inigualable.
+**EarPods con USB-C**: He optado por estos auriculares con cable, evitando la necesidad de cargarlos constantemente. La calidad de sonido es excelente y la comodidad de uso es inigualable.
 
 Este es el conjunto de herramientas y dispositivos con los que afronto este nuevo año. Siempre estoy en busca de optimizar mi espacio de trabajo y adaptarme a las innovaciones que faciliten mi labor diaria. ¿Y vosotros? ¿Qué cambios habéis implementado en vuestro equipo de trabajo para este 2025?
