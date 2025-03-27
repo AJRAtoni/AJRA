@@ -1,7 +1,7 @@
 ---
 title: "Mi equipo de trabajo para 2024"
 description: "Un repaso a mi equipo de trabajo para 2024. Minimalismo y eficiencia en el día a día."
-image: https://cdn-images-1.medium.com/max/800/1*PEd03-O_DaEyWvn1ogLXNQ.jpeg
+image: https://res.cloudinary.com/dtu8yguig/image/upload/v1743089259/EquipoTrabajo2024_sh6vex.webp
 slug: mi-equipo-de-trabajo-para-2024
 date: 2024-01-01
 ---

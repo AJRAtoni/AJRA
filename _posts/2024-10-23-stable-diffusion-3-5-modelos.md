@@ -1,7 +1,7 @@
 ---
 title: "Stable Diffusion 3.5"
 description: "Stability AI presenta Stable Diffusion 3.5, la versión más avanzada de sus modelos generativos."
-image: https://ajra.es/images/posts/stability-ai.webp
+image: https://res.cloudinary.com/dtu8yguig/image/upload/v1743088777/stability-ai_qmstsk.webp
 slug: stable-diffusion-3-5
 date: 2024-10-23
 ---

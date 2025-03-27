@@ -1,7 +1,7 @@
 ---
 title: "Nuevo CleanMyMac"
 description: "Descubre el nuevo CleanMyMac con funcionalidades renovadas para eliminar archivos duplicados, mejorar el rendimiento y mantener tu Mac en perfecto estado."
-image: https://ajra.es/images/posts/CLEANMYMAC.webp
+image: https://res.cloudinary.com/dtu8yguig/image/upload/v1743089235/CLEANMYMAC_u0h35g.webp
 slug: nuevo-cleanmymac
 date: 2024-10-21
 ---
