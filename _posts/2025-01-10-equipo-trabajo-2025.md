@@ -1,7 +1,7 @@
 ---
 title: "Mi equipo de trabajo para 2025"
 description: "Este es el equipo de trabajo con el que comienzo el 2025."
-image: https://res.cloudinary.com/dtu8yguig/image/upload/v1743094256/Equipo_Trabajo_2025_qx9hu9.png
+image: https://res.cloudinary.com/ajratoni/image/upload/v1743094256/Equipo_Trabajo_2025_qx9hu9.png
 slug: mi-equipo-de-trabajo-2025
 date: 2025-01-10
 ---

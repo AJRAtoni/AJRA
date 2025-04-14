@@ -1,7 +1,7 @@
 ---
 title: "Lionsgate y Runway se asocian"
 description: "Lionsgate ha llegado a un acuerdo con Runway para implementar tecnología de IA generativa de video en sus producciones cinematográficas."
-image: https://res.cloudinary.com/dtu8yguig/image/upload/v1743088851/lionsgate_r2j2na.webp
+image: https://res.cloudinary.com/ajratoni/image/upload/v1743088851/lionsgate_r2j2na.webp
 slug: lionsgate-runway-ia-video
 date: 2024-09-18
 ---
