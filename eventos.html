@@ -101,7 +101,7 @@
         // 📌 Muestra los eventos en la página
         const displayEvents = (events) => {
             eventsContainer.innerHTML = '';
-            events.forEach(({ titulo, eventDate, descripcion, imagen, url }) => {
+            events.forEach(({ titulo, eventDate, imagen, url }) => {
                 const card = document.createElement('div');
                 card.className = 'card';
                 card.innerHTML = `
@@ -111,7 +111,6 @@
                 <div class="card-body">
                     <h2 class="titulo">${titulo}</h2>
                     <p class="fecha">${formatDate(eventDate)}</p>
-                    <p class="descripcion">${descripcion}</p>
                     <div class="faltan-container">
                         <p class="faltan">${calculateDaysRemaining(eventDate)}</p>
                     </div>
@@ -152,7 +151,6 @@
                                 id: doc.id,
                                 titulo: data.titulo,
                                 eventDate: eventDate,
-                                descripcion: data.descripcion,
                                 imagen: data.imagen || data.imagenUrl || placeholderimagen,
                                 categoria: data.categoria,
                                 url: data.url || data.trailer
@@ -210,7 +208,6 @@
 
             const filteredEvents = allEvents.filter(event =>
                 (event.titulo ? event.titulo.toLowerCase().includes(searchString) : false) ||
-                (event.descripcion ? event.descripcion.toLowerCase().includes(searchString) : false)
             );
 
             displayEvents(filteredEvents);
