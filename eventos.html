@@ -51,32 +51,6 @@
         &copy; Desarrollado con 🧠 & 💛 por &lt;/AJRA&gt;
     </footer>
 
-    <!-- 📌 Modal para compartir eventos -->
-    <div id="shareModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h3>COMPARTIR EVENTO</h3>
-            <h4 id="shareEventTitle"></h4>
-            <img id="shareEventImage" src="" alt="Evento" class="share-event-image">
-            <div id="shareOptions" class="share-buttons">
-                <a href="#" id="twitter-share" target="_blank">
-                    <i class="fa-brands fa-x-twitter"></i>
-                </a>
-                <a href="#" id="facebook-share" target="_blank">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="#" id="whatsapp-share" target="_blank">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
-                <a href="#" id="telegram-share" target="_blank">
-                    <i class="fab fa-telegram"></i>
-                </a>
-                <a href="#" id="threads-share" target="_blank">
-                    <i class="fab fa-threads"></i>
-                </a>
-            </div>
-        </div>
-    </div>
     <script>
         const firebaseConfig = {
             apiKey: "AIzaSyCThWq9eW0ZugnF6Oh15gqkrXmVf_kCYSM",
@@ -125,7 +99,7 @@
                 const card = document.createElement('div');
                 card.className = 'card';
                 card.innerHTML = `
-                <a href="${url || '#'}" target="_blank">
+                <a href="https://apps.apple.com/us/app/culturafreak/id6744939463" target="_blank">
                     <img src="${imagen}" class="event-image" alt="${titulo}" loading="lazy">
                 </a>
                 <div class="card-body">
@@ -135,12 +109,6 @@
                     <div class="faltan-container">
                         <p class="faltan">${calculateDaysRemaining(eventDate)}</p>
                         <div class="faltan-icons">
-                            <p class="faltan add-to-calendar" data-title="${titulo}" data-date="${eventDate.toISOString()}" data-description="${descripcion}" data-url="${url}">
-                                <i class="fas fa-calendar-plus"></i>
-                            </p>
-                            <p class="faltan share-event" data-title="${titulo}" data-url="${url}" data-date="${eventDate}">
-                                <i class="fas fa-arrow-up-from-bracket"></i>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -236,100 +204,6 @@
             displayEvents(filteredEvents);
         }
 
-        // 📌 Genera y descarga un archivo .ics
-        function generateICSFile(eventTitle, eventDate, eventDescription, eventUrl) {
-            const startDate = new Date(eventDate);
-            startDate.setHours(0, 0, 0, 0);
-            const endDate = new Date(startDate);
-            endDate.setDate(endDate.getDate() + 1);
-
-            const icsContent = `BEGIN:VCALENDAR
-VERSION:2.0
-BEGIN:VEVENT
-SUMMARY:${eventTitle}
-DESCRIPTION:${eventDescription} - by AJRA
-DTSTART;VALUE=DATE:${startDate.toISOString().split('T')[0].replace(/-/g, "")}
-DTEND;VALUE=DATE:${endDate.toISOString().split('T')[0].replace(/-/g, "")}
-URL:${eventUrl}
-END:VEVENT
-END:VCALENDAR`;
-
-            const blob = new Blob([icsContent], { type: "text/calendar" });
-            const url = URL.createObjectURL(blob);
-
-            const a = document.createElement("a");
-            a.href = url;
-            a.download = `${eventTitle.replace(/\s+/g, "_")}.ics`;
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-        }
-
-        // 📌 Escuchar clicks en botones de calendario
-        document.addEventListener("click", function (event) {
-            const button = event.target.closest(".add-to-calendar");
-            if (!button) return;
-
-            const title = button.getAttribute("data-title");
-            const date = button.getAttribute("data-date");
-            const description = button.getAttribute("data-description");
-            const eventUrl = button.getAttribute("data-url");
-
-            generateICSFile(title, date, description, eventUrl);
-        });
-
-        // 📌 Escuchar clicks en botones de compartir
-        document.addEventListener("click", function (event) {
-            const button = event.target.closest(".share-event");
-            if (!button) return;
-
-            const title = button.getAttribute("data-title") || "Evento";
-            const eventDateRaw = button.getAttribute("data-date");
-            const eventDate = eventDateRaw ? new Date(eventDateRaw) : null;
-            const formattedDate = formatDate(new Date(button.getAttribute("data-date")));
-            let url = button.getAttribute("data-url")?.trim() || "";
-
-            let shareText = `Este evento creo que te puede interesar:\n\n"${title}" el próximo ${formattedDate}.\n\n${url}\n\nMás eventos en https://ajra.es/eventos.`;
-
-            // 📌 Si es móvil y la Web Share API está disponible, usar el menú nativo
-            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-            if (isMobile && navigator.share) {
-                navigator.share({
-                    title: title,
-                    text: shareText,
-                    url: url
-                }).catch(error => console.error("Error al compartir:", error));   
-                return;
-            }
-
-            // 📌 Si Web Share API no está disponible, mostrar el modal en escritorio
-            const imageSrc = button.closest(".card").querySelector(".event-image").src;
-            document.getElementById("shareEventTitle").textContent = title;
-            document.getElementById("shareEventImage").src = imageSrc;
-
-            document.getElementById("twitter-share").href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}`;
-            document.getElementById("facebook-share").href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodeURIComponent(shareText)}`;
-            document.getElementById("whatsapp-share").href = `https://wa.me/?text=${encodeURIComponent(shareText)}`;
-            document.getElementById("telegram-share").href = `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(shareText)}`;
-            document.getElementById("threads-share").href = `https://www.threads.net/intent/post?text=${encodeURIComponent(shareText)}`;
-
-            // Mostrar modal en escritorio
-            const shareModal = document.getElementById("shareModal");
-            shareModal.style.display = "flex";
-            shareModal.style.opacity = "1";
-            shareModal.style.zIndex = "9999";
-        });
-
-        // Cerrar el modal en escritorio
-        document.querySelector(".close").addEventListener("click", function () {
-            document.getElementById("shareModal").style.display = "none";
-        });
-
-        window.addEventListener("click", function (event) {
-            if (event.target === document.getElementById("shareModal")) {
-                document.getElementById("shareModal").style.display = "none";
-            }
-        });
 
         // Inicializar la aplicación cuando el DOM esté cargado
         document.addEventListener("DOMContentLoaded", function () {
