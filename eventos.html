@@ -147,8 +147,8 @@
                 const today = new Date();
                 today.setHours(0, 0, 0, 0);
 
-                // Obtener eventos de la subcolección 'EVENTOS' dentro del documento específico en Firestore
-                const snapshot = await db.collection('eventos').doc('0DV2oC8Bn0d6SFdTHEEt').collection('EVENTOS').get();
+                // Obtener eventos de la colección raíz 'EVENTOS' en Firestore
+                const snapshot = await db.collection('EVENTOS').get();
 
                 allEvents = snapshot.docs
                     .map(doc => {
