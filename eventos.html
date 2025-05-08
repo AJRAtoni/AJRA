@@ -87,18 +87,18 @@
         // Configuración de Firebase
         const firebaseConfig = {
             apiKey: "AIzaSyCThWq9eW0ZugnF6Oh15gqkrXmVf_kCYSM",
-  authDomain: "culturafreak-39970.firebaseapp.com",
-  projectId: "culturafreak-39970",
-  storageBucket: "culturafreak-39970.firebasestorage.app",
-  messagingSenderId: "123831171832",
-  appId: "1:123831171832:web:c2be630fb97b00efe1d90d",
-  measurementId: "G-SFXFX154E0"
+            authDomain: "culturafreak-39970.firebaseapp.com",
+            projectId: "culturafreak-39970",
+            storageBucket: "culturafreak-39970.firebasestorage.app",
+            messagingSenderId: "123831171832",
+            appId: "1:123831171832:web:c2be630fb97b00efe1d90d",
+            measurementId: "G-SFXFX154E0"
         };
-        
+
         // Inicializar Firebase
         firebase.initializeApp(firebaseConfig);
         const db = firebase.firestore();
-        
+
         const eventsContainer = document.getElementById('events');
         const placeholderimagen = 'images/eventos/eventos.webp';
         let allEvents = [];
@@ -127,8 +127,11 @@
 
         // 📌 Muestra los eventos en la página
         const displayEvents = (events) => {
+            if (!eventsContainer) return;
             eventsContainer.innerHTML = '';
             events.forEach(({ titulo, eventDate, descripcion, imagen, url }) => {
+                // Validar eventDate es un objeto Date válido
+                let eventDateObj = eventDate instanceof Date ? eventDate : new Date(eventDate);
                 const card = document.createElement('div');
                 card.className = 'card';
                 card.innerHTML = `
@@ -137,15 +140,16 @@
                 </a>
                 <div class="card-body">
                     <h2 class="titulo">${titulo}</h2>
-                    <p class="fecha">${formatDate(eventDate)}</p>
+                    <p class="fecha">${formatDate(eventDateObj)}</p>
                     <p class="descripcion">${descripcion}</p>
                     <div class="faltan-container">
-                        <p class="faltan">${calculateDaysRemaining(eventDate)}</p>
+                        <p class="faltan">${calculateDaysRemaining(eventDateObj)}</p>
                         <div class="faltan-icons">
-                            <p class="faltan add-to-calendar" data-title="${titulo}" data-date="${eventDate.toISOString()}" data-description="${descripcion}">
+                            <p class="faltan add-to-calendar" data-title="${titulo}" data-date="${eventDateObj && eventDateObj.toISOString ? eventDateObj.toISOString() : ''}" data-description="${descripcion}">
                                 <i class="fas fa-calendar-plus"></i>
                             </p>
-                            <p class="faltan share-event" data-title="${titulo}" data-url="${url}" data-date="${eventDate}">                            <i class="fas fa-arrow-up-from-bracket"></i>
+                            <p class="faltan share-event" data-title="${titulo}" data-url="${url}" data-date="${eventDateObj}">
+                                <i class="fas fa-arrow-up-from-bracket"></i>
                             </p>
                         </div>
                     </div>
@@ -159,16 +163,16 @@
             try {
                 const today = new Date();
                 today.setHours(0, 0, 0, 0);
-                
+
                 // Obtener eventos de la colección 'eventos' en Firestore
                 const snapshot = await db.collection('eventos').get();
-                
+
                 allEvents = snapshot.docs
                     .map(doc => {
                         const data = doc.data();
                         // Asumiendo que la fecha está almacenada como timestamp o string en Firebase
                         let eventDate;
-                        
+
                         if (data.fecha instanceof firebase.firestore.Timestamp) {
                             // Si es un Timestamp de Firestore
                             eventDate = data.fecha.toDate();
@@ -179,23 +183,24 @@
                             // Si es otra cosa, intentamos convertirlo
                             eventDate = new Date(data.fecha);
                         }
-                        
+
                         // Solo devolvemos eventos futuros o de hoy
                         return (!isNaN(eventDate.getTime()) && eventDate >= today)
-                            ? { 
+                            ? {
                                 id: doc.id,
-                                titulo: data.titulo, 
-                                eventDate: eventDate, 
-                                descripcion: data.descripcion, 
-                                imagen: data.imagen || placeholderimagen, 
-                                categoria: data.categoria, 
-                                url: data.url 
+                                titulo: data.titulo || "Sin título",
+                                eventDate: eventDate,
+                                descripcion: data.descripcion || "",
+                                imagen: data.imagen || placeholderimagen,
+                                categoria: data.categoria || "otros",
+                                url: data.url || "#"
                             }
                             : null;
                     })
                     .filter(Boolean)
                     .sort((a, b) => a.eventDate - b.eventDate);
-                
+
+                console.log(allEvents);
                 displayEvents(allEvents);
             } catch (error) {
                 console.error('Error al cargar eventos desde Firebase:', error);
@@ -312,7 +317,7 @@
                     title: title,
                     text: shareText,
                     url: url
-                }).catch(error => console.error("Error al compartir:", error));   
+                }).catch(error => console.error("Error al compartir:", error));
                 return;
             }
 
@@ -353,4 +358,5 @@
 
     </script>
 </body>
+
 </html>
