@@ -101,7 +101,7 @@
         // 📌 Muestra los eventos en la página
         const displayEvents = (events) => {
             eventsContainer.innerHTML = '';
-            events.forEach(({ titulo, eventDate, imagen, url }) => {
+            events.forEach(({ titulo, eventDate, descripcion, imagen, url }) => {
                 const card = document.createElement('div');
                 card.className = 'card';
                 card.innerHTML = `
@@ -151,6 +151,7 @@
                                 id: doc.id,
                                 titulo: data.titulo,
                                 eventDate: eventDate,
+                                descripcion: data.descripcion,
                                 imagen: data.imagen || data.imagenUrl || placeholderimagen,
                                 categoria: data.categoria,
                                 url: data.url || data.trailer
@@ -208,6 +209,7 @@
 
             const filteredEvents = allEvents.filter(event =>
                 (event.titulo ? event.titulo.toLowerCase().includes(searchString) : false) ||
+                (event.descripcion ? event.descripcion.toLowerCase().includes(searchString) : false)
             );
 
             displayEvents(filteredEvents);
