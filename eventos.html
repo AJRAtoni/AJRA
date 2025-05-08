@@ -125,37 +125,20 @@
             return new Date(year, month - 1, day);
         };
 
-        // 📌 Muestra los eventos en la página
+        // 📌 Muestra solo los títulos de los eventos en una lista
         const displayEvents = (events) => {
             if (!eventsContainer) return;
             eventsContainer.innerHTML = '';
-            events.forEach(({ titulo, eventDate, descripcion, imagen, url }) => {
-                // Validar eventDate es un objeto Date válido
-                let eventDateObj = eventDate instanceof Date ? eventDate : new Date(eventDate);
-                const card = document.createElement('div');
-                card.className = 'card';
-                card.innerHTML = `
-                <a href="${url || '#'}" target="_blank">
-                    <img src="${imagen}" class="event-image" alt="${titulo}" loading="lazy">
-                </a>
-                <div class="card-body">
-                    <h2 class="titulo">${titulo}</h2>
-                    <p class="fecha">${formatDate(eventDateObj)}</p>
-                    <p class="descripcion">${descripcion}</p>
-                    <div class="faltan-container">
-                        <p class="faltan">${calculateDaysRemaining(eventDateObj)}</p>
-                        <div class="faltan-icons">
-                            <p class="faltan add-to-calendar" data-title="${titulo}" data-date="${eventDateObj && eventDateObj.toISOString ? eventDateObj.toISOString() : ''}" data-description="${descripcion}">
-                                <i class="fas fa-calendar-plus"></i>
-                            </p>
-                            <p class="faltan share-event" data-title="${titulo}" data-url="${url}" data-date="${eventDateObj}">
-                                <i class="fas fa-arrow-up-from-bracket"></i>
-                            </p>
-                        </div>
-                    </div>
-                </div>`;
-                eventsContainer.appendChild(card);
+
+            const ul = document.createElement('ul');
+
+            events.forEach(event => {
+                const li = document.createElement('li');
+                li.textContent = event.titulo || 'Sin título';
+                ul.appendChild(li);
             });
+
+            eventsContainer.appendChild(ul);
         };
 
         // 📌 Obtiene los eventos desde Firebase
