@@ -16,7 +16,12 @@
     <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="d475f634-84bb-448f-9a73-b0576d734398"
         async></script>
     <link href="css/eventos.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Firebase App (the core Firebase SDK) -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <!-- Firebase Firestore -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+</head>
 
 <body>
     <header>
@@ -79,8 +84,21 @@
         </div>
     </div>
     <script>
-        const SPREADSHEET_ID = '1bjuRsUCQLT_MwgKQ9GR7gPHJyYq339v-JHM_ErPbGjI';
-        const API_KEY = 'AIzaSyBVknxjJb5j7AFLBrltXfOptE1xWweeGJ0';
+        // Configuración de Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyCThWq9eW0ZugnF6Oh15gqkrXmVf_kCYSM",
+  authDomain: "culturafreak-39970.firebaseapp.com",
+  projectId: "culturafreak-39970",
+  storageBucket: "culturafreak-39970.firebasestorage.app",
+  messagingSenderId: "123831171832",
+  appId: "1:123831171832:web:c2be630fb97b00efe1d90d",
+  measurementId: "G-SFXFX154E0"
+        };
+        
+        // Inicializar Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+        
         const eventsContainer = document.getElementById('events');
         const placeholderimagen = 'images/eventos/eventos.webp';
         let allEvents = [];
@@ -136,25 +154,51 @@
             });
         };
 
-        // 📌 Obtiene los eventos desde Google Sheets
-        const fetchGoogleSheetEvents = async () => {
+        // 📌 Obtiene los eventos desde Firebase
+        const fetchFirebaseEvents = async () => {
             try {
-                const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/Eventos!A2:F?key=${API_KEY}`);
-                const data = await response.json();
                 const today = new Date();
                 today.setHours(0, 0, 0, 0);
-
-                allEvents = (data.values || []).map(row => {
-                    const [titulo, dateString, descripcion, imageUrl, categoria, url] = row;
-                    const eventDate = parseDate(dateString);
-                    return (!isNaN(eventDate.getTime()) && eventDate >= today)
-                        ? { titulo, eventDate, descripcion, imagen: imageUrl || placeholderimagen, categoria, url }
-                        : null;
-                }).filter(Boolean).sort((a, b) => a.eventDate - b.eventDate);
-
+                
+                // Obtener eventos de la colección 'eventos' en Firestore
+                const snapshot = await db.collection('eventos').get();
+                
+                allEvents = snapshot.docs
+                    .map(doc => {
+                        const data = doc.data();
+                        // Asumiendo que la fecha está almacenada como timestamp o string en Firebase
+                        let eventDate;
+                        
+                        if (data.fecha instanceof firebase.firestore.Timestamp) {
+                            // Si es un Timestamp de Firestore
+                            eventDate = data.fecha.toDate();
+                        } else if (typeof data.fecha === 'string') {
+                            // Si es un string con formato DD/MM/YY
+                            eventDate = parseDate(data.fecha);
+                        } else {
+                            // Si es otra cosa, intentamos convertirlo
+                            eventDate = new Date(data.fecha);
+                        }
+                        
+                        // Solo devolvemos eventos futuros o de hoy
+                        return (!isNaN(eventDate.getTime()) && eventDate >= today)
+                            ? { 
+                                id: doc.id,
+                                titulo: data.titulo, 
+                                eventDate: eventDate, 
+                                descripcion: data.descripcion, 
+                                imagen: data.imagen || placeholderimagen, 
+                                categoria: data.categoria, 
+                                url: data.url 
+                            }
+                            : null;
+                    })
+                    .filter(Boolean)
+                    .sort((a, b) => a.eventDate - b.eventDate);
+                
                 displayEvents(allEvents);
             } catch (error) {
-                console.error('Error al cargar eventos:', error);
+                console.error('Error al cargar eventos desde Firebase:', error);
             }
         };
 
@@ -303,7 +347,7 @@
 
         // Inicializar la aplicación cuando el DOM esté cargado
         document.addEventListener("DOMContentLoaded", function () {
-            fetchGoogleSheetEvents();
+            fetchFirebaseEvents();
             document.getElementById("searchInput").addEventListener("input", searchEvents);
         });
 
