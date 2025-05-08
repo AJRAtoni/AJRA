@@ -16,12 +16,7 @@
     <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="d475f634-84bb-448f-9a73-b0576d734398"
         async></script>
     <link href="css/eventos.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!-- Firebase App (the core Firebase SDK) -->
-    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
-    <!-- Firebase Firestore -->
-    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></head>
 
 <body>
     <header>
@@ -56,7 +51,6 @@
         &copy; Desarrollado con 🧠 & 💛 por &lt;/AJRA&gt;
     </footer>
 
-
     <!-- 📌 Modal para compartir eventos -->
     <div id="shareModal" class="modal">
         <div class="modal-content">
@@ -84,21 +78,20 @@
         </div>
     </div>
     <script>
-        // Configuración de Firebase
         const firebaseConfig = {
             apiKey: "AIzaSyCThWq9eW0ZugnF6Oh15gqkrXmVf_kCYSM",
             authDomain: "culturafreak-39970.firebaseapp.com",
-            projectId: "culturafreak-39970",
-            storageBucket: "culturafreak-39970.firebasestorage.app",
-            messagingSenderId: "123831171832",
-            appId: "1:123831171832:web:c2be630fb97b00efe1d90d",
-            measurementId: "G-SFXFX154E0"
+  projectId: "culturafreak-39970",
+  storageBucket: "culturafreak-39970.firebasestorage.app",
+  messagingSenderId: "123831171832",
+  appId: "1:123831171832:web:c2be630fb97b00efe1d90d",
+  measurementId: "G-SFXFX154E0"
         };
-
+        
         // Inicializar Firebase
         firebase.initializeApp(firebaseConfig);
         const db = firebase.firestore();
-
+        
         const eventsContainer = document.getElementById('events');
         const placeholderimagen = 'images/eventos/eventos.webp';
         let allEvents = [];
@@ -118,7 +111,7 @@
             return diffDays > 0 ? `FALTAN ${diffDays} DÍAS` : "HOY";
         };
 
-        // 📌 Convierte fechas del formato "DD/MM/YY" a `Date()`
+        // 📌 Convierte fechas del formato "DD/MM/YY" a Date()
         const parseDate = (dateString) => {
             const [day, month, yearShort] = dateString.split('/').map(Number);
             const year = yearShort < 100 ? 2000 + yearShort : yearShort;
@@ -128,7 +121,7 @@
         // 📌 Muestra los eventos en la página
         const displayEvents = (events) => {
             eventsContainer.innerHTML = '';
-            events.forEach(({ titulo, eventDate, descripcion, imagen, url }) => {
+            events.forEach(({ titulo, eventDate, descripcion, imagen, url, categoria }) => {
                 const card = document.createElement('div');
                 card.className = 'card';
                 card.innerHTML = `
@@ -142,14 +135,16 @@
                     <div class="faltan-container">
                         <p class="faltan">${calculateDaysRemaining(eventDate)}</p>
                         <div class="faltan-icons">
-                            <p class="faltan add-to-calendar" data-title="${titulo}" data-date="${eventDate.toISOString()}" data-description="${descripcion}">
+                            <p class="faltan add-to-calendar" data-title="${titulo}" data-date="${eventDate.toISOString()}" data-description="${descripcion}" data-url="${url}">
                                 <i class="fas fa-calendar-plus"></i>
                             </p>
-                            <p class="faltan share-event" data-title="${titulo}" data-url="${url}" data-date="${eventDate}">                            <i class="fas fa-arrow-up-from-bracket"></i>
+                            <p class="faltan share-event" data-title="${titulo}" data-url="${url}" data-date="${eventDate}">
+                                <i class="fas fa-arrow-up-from-bracket"></i>
                             </p>
                         </div>
                     </div>
-                </div>`;
+                </div>
+                `;
                 eventsContainer.appendChild(card);
             });
         };
@@ -159,43 +154,32 @@
             try {
                 const today = new Date();
                 today.setHours(0, 0, 0, 0);
-
-                // Obtener eventos de la colección 'EVENTOS' en Firestore
                 const snapshot = await db.collection('EVENTOS').get();
-
-                allEvents = snapshot.docs
-                    .map(doc => {
-                        const data = doc.data();
-                        // Asumiendo que la fecha está almacenada como timestamp o string en Firebase
-                        let eventDate;
-
-                        if (data.fecha instanceof firebase.firestore.Timestamp) {
-                            // Si es un Timestamp de Firestore
-                            eventDate = data.fecha.toDate();
-                        } else if (typeof data.fecha === 'string') {
-                            // Si es un string con formato DD/MM/YY
-                            eventDate = parseDate(data.fecha);
-                        } else {
-                            // Si es otra cosa, intentamos convertirlo
-                            eventDate = new Date(data.fecha);
-                        }
-
-                        // Solo devolvemos eventos futuros o de hoy
-                        return (!isNaN(eventDate.getTime()) && eventDate >= today)
-                            ? {
-                                id: doc.id,
-                                titulo: data.titulo,
-                                eventDate: eventDate,
-                                descripcion: data.descripcion,
-                                imagen: data.imagenUrl || placeholderimagen,
-                                categoria: data.categoria,
-                                url: data.url || data.trailer
-                            }
-                            : null;
-                    })
-                    .filter(Boolean)
-                    .sort((a, b) => a.eventDate - b.eventDate);
-
+                allEvents = [];
+                snapshot.forEach(doc => {
+                    const data = doc.data();
+                    // Se espera que la fecha esté en formato timestamp o string
+                    let eventDate;
+                    if (data.fecha && data.fecha.toDate) {
+                        eventDate = data.fecha.toDate();
+                    } else if (data.fecha) {
+                        // Si es string tipo "DD/MM/YY"
+                        eventDate = parseDate(data.fecha);
+                    } else {
+                        eventDate = null;
+                    }
+                    if (eventDate && !isNaN(eventDate.getTime()) && eventDate >= today) {
+                        allEvents.push({
+                            titulo: data.titulo || '',
+                            eventDate,
+                            descripcion: data.descripcion || '',
+                            imagen: data.imagen || placeholderimagen,
+                            categoria: data.categoria || 'otros',
+                            url: data.url || ''
+                        });
+                    }
+                });
+                allEvents.sort((a, b) => a.eventDate - b.eventDate);
                 displayEvents(allEvents);
             } catch (error) {
                 console.error('Error al cargar eventos desde Firebase:', error);
@@ -223,7 +207,9 @@
                 });
 
                 // Buscar el botón que corresponde a la categoría seleccionada
-                const activeButton = [...buttons].find(button => button.getAttribute("onclick") === `filterEvents('${categoria}')`);
+                const activeButton = [...buttons].find(button =>
+                    button.getAttribute("onclick") === `filterEvents('${categoria}')`
+                );
 
                 if (activeButton) {
                     activeButton.classList.add('active');
@@ -234,7 +220,7 @@
             // Filtrar eventos y mostrarlos
             const filteredEvents = categoria === 'todos'
                 ? allEvents
-                : allEvents.filter(event => event.categoria.toLowerCase() === categoria.toLowerCase());
+                : allEvents.filter(event => event.categoria && event.categoria.toLowerCase() === categoria.toLowerCase());
 
             displayEvents(filteredEvents);
         };
@@ -258,15 +244,15 @@
             endDate.setDate(endDate.getDate() + 1);
 
             const icsContent = `BEGIN:VCALENDAR
-            VERSION:2.0
-            BEGIN:VEVENT
-            SUMMARY:${eventTitle}
-            DESCRIPTION:${eventDescription} - by AJRA
-            DTSTART;VALUE=DATE:${startDate.toISOString().split('T')[0].replace(/-/g, "")}
-            DTEND;VALUE=DATE:${endDate.toISOString().split('T')[0].replace(/-/g, "")}
-            URL:${eventUrl}
-            END:VEVENT
-            END:VCALENDAR`;
+VERSION:2.0
+BEGIN:VEVENT
+SUMMARY:${eventTitle}
+DESCRIPTION:${eventDescription} - by AJRA
+DTSTART;VALUE=DATE:${startDate.toISOString().split('T')[0].replace(/-/g, "")}
+DTEND;VALUE=DATE:${endDate.toISOString().split('T')[0].replace(/-/g, "")}
+URL:${eventUrl}
+END:VEVENT
+END:VCALENDAR`;
 
             const blob = new Blob([icsContent], { type: "text/calendar" });
             const url = URL.createObjectURL(blob);
@@ -312,7 +298,7 @@
                     title: title,
                     text: shareText,
                     url: url
-                }).catch(error => console.error("Error al compartir:", error));
+                }).catch(error => console.error("Error al compartir:", error));   
                 return;
             }
 
@@ -353,5 +339,4 @@
 
     </script>
 </body>
-
 </html>
