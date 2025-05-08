@@ -56,21 +56,49 @@
         &copy; Desarrollado con 🧠 & 💛 por &lt;/AJRA&gt;
     </footer>
 
+
+    <!-- 📌 Modal para compartir eventos -->
+    <div id="shareModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>COMPARTIR EVENTO</h3>
+            <h4 id="shareEventTitle"></h4>
+            <img id="shareEventImage" src="" alt="Evento" class="share-event-image">
+            <div id="shareOptions" class="share-buttons">
+                <a href="#" id="twitter-share" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" id="facebook-share" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" id="whatsapp-share" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="#" id="telegram-share" target="_blank">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="#" id="threads-share" target="_blank">
+                    <i class="fab fa-threads"></i>
+                </a>
+            </div>
+        </div>
+    </div>
     <script>
+        // Configuración de Firebase
         const firebaseConfig = {
             apiKey: "AIzaSyCThWq9eW0ZugnF6Oh15gqkrXmVf_kCYSM",
             authDomain: "culturafreak-39970.firebaseapp.com",
-  projectId: "culturafreak-39970",
-  storageBucket: "culturafreak-39970.firebasestorage.app",
-  messagingSenderId: "123831171832",
-  appId: "1:123831171832:web:c2be630fb97b00efe1d90d",
-  measurementId: "G-SFXFX154E0"
+            projectId: "culturafreak-39970",
+            storageBucket: "culturafreak-39970.firebasestorage.app",
+            messagingSenderId: "123831171832",
+            appId: "1:123831171832:web:c2be630fb97b00efe1d90d",
+            measurementId: "G-SFXFX154E0"
         };
-        
+
         // Inicializar Firebase
         firebase.initializeApp(firebaseConfig);
         const db = firebase.firestore();
-        
+
         const eventsContainer = document.getElementById('events');
         const placeholderimagen = 'images/eventos/eventos.webp';
         let allEvents = [];
@@ -90,7 +118,7 @@
             return diffDays > 0 ? `FALTAN ${diffDays} DÍAS` : "HOY";
         };
 
-        // 📌 Convierte fechas del formato "DD/MM/YY" a Date()
+        // 📌 Convierte fechas del formato "DD/MM/YY" a `Date()`
         const parseDate = (dateString) => {
             const [day, month, yearShort] = dateString.split('/').map(Number);
             const year = yearShort < 100 ? 2000 + yearShort : yearShort;
@@ -100,11 +128,11 @@
         // 📌 Muestra los eventos en la página
         const displayEvents = (events) => {
             eventsContainer.innerHTML = '';
-            events.forEach(({ titulo, eventDate, descripcion, imagen, url, categoria }) => {
+            events.forEach(({ titulo, eventDate, descripcion, imagen, url }) => {
                 const card = document.createElement('div');
                 card.className = 'card';
                 card.innerHTML = `
-                <a href="https://apps.apple.com/us/app/culturafreak/id6744939463" target="_blank">
+                <a href="${url || '#'}" target="_blank">
                     <img src="${imagen}" class="event-image" alt="${titulo}" loading="lazy">
                 </a>
                 <div class="card-body">
@@ -113,11 +141,9 @@
                     <p class="descripcion">${descripcion}</p>
                     <div class="faltan-container">
                         <p class="faltan">${calculateDaysRemaining(eventDate)}</p>
-                        <div class="faltan-icons">
-                        </div>
+                        <div class="faltan-icons"><i class="fas fa-arrow-up-from-bracket"></i></div>
                     </div>
-                </div>
-                `;
+                </div>`;
                 eventsContainer.appendChild(card);
             });
         };
@@ -127,32 +153,43 @@
             try {
                 const today = new Date();
                 today.setHours(0, 0, 0, 0);
+
+                // Obtener eventos de la colección 'EVENTOS' en Firestore
                 const snapshot = await db.collection('EVENTOS').get();
-                allEvents = [];
-                snapshot.forEach(doc => {
-                    const data = doc.data();
-                    // Se espera que la fecha esté en formato timestamp o string
-                    let eventDate;
-                    if (data.fecha && data.fecha.toDate) {
-                        eventDate = data.fecha.toDate();
-                    } else if (data.fecha) {
-                        // Si es string tipo "DD/MM/YY"
-                        eventDate = parseDate(data.fecha);
-                    } else {
-                        eventDate = null;
-                    }
-                    if (eventDate && !isNaN(eventDate.getTime()) && eventDate >= today) {
-                        allEvents.push({
-                            titulo: data.titulo || '',
-                            eventDate,
-                            descripcion: data.descripcion || '',
-                            imagen: data.imagen || placeholderimagen,
-                            categoria: data.categoria || 'otros',
-                            url: data.url || ''
-                        });
-                    }
-                });
-                allEvents.sort((a, b) => a.eventDate - b.eventDate);
+
+                allEvents = snapshot.docs
+                    .map(doc => {
+                        const data = doc.data();
+                        // Asumiendo que la fecha está almacenada como timestamp o string en Firebase
+                        let eventDate;
+
+                        if (data.fecha instanceof firebase.firestore.Timestamp) {
+                            // Si es un Timestamp de Firestore
+                            eventDate = data.fecha.toDate();
+                        } else if (typeof data.fecha === 'string') {
+                            // Si es un string con formato DD/MM/YY
+                            eventDate = parseDate(data.fecha);
+                        } else {
+                            // Si es otra cosa, intentamos convertirlo
+                            eventDate = new Date(data.fecha);
+                        }
+
+                        // Solo devolvemos eventos futuros o de hoy
+                        return (!isNaN(eventDate.getTime()) && eventDate >= today)
+                            ? {
+                                id: doc.id,
+                                titulo: data.titulo,
+                                eventDate: eventDate,
+                                descripcion: data.descripcion,
+                                imagen: data.imagenUrl || placeholderimagen,
+                                categoria: data.categoria,
+                                url: data.url || data.trailer
+                            }
+                            : null;
+                    })
+                    .filter(Boolean)
+                    .sort((a, b) => a.eventDate - b.eventDate);
+
                 displayEvents(allEvents);
             } catch (error) {
                 console.error('Error al cargar eventos desde Firebase:', error);
@@ -180,9 +217,7 @@
                 });
 
                 // Buscar el botón que corresponde a la categoría seleccionada
-                const activeButton = [...buttons].find(button =>
-                    button.getAttribute("onclick") === `filterEvents('${categoria}')`
-                );
+                const activeButton = [...buttons].find(button => button.getAttribute("onclick") === `filterEvents('${categoria}')`);
 
                 if (activeButton) {
                     activeButton.classList.add('active');
@@ -193,7 +228,7 @@
             // Filtrar eventos y mostrarlos
             const filteredEvents = categoria === 'todos'
                 ? allEvents
-                : allEvents.filter(event => event.categoria && event.categoria.toLowerCase() === categoria.toLowerCase());
+                : allEvents.filter(event => event.categoria.toLowerCase() === categoria.toLowerCase());
 
             displayEvents(filteredEvents);
         };
@@ -210,6 +245,14 @@
         }
 
 
+
+
+
+
+
+
+        
+
         // Inicializar la aplicación cuando el DOM esté cargado
         document.addEventListener("DOMContentLoaded", function () {
             fetchFirebaseEvents();
@@ -218,4 +261,5 @@
 
     </script>
 </body>
+
 </html>
