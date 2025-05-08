@@ -125,20 +125,33 @@
             return new Date(year, month - 1, day);
         };
 
-        // 📌 Muestra solo los títulos de los eventos en una lista
+        // 📌 Muestra los eventos en la página
         const displayEvents = (events) => {
-            if (!eventsContainer) return;
             eventsContainer.innerHTML = '';
-
-            const ul = document.createElement('ul');
-
-            events.forEach(event => {
-                const li = document.createElement('li');
-                li.textContent = event.titulo || 'Sin título';
-                ul.appendChild(li);
+            events.forEach(({ titulo, eventDate, descripcion, imagen, url }) => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = `
+                <a href="${url || '#'}" target="_blank">
+                    <img src="${imagen}" class="event-image" alt="${titulo}" loading="lazy">
+                </a>
+                <div class="card-body">
+                    <h2 class="titulo">${titulo}</h2>
+                    <p class="fecha">${formatDate(eventDate)}</p>
+                    <p class="descripcion">${descripcion}</p>
+                    <div class="faltan-container">
+                        <p class="faltan">${calculateDaysRemaining(eventDate)}</p>
+                        <div class="faltan-icons">
+                            <p class="faltan add-to-calendar" data-title="${titulo}" data-date="${eventDate.toISOString()}" data-description="${descripcion}">
+                                <i class="fas fa-calendar-plus"></i>
+                            </p>
+                            <p class="faltan share-event" data-title="${titulo}" data-url="${url}" data-date="${eventDate}">                            <i class="fas fa-arrow-up-from-bracket"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>`;
+                eventsContainer.appendChild(card);
             });
-
-            eventsContainer.appendChild(ul);
         };
 
         // 📌 Obtiene los eventos desde Firebase
@@ -147,7 +160,7 @@
                 const today = new Date();
                 today.setHours(0, 0, 0, 0);
 
-                // Obtener eventos de la colección raíz 'EVENTOS' en Firestore
+                // Obtener eventos de la colección 'EVENTOS' en Firestore
                 const snapshot = await db.collection('EVENTOS').get();
 
                 allEvents = snapshot.docs
@@ -171,19 +184,18 @@
                         return (!isNaN(eventDate.getTime()) && eventDate >= today)
                             ? {
                                 id: doc.id,
-                                titulo: data.titulo || "Sin título",
+                                titulo: data.titulo,
                                 eventDate: eventDate,
-                                descripcion: data.descripcion || "",
-                                imagen: data.imagen || data.imagenUrl || placeholderimagen,
-                                categoria: data.categoria || "otros",
-                                url: data.url || "#"
+                                descripcion: data.descripcion,
+                                imagen: data.imagenUrl || placeholderimagen,
+                                categoria: data.categoria,
+                                url: data.url || data.trailer
                             }
                             : null;
                     })
                     .filter(Boolean)
                     .sort((a, b) => a.eventDate - b.eventDate);
 
-                console.log(allEvents);
                 displayEvents(allEvents);
             } catch (error) {
                 console.error('Error al cargar eventos desde Firebase:', error);
