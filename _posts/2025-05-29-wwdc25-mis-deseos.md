@@ -65,6 +65,6 @@ No me hagas ir botón por botón como si estuviera programando en BASIC.
 
 ¿Se cumplirá algo de esta lista?  
 **Lo dudo.**  
-Pero oye, si al menos cae una de estas cosas, ya será mejor que la keynote de 2023.
+Pero oye, si al menos cae una de estas cosas, ya me alegrare.
 
-Mientras tanto, **seguiré esperando… y criticando**, que también es parte del ritual.
+Mientras tanto, **seguiré esperando**, que también es parte del ritual.
