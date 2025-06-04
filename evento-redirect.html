@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CulturaFreak - Evento</title>
+    <meta name="description" content="Descubre eventos culturales y freak en CulturaFreak">
+    
+    <!-- Meta tags para redes sociales -->
+    <meta property="og:title" content="CulturaFreak - Eventos Culturales">
+    <meta property="og:description" content="Tu guía definitiva para no perderte ni un solo evento friki">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ajra.es/evento/">
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 400px;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        .logo {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+        #status {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🎟️</div>
+        <h1>CULTURAFREAK</h1>
+        <p>Tu guía definitiva para eventos culturales y freak</p>
+        
+        <a href="https://apps.apple.com/us/app/culturafreak/id6744939463" class="btn" id="downloadBtn">
+            Descargar App
+        </a>
+        
+        <div id="status">Redirigiendo...</div>
+    </div>
+
+    <script>
+        // Detectar si estamos en iOS
+        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+        const statusEl = document.getElementById('status');
+        const btnEl = document.getElementById('downloadBtn');
+        
+        // Obtener ID del evento desde la URL
+        const pathParts = window.location.pathname.split('/');
+        const eventoId = pathParts[pathParts.length - 1];
+        
+        if (isIOS && eventoId) {
+            statusEl.textContent = 'Intentando abrir en la app...';
+            
+            // Intentar abrir la app con el Universal Link
+            const universalLink = `https://ajra.es/evento/${eventoId}`;
+            window.location.href = universalLink;
+            
+            // Timeout para redirigir a App Store si la app no está instalada
+            setTimeout(() => {
+                statusEl.textContent = 'App no encontrada, redirigiendo a App Store...';
+                window.location.href = 'https://apps.apple.com/us/app/culturafreak/id6744939463';
+            }, 2000);
+            
+        } else if (eventoId) {
+            statusEl.textContent = 'Evento encontrado. Descarga la app para verlo.';
+            btnEl.textContent = 'Ver Evento en la App';
+            
+        } else {
+            statusEl.textContent = 'Descarga CulturaFreak para descubrir eventos increíbles.';
+        }
+
+        // Actualizar el texto del botón para incluir el ID del evento
+        if (eventoId) {
+            btnEl.href += `?evento=${eventoId}`;
+        }
+    </script>
+</body>
+</html> 
