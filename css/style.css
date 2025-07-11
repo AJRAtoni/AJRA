@@ -364,7 +364,7 @@ a {
   }
 }
 .juegos {
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
