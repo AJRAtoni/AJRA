@@ -264,8 +264,10 @@ a {
 }
 .trabajo1 {
   grid-area: trabajo1;
-  background: linear-gradient(180deg, #1e8fff 0%, #0e43ff 100%);
-  aspect-ratio: auto;
+  background-image: url("../images/trabajo1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .trabajo2 {
   grid-area: trabajo2;
