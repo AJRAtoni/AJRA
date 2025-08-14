@@ -51,7 +51,7 @@ footer {
     line-height: 2rem;
 }
 .substack-embed {
-    max-width: 650px;
+    width: 100%;
     margin: 3rem auto;
     text-align: center;
     padding: 2rem;
