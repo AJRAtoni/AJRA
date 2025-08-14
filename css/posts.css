@@ -124,11 +124,8 @@ footer {
 
 .embed-frame {
     width: 100%;
-    max-width: 680px;        /* ajusta al ancho que quieras */
-    border: 1px solid #EEE;
-    background: #fff;
+    max-width: 700px;
     display: block;
-    border-radius: 8px;      /* opcional */
-    overflow: hidden;        /* limpia bordes */
-    height: 600px;           /* fallback razonable si no hay auto-altura */
+    overflow: hidden;  
+    height: 600px;
 }
