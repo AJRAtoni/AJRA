@@ -50,6 +50,28 @@ footer {
     font-size: 13px;
     line-height: 2rem;
 }
+.substack-embed {
+    max-width: 650px;
+    margin: 3rem auto;
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    border: 1px solid #e9ecef;
+}
+.substack-embed h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+.substack-embed p {
+    margin-bottom: 1.5rem;
+    color: #666;
+}
+.substack-embed iframe {
+    max-width: 100%;
+    border-radius: 10px;
+}
 .content-blog {
     max-width: 850px;
     margin: auto;
@@ -102,5 +124,13 @@ footer {
     }
     .content-blog {
         padding: 0rem 2rem 5rem 2rem;
+    }
+    .substack-embed {
+        margin: 2rem 1.5rem;
+        padding: 1.5rem;
+    }
+    .substack-embed iframe {
+        width: 100%;
+        height: 280px;
     }
 }
