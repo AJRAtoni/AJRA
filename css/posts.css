@@ -114,3 +114,21 @@ footer {
 .content-blog h3 {
     margin: 0.5rem !important;
 }
+
+/* Estilos para embed responsive y centrado */
+.embed-wrap {
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    margin: 2rem 0;
+}
+
+.embed-frame {
+    width: 100%;
+    max-width: 680px;        /* ajusta al ancho que quieras */
+    border: 1px solid #EEE;
+    background: #fff;
+    display: block;
+    border-radius: 8px;      /* opcional */
+    overflow: hidden;        /* limpia bordes */
+    height: 600px;           /* fallback razonable si no hay auto-altura */
+}
