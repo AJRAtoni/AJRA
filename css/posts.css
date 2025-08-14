@@ -70,6 +70,7 @@ footer {
 }
 .substack-embed iframe {
     max-width: 900px;
+    height: 575px;
     border-radius: 10px;
 }
 .content-blog {
