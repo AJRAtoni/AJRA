@@ -134,3 +134,11 @@ footer {
         height: 280px;
     }
 }
+
+/* Estilos específicos para blog.html */
+.content-blog h2:not(:first-child) {
+    margin-top: 2.5rem;
+}
+.content-blog h3 {
+    margin: 0.5rem !important;
+}

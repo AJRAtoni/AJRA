@@ -1,4 +1,5 @@
 ---
+layout: post
 title: WWDC25 - Lo que me gustaria ver
 description: Una wishlist sin filtros para la WWDC25.
 image: https://res.cloudinary.com/ajratoni/image/upload/v1748531783/wwdc25-deseos_clrmve.png
