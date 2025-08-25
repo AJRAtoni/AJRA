@@ -135,7 +135,31 @@ h2 {
   white-space: nowrap;
   flex-shrink: 1;
   flex-grow: 1;
-  max-width: 49%;
+  max-width: 70%;
+}
+
+.calendar-btn {
+  background-color: rgb(108, 41, 240);
+  color: white;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 45px;
+  height: auto;
+}
+
+.calendar-btn:hover {
+  background-color: rgb(88, 28, 200);
+  transform: scale(1.05);
+}
+
+.calendar-btn i {
+  font-size: 1rem;
 }
 
 .faltan.add-to-calendar {

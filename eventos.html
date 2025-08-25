@@ -104,15 +104,24 @@
             events.forEach(({ titulo, eventDate, descripcion, imagen, url }) => {
                 const card = document.createElement('div');
                 card.className = 'card';
+                
+                // Solo envolver la imagen en un enlace si existe una URL válida
+                const imageHtml = url && url.trim() !== '' 
+                    ? `<a href="${url}" target="_blank">
+                        <img src="${imagen}" class="event-image" alt="${titulo}" loading="lazy">
+                       </a>`
+                    : `<img src="${imagen}" class="event-image" alt="${titulo}" loading="lazy">`;
+                
                 card.innerHTML = `
-                <a href="${url || '#'}" target="_blank">
-                    <img src="${imagen}" class="event-image" alt="${titulo}" loading="lazy">
-                </a>
+                ${imageHtml}
                 <div class="card-body">
                     <h2 class="titulo">${titulo}</h2>
                     <p class="fecha">${formatDate(eventDate)}</p>
                     <div class="faltan-container">
                         <p class="faltan">${calculateDaysRemaining(eventDate)}</p>
+                        <button class="calendar-btn" onclick="downloadICS('${titulo.replace(/'/g, "\\'")}', '${eventDate.toISOString()}', '${(descripcion || '').replace(/'/g, "\\'")}')">
+                            <i class="fas fa-calendar-alt"></i>
+                        </button>
                     </div>
                 </div>`;
                 eventsContainer.appendChild(card);
@@ -213,6 +222,54 @@
             );
 
             displayEvents(filteredEvents);
+        }
+
+        // 📌 Genera y descarga archivo ICS para calendario
+        function downloadICS(titulo, fechaISO, descripcion) {
+            const eventDate = new Date(fechaISO);
+            
+            // Formatear fecha para ICS (YYYYMMDD)
+            const formatDateForICS = (date) => {
+                const year = date.getFullYear();
+                const month = String(date.getMonth() + 1).padStart(2, '0');
+                const day = String(date.getDate()).padStart(2, '0');
+                return `${year}${month}${day}`;
+            };
+
+            // Generar timestamp único para el evento
+            const now = new Date();
+            const timestamp = now.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+            
+            // Limpiar texto para ICS (eliminar caracteres especiales)
+            const cleanText = (text) => {
+                return text.replace(/[^\w\s]/gi, '').replace(/\n/g, '\\n').replace(/,/g, '\\,');
+            };
+
+            const icsContent = `BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CULTURAFREAK//EVENTOS//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:${timestamp}-culturafreak@ajra.es
+DTSTART;VALUE=DATE:${formatDateForICS(eventDate)}
+SUMMARY:${cleanText(titulo)}
+DESCRIPTION:${cleanText(descripcion || 'Evento de CULTURAFREAK')}
+ORGANIZER;CN=CULTURAFREAK:MAILTO:eventos@ajra.es
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR`;
+
+            // Crear blob y descargar
+            const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+            const link = document.createElement('a');
+            link.href = window.URL.createObjectURL(blob);
+            link.download = `${cleanText(titulo)}.ics`;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            window.URL.revokeObjectURL(link.href);
         }
 
 
