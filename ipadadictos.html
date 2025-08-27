@@ -15,113 +15,108 @@
     <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="d475f634-84bb-448f-9a73-b0576d734398" async></script>
     <link href="css/eventos.css" rel="stylesheet" type="text/css" />
     <style>
-        .precio {
-            color: rgb(108, 41, 240);
-            font-weight: bold;
-            font-size: 1.2rem;
-            margin: 0.5rem 0;
+        /* --------- UI de producto --------- */
+        .precio{
+          color: rgb(108, 41, 240);
+          font-weight: 700;
+          font-size: 1.1rem;
+          margin: .5rem 0;
         }
-        
-        .rating {
-            color: #FF9500;
-            font-size: 0.9rem;
-            margin: 0.25rem 0;
+      
+        .rating{
+          color:#FF9500;
+          font-size:.9rem;
+          margin:.25rem 0;
         }
-        
-        .product-badge {
-            background-color: #FF9500;
-            color: white;
-            padding: 0.3rem 0.6rem;
-            border-radius: 0.3rem;
-            font-size: 0.75rem;
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            z-index: 10;
-            margin: 10px
+      
+        .product-badge{
+          background:#FF9500;
+          color:#fff;
+          padding:.3rem .6rem;
+          border-radius:.4rem;
+          font-size:.75rem;
+          position:absolute;
+          top:.5rem; right:.5rem;
+          z-index:10;
         }
-        
-        .buy-btn {
-            background-color: rgb(108, 41, 240);
-            color: white;
-            border: none;
-            padding: 0.8rem 1.2rem;
-            border-radius: 0.5rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            display: inline-block;
-            text-align: center;
-            font-weight: 600;
+      
+        .buy-btn{
+          background:rgb(108,41,240);
+          color:#fff; border:0;
+          padding:.8rem 1.2rem;
+          border-radius:.6rem;
+          cursor:pointer;
+          transition:transform .2s ease, filter .2s ease;
+          text-decoration:none; display:inline-block;
+          font-weight:600;
+          font-size: 0.8rem;
         }
-        
-        .buy-btn:hover {
-            background-color: rgb(88, 28, 200);
-            transform: scale(1.02);
+        .buy-btn:hover{ transform:translateY(-1px); filter:brightness(.95); }
+      
+        /* --------- Card --------- */
+        .card{
+          position:relative;
+          background:#fff;
+          border-radius:10px;
+          box-shadow:0 2px 10px rgba(0,0,0,.08);
+          overflow:hidden;
+          transition:transform .2s ease, box-shadow .2s ease;
         }
-        
-        .product-image {
-            width: 100%;
-            height: 280px;
-            object-fit: cover;
-            display: block;
-            box-sizing: border-box;
-            border-radius: 8px 8px 0 0;
-            background-color: #f8f8f8;
+        .card:hover{ transform:translateY(-2px); box-shadow:0 6px 18px rgba(0,0,0,.12); }
+      
+        .card-body{ padding:1rem; }
+      
+        .titulo{
+          margin:.4rem 0;
+          line-height:1.3;
+          min-height:2.6rem;
+          display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
         }
-        
-        .product-image-container {
-            width: 100%;
-            height: 280px;
-            overflow: hidden;
-            border-radius: 8px 8px 0 0;
-            background-color: #f8f8f8;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+      
+        .descripcion{
+          font-size:.92rem; color:#666;
+          margin:.5rem 0; line-height:1.45;
+          min-height:2.8rem;
+          display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
         }
-        
-        .card {
-            position: relative;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            overflow: hidden;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
+      
+        /* --------- IMAGEN: SIEMPRE CENTRADA Y CONTENIDA --------- */
+        .product-image-container{
+          width: 100%;
+          height: 240px;
+          background: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-sizing: border-box;
         }
-        
-        .card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+      
+        /* hace clicable toda la zona manteniendo el centrado */
+        .product-image-container > a{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
-        
-        .card-body {
-            padding: 1rem;
+      
+        .product-image{
+          max-width: calc(100% - 40px);
+          max-height: calc(100% - 40px);
+          width: auto;
+          height: auto;
+          object-fit: contain;
+          display: block;
         }
-        
-        .titulo {
-            font-size: 1.1rem;
-            margin: 0.5rem 0;
-            line-height: 1.3;
-            min-height: 2.6rem;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
+      
+
+      
+        /* Botones de filtro “activo” (ya lo usabas como .inactive) */
+        .botonesfiltro.inactive{
+          opacity:.55;
+          outline:2px solid rgba(108,41,240,.2);
         }
-        
-        .descripcion {
-            font-size: 0.9rem;
-            color: #666;
-            margin: 0.5rem 0;
-            line-height: 1.4;
-            min-height: 2.8rem;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-    </style>
+      </style>
 </head>
 <body>
     <header>
@@ -142,9 +137,7 @@
         <button onclick="filterProducts('teclados')" class="botonesfiltro">TECLADOS</button>
         <button onclick="filterProducts('stylus')" class="botonesfiltro">STYLUS</button>
         <button onclick="filterProducts('soportes')" class="botonesfiltro">SOPORTES</button>
-        <button onclick="filterProducts('cargadores')" class="botonesfiltro">CARGADORES</button>
         <button onclick="filterProducts('accesorios')" class="botonesfiltro">ACCESORIOS</button>
-        <button onclick="filterProducts('apps')" class="botonesfiltro">APPS</button>
         <input type="text" id="searchInput" class="buscador" oninput="searchProducts()" placeholder="Buscar producto...">
     </div>
     <div id="products" class="row"></div>
