@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f0f0f0">
+    <title>iPad Adictos by AJRA</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/AJRA.webp">
+    <meta name="description" content="Productos recomendados para iPad by AJRA">
+    <meta property="og:title" content="iPad Adictos by AJRA">
+    <meta property="og:description" content="Los mejores productos y accesorios recomendados para tu iPad">
+    <meta property="og:image" content="images/AJRA.webp">
+    <meta property="og:url" content="https://ajra.es/ipadadictos.html">
+    <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="d475f634-84bb-448f-9a73-b0576d734398" async></script>
+    <link href="css/eventos.css" rel="stylesheet" type="text/css" />
+    <style>
+        .precio {
+            color: #007AFF;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+        
+        .rating {
+            color: #FF9500;
+            font-size: 0.9rem;
+            margin: 0.25rem 0;
+        }
+        
+        .product-badge {
+            background-color: #FF9500;
+            color: white;
+            padding: 0.3rem 0.6rem;
+            border-radius: 0.3rem;
+            font-size: 0.75rem;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 10;
+        }
+        
+        .buy-btn {
+            background-color: #007AFF;
+            color: white;
+            border: none;
+            padding: 0.8rem 1.2rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .buy-btn:hover {
+            background-color: #0056CC;
+            transform: scale(1.02);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 250px;
+            object-fit: contain;
+            display: block;
+            background-color: #f8f8f8;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        .card {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="https://ajra.es">
+            <img src="images/AJRA.webp" alt="AJRA" class="avatar">
+        </a>
+    </header>
+    <div class="home">
+        <img src="images/AJRA.webp" alt="iPad Adictos" style="border-radius: 50%; margin-bottom: 25px;">
+        <h1>iPadadictos</h1>
+        <h2>Productos y accesorios recomendados para tu iPad</h2>
+        <a href="https://instagram.com/ipadadictos">
+            <h2 class="suscribirse">SIGUENOS EN INSTAGRAM</h2>
+        </a>
+    </div>
+    <div class="filter-buttons">
+        <button onclick="filterProducts('todos')" class="botonesfiltro">TODOS</button>
+        <button onclick="filterProducts('fundas')" class="botonesfiltro">FUNDAS</button>
+        <button onclick="filterProducts('teclados')" class="botonesfiltro">TECLADOS</button>
+        <button onclick="filterProducts('stylus')" class="botonesfiltro">STYLUS</button>
+        <button onclick="filterProducts('soportes')" class="botonesfiltro">SOPORTES</button>
+        <button onclick="filterProducts('cargadores')" class="botonesfiltro">CARGADORES</button>
+        <button onclick="filterProducts('accesorios')" class="botonesfiltro">ACCESORIOS</button>
+        <button onclick="filterProducts('apps')" class="botonesfiltro">APPS</button>
+        <input type="text" id="searchInput" class="buscador" oninput="searchProducts()" placeholder="Buscar producto...">
+    </div>
+    <div id="products" class="row"></div>
+    <footer>2025 &copy; Desarrollado con 🧠 & 💛 por <a href="https://ajra.es" style="text-decoration: none; color: black"> &lt;/AJRA&gt; </a></footer>
+</body>
+<script>
+    const SPREADSHEET_ID = 'hOJ1pJgFxrinK8popHVbWN8YYVnhwdfk';
+    const API_KEY = 'AIzaSyBVknxjJb5j7AFLBrltXfOptE1xWweeGJ0';
+    const productsContainer = document.getElementById('products');
+    const placeholderImage = 'images/placeholder.webp';
+    let allProducts = [];
+    let currentFilter = 'todos';
+
+    const displayProducts = (products) => {
+        productsContainer.innerHTML = '';
+        products.forEach(({ nombre, precio, descripcion, imagen, categoria, url, rating, badge }) => {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.setAttribute('data-categoria', categoria.toLowerCase());
+            
+            const badgeHTML = badge ? `<div class="product-badge">${badge}</div>` : '';
+            const ratingHTML = rating ? `<div class="rating">⭐ ${rating}/5</div>` : '';
+            
+            card.innerHTML = `
+                ${badgeHTML}
+                <a href="${url || '#'}" target="_blank">
+                    <img src="${imagen}" class="product-image" alt="${nombre}" onerror="this.src='${placeholderImage}'">
+                </a>
+                <div class="card-body">
+                    <h2 class="titulo">${nombre}</h2>
+                    ${ratingHTML}
+                    <div class="precio">${precio}</div>
+                    <p class="descripcion">${descripcion}</p>
+                    <div class="faltan-container">
+                        <a href="${url || '#'}" target="_blank" class="buy-btn">VER PRODUCTO</a>
+                    </div>
+                </div>`;
+            productsContainer.appendChild(card);
+        });
+    };
+
+    const filterProducts = (categoria) => {
+        currentFilter = categoria;
+        
+        // Actualizar botones activos
+        document.querySelectorAll('.botonesfiltro').forEach(btn => {
+            btn.classList.remove('inactive');
+        });
+        event.target.classList.add('inactive');
+        
+        const filteredProducts = categoria === 'todos' 
+            ? allProducts 
+            : allProducts.filter(product => product.categoria.toLowerCase() === categoria);
+        displayProducts(filteredProducts);
+    };
+
+    const searchProducts = () => {
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        const baseProducts = currentFilter === 'todos' 
+            ? allProducts 
+            : allProducts.filter(product => product.categoria.toLowerCase() === currentFilter);
+            
+        const filteredProducts = baseProducts.filter(product =>
+            product.nombre.toLowerCase().includes(searchTerm) ||
+            product.descripcion.toLowerCase().includes(searchTerm) ||
+            product.categoria.toLowerCase().includes(searchTerm)
+        );
+        displayProducts(filteredProducts);
+    };
+
+    const fetchGoogleSheetProducts = async () => {
+        try {
+            // Nota: Cambiar 'Productos' por el nombre de la hoja que contenga los productos del iPad
+            const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/Productos!A2:H?key=${API_KEY}`);
+            const data = await response.json();
+
+            allProducts = (data.values || []).map(row => {
+                const [nombre, precio, descripcion, imagen, categoria, url, rating, badge] = row;
+                return {
+                    nombre: nombre || 'Producto sin nombre',
+                    precio: precio || 'Precio no disponible',
+                    descripcion: descripcion || 'Sin descripción',
+                    imagen: imagen || placeholderImage,
+                    categoria: categoria || 'general',
+                    url: url || '#',
+                    rating: rating || '',
+                    badge: badge || ''
+                };
+            }).filter(product => product.nombre !== 'Producto sin nombre');
+
+            displayProducts(allProducts);
+            
+            // Activar el botón "TODOS" por defecto
+            document.querySelector('.botonesfiltro').classList.add('inactive');
+            
+        } catch (error) {
+            console.error('Error al cargar productos:', error);
+            productsContainer.innerHTML = '<p style="text-align: center; color: #666; margin: 2rem;">Error al cargar los productos. Por favor, intenta más tarde.</p>';
+        }
+    };
+
+    // Cargar productos al cargar la página
+    fetchGoogleSheetProducts();
+    
+    // Hacer las funciones globales para que funcionen con onclick
+    window.filterProducts = filterProducts;
+    window.searchProducts = searchProducts;
+</script>
+</html>
