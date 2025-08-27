@@ -62,15 +62,64 @@
         
         .product-image {
             width: 100%;
-            height: 250px;
-            object-fit: contain;
+            height: 280px;
+            object-fit: cover;
             display: block;
             box-sizing: border-box;
-            padding: 20px;
+            border-radius: 8px 8px 0 0;
+            background-color: #f8f8f8;
+        }
+        
+        .product-image-container {
+            width: 100%;
+            height: 280px;
+            overflow: hidden;
+            border-radius: 8px 8px 0 0;
+            background-color: #f8f8f8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         
         .card {
             position: relative;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+        
+        .card-body {
+            padding: 1rem;
+        }
+        
+        .titulo {
+            font-size: 1.1rem;
+            margin: 0.5rem 0;
+            line-height: 1.3;
+            min-height: 2.6rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .descripcion {
+            font-size: 0.9rem;
+            color: #666;
+            margin: 0.5rem 0;
+            line-height: 1.4;
+            min-height: 2.8rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }
     </style>
 </head>
@@ -121,9 +170,11 @@
             
             card.innerHTML = `
                 ${badgeHTML}
-                <a href="${url || '#'}" target="_blank">
-                    <img src="${imagen}" class="product-image" alt="${nombre}" onerror="this.src='${placeholderImage}'">
-                </a>
+                <div class="product-image-container">
+                    <a href="${url || '#'}" target="_blank">
+                        <img src="${imagen}" class="product-image" alt="${nombre}" onerror="this.src='${placeholderImage}'">
+                    </a>
+                </div>
                 <div class="card-body">
                     <h2 class="titulo">${nombre}</h2>
                     ${ratingHTML}
