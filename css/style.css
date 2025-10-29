@@ -152,7 +152,7 @@ a {
     );
   background-blend-mode: hard-light, normal;
 }
-.youtube {
+.youtube-card {
   grid-area: youtube;
   background: linear-gradient(180deg, #ff0000 0%, #cc0000 100%);
 }
