@@ -65,7 +65,7 @@ a {
   display: grid;
   gap: 20px 20px;
   grid-auto-flow: row;
-  grid-template-areas: "threads threads instagram instagram" "substack spotify instagram instagram" "Pinterest Linkedin email GitHub";
+  grid-template-areas: "threads threads instagram instagram" "substack youtube instagram instagram" "Pinterest Linkedin email GitHub";
 }
 .caja {
   border-radius: 13px;
@@ -152,13 +152,13 @@ a {
     );
   background-blend-mode: hard-light, normal;
 }
-.spotify {
-  grid-area: spotify;
-  background: linear-gradient(180deg, #1ed760 0%, #169c46 100%);
+.youtube {
+  grid-area: youtube;
+  background: linear-gradient(180deg, #ff0000 0%, #cc0000 100%);
 }
 .pinterest {
   grid-area: Pinterest;
-  background: linear-gradient(180deg, #fd0c30 0%, #d30524 100%);
+  background: linear-gradient(180deg, #e60023 0%, #ad081b 100%);
 }
 .linkedin {
   grid-area: Linkedin;
@@ -179,7 +179,7 @@ a {
 @media (max-width: 768px) {
   .sociales {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "threads threads" "instagram instagram" "substack spotify" "Pinterest Linkedin" "email GitHub";
+    grid-template-areas: "threads threads" "instagram instagram" "substack youtube" "Pinterest Linkedin" "email GitHub";
   }
   .threads {
     grid-column: span 2;
