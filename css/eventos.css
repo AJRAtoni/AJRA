@@ -113,14 +113,6 @@ h2 {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 5px;
 }
-@media (max-width: 600px) {
-  .row {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .card {
-    margin: 0.3rem;
-  }
-}
 
 
 .faltan-container {
@@ -321,4 +313,25 @@ footer {
   margin: 10px auto;
   border-radius: 8px;
   object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    margin: 0.3rem;
+  }
+  .faltan {
+    font-size: 0.65rem;
+    padding: 0.7rem 0rem;
+    max-width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .calendar-btn {
+    min-width: 40px;
+    padding: 0.5rem;
+  }
 }
