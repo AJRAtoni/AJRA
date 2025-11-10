@@ -113,6 +113,15 @@ h2 {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 5px;
 }
+@media (max-width: 600px) {
+  .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    margin: 0.3rem;
+  }
+}
+
 
 .faltan-container {
   display: flex;
