@@ -324,7 +324,7 @@ footer {
   }
   .faltan {
     font-size: 0.65rem;
-    padding: 0.7rem 0rem;
+    padding: 0.7rem 0.5rem;
     max-width: 60%;
     white-space: nowrap;
     overflow: hidden;
@@ -332,6 +332,6 @@ footer {
   }
   .calendar-btn {
     min-width: 40px;
-    padding: 0.5rem;
+    padding: 0.7rem;
   }
 }
