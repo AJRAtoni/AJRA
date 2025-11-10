@@ -118,7 +118,7 @@
                     <h2 class="titulo">${titulo}</h2>
                     <p class="fecha">${formatDate(eventDate)}</p>
                     <div class="faltan-container">
-                        <p class="faltan">${calculateDaysRemaining(eventDate)}</p>
+                        <div class="faltan">${calculateDaysRemaining(eventDate)}</div>
                         <button class="calendar-btn" onclick="downloadICS('${titulo.replace(/'/g, "\\'")}', '${eventDate.toISOString()}', '${(descripcion || '').replace(/'/g, "\\'")}')">
                             <i class="fas fa-calendar-alt"></i>
                         </button>

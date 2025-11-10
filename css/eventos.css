@@ -339,9 +339,5 @@ footer {
   .calendar-btn {
     min-width: 38px;
     width: 38px;
-    height: auto;
-  }
-  .calendar-btn i {
-  font-size: 0.89rem;
-}
+    }
 }
