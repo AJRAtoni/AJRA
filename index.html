@@ -15,29 +15,30 @@
     <meta property="og:description" content="Web Developer & Data Analyst">
     <meta property="og:image" content="images/ajra-sharing.webp">
     <meta property="og:url" content="https://ajra.es">
+    <link rel="canonical" href="https://ajra.es/">
     <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="d475f634-84bb-448f-9a73-b0576d734398"
         async></script>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <div class="contenido">
+    <main class="contenido">
         <div class="container">
             <div class="column">
                 <!-- Contenido de la primera columna -->
-                <div class="sticky-column">
+                <header class="sticky-column">
                     <img class="avatar" src="images/AJRA.webp" alt="AJRA" width="150px" height="150px">
                     <h1>&lt;/AJRA&gt;</h1>
                     <h2>👨🏻‍💻 Web Developer & Data Analyst</h2>
                     <h3>Ayudo a personas y empresas a mejorar su presencia online.</h3>
-                </div>
+                </header>
             </div>
             <div class="column">
                 <!-- Contenido de la segunda columna -->
 
                 <!-- Contenido Redes Sociales -->
                 <h2>Puedes encontrarme en...</h2>
-                <div class="sociales">
+                <section class="sociales">
                     <a href="https://www.threads.net/@ajra_toni" target="_blank" class="caja threads"
                         aria-label="Enlace a mi perfil en Threads">
                         <img class="logo-blanco" src="images/threads.svg" alt="Threads Logo">
@@ -114,37 +115,14 @@
                             <p class="handle">@AJRA</p>
                         </div>
                     </a>
-                </div>
+                </section>
 
 
-                <!-- Mis Articulos -->
-                <!--
-                <h2>Mis últimas publicaciones...</h2>
-                <div class="articulos">
-                    {% assign index = 1 %}
-                    {% for post in site.posts limit:4 %}
-                    <a href="{{ post.url }}" class="caja caja-articulo articulo{{ index }}"
-                        aria-label="Enlace a mi articulo">
-                        <div class="mitad">
-                            <img class="logo-normal" src="images/AJRA.webp" alt="AJRA">
-                            <div class="info">
-                                <h2 class="title">{{ post.title }}</h2>
-                            </div>
-                        </div>
-                        <div class="mitad">
-                            <img class="destacada"
-                                src="{{ post.image | default: 'images/placeholder.webp' | relative_url }}"
-                                alt="articulo">
-                        </div>
-                    </a>
-                    {% assign index = index | plus: 1 %}
-                    {% endfor %}
-                </div>
-                -->
+
 
                 <!-- Contenido Trabajos -->
                 <h2>Mis Trabajos...</h2>
-                <div class="trabajos">
+                <section class="trabajos">
                     <a href="https://culturafreak.com" class="caja trabajo1" aria-label="Enlace a mi trabajo"></a>
                     <a href="http://marvelstudios.carrd.co" class="caja trabajo2" aria-label="Enlace a mi trabajo"></a>
                     <a href="https://ajra.es/recursos" class="caja trabajo3" aria-label="Enlace a mi trabajo"></a>
@@ -153,11 +131,11 @@
                     <a href="https://dcuniverse.carrd.co/" class="caja trabajo5" aria-label="Enlace a mi trabajo"></a>
                     <a href="https://apps.apple.com/us/app/culturafreak/id6744939463" class="caja trabajo6"
                         aria-label="Enlace a mi trabajo"></a>
-                </div>
+                </section>
 
                 <!-- Estoy viendo -->
                 <h2>¿Que estoy viendo?</h2>
-                <div class="tv">
+                <section class="tv">
                     <a href="https://trakt.tv/users/ajra" target="_blank" class="caja tv1"
                         aria-label="Enlace a mis series">
                         <img class="logo-normal" src="images/trakttv.webp" loading="lazy" alt="Trakt TV">
@@ -172,7 +150,7 @@
                             <img class="logo-normal" src="images/trakttv.webp" loading="lazy" alt="Trakt TV">
                             <div class="info">
                                 <h2 class="title">PLURIBUS</h2>
-                                <p class="handle">APPLE TV</p>
+                                <p class="handle">Apple TV</p>
                             </div>
                         </div>
                         <div class="mitad">
@@ -211,11 +189,11 @@
                                 loading="lazy" alt="Poster">
                         </div>
                     </a>
-                </div>
+                </section>
 
                 <!-- Estoy jugando -->
                 <h2>¿A que estoy jugando?</h2>
-                <div class="juegos">
+                <section class="juegos">
                     <a href="https://gametrack.app/users/ajra/" class="caja caja-juego"
                         aria-label="Enlace a mis juegos"><img src="images/gametrack.webp" class="juego1" loading="lazy"
                             alt="GameTrack"></a>
@@ -228,12 +206,12 @@
                     <a href="https://gametrack.app/game/14593" class="caja caja-juego"
                         aria-label="Enlace a mis juegos"><img src="images/juego3.webp" class="juego4" loading="lazy"
                             alt="Hollow Knight"></a>
-                </div>
+                </section>
 
 
                 <!-- Otras cosas -->
                 <h2>Otras cosas...</h2>
-                <div class="cosas">
+                <section class="cosas">
                     <a href="https://www.google.com/maps/@25.682489454072723,-80.4194488346887,9.591831176230313z"
                         class="caja cosa1" aria-label="Enlace a mis cosas"> </a>
                     <div class="caja cosa2">
@@ -248,11 +226,11 @@
                             <p class="handle black">@AJRA</p>
                         </div>
                     </a>
-                </div>
+                </section>
 
             </div>
         </div>
-    </div>
+    </main>
     <footer>
         <span id="year"></span>
         <script>
@@ -261,6 +239,7 @@
         &copy; Desarrollado con 🧠 & 💛 por &lt;/AJRA&gt; <br>
 
     </footer>
+    <script src="js/trakt.js"></script>
 </body>
 
 </html>
