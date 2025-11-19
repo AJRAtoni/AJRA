@@ -62,12 +62,14 @@ async function renderShows() {
 
     // Filter for unique shows
     const uniqueShows = [];
-    const seenTmdbIds = new Set();
+    const seenShowSlugs = new Set();
 
     for (const item of history) {
-        const tmdbId = item.show.ids.tmdb;
-        if (!seenTmdbIds.has(tmdbId)) {
-            seenTmdbIds.add(tmdbId);
+        const showSlug = item.show?.ids?.slug || item.show?.ids?.trakt;
+        if (!showSlug) continue;
+
+        if (!seenShowSlugs.has(showSlug)) {
+            seenShowSlugs.add(showSlug);
             uniqueShows.push(item);
             if (uniqueShows.length === 3) break; // Stop once we have 3 unique shows
         }
