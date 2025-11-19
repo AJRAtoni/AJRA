@@ -4,7 +4,7 @@ const username = 'AJRA';
 
 async function fetchTraktHistory() {
     try {
-        // Fetch more items to account for duplicates (multiple episodes of same show)
+        // Fetch more items to account for multiple episodes of the same show
         const response = await fetch(`https://api.trakt.tv/users/${username}/history/shows?limit=15`, {
             headers: {
                 'Content-Type': 'application/json',
@@ -60,7 +60,7 @@ async function renderShows() {
         return;
     }
 
-    // Filter for unique shows
+    // Filter for unique shows (collect a few extra in case some fail to load)
     const uniqueShows = [];
     const seenShowSlugs = new Set();
 
@@ -71,7 +71,7 @@ async function renderShows() {
         if (!seenShowSlugs.has(showSlug)) {
             seenShowSlugs.add(showSlug);
             uniqueShows.push(item);
-            if (uniqueShows.length === 3) break; // Stop once we have 3 unique shows
+            if (uniqueShows.length === 10) break; // limit amount of unique shows we process
         }
     }
 
@@ -79,10 +79,13 @@ async function renderShows() {
     const existingShows = container.querySelectorAll('.tv2, .tv3, .tv4');
     existingShows.forEach(el => el.remove());
 
-    for (let i = 0; i < uniqueShows.length; i++) {
+    let renderedCount = 0;
+
+    for (let i = 0; i < uniqueShows.length && renderedCount < 3; i++) {
         const item = uniqueShows[i];
         const show = item.show;
         const tmdbId = show.ids.tmdb;
+        if (!tmdbId) continue;
 
         const tmdbData = await fetchTMDBShow(tmdbId);
 
@@ -92,8 +95,8 @@ async function renderShows() {
             const platform = getPlatformName(tmdbData.networks);
             const traktUrl = `https://trakt.tv/shows/${show.ids.slug}`;
 
-            // Assign classes tv2, tv3, tv4 based on index
-            const cssClass = `tv${i + 2}`;
+            // Assign classes tv2, tv3, tv4 based on rendered order
+            const cssClass = `tv${renderedCount + 2}`;
 
             const html = `
                 <a href="${traktUrl}" target="_blank" class="caja caja-tv ${cssClass}" aria-label="Enlace a ${title}">
@@ -111,6 +114,7 @@ async function renderShows() {
             `;
 
             container.innerHTML += html;
+            renderedCount++;
         }
     }
 }
