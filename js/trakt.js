@@ -4,7 +4,8 @@ const username = 'AJRA';
 
 async function fetchTraktHistory() {
     try {
-        const response = await fetch(`https://api.trakt.tv/users/${username}/history/shows?limit=3`, {
+        // Fetch more items to account for duplicates (multiple episodes of same show)
+        const response = await fetch(`https://api.trakt.tv/users/${username}/history/shows?limit=15`, {
             headers: {
                 'Content-Type': 'application/json',
                 'trakt-api-version': '2',
@@ -59,12 +60,25 @@ async function renderShows() {
         return;
     }
 
+    // Filter for unique shows
+    const uniqueShows = [];
+    const seenTmdbIds = new Set();
+
+    for (const item of history) {
+        const tmdbId = item.show.ids.tmdb;
+        if (!seenTmdbIds.has(tmdbId)) {
+            seenTmdbIds.add(tmdbId);
+            uniqueShows.push(item);
+            if (uniqueShows.length === 3) break; // Stop once we have 3 unique shows
+        }
+    }
+
     // Remove existing dynamic shows (tv2, tv3, tv4) if any, to prevent duplicates
     const existingShows = container.querySelectorAll('.tv2, .tv3, .tv4');
     existingShows.forEach(el => el.remove());
 
-    for (let i = 0; i < history.length; i++) {
-        const item = history[i];
+    for (let i = 0; i < uniqueShows.length; i++) {
+        const item = uniqueShows[i];
         const show = item.show;
         const tmdbId = show.ids.tmdb;
 
