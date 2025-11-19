@@ -60,62 +60,58 @@ async function renderShows() {
         return;
     }
 
-    // Filter for unique shows (collect a few extra in case some fail to load)
-    const uniqueShows = [];
-    const seenShowSlugs = new Set();
-
-    for (const item of history) {
-        const showSlug = item.show?.ids?.slug || item.show?.ids?.trakt;
-        if (!showSlug) continue;
-
-        if (!seenShowSlugs.has(showSlug)) {
-            seenShowSlugs.add(showSlug);
-            uniqueShows.push(item);
-            if (uniqueShows.length === 10) break; // limit amount of unique shows we process
-        }
-    }
-
     // Remove existing dynamic shows (tv2, tv3, tv4) if any, to prevent duplicates
     const existingShows = container.querySelectorAll('.tv2, .tv3, .tv4');
     existingShows.forEach(el => el.remove());
 
+    const seenShowSlugs = new Set();
     let renderedCount = 0;
 
-    for (let i = 0; i < uniqueShows.length && renderedCount < 3; i++) {
-        const item = uniqueShows[i];
+    for (const item of history) {
+        if (renderedCount >= 3) break;
+
         const show = item.show;
-        const tmdbId = show.ids.tmdb;
-        if (!tmdbId) continue;
+        if (!show) continue;
 
-        const tmdbData = await fetchTMDBShow(tmdbId);
+        const showSlug = show.ids?.slug || show.ids?.trakt;
+        if (!showSlug || seenShowSlugs.has(showSlug)) continue;
+        seenShowSlugs.add(showSlug);
 
-        if (tmdbData) {
-            const title = tmdbData.name;
-            const posterPath = tmdbData.poster_path ? `https://image.tmdb.org/t/p/w500${tmdbData.poster_path}` : 'images/placeholder.webp';
-            const platform = getPlatformName(tmdbData.networks);
-            const traktUrl = `https://trakt.tv/shows/${show.ids.slug}`;
+        let title = show.title || 'SIN TÍTULO';
+        let posterPath = 'images/placeholder.webp';
+        let platform = show.network || 'TV';
+        const traktUrl = `https://trakt.tv/shows/${showSlug}`;
 
-            // Assign classes tv2, tv3, tv4 based on rendered order
-            const cssClass = `tv${renderedCount + 2}`;
-
-            const html = `
-                <a href="${traktUrl}" target="_blank" class="caja caja-tv ${cssClass}" aria-label="Enlace a ${title}">
-                    <div class="mitad">
-                        <img class="logo-normal" src="images/trakttv.webp" loading="lazy" alt="Trakt TV">
-                        <div class="info">
-                            <h2 class="title">${title.toUpperCase()}</h2>
-                            <p class="handle">${platform}</p>
-                        </div>
-                    </div>
-                    <div class="mitad">
-                        <img class="poster" src="${posterPath}" loading="lazy" alt="Poster">
-                    </div>
-                </a>
-            `;
-
-            container.innerHTML += html;
-            renderedCount++;
+        const tmdbId = show.ids?.tmdb;
+        if (tmdbId) {
+            const tmdbData = await fetchTMDBShow(tmdbId);
+            if (tmdbData) {
+                title = tmdbData.name || title;
+                posterPath = tmdbData.poster_path ? `https://image.tmdb.org/t/p/w500${tmdbData.poster_path}` : posterPath;
+                platform = getPlatformName(tmdbData.networks);
+            }
         }
+
+        // Assign classes tv2, tv3, tv4 based on rendered order
+        const cssClass = `tv${renderedCount + 2}`;
+
+        const html = `
+            <a href="${traktUrl}" target="_blank" class="caja caja-tv ${cssClass}" aria-label="Enlace a ${title}">
+                <div class="mitad">
+                    <img class="logo-normal" src="images/trakttv.webp" loading="lazy" alt="Trakt TV">
+                    <div class="info">
+                        <h2 class="title">${title.toUpperCase()}</h2>
+                        <p class="handle">${platform}</p>
+                    </div>
+                </div>
+                <div class="mitad">
+                    <img class="poster" src="${posterPath}" loading="lazy" alt="Poster">
+                </div>
+            </a>
+        `;
+
+        container.insertAdjacentHTML('beforeend', html);
+        renderedCount++;
     }
 }
 
