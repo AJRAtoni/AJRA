@@ -4,8 +4,8 @@ const username = 'AJRA';
 
 async function fetchTraktHistory() {
     try {
-        // Fetch more items to account for multiple episodes of the same show
-        const response = await fetch(`https://api.trakt.tv/users/${username}/history/shows?limit=15`, {
+        // Fetch history (shows and movies)
+        const response = await fetch(`https://api.trakt.tv/users/${username}/history?limit=50`, {
             headers: {
                 'Content-Type': 'application/json',
                 'trakt-api-version': '2',
@@ -22,10 +22,10 @@ async function fetchTraktHistory() {
     }
 }
 
-async function fetchTMDBShow(tmdbId) {
+async function fetchTMDBDetails(tmdbId, type) {
     try {
-        const response = await fetch(`https://api.themoviedb.org/3/tv/${tmdbId}?api_key=${tmdbApiKey}&language=es-ES`);
-        if (!response.ok) throw new Error('Error fetching TMDB show');
+        const response = await fetch(`https://api.themoviedb.org/3/${type}/${tmdbId}?api_key=${tmdbApiKey}&language=es-ES`);
+        if (!response.ok) throw new Error(`Error fetching TMDB ${type}`);
         return await response.json();
     } catch (error) {
         console.error(error);
@@ -64,31 +64,58 @@ async function renderShows() {
     const existingShows = container.querySelectorAll('.tv2, .tv3, .tv4');
     existingShows.forEach(el => el.remove());
 
-    const seenShowSlugs = new Set();
+    const seenIds = new Set();
     let renderedCount = 0;
 
     for (const item of history) {
         if (renderedCount >= 3) break;
 
-        const show = item.show;
-        if (!show) continue;
+        let data, type, tmdbType;
 
-        const showSlug = show.ids?.slug || show.ids?.trakt;
-        if (!showSlug || seenShowSlugs.has(showSlug)) continue;
-        seenShowSlugs.add(showSlug);
+        if (item.type === 'episode') {
+            data = item.show;
+            type = 'show';
+            tmdbType = 'tv';
+        } else if (item.type === 'movie') {
+            data = item.movie;
+            type = 'movie';
+            tmdbType = 'movie';
+        } else {
+            continue;
+        }
 
-        let title = show.title || 'SIN TÍTULO';
+        if (!data) continue;
+
+        // Deduplicate based on Trakt ID
+        const traktId = data.ids?.trakt;
+        if (!traktId || seenIds.has(traktId)) continue;
+        seenIds.add(traktId);
+
+        let title = data.title || 'SIN TÍTULO';
         let posterPath = 'images/placeholder.webp';
-        let platform = show.network || 'TV';
-        const traktUrl = `https://trakt.tv/shows/${showSlug}`;
+        // Default platform text
+        let platform = data.network || (type === 'movie' ? 'Película' : 'TV');
 
-        const tmdbId = show.ids?.tmdb;
+        const slug = data.ids?.slug || traktId;
+        // Trakt URLs: /shows/slug or /movies/slug
+        const urlType = type === 'show' ? 'shows' : 'movies';
+        const traktUrl = `https://trakt.tv/${urlType}/${slug}`;
+
+        const tmdbId = data.ids?.tmdb;
         if (tmdbId) {
-            const tmdbData = await fetchTMDBShow(tmdbId);
+            const tmdbData = await fetchTMDBDetails(tmdbId, tmdbType);
             if (tmdbData) {
-                title = tmdbData.name || title;
+                // TMDB movies use 'title', TV uses 'name'
+                title = tmdbData.title || tmdbData.name || title;
                 posterPath = tmdbData.poster_path ? `https://image.tmdb.org/t/p/w500${tmdbData.poster_path}` : posterPath;
-                platform = getPlatformName(tmdbData.networks);
+
+                if (tmdbType === 'tv') {
+                    platform = getPlatformName(tmdbData.networks);
+                } else {
+                    // For movies, we can keep 'Película' or leave it as is.
+                    // If we wanted to be fancy we could check genres, but 'Película' is a safe fallback.
+                    platform = 'Película';
+                }
             }
         }
 
