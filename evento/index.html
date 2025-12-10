@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CulturaFreak - Evento</title>
+    <meta name="description" content="Descubre eventos culturales y freak en CulturaFreak">
+    
+    <!-- Meta tags para redes sociales -->
+    <meta property="og:title" content="CulturaFreak - Eventos Culturales">
+    <meta property="og:description" content="Tu guía definitiva para no perderte ni un solo evento friki">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ajra.es/evento/">
+    <meta property="og:image" content="https://ajra.es/culturafreak-icon.png">
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 400px;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        .subtitle {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+        .event-info {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            display: none;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+        #status {
+            margin-top: 1.5rem;
+            font-size: 0.9rem;
+            opacity: 0.8;
+            padding: 10px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+            margin-right: 10px;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🎟️</div>
+        <h1>CULTURAFREAK</h1>
+        <p class="subtitle">Tu guía definitiva para eventos culturales y freak</p>
+        
+        <div class="event-info" id="eventInfo">
+            <h3 id="eventTitle">Cargando evento...</h3>
+            <p id="eventDate"></p>
+        </div>
+        
+        <a href="https://apps.apple.com/us/app/culturafreak/id6744939463" class="btn" id="downloadBtn">
+            <span class="loading" id="loadingSpinner"></span>
+            Descargar App
+        </a>
+        
+        <div id="status">Detectando dispositivo...</div>
+    </div>
+
+    <script>
+        // Variables globales
+        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+        const isAndroid = /Android/.test(navigator.userAgent);
+        const statusEl = document.getElementById('status');
+        const btnEl = document.getElementById('downloadBtn');
+        const loadingEl = document.getElementById('loadingSpinner');
+        const eventInfoEl = document.getElementById('eventInfo');
+        
+        // Obtener ID del evento desde la URL
+        const pathParts = window.location.pathname.split('/').filter(part => part);
+        const eventoId = pathParts.length > 1 ? pathParts[1] : null;
+        
+        console.log('URL Path:', window.location.pathname);
+        console.log('Evento ID:', eventoId);
+        console.log('Is iOS:', isIOS);
+        
+        function hideLoading() {
+            loadingEl.style.display = 'none';
+        }
+        
+        function showEventInfo(title = 'Evento Encontrado') {
+            eventInfoEl.style.display = 'block';
+            document.getElementById('eventTitle').textContent = title;
+            if (eventoId) {
+                document.getElementById('eventDate').textContent = `ID: ${eventoId}`;
+            }
+        }
+        
+        // Lógica principal
+        if (eventoId) {
+            console.log('Procesando evento:', eventoId);
+            
+            if (isIOS) {
+                statusEl.innerHTML = '<span class="loading"></span>Intentando abrir en la app...';
+                
+                // Intentar abrir la app inmediatamente
+                const universalLink = `https://ajra.es/evento/${eventoId}`;
+                console.log('Trying Universal Link:', universalLink);
+                
+                // Cambio inmediato de ubicación para iOS
+                window.location.replace(universalLink);
+                
+                // Fallback después de 3 segundos
+                setTimeout(() => {
+                    console.log('Fallback: Redirecting to App Store');
+                    hideLoading();
+                    statusEl.textContent = 'Redirigiendo a App Store...';
+                    showEventInfo('App no instalada');
+                    btnEl.textContent = 'Descargar CulturaFreak';
+                    window.location.href = 'https://apps.apple.com/us/app/culturafreak/id6744939463';
+                }, 3000);
+                
+            } else if (isAndroid) {
+                hideLoading();
+                statusEl.textContent = 'Evento encontrado. Disponible solo en iOS por ahora.';
+                showEventInfo();
+                btnEl.textContent = 'Ver en App Store';
+                
+            } else {
+                hideLoading();
+                statusEl.textContent = 'Evento encontrado. Descarga la app para verlo.';
+                showEventInfo();
+                btnEl.textContent = 'Ver Evento en la App';
+            }
+            
+            // Agregar evento ID al enlace de descarga
+            btnEl.href += `?evento=${eventoId}`;
+            
+        } else {
+            // No hay ID de evento específico
+            hideLoading();
+            statusEl.textContent = 'Descarga CulturaFreak para descubrir eventos increíbles.';
+            btnEl.textContent = 'Descargar CulturaFreak';
+        }
+        
+        // Debug info
+        setTimeout(() => {
+            console.log('Final status:', statusEl.textContent);
+            console.log('Button text:', btnEl.textContent);
+            console.log('Button href:', btnEl.href);
+        }, 1000);
+    </script>
+</body>
+</html> 

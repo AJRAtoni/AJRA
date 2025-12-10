@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": ["CG2CBUC8DM.com.ajra.culturafreak"],
+                "components": [
+                    {
+                        "/": "/evento/*",
+                        "comment": "Matches evento paths"
+                    }
+                ]
+            }
+        ]
+    }
+}
