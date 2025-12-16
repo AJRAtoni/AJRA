@@ -1,39 +1,21 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2867
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
-{\colortbl;\red255\green255\blue255;\red107\green0\blue1;\red255\green255\blue255;\red220\green0\blue5;
-\red45\green45\blue45;\red0\green0\blue255;\red223\green225\blue230;\red15\green112\blue1;}
-{\*\expandedcolortbl;;\cssrgb\c50196\c0\c0;\cssrgb\c100000\c100000\c100000;\cssrgb\c89804\c0\c0;
-\cssrgb\c23137\c23137\c23137;\cssrgb\c0\c0\c100000;\cssrgb\c89804\c90588\c92157;\cssrgb\c0\c50196\c0;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\partightenfactor0
-
-\f0\fs22 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 <?xml\cf4 \strokec4  version\cf5 \strokec5 =\cf6 \strokec6 "1.0"\cf4 \strokec4  encoding\cf5 \strokec5 =\cf6 \strokec6 "UTF-8"\cf2 \strokec2 ?>\cf7 \cb1 \strokec7 \
-\cf2 \cb3 \strokec2 <rss\cf5 \strokec5  \cf4 \strokec4 version\cf5 \strokec5 =\cf6 \strokec6 "2.0"\cf5 \strokec5  \cf7 \cb1 \strokec7 \
-\pard\pardeftab720\partightenfactor0
-\cf5 \cb3 \strokec5      \cf4 \strokec4 xmlns:itunes\cf5 \strokec5 =\cf6 \strokec6 "http://www.itunes.com/dtds/podcast-1.0.dtd"\cf5 \strokec5  \cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5      \cf4 \strokec4 xmlns:content\cf5 \strokec5 =\cf6 \strokec6 "http://purl.org/rss/1.0/modules/content/"\cf2 \strokec2 >\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5   \cf2 \strokec2 <channel>\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5     \cf2 \strokec2 <title>\cf5 \strokec5 AJRA Podcast\cf2 \strokec2 </title>\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5     \cf2 \strokec2 <link>\cf5 \strokec5 https://ajra.es\cf2 \strokec2 </link>\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5     \cf2 \strokec2 <language>\cf5 \strokec5 es\cf2 \strokec2 </language>\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5     \cf2 \strokec2 <copyright>\cf5 \strokec5 Copyright 2025 AJRA\cf2 \strokec2 </copyright>\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5     \cf2 \strokec2 <itunes:subtitle>\cf5 \strokec5 Podcast automatizado desde YouTube\cf2 \strokec2 </itunes:subtitle>\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5     \cf2 \strokec2 <itunes:author>\cf5 \strokec5 AJRA\cf2 \strokec2 </itunes:author>\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5     \cf2 \strokec2 <itunes:summary>\cf5 \strokec5 Feed generado autom\'e1ticamente por N8N desde playlist de YouTube.\cf2 \strokec2 </itunes:summary>\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5     \cf2 \strokec2 <description>\cf5 \strokec5 Feed generado autom\'e1ticamente por N8N desde playlist de YouTube.\cf2 \strokec2 </description>\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5     \cf2 \strokec2 <itunes:owner>\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5       \cf2 \strokec2 <itunes:name>\cf5 \strokec5 AJRA\cf2 \strokec2 </itunes:name>\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5       \cf2 \strokec2 <itunes:email>\cf5 \strokec5 ajra@ajra.es\cf2 \strokec2 </itunes:email>\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5     \cf2 \strokec2 </itunes:owner>\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5     \cf2 \strokec2 <itunes:image\cf5 \strokec5  \cf4 \strokec4 href\cf5 \strokec5 =\cf6 \strokec6 "https://ajra.es/podcast-cover.jpg"\cf2 \strokec2 />\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5     \cf2 \strokec2 <itunes:category\cf5 \strokec5  \cf4 \strokec4 text\cf5 \strokec5 =\cf6 \strokec6 "Technology"\cf2 \strokec2 />\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5     \cf2 \strokec2 <itunes:explicit>\cf5 \strokec5 false\cf2 \strokec2 </itunes:explicit>\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5     \cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5     \cf8 \strokec8 <!-- Los episodios se ir\'e1n a\'f1adiendo aqu\'ed autom\'e1ticamente -->\cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5     \cf7 \cb1 \strokec7 \
-\cf5 \cb3 \strokec5   \cf2 \strokec2 </channel>\cf7 \cb1 \strokec7 \
-\pard\pardeftab720\partightenfactor0
-\cf2 \cb3 \strokec2 </rss>\cf7 \cb1 \strokec7 \
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AJRA Podcast</title>
+    <link>https://ajra.es</link>
+    <language>es</language>
+    <copyright>2025 AJRA</copyright>
+    <itunes:subtitle>Podcast automatizado desde YouTube</itunes:subtitle>
+    <itunes:author>AJRA</itunes:author>
+    <itunes:summary>Feed generado automáticamente por N8N desde playlist de YouTube.</itunes:summary>
+    <description>Feed generado automáticamente por N8N desde playlist de YouTube.</description>
+    <itunes:owner>
+      <itunes:name>AJRA</itunes:name>
+      <itunes:email>ajra@ajra.es</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://ajra.es/podcast-cover.jpg"/>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    <!-- Los episodios se irán añadiendo aquí automáticamente -->
+  </channel>
+</rss>
