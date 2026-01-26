@@ -1,4 +1,4 @@
-const traktClientId = '210dc3dd626697b387c064bec175492275e724654a061491802a908f8f62a751';
+const traktClientId = '421ffeb2db44f26a8a2b6b8a5c3e7c946a333c33ff2b7789bab3fdec2f674472';
 const tmdbApiKey = 'd3aea9c9b1bb387d2e83a4bb0c923ab3';
 const username = 'AJRA';
 
