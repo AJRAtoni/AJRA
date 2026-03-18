@@ -78,7 +78,7 @@ a {
   display: grid;
   gap: 20px 20px;
   grid-auto-flow: row;
-  grid-template-areas: "threads threads instagram instagram" "youtube letterboxd instagram instagram" "Linkedin substack email GitHub";
+  grid-template-areas: "threads threads instagram instagram" "youtube letterboxd instagram instagram" "Linkedin substack email GitHub" "saravrai saravrai saravrai saravrai";
 }
 
 .caja {
@@ -159,18 +159,6 @@ a {
   background-blend-mode: hard-light, normal;
 }
 
-.instagram {
-  grid-area: instagram;
-  background: radial-gradient(68.43% 68.43% at 7.43% 6%,
-      #3c93e3 24.84%,
-      rgba(60, 147, 227, 0) 100%),
-    radial-gradient(126.35% 126.35% at 13.71% 110.29%,
-      #ffda55 0%,
-      #f03d63 45.35%,
-      #b72dc0 100%);
-  background-blend-mode: hard-light, normal;
-}
-
 .youtube-card {
   grid-area: youtube;
   background: linear-gradient(180deg, #ff0000 0%, #cc0000 100%);
@@ -201,10 +189,15 @@ a {
   background: linear-gradient(180deg, #fc8a51 0%, #ff4f00 100%);
 }
 
+.saravrai {
+  grid-area: saravrai;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
 @media (max-width: 768px) {
   .sociales {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "threads threads" "instagram instagram" "youtube letterboxd" "Linkedin substack" "email GitHub";
+    grid-template-areas: "threads threads" "instagram instagram" "youtube letterboxd" "Linkedin substack" "email GitHub" "saravrai saravrai";
   }
 
   .threads {
