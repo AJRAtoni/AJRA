@@ -1,13 +1,14 @@
 const traktClientId = '421ffeb2db44f26a8a2b6b8a5c3e7c946a333c33ff2b7789bab3fdec2f674472';
 const tmdbApiKey = 'd3aea9c9b1bb387d2e83a4bb0c923ab3';
 const username = 'AJRA';
+const cacheBuster = () => Math.floor(Date.now() / 60000);
 
 async function fetchTraktHistory() {
     try {
         // Fetch history (shows and movies)
-        const response = await fetch(`https://api.trakt.tv/users/${username}/history?limit=50`, {
+        const response = await fetch(`https://api.trakt.tv/users/${username}/history?limit=50&_=${cacheBuster()}`, {
+            cache: 'no-store',
             headers: {
-                'Content-Type': 'application/json',
                 'trakt-api-version': '2',
                 'trakt-api-key': traktClientId
             }
@@ -24,7 +25,9 @@ async function fetchTraktHistory() {
 
 async function fetchTMDBDetails(tmdbId, type) {
     try {
-        const response = await fetch(`https://api.themoviedb.org/3/${type}/${tmdbId}?api_key=${tmdbApiKey}&language=es-ES`);
+        const response = await fetch(`https://api.themoviedb.org/3/${type}/${tmdbId}?api_key=${tmdbApiKey}&language=es-ES&_=${cacheBuster()}`, {
+            cache: 'no-store'
+        });
         if (!response.ok) throw new Error(`Error fetching TMDB ${type}`);
         return await response.json();
     } catch (error) {
