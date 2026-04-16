@@ -54,6 +54,57 @@ function getPlatformName(networks) {
     return mappings[network] || network;
 }
 
+function createLazyImage(className, src, alt) {
+    const image = document.createElement('img');
+    image.className = className;
+    image.src = src;
+    image.loading = 'lazy';
+    image.alt = alt;
+    return image;
+}
+
+function createInfoBlock(title, platform) {
+    const displayTitle = String(title);
+    const displayPlatform = String(platform);
+    const info = document.createElement('div');
+    info.className = 'info';
+
+    const titleElement = document.createElement('h2');
+    titleElement.className = 'title';
+    titleElement.textContent = displayTitle.toUpperCase();
+
+    const handle = document.createElement('p');
+    handle.className = 'handle';
+    handle.textContent = displayPlatform;
+
+    info.append(titleElement, handle);
+    return info;
+}
+
+function createShowCard({ cssClass, traktUrl, title, platform, posterPath }) {
+    const displayTitle = String(title);
+    const card = document.createElement('a');
+    card.href = traktUrl;
+    card.target = '_blank';
+    card.rel = 'noopener noreferrer';
+    card.className = `caja caja-tv ${cssClass}`;
+    card.setAttribute('aria-label', `Enlace a ${displayTitle}`);
+
+    const content = document.createElement('div');
+    content.className = 'mitad';
+    content.append(
+        createLazyImage('logo-normal', 'images/trakttv.webp', 'Trakt TV'),
+        createInfoBlock(title, platform)
+    );
+
+    const poster = document.createElement('div');
+    poster.className = 'mitad';
+    poster.append(createLazyImage('poster', posterPath, `Poster de ${displayTitle}`));
+
+    card.append(content, poster);
+    return card;
+}
+
 async function renderShows() {
     const history = await fetchTraktHistory();
     const container = document.querySelector('.tv');
@@ -102,7 +153,7 @@ async function renderShows() {
         const slug = data.ids?.slug || traktId;
         // Trakt URLs: /shows/slug or /movies/slug
         const urlType = type === 'show' ? 'shows' : 'movies';
-        const traktUrl = `https://trakt.tv/${urlType}/${slug}`;
+        const traktUrl = `https://trakt.tv/${urlType}/${encodeURIComponent(String(slug))}`;
 
         const tmdbId = data.ids?.tmdb;
         if (tmdbId) {
@@ -110,7 +161,8 @@ async function renderShows() {
             if (tmdbData) {
                 // TMDB movies use 'title', TV uses 'name'
                 title = tmdbData.title || tmdbData.name || title;
-                posterPath = tmdbData.poster_path ? `https://image.tmdb.org/t/p/w500${tmdbData.poster_path}` : posterPath;
+                const tmdbPosterPath = typeof tmdbData.poster_path === 'string' ? tmdbData.poster_path : '';
+                posterPath = tmdbPosterPath ? `https://image.tmdb.org/t/p/w500${tmdbPosterPath}` : posterPath;
 
                 if (tmdbType === 'tv') {
                     platform = getPlatformName(tmdbData.networks);
@@ -125,22 +177,7 @@ async function renderShows() {
         // Assign classes tv2, tv3, tv4 based on rendered order
         const cssClass = `tv${renderedCount + 2}`;
 
-        const html = `
-            <a href="${traktUrl}" target="_blank" class="caja caja-tv ${cssClass}" aria-label="Enlace a ${title}">
-                <div class="mitad">
-                    <img class="logo-normal" src="images/trakttv.webp" loading="lazy" alt="Trakt TV">
-                    <div class="info">
-                        <h2 class="title">${title.toUpperCase()}</h2>
-                        <p class="handle">${platform}</p>
-                    </div>
-                </div>
-                <div class="mitad">
-                    <img class="poster" src="${posterPath}" loading="lazy" alt="Poster">
-                </div>
-            </a>
-        `;
-
-        container.insertAdjacentHTML('beforeend', html);
+        container.append(createShowCard({ cssClass, traktUrl, title, platform, posterPath }));
         renderedCount++;
     }
 }
