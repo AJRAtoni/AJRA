@@ -424,3 +424,190 @@ footer {
   font-size: 13px;
   line-height: 2rem;
 }
+/* Blog */
+.site-nav-inline {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 0 0 2rem;
+}
+
+.site-nav-inline a,
+.blog-nav a {
+  color: #111;
+  border: 1px solid #111;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 14px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.site-nav-inline a:hover,
+.blog-nav a:hover {
+  background: #111;
+  color: #fff;
+}
+
+.blog-shell {
+  align-items: flex-start;
+}
+
+.blog-container {
+  max-width: 1180px;
+}
+
+.blog-sidebar {
+  padding-top: 2rem;
+}
+
+.blog-main {
+  padding-top: 2rem;
+}
+
+.blog-nav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.eyebrow,
+.post-card time {
+  color: #666;
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.blog-hero {
+  margin-bottom: 2rem;
+}
+
+.blog-hero h1,
+.post-detail h1 {
+  font-size: clamp(2.4rem, 7vw, 4.8rem);
+  line-height: 0.95;
+  margin: 0.2em 0;
+}
+
+.blog-hero p,
+.post-lead {
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 720px;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  padding-bottom: 4rem;
+}
+
+.post-card {
+  border: 1px solid #e7e7e7;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+}
+
+.post-card a {
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+
+.post-card img,
+.featured-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.post-card-body {
+  padding: 18px;
+}
+
+.post-card h2 {
+  color: #111;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  margin: 0.4rem 0;
+}
+
+.post-card p {
+  color: #555;
+  line-height: 1.5;
+}
+
+.post-detail {
+  max-width: 760px;
+  padding-bottom: 4rem;
+}
+
+.featured-image {
+  border-radius: 18px;
+  margin: 1.5rem 0;
+}
+
+.post-content {
+  color: #222;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.post-content h2 {
+  color: #111;
+  font-size: 1.7rem;
+  margin-top: 2.2rem;
+}
+
+.post-content a {
+  color: #111;
+  border-bottom: 1px solid #111;
+}
+
+.post-pagination {
+  border-top: 1px solid #e7e7e7;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+}
+
+.post-pagination a {
+  border: 1px solid #e7e7e7;
+  border-radius: 14px;
+  color: #111;
+  padding: 14px;
+}
+
+.post-pagination .next {
+  grid-column: 2;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .post-grid,
+  .post-pagination {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-sidebar,
+  .blog-main {
+    padding-top: 1rem;
+  }
+
+  .post-pagination .next {
+    grid-column: auto;
+  }
+}

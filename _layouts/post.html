@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="post-detail">
+    <p class="eyebrow"><a href="{{ '/blog/' | relative_url }}">Blog</a> · {{ page.date | date: "%d/%m/%Y" }}</p>
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.description %}<p class="post-lead">{{ page.description }}</p>{% endif %}
+    {% if page.image %}
+    <img class="featured-image" src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}">
+    {% endif %}
+    <div class="post-content">
+        {{ content }}
+    </div>
+    <nav class="post-pagination" aria-label="Navegación entre posts">
+        {% if page.previous %}<a class="prev" href="{{ page.previous.url | relative_url }}">← {{ page.previous.title | escape }}</a>{% endif %}
+        {% if page.next %}<a class="next" href="{{ page.next.url | relative_url }}">{{ page.next.title | escape }} →</a>{% endif %}
+    </nav>
+</article>

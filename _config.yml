@@ -1,0 +1,20 @@
+title: AJRA
+description: Creative Dad & Tech Geek. Ideas, recursos y criterio práctico sobre tecnología, IA, productividad y negocio online.
+url: "https://ajra.es"
+baseurl: ""
+lang: es
+timezone: America/New_York
+permalink: /blog/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: AJRA
+exclude:
+  - README.md
+  - docs/plans
