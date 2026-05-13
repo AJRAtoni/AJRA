@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="es">
 
@@ -80,17 +82,7 @@
         <div class="container">
             <div class="column">
                 <!-- Contenido de la primera columna -->
-                <header class="sticky-column">
-                    <img class="avatar" src="images/AJRA.webp" alt="AJRA" width="150" height="150">
-                    <h1>&lt;/AJRA&gt;</h1>
-                    <h2>👨🏻‍💻 Web Developer &amp; Data Analyst</h2>
-                    <h3>Ayudo a personas y empresas a mejorar su presencia online.</h3>
-                    <nav class="blog-nav" aria-label="Navegación principal">
-                        <a href="/">Inicio</a>
-                        <a href="/blog/">Blog</a>
-                        <a href="/feed.xml">RSS</a>
-                    </nav>
-                </header>
+                {% include profile-sidebar.html %}
             </div>
             <div class="column">
                 <!-- Contenido de la segunda columna -->
