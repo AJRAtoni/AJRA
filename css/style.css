@@ -562,6 +562,50 @@ footer {
   color: #222;
   font-size: 1.05rem;
   line-height: 1.75;
+  min-width: 0;
+}
+
+.post-detail,
+.post-content,
+.post-content * {
+  box-sizing: border-box;
+}
+
+.post-content img,
+.post-content video,
+.post-content iframe,
+.post-content embed,
+.post-content object,
+.post-content figure,
+.post-content table,
+.post-content pre {
+  max-width: 100%;
+}
+
+.post-content img,
+.post-content video,
+.post-content iframe,
+.post-content embed,
+.post-content object {
+  height: auto;
+}
+
+.post-content img,
+.post-content figure {
+  display: block;
+}
+
+.post-content figure {
+  margin: 2rem 0;
+}
+
+.post-content figure img {
+  margin: 0 auto;
+}
+
+.post-content pre,
+.post-content table {
+  overflow-x: auto;
 }
 
 .post-content h2 {
