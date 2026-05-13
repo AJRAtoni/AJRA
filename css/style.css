@@ -590,6 +590,13 @@ footer {
   height: auto;
 }
 
+.post-content iframe.youtube-embed {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 0;
+}
+
 .post-content img,
 .post-content figure {
   display: block;
