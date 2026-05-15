@@ -140,23 +140,3 @@ En mi caso, que ya utilizo herramientas para revisar mis finanzas, esta noticia 
 
 Me gusta la idea de poder hablar con mis datos financieros.
 No me gusta tanto la idea de que todo eso viva necesariamente en una plataforma cerrada.
-
-## Conclusión
-
-Creo que ChatGPT para finanzas personales puede ser una de esas funciones que mucha gente acaba usando sin pensarlo demasiado.
-
-Y precisamente por eso conviene pensarlo un poco antes.
-
-La utilidad está clara.
-La comodidad también.
-
-Pero con las finanzas personales yo sería prudente.
-
-Lo probaría, sí.
-Pero no conectaría todo a ciegas el primer día.
-
-Primero miraría bien qué datos usa, cómo se borran, qué controles ofrece y si realmente me aporta algo que no pueda resolver con una app más específica o con una solución local.
-
-Porque una cosa es que la IA te ayude a ahorrar dinero.
-
-Otra cosa es pagar esa comodidad entregando más información de la necesaria.
