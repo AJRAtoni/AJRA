@@ -1,172 +1,110 @@
 ---
 layout: post
-title: Lo que espero de iPadOS 16
-date: 2022-05-10 10:00:00 +0300
+title: "Lo que esperaba de iPadOS 16 antes de la WWDC22"
+date: 2022-05-24 10:00:00 +0300
 image: /images/263.jpg
+image_alt: "iPadOS 16 como lista de deseos para mejorar productividad en iPad"
+description: "Lista de deseos para iPadOS 16 antes de WWDC22: Archivos, Mail, Calendario, Notas, Fotos, Wallet, Salud, llavero y monitores externos."
+resumen: "Antes de WWDC22, mi lista para iPadOS 16 seguía una idea clara: el iPad necesitaba menos potencia sin usar y más herramientas de productividad real."
 source: AJRA-v09/_posts/2022-05-24-deseos-ipados16.md
 ---
 
-Quedan solo 2 semanas para que dé comienzo la WWDC 2022 y se presente los nuevos iOS & iPadOS.
+Quedaban dos semanas para la WWDC22 y tocaba pensar qué esperaba de **iPadOS 16**.
 
-Cada año escribo un nuevo articulo en el que hablo de las cosas que me gustaría ver en la siguiente versión de iPadOS.
+Cada año escribía una lista parecida, como ya hice antes con [iPadOS 15](/blog/ipad15-quiero/).
 
-En esta ocasión vamos a ver todo lo que me gustaría que traiga iPadOS 16:
+En 2022 el contexto era todavía más claro: el iPad tenía potencia de sobra, pero necesitaba que el sistema operativo acompañara mejor.
 
+## Archivos
 
-## ARCHIVOS
+<figure>
+<img src="/images/248-2.jpeg" alt="App Archivos de iPadOS como gestor de documentos" />
+</figure>
 
-<img src="/images/248-2.jpeg">
+Archivos había mejorado, pero seguía echando en falta acciones básicas de escritorio, como renombrar archivos en lote.
 
-La aplicación Archivos ha ido mejorando año tras año y cada vez resulta más cómodo trabajar con ella, pero aún así hecho en falta la posibilidad de renombrar archivos en lote como si se puede hacer desde el Finder de macOS.
+Si el iPad quería ser dispositivo principal, la gestión de documentos tenía que ser más sólida.
 
----
+## Mail
 
+<figure>
+<img src="/images/248-3.jpeg" alt="App Mail de iPadOS con bandeja de entrada" />
+</figure>
 
-## MAIL
+Mail era una de mis apps diarias.
 
-<img src="/images/248-3.jpeg">
+Pedía varias mejoras:
 
-Mail es una de las aplicaciones que más uso en mi día a día.
-Estoy muy acostumbrado a trabajar con ella y me gusta su funcionamiento pero hay una serie de cosas que me gustaría ver añadidas:
+- Programar envíos.
+- Mostrar avatares.
+- Crear reglas y filtros desde iPadOS.
+- Generar URL directa a un correo.
 
-### Programar Mails
-Mis horarios son complicados y muchas veces escribo las respuestas a mails de trabajo a altas horas de la noche, y tengo que dejarlas en borradores y acordarme de enviarlas al día siguiente.
+Varias de estas ideas venían de usar Spark, que ya había destacado por funciones de productividad en correo.
 
-Por eso me iría genial que Apple incorporara la opción de programar el envío, algo que ya hacen Spark o Gmail.
+## Calendario y recordatorios
 
-### Mostrar avatares
-Una simple opción para que se muestren los avatares de las personas o empresas que nos envían emails.
+<figure>
+<img src="/images/248-4.jpeg" alt="Calendario de iPadOS con bloques de tiempo" />
+</figure>
 
-Es algo que está disponible en la App Mail para macOS pero no en el iPhone o iPad.
+Quería creación de eventos con lenguaje natural, más control de colores y una integración opcional con recordatorios.
 
-De nuevo esta opción sí está disponible en Spark.
+Aunque GTD no recomienda mezclarlo todo, en la práctica muchas personas necesitan ver compromisos y tareas con contexto temporal.
 
-### Reglas y Filtros desde iPadOS
-Yo tengo mi aplicación de Mail configurada con reglas y filtros para que los correos cambien de color dependiendo de quién me escribe y para que dependiendo del asunto del mail se archiven en unas u otras carpetas.
+## Notas
 
-Soy un heavy user de las reglas y filtros, pero para configurarlas hay que hacerlo desde la App de macOS o desde la página web de iCloud.
+<figure>
+<img src="/images/248-5.jpeg" alt="App Notas de iPadOS para escribir documentos" />
+</figure>
 
-Me encantaría que Apple permitiese la creación de esas reglas u filtros desde un menú en iOS & iPadOS.
+Notas era cada vez más potente, pero seguía pidiendo dos cosas:
 
-### URL directa a un mail
-Spark ofrece una opción de crear una URL directa a un mail.
+- Soporte para Markdown.
+- Contador de palabras y caracteres.
 
-Cuando recibía un mail, mi forma de trabajar era copiar la URL de ese mail y anotarla en Asana.
+Para quienes escribimos mucho, esas dos funciones habrían reducido la necesidad de apps externas.
 
-De esa forma cuando repasaba mis tareas pendientes bastaba hacer click en el enlace se abría el correo en cuestión y tengo ahí toda la documentación.
+## Fotos
 
-Eso es algo que me gustaría que Apple implementase en su App nativa.
+<figure>
+<img src="/images/248-7.jpeg" alt="App Fotos de iPadOS con biblioteca fotográfica" />
+</figure>
 
+En Fotos seguía esperando etiquetado manual de caras y mejor edición de metadatos.
 
----
+Ya había mejoras interesantes, como las [descripciones en Fotos de iPadOS](/blog/ipados-fotos/), pero todavía faltaba control fino.
 
+## Wallet, Salud y llavero
 
-## CALENDARIO
-<img src="/images/248-4.jpeg">
-La aplicación de calendario es otra de las apps que uso a diario. Sigo los principios del Time Blocking y tengo mi calendario lleno de eventos.
+<figure>
+<img src="/images/263-2.jpeg" alt="Wallet como app pendiente en iPadOS" />
+</figure>
 
-Pero hay algunas cosas que me gustaría que cambiaran en iPadOS 15, como por ejemplo:
+Me habría gustado tener Wallet en iPadOS para consultar Apple Card, transacciones, pagos y pases.
 
-### Introducir información con lenguaje natural.
-En macOS existe la posibilidad de crear eventos usando lenguaje natural, por ejemplo podemos utilizar comandos como “Reunion de trabajo el lunes a las 9”, de forma que se crea un evento el lunes a las 9:00 am con el texto “Reunion de trabajo”. Ojalá esa opción se añada en iPadOS 15.
+<figure>
+<img src="/images/263-3.jpeg" alt="App Salud como deseo para iPadOS" />
+</figure>
 
-### Diferentes colores en un mismo calendario.
-También me gustaría que en el Calendario de iPadOS se pudiese elegir el color del bloque al crear un evento. Esto es algo que se puede hacer en otros calendarios como Google Calendar o Calendars de Readdle.
+También quería ver Salud en iPad para consultar datos recogidos por Apple Watch.
 
-Actualmente en la app de calendarios de Apple solo se permite elegir un color por calendario.
+Y en seguridad, una app dedicada al llavero de iCloud habría tenido mucho sentido, especialmente para gestionar contraseñas con más claridad.
 
-### Posibilidad de sincronizar con recordatorios.
-Sé que en los principios del GTD los recordatorios no deberían mostrarse en el calendario como un evento.
+## Monitores externos
 
-Pero en ocasiones creo que sería útil tener la opción de que los recordatorios se mostrasen en el calendario de la misma forma en la que se muestran los eventos de día completo.
+<figure>
+<img src="/images/263-4.jpeg" alt="iPad conectado a un monitor externo" />
+</figure>
 
----
+Este seguía siendo mi gran deseo.
 
-## NOTAS
+El iPad conectado a un monitor externo no aprovechaba bien la pantalla. Duplicar imagen y mostrar franjas negras no era suficiente para un dispositivo con chip M1.
 
-<img src="/images/248-5.jpeg">
+Quería una segunda pantalla real, mejor resolución y un modo de trabajo más cercano al Mac.
 
-La app Notas ha ido incorporando funcionalidades y características año tras años, llegando a convertirse en la app que mas uso a diario para tomar notas, crear borradores o incluso escribir dossiers informativos.
+Era la misma limitación que había comentado en [mi configuración de iPad de escritorio](/blog/ipad-03/).
 
-Ahora en notas podemos hacer muchas cosas como añadir texto enriquecido, crear tablas, añadir imágenes, proteger una nota con contraseña, etc… pero hay una cosa que sigo esperando que añadan:
+Al final, la gran pregunta de iPadOS 16 era si Apple iba a dejar que el iPad usara toda la potencia que ya tenía.
 
-### Markdown
-Me encantaría que Apple incluyese soporte para lenguaje MarkDown en la app Notas.
-
-El lenguaje MarkDown es el que utilizo para escribir casi todos los documentos y posts en mi trabajo diario y si Apple se decidiese a implementarlo en su app Notas podría dejar de utilizar aplicaciones de terceros como iA Writer.
-
-
-### Contador de Palabras y caracteres.
-También me gustaría que incluyesen un pequeño contador de caracteres y palabras escritas en un documento, algo que también tiene iA Writer y me es de mucha utilidad.
-
----
-
-## FOTOS
-
-<img src="/images/248-7.jpeg">
-
-Fotos en iPad, que decir de ella… ahí tengo organizadas y catalogadas cientos de miles de fotos, es una parte de mi vida.
-
-Pero siento que le faltan cosas que me harían más feliz:
-
-### Etiquetado manual de caras
-La App Fotos detecta automáticamente las caras dentro de las fotos y si no reconoce quién es nos pregunta a quién pertenece esa cara para así mejorar el reconocimiento facial.
-
-Suele funcionar muy bien y después de un tiempo de entreno el proceso es automático y muy transparente.
-
-El problema viene cuando no detecta una cara. No hay forma de indicarle que eso es una persona ni quién es.
-
-En cambio en macOS sí que se nos permite indicar que alguien aparece en la foto y decirle de forma manual de quién se trata.
-
-Me gustaría que portaran el etiquetado manual de personas a iPadOS.
-
----
-
-
-## MAPAS
-La aplicación Mapas es otra de esas apps que han ido mejorando poco a poco a lo largo de los años y lo único que le añadiría es alguna función del tipo gamificacion para incentivar a los usuarios a que suban fotos o actualicen información en los mapas.\
-Algo similar a lo que tiene Google Maps.
-
----
-
-## WALLET APP
-
-<img src="/images/263-2.jpeg">
-
-Me encantaría que en iPadOS 16 incluyeran la aplicación nativa de Wallet, me seria cómodo poder consultar desde ahi toda la información de mi Apple Card, ver el historial de transacciones, pagos financiado y controlar los pases que tengo en el wallet de mi iPhone desde el iPad.
-
----
-
-## APP DE SALUD
-
-<img src="/images/263-3.jpeg">
-
-También me gustaría tener la posibilidad de consultar mis datos de Salud desde el iPad y hacer seguimiento de los datos de ejercicio que recoge el Apple Watch.
-
----
-
-## LLAVERO iCLOUD
-Actualmente dentro de los Ajustes de iPadOS podemos acceder a una copia de nuestras contraseñas almacenadas en iCloud, pero con iPadOS 16 me gustaría que viniese una App nativa del llavero de iCloud con todas las opciones que tenemos en la App oficial de macOS.
-
-
----
-
-## MEJOR GESTION DE MONITORES EXTERNOS
-
-<img src="/images/263-4.jpeg">
-
-Por último, pero no menos importante, deseo con muchas fuerzas que Apple mejores la gestión de monitores externos en iPadOS 16.
-
-En el trabajo utilizo mi iPad Pro conectado a un monitor.
-
-El problema es que el iPad lo que hace es enviar exactamente su imagen en modo espejo al monitor, no la adapta a la resolución de la pantalla, de modo que es normal que en el monitor externo se muestren franjas negras a cada lado de la imagen, ya que el ratio de pantalla del iPad no suele coincidir con el de la mayoría de monitores modernos.
-
-También estaría bien que no fuese solo un modo espejo, que el monitor externo trabajase cómo una segunda pantalla independiente e incluso poder tener la opción de trabajar con el iPad con la pantalla apagada y solo hacer uso de la externa.
-
-No sé muy bien cómo lo solucionará Apple, pero me gustaría poder conectar el iPad a un monitor externo y poder trabajar igual que se hace con los MacBooks.
-
----
-
-Y hasta aquí el listado de cosa que me gustaría ver en iPadOS 16.
-
-Ahora solo nos queda esperar hasta el día 6 de Junio para comprobar cuántas de estas cosas se hacen realidad.
+Si quieres revisar si el iPad puede encajar en tu flujo de trabajo o qué límites debes asumir antes de comprar, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

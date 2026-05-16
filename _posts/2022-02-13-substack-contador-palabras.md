@@ -1,24 +1,41 @@
 ---
 layout: post
-title: Substack añade contador de palabras a su editor
+title: "Substack añadió contador de palabras a su editor"
 date: 2022-02-13 10:00:00 +0300
 image: /images/logo-substack.jpg
+image_alt: "Logotipo de Substack asociado al contador de palabras del editor"
+description: "Substack añadió un contador de palabras y caracteres a su editor, una mejora pequeña pero útil para quienes escriben newsletters de forma regular."
+resumen: "El contador de palabras de Substack parecía un detalle menor, pero para escribir newsletters con ritmo, estructura y extensión controlada era muy práctico."
 source: AJRA-v09/_posts/2022-02-13-substack-contador-palabras.md
 ---
 
-Hasta ahora creo que nunca os había hablado de Substack, se trata de la plataforma que utilizo para crear y gestionar mi newsletter.
+Substack añadió un contador de palabras y caracteres a su editor.
 
-De entre todas las plataformas que probé Substack es la que más me gusto y que me ofrece todo lo que necesito y mas.
+Puede parecer una mejora pequeña, pero para quienes escriben newsletters de forma regular es bastante útil.
 
-Es un servicio muy interesante que permite mantener un blog y enviar como campaña de email cada uno de los posts que escribamos, además es gratuita y podemos decidir si queremos que nuestros suscriptores nos paguen por recibir los mails.
+## Por qué importa
 
-Lo mejor de todo es que no paran de crecer e incorporar novedades, así que me he decidido a ir anunciando por aquí cada novedad que lancen, ya que pienso que puede ser útil que todos las vayamos conociendo.
+Substack permite publicar artículos y enviarlos por email a una lista de suscriptores.
 
----
+Ese híbrido entre blog y newsletter funciona muy bien cuando quieres escribir sin montar demasiada infraestructura: editor, suscripciones, archivo público y envío por correo en una sola plataforma.
 
-## EL CONTADOR DE PALABRAS
+Pero escribir bien también exige controlar ritmo y extensión.
 
-La novedad que han incorporado ahora puede parecer una tontería, pero es de gran utilidad para los que escribimos periódicamente y es algo que los usuarios de Substack pedían reiteradamente.
+Un contador de palabras ayuda a saber si un texto está quedando demasiado corto, demasiado largo o si necesita dividirse en varias entregas.
 
-Se trata de un contador de palabras y caracteres en cada artículo.
-De esta forma puedes saber la extensión de lo que llevas escrito, algo interesante para poder cumplir con los requisitos de SEO que a los buscadores les gusta.
+## Escribir para email no es solo escribir
+
+En una newsletter importan asuntos como:
+
+- Longitud del texto.
+- Claridad del asunto.
+- Primeros párrafos.
+- Ritmo de lectura.
+- Llamada a la acción.
+- Frecuencia de envío.
+
+El contador no arregla nada por sí solo, pero da una referencia rápida.
+
+También conecta con el trabajo de copywriting y contenido que ya he tratado en posts como [copywriting](/blog/copywriting/) o [errores SEO](/blog/errores-seo/).
+
+Si quieres revisar tu newsletter, estructura de contenidos o plataforma de email, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
