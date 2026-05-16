@@ -1,27 +1,44 @@
 ---
 layout: post
-title: Cómo ocultar el álbum Oculto en Fotos de iOS & iPadOS
+title: "Cómo ocultar el álbum Oculto en Fotos de iOS y iPadOS"
 date: 2020-10-28 10:00:00 +0300
 image: /images/220.jpg
+image_alt: "Ajustes de Fotos en iOS para ocultar el álbum Oculto"
+description: "iOS 14 y iPadOS 14 permitieron ocultar el álbum Oculto de la app Fotos para que no apareciera en la sección Utilidades."
+resumen: "Ocultar fotos no era suficiente si el álbum Oculto seguía visible. iOS 14 añadió una opción para retirarlo de la app Fotos."
 source: AJRA-v09/_posts/2020-10-28-ocular-album-ios.md
 ---
 
-Desde hace ya varios años en iOS & iPadOS tenemos la opción de ocultar fotos.
+Desde hace años, iOS y iPadOS permiten ocultar fotos.
 
-En realidad lo que hace el sistema es crear un álbum llamado Oculto donde agrupar todas las fotos que no queremos que aparezcan en la App Fotos.
+El problema era que el sistema creaba un álbum llamado **Oculto** y lo mostraba dentro de la app Fotos, en la sección Utilidades.
 
-El problema es que a ese álbum Oculto se puede acceder fácilmente desde la App Fotos, basta con ir al apartado Álbumes y bajar hasta la sección Utilidades, ahí aparece el acceso a nuestro álbum Oculto y nos indica cuántas fotos hemos ocultado.
+Es decir: las fotos no aparecían en la fototeca principal, pero el álbum seguía siendo fácil de encontrar.
 
-<img src="/images/220-1.jpeg">
+<figure>
+<img src="/images/220-1.jpeg" alt="Álbum Oculto visible dentro de la app Fotos de iOS" />
+</figure>
 
-Con la llegada de iOS 14 & iPadOS 14 viene la curiosa opción de ocultar el Álbum Oculto, para esto debemos seguir estos sencillos pasos:
+## Cómo ocultar el álbum Oculto
 
-1. En nuestro iPhone o iPad vamos a Ajustes.
-2. Entramos en la sección Fotos.
-3. Desactivamos la opción Álbum Oculto.
+Con iOS 14 y iPadOS 14 llegó una opción para esconder ese álbum:
 
-<img src="/images/220-2.jpg">
+1. Abre **Ajustes**.
+2. Entra en **Fotos**.
+3. Desactiva **Álbum Oculto**.
 
-De esta forma el Álbum Oculto no aparecerá en la sección Utilidades de la App Fotos, y nuestras fotos estarán un poco más protegidas frente a miradas indiscretas.
+<figure>
+<img src="/images/220-2.jpg" alt="Ajuste para desactivar el álbum Oculto en Fotos de iOS" />
+</figure>
 
-Esta es la solución que propone Apple, aunque creo que sería mejor si ofreciesen la posibilidad de bloquear el acceso al álbum oculto mediante FaceID.
+Desde ese momento el álbum Oculto deja de aparecer en Utilidades.
+
+## Un paso, no una caja fuerte
+
+Esto protege un poco frente a miradas casuales, pero no convierte el álbum en una zona cifrada.
+
+Lo ideal habría sido bloquearlo con Face ID o código, algo que Apple incorporaría más adelante en versiones posteriores.
+
+Este ajuste formaba parte de un empuje más amplio de privacidad en iOS 14, junto a [indicadores de cámara y micrófono](/blog/ios-indicador-grabacion/) y control de [ubicación exacta](/blog/ios-ubicacion-exacta/).
+
+Si quieres revisar privacidad, fotos y ajustes sensibles en iPhone o iPad, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

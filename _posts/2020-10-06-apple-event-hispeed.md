@@ -1,23 +1,42 @@
 ---
 layout: post
-title: Keynote de Apple el 13 de Octubre - Hi, Speed
+title: "Hi, Speed: Apple anunció evento para el 13 de octubre de 2020"
 date: 2020-10-06 10:00:00 +0300
 image: /images/logo-apple.jpg
+image_alt: "Invitación del Apple Event Hi, Speed de octubre de 2020"
+description: "Apple anunció el evento Hi, Speed para el 13 de octubre de 2020, donde se esperaba la llegada del iPhone 12 y el 5G."
+resumen: "Después de Time Flies, Apple preparó Hi, Speed: el evento que apuntaba claramente al iPhone 12 y a la velocidad del 5G."
 source: AJRA-v09/_posts/2020-10-06-apple-event-hispeed.md
 ---
 
-Todos los esperábamos y las predicciones se han cumplido.
+Apple envió las invitaciones para su evento **Hi, Speed**.
 
-Apple por fin ha enviado las invitaciones a su proximo evento, que tendrá lugar el 13 de octubre a las 10:00 a.m. PDT, un evento que podremos disfrutar online desde la web de [apple.com](http://apple.com/).
+La keynote tendría lugar el **13 de octubre de 2020** a las 10:00 a.m. PDT y se podría seguir online desde la web de Apple.
 
 <figure>
-<img src="/images/218.webp" alt="" />
+<img src="/images/218.webp" alt="Invitación del evento Hi, Speed de Apple" />
 </figure>
 
-Apple no ha dicho nada de lo que va a presentar en esta keynote, pero todos esperamos que se lance la **nueva linea de iPhone 12**, y entre los rumores también suenan los **AirPod Studio**, quizá los **AirTag** y aunque están fuera de muchas quinielas a mi me encantaría ver en esta presentación los primeros **Mac con Apple Silicon**.
+## Qué se esperaba
 
-La invitación lleva el titulo de "Hi, Speed", ¿lo qué nos puede hacer pensar que quizás los nuevos iPhone vengan con 5G? ¿O lo de Speed, hace referencia a la velocidad de los nuevos chips?
+Después del evento [Time Flies](/blog/apple-event-timesflies/), todo apuntaba a que esta keynote estaría centrada en el iPhone.
 
----
+Los rumores hablaban de:
 
-No nos queda otra que activar la cuenta atrás y esperar.
+- Nueva línea iPhone 12.
+- 5G.
+- Posibles AirPods Studio.
+- AirTag.
+- Quizá algún movimiento alrededor de Apple Silicon.
+
+El título **Hi, Speed** reforzaba la idea de velocidad: 5G, chips más rápidos o ambas cosas.
+
+## Lectura retrospectiva
+
+Apple separó en 2020 sus grandes anuncios en varios eventos virtuales.
+
+Primero Apple Watch, iPad y servicios. Después iPhone. Más tarde llegaría **One More Thing** con Apple Silicon.
+
+Esa estructura permitió que cada línea de producto tuviera más espacio narrativo.
+
+Si quieres preparar una campaña de lanzamiento o ordenar una comunicación de producto por fases, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

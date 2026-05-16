@@ -1,19 +1,43 @@
 ---
 layout: post
-title: El negocio de la personalización de iconos en iOS 14
+title: "El negocio de personalizar iconos en iOS 14"
 date: 2020-09-28 10:00:00 +0300
 image: /images/217.jpg
+image_alt: "Pantalla de inicio de iOS 14 personalizada con iconos y widgets"
+description: "iOS 14 puso de moda la personalización de pantallas de inicio con iconos y widgets, creando incluso un pequeño mercado de packs visuales."
+resumen: "La personalización de iconos en iOS 14 demostró que una limitación del sistema podía convertirse en tendencia estética y oportunidad de negocio."
 source: AJRA-v09/_posts/2020-09-28-personalizar-iconos-ios14.md
 ---
 
-Con la llegada de iOS 14 y los widgets se ha puesto de moda la personalización del HomeScreen de los iPhone con iconos y widgets.
+Con la llegada de iOS 14 y los widgets, se puso de moda personalizar la pantalla de inicio del iPhone.
 
-Si en twitter buscas el hashtag [#ios14homescreen](https://twitter.com/search?q=%23ios14homescreen) puedes encontrar muchos diseños curiosos, alguno que otro elegante y muchas atrocidades.
+En redes se popularizó el hashtag `#ios14homescreen`, con diseños muy cuidados, experimentos curiosos y bastantes excesos visuales.
 
-Hay quien ha visto negocio en todo esto, como el diseñador y desarrollador [Traf](https://twitter.com/traf) quien creó un pack de 80 iconos y widgets, lo puso [a la venta en su página web](https://mobile.twitter.com/traf) y durante los dos primeros días ya había ganado $24500.
+## Una oportunidad inesperada
 
-La personalización de iconos en iOS 14 se hace mediante la aplicación Atajos y considero que es totalmente anti-productiva ya que no añade ninguna ventaja, y si algunos inconvenientes ya que cada vez que pulsas uno de los iconos primero se abre Atajos y luego hace la llamada a la App original, lo que es muy molesto y lento.
+Algunos diseñadores vieron negocio en esta tendencia.
 
----
+Uno de los casos más comentados fue Traf, que creó un pack de iconos y widgets, lo puso a la venta y consiguió una gran cantidad de ingresos en pocos días.
 
-Lo que es innegable es que a **Traf** la jugada le ha salido muy rentable.
+El caso fue interesante porque mostraba algo habitual en producto digital: cuando una plataforma cambia, aparecen usos que quizá el fabricante no esperaba.
+
+## La parte incómoda
+
+La personalización de iconos se hacía mediante Atajos.
+
+Eso permitía cambiar la apariencia, pero tenía inconvenientes:
+
+- Abría Atajos antes de lanzar la app.
+- Añadía fricción.
+- Era más lento.
+- No aportaba funcionalidad real.
+
+Visualmente podía quedar bien, pero desde productividad era discutible.
+
+## Lectura retrospectiva
+
+iOS 14 abrió más posibilidades de personalización, igual que vimos con [widgets y novedades de iPadOS 14](/blog/ipados-14/).
+
+También dejó una lección sencilla: la estética vende, pero conviene no sacrificar demasiado la experiencia.
+
+Si quieres diseñar iconos, sistema visual o pantalla de inicio con equilibrio entre estética y uso real, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

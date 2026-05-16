@@ -1,26 +1,38 @@
 ---
 layout: post
-title:  One More Thing - Evento de Apple el 10 de noviembre
+title: "One More Thing: Apple anunció evento para el 10 de noviembre de 2020"
 date: 2020-11-04 10:00:00 +0300
 image: /images/logo-apple.jpg
+image_alt: "Logotipo de Apple asociado al evento One More Thing"
+description: "Apple anunció el evento One More Thing, donde se esperaba la llegada de los primeros Mac con Apple Silicon."
+resumen: "One More Thing apuntaba a la transición más importante del Mac en años: el salto a Apple Silicon."
 source: AJRA-v09/_posts/2020-11-04-apple-event.md
 ---
 
-Apple ha anunciado su próximo gran evento, una Keynote que tendrá lugar el próximo 10 de noviembre y que ha recibido el (mítico) nombre de **One More Thing**.
+Apple anunció su siguiente gran evento: **One More Thing**.
 
----
+La keynote tendría lugar el **10 de noviembre de 2020** a las 10:00 a.m. hora del Pacífico.
 
-## ¿Que veremos en esta presentación?
+## Qué se esperaba
 
-Es de esperar que en esta presentación veamos los nuevos macs con Apple Silicon.
+Todo apuntaba a los primeros Mac con **Apple Silicon**.
 
-Los Apple Silicon fueron anunciados durante la WWDC y se dijo que llegarían antes de final de año, así que está casi asegurado que llegarán durante esta presentación, la pregunta es ¿qué modelos de mac serán presentados con Apple Silicon?
+Apple había anunciado la transición durante la WWDC y prometió que los primeros equipos llegarían antes de final de año.
 
-Pues tirando de mi bola de cristal 🔮 creo que podremos ver un nuevo MacBook de entrada, un Mac mini (similar al Developer Kit) y un iMac de 24".
+La pregunta era qué modelos abrirían la etapa:
 
-Pero no solo Apple Silicons veríamos en esta presentación, hay muchos otros productos que llevan rumoreándose desde hace años, como los AirPods Studio, los AirTags y un posible Apple TV más enfocado en los juegos para promover un poco más Apple Arcade.
+- MacBook de entrada.
+- Mac mini.
+- Quizá algún iMac.
 
----
+También circulaban rumores sobre AirPods Studio, AirTags o un Apple TV más orientado a juegos y Apple Arcade.
 
-Pero todo esto no son más que rumores, así que tendremos que esperar y estar atentos de que pasa el próximo 10 de noviembre a las 10:00 am hora del Pacífico.
+## Lectura retrospectiva
 
+El nombre **One More Thing** no era casual.
+
+Apple lo reservaba para anuncios importantes, y la transición a Apple Silicon encajaba perfectamente. Era el paso que llevaba años preparándose desde movimientos como [Proyecto Kalamata](/blog/apple-kalamata/).
+
+Después publiqué el resumen de la keynote en [One More Thing y los procesadores M1](/blog/apple-event-one-more-thing/).
+
+Si quieres analizar un cambio de plataforma, transición técnica o lanzamiento estratégico, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

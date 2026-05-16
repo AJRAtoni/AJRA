@@ -1,42 +1,50 @@
 ---
 layout: post
-title: Apple actualiza su App Clips a la versión 3.0
+title: "Apple Clips 3.0 añadió nueva interfaz, formatos y vídeo HDR"
 date: 2020-10-28 10:00:00 +0300
 image: /images/logo-apple.jpg
+image_alt: "Logotipo de Apple asociado a la app Clips 3.0"
+description: "Clips 3.0 llegó con interfaz renovada, edición vertical y horizontal, nuevos stickers, bandas sonoras y grabación HDR en iPhone 12."
+resumen: "Clips 3.0 fue la actualización más importante de la app: más formatos, edición a pantalla completa y mejor encaje con vídeo social."
 source: AJRA-v09/_posts/2020-10-29-apple-clips-3.md
 ---
 
-Apple ha actualizado su Clips, la aplicación de edición de vídeos para iPhone y iPad, llegando a la versión 3.0 e incorporando una nueva interfaz de usuario, posibilidad de grabar en vertical y horizontal y la posibilidad de grabar en HDR con los nuevos iPhone 12.
+Apple actualizó **Clips**, su app de edición de vídeo para iPhone y iPad, a la versión 3.0.
 
-
-Clips ha recibido su mayor actualización hasta la fecha y viene con algunas características que muchos usuarios pedíamos desde hace tiempo.
+La actualización añadía nueva interfaz, soporte para grabar en vertical y horizontal, y vídeo HDR en los iPhone 12.
 
 ## Nueva interfaz
 
-Apple le ha dado un lavado de cara a Clips, rediseñando su interfaz de usuario.
+Clips recibió un rediseño de interfaz.
 
-Ahora la interfaz nos permite la edición de vídeo a pantalla completa y se adapta a la orientación, así podemos editar los vídeos horizontal y en vertical.
+La edición pasó a ser a pantalla completa y se adaptaba mejor a la orientación del vídeo.
 
-También se incorporan 8 nuevos stickers, objetos y más de 25 nuevas bandas sonoras que se ajustan automáticamente para adaptarse a la duración de nuestros vídeos.
+También se incorporaron nuevos stickers, objetos y más de 25 bandas sonoras que se ajustaban automáticamente a la duración del proyecto.
 
-<img src="/images/221-2.webp">
-
+<figure>
+<img src="/images/221-2.webp" alt="Nueva interfaz de edición de Apple Clips 3.0" />
+</figure>
 
 ## Múltiples relaciones de aspecto
 
-Esta es una de las cosas que más pedíamos los usuarios de Clips, la posibilidad de crear proyectos a diferentes tamaños y aspectos.
+Esta era una de las mejoras más esperadas.
 
-Clips ahora nos permite crear proyectos en vertical (Instagram Stories, Snapchat, TikTok), pero también podemos crear vídeos en horizontal (YouTube, Vimeo...).
+Clips pasó a permitir proyectos en vertical para Instagram Stories, Snapchat o TikTok, y también vídeos horizontales para YouTube o Vimeo.
 
-<img src="/images/221-3.jpg">
+<figure>
+<img src="/images/221-3.jpg" alt="Opciones de formato vertical y horizontal en Apple Clips 3.0" />
+</figure>
 
+## Vídeo HDR
 
-## Soporte para grabación en HDR
+Con iPhone 12 y iPhone 12 Pro, Clips podía capturar y exportar vídeo HDR Dolby Vision.
 
-Con esta nueva actualización de Clips podemos capturar vídeo HDR con las cámaras de los nuevos iPhone 12 y iPhone 12 Pro.
+Esto conectaba con la estrategia de Apple de convertir el iPhone en una cámara cada vez más capaz.
 
-Podremos editar nuestro vídeo y al exportarlo se hará en formato HDR Dolby Visión.
+## Clips dentro del ecosistema
 
-## Acerca de Clips
+Ya había hablado de [Apple Clips](/blog/clips/) como una app pensada para crear vídeo rápido. También vimos cómo Apple la había actualizado para [iOS 13 y iPadOS 13](/blog/imovie-actualizado/).
 
-Con Clips para iPhone y iPad, los usuarios pueden crear mensajes de video personales, presentaciones de diapositivas, proyectos escolares y minipelículas con características increíbles como Live Titles, que genera automáticamente subtítulos animados a partir de la voz de un usuario, y escenas selfies inmersivas de 360 grados con la cámara TrueDepth en el iPhone. Clips permite a los usuarios agregar personalidad a sus videos con docenas de filtros, pegatinas animadas y carteles animados a pantalla completa. La aplicación incluye más de 100 bandas sonoras que se ajustan automáticamente para que coincidan con la duración de los videos.
+Clips 3.0 reforzaba una idea: no todo vídeo necesita una herramienta profesional. A veces necesitas grabar, editar y publicar rápido.
+
+Si quieres revisar un flujo sencillo para crear vídeos sociales desde iPhone o iPad, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
