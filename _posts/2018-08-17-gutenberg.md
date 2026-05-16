@@ -1,47 +1,72 @@
 ---
 layout: post
-title: Gutenberg - El nuevo editor de Wordpress
+title: "Gutenberg: el editor de bloques que cambió WordPress"
 date: 2018-08-17 10:00:00 +0300
 image: /images/logo-wordpress.jpg
+image_alt: "Logotipo de WordPress en una noticia sobre Gutenberg y el editor de bloques"
+description: "Gutenberg llegó como el nuevo editor de bloques de WordPress, anticipando el cambio que se convertiría en estándar a partir de WordPress 5.0."
+resumen: "Gutenberg no era solo un editor nuevo: era el primer paso de WordPress hacia una experiencia de creación basada en bloques reutilizables."
 source: AJRA-v09/_posts/2018-08-17-gutenberg.md
 ---
 
-WordPress se ha actualizado a la version 4.9.8 y con esta nueva actualización se incorpora un mensaje de aviso para que probemos Gutenberg.
+WordPress 4.9.8 incorporó un aviso para probar Gutenberg, el nuevo editor de bloques que se convertiría en el editor por defecto con WordPress 5.0.
 
-Gutenberg es el nuevo editor de WordPress, esa pantalla desde la que escribimos y editamos nuestras entradas.
+En aquel momento todavía era posible verlo como una novedad opcional. Vista con perspectiva, era el inicio de un cambio profundo en la forma de crear contenido dentro de WordPress.
 
-Este se convertirá en el editor por defecto en WordPress 5.0.
+## Qué era Gutenberg
 
-Una de las principales novedades que trae Gutenberg es el trabajo en bloques.
+Gutenberg era el nuevo editor de WordPress.
+
+Su gran diferencia frente al editor clásico era el trabajo por bloques.
 
 Ejemplos de bloques:
 
-- Un bloque de Texto.
-- Una imagen.
-- Un video de Youtube.
-- Una galería de imágenes
-- Un botón.
-- Un código HTML.
-- Etc…
+- Texto.
+- Imagen.
+- Vídeo de YouTube.
+- Galería.
+- Botón.
+- Código HTML.
+- Columnas.
+- Citas.
+- Embeds.
 
-Una de las cosas interesantes de estos bloques es que Gutenberg nos permitirá guardarlos para poder utilizarlos en futuras ocasiones.
+En lugar de escribir todo en un único campo grande, cada pieza del contenido podía tratarse como un bloque independiente.
 
-Por ejemplo si en la mayoría de nuestras entradas incluimos un botón que redirige a nuestro formulario de contacto podemos tenerlo guardado y simplemente añadirlo en el momento que necesitemos.
+## Bloques reutilizables
 
-De esta forma nos ahorramos los pasos de introducir el botón, personalizar el color de texto y fondo, escribir el texto del botón y añadirle la dirección de enlace.
+Una de las ideas más potentes era guardar bloques para reutilizarlos.
 
-Y aun más interesante, los cambios que realicemos en ese bloque guardado, se aplica en todos los que ya hayamos introducido anteriormente.
+Por ejemplo, si en muchos posts usas un botón hacia un formulario, una llamada a la acción o una caja informativa, puedes guardarla y añadirla cuando la necesites.
 
-Así no tenemos que ir revisando todos los botones anteriores para cambiar el color o la redirection.
+Además, los cambios aplicados a un bloque reutilizable podían propagarse allí donde se hubiera insertado.
 
-Pero no te preocupes, si no aguantas la espera ya puedes probarlo.
+Eso evita revisar manualmente decenas de entradas para cambiar un texto, color o enlace.
 
-Sí has actualizado WordPress a la version 4.9.8 veras que aparece un mensaje indicando cómo probar este nuevo editor.
+## Por qué era importante
 
-Y si aun no has actualizado WordPress (deberías) puedes descargar Gutenberg y probarlo.
+Gutenberg no era solo una mejora de escritura.
 
-Gutenberg ya esta aquí, y viene con el objetivo de facilitar la experiencia de edición de contenidos y hacerla más limpia y fluida.
+Era la base para que WordPress compitiera mejor con constructores visuales y plataformas más cerradas, sin perder su ecosistema abierto.
 
-Yo llevo un tiempo probándolo y estoy encantado con este nuevo editor.
+El cambio también conectaba con una pregunta más amplia: [qué es un CMS](/blog/cms/) y qué debe permitir hoy a una persona no técnica.
 
-Si tienes alguna duda o necesitas ayuda con la instalación o funcionamiento de Gutenberg [puedes ponerte en contacto conmigo](https://ajra.typeform.com/to/OIDPUV) e intentare ayudarte.
+Un CMS moderno no puede limitarse a publicar texto plano. Tiene que permitir construir páginas ricas, reutilizar componentes y mantener consistencia.
+
+## El cambio no fue cómodo para todos
+
+Como ocurre con cualquier cambio importante, Gutenberg generó rechazo.
+
+Muchos usuarios estaban acostumbrados al editor clásico. Algunas webs dependían de plugins, shortcodes o maquetadores que no encajaban bien al principio.
+
+Por eso era importante probarlo antes de activarlo en una web de producción.
+
+## Lectura retrospectiva
+
+Gutenberg llegó para quedarse.
+
+Con WordPress 5.0 se convirtió en el editor por defecto y marcó el camino hacia la edición completa del sitio basada en bloques.
+
+Puede gustar más o menos, pero cambió la forma de construir contenidos en WordPress.
+
+Si quieres revisar tu web en WordPress, migrar contenido al editor de bloques o preparar una estructura más fácil de mantener, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

@@ -1,71 +1,94 @@
 ---
 layout: post
-title: ¿Que es Squarespace?
+title: "Qué es Squarespace y cuándo tiene sentido usarlo"
 date: 2018-08-26 10:00:00 +0300
 image: /images/110.jpg
+image_alt: "Interfaz de Squarespace para crear páginas web con plantillas y editor visual"
+description: "Squarespace es una plataforma integral para crear webs, blogs y tiendas online con hosting, plantillas, editor visual, dominio, SSL y herramientas integradas."
+resumen: "Squarespace simplifica la creación de una web al integrar diseño, hosting, CMS, formularios, analítica y comercio en una misma plataforma."
 source: AJRA-v09/_posts/2018-08-26-squarespace.md
 ---
 
-Squarespace es una compañía norteamericana que ofrece un servicio integral de creación y gestión de paginas webs.
+Squarespace es una plataforma para crear y gestionar páginas web de forma integral.
 
-En términos técnicos Squarespace es un CMS (Sistema de Gestión de Contenidos), al igual que WordPress, Blogger, Drupal, etc…
+En términos técnicos, funciona como un CMS: permite crear, editar y publicar contenido sin tener que tocar código en cada cambio.
 
-El punto fuerte de Squarespace es su sencillez, sus templates de aspecto profesional y la facilidad de construcción de paginas webs mediante el sistema de drag & drop.
+Pero su propuesta va más allá del CMS tradicional: incluye hosting, plantillas, editor visual, dominio, SSL, formularios, blog, analítica, comercio electrónico e integraciones.
 
-Normalmente cuando vas a montar una pagina web, tienes que comprar un dominio por un lado, un hosting por otro, y luego conseguir los diferentes themes y plugins.
+## Su punto fuerte
 
-El punto fuerte de Squarespace es que ellos te ofrecen todo eso de forma centralizada y gestionado desde un mismo sitio, lo cual agiliza mucho el proceso.
+El punto fuerte de Squarespace es la sencillez.
 
-Squarespace ofrece sin necesidad de recurrir a terceros la posibilidad de crear tu pagina web, tu tienda online, blog, analíticas, formularios, galerías, certificado de seguridad SSL, AMP para páginas móviles, diseño responsive, integración con servicios de terceros como por ejemplo MailChimp, etc…
+Cuando montas una web con herramientas más abiertas, normalmente tienes que elegir dominio, hosting, theme, plugins, formularios, analítica, seguridad y actualizaciones.
 
-Y todo lo sin necesidad de tener conocimientos de código, y sin necesidad de estar pendiente de actualizaciones o plugins externos.
+Squarespace centraliza muchas de esas decisiones.
 
-Vamos a darle un vistazo a Squarespace, para ver que nos ofrece y como se estructura el servicio.
+Eso reduce flexibilidad, pero también reduce fricción.
 
-Podemos dividir Squarespace en 4 grandes secciones:
+Para proyectos donde prima una web cuidada, rápida de lanzar y fácil de mantener, puede ser una muy buena opción.
 
-## 1. Menu de configuración
-Squarespace cuenta con un panel de control en formato de sidebar desde el cual podremos gestionar todo lo relacionado con nuestro sitio web.
+## 1. Menú de configuración
 
-Opciones como el Titulo de nuestra pagina web, el email de contacto, la gestión de nuestro dominio, las redes sociales que tenemos enlazadas a nuestra web, las preferencias de seguridad o el apartado de SEO entre otras.
+Squarespace cuenta con un panel desde el que gestionar elementos generales del sitio:
 
+- Título de la web.
+- Email de contacto.
+- Dominio.
+- Redes sociales.
+- Seguridad.
+- SEO.
+- Integraciones.
 
-## 2. Editor de Paginas
-El editor de paginas es desde donde podremos ir creando nuevas paginas, blogs o secciones.
+No tienes que saltar entre muchas herramientas para tocar ajustes básicos.
 
-Básicamente es donde creamos la estructura de nuestra web.
+## 2. Editor de páginas
 
-Otra curiosidad es que cada vez que creamos una pagina nueva, Squarespace nos permite indicarle a que uso va destinada dicha pagina de forma que nos ofrece una serie de estructuras adecuadas para esa pagina (en caso de no gustarnos ninguna siempre podemos comenzar una pagina en blanco).
+El editor de páginas permite crear la estructura de la web: páginas, secciones, blog, navegación y contenidos.
 
-También desde aquí crearemos los menús de navegación necesarios para nuestra web.
+Cuando creas una página nueva, Squarespace puede sugerir estructuras según el uso: presentación, contacto, servicios, portfolio, tienda, blog, etc.
 
+También puedes empezar desde una página en blanco si necesitas más control.
 
-## 3. Editor de Estilos
-El editor de estilo es la parte en la que encontramos todas las opciones relacionadas con el diseño de nuestra pagina web.
+## 3. Editor de estilos
 
-Es cierto que Squarespace incorpora un numero limitado de templates (unos 40 aproximadamente), pero desde el editor de estilo podemos modificar esos templates hasta adaptarlos a nuestras necesidades.
+El editor de estilos concentra las opciones visuales: colores, tipografías, márgenes, espaciados y ajustes de plantilla.
 
+Squarespace no ofrece la misma libertad que desarrollar una web a medida, pero su sistema de plantillas está pensado para que el resultado sea profesional sin empezar desde cero.
 
-Desde aquí podemos cambiar colores, fuentes, márgenes, etc…
-
-Y si hay alguna opción que no encontramos donde cambiar, no hay que preocuparse, tenemos una opción llamada Custom CSS desde la cual podemos añadir nuestro código CSS personalizado.
+También permite añadir CSS personalizado cuando hace falta ajustar algo más fino.
 
 ## 4. Editor de contenidos
-El Editor de contenidos es la parte que mas vamos a usar en el caso de que tengamos un blog en Squarespace.
 
-Es la parte desde la que introducimos las entradas o artículos, igual que haríamos en WordPress o en Blogger.
+El editor de contenidos es la zona que más usarás si tienes blog, portfolio, novedades o páginas que se actualizan con frecuencia.
 
-En caso de querer actualizar nuestro blog desde un dispositivo móvil o tablet, podemos hacerlo desde la app que Squarespace nos ofrece para ello.
+Desde ahí puedes crear entradas, añadir imágenes, insertar bloques, organizar categorías y mantener la web viva.
 
+Squarespace también ha tenido apps móviles para poder actualizar contenido desde un teléfono o tablet.
 
-## Precios
-Hay diferentes planes de precios, dependiendo de lo que necesites en cada caso:
+## Precios y planes
 
-1. **Sitio Web Personal:** Un sitio web simple y atractivo por $12 al mes.
-2. **Sitio Web Business:** Perfecto para empresas de todos los tamaños, por $18 al mes.
-3. **Tienda Online Básica:** Todo lo que necesitas para que tu negocio despegue, por solo $26 al mes.
-4. **Tienda Online Avanzada:** Con características avanzadas a medida que crece tu negocio, por $40 al mes.
+En aquel momento los planes se organizaban alrededor de cuatro grandes opciones:
 
-Puedes consultar las tablas de precios y características [desde aquí](https://es.squarespace.com/pricing/#websites).
+- Sitio web personal.
+- Sitio web business.
+- Tienda online básica.
+- Tienda online avanzada.
 
-En caso de que estéis interesados en probar Squarespace o de que necesitéis ayuda para importar o exportar vuestro sitio web a Squarespace podéis [contactar conmigo e intentare ayudaros](mailto:info@ajra.es).
+Los precios y nombres pueden cambiar con el tiempo, así que conviene revisar siempre la página oficial antes de contratar.
+
+## Cuándo tiene sentido Squarespace
+
+Squarespace encaja bien si quieres:
+
+- Una web visualmente cuidada.
+- Menos mantenimiento técnico.
+- Hosting y CMS en la misma plataforma.
+- Plantillas profesionales.
+- Un blog o portfolio sencillo.
+- Una tienda pequeña o media sin demasiada complejidad.
+
+No siempre será la mejor opción si necesitas lógica muy personalizada, integraciones complejas, control total de servidor o una arquitectura muy específica.
+
+Para entender mejor la decisión, conviene compararlo con otras opciones de [CMS](/blog/cms/) y con plataformas específicas como [Shopify](/blog/shopify-para-crear-tu-tienda-online-sin-pelearte-con-la-tecnologia/) si el foco principal es vender online.
+
+Si quieres revisar si Squarespace encaja con tu proyecto, migrar una web o elegir entre Squarespace, WordPress y Shopify, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
