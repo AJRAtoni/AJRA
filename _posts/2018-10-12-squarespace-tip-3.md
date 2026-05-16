@@ -1,39 +1,61 @@
 ---
 layout: post
-title: SQUARESPACE TIPS 003 — Como cambiar el Favicon de tu web
+title: "Squarespace Tips 003: cómo cambiar el favicon de tu web"
 date: 2018-10-12 10:00:00 +0300
 image: /images/116.jpg
+image_alt: "Configuración de favicon en Squarespace para cambiar el icono del navegador"
+description: "Cómo cambiar el favicon de una web en Squarespace y qué formato, tamaño y resolución conviene usar."
+resumen: "El favicon es pequeño, pero ayuda a reconocer tu web en pestañas, favoritos y marcadores. En Squarespace se puede cambiar desde los ajustes de diseño."
 source: AJRA-v09/_posts/2018-10-12-squarespace-tip-3.md
 ---
 
-En el tip de hoy vamos a ver como cambiar el Favicon de tu pagina de **Squarespace**.
+En este Squarespace Tip vamos a ver cómo cambiar el favicon de tu web.
 
-La primero de todo es explicar que es un Favicon :
+El favicon es uno de esos detalles pequeños que ayudan a que una web parezca más cuidada y reconocible.
 
-Un favicon, o ícono de navegador, es una pequeña imagen cuadrada que aparece junto al título de la página web en las pestañas del navegador y en otros lugares en la web.
+## Qué es un favicon
 
-Agregar un favicon personalizado a tu sitio web hace que lo puedas reconocer en un navegador con muchas pestañas o marcadores.
+Un favicon, o icono de navegador, es una pequeña imagen cuadrada que aparece junto al título de la página en las pestañas del navegador, marcadores y otros lugares del sistema.
 
-Por defecto, todos los sitios de **Squarespace** comienzan con un favicon estándar en forma de cubo. Pero tenemos la posibilidad de cambiarlo y agregar nuestro propio favicon personalizado.
+Agregar un favicon personalizado ayuda a identificar tu web cuando el usuario tiene muchas pestañas abiertas.
 
-## Como agregar tu propio favicon en Squarespace.
+Por defecto, los sitios de [Squarespace](/blog/squarespace/) podían mostrar un favicon estándar, pero conviene sustituirlo por uno propio.
 
-- En el **Menú principal**, haz clic en **Design (Diseño)** y luego haz clic en **Logo & Title (Logo y Título)**.
-- Desplázate hasta **Browser Icon (Favicon)** y arrastra tu imagen al cargador de imágenes o haz clic en el cargador para seleccionar un archivo de la computadora.
+## Cómo añadir tu favicon en Squarespace
 
-Y listo, con estos 3 sencillos pasos ya tendremos en nuestra web un favicon personalizado, que ayudara a identificar nuestra pagina web entre las pestañas del navegador de un solo vistazo.
+Los pasos son sencillos:
+
+1. En el menú principal, entra en **Design** o **Diseño**.
+2. Abre **Logo & Title** o **Logo y título**.
+3. Busca **Browser Icon (Favicon)**.
+4. Arrastra tu imagen al cargador o selecciona el archivo desde tu ordenador.
+
+Con esto tu web ya tendrá un favicon personalizado.
 
 ## Recomendaciones.
 
 ### Resolución de imagen
-El tamaño recomendado para subir el favicon es de 300px x 300px, aunque por lo general en la mayoría de navegadores se muestra a solo 16px x 16px.
+
+El tamaño recomendado para subir el favicon era de 300 x 300 px, aunque en muchos navegadores se muestre a tamaños mucho más pequeños, como 16 x 16 px.
+
+Lo importante es que sea cuadrado, simple y reconocible en tamaño reducido.
 
 ### Formato de archivo
-Recomendamos que utilices un archivo .ico o .png como imagen favicon. Algunas versiones de Internet Explorer pueden tener problemas para mostrar una imagen .png como favicon.
+
+Puedes usar `.ico` o `.png`.
+
+El formato `.ico` era más compatible con navegadores antiguos, pero `.png` suele funcionar bien en la mayoría de casos modernos.
 
 ### Tamaño del archivo
-Los archivos de imagen de favicon no pueden superar los 100 KB.
 
----
+El archivo no debería superar los 100 KB.
 
-Y recuerda, si tienes algún problema [puedes ponerte en contacto conmigo](mailto:info@ajra.es) y tratare de ayudarte.
+En un favicon no necesitas una imagen pesada. Cuanto más simple, mejor.
+
+## Por qué no conviene ignorarlo
+
+El favicon no va a transformar tu estrategia digital, pero sí forma parte de la percepción de marca.
+
+Igual que el [atributo ALT](/blog/Atributo-ALT/) cuida accesibilidad y contexto en imágenes, un favicon cuida reconocimiento visual y detalle de interfaz.
+
+Si quieres revisar los detalles visuales, SEO o configuración básica de tu web en Squarespace, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

@@ -1,44 +1,66 @@
 ---
 layout: post
-title: SQUARESPACE TIPS 002 — Como usar tu propia fuente en Squarespace
+title: "Squarespace Tips 002: cómo usar una fuente propia"
 date: 2018-10-11 10:00:00 +0300
 image: /images/115.jpg
+image_alt: "Editor de CSS personalizado de Squarespace para cargar una fuente propia"
+description: "Cómo cargar una fuente personalizada en Squarespace y aplicarla con CSS a títulos u otros elementos de la web."
+resumen: "Usar una fuente propia en Squarespace es posible subiendo el archivo y declarando la tipografía con @font-face en CSS personalizado."
 source: AJRA-v09/_posts/2018-10-11-squarespace-tip-2.md
 ---
 
-Squarespace tiene decenas de fuentes que podemos utilizar en nuestros sitios web.
+Squarespace ofrece muchas fuentes listas para usar, pero a veces un proyecto necesita una tipografía concreta.
 
-Pero en ocasiones nuestro clientes quieren usar una fuente en concreto o tienen su propia fuente personalizada y desean usar esa, así que vamos a ver los pasos a seguir en esa situación.
+Puede ser una fuente de marca, una tipografía comprada o un archivo personalizado que el cliente quiere mantener para reforzar identidad visual.
 
-Vamos a suponer que tenemos una fuente llamada “cubodekubrick” y la queremos usar para los títulos H1 de nuestra web.Lo primero que tenemos que hacer es subir la fuente a Squarespace, y luego mediante código CSS haremos que esa fuente se muestre en la web.
-Para ello tenemos que ir al menu de Squarespace **Diseño / CSS Personalizado**.
+En ese caso podemos cargar la fuente y aplicarla con CSS personalizado.
 
+## Subir la fuente
 
-En esa ventana usaremos la opción **Gestionar archivos externos** y subiremos nuestra fuente “cubodekubrick”.
+Vamos a suponer que tenemos una fuente llamada `cubodekubrick` y queremos usarla en los títulos `h1` de la web.
 
+Lo primero es subir el archivo de la fuente a Squarespace:
 
-Y luego en el espacio destinado para usar código CSS personalizado copiaremos y pegaremos el siguiente código.
+`Diseño > CSS personalizado > Gestionar archivos externos`
+
+Desde ahí subimos el archivo de la fuente.
+
+## Declarar la fuente con CSS
+
+Después añadimos el CSS necesario en el área de CSS personalizado:
 
 ```
-@font-face { font-family: ‘cubodekubrick’; src: url(‘//xxxxxxxxxxxxxxxxxxxx’); } h1 { font-family: ‘cubodekubrick ‘; }
+@font-face {
+  font-family: "cubodekubrick";
+  src: url("//xxxxxxxxxxxxxxxxxxxx");
+}
+
+h1 {
+  font-family: "cubodekubrick";
+}
 ```
 
-Lo único que tenemos que cambiar de ese código es donde pone xxxxxxxxxxxxxxxxxxxx.
+Lo único que hay que cambiar es `xxxxxxxxxxxxxxxxxxxx`, que debe ser la URL generada por Squarespace para la fuente que acabamos de subir.
 
-Ahí tenemos que poner la url que Squarespace ha creado para la fuente que hemos subido.
+## Insertar la URL del archivo
 
-Si no sabemos cual es la url podemos seguir unos sencillos pasos:
+Si no sabes cuál es la URL, puedes hacerlo así:
 
-1. Hacer doble click sobre las xxxxxxxxxxxxxxxxxxx para seleccionarlas.
-2. Hacer click en el botón **Gestionar archivos externos**.
-3. En la ventana que se abre debemos seleccionar la fuente que hemos subido.
+1. Selecciona `xxxxxxxxxxxxxxxxxxxx` dentro del código.
+2. Haz clic en **Gestionar archivos externos**.
+3. Selecciona la fuente que has subido.
 
-Y listo, con estos pasos veremos como las xxxxxxxxxxxxxxxxxxxx se habrán transformado en la url de nuestra fuente.
+Squarespace insertará la URL del archivo en el CSS.
 
-Ahora ya podemos guardar y salir.
+Guardas los cambios y la fuente debería aplicarse a todos los títulos `h1`.
 
-Nuestra fuente "cubodekubrick" se estará mostrando en todos los títulos H1 de nuestra web.
+## Cuidado con rendimiento y licencias
 
-Tranquilos, se que en ocasiones, cuando vemos que hay que tocar código puede dar un poco de miedo, pero siguiendo estos pasos podréis conseguirlo sin problemas.
+Antes de subir una fuente, revisa dos cosas:
 
-En caso de tener cualquier duda [podéis contactar conmigo](mailto:info@ajra.es) e intentare ayudaros.
+- Que tienes licencia para usarla en web.
+- Que el archivo no pesa demasiado.
+
+Las fuentes también afectan al rendimiento, y la velocidad web importa para experiencia y SEO. Si necesitas medirlo, puedes revisar la guía sobre [PageSpeed](/blog/pagespeed/).
+
+Si quieres personalizar tu web en Squarespace sin romper diseño, rendimiento o SEO, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

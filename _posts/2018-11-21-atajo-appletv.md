@@ -1,38 +1,66 @@
 ---
 layout: post
-title: Atajo de Siri para encender el Apple TV
+title: "Atajo de Siri para encender el Apple TV con la voz"
 date: 2018-11-21 10:00:00 +0300
 image: /images/117.png
+image_alt: "Atajo de Siri para encender un Apple TV mediante comando de voz"
+description: "Cómo crear un Atajo de Siri para encender el Apple TV usando su IP, número de serie y una URL local."
+resumen: "Los Atajos de Siri permiten automatizar tareas pequeñas. Encender el Apple TV con la voz fue un buen ejemplo de automatización doméstica sencilla."
 source: AJRA-v09/_posts/2018-11-21-atajo-appletv.md
 ---
 
-Ya hace un tiempo que Apple lanzo la app **Atajos de Siri**, la cual nos permite mediante una programación básica, crear atajos de tareas mas complejas o recurrentes.
+Apple lanzó Atajos de Siri para permitir automatizaciones sencillas desde iOS.
 
-Personalmente estoy con los Atajos de Siri y son muchos los que uso a diario en mis dispositivos iOS, desde programar mensajes recurrentes dependiendo de nuestra ubicación y/o tiempo, edición de imágenes en lotes, conversión de archivos JPG en PDF o por ejemplo el que os traemos hoy, encender el Apple TV mediante un comando de voz.
+La app permite crear pequeñas secuencias de acciones para tareas repetitivas: procesar imágenes, convertir archivos, lanzar rutinas, abrir apps o controlar dispositivos.
 
-Vamos a ver paso a paso como crear un Atajo de Siri que nos permita encender nuestra TV mediante la voz, para ello vamos a necesitar:
+En este caso, vamos a usarla para encender el Apple TV con un comando de voz.
 
-Lo primero que vamos a necesitar es el numero de serie de nuestro Apple TV y su dirección IP.
+## Qué necesitas
 
-Eso lo podemos ver desde **AJUSTES > GENERAL > INFORMACIÓN** y debería aparecer una pantalla como esta:
+Para crear este atajo necesitas dos datos del Apple TV:
 
+- Número de serie.
+- Dirección IP local.
 
-Apuntamos esos dos datos, ya que los necesitaremos mas adelante.
+Puedes encontrarlos en:
 
-Ahora vamos a seguir estos sencillos pasos:
+`Ajustes > General > Información`
 
+Apunta ambos datos porque los usarás en la URL del atajo.
 
+## La URL local
 
+El atajo utiliza una URL con esta estructura:
+
+```text
 http://TUIP:3689/?pairing-guid=NUMEROSERIEAPPLETV#
+```
 
+Debes sustituir:
 
+- `TUIP` por la dirección IP del Apple TV.
+- `NUMEROSERIEAPPLETV` por el número de serie.
 
-Listo, si has seguido correctamente los pasos anteriores, deberías tener un Atajo como este:
+## Crear el atajo
 
+En Atajos, crea una acción que abra esa URL.
 
-Ahora solo tenemos que hacer tal en el icono indicado en la siguiente captura y desde ahí podemos poner el nombre que deseemos a nuestro atajo y el comando de voz con el que queremos activarlo mediante Siri.
+A continuación puedes asignarle un nombre claro, por ejemplo:
 
+`Encender Apple TV`
 
-Con estos pasos ya tendrás tu **Atajo de Siri** listo y podrás encender tu TV solo con decir “ Siri enciende la Tele “
+Después configura la frase de Siri que quieres usar, por ejemplo:
 
-Este es solo uno de los muchos **Atajos de Siri** que podéis programar, si estas interesado en conocer mas **Atajos de Siri** puedes [contactar conmigo](mailto:info@ajra.es).
+`Siri, enciende la tele`
+
+Si todo está bien configurado y el Apple TV está en la misma red, el atajo debería enviar la petición y activar el dispositivo.
+
+## Por qué me gustan los Atajos
+
+Atajos es interesante porque acerca la automatización a usuarios que no quieren programar.
+
+No sustituye a sistemas domóticos avanzados, pero permite resolver pequeños problemas cotidianos con bastante flexibilidad.
+
+También encaja muy bien con flujos de productividad personal, como los que he ido comentando al hablar de [GTD](/blog/gtd-flujo-de-trabajo-y-productividad-sin-estres/) o del iPad como herramienta de trabajo.
+
+Si quieres automatizar tareas repetitivas en iPhone, iPad, Mac o herramientas de trabajo, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
