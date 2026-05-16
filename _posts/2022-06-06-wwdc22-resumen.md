@@ -1,100 +1,82 @@
 ---
 layout: post
-title: WWDC22 - Resumen de todo lo presentado
+title: "WWDC22: resumen de iOS 16, iPadOS 16, macOS Ventura y M2"
 date: 2022-06-06 23:00 +0300
 image: /images/264.webp
+image_alt: "Resumen de la WWDC22 con iOS 16, iPadOS 16, macOS Ventura y chip M2"
+description: "Resumen de la WWDC22: iOS 16, iPadOS 16, watchOS 9, macOS Ventura, Stage Manager, Passkeys, Freeform, M2 y nuevo MacBook Air."
+resumen: "La WWDC22 fue una keynote cargada: iOS 16 renovó la pantalla de bloqueo, iPadOS apostó por Stage Manager y Apple presentó el chip M2."
 source: AJRA-v09/_posts/2022-06-06-wwdc22-resumen.md
 ---
 
-Hoy ha dado comienzo la WWDC22, la Conferencia Mundial de Desarrolladores de Apple, una semana llena de sesiones, videos y presentaciones del software (y hardware) que esta por llegar.
+Comenzó la **WWDC22**, la conferencia anual de desarrolladores de Apple.
 
-Como entenderás es una semana en la que voy a estar hasta arriba de trabajo, viendo videos sin parar y probando todas las nuevas funcionen que presenten. Pero he querido crear un resumen con los puntos más interesantes de todo lo que ha presentado Apple, así mañana tendrás algo de lo que hablar en la oficina.
+Fue una semana de sesiones, vídeos y betas, pero la keynote inaugural ya dejó muchas novedades importantes: iOS 16, iPadOS 16, watchOS 9, macOS Ventura, el chip M2 y un MacBook Air rediseñado.
 
----
+## iOS 16
 
-Durante la WWDC22 se han presentado iOS 16, iPadOS 16, watchOS 9, macOS Ventura, el nuevo M2 y los nuevos MacBook Air con rediseñados, estas con algunas de las novedades que traen:
-
-**Nueva pantalla de bloqueo** personalizable y nueva gestión de las notificaciones en los iPhone.
+La pantalla de bloqueo del iPhone recibió una personalización mucho más profunda, con widgets, estilos y una nueva gestión de notificaciones.
 
 <figure>
-<img src="/images/264-1.jpeg" alt="" />
+<img src="/images/264-1.jpeg" alt="Pantalla de bloqueo personalizable en iOS 16" />
 </figure>
 
-**Fototeca Compartida en iCloud**: puedes compartir tu biblioteca de fotos con hasta 5 personas, y las ediciones en fotos también son compartidas.
+También llegaron la Fototeca Compartida de iCloud, edición y deshacer envío en Mensajes, SharePlay desde Mensajes, Live Text en vídeo y la posibilidad de separar sujetos del fondo en imágenes.
 
 <figure>
-<img src="/images/264-2.jpeg" alt="" />
+<img src="/images/264-2.jpeg" alt="Fototeca Compartida de iCloud presentada en iOS 16" />
 </figure>
-
-**Mensajes:** ahora puedes editar o deshacer mensajes (hasta 15 minutos después de mandarlos).
 
 <figure>
-<img src="/images/264-3.jpeg" alt="" />
+<img src="/images/264-3.jpeg" alt="Novedades de Mensajes en iOS 16" />
 </figure>
 
-**SharePlay desde Mensajes:** Ahora puede usar SharePlay desde mensajes, por ejemplo puedes comentar una serie mientras la ves al mismo tiempo que tus colegas.
+## Mail, Safari y seguridad
 
-**Mail:** La actualización de Mail ha traído todo lo que llevaba esperando mucho tiempo, como la posibilidad de Deshacer un envío, programarlo un mensaje para que se envíe mas tarde, poner un recordatorio para volver a un email mas tarde o añadir enlaces con previsualización previa.
+Mail recibió justo varias funciones que llevaba tiempo esperando: programar envíos, deshacer envío, recordar correos más tarde y previsualizaciones de enlaces.
 
-**Safari y las llaves de Acceso**: un nuevo método de inicio de sesión cifrado de extremo a extremo.
+Después publiqué un repaso más concreto en [novedades de Mail en WWDC22](/blog/novedades-mail/).
 
-**Separar sujeto del fondo:** Esto es una de esas cosas que parecen magia. Ahora puedes separar el sujeto de una imagen quitando el fondo.
+Safari presentó las llaves de acceso, un sistema de inicio de sesión cifrado de extremo a extremo que anticipaba un futuro con menos contraseñas tradicionales.
 
-**Texto en vivo para videos:** Podremos pausar un video para poder copiar el texto que aparezca en cualquier fotograma.
+Apple también anunció respuestas de seguridad más rápidas, sin tener que esperar siempre a una actualización completa del sistema operativo.
+
+## iPadOS 16 y macOS Ventura
+
+iPadOS 16 y macOS Ventura compartieron una de las novedades más llamativas: **Stage Manager**.
+
+Por primera vez, el iPad recibía ventanas superpuestas y una gestión de multitarea más cercana al escritorio.
+
+También se anunció compatibilidad mejorada con monitores externos y apps de iPadOS con prestaciones de escritorio, justo dos de los puntos que pedía en mi lista de [deseos para iPadOS 16](/blog/deseos-ipados16/).
+
+## Más novedades
+
+La keynote también incluyó:
+
+- Control de medicación en la app Salud.
+- Fitness para iPhone.
+- App Casa rediseñada.
+- Mejoras en Mapas.
+- Seguimiento de pedidos en Wallet.
+- Freeform, una app de lienzo colaborativo.
+- Game Center rediseñado.
+- Handoff en FaceTime.
+- Cámara de Continuidad para usar el iPhone como webcam del Mac.
+- Metal 3 para juegos.
+- Ajustes del Sistema rediseñado en macOS.
 
 <figure>
-<img src="/images/264-4.jpeg" alt="" />
+<img src="/images/264-4.jpeg" alt="Live Text en vídeo durante la presentación de iOS 16" />
 </figure>
 
-**Mejoras en Dictado:** el teclado no se ocultado cuando usamos dictado y podemos ir intercalando el uso de los dos. Lo mejor es que el sistema se ocupara de añadir los signos de puntuación de forma automática a medida que hablamos.
+## M2 y nuevo MacBook Air
 
-**Mapas:** posibilidades de preparar rutas con varias paradas.
-
-**Tracking de pedidos**: La app Wallet te muestra los recibos de tus compras y te permite hacer un seguimiento de tus pedidos comprados con Apple Pay.
-
-**Nueva app de Casa rediseñada:** La App Casa se ha renovado por completo y ahora es mas eficiente y fiable que nunca.
-
-**Control de la medicación en la App Salud**
-
-**App Fitness llega al iPhone**
-
-**Mejor gestión de Familia**
-
-**Muchas mejoras en CarPlay**
-
-**Seguridad:** Ahora las actualizaciones de seguridad llegaran aun más rápido, no sera necesario esperar a una actualización del sistema operativo.
-
-**Freeform** una nueva app de productividad que facilitara el intercambio de ideas y el trabajo en equipo. Se trata de un lienzo infinito en el que puedes tomar notas, compartir archivos, añadir enlaces, documentos, audios y videos.
-
-**Game Center** rediseñado y mostrando más información y de forma mas clara.
-
-**Handoff en FaceTime** ahora puedes comenzar una llamada en el iPhone y pasarla al Mac o al iPad con solo un toque.
-
-**Stage Manager:** Esto llega tanto a macOS como a iPadOS y es toda una revolución en el modo de trabajar con multiples ventanas. La multitarea nunca había sido tan fácil. Ahora puedes cambiar el tamaño de las ventanas según lo que estés haciendo y, por primera vez en el iPad, verlas superpuestas.
-
-**Compatibilidad de iPadOS con monitores externos**.
-
-**Apps para iPadOS con prestaciones de escritorio**.
-
-**Álbumes Ocultos y Eliminados vienen por defecto bloqueado** bajo FaceID.
-
-**Camara de Continuidad en macOS**: podemos usar nuestro iPhone como cámara web en macOS, ofreciendo encuadre centrado, luz de estudio, modo retrato y la sorprendente vista cenital.
-
-**Metal 3** ofrece mejores prestaciones que permiten a los desarrolladores crear jugos aun mas sorprendentes.
-
-**Ajustes del Sistema ha sido completamente rediseñado** para ofrecer un look más actual en macOS.
-
-**Nuevo MacBook Air completamente rediseñado y con el nuevo chip M2**
+Apple también presentó el chip **M2** y un nuevo MacBook Air completamente rediseñado.
 
 <figure>
-<img src="/images/264-5.jpeg" alt="" />
+<img src="/images/264-5.jpeg" alt="MacBook Air rediseñado con chip M2 presentado en WWDC22" />
 </figure>
 
+La WWDC22 dejó claro que Apple quería empujar el software hacia productividad, colaboración y seguridad, mientras seguía avanzando en Apple Silicon.
 
----
-
-Estas son las principales novedades que se han presentado en la Keynote inaugural de la WWDC22.
-
-Durante los próximos días ire creando nuevos posts y videos en los que mostrar más en detalle cada una de las características y funcionalidades qué Apple ha presentado.
-
-Y recuerda que si quieres preguntarme par alguna de las novedades en concreto [puedes ponerte en contacto conmigo](https://ajra.typeform.com/to/OIDPUV) sin ningún tipo de problema.
+Si quieres revisar qué novedades de Apple afectan a tu trabajo, tus dispositivos o tu web, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

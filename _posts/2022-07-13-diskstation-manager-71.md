@@ -1,16 +1,38 @@
 ---
 layout: post
-title: DiskStation Manager 7.1
+title: "DiskStation Manager 7.1: actualización para NAS Synology"
 date: 2022-07-13 10:00:00 +0300
 image: /images/268.webp
+image_alt: "DiskStation Manager 7.1 de Synology para gestionar un NAS"
+description: "Synology lanzó DiskStation Manager 7.1 con mejoras de administración, rendimiento, seguridad y soporte para sus NAS."
+resumen: "DSM 7.1 reforzaba lo que hace atractivo a un NAS Synology: administración clara, fiabilidad, seguridad y control local de archivos."
 source: AJRA-v09/_posts/2022-07-13-diskstation-manager-71.md
 ---
 
-Desde Synology se ha anunciado el lanzamiento y actualización de DiskStation Manager 7.1, el sistema operativo de los NAS de Synology. Con esta nueva versión, los usuarios podremos disfrutar de unas prestaciones y características mejoradas, así como de un mayor rendimiento y fiabilidad.
+Synology anunció **DiskStation Manager 7.1**, el sistema operativo de sus NAS.
 
-Entre los principales cambios y mejoras que se han introducido en DiskStation Manager 7.1, destacan una interfaz de usuario mejorada, unas funciones de administración más potentes y un mayor soporte para los dispositivos móviles. Todo ello sin olvidar la seguridad, que sigue siendo una de las principales preocupaciones de la marca.
+Un NAS no es solo un disco duro conectado a la red. Bien configurado, puede ser almacenamiento central, copia de seguridad, nube privada, servidor multimedia y herramienta de trabajo.
 
-De esta forma, Synology se confirma como una de las mejores opciones a la hora de buscar un NAS para el hogar o la oficina. Si aún no tienes uno, esta es una buena oportunidad para hacerte con uno de los mejores del mercado.
+## Qué aportaba DSM 7.1
 
-<a href="https://www.synology.com/en-us/DSM71" class="cta-button button button—small" style="display: flex;">DSM 7.1</a>
+La actualización prometía:
 
+- Mejoras de rendimiento.
+- Más fiabilidad.
+- Administración más clara.
+- Mejor soporte para dispositivos móviles.
+- Refuerzo de seguridad.
+
+Para un hogar avanzado o una pequeña oficina, estas mejoras importan porque el NAS suele guardar información sensible: documentos, fotos, backups y proyectos.
+
+## Copias y control local
+
+La nube es cómoda, pero no debería ser la única copia.
+
+Ya lo comenté al hablar de [copias de seguridad en Google](/blog/copias-seguridad-google/) y de servicios que cambian condiciones, como [Amazon Cloud Drive](/blog/amazon-ilimitado/).
+
+Un NAS bien mantenido puede formar parte de una estrategia más sana: datos locales, copias externas y menos dependencia de un único proveedor.
+
+Puedes ver DSM 7.1 en la [web de Synology](https://www.synology.com/en-us/DSM71).
+
+Si quieres revisar copias de seguridad, NAS o almacenamiento para casa u oficina, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

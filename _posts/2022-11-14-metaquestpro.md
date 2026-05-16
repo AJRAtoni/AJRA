@@ -1,32 +1,42 @@
 ---
 layout: post
-title: Meta Quest Pro
+title: "Meta Quest Pro: realidad mixta, trabajo y metaverso"
 date: 2022-11-14 10:00:00 +0300
-description: El nuevo y más avanzado visor de VR de Meta, las Meta Quest Pro.
+description: "Meta Quest Pro fue el visor avanzado de Meta para realidad mixta, trabajo colaborativo y experiencias inmersivas."
 image: /images/271.webp
+image_alt: "Meta Quest Pro como visor avanzado de realidad mixta"
+resumen: "Meta Quest Pro apuntaba menos al juego masivo y más a productividad, colaboración y realidad mixta, aunque su precio la dejaba en un nicho claro."
 source: AJRA-v09/_posts/2022-11-14-metaquestpro.md
 ---
 
-Ya está a la venta el nuevo y más avanzado visor de VR de Meta, las **Meta Quest Pro**.
+Meta puso a la venta **Meta Quest Pro**, su visor más avanzado de realidad virtual y realidad mixta en aquel momento.
 
-Meta ya consiguió popularizar la realidad virtual gracias a las dd y ahora han anunciado un nuevo modelo de gafas de realidad virtual, las **Meta Quest Pro**, que prometen llevar la inmersión a un nivel superior.
+La compañía ya había popularizado la VR de consumo con Quest 2, pero Quest Pro iba por otro camino: más ambición, más sensores y un precio mucho más alto.
 
-Superior en cuanto a características y en cuanto a precio, ya que cuestan $1,499.99 y ya [se pueden comprar desde aquí](https://www.meta.com/us/es/quest/quest-pro/).
+Costaba 1.499,99 dólares, así que no era un dispositivo para todo el mundo.
 
+## Qué prometía
 
-Las **Meta Quest Pro** están pensadas para mejorar nuestra experiencia en la realidad virtual y el metaverso, y nos prometen una forma completamente nueva de trabajar, crear y colaborar.
-Esto se traduce en una mayor resolución y un campo de visión más amplio, así como una mejora en la iluminación y el contraste.
+Meta Quest Pro estaba pensada para trabajar, crear y colaborar en entornos inmersivos.
 
-Las gafas también se han diseñado para ser más cómodas y ligeras, y cuentan con una serie de ajustes para que se adapten a la perfección a cualquier tipo de rostro.
+Incorporaba mejoras de pantalla, ergonomía, sensores y passthrough a color, una diferencia importante frente al blanco y negro de Quest 2.
 
-<img src="/images/271-1.webp"> 
+<figure>
+<img src="/images/271-1.webp" alt="Meta Quest Pro con visor y mandos rediseñados" />
+</figure>
 
-No quiero aburriros con números y datos, simplemente comentar que las Meta Quest Pro incorporan 10 sensores (5 hacia fuera y 5 hacia adentro) lo que ayuda a captar más información y ofrecer una mayor sensación de inmersión.
+También incluía 10 sensores, cinco hacia fuera y cinco hacia dentro, para captar más información del entorno y del usuario.
 
-Las nuevas cámaras que incorpora hacen que las Meta Quest 2 puedan ofrecernos un passthrough a todo color, a diferencia del blanco y negro de las Quest 2.
+Los mandos se rediseñaron con sensores propios para posicionamiento 3D en 360 grados, mejorando precisión y ergonomía.
 
-Los mandos también han mejorado, ahora incorporan 3 sensores integrados que consiguen posicional los mandos en 3D en un rango de 360º, también se ha mejorado un poco el diseño, la ergonomía y los sensores hapticos.
+## La lectura retrospectiva
 
-Como curiosidad destacar que estos mandos también serán compatibles con las Meta Quest 2 y podrán comprarse por separado.
+Quest Pro fue interesante porque mostraba la apuesta de Meta por una informática más inmersiva, pero también sus límites.
 
-<a href="https://www.meta.com/us/es/quest/quest-pro/" class="cta-button button button—small" style="display: flex;">META QUEST PRO</a>
+El concepto de metaverso necesitaba hardware mejor, software útil y casos de uso claros.
+
+La parte tecnológica avanzaba, pero la adopción dependía de algo más básico: que trabajar o colaborar dentro de un visor fuera mejor que hacerlo en una pantalla tradicional.
+
+Puedes ver más en la [web de Meta Quest](https://www.meta.com/quest/).
+
+Si quieres analizar una tecnología emergente, producto o narrativa de lanzamiento, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

@@ -1,55 +1,54 @@
 ---
 layout: post
-title: Medicamentos en iOS 16
+title: "Medicamentos en iOS 16: recordatorios dentro de Salud"
 date: 2022-07-07 10:00:00 +0300
 image: /images/266.webp
+image_alt: "Función Medicamentos de iOS 16 dentro de la app Salud"
+description: "iOS 16 añadió Medicamentos en la app Salud para registrar medicación, programar recordatorios y compartir información con profesionales sanitarios."
+resumen: "Medicamentos en iOS 16 era una función sencilla, pero muy útil: registrar tomas, recibir avisos y llevar mejor control de tratamientos recurrentes."
 source: AJRA-v09/_posts/2022-07-07-medicamentos-ios16.md
 ---
 
-Apple ha incorporado una nueva funcionalidad en iOS 16, dentro de la app Salud tenemos la opción “Medicamentos”.
+Apple incorporó una nueva función en iOS 16 dentro de la app Salud: **Medicamentos**.
 
-Esta nueva característica de Medicamentos nos ayudará a mantener un orden y control en los medicamentos que tomas periódicamente.
-Podremos añadir nuestros medicamentos y establecer recordatorios para tomarlos, así como ver recomendaciones y contraindicaciones. Además, podremos exportar y compartir esta información con nuestro médico. 
+La idea era ayudar a registrar qué medicación tomas, con qué frecuencia y cuándo toca cada dosis.
 
----
+No sustituye el criterio médico ni las indicaciones de un profesional sanitario, pero puede ser una ayuda útil para no olvidar tomas.
 
-El uso de esta nueva funcionalidad es muy sencillo:
+## Añadir medicamentos
 
-## Paso 1: Añadir tus medicamentos.
-Tan solo hay que abrir la aplicación de Salud y seleccionar "Medicamentos" en la parte inferior de la pantalla. Luego, tocamos el signo "+" en la esquina superior derecha de la pantalla. Ahora, debemos completar la información sobre el medicamento. Hay que incluir el nombre del medicamento, la dosis, la frecuencia con la que lo tomamos y el motivo por el cual lo estamos tomando. 
+El primer paso es abrir Salud, entrar en Medicamentos y añadir la información básica: nombre, dosis, frecuencia y motivo.
 
 <figure>
-<img src="/images/266-2.webp" alt="" />
+<img src="/images/266-2.webp" alt="Añadir un medicamento en la app Salud de iOS 16" />
 </figure>
 
+## Configurar recordatorios
 
-## Paso 2: Configurar recordatorios periódicos.
-Una vez que hemos añadido toda la información sobre el medicamento, tenemos que tocar en el botón "Configurar recordatorio" en la parte inferior de la pantalla. En esta pantalla, podemos configurar un recordatorio para que se nos notifique cada vez que necesitamos tomar el medicamento. También podemos establecer una alarma para que suene antes de que necesitemos tomar el medicamento. 
+Después puedes configurar avisos periódicos para que el iPhone recuerde cuándo toca tomar cada medicamento.
 
 <figure>
-<img src="/images/266-3.webp" alt="" />
+<img src="/images/266-3.webp" alt="Configurar recordatorios de medicación en iOS 16" />
 </figure>
 
+## Revisar información y contraindicaciones
 
-## Paso 3: Ver recomendaciones y contraindicaciones.
-La aplicación de Salud también nos muestra recomendaciones y contraindicaciones para cada medicamento que hemos añadido. Si no estamos seguros de si podemos tomar un medicamento, tendremos que consultar esta sección para obtener más información. 
-(Como podemos ver este apartado sigue sin traducir en la beta de iOS 16)
+La app también mostraba información relacionada con medicamentos, recomendaciones e interacciones.
+
+En la beta todavía había partes sin traducir, pero la intención era clara: centralizar información básica dentro de Salud.
 
 <figure>
-<img src="/images/266-4.webp" alt="" />
+<img src="/images/266-4.webp" alt="Información de medicamentos y posibles interacciones en iOS 16" />
 </figure>
 
+## Compartir la lista
 
-## Paso 4: Exportar y compartir tus medicamentos.
-Si necesitamos que nuestro médico conozca la lista de medicamentos que estamos tomando, podemos exportarla y enviarla a través de correo electrónico o mensaje de texto. Para exportar la lista, toque el botón "Compartir" en la esquina inferior derecha de la pantalla. Luego, seleccionamos la forma en que queremos compartirla en la lista.
+También se podía exportar la lista de medicamentos para compartirla con un médico o familiar.
 
 <figure>
-<img src="/images/266-5.webp" alt="" />
+<img src="/images/266-5.webp" alt="Compartir lista de medicamentos desde la app Salud de iOS 16" />
 </figure>
 
+Esta función encajaba con otras novedades de salud presentadas en [WWDC22](/blog/wwdc22-resumen/) y con una tendencia clara: el iPhone como herramienta de seguimiento personal.
 
----
-
-Como ves Apple nos ha traido una funcionalidad que puede parecer relativamente sencilla, pero que sera de gran utilidad a muchas personas.
-
-¿Tu vas a usarla?
+Si quieres configurar recordatorios, salud digital o ajustes básicos de iPhone para el día a día, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

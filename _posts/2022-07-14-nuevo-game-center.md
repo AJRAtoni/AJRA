@@ -1,22 +1,40 @@
 ---
 layout: post
-title: Rediseño del Game Center
+title: "Game Center se rediseñó en iOS 16, iPadOS 16 y macOS Ventura"
 date: 2022-07-14 10:00:00 +0300
 image: /images/269.webp
+image_alt: "Rediseño de Game Center en iOS 16, iPadOS 16 y macOS Ventura"
+description: "Apple rediseñó Game Center para mostrar mejor actividad de amigos, progreso, tablas de clasificación y logros en iOS 16, iPadOS 16 y macOS Ventura."
+resumen: "El rediseño de Game Center intentó devolver visibilidad a una capa social de juegos que llevaba años algo escondida dentro del ecosistema Apple."
 source: AJRA-v09/_posts/2022-07-14-nuevo-game-center.md
 ---
 
-Durante la WWDC se anunció que Game Center iba a tener un rediseño en iOS 16, iPadOS 16 y macOS Ventura.
+Durante la WWDC22, Apple anunció un rediseño de **Game Center** para iOS 16, iPadOS 16 y macOS Ventura.
 
-El Game Center fue introducido por primera vez en iOS 4 como una forma de conectar a los jugadores y permitirles jugar juegos en línea. Sin embargo, el diseño del Game Center nunca ha sido muy atractivo y, con el paso de los años, ha quedado obsoleto.
+Game Center nació en iOS 4 como una forma de conectar jugadores, logros y partidas online, pero durante años quedó bastante escondido.
 
-<img src="/images/269-1.webp"> 
+<figure>
+<img src="/images/269-1.webp" alt="Nueva interfaz de Game Center con actividad de amigos y juegos" />
+</figure>
 
-Afortunadamente ahora, el Game Center finalmente ha sido rediseñado para ser más atractivo y funcional. En primer lugar, el nuevo diseño es más minimalista y se asemeja más a la interfaz de usuario de iOS. 
-En segundo lugar, el nuevo diseño permite a los jugadores ver rápidamente qué juegos tienen sus amigos y cómo están progresando. También se han añadido nuevas funciones, como la posibilidad de ver las tablas de clasificación de los juegos y el historial de logros.
+## Qué cambiaba
 
-En general, el nuevo diseño del Game Center es un gran paso adelante y mejora significativamente la experiencia de usuario. Esperamos que el nuevo diseño inspire a más desarrolladores a utilizar el Game Center para sus juegos y que la plataforma se convierta en un lugar más popular para los jugadores.
+El rediseño buscaba hacerlo más visible y útil:
 
+- Actividad de amigos.
+- Progreso en juegos.
+- Tablas de clasificación.
+- Historial de logros.
+- Integración más clara dentro del sistema.
 
+No era solo una cuestión estética. Apple necesitaba que Game Center volviera a sentirse como una capa social real para juegos.
 
-<a href="https://developer.apple.com/game-center/" class="cta-button button button—small" style="display: flex;">NUEVO GAME CENTER</a>
+## Juegos en el ecosistema Apple
+
+Apple llevaba tiempo reforzando su relación con el juego: Apple Arcade, soporte para mandos, mejoras en Metal y más integración entre dispositivos.
+
+Ya habíamos visto señales en [iOS 14 y el soporte para mandos](/blog/ios14-mandos/), y WWDC22 añadió más piezas como Metal 3 y novedades de Game Center.
+
+Puedes ver más en la página de [Game Center para desarrolladores](https://developer.apple.com/game-center/).
+
+Si quieres revisar una app, juego o experiencia interactiva dentro del ecosistema Apple, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
