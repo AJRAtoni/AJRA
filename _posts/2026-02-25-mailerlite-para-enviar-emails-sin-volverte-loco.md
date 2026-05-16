@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "MailerLite para enviar emails sin volverte loco"
 date: 2026-02-25 09:00:00 -0500
 description: "MailerLite sirve para enviar newsletters y automatizaciones básicas sin convertir el email marketing en un lío."
 image: "/images/posts/Newsletter-008.webp"
 image_alt: "MailerLite para enviar emails sin volverte loco"
+resumen: "MailerLite es una opción honesta para empezar con newsletters, formularios y automatizaciones básicas sin complicar el email marketing."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/008-MailerLite.md"
 ---
@@ -108,7 +110,8 @@ He preparado la ficha completa con explicación y alternativas aquí:
 ---
 
 La semana que viene: **otro recurso, otra recomendación**.  
-Si estás empezando (o retomando) el email marketing, respóndeme a este email.
+
+Si quieres empezar una newsletter o revisar tu herramienta de email sin montar un sistema gigante, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 Un abrazo,  
 **AJRA**

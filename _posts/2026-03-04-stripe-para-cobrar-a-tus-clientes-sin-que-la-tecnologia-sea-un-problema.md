@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "Stripe para cobrar a tus clientes sin que la tecnología sea un problema"
 date: 2026-03-04 09:00:00 -0500
 description: "Stripe es una base sólida para cobrar online sin convertir los pagos en un problema técnico."
 image: "/images/posts/Newsletter-009.webp"
 image_alt: "Stripe para cobrar a tus clientes sin que la tecnología sea un problema"
+resumen: "Stripe aporta infraestructura de cobro sólida para productos, servicios y suscripciones cuando el pago no puede ser un punto débil."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/009-Stripe.md"
 ---
@@ -40,7 +42,7 @@ Es **infraestructura de cobro bien hecha**.
 - Gestionar suscripciones y pagos recurrentes
 - Proyectos digitales, SaaS, membresías o servicios
 - Negocios que quieren estabilidad y pocas sorpresas
-- Integrarse con herramientas como Shopify, Gumroad o plataformas propias
+- Integrarse con herramientas como [Shopify](/blog/shopify-para-crear-tu-tienda-online-sin-pelearte-con-la-tecnologia/), Gumroad o plataformas propias
 
 ---
 
@@ -101,7 +103,7 @@ He preparado la ficha completa con explicación y herramientas complementarias a
 ---
 
 La semana que viene: **otro recurso, otra recomendación**.  
-Si cobras online (o vas a hacerlo), respóndeme a este email y lo vemos.
+Si cobras online (o vas a hacerlo), escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es) y lo vemos.
 
 Un abrazo,  
 **AJRA**

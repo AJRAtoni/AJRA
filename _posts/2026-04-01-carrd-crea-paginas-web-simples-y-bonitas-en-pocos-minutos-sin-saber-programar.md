@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "Carrd: crea páginas web simples y bonitas en pocos minutos sin saber programar"
 date: 2026-04-01 09:00:00 -0500
 description: "Carrd permite lanzar páginas simples de una sola página rápido, barato y sin saber programar."
 image: "/images/posts/Newsletter-013.webp"
 image_alt: "Carrd: crea páginas web simples y bonitas en pocos minutos sin saber programar"
+resumen: "Carrd es ideal para lanzar una landing, bio-link o página de servicios simple sin convertir una web pequeña en un proyecto enorme."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/013-Carrd.md"
 ---
@@ -18,7 +20,7 @@ Sin rodeos, te cuento cuándo tiene sentido usarla y cuándo no 👇
 
 ## 🧩 El recurso de la semana: Carrd
 
-Carrd es una plataforma para crear páginas web de una sola página (landing pages) de forma rápida y muy sencilla. Funciona por bloques: eliges una plantilla, cambias textos, imágenes y colores… y en pocos minutos tienes una web lista.
+Carrd es una plataforma para crear páginas web de una sola página (landing pages) de forma rápida y muy sencilla. Funciona por bloques: eliges una plantilla, cambias textos, imágenes y colores… y en pocos minutos tienes una web lista. Ya había hablado de su valor para publicar rápido en [esta lectura sobre Carrd](/blog/carrd-crea-tu-sitio-web-en-minutos/).
 
 Para freelancers y pymes es ideal para páginas simples: presentación personal, lead magnet, lista de espera, página de servicios o portfolio básico. Es muy barato y más que suficiente si no quieres complicarte con WordPress o desarrollos a medida.
 
@@ -59,7 +61,7 @@ He preparado la ficha completa con explicación, vídeo y recursos similares aqu
 
 La semana que viene: **otro recurso, otra recomendación**.
 
-Si tienes curiosidad por alguna herramienta concreta, respóndeme a este email y la tengo en cuenta.
+Si tienes curiosidad por alguna herramienta concreta, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es) y la tengo en cuenta.
 
 Un abrazo,
 

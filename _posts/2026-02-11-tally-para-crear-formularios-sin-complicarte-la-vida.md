@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "Tally para crear formularios sin complicarte la vida"
 date: 2026-02-11 09:00:00 -0500
 description: "Tally permite crear formularios claros y rápidos sin convertirlos en otro proyecto más."
 image: "/images/posts/Newsletter-006.webp"
 image_alt: "Tally para crear formularios sin complicarte la vida"
+resumen: "Tally funciona cuando necesitas recoger leads, briefings o feedback con formularios claros sin montar una herramienta pesada."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/006-Tally.md"
 ---
@@ -81,6 +83,8 @@ Resultado:
 No necesitaban más leads.  
 Necesitaban mejores datos desde el inicio.
 
+Si el formulario alimenta otro proceso, puede combinar bien con una automatización sencilla en [Make](/blog/make-para-automatizar-procesos-de-forma-sencilla/).
+
 ---
 
 ## 🧠 En palabras de AJRA
@@ -105,7 +109,7 @@ He preparado la ficha completa con explicación y alternativas aquí:
 ---
 
 La semana que viene: otro recurso, otra recomendación.  
-Si usas formularios y sientes que siempre te falta información, respóndeme a este email.
+Si usas formularios y sientes que siempre te falta información, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 Un abrazo,  
 AJRA

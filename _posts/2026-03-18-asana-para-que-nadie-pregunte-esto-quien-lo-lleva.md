@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "Asana: para que nadie pregunte \"¿esto quién lo lleva?\""
 date: 2026-03-18 09:00:00 -0500
 description: "Asana ayuda a ordenar tareas, responsables y fechas para que el equipo deje de trabajar a ciegas."
 image: "/images/posts/Newsletter-011.webp"
 image_alt: "Asana: para que nadie pregunte \"¿esto quién lo lleva?\""
+resumen: "Asana ayuda a que tareas, responsables y fechas estén visibles para que el equipo deje de trabajar entre mensajes sueltos y recordatorios."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/011-Asana.md"
 ---
@@ -61,6 +63,8 @@ No montamos nada complejo.
 Configuramos Asana con flujos de trabajo simples:
 tablero de tareas, asignaciones claras y recordatorios automáticos.
 
+Cuando el proceso ya está claro, algunas partes pueden conectarse con [Make](/blog/make-para-automatizar-procesos-de-forma-sencilla/) para evitar avisos o copias manuales.
+
 El cambio no fue tecnológico.
 Fue **cultural**.
 
@@ -91,7 +95,7 @@ He preparado la ficha completa con explicación y recursos relacionados aquí:
 👉 <https://recursos.ajra.es/#asana>
 
 La semana que viene: **otro recurso, otra recomendación**.
-Si sientes que tu equipo pierde tiempo preguntando quién lleva qué, respóndeme a este email.
+Si sientes que tu equipo pierde tiempo preguntando quién lleva qué, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 Un abrazo,
 **AJRA**

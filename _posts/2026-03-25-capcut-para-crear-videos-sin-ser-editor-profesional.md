@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "CapCut: para crear vídeos sin ser editor profesional"
 date: 2026-03-25 09:00:00 -0500
 description: "CapCut facilita crear vídeos decentes para redes sin aprender edición profesional desde cero."
 image: "/images/posts/Newsletter-012.webp"
 image_alt: "CapCut: para crear vídeos sin ser editor profesional"
+resumen: "CapCut baja la barrera de entrada al vídeo para redes: edición simple, subtítulos automáticos y formatos reutilizables sin aprender Premiere."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/012-CapCut.md"
 ---
@@ -31,6 +33,8 @@ sin necesidad de aprender programas profesionales ni pagar a un editor.
 
 Además incluye funciones de IA  
 como subtítulos automáticos o limpieza de audio.
+
+Si el objetivo es generar o editar vídeo con IA de forma más avanzada, herramientas como [Kling O1](/blog/kling-o1-el-nuevo-modelo-de-video-unificado/) apuntan a otra capa del mismo cambio.
 
 No es Premiere.  
 No pretende serlo.  
@@ -108,7 +112,8 @@ He preparado la ficha completa con explicación y recursos relacionados aquí:
 ---
 
 La semana que viene: **otro recurso, otra recomendación**.  
-Si ya usas CapCut o tienes dudas sobre edición de vídeo, respóndeme a este email.
+
+Si quieres ordenar tu flujo de vídeo para redes sin depender de una producción pesada, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 Un abrazo,  
 **AJRA**

@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "I Love PDF para resolver problemas con tus archivos en minutos"
 date: 2026-03-11 09:00:00 -0500
 description: "I Love PDF resuelve tareas rápidas con archivos PDF cuando necesitas salir del paso sin instalar nada."
 image: "/images/posts/Newsletter-010.webp"
 image_alt: "I Love PDF para resolver problemas con tus archivos en minutos"
+resumen: "I Love PDF no es una herramienta estratégica, pero resuelve rápido tareas con documentos cuando un PDF bloquea el trabajo."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/010-ILovePDF.md"
 ---
@@ -104,7 +106,7 @@ He preparado la ficha completa con explicación y herramientas complementarias a
 ---
 
 La semana que viene: **otro recurso, otra recomendación**.  
-Si hay alguna herramienta pequeña que te saque de apuros, respóndeme a este email y la vemos.
+Si hay alguna herramienta pequeña que te saque de apuros, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es) y la vemos.
 
 Un abrazo,  
 **AJRA**

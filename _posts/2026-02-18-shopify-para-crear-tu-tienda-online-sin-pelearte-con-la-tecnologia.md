@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "Shopify para crear tu tienda online sin pelearte con la tecnología"
 date: 2026-02-18 09:00:00 -0500
 description: "Shopify ayuda a vender online con una base estable sin pelearte con servidores, pagos y plugins."
 image: "/images/posts/Newsletter-007.webp"
 image_alt: "Shopify para crear tu tienda online sin pelearte con la tecnología"
+resumen: "Shopify es una base estable para vender online cuando quieres centrarte en producto, marketing y clientes, no en servidores y plugins."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/007-Shopify.md"
 ---
@@ -88,6 +90,8 @@ Si tu objetivo es vender online
 y no convertirte en gestor técnico de tu propia tienda,  
 Shopify es una apuesta segura.
 
+Si además necesitas comunicarte con compradores o leads, conviene pensar pronto en email marketing con herramientas como [MailerLite](/blog/mailerlite-para-enviar-emails-sin-volverte-loco/).
+
 Cuando el negocio crece,  
 agradeces haber elegido estabilidad desde el principio.
 
@@ -101,7 +105,7 @@ He preparado la ficha completa con explicación y herramientas complementarias a
 ---
 
 La semana que viene: otro recurso, otra recomendación.  
-Si tienes (o estás pensando en montar) un e-commerce, respóndeme a este email y lo vemos.
+Si tienes (o estás pensando en montar) un e-commerce, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es) y lo vemos.
 
 Un abrazo,  
 AJRA

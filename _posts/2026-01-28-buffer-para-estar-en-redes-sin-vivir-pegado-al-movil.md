@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "Buffer: para estar en redes sin vivir pegado al móvil"
 date: 2026-01-28 09:00:00 -0500
 description: "Buffer ayuda a programar contenido en redes y mantener presencia sin vivir pendiente del móvil."
 image: "/images/posts/Newsletter-004.webp"
 image_alt: "Buffer: para estar en redes sin vivir pegado al móvil"
+resumen: "Buffer sirve para programar contenido en redes, mantener presencia y recuperar foco cuando las redes son apoyo, no el centro del negocio."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/004-Buffer.md"
 ---
@@ -15,8 +17,8 @@ Hola 👋
 Seguimos con la idea de esta newsletter:
 **una herramienta a la semana**, bien explicada, con contexto real y sin humo.
 
-Después de ordenar información (**Airtable**), crear sin bloquearte (**Canva**)
-y automatizar tareas repetitivas (**Make**),
+Después de ordenar información ([**Airtable**](/blog/airtable-la-forma-mas-facil-de-organizar-cualquier-cosa/)), crear sin bloquearte ([**Canva**](/blog/canva-la-herramienta-para-crear-sin-ser-disenador/))
+y automatizar tareas repetitivas ([**Make**](/blog/make-para-automatizar-procesos-de-forma-sencilla/)),
 hoy tocamos algo más terrenal 👇
 
 ## 🧩 El recurso de la semana: Buffer
@@ -88,7 +90,7 @@ He preparado la ficha completa con explicación y herramientas similares aquí:
 
 La semana que viene: **otro recurso, otra recomendación**.
 
-Si quieres que analice otra herramienta relacionada con redes, dímelo respondiendo a este email.
+Si quieres que analice otra herramienta relacionada con redes, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 Un abrazo,
 **AJRA**
