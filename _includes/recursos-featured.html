@@ -1,0 +1,15 @@
+{% assign item = include.item %}
+{% assign extra_class = include.class | default: '' %}
+{% assign loading = include.loading | default: 'lazy' %}
+{% assign logo_alt = item.recursos_logo_alt | default: item.image_alt | default: item.title %}
+{% if item.recursos_logo or item.recursos_wordmark %}
+<div class="recursos-featured {{ extra_class }}" aria-label="{{ logo_alt | escape }}">
+    {% if item.recursos_logo %}
+    <img class="recursos-featured-logo" src="{{ item.recursos_logo | relative_url }}" alt="{{ logo_alt | escape }}" loading="{{ loading }}">
+    {% else %}
+    <span class="recursos-featured-wordmark">{{ item.recursos_wordmark | escape }}</span>
+    {% endif %}
+</div>
+{% elsif item.image %}
+<img class="{{ extra_class }}" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.title | escape }}" loading="{{ loading }}">
+{% endif %}
