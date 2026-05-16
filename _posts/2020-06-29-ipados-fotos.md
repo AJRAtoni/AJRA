@@ -1,23 +1,47 @@
 ---
 layout: post
-title: Descripción de Fotos y Vídeos en iPadOS
+title: "iPadOS 14 añadió descripciones a fotos y vídeos"
 date: 2020-06-29 10:00:00 +0300
 image: /images/206.jpg
+image_alt: "App Fotos en iPadOS con campo para añadir pie de foto"
+description: "iPadOS 14 permitió añadir pies de foto y descripciones a imágenes y vídeos para encontrarlos mejor desde la búsqueda."
+resumen: "Añadir descripciones a fotos y vídeos ayuda a encontrar recuerdos, capturas y archivos visuales cuando la fototeca empieza a crecer."
 source: AJRA-v09/_posts/2020-06-29-ipados-fotos.md
 ---
 
-Nuestras fototecas en los iPhone y iPad no dejan de crecer, cada día hacemos más fotos y recibimos muchas más, hasta llegar a un punto que encontrar una Fotos antigua en nuestro carrete es complicado.
+Las fototecas de iPhone y iPad no dejan de crecer.
 
-Apple lo sabe y por eso en iPadOS 14 han añadido la posibilidad de escribir un texto o descripción bajo cada imagen.
+Hacemos capturas, recibimos imágenes, guardamos documentos, descargamos recursos y acumulamos vídeos. Encontrar una foto antigua puede acabar siendo más difícil de lo que debería.
 
-Ese texto será reconocido por la nueva búsqueda universal y nos ayudará a encontrar las fotos de una forma más rápida y sencilla.
+iPadOS 14 añadió una solución sencilla: escribir una descripción bajo cada imagen o vídeo.
 
 <figure>
-<img src="/images/206-1.webp" alt="" />
+<img src="/images/206-1.webp" alt="Campo de pie de foto en la app Fotos de iPadOS 14" />
 </figure>
 
-Añadir un pie de foto es muy sencillo, cuando estemos viendo una imagen en la app Fotos solo tenemos que deslizarla hacia arriba y veremos un cuadro que dice “Añade un pie de foto” y ahí es donde debemos escribir la descripción o palabras clave con las que queramos localizar la foto mediante la búsqueda universal.
+## Cómo añadir una descripción
 
----
+1. Abre una imagen o vídeo en la app **Fotos**.
+2. Desliza hacia arriba.
+3. Busca el campo **Añade un pie de foto**.
+4. Escribe una descripción o palabras clave.
 
-Esto era algo que muchos usuarios pedíamos hace tiempo, ahora solo falta que añadan la posibilidad de etiquetado manual de caras.
+Ese texto queda asociado al elemento y ayuda a encontrarlo después mediante búsqueda.
+
+## Por qué es útil
+
+Puedes usarlo para localizar:
+
+- Capturas de trabajo.
+- Facturas.
+- Fotos de productos.
+- Referencias visuales.
+- Viajes.
+- Documentos fotografiados.
+- Vídeos concretos.
+
+La búsqueda visual ya era potente, como vimos con [Google Photos reconociendo mascotas](/blog/google-photos-mascotas/), pero añadir contexto manual sigue siendo muy útil.
+
+También conecta con la gestión de fotos en ecosistemas mixtos, como [Google Fotos en iOS](/blog/google-fotos-airplay/) o el cambio de condiciones de [Google Fotos](/blog/google-photos/).
+
+Si quieres ordenar fotos, capturas y archivos visuales entre iCloud, Google Fotos y dispositivos Apple, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

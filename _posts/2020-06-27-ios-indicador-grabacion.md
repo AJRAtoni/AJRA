@@ -1,18 +1,34 @@
 ---
 layout: post
-title: Indicador de grabación para cámara y micrófono en iOS & iPadOS
+title: "iOS 14 añadió indicadores de cámara y micrófono"
 date: 2020-06-27 10:00:00 +0300
 image: /images/logo-apple.jpg
+image_alt: "Logotipo de Apple asociado a privacidad de cámara y micrófono"
+description: "iOS 14 y iPadOS 14 añadieron indicadores visuales para avisar cuando una app usa cámara o micrófono."
+resumen: "Los indicadores de cámara y micrófono de iOS 14 hicieron visible algo importante: cuándo una app está accediendo a sensores sensibles."
 source: AJRA-v09/_posts/2020-06-27-ios-indicador-grabacion.md
 ---
 
-Estas es una de esas pequeñas mejoras que Apple suele presentar en lo referente a la privacidad. En iOS 14 y en iPadOS 14 se ha incluido un pequeño indicador de grabación en la barra de estado.
+iOS 14 y iPadOS 14 añadieron una mejora pequeña pero muy importante para privacidad: indicadores de uso de cámara y micrófono.
 
-Ahora cuando una aplicación del iPhone o iPad esté usando la cámara o el micrófono para grabar algo, se encenderá un pequeño indicador naranja en la barra de estado.
+Cuando una app accede al micrófono o a la cámara, aparece un indicador en la barra de estado.
 
+La idea recuerda a la luz verde de los Mac cuando la cámara está activa.
 
-Esta nueva característica recuerda a la típica luz verde que se enciende junto a las cámaras de los Mac cuando estas se activan.
+## Por qué importaba
 
-De esta forma si vemos el indicador naranja en la barra de estado sabremos que nuestra cámara o micrófono está grabando.
+La cámara y el micrófono son permisos sensibles.
 
-Se acabo lo de que las Apps dejen el micrófono grabando en segundo plano.
+No basta con pedir acceso una vez. El usuario también necesita señales claras de cuándo se están usando.
+
+Estos indicadores ayudaban a detectar comportamientos extraños: apps que activan micrófono sin motivo, cámaras abiertas en segundo plano o permisos concedidos hace tiempo y olvidados.
+
+## Privacidad visible
+
+Apple llevaba tiempo convirtiendo la privacidad en una parte visible del producto.
+
+Lo vimos en [Sign in with Apple](/blog/signin-apple/) y también en otros cambios de iOS 14, como la opción de limitar la [ubicación exacta](/blog/ios-ubicacion-exacta/).
+
+La mejora no elimina todos los riesgos, pero da al usuario más control y más contexto.
+
+Si quieres revisar permisos, privacidad y configuración de dispositivos Apple para uso personal o de empresa, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

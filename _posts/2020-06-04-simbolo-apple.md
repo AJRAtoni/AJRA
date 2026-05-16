@@ -1,43 +1,51 @@
 ---
 layout: post
-title: Como escribir el símbolo de la manzana mordida de Apple desde iOS & iPadOS
-  
+title: "Cómo escribir el símbolo de Apple en iOS y iPadOS"
 date: 2020-06-04 10:00:00 +0300
 image: /images/logo-apple.jpg
+image_alt: "Logotipo de Apple y símbolo de la manzana mordida"
+description: "Puedes escribir el símbolo de Apple en iPhone y iPad creando una sustitución de texto que convierta una abreviatura en el carácter ."
+resumen: "La sustitución de texto de iOS y iPadOS sirve para escribir símbolos, frases repetidas, firmas o respuestas rápidas sin copiar y pegar cada vez."
 source: AJRA-v09/_posts/2020-06-04-simbolo-apple.md
 ---
 
-Muchos de los que escribimos periódicamente sobre Apple nos gusta usar y tener a mano el conocido símbolo de la manzana mordida .
+Quienes escribimos a menudo sobre Apple acabamos usando alguna vez el símbolo de la manzana mordida: .
 
-Escribir este símbolo en un Mac es sencillo, basta con apretar ALT+G y automáticamente tenemos nuestro símbolo , esta combinación de teclas también funciona si usas un iPad con un teclado externo conectado, pero ¿como lo hacemos en caso de no tener un teclado en nuestro iPad o en un iPhone?
+En Mac es sencillo: `Option + G`.
 
-## ¿Como escribir el símbolo  en iOS & iPadOS?
-En caso de querer escribir el símbolo  desde un iPhone o iPad la cosa está más complicada, ya que el símbolo no es un emoji, y tampoco está entre los símbolos especiales que nos ofrece el teclado virtual.
+En un iPad con teclado externo también funciona. Pero en iPhone o iPad sin teclado físico no aparece como emoji ni como símbolo normal del teclado.
 
-Nos queda la solución del copiar y pegar el símbolo.
+La solución cómoda es usar **sustitución de texto**.
 
-Durante un tiempo me cree una nota con el símbolo, a la que acudía para copiar y pegar recurrentemente.
+## Crear una sustitución de texto
 
-Esto es algo incómodo y lento cuando estas escribiendo un artículo o si estás manteniendo una conversación.
-
-Así que después de pensar y buscar varias opciones más comodonas y rápidas recordé una de las funciones que trae iOS & iPadOS de forma nativa, la [sustitución de texto](https://support.apple.com/es-us/guide/iphone/iph6d01d862/ios), una opción que nos permite sustituir un texto por otro que nosotros le indiquemos.
-
-De esta forma podemos indicarle al sistema que cuándo escribimos la palabra “X” el la sustituya por el símbolo .
-
-Vamos a ver cómo se hace:
-
-1. Seleccionamos y copiamos el símbolo 
-2. Vamos a Ajustes —> General —> Teclado —> Sustitución de Texto.
-3. En la ventana que se nos abre le damos al símbolo (+) y elegimos la frase y su función rápida.
+1. Copia este símbolo: 
+2. Ve a **Ajustes**.
+3. Entra en **General**.
+4. Abre **Teclado**.
+5. Toca **Sustitución de texto**.
+6. Pulsa el botón `+`.
+7. En **Frase**, pega el símbolo .
+8. En **Función rápida**, escribe una abreviatura que recuerdes.
 
 <figure>
-<img src="/images/195.jpg" alt="" />
+<img src="/images/195.jpg" alt="Pantalla de sustitución de texto en iOS para crear un atajo" />
 </figure>
 
-La frase es el símbolo que queremos que aparezca, y la función rápida es lo que quieres escribir para que aparezca el símbolo.
+Cuando escribas esa abreviatura, iOS o iPadOS la reemplazará por el símbolo.
 
----
+## Más usos
 
-Listo, con estos sencillos osos ya tendremos el símbolo de la manzana listo para usar cuando queramos, solo tenemos que escribir la función rápida que hemos elegido.
+La sustitución de texto no sirve solo para este símbolo.
 
-En esta ocasión hemos usado la opción de sustitución de texto para usar nuestro símbolo, pero es una opción muy útil que podemos usar para otras cosas como automatizar respuestas, o expandir textos que por algún motivo tengamos que utilizar de forma recurrente.
+También puedes usarla para:
+
+- Firmas cortas.
+- Correos frecuentes.
+- Respuestas rápidas.
+- Datos que escribes muchas veces.
+- Frases de atención al cliente.
+
+Es una automatización pequeña, pero ahorra tiempo si escribes mucho desde iPhone o iPad.
+
+Si quieres configurar atajos, textos recurrentes o flujos de escritura en iOS y iPadOS, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
