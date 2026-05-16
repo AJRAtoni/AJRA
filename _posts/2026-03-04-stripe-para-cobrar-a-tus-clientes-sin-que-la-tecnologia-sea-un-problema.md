@@ -2,8 +2,9 @@
 title: "Stripe para cobrar a tus clientes sin que la tecnología sea un problema"
 date: 2026-03-04 09:00:00 -0500
 description: "Stripe es una base sólida para cobrar online sin convertir los pagos en un problema técnico."
-image: "/images/posts/Newsletter-009.webp"
+image: "/images/posts/stripe-logo-gradient.webp"
 image_alt: "Stripe para cobrar a tus clientes sin que la tecnología sea un problema"
+recursos_logo: "/images/logos/recursos/stripe.svg"
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/009-Stripe.md"
 ---

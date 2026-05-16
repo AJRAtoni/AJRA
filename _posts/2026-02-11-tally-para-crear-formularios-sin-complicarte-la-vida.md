@@ -2,8 +2,9 @@
 title: "Tally para crear formularios sin complicarte la vida"
 date: 2026-02-11 09:00:00 -0500
 description: "Tally permite crear formularios claros y rápidos sin convertirlos en otro proyecto más."
-image: "/images/posts/Newsletter-006.webp"
+image: "/images/posts/tally-logo-gradient.webp"
 image_alt: "Tally para crear formularios sin complicarte la vida"
+recursos_logo: "/images/logos/recursos/tally.png"
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/006-Tally.md"
 ---

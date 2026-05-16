@@ -2,8 +2,9 @@
 title: "I Love PDF para resolver problemas con tus archivos en minutos"
 date: 2026-03-11 09:00:00 -0500
 description: "I Love PDF resuelve tareas rápidas con archivos PDF cuando necesitas salir del paso sin instalar nada."
-image: "/images/posts/Newsletter-010.webp"
+image: "/images/posts/i-love-pdf-logo-gradient.webp"
 image_alt: "I Love PDF para resolver problemas con tus archivos en minutos"
+recursos_logo: "/images/logos/recursos/i-love-pdf.png"
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/010-ILovePDF.md"
 ---
