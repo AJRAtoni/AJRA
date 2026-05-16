@@ -5,6 +5,7 @@ date: 2025-11-14 09:00:00 -0500
 description: "Una comparación entre Marvel Zombies y DCeased desde el terror físico, el horror psicológico y la pregunta clave: qué tipo de monstruo da más miedo."
 image: "https://img.youtube.com/vi/R7CPqrcsC-0/hqdefault.jpg"
 image_alt: "Marvel Zombies vs DCeased: ¿Cuál es el mejor cómic de superhéroes y zombies?"
+resumen: "Marvel Zombies y DCeased usan superhéroes infectados para miedos distintos: horror corporal frente a terror psicológico con rostro conocido."
 categories: [youtube]
 tags: [comics, marvel, dc, zombies, cultura-pop, youtube]
 source: "youtube"
@@ -50,6 +51,8 @@ Son ligas distintas. Criticar a DCeased por no ser tan gore como Marvel Zombies 
 ## Idea central
 
 Marvel Zombies impacta porque convierte a los superhéroes en una pesadilla física y grotesca. DCeased inquieta porque deja el horror demasiado cerca de lo humano. La pregunta de fondo no es solo qué zombie se ve mejor, sino qué tipo de monstruo nos asusta más: el que se ve venir o el que todavía conserva una cara conocida.
+
+Si quieres trabajar comparativas de cómic, cultura pop o guiones para contenido audiovisual, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

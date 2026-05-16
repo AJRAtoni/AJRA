@@ -5,6 +5,7 @@ date: 2025-11-13 09:00:00 -0500
 description: "Un análisis de la nueva Steam Machine de Valve: hardware compacto, SteamOS, Proton, nuevo Steam Controller y los factores que decidirán si conquista el salón."
 image: "https://img.youtube.com/vi/GWPxElSruzo/hqdefault.jpg"
 image_alt: "Steam Machine: ¿La revolución del gaming en el salón?"
+resumen: "La nueva Steam Machine tiene una segunda oportunidad gracias a Steam Deck, Proton y SteamOS, pero dependerá de precio, compatibilidad y experiencia real."
 categories: [youtube]
 tags: [gaming, valve, steam-machine, steam-os, tecnologia, youtube]
 source: "youtube"
@@ -50,6 +51,8 @@ Si funciona bien, puede ser una pieza clave para que géneros típicos de PC se 
 ## Idea central
 
 La nueva Steam Machine no depende solo de ser potente. Su éxito se decidirá por el precio, la compatibilidad real del catálogo y la capacidad de Valve para vender una experiencia más simple que un PC, pero más libre que una consola. Si esas piezas encajan, podría ser mucho más que otro dispositivo para jugar: podría marcar una nueva etapa para el PC gaming en el salón.
+
+Si quieres analizar producto, gaming o una estrategia de hardware con mirada técnica y de mercado, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

@@ -5,6 +5,7 @@ date: 2025-11-11 09:00:00 -0500
 description: "Cómo convertir Apple Notes en un CRM sencillo para freelancers, autónomos y pequeños negocios usando carpetas, etiquetas, notas ancladas y escaneo de documentos."
 image: "https://img.youtube.com/vi/MZaztoymeFg/hqdefault.jpg"
 image_alt: "Apple Notes como CRM"
+resumen: "Apple Notes puede funcionar como CRM mínimo para freelancers si el objetivo es recordar contexto, próximos pasos y documentos sin montar una herramienta pesada."
 categories: [youtube]
 tags: [apple, productividad, crm, freelancers, negocios, youtube]
 source: "youtube"
@@ -65,6 +66,8 @@ Es una forma sencilla de tener orden sin convertir el sistema en una base de dat
 ## Idea central
 
 Apple Notes puede ser un CRM casero muy eficaz para freelancers, autónomos y pequeños negocios con procesos simples. No reemplaza un CRM serio si necesitas automatización avanzada, reportes de ventas, permisos por equipo o integraciones complejas, pero sí resuelve lo esencial: centralizar la información del cliente y mantener claro el siguiente paso.
+
+Si quieres montar un CRM sencillo, ordenar clientes o elegir una herramienta sin sobredimensionar el sistema, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

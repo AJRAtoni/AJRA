@@ -5,6 +5,7 @@ date: 2025-11-18 09:00:00 -0500
 description: "Qué propone Google Code Wiki, cómo usa Gemini para generar documentación viva de repositorios y cuáles son las dudas reales de la comunidad desarrolladora."
 image: "https://img.youtube.com/vi/-JVKRuNtCe8/hqdefault.jpg"
 image_alt: "Google Code Wiki: La Revolución en Documentación de Código con AI"
+resumen: "Google Code Wiki promete documentación viva generada con IA, pero su valor dependerá de fiabilidad, privacidad y contexto humano."
 categories: [youtube]
 tags: [ia, google, documentacion, desarrollo, gemini, youtube]
 source: "youtube"
@@ -46,6 +47,8 @@ El riesgo más serio es la fiabilidad. Si Gemini inventa explicaciones, sugiere 
 ## Idea central
 
 Code Wiki apunta a un futuro donde la IA se encargue de documentar el “qué” del código y los humanos aporten el “por qué”: contexto, intención y decisiones de diseño. La oportunidad es enorme, pero dependerá de privacidad, calidad, usabilidad y compromiso a largo plazo.
+
+Si quieres revisar documentación técnica, onboarding de código o herramientas de IA para desarrollo, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

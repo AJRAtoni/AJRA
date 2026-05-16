@@ -5,6 +5,7 @@ date: 2025-11-10 09:00:00 -0500
 description: "Carrd permite crear webs de una sola página de forma rápida, sencilla y económica. Un repaso a sus ventajas, casos de uso, límites y por qué encaja tan bien en el mundo no-code."
 image: "https://img.youtube.com/vi/e1d4hvA330Q/hqdefault.jpg"
 image_alt: "CARRD: Crea tu sitio web en minutos"
+resumen: "Carrd brilla cuando necesitas publicar una web de una sola página rápido, barato y sin cargar con la complejidad de un CMS completo."
 categories: [youtube]
 tags: [no-code, carrd, paginas-web, landing-pages, productividad, youtube]
 source: "youtube"
@@ -59,6 +60,8 @@ Si lo que necesitas se puede explicar en una sola página, Carrd suele ser una o
 ## Idea central
 
 Carrd destaca porque reduce la fricción entre tener una idea y ponerla online. Es barato, rápido, flexible y suficientemente potente para páginas simples. No es la herramienta para un blog enorme, una tienda compleja o una web corporativa con muchas secciones, pero si lo tuyo cabe en una sola página, brilla.
+
+Si quieres elegir entre Carrd, Webflow, WordPress o Shopify para una web sencilla, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

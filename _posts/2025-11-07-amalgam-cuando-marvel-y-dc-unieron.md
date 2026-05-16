@@ -5,6 +5,7 @@ date: 2025-11-07 09:00:00 -0500
 description: "La historia de Amalgam Comics, el experimento noventero en el que Marvel y DC fusionaron sus universos y crearon personajes como Dark Claw, Super-Soldier y Spider-Boy."
 image: "https://img.youtube.com/vi/9ucD5yIsWnM/hqdefault.jpg"
 image_alt: "AMALGAM: Cuando Marvel y DC unieron"
+resumen: "Amalgam Comics fue una rareza noventera: Marvel y DC fusionando personajes, universos y fan service en un experimento editorial de culto."
 categories: [youtube]
 tags: [comics, marvel, dc, amalgam, cultura-pop, youtube]
 source: "youtube"
@@ -59,6 +60,8 @@ Era fan service, sí, pero también un ejercicio de creatividad muy bien entendi
 ## Idea central
 
 Amalgam Comics importa porque materializó una pregunta sencilla y poderosa: ¿qué pasaría si Marvel y DC mezclaran sus mejores juguetes? Fue un experimento breve, raro y muy noventero, pero también una celebración de la imaginación sin miedo a romper reglas. Por eso, incluso décadas después y con reediciones modernas, sigue funcionando como material de culto.
+
+Si quieres transformar historia del cómic, cultura pop o vídeo en contenido editorial para blog, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

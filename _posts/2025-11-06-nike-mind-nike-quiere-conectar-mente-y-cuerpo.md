@@ -5,6 +5,7 @@ date: 2025-11-06 09:00:00 -0500
 description: "Nike Mind propone una nueva categoría de calzado sensorial: menos obsesión por correr más rápido y más foco en concentración, calma y recuperación."
 image: "https://img.youtube.com/vi/_sqs_rifizg/hqdefault.jpg"
 image_alt: "Nike Mind: ¡Nike quiere conectar Mente y Cuerpo!"
+resumen: "Nike Mind cambia la conversación del rendimiento físico puro hacia una experiencia sensorial que promete conectar atención, recuperación y cuerpo."
 categories: [youtube]
 tags: [nike, neurociencia, deporte, bienestar, tecnologia, youtube]
 source: "youtube"
@@ -52,6 +53,8 @@ El lanzamiento previsto para principios de 2026 será clave para comprobar si es
 ## Idea central
 
 Nike Mind representa un cambio de enfoque: del cuerpo como único protagonista al vínculo entre cuerpo, mente y sensación. Si funciona, podría abrir una nueva etapa donde el calzado deportivo también se diseñe para preparar la atención y acompañar la recuperación.
+
+Si quieres convertir lanzamientos de producto, deporte o tecnología en análisis claro para tu audiencia, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 
