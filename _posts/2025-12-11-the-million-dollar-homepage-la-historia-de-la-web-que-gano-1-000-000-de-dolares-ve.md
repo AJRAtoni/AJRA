@@ -5,6 +5,7 @@ date: 2025-12-11 09:00:00 -0500
 description: "La historia de The Million Dollar Homepage, el experimento viral que convirtió un millón de píxeles en más de un millón de dólares."
 image: "https://img.youtube.com/vi/8ECeyVeRGpM/hqdefault.jpg"
 image_alt: "The Million Dollar Homepage: La historia de la web que ganó 1.000.000 de dólares vendiendo píxeles"
+resumen: "The Million Dollar Homepage sigue siendo una lección de viralidad: una idea simple, una historia fácil de contar y una escasez imposible de ignorar."
 categories: [youtube]
 tags: [marketing-digital, historia-internet, viralidad, emprendimiento, youtube]
 source: "youtube"
@@ -50,6 +51,8 @@ Si tu proyecto necesita diez minutos para entenderse, es más difícil que viaje
 ## Idea central
 
 The Million Dollar Homepage demuestra que la viralidad no siempre nace de la tecnología. A veces nace de una idea simple, una historia fácil de contar y una ejecución en el momento adecuado.
+
+Si quieres revisar una idea de campaña, producto o web para hacerla más clara y memorable, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

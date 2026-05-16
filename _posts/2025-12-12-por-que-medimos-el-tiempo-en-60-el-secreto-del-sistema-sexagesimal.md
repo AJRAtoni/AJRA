@@ -5,6 +5,7 @@ date: 2025-12-12 09:00:00 -0500
 description: "Por qué una hora tiene 60 minutos, qué tiene de especial el número 60 y cómo los sumerios dejaron una huella que seguimos usando cada día."
 image: "https://img.youtube.com/vi/HMGMfJseSpI/hqdefault.jpg"
 image_alt: "¿Por Qué Medimos el Tiempo en 60? El Secreto del Sistema Sexagesimal"
+resumen: "Medimos el tiempo en 60 porque el sistema sexagesimal combinaba divisibilidad, astronomía y una forma sorprendentemente práctica de contar con las manos."
 categories: [youtube]
 tags: [historia, matematicas, tiempo, sumerios, youtube]
 source: "youtube"
@@ -50,6 +51,8 @@ La razón de su supervivencia no es solo tradición. Es que funciona muy bien.
 El tiempo se mide en 60 porque el sistema sexagesimal era práctico, flexible y fácil de usar. Los sumerios encontraron una solución matemática elegante que sobrevivió a imperios, revoluciones y tecnologías.
 
 Incluso hubo intentos de cambiarlo, como el tiempo decimal durante la Revolución Francesa o propuestas modernas como el Internet Time de Swatch. Ninguna logró sustituir algo tan profundamente útil.
+
+Si quieres transformar una curiosidad histórica o técnica en una pieza divulgativa clara, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

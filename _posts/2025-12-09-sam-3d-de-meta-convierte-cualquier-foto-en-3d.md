@@ -5,6 +5,7 @@ date: 2025-12-09 09:00:00 -0500
 description: "SAM 3D de Meta convierte una imagen en una representación tridimensional, acercando la reconstrucción 3D a flujos mucho más simples."
 image: "https://img.youtube.com/vi/vb6fBNWfVeM/hqdefault.jpg"
 image_alt: "SAM 3D de Meta: convierte CUALQUIER foto en 3D"
+resumen: "SAM 3D apunta a reducir la fricción de crear activos tridimensionales: partir de una foto y obtener geometría útil para prototipos o contenido."
 categories: [youtube]
 tags: [ia, youtube]
 source: "youtube"
@@ -38,6 +39,8 @@ No sustituye todo el trabajo 3D profesional, pero sí puede convertirse en una p
 ## Idea central
 
 SAM 3D importa porque simplifica una tarea difícil: convertir imágenes en objetos espaciales. Y cuando una tecnología baja tanto la fricción, aparecen usos nuevos.
+
+Si quieres explorar cómo usar 3D, IA visual o realidad aumentada en un proyecto concreto, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

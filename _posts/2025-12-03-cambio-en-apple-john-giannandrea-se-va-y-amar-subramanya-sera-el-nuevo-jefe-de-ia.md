@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Cambio en Apple: ¿John Giannandrea se va y Amar Subramanya sera el nuevo jefe de IA?"
+title: "Cambio en Apple: ¿John Giannandrea se va y Amar Subramanya será el nuevo jefe de IA?"
 date: 2025-12-03 09:00:00 -0500
 description: "La salida de John Giannandrea y la llegada de Amar Subramanya marcan un cambio importante en la estrategia de inteligencia artificial de Apple."
 image: "https://img.youtube.com/vi/omLIxbxlLXg/hqdefault.jpg"
-image_alt: "Cambio en Apple: ¿John Giannandrea se va y Amar Subramanya sera el nuevo jefe de IA?"
+image_alt: "Cambio en Apple: ¿John Giannandrea se va y Amar Subramanya será el nuevo jefe de IA?"
+resumen: "El relevo de John Giannandrea por Amar Subramanya señala que Apple necesita acelerar su estrategia de IA sin perder su estilo de producto."
 categories: [youtube]
 tags: [ia, youtube]
 source: "youtube"
@@ -39,6 +40,8 @@ La pregunta es si podrá hacerlo sin perder su estilo propio.
 
 Este cambio no es solo un movimiento de organigrama. Es una señal de que Apple está redefiniendo su apuesta en IA en un momento donde quedarse atrás ya no es una opción.
 
+Si quieres analizar cómo los cambios de IA afectan a producto, estrategia o automatización en tu negocio, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
+
 ## Vídeo original
 
-<iframe class="youtube-embed" width="560" height="315" src="https://www.youtube.com/embed/omLIxbxlLXg" title="Cambio en Apple: ¿John Giannandrea se va y Amar Subramanya sera el nuevo jefe de IA?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youtube-embed" width="560" height="315" src="https://www.youtube.com/embed/omLIxbxlLXg" title="Cambio en Apple: ¿John Giannandrea se va y Amar Subramanya será el nuevo jefe de IA?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

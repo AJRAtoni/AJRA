@@ -5,6 +5,7 @@ date: 2025-12-04 09:00:00 -0500
 description: "Kling O1 propone un flujo unificado para generar y editar vídeo con texto, imágenes, clips y sujetos dentro de una misma herramienta."
 image: "https://img.youtube.com/vi/8l0Iyb2xkr8/hqdefault.jpg"
 image_alt: "Kling O1: el nuevo modelo de vídeo unificado"
+resumen: "Kling O1 intenta llevar el vídeo con IA de la demo llamativa a un flujo más controlable, con edición, referencias y coherencia en una misma herramienta."
 categories: [youtube]
 tags: [ia, video, youtube]
 source: "youtube"
@@ -38,6 +39,8 @@ Eso es lo que puede hacerlo relevante para marketing, piezas sociales, prototipo
 ## Idea central
 
 Kling O1 no es interesante solo porque genere vídeo. Es interesante porque intenta ordenar el caos actual de la creación audiovisual con IA en un sistema más controlable.
+
+Si quieres plantear un flujo de vídeo con IA para contenido, marketing o prototipos sin perder control creativo, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

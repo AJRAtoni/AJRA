@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Los peligros del espacio."
+title: "Los peligros del espacio"
 date: 2025-12-05 09:00:00 -0500
 description: "Viajar al espacio es una de las mayores aventuras humanas, pero también uno de los entornos más hostiles para el cuerpo y la mente."
 image: "https://img.youtube.com/vi/jFGCnu2wFOo/hqdefault.jpg"
-image_alt: "Los peligros del espacio."
+image_alt: "Los peligros del espacio"
+resumen: "El espacio no es solo épica y cohetes: radiación, microgravedad, aislamiento y soporte vital convierten cada misión en ingeniería extrema."
 categories: [youtube]
 tags: [espacio, youtube]
 source: "youtube"
@@ -37,6 +38,8 @@ No todo es físico. El aislamiento, la convivencia forzada, la distancia con la 
 
 Explorar el espacio sigue siendo una de las grandes metas de la humanidad, pero conviene recordar que no estamos “saliendo de casa”. Estamos entrando en un entorno que nos obliga a rediseñar casi todo lo que nos mantiene vivos.
 
+Si quieres convertir temas complejos de ciencia o tecnología en contenidos claros y bien estructurados, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
+
 ## Vídeo original
 
-<iframe class="youtube-embed" width="560" height="315" src="https://www.youtube.com/embed/jFGCnu2wFOo" title="Los peligros del espacio." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youtube-embed" width="560" height="315" src="https://www.youtube.com/embed/jFGCnu2wFOo" title="Los peligros del espacio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

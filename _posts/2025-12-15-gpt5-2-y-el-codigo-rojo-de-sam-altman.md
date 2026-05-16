@@ -5,6 +5,7 @@ date: 2025-12-15 09:00:00 -0500
 description: "GPT-5.2 llega en un contexto de presión competitiva para OpenAI, con nuevas variantes y foco en velocidad, razonamiento y menor tasa de alucinaciones."
 image: "https://img.youtube.com/vi/ZhMzAA8SN2k/hqdefault.jpg"
 image_alt: "GPT‑5.2 y el “Código Rojo” de Sam Altman"
+resumen: "GPT-5.2 importa menos por el número de versión que por el contexto: una guerra de modelos donde utilidad, fiabilidad y producto pesan más que el hype."
 categories: [youtube]
 tags: [ia, openai, chatgpt, modelos, automatizacion, youtube]
 source: "youtube"
@@ -13,7 +14,7 @@ youtube_url: "https://www.youtube.com/watch?v=ZhMzAA8SN2k"
 transcription: "whisper-local"
 ---
 
-GPT-5.2 llega en un momento especialmente intenso para OpenAI. El llamado “código rojo” de Sam Altman refleja que la competición con Google, Gemini 3, Claude y el resto del mercado ya no es una carrera tranquila: es una batalla por mantener liderazgo técnico y percepción pública.
+GPT-5.2 llega en un momento especialmente intenso para OpenAI. El llamado “código rojo” de Sam Altman refleja que la competición con Google, [Gemini 3](/blog/gemini-3-asi-es-el-nuevo-modelo-de-ia-revolucionario-de-google/), [Claude](/blog/claude-opus-4-5-el-nuevo-rey-de-la-ia-para-programacion-y-automatizacion/) y el resto del mercado ya no es una carrera tranquila: es una batalla por mantener liderazgo técnico y percepción pública.
 
 En ese contexto, cada nueva versión de modelo importa.
 
@@ -47,6 +48,8 @@ La pregunta práctica es si conviene cambiar ya tus flujos. Mi criterio: probar 
 ## Idea central
 
 GPT-5.2 no es solo otro número de versión. Es una respuesta estratégica dentro de una guerra de modelos donde la utilidad real pesa más que el hype.
+
+Si quieres decidir qué modelo de IA encaja mejor en tus contenidos, automatizaciones o herramientas internas, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

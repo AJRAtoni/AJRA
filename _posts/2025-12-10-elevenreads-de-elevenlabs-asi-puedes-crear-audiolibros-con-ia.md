@@ -5,6 +5,7 @@ date: 2025-12-10 09:00:00 -0500
 description: "ElevenReads permite convertir libros, PDFs, ePubs y artículos en audiolibros con voces de IA realistas para escuchar contenido en tiempos muertos."
 image: "https://img.youtube.com/vi/I7WAn1qFKD4/hqdefault.jpg"
 image_alt: "ElevenReads de ElevenLabs: así puedes crear audiolibros con IA"
+resumen: "ElevenReads convierte textos largos en audio escuchable, una forma práctica de recuperar documentos, artículos y lecturas pendientes."
 categories: [youtube]
 tags: [ia, elevenlabs, audiolibros, productividad, lectura, youtube]
 source: "youtube"
@@ -46,6 +47,8 @@ Puedes guardar lecturas largas, importarlas en ElevenReads y escucharlas como si
 ## Idea central
 
 ElevenReads no va solo de audiolibros con IA. Va de convertir texto acumulado en conocimiento escuchable, haciendo más fácil leer más sin depender siempre de tener las manos y los ojos libres.
+
+Si quieres diseñar un flujo de lectura, documentación o aprendizaje apoyado por IA de voz, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

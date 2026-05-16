@@ -5,6 +5,7 @@ date: 2025-12-16 09:00:00 -0500
 description: "Google Disco es un experimento de Google Labs que usa Gemini 3 para transformar pestañas abiertas en mini aplicaciones interactivas."
 image: "https://img.youtube.com/vi/C131JYvb5Js/hqdefault.jpg"
 image_alt: "GOOGLE DISCO: el navegador con IA que convierte tus pestañas en APPS"
+resumen: "Google Disco imagina un navegador más agéntico: convertir pestañas abiertas en mini apps útiles para investigar, comparar y decidir."
 categories: [youtube]
 tags: [ia, google, productividad, navegador, no-code, youtube]
 source: "youtube"
@@ -15,7 +16,7 @@ transcription: "whisper-local"
 
 Google Disco es uno de esos experimentos que señalan una dirección interesante: el navegador deja de ser solo una ventana para visitar webs y empieza a convertirse en un entorno que entiende lo que estás intentando hacer.
 
-La pieza clave es GenTabs, una función que usa Gemini 3 para convertir pestañas abiertas en mini aplicaciones personalizadas.
+La pieza clave es GenTabs, una función que usa [Gemini 3](/blog/gemini-3-asi-es-el-nuevo-modelo-de-ia-revolucionario-de-google/) para convertir pestañas abiertas en mini aplicaciones personalizadas.
 
 ## Qué es Google Disco
 
@@ -39,11 +40,13 @@ Si el navegador empieza a hacer esa traducción automáticamente, puede ahorrar 
 
 También hay una lectura menos cómoda: si el navegador resume, reordena y convierte páginas en apps, cambia la relación entre usuario, contenido y tráfico web.
 
-Para creadores y negocios, esto puede afectar al SEO y a cómo se descubre la información.
+Para creadores y negocios, esto puede afectar al [SEO](/blog/errores-seo/) y a cómo se descubre la información.
 
 ## Idea central
 
 Google Disco apunta a un navegador más agente: menos pestañas sueltas y más herramientas generadas alrededor de una intención concreta.
+
+Si quieres preparar tu contenido, web o producto para un entorno donde los navegadores y asistentes resumen cada vez más, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 
