@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "CULTURAFREAK"
 date: 2025-03-11 09:00:00 -0500
 description: "Una declaración de amor a los cómics, los héroes de papel y la cultura pop como mapa emocional de una vida."
 image: "https://img.youtube.com/vi/bCsIkyeex1U/hqdefault.jpg"
 image_alt: "CULTURAFREAK"
+resumen: "CULTURAFREAK conecta cómics, héroes y cultura pop con identidad, pertenencia y memoria personal."
 categories: [youtube]
 tags: [comics, cultura-pop, cultura-freak, youtube]
 source: "youtube"
@@ -46,6 +48,8 @@ Esa idea me gusta porque evita la nostalgia triste. No se trata de quedarse atra
 La cultura pop no es una evasión menor. Para muchos ha sido un idioma, una brújula y una forma de construir identidad. Cada viñeta, cada saga y cada héroe deja algo.
 
 Y mientras queden páginas por leer, la historia sigue.
+
+Si quieres transformar un vídeo, newsletter o pieza cultural en un post con contexto, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

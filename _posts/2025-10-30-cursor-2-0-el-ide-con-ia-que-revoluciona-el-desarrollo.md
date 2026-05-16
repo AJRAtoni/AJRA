@@ -5,6 +5,7 @@ date: 2025-10-30 09:00:00 -0500
 description: "Cursor 2.0 lleva la programación asistida por IA hacia un modelo centrado en agentes, Composer, trabajo en paralelo y herramientas integradas en el editor."
 image: "https://img.youtube.com/vi/Gfkn_c14DpA/hqdefault.jpg"
 image_alt: "CURSOR 2.0: El IDE con IA que revoluciona el desarrollo"
+resumen: "Cursor 2.0 apunta a un desarrollo más dirigido por agentes: más intención, revisión y criterio técnico; menos trabajo repetitivo dentro del editor."
 categories: [youtube]
 tags: [ia, programacion, cursor, desarrollo, youtube]
 source: "youtube"
@@ -50,6 +51,8 @@ La promesa no es que la IA “programa por ti” de forma mágica. La promesa ú
 ## Idea central
 
 Cursor 2.0 apunta a una nueva etapa del desarrollo asistido por IA: programar como dirección de sistemas inteligentes. La habilidad importante ya no será solo escribir código, sino formular buenas instrucciones, evaluar soluciones y mantener calidad en medio de más automatización.
+
+Si quieres revisar herramientas de IA para desarrollo, flujos con agentes o cómo introducirlas sin perder control técnico, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

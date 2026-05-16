@@ -5,6 +5,7 @@ date: 2025-11-04 09:00:00 -0500
 description: "Apple Journal parece una app simple para escribir recuerdos, pero también apunta a bienestar, privacidad e inteligencia artificial personal dentro del ecosistema Apple."
 image: "https://img.youtube.com/vi/xzEEGKYPqFA/hqdefault.jpg"
 image_alt: "Apple Journal: La App de Diario Digital de Apple"
+resumen: "Apple Journal es diario, bienestar y estrategia de contexto personal: una app sencilla que dice mucho sobre privacidad e IA en el ecosistema Apple."
 categories: [youtube]
 tags: [apple, journal, ios, inteligencia-artificial, bienestar, youtube]
 source: "youtube"
@@ -56,6 +57,8 @@ Visto así, Journal funciona como un campo de entrenamiento para una inteligenci
 ## Idea central
 
 Apple Journal es una app sencilla en la superficie, una herramienta de bienestar en la práctica y una pieza estratégica en el fondo. Su valor no está solo en escribir recuerdos, sino en cómo Apple aprende a organizar contexto personal sin abandonar su narrativa de privacidad.
+
+Si quieres revisar apps de notas, diario, bienestar digital o estrategia de producto en Apple, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

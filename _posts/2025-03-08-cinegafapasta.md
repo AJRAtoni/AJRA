@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "CINEGAFAPASTA"
 date: 2025-03-08 09:00:00 -0500
 description: "Una pieza personal sobre cine, memoria y cultura pop: de las cintas rebobinadas a las películas que acaban formando parte de tu vida."
 image: "https://img.youtube.com/vi/7-UyWH7jJlw/hqdefault.jpg"
 image_alt: "CINEGAFAPASTA"
+resumen: "CINEGAFAPASTA mira el cine como memoria personal: películas, formatos y escenas que acaban formando parte de una biografía."
 categories: [youtube]
 tags: [cine, cultura-pop, cultura-freak, youtube]
 source: "youtube"
@@ -47,6 +49,8 @@ Porque al final no se trata solo de ver películas. Se trata de compartirlas, re
 ## Idea central
 
 El cine no se apaga. Cambia de formato, cambia de compañía, cambia de momento vital. Pero sigue ahí: como memoria, como refugio y como una forma de contarnos quiénes somos.
+
+Si quieres comentar cultura pop, cine o convertir una pieza audiovisual en texto para el blog, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

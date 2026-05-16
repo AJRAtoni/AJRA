@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "CULTURAFREAK #078: estrenos de cine y TV para 2025"
 date: 2025-05-29 09:00:00 -0500
 description: "Repaso a algunos de los grandes estrenos de cine y televisión previstos para 2025, de Marvel y Star Wars a ciencia ficción, terror y nuevas temporadas."
 image: "https://img.youtube.com/vi/-UDAmg2mZr8/hqdefault.jpg"
 image_alt: "CULTURAFREAK #078: estrenos de cine y TV para 2025"
+resumen: "La edición #078 de CULTURAFREAK repasa un 2025 cargado de estrenos, franquicias y series que necesitaban destacar más allá del logo."
 categories: [youtube]
 tags: [cine, series, cultura-freak, newsletter, youtube]
 source: "youtube"
@@ -43,6 +45,8 @@ El calendario también apunta a un año con terror y fantasía reconocible, nuev
 ## Idea central
 
 2025 pinta como un año de mucho volumen, pero el reto no será solo estrenar mucho. Será destacar. Las franquicias ya no pueden confiar únicamente en el logo. Necesitan buenas ideas, personajes que importen y motivos reales para que el público vuelva.
+
+Si quieres convertir una selección de estrenos, tendencias o cultura pop en contenido editorial, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

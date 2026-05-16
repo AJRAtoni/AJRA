@@ -5,6 +5,7 @@ date: 2025-11-03 09:00:00 -0500
 description: "Qué es Pomelli, cómo usa IA para convertir la identidad de una marca en campañas de marketing y por qué puede ser útil para pymes y creadores."
 image: "https://img.youtube.com/vi/3tK3dQc09oo/hqdefault.jpg"
 image_alt: "Pomelli by Google Labs"
+resumen: "Pomelli apunta a una IA de marketing más contextual: primero entiende la marca y después genera campañas alineadas con su identidad."
 categories: [youtube]
 tags: [ia, google-labs, marketing-digital, branding, youtube]
 source: "youtube"
@@ -54,6 +55,8 @@ Eso no significa que la estrategia deje de importar. Al contrario: cuanto más c
 ## Idea central
 
 Pomelli representa una dirección interesante para la IA aplicada al marketing: menos contenido genérico y más herramientas que entienden el contexto de una marca. Su valor real no está en reemplazar la creatividad, sino en liberar tiempo para usarla mejor.
+
+Si quieres revisar identidad de marca, campañas con IA o procesos de contenido para una pyme, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

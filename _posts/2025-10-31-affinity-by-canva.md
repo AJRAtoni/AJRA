@@ -5,6 +5,7 @@ date: 2025-10-31 09:00:00 -0500
 description: "El relanzamiento de Affinity bajo Canva: una suite profesional gratuita, nuevas herramientas de diseño y las dudas sobre IA, privacidad y suscripciones."
 image: "https://img.youtube.com/vi/7yLhdyccpJY/hqdefault.jpg"
 image_alt: "Affinity by CANVA"
+resumen: "Affinity bajo Canva abre una oportunidad enorme para diseño profesional gratuito, pero también obliga a mirar modelo de negocio, IA y privacidad."
 categories: [youtube]
 tags: [diseno, canva, affinity, creatividad, youtube]
 source: "youtube"
@@ -52,6 +53,8 @@ Por ahora, el valor para el usuario es evidente: una suite capaz, accesible y co
 ## Idea central
 
 Affinity bajo Canva es una jugada importante: pone herramientas profesionales al alcance de más personas, pero también concentra más poder dentro de un ecosistema cerrado. Conviene aprovechar lo bueno sin dejar de mirar las condiciones, la privacidad y el papel creciente de la IA.
+
+Si quieres revisar herramientas de diseño, alternativas a Adobe o flujos entre Canva, Affinity y web, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 
