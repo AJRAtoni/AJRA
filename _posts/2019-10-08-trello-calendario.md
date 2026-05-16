@@ -1,31 +1,51 @@
 ---
 layout: post
-title: Como sincronizar Trello con tu calendario
+title: "Cómo sincronizar Trello con tu calendario"
 date: 2019-10-08 10:00:00 +0300
 image: /images/166.jpg
+image_alt: "Calendario de Trello con tarjetas organizadas por fecha de vencimiento"
+description: "Trello permite ver tareas con fecha en calendario y sincronizarlas con apps externas mediante un enlace iCalendar."
+resumen: "Sincronizar Trello con tu calendario ayuda a ver tareas y fechas de vencimiento junto al resto de compromisos del día."
 source: AJRA-v09/_posts/2019-10-08-trello-calendario.md
 ---
 
-Una de las funciones interesantes que tiene Trello es la posibilidad de poner una fecha de finalización a las tarjetas/tareas.
+Una función muy útil de Trello es asignar fecha de vencimiento a las tarjetas.
 
-Es algo muy sencillo, que se hace de forma rápida y nos permite tener nuestras tareas bien organizadas en el tiempo.
+Es un gesto sencillo, pero cambia mucho la forma de trabajar: una tarea deja de ser solo una tarjeta en una lista y pasa a ocupar un lugar concreto en el tiempo.
 
-Basta abrir una tarjeta y seleccionar la opción “fecha de vencimiento” y ahí ponemos la fecha en límite en la que deberíamos haber completado la tarea.
+## Añadir fecha de vencimiento
 
+Para poner una fecha en Trello:
 
-Trello también nos permite ver un calendario con todas las tareas que tenemos planificadas, solo tenemos que apretar en el botón “calendario” que aparece en la parte superior derecha.
+1. Abre una tarjeta.
+2. Selecciona **Fecha de vencimiento**.
+3. Elige el día y la hora límite.
+4. Guarda los cambios.
 
-También es muy cómodo el poder arrastrar y soltar las tarjetas de un día a otro del calendario para cambiar su fecha de vencimiento.
+Después puedes ver esas tarjetas dentro de la vista de calendario de Trello.
 
+También puedes arrastrar una tarjeta de un día a otro para cambiar rápidamente su fecha.
 
-Esto está muy bien, pero podemos ir un paso más allá. Podemos enlazar el calendario de Trello con nuestro calendario, ya sea de un calendario de iCloud, Google Calendar, Outlook o básicamente cualquiera.
+## Sincronizar Trello con otro calendario
 
-Para sincronizar el calendario de Trello con un calendario de terceros tenemos que usar un enlace de iCal. Para ello debemos ir a “Configuración” y activar la opción “Habilitar iCalendar Feed” esto generará un enlace que deberemos copiar.
+La parte interesante es que Trello permite compartir esas fechas mediante un enlace iCalendar.
 
-Una vez que tenemos ese enlace debemos ir a nuestro calendario de terceros y utilizar la url para “suscribirnos” al calendario de Trello.
+Ese enlace puede suscribirse desde apps como Calendario de Apple, Google Calendar, Outlook y otros calendarios compatibles.
 
----
+El flujo general es:
 
-Es una forma genial de tener nuestras tareas organizadas en Trello y reflejadas en nuestro calendario.
+1. Entra en la configuración del tablero.
+2. Activa la opción **Habilitar iCalendar Feed**.
+3. Copia la URL generada.
+4. Abre tu app de calendario.
+5. Añade una nueva suscripción de calendario usando esa URL.
 
-Y recuerda, si tienes problemas a la hora de sincronizar tu calendario de Trello con una app de terceros, solo tienes que [contactar conmigo](https://ajra.typeform.com/to/OIDPUV) y trataré de ayudarte.
+Desde ese momento, tus tarjetas con fecha de vencimiento aparecerán junto al resto de eventos.
+
+## Cuándo merece la pena
+
+Esta sincronización es útil si ya usas Trello para organizar trabajo y no quieres revisar otra herramienta más para saber qué toca hoy.
+
+También encaja con una forma de productividad más ordenada, como la que comentaba en el post sobre [qué es Trello](/blog/trello/) o en la guía de [GTD](/blog/gtd-flujo-de-trabajo-y-productividad-sin-estres/): capturar tareas, ponerles contexto y revisarlas en el lugar adecuado.
+
+Si quieres ordenar Trello, calendarios o tareas recurrentes para que tu sistema sea más fácil de mantener, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

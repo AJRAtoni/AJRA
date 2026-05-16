@@ -1,18 +1,43 @@
 ---
 layout: post
-title: Adobe deja de funcionar en Venezuela y suspende todas sus cuentas de Creative
-  Cloud
+title: "Adobe dejó de operar en Venezuela por una orden ejecutiva de EEUU"
 date: 2019-10-09 10:00:00 +0300
 image: /images/167.png
+image_alt: "Logotipo de Adobe Creative Cloud asociado a servicios en la nube"
+description: "Adobe anunció la suspensión de cuentas de Creative Cloud en Venezuela tras una orden ejecutiva de EEUU, un recordatorio de la dependencia de servicios cloud."
+resumen: "El caso de Adobe en Venezuela mostró que el software por suscripción no depende solo de tecnología: también depende de regulación, pagos y acceso a la nube."
 source: AJRA-v09/_posts/2019-10-09-adobe-venezuela.md
 ---
 
-El Gobierno de EEUU ha emitido una orden ejecutiva que prohibe transacciones y servicios de empresas con Venezuela, Adobe ha sido la primera en acatar la orden y cesar las actividades en dicho país.
+El Gobierno de Estados Unidos emitió una orden ejecutiva que restringía transacciones y servicios de empresas estadounidenses con Venezuela.
 
-[La orden ejecutiva 13884](https://helpx.adobe.com/la/x-productkb/policy-pricing/executive-order-venezuela.html?trackingid=695P7PZT&mv=email) prohibe las transacciones entre servicios norteamericanos y su uso en Venezuela, provocando que Adobe deje de ofrecer sus servicios de Photoshop, Lightroom, Ilustrator, etc…
+Adobe fue una de las primeras compañías en reaccionar y anunció la suspensión de sus servicios en el país.
 
-Por “suerte” Adobe ha dado de plazo hasta el 28 de octubre para que los usuarios puedan acceder y descargar el contenido que tengan almacenado la nube de Adobe.
+La medida afectaba a herramientas como Photoshop, Lightroom, Illustrator y otros productos asociados a **Creative Cloud**.
 
-> “Debido a la reciente Orden Ejecutiva Presidencial en los Estados Unidos (Orden Ejecutiva 13884) concerniente a las actividades con el Gobierno de Venezuela, Adobe ya no está autorizado a proporcionarte acceso al software y a los servicios, ni a permitirte realizar nuevas compras”
+## El problema para los usuarios
 
-¿Sera esta la primera de muchas empresas en dejar de operar en el país?
+Adobe comunicó a los usuarios que dejaría de estar autorizada para proporcionar acceso a software, servicios o nuevas compras vinculadas a Venezuela.
+
+También dio un plazo para que los usuarios pudieran acceder y descargar el contenido que tuvieran almacenado en la nube de Adobe.
+
+Ese detalle era crítico. Si tus archivos, proyectos y licencias dependen de una cuenta cloud, perder acceso no significa solo dejar de usar una app. Puede significar perder continuidad de trabajo.
+
+## Lectura retrospectiva
+
+Este caso no va solo de Adobe ni solo de Venezuela.
+
+Es un recordatorio de que el software moderno depende de varias capas:
+
+- Licencias por suscripción.
+- Sistemas de pago.
+- Cuentas de usuario.
+- Almacenamiento cloud.
+- Normativa internacional.
+- Decisiones de proveedores.
+
+Ya lo vimos desde otro ángulo al hablar de [Photoshop para iPad](/blog/photoshop-ipad/) o de servicios de almacenamiento como [Dropbox](/blog/dropbox-precios/) y [Amazon Cloud Drive](/blog/amazon-ilimitado/): la nube da comodidad, pero también introduce dependencia.
+
+La solución no es rechazar cualquier servicio cloud. La solución es saber dónde están tus archivos, cómo exportarlos y qué harías si mañana una cuenta deja de funcionar.
+
+Si quieres revisar dependencias cloud, copias de seguridad o continuidad de trabajo para que tu negocio no dependa de una sola plataforma, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

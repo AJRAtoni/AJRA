@@ -1,29 +1,44 @@
 ---
 layout: post
-title: Los Pixel 4 no tienen espacio ilimitado en calidad original en Google Photos,
-  los iPhone si
+title: "Pixel 4 perdió almacenamiento ilimitado original en Google Fotos"
 date: 2019-10-17 10:00:00 +0300
 image: /images/logo-googlefotos.jpg
+image_alt: "Logotipo de Google Fotos sobre fondo claro"
+description: "Google eliminó el almacenamiento ilimitado en calidad original para Pixel 4, mientras el formato HEIF del iPhone generó una excepción curiosa."
+resumen: "El caso Pixel 4 y Google Fotos mostró que las ventajas de almacenamiento en la nube pueden cambiar rápido y que los formatos importan."
 source: AJRA-v09/_posts/2019-10-17-googlefotos-limitado.md
 ---
 
-Hasta ahora uno de los puntos fuertes que tenían los Google Pixel era el almacenamiento ilimitado a maxima calidad en Google Photos.
+Durante años, uno de los grandes atractivos de los Google Pixel fue el almacenamiento ilimitado en calidad original en Google Fotos.
 
-Pero eso ha cambiado con el nuevo Google Pixel 4 que se ha presentado esta semana.
+Con el Pixel 4 eso cambió.
 
+Los usuarios del Pixel 4 dejaron de tener almacenamiento ilimitado a máxima calidad. En su lugar, mantenían almacenamiento ilimitado con compresión, lo que implicaba una ligera reducción de calidad.
 
-Los usuarios del Pixel 4 dejan de obtener almacenamiento ilimitado a maxima calidad, en su lugar obtienen almacenamiento ilimitado pero con una compresión de las imágenes, lo que conlleva una ligera reducción de calidad.
+## La ironía con el iPhone
 
-Pero lo más irónico del caso es que los usuarios de iPhone si que tendrán almacenamiento ilimitado a la calidad original de las imágenes.
+Lo curioso era que los usuarios de iPhone podían seguir subiendo fotos en calidad original en ciertos casos.
 
-Esto es debido al tipo de compresión que utiliza Apple. Apple usa un formato de compresión de imagen de altas eficiencia HEIF/HEVC.
+La explicación estaba en el formato.
 
-Esto hace que las imágenes ocupen mucho menos espacio, incluso menos que los JPEG con la compresión de Google, por lo cual si Google intenta comprimir la fotos realizadas con un iPhone solo consigue archivos más grandes.
+Apple usaba HEIF/HEVC, un formato de alta eficiencia que genera archivos más pequeños que muchos JPEG. Si Google intentaba recomprimir algunas fotos HEIF, podía acabar generando archivos más grandes.
 
-Así que Google ha decidido mantener las millones de fotos en formato HEIF de los iPhone, ahorrando así espacio y procesos de compresión.
+Así que, en la práctica, mantener esas fotos tal cual podía ahorrar espacio y procesamiento.
 
-Aclarar que esto funciona solo en las fotos, ya que los vídeos se guardan siempre a un máximo de 1080p.
+Para comprobar el formato en iPhone, había que ir a:
 
-Puedes comprobar si tu iPhone está configurado para hacer las fotos en el formato HEIF/HEVC desde AJUSTES >>> CÁMARA >>> FORMATOS y seleccionando la opción ALTA EFICIENCIA.
+```text
+Ajustes > Cámara > Formatos > Alta eficiencia
+```
 
-De esta forma nuestro iPhone disparará en formato HEIF y podremos aprovechar el espacio ilimitado de Google Photos sin perder calidad en nuestras capturas.
+## Lectura retrospectiva
+
+Este caso fue una señal temprana de algo que después sería mucho más evidente: las condiciones de Google Fotos podían cambiar.
+
+Más adelante Google eliminó el almacenamiento ilimitado gratuito, como comenté en [Google Fotos dejará de ofrecer almacenamiento ilimitado](/blog/google-photos/).
+
+La lección es sencilla: cuando una nube parece infinita y gratuita, conviene leer la letra pequeña. Ya lo vimos también con [Amazon Cloud Drive](/blog/amazon-ilimitado/) y con la importancia de tener [copias de seguridad](/blog/copias-seguridad-google/).
+
+Google Fotos sigue siendo una herramienta muy potente, con funciones como reconocimiento de personas, lugares y mascotas, que ya comentamos en [Google Photos y mascotas](/blog/google-photos-mascotas/). Pero no debería ser tu única copia.
+
+Si quieres revisar tu sistema de fotos, almacenamiento cloud y copias de seguridad para no depender de una sola plataforma, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

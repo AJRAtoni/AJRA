@@ -1,58 +1,73 @@
 ---
 layout: post
-title: Como usar un raton en iPadOS
+title: "Cómo usar un ratón en iPadOS"
 date: 2019-10-10 10:00:00 +0300
 image: /images/168.jpg
+image_alt: "iPad con iPadOS usando un ratón Bluetooth como dispositivo señalador"
+description: "iPadOS 13 permitió conectar ratones Bluetooth desde Accesibilidad mediante AssistiveTouch, un primer paso hacia el soporte de puntero en iPad."
+resumen: "El soporte inicial de ratón en iPadOS estaba algo escondido en Accesibilidad, pero marcó el camino hacia un iPad más útil para trabajo."
 source: AJRA-v09/_posts/2019-10-10-raton-ipados.md
 ---
 
-Una de las novedades que trae iPadOS es la posibilidad de utilizar un raton conectado a nuestro iPad, algo que los usuarios estaban pidiendo desde hace tiempo.
+Una de las novedades más esperadas de iPadOS fue la posibilidad de usar un ratón conectado al iPad.
 
-Por el momento la opción de conectar un raton a iPad esta un poco oculta y esta dentro del apartado de Accesibilidad.
+En iPadOS 13 esta función todavía estaba algo escondida dentro de Accesibilidad, pero fue un primer paso importante. Más adelante Apple mejoraría mucho el soporte de puntero, especialmente con accesorios como el [Magic Keyboard para iPad](/blog/magic-keyboard-ipad/).
 
-Siguiendo los pasos que vienen a continuación podrás conectar cualquier raton bluetooth a tu iPad.
+## Activar AssistiveTouch
 
-Lo primero que debemos hacer es activar la opción de AssistiveTouch en nuestro iPad. Para eso tenemos que ir a Ajustes -> Accesibilidad -> Tocar -> AssistiveTouch y activar esta opción.
+Para conectar un ratón Bluetooth en iPadOS 13, primero había que activar AssistiveTouch:
 
-Ahora debemos de ir un poco mas abajo, en el apartado de Dispositivos Señaladores y entrar en la opción “Dispositivos” y hacer tap en la opción “Dispositivos Bluetooth”
+1. Abre **Ajustes**.
+2. Entra en **Accesibilidad**.
+3. Toca en **Tocar**.
+4. Abre **AssistiveTouch**.
+5. Activa la opción.
 
-En ese momento el iPad comenzara a buscar los dispositivos Bluetooth que tenga a su alrededor, así que es el momento de encender nuestro Magic Mouse 2 para que nos aparezca en pantalla.
+Después, dentro de AssistiveTouch, había que buscar el apartado de dispositivos señaladores.
 
-Una vez que tenemos el iPad se haya sincronizado con el Magic Mouse 2 veremos como ya podemos mover el puntero a lo largo de la pantalla.
+## Conectar el ratón Bluetooth
 
-Ahora solo falta personalizar el funcionamiento del raton a nuestro gusto.
+El siguiente paso era entrar en:
 
-Al sincronizar nuestro raton con iPadOS se nos ofrecen diferentes opciones de configuración, tenemos opciones de personalizar el tamaño del cursor, el color, la velocidad de desplazamiento o el comportamiento de los botones.
+```text
+Dispositivos señaladores > Dispositivos > Dispositivos Bluetooth
+```
 
-## Cambiar la velocidad de desplazamiento
+En ese momento el iPad empezaba a buscar dispositivos cercanos.
 
-Una de las opciones que nos ofrece iPadOS es la de adaptar la velocidad de desplazamiento de cursor, para que se mueva mas lento o mas rápido a lo largo de la pantalla:
+Solo había que poner el ratón en modo emparejamiento, seleccionarlo en pantalla y esperar a que quedara conectado.
 
-Desplázate hasta el apartado Velocidad de desplazamiento.
-Sube o baja la barra de velocidad hasta ajustarla a tus necesidades.
-Los cambios se aplican automáticamente, tan solo tienes que mover el raton para comprobar si esa nueva velocidad se adapta a tus gustos.
+Una vez enlazado, el puntero ya podía moverse por la pantalla del iPad.
 
-## Configurar los diferentes botones del raton
+## Ajustar velocidad, tamaño y color
 
-Esta es una de las opciones mas interesantes y nos ofrece la posibilidad de configurar el funcionamiento de los diferentes botones de nuestro raton.
+iPadOS permitía personalizar varios aspectos del puntero:
 
-Por ejemplo, podemos configurar que al pulsar sobre el botón derecho del raton el sistema nos devuelva al dashboard de iPadOS o también podríamos decirle que el click en el botón derecho simule una pulsación larga, lo cual nos abriría el menu contextual (lo que hasta ahora se realizaba con 3DTouch).
+- Velocidad de desplazamiento.
+- Tamaño del cursor.
+- Color.
+- Ocultación automática.
+- Acciones de botones.
 
-Para configurar los botones debemos seguir estos pasos:
+Esto era especialmente útil porque el puntero de iPadOS no intentaba comportarse exactamente como el cursor de un Mac. Nacía desde Accesibilidad, así que tenía muchas opciones de adaptación.
 
-1. Ir al apartado Dispositivos señaladores — Dispositivos Bluetooth.
-2. Toca sobre el nombre del ratón en el apartado de Dispositivos conectados.
-3. Accede a cada uno de los botones para configurar la opción que quieras que realice al pulsarlo.
+## Configurar botones del ratón
 
-## Cambiar el tamaño y color del cursor
+También podías asignar acciones a los botones.
 
-Como comentaba antes, también podemos personalizar el tamaño y color que deseamos que tenga el cursor, tan solo debemos seguir estos pasos:
+Por ejemplo, el botón derecho podía volver a la pantalla de inicio o simular una pulsación larga para abrir menús contextuales.
 
-1. Desde aquí podemos seleccionar el tamaño que queremos para nuestro cursos utilizando el slider.
-2. Seleccionar el color que queremos para el cursor.
-3. Y también podemos seleccionar la opción Ocultación automática, lo cual oculta el cursor pasado un tiempo (tranquilo el cursos vuelve a aparecer al detectar movimiento).
+El flujo era:
 
+1. Entra en **Dispositivos señaladores**.
+2. Abre **Dispositivos Bluetooth**.
+3. Toca el nombre del ratón conectado.
+4. Configura cada botón.
 
-Por el momento esto es todo, seguiré de cerca la evolución de iPadOS 13 y de las opciones relacionadas con el uso del raton para manteneros informados.
+## Por qué fue importante
 
-Recordad que si tenéis cualquier duda o problema a la hora de conectar vuestro raton a iPadOS 13 podéis [contactar conmigo](https://ajra.typeform.com/to/OIDPUV) y os ayudare en todo lo posible.
+En aquel momento parecía una función menor y escondida, pero anticipaba algo más grande: el iPad empezaba a acercarse a flujos de trabajo de escritorio.
+
+Esa evolución continuó con [iPadOS 14](/blog/ipados-14/), mejoras en archivos, edición, multitarea y apps profesionales.
+
+Si quieres configurar un iPad para trabajar mejor con teclado, ratón, archivos y apps profesionales, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

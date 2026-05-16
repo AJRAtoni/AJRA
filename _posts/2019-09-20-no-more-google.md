@@ -1,115 +1,84 @@
 ---
 layout: post
-title: No More Google
+title: "No More Google: reducir dependencia sin volverse loco"
 date: 2019-09-20 10:00:00 +0300
 image: /images/160.jpg
+image_alt: "Persona revisando servicios digitales y alternativas a Google"
+description: "Reducir dependencia de Google no tiene por qué ser una ruptura total: conviene revisar navegador, buscador, correo, nube, mapas y contraseñas por capas."
+resumen: "El problema no es usar Google, sino depender de un único ecosistema para buscar, navegar, guardar contraseñas, escribir, almacenar archivos y moverte por internet."
 source: AJRA-v09/_posts/2019-09-20-no-more-google.md
 ---
 
-Desde hace un tiempo nos estamos concienciando un poco más sobre la importancia de nuestra privacidad.
+Desde hace años somos más conscientes de la importancia de la privacidad.
 
-Seguramente muchos habréis visto la documental “El Gran Hackeo” y habréis visto todo lo que se puede hacer solo con nuestros datos.
-Pero no solo Facebook vive de nuestros datos, hay otra compañía que se dedica a ofrecernos servicios gratuitos a cambio de nuestra información… una que quizás no os habíais parado a pensarlo porque esta ahi con nosotros desde “toda la vida” y nos ofrece una serie de servicios sin los cuales creemos que no podríamos vivir… se trata de Google.
+Documentales como **El Gran Hackeo** ayudaron a explicar qué se puede hacer con nuestros datos, pero el problema no se limita a Facebook. Google también forma parte de esa conversación porque está integrado en muchísimos hábitos diarios.
 
-Vamos a resumirlo mucho:
+Buscamos en Google, navegamos con Chrome, usamos Gmail, guardamos archivos en Drive, escribimos en Docs, vemos YouTube y nos movemos con Maps.
 
-Apple gana dinero haciendo hardware, hace dispositivos que luego nos vende y ella gana dinero.
+El punto no es demonizar una empresa. El punto es entender la dependencia.
 
-Microsoft gana dinero haciendo software, nos vende Windows y Office y ella gana dinero.
+## Si el servicio es gratis, alguien paga
 
-¿Y Google? Todo los servicios que nos ofrece son gratuitos, ¿entonces cómo gana dinero?
+Apple gana dinero vendiendo hardware y servicios. Microsoft vende software, nube y herramientas profesionales. Google ofrece muchos productos gratuitos porque su negocio principal ha estado históricamente ligado a publicidad, datos y segmentación.
 
-La mayor fuente de beneficios de Google viene de la recopilación de nuestros datos y posterior venta a anunciantes.
+Por eso la frase "si el producto es gratis, el producto eres tú" se sigue repitiendo tanto. Es una simplificación, pero ayuda a hacer una pregunta sana: ¿qué datos entrego a cambio de comodidad?
 
-Aquí se cumple la famosa frase de “Cuando el producto es gratis, es porque el producto eres tu”.
+Ya hablamos de esa tensión al repasar [Facebook y Cambridge Analytica](/blog/facebook-espia/) y también al explicar por qué [Sign in with Apple](/blog/signin-apple/) puso la privacidad en el centro del login social.
 
-El principal problema, es que Google tiene cientos de apps, muchas de ellas tan implementadas en nuestro día a día que es difícil decidir dejar de usarlo de un día para otro:
+## No hace falta salir de golpe
 
-- Google Chrome
-- Google Chrome Passwords
-- Google Search
-- Gmail
-- Google Docs
-- Google Sheets
-- Google Slides
-- Google Drive
-- Youtube
-- Google Maps
-- Google Hangouts
-- Google Images
-Estas son solo algunas de las apps que personalmente yo usaba de Google, pero ya hace unos años decidí ir dejando progresivamente de usarlas.
+Intentar abandonar Google de un día para otro suele acabar mal. Hay demasiadas piezas conectadas.
 
-Aquí os voy a dejar un listado de apps alternativas a cada una de las opciones de Google.
+Lo razonable es revisar por capas:
 
-## GOOGLE CHROME
+- Navegador.
+- Buscador.
+- Gestor de contraseñas.
+- Correo.
+- Documentos.
+- Almacenamiento en la nube.
+- Mapas.
+- Fotos.
+- Vídeo.
 
-El famoso y todopoderoso navegador de Google, parece difícil no usarlo, pero cada vez que lo usamos le estamos regalando a Google todo nuestro historial de navegación.
+Puedes empezar por lo más sensible o por lo más fácil.
 
-Por suerte tenemos muy buenas opciones a nuestra disposición.
+## Navegador y buscador
 
-## GOOGLE CHROME PASSWORDS
+Chrome es rápido y compatible, pero también es una vía enorme de datos de navegación.
 
-Otro de los posibles problemas que encontremos a la hora de dejar de usar Google Chrome es que ahi teníamos almacenados todos nuestros passwords.
+Si quieres reducir dependencia, puedes probar navegadores con otro enfoque de privacidad o separar usos: un navegador para trabajo, otro para navegación personal y otro para pruebas.
 
-¿Qué alternativas hay al gestor de Google Chrome Passwords?
+Con el buscador ocurre algo parecido. No tienes que cambiar todo tu flujo de golpe; basta con configurar otro motor por defecto durante unas semanas y comprobar si realmente echas algo de menos.
 
-## GOOGLE SEARCH
+## Contraseñas
 
-Cuando tenéis que realizar una búsqueda instintivamente piensas en Google.
+Si tus contraseñas viven dentro del navegador, salir de ese navegador se vuelve más difícil.
 
-Aunque en la mayoría de ocasiones ya no vamos a la pagina principal de Google a realizar la búsqueda.
-La mayoría de veces escribimos la búsqueda en la barra de dirección de nuestro navegador y este automatiza la búsqueda, así que lo único que deberíamos hacer es configurar nuestro navegador para que utilice alguno de estos motores de búsqueda:
+Por eso tiene sentido usar un gestor de contraseñas independiente. Ya expliqué algunas ideas básicas en el post sobre [contraseñas seguras](/blog/passwords-seguros/): claves únicas, doble factor y menos dependencia de la memoria.
 
-## GMAIL
+## Gmail, Docs y Drive
 
-Otro de esos servicios de Google de los que la mayoría usamos día a día.
+Gmail, Google Docs, Sheets y Drive son herramientas muy cómodas. También concentran mucho trabajo, conversaciones y archivos.
 
-El problema es que Google indexa todo lo que enviamos y recibimos y no sería la primera vez que admiten que su personal puede acceder y leer tus correos con el fin de mejorar el servicio.
+La pregunta práctica es: ¿puedo exportar mis datos si mañana quiero cambiar?
 
-Pero tranquilos, que también hay muy buenas opciones y con mayor cuidado de nuestra privacidad.
+Si la respuesta no está clara, conviene revisar copias, formatos y permisos. Esa misma idea aparece en el post sobre [copias de seguridad en Google Drive](/blog/copias-seguridad-google/).
 
-## GOOGLE DOCS
+## YouTube y Maps
 
-Si nos centramos en el procesador de textos de Google, Google Docs, vemos que también tenemos muchas alternativas.
+YouTube es el caso más difícil. Hay alternativas para vídeo, pero ninguna tiene el mismo catálogo, comunidad y volumen de contenido.
 
-## GOOGLE SHEETS
+Maps también es complicado porque mezcla mapas, historial de ubicaciones, reseñas, negocios, rutas y recomendaciones.
 
-Con Google Sheets, pasa lo mismo que con Google Docs.
+Aquí no siempre se trata de abandonar, sino de reducir exposición: revisar historial, permisos de ubicación, actividad guardada y apps que tienen acceso a la cuenta.
 
-## YOUTUBE
+## Google Fotos
 
-Youtube es un caso muy especial, es la única herramienta de Google que continuo utilizando y aunque tiene alternativas creo que ninguna llega a estar a su altura, ya no por calidad o servicios, si no por cantidad.
+Google Fotos fue durante años una herramienta irresistible por búsqueda, sincronización y almacenamiento. Pero también es otro buen ejemplo de dependencia: cuando cambian las condiciones, todo tu archivo visual queda dentro de una plataforma.
 
-# GOOGLE MAPS
+Por eso conviene pensar en exportación y copia local, como vimos al hablar de [Google Fotos y el reconocimiento de mascotas](/blog/google-photos-mascotas/) o del final del [almacenamiento ilimitado en Google Fotos](/blog/google-photos/).
 
-El servicio de Mapas de Google es posiblemente, la herramienta que mas información recopila de nosotros, especialmente si lo tienes instalado en tu teléfono.
+No se trata de vivir sin Google. Se trata de no construir toda tu vida digital sobre un único proveedor sin saber cómo salir.
 
-Sabe continuamente dónde estamos, dónde vamos, a que hora visitamos ciertos comercios, etc… y ya sabemos donde acaba toda esa información.
-
-Por eso algunas de las alternativas son:
-
-## GOOGLE BLOGGER
-
-Me sorprende que todavía haya gente que utiliza la plataforma de blogging de Google, la anteriormente conocida como blogspot.
-
-Este caso es mas sencillo, ya que contamos con herramientas y servicios infinitamente superiores:
-
-## GOOGLE DRIVE
-
-Si nos estamos preocupando de lo que puede saber Google sobre nosotros con nuestras búsquedas y nuestros mensajes… ¿qué les hace pensar que vamos a dejar que almacenen nuestros datos?
-
-Hay muchos servicios que nos permiten almacenar nuestra información en la nube.
-
-## GOOGLE HANGOUTS
-
-El enésimo servicio de mensajería que saca Google y que no me extrañaría que acabe matándolo, como ha hecho con el resto anteriormente.
-
-Aquí os dejo un listado de servicios mas seguros y centrados en la privacidad.
-
-## GOOGLE IMAGES
-
-El buscador de imágenes de Google no es el único que existe, tenemos alternativas muy buenas.
-
-Estas son solo algunas de las alternativas que podéis utilizar en vuestro día a día, para poco a poco ir dejando de lado los servicios de Google.
-
-Una compañía que parece que con el tiempo se ha ido olvidando de su motto… **"Don’t be evil"**.
+Si quieres revisar privacidad, cuentas, copias de seguridad o dependencia de herramientas cloud en tu día a día o en tu negocio, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

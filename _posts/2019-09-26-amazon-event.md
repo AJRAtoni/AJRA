@@ -1,28 +1,44 @@
 ---
 layout: post
-title: Amazon celebra su presentación anual de hardware
+title: "Amazon renovó su hardware y puso a Alexa en el centro"
 date: 2019-09-26 10:00:00 +0300
 image: /images/logo-amazon.jpg
+image_alt: "Logotipo de Amazon asociado a dispositivos Echo y Alexa"
+description: "El evento anual de hardware de Amazon renovó dispositivos Echo y reforzó el papel de Alexa como capa de interacción para el hogar conectado."
+resumen: "El evento de Amazon no iba solo de altavoces: iba de llevar Alexa a más contextos, mejorar privacidad y consolidar el hogar conectado."
 source: AJRA-v09/_posts/2019-09-26-amazon-event.md
 ---
 
-Hoy Amazon ha realizado su evento anual de hardware.
-En esta presentación ha renovado gran parte de su gama de productos.
+Amazon celebró su evento anual de hardware y renovó buena parte de su gama de productos.
 
+Más que una presentación de dispositivos sueltos, el evento dejó claro el objetivo: llevar **Alexa** a más lugares de la casa y hacer que el asistente fuera una capa constante de interacción.
 
-La compañía de Jeff Bezos ha comenzado presentando las mejoras en Alexa:
+## Alexa, más natural y más transparente
 
-- Alexa ahora tiene un nuevo motor de voz que funciona mejor y es mas natural.
-- Alexa a mejorado en un 50% el reconocimiento de su nombre de invocación.
-- Alexa incorpora dos nuevos comandos “Alexa que has entendido?” y “Alexa porque has hecho eso?”
+La compañía empezó hablando de mejoras en Alexa:
 
-Amazon también ha presentado el **Auto Delete** una nueva política de borrado de históricos automáticos en 3 y 18 meses.
+- Nuevo motor de voz más natural.
+- Mejor reconocimiento de la palabra de activación.
+- Nuevos comandos para preguntar qué había entendido y por qué había hecho algo.
 
-Pero esta era una presentación de Hardware, así que vamos a ver todos los productos nuevos que han presentado:
+También presentó **Auto Delete**, una política para borrar históricos de voz de forma automática en periodos de 3 o 18 meses.
 
-## ECHO DOT
+Ese punto era importante. Los asistentes de voz siempre viven en una tensión incómoda entre utilidad y privacidad. Cuanto más contexto tienen, mejor funcionan; cuanto más contexto guardan, más preguntas aparecen.
 
-El nuevo Echo Dot incorpora una pantalla LED que nos muestra la hora, alarmas, cronometro o la temperatura.
+## Echo Dot con reloj
 
+Uno de los productos más sencillos, y probablemente más fáciles de entender, fue el Echo Dot con pantalla LED.
 
-Tiene un precio de $59
+La pantalla podía mostrar hora, alarmas, cronómetro o temperatura. No era una revolución, pero sí una mejora práctica: un altavoz de mesilla necesitaba comportarse también como reloj.
+
+El precio anunciado fue de 59 dólares.
+
+## La lectura del evento
+
+Amazon no estaba intentando vender solo hardware. Estaba construyendo una red de puntos de contacto: altavoces, pantallas, accesorios y servicios alrededor de Alexa.
+
+Esa estrategia encaja con movimientos anteriores de la compañía, desde la nube de consumo que comentamos en [Amazon Cloud Drive](/blog/amazon-ilimitado/) hasta la compra de [Whole Foods](/blog/amazon-wholefoods/): Amazon suele usar producto, distribución y datos para entrar en más momentos del día.
+
+Más adelante también probé el ecosistema en casa al hablar del [Amazon Echo Dot con Alexa](/blog/alexa/).
+
+Si quieres revisar qué herramientas, dispositivos o automatizaciones tienen sentido para tu casa, oficina o negocio, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

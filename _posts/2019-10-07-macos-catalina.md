@@ -1,48 +1,70 @@
 ---
 layout: post
-title: macOS Catalina ya está disponible
+title: "macOS Catalina ya estaba disponible: adiós iTunes, hola Catalyst y Sidecar"
 date: 2019-10-07 10:00:00 +0300
 image: /images/165.jpg
+image_alt: "Escritorio de macOS Catalina con la isla Catalina como fondo"
+description: "macOS Catalina eliminó iTunes, introdujo Catalyst, Sidecar, Tiempo de uso en Mac y renovó varias apps nativas del sistema."
+resumen: "Catalina fue una actualización importante del Mac: separó iTunes, acercó apps de iPad a macOS y abrió la puerta a usar el iPad como segunda pantalla."
 source: AJRA-v09/_posts/2019-10-07-macos-catalina.md
 ---
 
-Después de meses desde su presentación en la WWDC19, Apple ha lanzado la actualización de su sistema operativo: **macOS Catalina**.
+Después de su presentación en la WWDC19, Apple lanzó **macOS Catalina**.
 
-
-macOS Catalina trae muchas novedades:
+Fue una actualización importante porque tocó varias piezas históricas del Mac: iTunes, apps nativas, relación con el iPad y seguridad del sistema.
 
 ## Adiós iTunes
-iTunes cambio nuestra formar de disfrutar de la música, las películas y los podcasts. Pero con el tiempo se había convertido en un dinosaurio consumidor de recursos, ahora Apple lo discontinúa en macOS Catalina y lo sustituye por tres nuevas aplicaciones mucho más ligeras y versátiles: Música, Podcasts y Apple TV.
 
-## Apps de iOS en macOS
-Ahora con el proyecto Catalyst los desarrolladores puede portar sus Apps de iOS a macOS de forma fácil y sencilla. Poco a poco tus Apps preferidas del iPhone o iPad irán llegando al Mac.
+iTunes cambió durante años la forma de gestionar música, películas, podcasts y dispositivos.
 
-## Mejoras en las Apps nativas
+Pero también se había convertido en una aplicación pesada, llena de funciones acumuladas. En macOS Catalina, Apple la separó en tres apps más claras:
 
-Muchas de las Apps nativas del sistema también han sido renovadas:
+- Música.
+- Podcasts.
+- Apple TV.
 
-**Fotos** estrena una interfaz dinámica que convierte tus imágenes y recuerdos en un espectáculo. Verás solo tus mejores instantáneas en la fototeca, sin duplicados ni distracciones. Recorre tus favoritas por días, meses y años, y mira vistas previas más grandes de todas tus fotos. Además, como Fotos es aún más inteligente, es capaz de resaltar momentos importantes, como cumpleaños, aniversarios y viajes.
+Era un cambio lógico. Cada tipo de contenido necesitaba su propio espacio.
 
-**Notas** ha mejorado su diseño y y ha actualizado su sistema de búsqueda. Ahora también puedes compartir carpetas para colaborar con una o varias personas.
+## Apps de iPad en macOS
 
-**Recordatorios** es posiblemente la App que más ha cambiado, Apple la ha rediseñado desde cero. Ahora es más fácil crear, organizar y gestionar tus recordatorios.
+Con **Catalyst**, Apple facilitó que desarrolladores llevaran apps de iPad a macOS.
 
-**Apple Arcade** el nuevo servicio de juegos de Apple llega por fin a macOS. Empieza una partida en el Mac y pásate al iPhone, iPad y Apple TV cuando quieras.
+La idea conectaba con una tendencia que ya veníamos viendo: el iPad cada vez era más capaz y el Mac empezaba a beneficiarse de ese ecosistema. Lo mismo se intuía en apps creativas como [Photoshop para iPad](/blog/photoshop-ipad/) o [Darkroom en iPad](/blog/darkroom-ipad/).
 
-## Amplia tu escritorio con el iPad
+## Apps nativas renovadas
 
-**Sidecar** es una nueva característica que te permite utilizar tu iPad como pantalla externa del Mac. Puedes utilizar tu iPad como un escritorio extra, o duplicar la imagen de tu Mac en tu iPad para que otros la vean.
+macOS Catalina también renovó varias apps del sistema:
 
-## Tiempo de uso, ahora también en Mac
+**Fotos** ganó una interfaz más visual y organizada por momentos.
 
-La función **Tiempo de uso** que ya teníamos en iOS ahora da el salto al Mac, así podremos tener un control de en qué Apps o webs estás invirtiendo tu tiempo.
+**Notas** mejoró diseño, búsqueda y colaboración mediante carpetas compartidas.
 
-Muy interesante su sincronización con En Familia para poder controlar que Apps pueden usar los pequeños de la familia y durante cuánto tiempo.
+**Recordatorios** recibió uno de los rediseños más profundos, con una estructura más clara para crear y organizar tareas.
+
+**Apple Arcade** llegó al Mac como parte del empuje de servicios que Apple había presentado en el [Apple Event 2019](/blog/apple-event-innovation-only/).
+
+## Sidecar: ampliar el escritorio con el iPad
+
+Sidecar permitió usar el iPad como segunda pantalla del Mac o como superficie de dibujo compatible con Apple Pencil.
+
+Era una función especialmente interesante para quienes ya trabajaban dentro del ecosistema Apple y no querían comprar una pantalla extra para usos puntuales.
+
+## Tiempo de uso en Mac
+
+La función **Tiempo de uso**, que ya existía en iOS, llegó al Mac.
+
+Servía para revisar en qué apps y webs invertías tiempo, establecer límites y sincronizar controles familiares.
 
 ## Buscar
 
-En macOS Catalina las Apps Buscar mi iPhone y Buscar a mis amigos se han unido en una sola app **Buscar**. Esta app puede ayudarte a localizar un Mac perdido — incluso si está en reposo o sin conexión — enviando señales Bluetooth que pueden ser detectadas por dispositivos Apple que se estén utilizando cerca. Estos dispositivos transmitirán la ubicación de tu Mac a iCloud para que sea posible localizarlo con la app Buscar. Todo es anónimo y se cifra punto a punto, así que nadie, ni siquiera Apple, conoce la identidad de los dispositivos que dan la información. Como la comunicación se produce de forma silenciosa mediante cantidades diminutas de datos que se transmiten junto con el tráfico de red existente, esto no afecta a la autonomía, al consumo de datos ni a tu privacidad.
+Las apps Buscar mi iPhone y Buscar a mis amigos se unificaron en **Buscar**.
 
----
+Una de las novedades más interesantes era la capacidad de localizar un Mac incluso sin conexión, usando señales Bluetooth detectadas por otros dispositivos Apple cercanos, con cifrado y anonimato.
 
-Como veis macOS viene cargado de novedades, estas son solo algunas de ellas. Apple ha publicado una página en su sitio web desde donde puedes ver todas las n[ovedades de macOS Catalina](https://www.apple.com/es/macos/catalina/features/).
+## Una actualización con letra pequeña
+
+Catalina también tuvo una consecuencia importante: dejó atrás las apps de 32 bits.
+
+Para muchos usuarios no fue un problema. Para otros, significó revisar software antiguo antes de actualizar. En entornos de trabajo, esa comprobación previa era imprescindible.
+
+Si quieres revisar si tu Mac, software o flujo de trabajo está listo para una actualización importante, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
