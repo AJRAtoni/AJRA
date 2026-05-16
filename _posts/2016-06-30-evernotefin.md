@@ -1,25 +1,73 @@
 ---
 layout: post
-title: ¿El principio del fin de Evernote?
+title: "Evernote y el riesgo de perder la confianza de tus usuarios"
 date: 2016-06-30 10:00:00 +0300
 image: /images/logo-evernote.jpg
+image_alt: "Logo de Evernote y alternativas de productividad"
+description: "Evernote fue líder en notas digitales, pero sus cambios de precios y límites muestran cómo una mala estrategia puede empujar usuarios hacia alternativas."
+resumen: "El caso Evernote demuestra que monetizar una herramienta sin cuidar la confianza puede acelerar la fuga de usuarios."
 source: AJRA-v09/_posts/2016-06-30-evernotefin.md
 ---
 
-Las cosas no van bien en Evernote. 
+Evernote fue durante mucho tiempo la aplicación de notas por excelencia.
 
-La empresa nació con fuerza y pasó una época dorada en la que era la reina absoluta de las aplicaciones para tomar notas. Pero parece que se durmió en los laureles y la competencia ha aprovechado para arrebatarle el primer puesto… pero no sólo porque el resto de aplicaciones haga lo mismo y mejor, también han recibido ayuda por parte de las malas decisiones que de un tiempo a esta parte ha ido tomando Evernote.
+Para muchas personas era el sitio donde guardar ideas, documentos, enlaces, listas, recetas, proyectos y cualquier información que no querían perder.
 
-Evernote hace tiempo que están buscando la forma de monetizarse y no han dejado de tomar decisiones que lo único que han consiguiendo es que los usuarios abandonen la aplicación, huyendo a otras plataformas que ofrecen los mismos servicios que ellos, como pueden ser [Google Drive](https://drive.google.com/) o [Microsoft Onenote](https://www.onenote.com/).
+Pero cuando una herramienta se vuelve parte del día a día de sus usuarios, cada cambio de precio, límite o funcionalidad se siente de forma muy personal.
 
-Todo comenzó en Octubre del año pasado, cuando Evernote se dio cuenta de que necesitaba dinero y lo necesitaba rápido, así que comenzaron a limitar las opciones de cuentas gratuitas, además de incluir publicidad por todas partes, pensando que así los usuarios decidirían pagar una cuenta Premium o Plus.
+Eso fue exactamente lo que le ocurrió a Evernote.
 
-Y por lo que se ve eso no fue suficiente para Evernote, parece que no han conseguido todo el dinero que querían y ahora han decidido hacer más cambios, la primera decisión que han tomado es la de aumentar el precio de las cuentas Premium y Plus, ambas han subido aproximadamente $1.
+## Qué pasó con Evernote
 
-Pero la cosa no acaba ahí, parece que en Evernote no quieren que nadie haga uso de las cuentas gratuitas, así que han decidido limitarlas todavía más sus características, ahora solo podrás sincronizar Evernote en dos dispositivos, cuando hasta ahora podías instalarlo en tantos dispositivos como quisieras) y por si aún no estabas escandalizado también han decidido que el espacio disponible pasa a ser de tan solo 60Mb.
+Evernote necesitaba mejorar su modelo de negocio. Hasta ahí, nada extraño.
 
-Al hacerse pública la noticia (en su propio blog oficial) los usuarios han estallado en pánico y han comenzado a abandonar el barco lanzándose directamente al mar.
+El problema fue cómo se percibieron algunos cambios: más límites para cuentas gratuitas, subidas de precio, restricciones de sincronización y una sensación creciente de que la herramienta ofrecía menos flexibilidad que antes.
 
-Si tú eres uno de esos usuarios que han decidido huir de esta plataforma te recordamos que hace un tiempo publique un [breve tutorial de como exportar todas tus notas de Evernote a Onenote](https://ajra.es/blog/evernote-2-onenote), una aplicación que básicamente hace lo mismo, mejor y con el respaldo de Microsoft.
+Muchos usuarios empezaron a buscar alternativas como OneNote, Google Drive, Notion, Apple Notes, Bear u Obsidian.
 
-***¿Sera este el principio del fin de Evernote?***
+En su momento publiqué una guía sobre [cómo exportar notas de Evernote a OneNote](/blog/evernote-2-onenote/) precisamente porque era una necesidad real para muchos usuarios.
+
+## La confianza también es producto
+
+Cuando una app guarda información importante, la confianza es parte del producto.
+
+No basta con que la herramienta funcione. El usuario necesita sentir que sus datos están seguros, que podrá acceder a ellos, que podrá exportarlos y que los cambios no van a romper su flujo de trabajo de un día para otro.
+
+Si una plataforma transmite incertidumbre, los usuarios empiezan a preparar la salida.
+
+## Monetizar sin castigar
+
+Todas las empresas necesitan ingresos. El problema no es cobrar.
+
+El problema aparece cuando la monetización se percibe como castigo: menos dispositivos, menos espacio, más límites, más fricción y poco valor añadido a cambio.
+
+Una estrategia de pricing sana debería empujar al usuario a pagar porque ve valor, no porque se siente encerrado.
+
+Esa diferencia es enorme.
+
+## Qué podemos aprender
+
+El caso Evernote deja varias lecciones para cualquier producto digital:
+
+- No cambies reglas críticas sin explicar bien el motivo.
+- Facilita exportar datos.
+- Cuida a usuarios históricos.
+- No conviertas la versión gratuita en una experiencia frustrante.
+- Comunica valor antes de pedir más dinero.
+- Recuerda que la confianza tarda años en construirse y poco en perderse.
+
+## Evernote no desapareció, pero perdió centralidad
+
+Evernote sigue existiendo, pero ya no ocupa el lugar cultural que tuvo.
+
+La categoría de notas se fragmentó. Hoy cada perfil usa algo distinto: Apple Notes para simplicidad, Notion para bases de conocimiento, Obsidian para Markdown, OneNote para Microsoft, Google Keep para capturas rápidas.
+
+Incluso Apple ha reforzado su ecosistema con herramientas como [Apple Journal](/blog/apple-journal-la-app-de-diario-digital-de-apple/), aunque no compita exactamente en el mismo terreno.
+
+## Conclusión
+
+Evernote es un buen ejemplo de cómo un producto líder puede perder fuerza cuando sus decisiones erosionan la confianza.
+
+La tecnología importa, pero la relación con el usuario importa más.
+
+Si tienes que elegir o rediseñar tu sistema de productividad digital, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

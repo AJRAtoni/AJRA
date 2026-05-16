@@ -1,37 +1,82 @@
 ---
 layout: post
-title: ¿Cómo medir la velocidad de tu web?
+title: "Cómo medir la velocidad de tu web con PageSpeed Insights"
 date: 2016-04-03 10:00:00 +0300
 image: /images/22.jpg
+image_alt: "Análisis de rendimiento web con PageSpeed Insights y Core Web Vitals"
+description: "La velocidad de carga afecta a SEO, conversión y experiencia de usuario. Así puedes medirla con PageSpeed Insights y saber qué mejorar."
+resumen: "Medir la velocidad web es el primer paso para mejorar experiencia, SEO y conversión."
 source: AJRA-v09/_posts/2016-04-03-pagespeed.md
 ---
 
-Dependiendo del proyecto tu página web deberá tener un diseño más elegante y sencillo, o más llamativo y divertido, pero lo que siempre es igual en todos los proyectos es que la web debe ser ligera y cargar rápidamente. Estamos en 2015 y a los usuarios no les gusta tener que esperar a que una página web se acabe de cargar para poder leer un artículo o ver una imagen, así que debemos centrarnos en conseguir que nuestra página sea lo más ligera posible.
+La velocidad de una web no es un detalle técnico menor. Afecta a la experiencia de usuario, al SEO, a la conversión y a la percepción de marca.
 
-En este artículo no os voy a explicar cómo hacer más ligera vuestra página más ligera, lo que voy a hacer es explicaros como comprobar la velocidad de carga que tiene vuestra web, así vosotros mismo podréis decidir si necesitáis rehacer la página o realizar algunas mejoras en el código fuente para que cargue más rápido.
+En 2016 ya era importante. Hoy lo es todavía más.
 
-## ¿Cómo medir la velocidad de tu web?
+Los usuarios no esperan. Si una página tarda demasiado en cargar, se van. Y si estás pagando campañas para llevar tráfico a esa web, cada segundo extra puede convertirse en dinero perdido.
 
-Para medir la velocidad de carga de nuestra web tenemos muchas herramientas, pero la que yo suelo utilizar y os recomiendo a todos es **PageSpeed**, una aplicación de **Google** creada específicamente para que los desarrolladores puedan comprobar que la pagina este correctamente optimizada y que los tiempos de carga no son excesivos.
+## Qué es PageSpeed Insights
 
-<img src="/images/23.jpg">
+**PageSpeed Insights** es la herramienta de Google para analizar el rendimiento de una página web.
 
-Google PageSpeed Insight es una herramienta de código abierto y totalmente gratuita (como la mayoría de servicios de Google) que te ayudara a optimizar el rendimiento de tu sitio web.
-La podéis encontrar en la URL [http://developers.google.com/speed/pagespeed/insights/](http://developers.google.com/speed/pagespeed/insights/).
+Puedes usarla desde:
 
-La herramienta es muy fácil de utilizar, tan solo tenéis que introducir la dirección de vuestra página web y pulsar Intro.
+[https://pagespeed.web.dev/](https://pagespeed.web.dev/)
 
-PageSpeed os mostrara una pantalla con varios valores:
+Solo tienes que introducir la URL que quieres analizar y revisar los resultados para móvil y escritorio.
 
-- El tiempo de carga de vuestra página web en Ordenadores.
-- El tiempo de carga de vuestra página web en Smartphones.
-- Puntuación en Experiencia de Usuario.
+La herramienta combina datos de laboratorio con, cuando existen, datos reales de usuarios. Eso ayuda a distinguir entre “lo que pasa en una prueba controlada” y “lo que experimentan usuarios reales”.
 
-PageSpeed Insight analiza diferentes aspectos de tu sitio web como la configuración del servidor, la estructura HTML, optimización de las imágenes, JavaScript o el CSS, y os devolverá una puntuación que va de “0” (el más bajo) a “100” (el más alto).
+## Qué métricas deberías mirar
 
-<img src="/images/24.jpg">
+Hoy PageSpeed se centra mucho en las **Core Web Vitals**, especialmente:
 
+- **LCP**: cuánto tarda en cargar el contenido principal.
+- **INP**: cómo responde la página a la interacción del usuario.
+- **CLS**: cuánto se mueve visualmente la página mientras carga.
 
-**¿Cuál es tu puntuación?**
+No necesitas obsesionarte con cada número técnico, pero sí entender si tu web es rápida, estable y cómoda de usar.
 
-Y recuerda, si necesitas ayuda para hacer tu página web o para mejorar el rendimiento y la experiencia de usuario [puedes contactar conmigo](mailto:info@ajra.es) e intentare ayudarte en todo lo posible.
+## Qué suele ralentizar una web
+
+Los problemas más habituales suelen ser:
+
+- Imágenes demasiado pesadas.
+- JavaScript innecesario.
+- Plantillas o themes sobrecargados.
+- Demasiados scripts externos.
+- Fuentes mal cargadas.
+- Servidor lento.
+- Apps o plugins acumulados sin control.
+
+En WordPress esto ocurre mucho con themes que intentan hacerlo todo. Por eso en su momento escribí también sobre por qué conviene tener cuidado con [ThemeForest](/blog/themeforest/).
+
+En Shopify pasa algo parecido cuando se instalan demasiadas apps o se modifica el theme sin criterio. Si estás creando una tienda, quizá te interese esta guía sobre [Shopify para crear tu tienda online sin pelearte con la tecnología](/blog/shopify-para-crear-tu-tienda-online-sin-pelearte-con-la-tecnologia/).
+
+## Velocidad y móvil van juntos
+
+No tiene sentido mirar solo la versión de escritorio.
+
+La mayoría del tráfico llega desde móvil, y Google lleva años empujando el enfoque mobile-first. Por eso este tema conecta directamente con la idea de tener una web [mobile friendly](/blog/google-mobile-friendly/).
+
+Una web puede verse bien en tu ordenador y funcionar mal en el teléfono de un cliente con una conexión normal. Ese es el escenario que hay que optimizar.
+
+## Cómo usar el informe sin volverte loco
+
+Mi recomendación:
+
+1. Analiza las páginas más importantes, no solo la home.
+2. Prioriza móvil.
+3. Revisa imágenes y scripts antes de tocar cosas complejas.
+4. Comprueba si el problema es del theme, del hosting o de terceros.
+5. Vuelve a medir después de cada cambio importante.
+
+No necesitas conseguir un 100 perfecto. Necesitas que la web cargue rápido, sea estable y no bloquee al usuario.
+
+## Conclusión
+
+Medir la velocidad de tu web es una tarea básica de mantenimiento digital.
+
+Si tu web es lenta, todo lo demás sufre: SEO, campañas, ventas y experiencia de usuario.
+
+Si quieres que revise el rendimiento de tu web o tienda online, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

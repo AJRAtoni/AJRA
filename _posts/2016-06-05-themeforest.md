@@ -1,53 +1,73 @@
 ---
 layout: post
-title: ¡Huye de ThemeForest!
+title: "Cuidado con ThemeForest: cuando un theme bonito se convierte en un problema"
 date: 2016-06-05 10:00:00 +0300
 image: /images/29.jpg
+image_alt: "Plantillas de WordPress y riesgos de themes sobrecargados"
+description: "Comprar un theme en ThemeForest puede parecer una solución rápida, pero muchos proyectos acaban pagando el precio en rendimiento, mantenimiento y dependencia."
+resumen: "Un theme no debería resolverlo todo. Cuando diseño, contenido y funcionalidades se mezclan, cambiar o mantener la web se vuelve más difícil."
 source: AJRA-v09/_posts/2016-06-05-themeforest.md
 ---
 
-## ¿Conoces ThemeForest?
+ThemeForest fue durante años una parada casi obligatoria para quien quería montar una web en WordPress con poco presupuesto y aspecto profesional.
 
-Es una web en la que venden plantillas y themes para tu WordPress.
+El problema es que muchos themes prometían demasiado: sliders, shortcodes, formularios, constructores visuales, tipos de contenido, portfolios, animaciones, demos infinitas y decenas de opciones.
 
-Y además es una de las empresas que más dinero nos hacen ganar.
+Sobre el papel sonaba bien. En la práctica, muchas veces acababa siendo una trampa.
 
-## ¡¿Cómo?!
+## El problema de los themes que lo hacen todo
 
-Pues sí, muchos de los clientes que nos llegan es porque se han comprado uno de esos “magníficos” theme en ThemeForest y ahora se encuentran con problemas en su web.
+Un theme debería encargarse principalmente del diseño.
 
-El problema que tiene ThemeForest es que la mayoría de los temas que venden no están correctamente optimizados. Suelen ser muy pesados, lentos y lo peor de todo… esos themes incluyen funcionalidades tales como Slides, Shortcodes, formularios de contacto, etc…
+Las funcionalidades importantes deberían vivir en plugins o en una arquitectura pensada para sobrevivir a futuros cambios de diseño.
 
-## ¿Y eso es malo?
+Cuando un theme controla demasiadas cosas, aparecen problemas:
 
-Pues sí, aunque os parezca contradictorio, eso es malo, muy malo.
+- Si cambias de theme, pierdes funcionalidades.
+- El contenido queda lleno de shortcodes inútiles.
+- La web carga más lenta.
+- El mantenimiento se vuelve más complejo.
+- Hay más riesgo de incompatibilidades.
+- El cliente queda atado a decisiones técnicas que no entiende.
 
-Un theme no debe incorporar nunca todas esas funcionalidades. Es más un theme no debería incluir ninguna funcionalidad.
+Por eso tantos proyectos que empezaban “baratos” terminaban saliendo caros.
 
-Lo de incorporar funcionalidades hay que dejárselo a los Plugins (que para eso existen).
+## Rendimiento y deuda técnica
 
-## ¿Por qué?
+Muchos themes multipropósito cargan recursos que tu web no necesita.
 
-Vamos a intentar explicarlo.
+Puede que uses una sola demo, pero el theme arrastra scripts, estilos, fuentes, constructores y efectos pensados para veinte casos distintos.
 
-Un theme debería limitarse solo a modificar el diseño de tu web. Ya que, toda esas funcionalidad extra que viene con el theme, se va con él theme.
+Eso afecta a la velocidad, y la velocidad afecta a SEO, conversión y experiencia. Si quieres medirlo, aquí tienes una guía sobre [cómo medir la velocidad de tu web con PageSpeed Insights](/blog/pagespeed/).
 
-Queremos decir que si instalar un theme de esos “superchulos” que venden en ThemeForest y que traen un montón de funcionalidades como Slides, Shortcodes, Custom-Post-Types, formularios propios y demás cosas con las que os prometen poder acabar controlando el mundo… lo único que va a acabar pasando es que el día que decidáis cambiar de theme (y eso siempre pasa) perderéis todo.
+## No todo ThemeForest es malo, pero hay que saber elegir
 
-Y no sólo es el problema de que al cambiar de theme lo pierdas todo, sino que donde antes tenías ese bonito slide, o ese completo formulario de contacto, ahora aparecerá un extraño código que los usuarios no entenderán y tendrás que ingeniártelas para eliminarlos y luego volver a crearlo.
+El problema no es comprar una plantilla. El problema es comprarla sin criterio.
 
-Vamos que acabarás teniendo el doble de trabajo por no haberlo hecho todo bien desde el principio.
+Antes de usar un theme conviene mirar:
 
-## ¿Porque en ThemeForest hace las cosas así de mal?
+- Cuándo fue actualizado por última vez.
+- Qué dependencia tiene de plugins propios.
+- Si usa shortcodes para maquetar contenido.
+- Si está optimizado para móvil.
+- Si tiene buen soporte.
+- Si permite trabajar con un child theme.
+- Si el diseño se puede mantener sin romper la estructura.
 
-Bueno, en realidad no toda la culpa es de ThemeForest, ellos solo venden los themes que los desarrolladores (*por llamarles de alguna forma*) suben a su plataforma.
+Si no puedes responder a esas preguntas, puede que el ahorro inicial no compense.
 
-El problema es que estos “*desarrolladores*“ meten todas esas funcionalidades dentro de sus themes y las anuncian a bombo y platillos, como si fuesen los mejores themes del mundo, cuando en realidad lo único que están haciendo es cobrar al cliente por meterles en un problema futuro.
+## Alternativas más sanas
 
-Por nosotros mucho mejor, ya que gran esos clientes acaban contratándonos para que les solucionemos el problema, pero aún así preferimos avisaros antes y repetiros una y otra vez **¡HUYE DE THEMEFOREST!**
+A veces es mejor partir de una base más ligera, diseñar solo lo necesario y añadir funcionalidades con criterio.
 
-Así que ya sabéis, huid de los themes de ThemeForest, y si por cualquier motivo inexplicable os veis obligados a utilizar uno de esos themes, por lo menos no uséis las funcionalidades que incorporan.
+En ecommerce, por ejemplo, muchas veces tiene más sentido construir sobre una plataforma como Shopify en vez de forzar WordPress para todo. En este artículo explico cuándo puede tener sentido [Shopify para crear tu tienda online](/blog/shopify-para-crear-tu-tienda-online-sin-pelearte-con-la-tecnologia/).
 
-Para eso siempre podéis buscar un plugin que haga esa misma función.
+Y si lo que necesitas es una web simple, quizá no necesitas WordPress ni un theme enorme. Herramientas como Carrd pueden resolver páginas muy concretas con menos complejidad.
 
-**P.D.:** Si en estos momentos ya te encuentras con algún problema surgido de un theme de ThemeForest puedes [contactar conmigo](mailto:info@ajra.es) e intentare ayudarte a salir de ahi.
+## Conclusión
+
+Un theme bonito no garantiza una buena web.
+
+La web debe ser rápida, mantenible, clara y fácil de evolucionar. Si una plantilla te obliga a cargar demasiado peso o te encierra en su propio sistema, el problema aparecerá tarde o temprano.
+
+Si tienes una web montada con un theme pesado y quieres saber si merece la pena optimizarla o rehacerla, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

@@ -1,32 +1,86 @@
 ---
 layout: post
-title: ¿Que es el Growth Hacking?
+title: "Qué es el Growth Hacking y por qué no va de trucos mágicos"
 date: 2016-03-26 10:00:00 +0300
 image: /images/21.jpg
+image_alt: "Embudo de crecimiento con experimentos, métricas y optimización"
+description: "El Growth Hacking no consiste en trucos virales, sino en experimentar rápido, medir bien y encontrar palancas reales de crecimiento."
+resumen: "Growth Hacking es una forma de trabajar: hipótesis, experimentos, medición y aprendizaje rápido."
 source: AJRA-v09/_posts/2016-03-26-growth-hacking.md
 ---
 
-Hace unos años fueron los expertos en **SEO**, luego el Community Manager y más tarde el Social Media Expert… ahora nos llega un nuevo término, el Growth Hacking.
+Durante una época, cada pocos meses aparecía una nueva etiqueta en marketing digital: SEO, community manager, social media expert, inbound marketing, growth hacker…
 
-El **Growth Hacking** se ha convertido en la técnica de moda en el Marketing Digital, y por consiguiente el **Growth Hacker** ha pasado a ser una de las profesiones más solicitadas por la mayoría de las startups.
+El término **Growth Hacking** se puso especialmente de moda porque sonaba a crecimiento rápido, startups y trucos casi secretos.
 
+Pero bien entendido, el Growth Hacking no va de hacks mágicos. Va de encontrar, medir y explotar palancas de crecimiento con pocos recursos.
 
-## ¿QUÉ ES Y DE DONDE SURGE EL GROWTH HACKING?
+## Qué es Growth Hacking
 
-Vamos a ponernos en contexto, cada vez hay más startups que vienen dispuestas a comerse el mundo, pero la mayoría de estas pequeñas empresas carecen de los recursos necesarios para realizar grandes campañas de Marketing y ahí es donde entra en juego el **Growth Hacking**.
+Growth Hacking es una forma de trabajar enfocada en crecer mediante experimentos rápidos.
 
-El **Growth Hacking** es una técnica de marketing que busca incrementar de forma rápida y notoria el volumen de usuarios, ingresos, o impactos, de nuestra empresa, con el mínimo gasto y esfuerzo posibles.
+La idea es sencilla:
 
-Esta técnica nace de la necesidad de aumentar el crecimiento de la empresa con la menor inversión en marketing posible.
+- Detectar una oportunidad.
+- Formular una hipótesis.
+- Probar una acción concreta.
+- Medir el resultado.
+- Aprender rápido.
+- Escalar lo que funciona y descartar lo que no.
 
-Esta explicación puede ser muy bonita pero vamos a ver mas detalladamente cuales son los objetivos del **Growth Hacking**:
+No se trata de “hacer una campaña viral”, sino de entender qué parte del negocio puede mejorar: adquisición, activación, retención, monetización o recomendación.
 
-- Conseguir aumentar el número de usuarios de la startup/website/proyecto.
-- Conseguir que el usuario sea activo y realice interacciones con la marca.
-- Conseguir que el usuario vuelva al sitio periódicamente.
-- Conseguir monetizar a los usuarios.
-- Conseguir que los clientes hablen bien de tu sitio (se fidelicen).
+## Por qué nació
 
-Son muchas las herramientas y estrategias que puede tomar un **Growth Hacker**, y si este post tiene buena acogida, me comprometo a escribir otros artículos hablando de técnicas, herramientas y hacks que llevar a cabo en vuestro plan de **Growth Hacking**.
+El concepto se hizo popular en startups porque muchas no tenían presupuesto para grandes campañas.
 
-Y recuerda, si quieres hacer aumentar tu comunidad y/o seguidores de vuestra empresa [no dudes en contactar conmigo](mailto:info@ajra.es).
+Cuando no puedes competir a base de inversión, necesitas competir con velocidad, creatividad, producto, datos y foco.
+
+Eso no significa hacer marketing barato. Significa priorizar acciones que puedan demostrar impacto. Por ejemplo, mejorar una [landing page](/blog/landing-page/), cambiar una [llamada a la acción](/blog/call-to-action/), ajustar una secuencia de emails o simplificar un onboarding.
+
+## Qué objetivos persigue
+
+Un buen proceso de Growth puede buscar:
+
+- Aumentar tráfico cualificado.
+- Convertir más visitas en leads.
+- Mejorar la activación de nuevos usuarios.
+- Reducir abandono.
+- Aumentar recurrencia.
+- Mejorar ingresos por cliente.
+- Conseguir recomendaciones.
+
+La clave es no perseguir todas las métricas a la vez. Primero hay que saber dónde está el cuello de botella.
+
+Si tienes muchas visitas pero pocos contactos, quizá el problema está en la oferta, el formulario o el mensaje. Si tienes muchos leads pero pocas ventas, quizá el problema está en la cualificación o en el seguimiento.
+
+## Growth Hacking sin medición no es Growth Hacking
+
+La parte menos sexy, pero más importante, es medir.
+
+Sin medición solo estás haciendo cosas. Con medición puedes saber qué funciona y qué no.
+
+Por eso el Growth Hacking conecta directamente con conceptos como [test A/B](/blog/test-ab/) y [ROI](/blog/roi/). No basta con que una idea parezca buena: debe mover una métrica relevante.
+
+## Ejemplos de experimentos sencillos
+
+Algunas pruebas realistas:
+
+- Cambiar el titular de una landing.
+- Probar dos llamadas a la acción distintas.
+- Crear un lead magnet para captar emails.
+- Simplificar un formulario.
+- Añadir prueba social.
+- Recuperar carritos abandonados.
+- Segmentar campañas por intención.
+- Reordenar el contenido de una página de ventas.
+
+Nada de esto parece espectacular, pero muchas veces el crecimiento viene de pequeñas mejoras acumuladas.
+
+## Mi visión actual
+
+Hoy usaría menos la palabra “hack” y más la palabra **sistema**.
+
+Crecer no consiste en encontrar un truco. Consiste en construir un proceso constante de mejora: observar, probar, medir, aprender y repetir.
+
+Si quieres revisar dónde se está perdiendo crecimiento en tu web, campaña o tienda online, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
