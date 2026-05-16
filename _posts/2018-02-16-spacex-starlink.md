@@ -1,24 +1,54 @@
 ---
 layout: post
-title: SpaceX — La Starlink y un satelite español
+title: "SpaceX, Starlink y PAZ: el lanzamiento que anticipó el internet por satélite"
 date: 2018-02-16 10:00:00 +0300
 image: /images/logo-spacex.jpg
+image_alt: "Logotipo de SpaceX asociado al lanzamiento de los primeros satélites de prueba de Starlink"
+description: "SpaceX preparó el lanzamiento del satélite español PAZ y de los dos primeros satélites de prueba de Starlink, una red que acabaría cambiando la conectividad por satélite."
+resumen: "En 2018 Starlink todavía era una promesa. El lanzamiento de sus dos primeros satélites de prueba junto al satélite español PAZ fue el primer paso visible de una infraestructura enorme."
 source: AJRA-v09/_posts/2018-02-16-spacex-starlink.md
 ---
 
-**SpaceX** con **Elon Musk** a la cabeza no dejan de trabajar e innovar.
+SpaceX preparaba un nuevo lanzamiento de Falcon 9 con una carga especialmente interesante.
 
-El éxito cosechado con el lanzamiento del **Falcon Heavy** no ha hecho que se duerman en los laureles y este proximo domingo 18 de febrero tienen programado un nuevo lanzamiento de un **Falcon 9** con una carga muy especial.
+Por un lado, pondría en órbita PAZ, un satélite español de observación terrestre. Por otro, lanzaría los dos primeros satélites de prueba de la futura red Starlink.
 
-Por un lado el **Falcon 9** pondrá en órbita un satélite de observación español y al mismo tiempo (y esto es lo interesante) pondrán en órbita los dos primeros satélites de la futura red **Starlink**.
+En 2018, Starlink todavía era una promesa. Hoy es una de las líneas de negocio más visibles de [SpaceX](/blog/spacex/) y un buen ejemplo de cómo una infraestructura empieza con pruebas pequeñas antes de convertirse en algo masivo.
 
-## ¿Que es Starlink?
-Starlink pretende ser la una red de satélites de **SpaceX** que ofrezca conexión a internet de alta velocidad y baja latencia.
+## Qué era Starlink
 
-Se espera que llegue a ofrecer una conexión a internet de varios Gbps y con una latencia de tan solo 25 ms.
+Starlink nacía con una idea ambiciosa: crear una red de satélites en órbita baja capaz de ofrecer conexión a internet de alta velocidad y baja latencia.
 
-Para conseguir esto, los pequeños satélites de la **Starlink** se situarían en órbita terrestre a tan solo 1.000 km de la Tierra (lo normal suele ser unos 35.000 km de altura).
+La diferencia respecto a muchos satélites tradicionales estaba en la altura.
 
-La red **Starlink** constara de aproximadamente una 4.500 satélites que se quieren poner en órbita antes del 2024.
+Los satélites de Starlink operarían en órbita terrestre baja, mucho más cerca de la Tierra que los satélites geoestacionarios. Menos distancia significa menor latencia, algo clave para que una conexión por satélite se parezca más a una conexión terrestre.
 
-Otro gran proyecto que sé trae **Elon Musk** entre manos y que en parte ayudaría a financiar las futuras misiones a Marte por parte de **SpaceX**.
+En aquel momento se hablaba de miles de satélites y de una infraestructura capaz de financiar parte de los planes más ambiciosos de SpaceX.
+
+## PAZ, el satélite español
+
+La misión también incluía PAZ, un satélite español de observación terrestre mediante radar.
+
+Su presencia en el lanzamiento recordaba algo importante: los Falcon 9 no solo servían para titulares espectaculares. También eran vehículos comerciales para poner en órbita satélites de comunicaciones, observación, navegación y servicios públicos.
+
+Ese patrón ya se veía en misiones como [Iridium-3](/blog/spacex-iridium/) o [Koreasat-5A](/blog/spacex-koreasat/).
+
+## Lo interesante de los satélites de prueba
+
+Los dos satélites de Starlink no eran todavía el producto final.
+
+Eran prototipos para validar comunicaciones, operaciones, despliegue, control orbital y rendimiento real.
+
+En proyectos de esta escala, el aprendizaje temprano vale muchísimo. Puedes diseñar en papel una constelación enorme, pero hasta que no pones hardware en órbita no empiezas a comprobar los problemas de verdad.
+
+## Lectura retrospectiva
+
+Este lanzamiento fue uno de esos momentos que parecen pequeños en directo y mucho más importantes años después.
+
+Starlink pasó de ser una idea ambiciosa a convertirse en una red con impacto real en conectividad rural, emergencias, barcos, aviones, conflictos y mercados donde la infraestructura terrestre no llega bien.
+
+También abrió debates sobre saturación orbital, astronomía, basura espacial y concentración de infraestructura crítica en manos privadas.
+
+Por eso este lanzamiento merece recordarse: no solo por PAZ ni por el Falcon 9, sino porque marcó el inicio visible de una red que cambiaría la conversación sobre internet por satélite.
+
+Si quieres explicar tecnologías emergentes, infraestructura digital o innovación espacial con contexto y claridad, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
