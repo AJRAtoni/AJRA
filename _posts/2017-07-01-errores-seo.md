@@ -1,88 +1,109 @@
 ---
 layout: post
-title: 10 Errores SEO que debemos evitar
+title: "10 errores SEO que debemos evitar"
 date: 2017-07-01 10:00:00 +0300
 image: /images/66.jpg
+image_alt: "Lista de errores SEO comunes que conviene evitar en una web"
+description: "Repaso actualizado a 10 errores SEO habituales: sitemap, canonical, velocidad, encabezados, ALT, meta descripción, keyword stuffing, duplicados, enlaces rotos y mobile friendly."
+resumen: "El SEO no va de trucos mágicos, sino de evitar errores básicos que impiden que Google entienda, rastree y valore bien una web."
 source: AJRA-v09/_posts/2017-07-01-errores-seo.md
 ---
 
-En muchas ocasiones, cuando construimos una página web, nos centramos en el diseño y en el contenido, pero nos olvidamos de una de las partes mas importantes, el SEO.
+Cuando construimos una página web es fácil centrarse en diseño, textos e imágenes y dejar el SEO para el final.
 
-Por eso he decidido crear esta recopilación de los 10 errores de SEO más comunes y que debemos evitar.
+El problema es que muchos errores SEO no se ven a simple vista. La web puede parecer correcta para una persona y, aun así, estar mandando señales confusas a Google.
 
-## 1 — El Sitemap
-Un Sitemap es un archivo XML que “le dice” a los buscadores cual es la estructura de nuestra pagina web, cuales son las paginas más importantes, cual es la ultima fecha de actualización o publicación, etc…
+Aquí va una revisión actualizada de 10 errores SEO comunes que conviene evitar.
 
-Esa información ayuda a su araña a rastrear el sitio web de una forma más eficiente.
+## 1. No tener sitemap
 
-La creación de un sitemap por si solo no nos garantiza el aparecer en Google, aunque es el primer paso.
+Un sitemap XML ayuda a los buscadores a entender la estructura de una web: qué páginas existen, cuáles son importantes y cuándo se han actualizado.
 
-## 2 — Establecer Dominio preferido
-Para acceder a tu pagina web los usuarios pueden hacerlo tanto con las www. como sin ellas.
+No garantiza aparecer en Google, pero facilita el rastreo y reduce fricción.
 
-1. http://www.cubodekubrick.com
-2. http://cubodekubrick.com
+Hoy sigue siendo recomendable enviarlo desde Google Search Console y comprobar que las URLs importantes están indexándose correctamente.
 
-Esto es importante tenerlo en cuenta y configurar cuál de las 2 URLs sera la preferida, ya que de lo contrario tendríamos 2 variantes para mostrar el mismo contenido y esto es algo que Google penaliza.
+## 2. No definir bien la versión canónica del dominio
 
-Para solucionar esto debemos escoger cuál es la URL Canónica, algo que debemos configurar desde [Google Search Console](https://www.google.com/webmasters/tools/home).
+Una web puede estar disponible con diferentes variantes:
 
-## 3 — Tiempos de carga
-Las velocidades de banda ancha están mejorando, aun así Google anuncio que los tiempos de carga es algo que tienen en cuenta en su algoritmo.
+- `https://www.ejemplo.com`
+- `https://ejemplo.com`
+- `http://www.ejemplo.com`
+- `http://ejemplo.com`
 
-Así que si tú pagina carga de forma lenta, sera un problema a la hora de conseguir una buena posición dentro de las búsquedas de Google.
+Si no hay redirecciones y canonicals claros, puedes acabar dividiendo señales entre varias URLs.
 
-Como ya hemos dicho en alguna ocasión, la mejor herramienta para controlar los tiempos de carga es [Google PageSpeed Insights](https://www.cubodekubrick.com/blog/blog/medir-la-velocidad-web), desde donde se puede analizar una pagina web e identificar su tiempo de carga y cómo mejorarlo.
+La solución es definir una versión preferida, forzar HTTPS, redirigir correctamente y usar etiquetas canonical cuando haga falta.
 
-## 4 — Etiquetas de encabezado
-Otro de los puntos que no tenemos que olvidar es el uso de etiquetas de encabezado, las etiquetas <h1>, <h2> y <h3> sirven tanto para el **copywriting** de cara al lector como para ayudar a los motores de búsqueda a comprender cuales son las partes mas importantes de nuestra web.
+## 3. Ignorar la velocidad de carga
 
-## 5 — El Atributo ALT
-Este es otro de los temas que ya he tratado en el blog, los motores de búsqueda no son capaces de entender el contenido de las imágenes, por eso es muy importante usar el Atributo ALT para describir el contenido de las imágenes que usemos en nuestro website.
+La velocidad afecta a la experiencia de usuario y puede influir en el rendimiento orgánico.
 
-Esto hará que los motores de búsqueda comprendan que hay en las imágenes de nuestra web y de paso nos posicionaremos mejor en **Google Images**.
+Una web lenta reduce conversiones, aumenta rebote y complica la navegación móvil.
 
-## 6 — La Meta Descripción
-Otro de los errores más frecuentes en SEO suele ser dejar la meta descripción vacía o tener descripciones duplicadas.
+Para analizarlo, puedes usar herramientas como PageSpeed Insights. Ya lo expliqué con más detalle en [cómo medir la velocidad de tu web con PageSpeed Insights](/blog/pagespeed/).
 
-Esto no es un error de posicionamiento directo, pero es cierto que Google presta atención a las señales del usuario y, si estos no hacen clic en tus resultados a causa de una mala meta descripción o si tu CTR (Clic Through Rate) no es bueno, estarás perdiendo oportunidades para mejorar en el ranking y le estarás dejando vía libre a aquellos competidores que tienen un “*snippet*” más elaborado.
+## 4. Usar mal los encabezados
 
-## 7 — Exceso de palabras clave
-Hay que tener cuidado con las palabras clave, son un arma de doble filo, hay que usarlas para que los motores de búsqueda sepan como indexar nuestra pagina, pero no debemos caer en la tentación de usarlas demasiado ya que Google podría darse cuenta de eso y lo marcaría como **Keyword Stuffing**.
+Las etiquetas H1, H2 y H3 ayudan a estructurar el contenido.
 
-Una solución es utilizar sinónimos de nuestras palabras clave, o en el caso de usar WordPress es recomendable usar el plugin de **SEO by Yoast**.
+No son decoración. Sirven para que el usuario escanee mejor la página y para que los buscadores entiendan jerarquía, tema y secciones principales.
 
-## 8 — Contenido duplicado
-Tener contenido duplicado es un error bastante común y que Google penaliza.
+Un error típico es usar encabezados solo por tamaño visual o repetir varios H1 sin sentido.
 
-Este error suele ocurrir de forma accidental en eCommerce o tiendas online que tienen productos muy similares o con pequeñas variaciones.
+## 5. Olvidar el atributo ALT
 
-La solución en estos casos es hacer uso de una etiqueta “rel=canonical” para señalar cuál es esas paginas es la principal, y por lo tanto la que se va a llevar todo el peso del SEO.
+Google no interpreta una imagen como una persona.
 
-## 9 — Enlaces rotos y Enlaces Tóxicos
-Este suele ser un error pasivo, los enlaces rotos, son enlaces que dirigen hacia una pagina de nuestro website que ya no existe o no está en esa url.
+El atributo ALT ayuda a describir imágenes, mejora accesibilidad y aporta contexto semántico.
 
-Tenemos que ocuparnos de estos enlaces rotos para que Google no nos penalice, para ello podemos usar alguno de los muchos Plugins de WordPress que se ocupe de ellos.
+Ya traté este punto en el post sobre [el atributo ALT en imágenes](/blog/Atributo-ALT/). Es una optimización pequeña, pero muy fácil de descuidar.
 
-Los Enlaces Tóxicos son otra historia.
+## 6. Dejar la meta descripción vacía o duplicada
 
-Los enlaces entrantes son uno de los puntos que mas peso tienen en el algoritmo de Google.
+La meta descripción no es un factor mágico de ranking, pero influye en cómo se presenta tu resultado y puede afectar al CTR.
 
-Pero no todos los enlaces tienen la misma importancia, todo depende de la calidad De la Fuente que nos este enlazando.
+Una descripción clara ayuda a que el usuario entienda por qué debe hacer clic.
 
-Por eso debemos centrarnos en conseguir enlaces hacia nuestra pagina web, pero enlaces de calidad.
+El error más común es dejarla vacía, duplicarla en muchas páginas o llenarla de palabras clave sin intención real.
 
-## 10 — Anchor links
-Los Anchor Links son el texto que aparece en la pagina web sobre el que hacemos click para visitar un enlace.
+## 7. Abusar de palabras clave
 
-Cuando Google rastrea nuestra web, lee los Anchor Links para determinar el contenido al que se esta enlazando.
+El keyword stuffing sigue siendo una mala idea.
 
-Por esa razón hay que prestar atención al Anchor Link y no caer en el típico error de usar "*Haga clic aquí*" para vincular enlaces internos de nuestra web.
+Repetir una palabra clave de forma artificial empeora el texto y puede enviar señales de baja calidad.
 
-Debemos usar palabras claves relevantes en los Anchor Links de nuestra web.
+Lo correcto es escribir de forma natural, cubrir bien el tema, usar términos relacionados y responder a la intención de búsqueda.
 
----
+## 8. Crear contenido duplicado
 
-Y hasta aquí el repaso a 10 de los errores SEO más comunes y que debemos evitar.
+El contenido duplicado aparece mucho en e-commerce, filtros, categorías, productos parecidos, parámetros de URL o versiones imprimibles.
 
-Si necesitas mas ayuda con el tema del SEO en tu pagina web puedes [contactar conmigo](mailto:info@ajra.es) e intentare ayudarte.
+La solución puede pasar por canonicals, redirecciones, noindex en páginas poco útiles o una arquitectura mejor.
+
+Lo importante es evitar que Google tenga que elegir entre muchas páginas casi iguales.
+
+## 9. No revisar enlaces rotos
+
+Los enlaces rotos generan mala experiencia y desperdician autoridad interna.
+
+También pueden ser señal de abandono si la web acumula demasiados errores 404.
+
+Ya expliqué cómo gestionarlo en [qué es un error 404 y cómo personalizarlo bien](/blog/error404/). La clave es revisar, redirigir cuando tenga sentido y no dejar callejones sin salida.
+
+## 10. No estar optimizado para móvil
+
+Una web que no funciona bien en móvil está perdiendo usuarios y oportunidades.
+
+Google hace años que prioriza la experiencia móvil, así que responsive, legibilidad, velocidad y usabilidad no son opcionales.
+
+También lo traté en [qué significa que una web sea mobile friendly](/blog/google-mobile-friendly/).
+
+## Conclusión
+
+El SEO no va de aplicar trucos aislados.
+
+Va de construir una web rastreable, rápida, clara, útil y coherente.
+
+Si necesitas ayuda revisando el SEO técnico, contenido o estructura de tu web, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
