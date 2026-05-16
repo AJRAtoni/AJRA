@@ -5,6 +5,7 @@ date: 2025-11-27 09:00:00 -0500
 description: "Flux.2 es la nueva apuesta de Black Forest Labs para generación de imágenes con IA, con mejoras en calidad, control y aplicaciones creativas."
 image: "https://img.youtube.com/vi/Kd3SZ3KnSdU/hqdefault.jpg"
 image_alt: "Descubre Flux.2: Lo nuevo de Black Forest Lab"
+resumen: "Flux.2 refuerza la carrera de los modelos visuales: más calidad, más control y más presión para convertir demos en producción real."
 categories: [youtube]
 tags: [ia, generacion-imagenes, youtube]
 source: "youtube"
@@ -38,6 +39,8 @@ El reto, como siempre, está en equilibrar velocidad, control y consistencia.
 ## Idea central
 
 Flux.2 importa porque muestra hacia dónde va la generación de imágenes: menos demo aislada y más herramienta de producción para quienes necesitan resultados visuales concretos.
+
+Si quieres explorar generación visual con IA para diseño, marketing o prototipado sin perder consistencia de marca, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

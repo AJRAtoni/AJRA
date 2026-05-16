@@ -5,6 +5,7 @@ date: 2025-12-02 09:00:00 -0500
 description: "GTD propone sacar las tareas de la cabeza, aclararlas y convertirlas en un sistema externo que reduzca estrés y carga mental."
 image: "https://img.youtube.com/vi/-iUeFQ2r08c/hqdefault.jpg"
 image_alt: "GTD: Flujo de Trabajo y Productividad sin Estrés"
+resumen: "GTD sigue siendo útil porque separa recordar de pensar: captura, aclara y organiza para que las tareas dejen de ocupar la cabeza."
 categories: [youtube]
 tags: [productividad, youtube]
 source: "youtube"
@@ -38,6 +39,8 @@ Cuando una tarea está definida, tiene contexto y tiene siguiente acción, deja 
 ## Idea central
 
 GTD funciona porque convierte el caos mental en un flujo de trabajo. No elimina las responsabilidades, pero sí reduce el ruido que generan cuando están mal definidas.
+
+Si quieres diseñar un sistema de productividad, automatización o seguimiento de tareas que no se venga abajo a la primera semana, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

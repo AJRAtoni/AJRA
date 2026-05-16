@@ -5,6 +5,7 @@ date: 2025-11-21 09:00:00 -0500
 description: "Qué aporta Nano Banana Pro, cómo mejora texto y consistencia visual, y por qué puede cambiar flujos de diseño, marketing y creación visual."
 image: "https://img.youtube.com/vi/jivRdj_JMJk/hqdefault.jpg"
 image_alt: "Nano Banana Pro: ¡La Nueva Revolución en IA para Generación de Imágenes de Google!"
+resumen: "Nano Banana Pro importa porque intenta resolver dos límites clásicos de la imagen con IA: texto legible y consistencia visual entre escenas."
 categories: [youtube]
 tags: [ia, imagenes, google, gemini, diseno, youtube]
 source: "youtube"
@@ -27,7 +28,7 @@ Para usos profesionales, esos fallos no son detalles menores. Son la diferencia 
 
 ## Qué cambia con Nano Banana Pro
 
-La clave está en el motor sobre el que se apoya: Gemini 3 Pro. La propuesta no es solo generar píxeles, sino interpretar mejor la intención de la instrucción.
+La clave está en el motor sobre el que se apoya: [Gemini 3 Pro](/blog/gemini-3-asi-es-el-nuevo-modelo-de-ia-revolucionario-de-google/). La propuesta no es solo generar píxeles, sino interpretar mejor la intención de la instrucción.
 
 Eso permite manejar mejor composiciones complejas, instrucciones con más contexto y elementos que antes solían romperse. El modelo se comporta más como un colaborador creativo que entiende la escena y menos como una máquina que improvisa formas visuales.
 
@@ -52,6 +53,8 @@ Para marketing, educación, creación de contenido y prototipado visual, ese aho
 Nano Banana Pro no importa solo por generar imágenes más vistosas. Importa porque reduce la distancia entre tener una idea y producir una pieza visual útil.
 
 Si el modelo mantiene texto legible, personajes consistentes y control sobre la escena, entonces la IA visual pasa de juguete creativo a herramienta seria de producción. La oportunidad está en usarla para explorar más rápido, no para apagar el criterio humano.
+
+Si quieres aterrizar generación de imágenes con IA en una campaña, prototipo o flujo creativo con criterios claros, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

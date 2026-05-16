@@ -5,6 +5,7 @@ date: 2025-12-01 09:00:00 -0500
 description: "La integración de Perplexity con PayPal convierte el chat en un posible asistente de compras capaz de recomendar y permitir pagos sin salir de la conversación."
 image: "https://img.youtube.com/vi/x0oh9ajA_-M/hqdefault.jpg"
 image_alt: "Perplexity + PayPal: así funciona el nuevo ‘Instant Buy’"
+resumen: "Instant Buy de Perplexity y PayPal apunta a un comercio conversacional donde buscar, comparar y pagar empiezan a formar parte del mismo flujo."
 categories: [youtube]
 tags: [ia, youtube]
 source: "youtube"
@@ -36,6 +37,8 @@ Perplexity no está sola. Todo el mercado está explorando agentes que buscan, c
 ## Idea central
 
 Instant Buy es pequeño como función, pero grande como señal: el comercio online se está moviendo hacia interfaces conversacionales donde buscar y comprar pueden ser la misma acción.
+
+Si quieres revisar cómo puede afectar la IA conversacional a una tienda, producto digital o estrategia de contenidos, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

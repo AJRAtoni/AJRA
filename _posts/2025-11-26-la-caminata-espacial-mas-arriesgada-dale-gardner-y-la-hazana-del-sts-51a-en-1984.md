@@ -5,6 +5,7 @@ date: 2025-11-26 09:00:00 -0500
 description: "La misión STS-51A convirtió una caminata espacial en una operación de rescate orbital sin precedentes para recuperar satélites perdidos."
 image: "https://img.youtube.com/vi/L_lepGsBC2w/hqdefault.jpg"
 image_alt: "La Caminata Espacial Más Arriesgada: Dale Gardner y la Hazaña del STS-51A en 1984"
+resumen: "La STS-51A convirtió el transbordador espacial en un taller orbital: una misión de rescate de satélites tan arriesgada como memorable."
 categories: [youtube]
 tags: [espacio, ia, youtube]
 source: "youtube"
@@ -38,6 +39,8 @@ La misión demostró hasta qué punto el programa del transbordador espacial pod
 ## Idea central
 
 STS-51A fue mucho más que una caminata espacial espectacular. Fue una demostración de audacia técnica: rescatar satélites en órbita como si el espacio fuera un taller imposible.
+
+Si quieres preparar contenido técnico o divulgativo con contexto histórico y lectura actual, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

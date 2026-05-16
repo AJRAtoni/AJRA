@@ -5,6 +5,7 @@ date: 2025-11-28 09:00:00 -0500
 description: "Claude Opus 4.5 refuerza la competencia entre Anthropic, OpenAI y Google en programación, automatización y tareas complejas con agentes."
 image: "https://img.youtube.com/vi/BytXzyEHo5M/hqdefault.jpg"
 image_alt: "Claude Opus 4.5: El Nuevo Rey de la IA para Programación y Automatización"
+resumen: "Claude Opus 4.5 confirma que la competencia entre modelos se juega cada vez más en código, agentes y automatizaciones largas."
 categories: [youtube]
 tags: [ia, automatizacion, youtube]
 source: "youtube"
@@ -15,7 +16,7 @@ transcription: "whisper-local"
 
 Claude Opus 4.5 llega en un momento de máxima tensión en la carrera de la inteligencia artificial.
 
-Google, OpenAI y Anthropic compiten por demostrar quién tiene el modelo más capaz para programar, razonar y automatizar trabajo real.
+Google, OpenAI y Anthropic compiten por demostrar quién tiene el modelo más capaz para programar, razonar y automatizar trabajo real. La misma presión se ve en lanzamientos como [Gemini 3](/blog/gemini-3-asi-es-el-nuevo-modelo-de-ia-revolucionario-de-google/) y entornos como [Google Antigravity](/blog/descubre-google-antigravity-el-ide-agentico-que-revoluciona-la-programacion-con-gemini-3-pro/).
 
 ## Por qué Claude Opus 4.5 llama la atención
 
@@ -38,6 +39,8 @@ Y en automatización, la capacidad de dividir tareas, mantener objetivos y manej
 ## Idea central
 
 Claude Opus 4.5 importa porque confirma que la frontera de los modelos ya no está solo en “responder mejor”, sino en trabajar mejor: código, agentes, herramientas y flujos complejos.
+
+Si quieres comparar modelos de IA para programación, automatización o agentes antes de integrarlos en tu flujo, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

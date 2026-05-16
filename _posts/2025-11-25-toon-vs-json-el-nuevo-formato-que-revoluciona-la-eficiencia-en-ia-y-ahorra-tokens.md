@@ -5,6 +5,7 @@ date: 2025-11-25 09:00:00 -0500
 description: "Qué es TOON, por qué puede reducir tokens frente a JSON y cuándo tiene sentido usarlo como capa de optimización para modelos de lenguaje."
 image: "https://img.youtube.com/vi/M7QJlUzdTc0/hqdefault.jpg"
 image_alt: "TOON vs JSON: El Nuevo Formato Que Revoluciona la Eficiencia en IA y Ahorra Tokens"
+resumen: "TOON no viene a reemplazar JSON en APIs, sino a compactar datos estructurados cuando el destino real es un modelo de lenguaje."
 categories: [youtube]
 tags: [ia, llm, json, toon, tokens, youtube]
 source: "youtube"
@@ -54,6 +55,8 @@ Así se aprovecha la eficiencia sin romper el ecosistema que ya funciona.
 TOON representa una tendencia clara: la inteligencia artificial nos está obligando a repensar formatos que antes dábamos por definitivos.
 
 Si tu aplicación envía grandes volúmenes de datos estructurados a un modelo de lenguaje, merece la pena explorar formatos más compactos. Si solo estás construyendo una API tradicional, JSON sigue siendo la opción segura.
+
+Si quieres revisar costes, latencia o arquitectura de una integración con IA antes de que los tokens se desmadren, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

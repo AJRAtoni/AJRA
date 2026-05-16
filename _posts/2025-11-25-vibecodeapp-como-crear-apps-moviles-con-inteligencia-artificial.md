@@ -5,6 +5,7 @@ date: 2025-11-25 09:00:00 -0500
 description: "Qué promete VibecodeApp, cómo encaja en el vibe coding y por qué crear apps con IA exige velocidad, criterio técnico y supervisión humana."
 image: "https://img.youtube.com/vi/6A-nWvISfF8/hqdefault.jpg"
 image_alt: "VibecodeApp: Cómo Crear Apps Móviles con Inteligencia Artificial"
+resumen: "VibecodeApp lleva el vibe coding al móvil: prototipos rápidos con IA, útiles si se combinan con revisión técnica y buen criterio de producto."
 categories: [youtube]
 tags: [ia, apps, vibe-coding, desarrollo-movil, no-code, youtube]
 source: "youtube"
@@ -15,7 +16,7 @@ transcription: "youtube-transcript-api"
 
 El vibe coding está cambiando la forma de pensar el desarrollo de software. En lugar de escribir cada línea de código, describes lo que quieres construir y una IA genera una primera versión funcional.
 
-VibecodeApp lleva esa idea al terreno móvil: crear aplicaciones para iOS y Android desde una conversación, incluso directamente desde el teléfono. La promesa es potente, pero conviene mirarla con entusiasmo y con cautela.
+VibecodeApp lleva esa idea al terreno móvil: crear aplicaciones para iOS y Android desde una conversación, incluso directamente desde el teléfono. La promesa recuerda a otras capas [no-code con IA](/blog/google-opal-el-futuro-de-la-inteligencia-artificial-no-code/), pero conviene mirarla con entusiasmo y con cautela.
 
 ## Qué es VibecodeApp
 
@@ -54,6 +55,8 @@ La herramienta puede acelerar muchísimo, pero no elimina la necesidad de revisa
 VibecodeApp no convierte a todo el mundo en ingeniero de software de la noche a la mañana. Lo que sí hace es bajar la barrera de entrada para convertir ideas en prototipos móviles.
 
 La mejor analogía es pensar en la IA como un programador junior extremadamente rápido: produce mucho, pero necesita dirección, feedback y supervisión. El valor humano se desplaza hacia la arquitectura, el criterio, la seguridad y la definición correcta del producto.
+
+Si quieres convertir una idea de app en un prototipo realista y revisar qué parte conviene automatizar con IA, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

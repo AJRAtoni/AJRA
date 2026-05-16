@@ -5,6 +5,7 @@ date: 2025-11-20 09:00:00 -0500
 description: "Un repaso claro a Google Antigravity, el IDE agéntico basado en Gemini 3 Pro que propone pasar de escribir código línea a línea a dirigir agentes de IA."
 image: "https://img.youtube.com/vi/_e4a2vlpTKw/hqdefault.jpg"
 image_alt: "Descubre Google Antigravity: El IDE Agéntico que Revoluciona la Programación con Gemini 3 Pro"
+resumen: "Google Antigravity plantea un entorno donde programar se parece cada vez más a dirigir agentes, revisar artifacts y decidir arquitectura."
 categories: [youtube]
 tags: [ia, google, gemini, programacion, vibe-coding, youtube]
 source: "youtube"
@@ -19,7 +20,7 @@ La idea central es pasar de picar cada línea de código a articular una visión
 
 ## Qué es Google Antigravity
 
-Antigravity es un IDE agéntico de Google construido sobre Gemini 3 Pro. Técnicamente parte de la familia de editores tipo VS Code, pero su enfoque va mucho más allá de añadir autocompletado inteligente.
+Antigravity es un IDE agéntico de Google construido sobre [Gemini 3 Pro](/blog/gemini-3-asi-es-el-nuevo-modelo-de-ia-revolucionario-de-google/). Técnicamente parte de la familia de editores tipo VS Code, pero su enfoque va mucho más allá de añadir autocompletado inteligente.
 
 Su objetivo es convertir el entorno de desarrollo en una plataforma donde agentes de inteligencia artificial puedan trabajar sobre proyectos completos, entender contexto, tomar decisiones y mostrar lo que han hecho de forma auditable. El cambio más importante está en el rol del desarrollador: en lugar de ser únicamente quien implementa cada detalle, pasa a funcionar como arquitecto, revisor y coordinador de agentes.
 
@@ -46,6 +47,8 @@ La pregunta no es solo si Antigravity puede escribir código, sino si los equipo
 ## Idea central
 
 Google Antigravity representa una apuesta fuerte por una programación más agéntica: menos centrada en escribir cada línea y más orientada a dirigir sistemas inteligentes. Su potencial es enorme, pero su adopción dependerá de confianza, estabilidad, seguridad y control humano.
+
+Si quieres evaluar herramientas de IA para desarrollo, automatización o prototipado sin convertir tu repo en una caja negra, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 
