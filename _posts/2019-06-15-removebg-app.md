@@ -1,35 +1,52 @@
 ---
 layout: post
-title: Remove.bg lanza su aplicación
+title: "Remove.bg lanzó app de escritorio para eliminar fondos por lotes"
 date: 2019-06-15 10:00:00 +0300
 image: /images/147.jpg
+image_alt: "Aplicación de escritorio de Remove.bg para eliminar fondos de imágenes por lotes"
+description: "Remove.bg lanzó una app para Windows, Mac y Linux que permitía eliminar fondos de múltiples imágenes usando su API."
+resumen: "La app de Remove.bg convirtió una herramienta web útil en un flujo de trabajo más potente para procesar imágenes por lotes."
 source: AJRA-v09/_posts/2019-06-15-removebg-app.md
 ---
 
-Ya hace un tiempo que os hable de **Remove.bg** una interesante herramienta web que nos permite eliminar automáticamente el fondo de una fotografía.
+Hace poco hablé de [Remove.bg](/blog/removebg/), una herramienta web para eliminar automáticamente el fondo de una fotografía.
 
-Pues desde entonces no he dejado de utilizarla y de hacer seguimiento para ver como evolucionaba la empresa, y me he quedado sorprendido de la velocidad y efectividad con la que van introduciendo novedades.
+La evolución fue rápida: la compañía lanzó una app de escritorio para procesar imágenes por lotes.
 
-La ultima novedad interesante que presentaron en Remove.bg es una app.
+## Qué aportaba la app
 
-Ahora puedes descargarte una app con la que podrás eliminar el fondo de tus imágenes por lotes.
+La app permitía eliminar fondos de múltiples imágenes sin tener que subirlas una por una desde el navegador.
 
-## CARACTERISTICAS
-- Drag&Drop con borrado del fondo automático.
-- Sube multiples imágenes y carpetas.
-- Selecciona si quieres el fondo transparente o de un color.
-- Selecciona el tamaño de salida de las imágenes procesadas.
+Sus funciones principales eran:
 
-## COMO FUNCIONA
-Remove.bg esta disponible para Windows / Mac / Linux y usa la API de Remove.bg por lo cual necesitas una clave API y una conexión a internet.
+- Drag and drop con borrado automático del fondo.
+- Subida de múltiples imágenes y carpetas.
+- Fondo transparente o color personalizado.
+- Selección del tamaño de salida.
+- Disponible para Windows, Mac y Linux.
 
-## DESCARGAR Y COMENZAR
-Una vez que tengamos el software descargado, necesitamos [obtener nuestra clave API](https://www.remove.bg/users/sign_up) (tienes 50 llamadas a la API gratuitas cada mes).
+## Cómo funcionaba
 
-Listo, ahora ya puedes arrastra tus fotos y se eliminaran los fondos.
+La app usaba la API de Remove.bg, así que necesitabas una clave API y conexión a internet.
 
-Un software muy interesante que mejora por todos lados, los desarrolladores incorporan nuevas funciones y la IA va aprendiendo a medida que los usuarios la utilizan.
+Tras instalarla, obtenías tu clave, arrastrabas las imágenes y el sistema procesaba los fondos automáticamente.
 
----
+En aquel momento ofrecía llamadas gratuitas mensuales, suficientes para probar el flujo.
 
-Y recuerda que si necesitas ayuda con este software [puedes contactar conmigo](mailto:info@ajra.es).
+## Por qué era importante
+
+La web de Remove.bg ya era útil para usos puntuales.
+
+La app de escritorio la convertía en herramienta de producción.
+
+Si trabajas con catálogos, imágenes de producto, materiales de marketing o presentaciones, procesar por lotes ahorra muchísimo tiempo.
+
+Después de eliminar fondos, conviene optimizar las imágenes antes de subirlas a la web y revisar que el resultado tenga sentido visual.
+
+## Lectura retrospectiva
+
+Remove.bg entendió bien el paso de utilidad puntual a flujo profesional.
+
+La IA no era el titular vacío. Era la forma de automatizar una tarea repetitiva.
+
+Si quieres revisar procesos de edición visual, automatización o preparación de imágenes para web y redes, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

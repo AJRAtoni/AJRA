@@ -1,55 +1,70 @@
 ---
 layout: post
-title: Apple lanza “Sign in with Apple”
+title: "Sign in with Apple: login rápido con foco en privacidad"
 date: 2019-06-13 10:00:00 +0300
 image: /images/logo-apple.jpg
+image_alt: "Logotipo de Apple en una noticia sobre Sign in with Apple"
+description: "Apple presentó Sign in with Apple en WWDC 2019, una alternativa a los logins sociales basada en privacidad, Face ID, Touch ID y alias de email."
+resumen: "Sign in with Apple fue una respuesta directa a los botones de login de Facebook y Google: menos tracking y más control sobre el email que compartes."
 source: AJRA-v09/_posts/2019-06-13-signin-apple.md
 ---
 
-La semana pasada se celebró la WWDC 2019 donde Apple presentó cantidad de cosas interesantes, desde iPadOS, iOS 13, macOS Catalina, etc… pero hay algo que fue realmente interesante y sorprendente, el lanzamiento de una nueva API que como suele ser normal con Apple se basa en la seguridad y privacidad del usuario.
+En la WWDC 2019 Apple presentó iPadOS, iOS 13, macOS Catalina y muchas novedades más.
 
-Actualmente cuando nos descargamos una app, un juego o queremos crearnos una cuenta en alguna web o red social se nos pide que rellenemos un formulario con nuestros datos. Este es un proceso lento y que a muchos les da pereza y acaban por no crearse una cuenta.
+Pero una de las más interesantes fue Sign in with Apple, una API de login centrada en privacidad.
 
-Eso es algo que Facebook, Google o Twitter ya sabían y por eso lanzaron sus propios botones de login.
+## El problema de los logins sociales
 
-<figure>
-<img src="/images/146.png" alt="" />
-</figure>
+Registrarse en una app o web suele ser aburrido: formulario, email, contraseña, verificación y más datos.
 
-Estos botones son un arma de doble filo. Por un lado nos facilitan el registro ofreciendo los datos que Facebook o Google ya tienen de nosotros, pero al usarlos estamos aceptando que toda la información relacionada con la app y el uso que hacemos de ella acabe en manos de la compañía que nos ha facilitado el registro y usen esos datos para ganar dinero con ellos.
-
-Por eso Apple ha decidido presentar “Sign in with Apple” un sistema de login similar al que tienen Facebook, Google o Twitter, con la principal diferencia de que Apple no trackeara ni negociará con tus datos.
+Facebook, Google y Twitter ya habían resuelto parte de esa fricción con botones de login.
 
 <figure>
-<img src="/images/146-2.jpg" alt="" />
+<img src="/images/146.png" alt="Botones de login social con Facebook, Google y Twitter" />
 </figure>
 
-## Email aleatorio y de uso único.
+El problema es que esos botones también pueden compartir datos de uso con la plataforma que facilita el registro.
 
-Algo muy curioso y que demuestra el grado de privacidad que quiere ofrecernos Apple es que cuando usamos Sign in with Apple para realizar un registro en una web o app, Apple nos ofrecerá usar nuestros datos reales o utilizar un alias de email generado aleatoriamente y únicamente para esa web/app.
+Ahorras tiempo, pero entregas información.
+
+## Qué propuso Apple
+
+Apple presentó Sign in with Apple como una alternativa similar en comodidad, pero distinta en tratamiento de datos.
+
+La promesa era clara: facilitar el registro sin trackear ni monetizar el uso de la app.
 
 <figure>
-<img src="/images/146-3.jpg" alt="" />
+<img src="/images/146-2.jpg" alt="Pantalla de Sign in with Apple como alternativa privada de registro" />
 </figure>
 
-## ¿De qué me sirve esto?
+El sistema funcionaba con Touch ID o Face ID, lo que hacía el registro rápido y seguro dentro del ecosistema Apple.
 
-En el blog casi cada semana publicamos que alguna empresa ha sido hackeada y por lo general la base de datos de emails acaba subastada en la Dark Web.
+## Email aleatorio y de uso único
 
-Esos datos y emails suelen acabar filtrados y tú acabas recibiendo emails de spam que no te interesan lo más mínimo.
+<figure>
+<img src="/images/146-3.jpg" alt="Opción de ocultar email real mediante alias en Sign in with Apple" />
+</figure>
 
-Pues bien, con este sistema tu no has dado tu verdadero email, has usado un alias que puedes gestionar y borrar en cualquier momento desde tu dispositivo.
+La función más interesante era ocultar tu email real.
 
-Un extra de seguridad y privacidad muy valioso.
+Al registrarte, Apple podía generar un alias único para esa app o web.
 
-El servicio de “Sign in with Apple” funcionará mediante Touch ID / Face ID, lo cual aporta varios beneficios.
+Si más adelante esa empresa filtraba datos, vendía listas o empezaba a enviarte spam, podías desactivar ese alias sin exponer tu dirección principal.
 
-Por un lado tendremos Logins y Registros más rápidos, con un solo click ya estaremos registrados en la app.
+Esto conectaba muy bien con hábitos de seguridad como usar [contraseñas únicas](/blog/passwords-seguros/) y reducir la exposición de datos personales.
 
-Y por otro lado la seguridad que proporcionan los servicios de reconocimiento biométricos de Apple.
+## Obligatorio si había otros logins
 
-## Obligatorio en las Apps que integren servicio de login de terceros.
+Apple anunció a los desarrolladores que Sign in with Apple sería obligatorio en apps que ofrecieran login con terceros.
 
-Apple ha anunciado a los desarrolladores que será obligatorio incluir “Sign in with Apple” en todas las Apps que ofrezcan servicios de login de terceros.
+Es decir: si una app ofrecía "login con Facebook" o "login con Google", también tendría que ofrecer la opción de Apple.
 
-Es decir, si una app ofrece login con Facebook obligatoriamente tendrá que actualizarse e incluir la opción de “Sign in with Apple” antes de 2020.
+Esto no era solo una función. Era una decisión de plataforma.
+
+## Lectura retrospectiva
+
+Sign in with Apple reforzó una línea estratégica de Apple: privacidad como diferenciación.
+
+En un contexto de problemas como [Facebook Research](/blog/facebook-espia/) o [Cambridge Analytica](/blog/facebook-filtrados/), Apple encontró una forma de convertir seguridad y control de datos en ventaja de producto.
+
+Si quieres revisar privacidad, login, formularios o gestión de datos de usuarios en tu producto digital, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

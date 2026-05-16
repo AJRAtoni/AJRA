@@ -1,37 +1,54 @@
 ---
 layout: post
-title: SQUARESPACE TIPS 006  —  Como cambiar el Favicon de tu web
+title: "Squarespace Tips 006: cambiar el favicon de tu web"
 date: 2019-06-12 10:00:00 +0300
 image: /images/logo-squarespace.jpg
+image_alt: "Configuración del favicon en Squarespace para personalizar el icono del navegador"
+description: "Cómo cambiar el favicon de una web en Squarespace y qué requisitos conviene cuidar en formato, tamaño y resolución."
+resumen: "Un favicon personalizado ayuda a reconocer tu web en pestañas y marcadores. En Squarespace se cambia desde Logo y título."
 source: AJRA-v09/_posts/2019-06-12-squarespace-tips-6.md
 ---
 
-El Favicon o icono de navegador es una pequeña imagen cuadrada que se muestra principalmente en las pestañas del navegador. Tener un Favicon personalizado hace que tu página sea reconocible en un navegador lleno de pestañas abiertas.
+El favicon, o icono de navegador, es una pequeña imagen cuadrada que aparece en las pestañas, marcadores y otros lugares del navegador.
 
-Todos las webs creadas en Squarespace vienen con un Favicon de un cubo, es una forma de reconocer que esa web está creada con la plataforma de Squarespace. Pero lo más importante es que puedes personalizar el Favicon para que se adapte mejor a tu marca y/o diseño.
+Tener un favicon personalizado ayuda a que tu web sea reconocible cuando el usuario tiene muchas pestañas abiertas.
 
-## Como añadir un Favicon en Squarespace.
+Ya había tratado este tema en otro [tip sobre favicon en Squarespace](/blog/squarespace-tip-3/), pero merece la pena dejarlo bien ordenado.
 
-En el menú Inicio, haz clic en Diseño y luego clic en Logotipo y Título.
+## Cómo añadir un favicon en Squarespace
 
-Desplazate hacia abajo hasta la casilla de Icono de navegador (Favicon) y arrastra tu imagen al cargador de imágenes.
+En Squarespace, entra en:
 
-Después de subir tu imanes solo tienes que hacer clic en Guardar.
+`Diseño > Logotipo y título`
 
-# Algunas recomendaciones sobre tu Favicon.
+Después busca la sección **Icono de navegador (Favicon)** y sube tu imagen.
+
+Guarda los cambios y revisa que el icono aparece correctamente.
+
+## Recomendaciones
 
 ## Resolución de imagen
 
-Es recomendable que tu Favicon tenga un tamaño ente los 100x100px y los 300x300px. Aunque generalmente se mostrarán a 16x16px.
+Es recomendable que el favicon sea cuadrado y tenga un tamaño entre 100 x 100 px y 300 x 300 px.
+
+Aunque se muestre muy pequeño, conviene subir una versión limpia y reconocible.
 
 ## Formato de archivo
 
-Te recomiendo usar archivos .ico o .png para tu favicon.
+Puedes usar `.ico` o `.png`.
 
-Actualmente cualquiera de estos dos formatos es aceptado, aunque navegadores muy antiguos como Internet Explorer tienen problemas a la hora de mostrar el favicon en formato .png
+El formato `.ico` era más compatible con navegadores antiguos, pero `.png` funciona bien en la mayoría de casos actuales.
 
 ## Tamaño de archivo
 
-Los archivos de imagen de Favicon deben ser lo más ligeros posibles, intenta no exceder los 100 KB.
+El favicon debe ser ligero. Intenta no superar los 100 KB.
 
-De momento esto esto es todo sobre el Favicon y cómo usarlo en Squarespace, si tienes más dudas al respecto [puedes contactar conmigo](mailto:info@ajra.es).
+No necesitas una imagen compleja. De hecho, cuanto más simple sea, mejor funcionará en tamaños pequeños.
+
+## Un detalle pequeño, pero visible
+
+El favicon no cambia el rendimiento de tu negocio, pero sí suma coherencia visual.
+
+Es uno de esos detalles que conviene cuidar junto al logotipo, los colores, las imágenes y el [atributo ALT](/blog/Atributo-ALT/).
+
+Si quieres revisar los detalles visuales y técnicos de tu web en Squarespace, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

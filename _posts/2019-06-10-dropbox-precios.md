@@ -1,13 +1,57 @@
 ---
 layout: post
-title: Dropbox mejora sus servicios y aumenta sus precios
+title: "Dropbox duplicó almacenamiento en Plus y subió precios"
 date: 2019-06-10 10:00:00 +0300
 image: /images/logo-dropbox.png
+image_alt: "Logotipo de Dropbox en una noticia sobre cambios de almacenamiento y precio"
+description: "Dropbox Plus duplicó almacenamiento hasta 2 TB y añadió funciones como Smart Sync y Rewind, acompañadas de una subida de precio."
+resumen: "Dropbox mejoró su plan Plus con más almacenamiento y funciones, pero también recordó que la nube barata o ilimitada casi siempre acaba ajustando condiciones."
 source: AJRA-v09/_posts/2019-06-10-dropbox-precios.md
 ---
 
-El famoso servicio de almacenamiento en la nube ha anunciado una serie de mejoras en los servicios que ofrece, comenzando por duplicar el almacenamiento en las cuentas Dropbox Plus (ahora ofrecer 2 TB de almacenamiento), incluyendo la opción Dropbox Smart Sync y Dropbox Rewind.
+Dropbox anunció mejoras en su plan Plus, pero también una subida de precio.
 
-Eso si, todas estas mejoras no son gratis, y las cuentas de Dropbox Plus han aumentado de precio y ahora pasan a costar $11.99
+La mejora más visible era duplicar el almacenamiento hasta 2 TB e incorporar funciones como Smart Sync y Dropbox Rewind.
 
-Dropbox ofrece así unos servicios y precios muy interesantes, con los que seguir luchando contra [iCloud](https://www.apple.com/icloud/) y [Google One](https://one.google.com/about).
+El precio pasaba a 11,99 dólares al mes.
+
+## Más almacenamiento, más funciones
+
+Dropbox Plus se volvía más competitivo para usuarios que necesitaban espacio real y funciones de recuperación.
+
+Smart Sync ayudaba a ver archivos sin tenerlos todos descargados localmente.
+
+Dropbox Rewind permitía volver atrás ante borrados o cambios no deseados.
+
+Para usuarios con muchos documentos, trabajo compartido o archivos pesados, estas funciones tenían sentido.
+
+## La nube nunca es estática
+
+La noticia también recordaba algo importante: los servicios en la nube cambian condiciones.
+
+Suben precios, ajustan planes, eliminan promesas, añaden funciones o modifican límites.
+
+Ya lo vimos con [Amazon Cloud Drive dejando de ser ilimitado](/blog/amazon-ilimitado/) y más adelante con [Google Fotos](/blog/google-photos/).
+
+Por eso conviene elegir nube pensando en coste, dependencia, recuperación y portabilidad, no solo en gigabytes.
+
+## Competencia directa
+
+Dropbox competía contra iCloud, Google One, OneDrive y otras opciones.
+
+Cada una tiene ventajas distintas:
+
+- iCloud encaja muy bien en ecosistema Apple.
+- Google One conecta con Google Drive, Gmail y Fotos.
+- OneDrive se integra con Microsoft 365.
+- Dropbox mantiene una experiencia muy sólida de sincronización.
+
+La mejor opción depende de cómo trabajas.
+
+## Lectura retrospectiva
+
+Dropbox siguió intentando justificar precio con más valor añadido.
+
+La pregunta para el usuario es simple: ¿necesitas solo almacenamiento o necesitas sincronización, recuperación, colaboración e historial?
+
+Si quieres revisar tu sistema de archivos, backups o servicios en la nube para no depender de una sola plataforma, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

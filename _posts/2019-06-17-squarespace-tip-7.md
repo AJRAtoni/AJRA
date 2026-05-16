@@ -1,42 +1,56 @@
 ---
 layout: post
-title: SQUARESPACE TIPS 007 — Personalizar el CSS de tu web
+title: "Squarespace Tips 007: personalizar el CSS de tu web"
 date: 2019-06-17 10:00:00 +0300
 image: /images/148.jpg
+image_alt: "Editor de CSS personalizado de Squarespace para ajustar el diseño de una web"
+description: "Cómo usar CSS personalizado en Squarespace para modificar detalles visuales que no aparecen en el editor de estilos."
+resumen: "Squarespace es fácil de usar, pero el CSS personalizado permite ajustar detalles finos cuando la plantilla no ofrece una opción directa."
 source: AJRA-v09/_posts/2019-06-17-squarespace-tip-7.md
 ---
 
-Crear tu página web con **Squarespace** es algo realmente sencillo y rápido.
-Tienen muchas plantillas y un avanzado editor de diseño, pero puede que en alguna ocasión quieras personalizar algo y este fuera de los ajustes que **Squarespace** ofrece.
+Crear una web con Squarespace es bastante sencillo gracias a sus plantillas y editor visual.
 
-La buena noticia es que **Squarespace** nos ofrece un editor de código CSS con el cual podremos personalizar nuestro sitio web.
+Pero a veces necesitas ajustar algo que no aparece en las opciones del editor.
 
-## ¿Que es el CSS
+Ahí entra el CSS personalizado.
 
-CSS es el acrónimo de Cascading Style Sheets (Hoja de estilo en cascada), es un idioma de programación que se ocupa de indicarle al navegador web como debe mostrar los elementos de una página web.
+## Qué es CSS
 
-## ¿Por qué usar CSS?
+CSS significa Cascading Style Sheets.
 
-Usar CCS en tu página web ofrece muchas ventajas:
+Es el lenguaje que indica al navegador cómo debe mostrar los elementos de una página: colores, tamaños, márgenes, tipografías, espaciados, bordes, fondos y muchos otros detalles visuales.
 
-- CSS ahorra tiempo
-- Es un lenguaje muy ligero que hace que tus páginas carguen más rápido.
-- Prácticamente no necesita mantenimiento.
-- Ofrece mayor personalización que usar solo HTML.
-- Es compatible que la mayoría de los dispositivos y navegadores.
+## Por qué usar CSS en Squarespace
 
-Cuando comienzas tu página web en **Squarespace** tienes que elegir una plantilla que se adapte a tus necesidades.
+El CSS personalizado permite:
 
-Olvídate de la apariencia, eso luego lo podemos personalizar, lo importante es centrarse en las características y funcionalidades que ofrece el tema que elijamos.
+- Ajustar detalles que la plantilla no expone.
+- Mantener coherencia visual.
+- Personalizar botones, títulos o bloques.
+- Corregir pequeños problemas de diseño.
+- Evitar depender de hacks visuales más frágiles.
 
-Para eso lo mejor es entrar en el Editor de estilos y comprobar todas las opciones que nos ofrece el tema
+También conviene usarlo con cuidado. Un CSS mal escrito puede romper diseño responsive o generar inconsistencias.
 
-## ¿Donde insertar CSS?
+## Elegir bien la plantilla
 
-**Squarespace** nos ofrece un editor de CSS algo simple, pero lo suficiente para trabajar cómodamente.
+Antes de tocar CSS, elige una plantilla que encaje con la estructura que necesitas.
 
-Lo podemos encontrar en **Diseño > CSS Personalizado**
+La apariencia se puede ajustar, pero las funcionalidades y la organización base importan.
 
-Algo bueno del Editor de CSS es que comprueba automáticamente el código insertado y nos resalta cualquier error de código.
+Después puedes personalizar detalles desde el editor de estilos y, si hace falta, desde CSS.
 
-Si necesitas ayuda para personalizar el código CSS de tu página de Squarespace [puedes contactar conmigo](mailto:info@ajra.es).
+## Dónde insertar CSS
+
+Squarespace incluye un editor en:
+
+`Diseño > CSS personalizado`
+
+El editor es sencillo, pero suficiente para trabajar ajustes puntuales.
+
+Además, puede marcar errores básicos de código.
+
+Este tip conecta con otros ajustes como [usar una fuente propia en Squarespace](/blog/squarespace-tip-2/) o capturar colores con [ColorZilla](/blog/colorzilla/).
+
+Si quieres personalizar CSS en Squarespace sin romper la estructura, velocidad o responsive de tu web, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
