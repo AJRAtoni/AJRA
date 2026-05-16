@@ -14,7 +14,7 @@ permalink: /blog/
     {% for post in site.posts %}
     <article class="post-card">
         <a href="{{ post.url | relative_url }}" aria-label="Leer {{ post.title | escape }}">
-            {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy">{% endif %}
+            {% include recursos-featured.html item=post class="post-card-image" loading="lazy" %}
             <div class="post-card-body">
                 <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time>
                 <h2>{{ post.title | escape }}</h2>

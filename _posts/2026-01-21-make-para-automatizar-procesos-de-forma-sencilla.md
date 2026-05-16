@@ -3,8 +3,9 @@ layout: post
 title: "Make: para automatizar procesos de forma sencilla"
 date: 2026-01-21 09:00:00 -0500
 description: "Make permite automatizar tareas repetitivas conectando apps cuando el proceso ya está claro."
-image: "/images/posts/Newsletter-003.webp"
-image_alt: "Make: para automatizar procesos de forma sencilla"
+image: "/images/posts/make-logo-gradient.webp"
+image_alt: "Make para automatizar procesos"
+recursos_logo: "/images/logos/recursos/make.svg"
 resumen: "Make funciona mejor cuando automatiza procesos que ya están claros: formularios, bases de datos, emails y tareas repetitivas."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/003-Make.md"

@@ -3,8 +3,9 @@ layout: post
 title: "Calendly: para dejar de intercambiar correos absurdos"
 date: 2026-02-04 09:00:00 -0500
 description: "Calendly reduce los correos de ida y vuelta para cerrar reuniones y proteger mejor tu agenda."
-image: "/images/posts/Newsletter-005.webp"
+image: "/images/posts/calendly-logo-gradient.webp"
 image_alt: "Calendly: para dejar de intercambiar correos absurdos"
+recursos_logo: "/images/logos/recursos/calendly.png"
 resumen: "Calendly reduce los correos de ida y vuelta para agendar reuniones, proteger horarios y evitar que coordinar llamadas consuma la semana."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/005-Calendly.md"
