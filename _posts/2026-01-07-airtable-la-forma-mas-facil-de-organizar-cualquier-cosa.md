@@ -2,7 +2,7 @@
 title: "Airtable: La forma más fácil de organizar cualquier cosa"
 date: 2026-01-07 09:00:00 -0500
 description: "Airtable sirve para ordenar clientes, proyectos, contenidos y procesos sin montar sistemas complejos."
-image: "/images/posts/airtable-gradient.webp"
+image: "/images/posts/airtable-logo-gradient.webp"
 image_alt: "Airtable para organizar cualquier cosa"
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/001-Airtable.md"
