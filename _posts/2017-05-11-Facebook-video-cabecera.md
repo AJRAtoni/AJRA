@@ -1,27 +1,69 @@
 ---
 layout: post
-title: Usar un vídeo como cabecera en Facebook
+title: "Vídeo de cabecera en Facebook: qué enseñó sobre contenido social"
 date: 2017-05-11 10:00:00 +0300
 image: /images/49.webp
+image_alt: "Cabecera de Facebook con vídeo para una página de empresa"
+description: "Facebook probó vídeos de cabecera para páginas, una señal más de cómo el contenido social empezó a moverse hacia vídeo, loops y piezas visuales rápidas."
+resumen: "Los vídeos de cabecera de Facebook fueron otra pista de una tendencia mayor: las marcas necesitaban pensar cada vez más en movimiento, móvil y atención rápida."
 source: AJRA-v09/_posts/2017-05-11-Facebook-video-cabecera.md
 ---
 
-No es la primera vez en que Facebook declara que el futuro de su plataforma es el vídeo.
-Y poco a poco vamos viendo cómo esas declaraciones se van cumpliendo.
+Durante años Facebook repitió que el futuro de la plataforma era el vídeo.
 
-Durante esta semana hay muchos usuarios que ya han ido anunciando que se les ha habilitado la posibilidad de usar vídeos como cabeceras de sus páginas de Facebook.
+Una de las señales de aquella etapa fue la posibilidad de usar vídeos como cabecera en páginas de Facebook: piezas cortas, en loop y normalmente sin sonido.
 
+El formato puede parecer menor, pero explica bien cómo evolucionó el contenido social.
 
-Cómo puedes ver se trata de **vídeos cortos y en loop** (parecen GIFS animados) y cómo es lógico se reproducen sin sonido.
+## Qué eran los vídeos de cabecera
 
-La propia Facebook ha confirmado la noticia con el siguiente comunicado:
+Una página de Facebook podía sustituir la imagen estática de portada por un vídeo corto.
 
-> “We recently started testing the ability on desktop to upload a video as the Page cover. Once a cover video has been created, video will render when people visit the Page.By making cover video available, we want to help you create more engaging interactions and drive more rich experience for your audience by letting you spotlight your creative content in one of the most prominent spaces: your Page cover.This feature is still in early testing, but we expect it to roll out more widely soon.”
+La idea era aprovechar una zona muy visible de la página para mostrar:
 
-Esto no es algo nuevo, ya que hay que recordar que **en 2015 Facebook ya introdujo la posibilidad de usar pequeños vídeos como imagen de perfil**, ahora simplemente lo traslada a las cabeceras de las páginas, lo que será mucho más vistoso al ser mayor el tamaño del vídeo en cuestión.
+- Producto.
+- Equipo.
+- Instalaciones.
+- Experiencia de marca.
+- Promoción.
+- Evento.
+- Mensaje institucional.
 
-Y hablando de tamaños, según los afortunados que ya han podido probar este servicio **los vídeos deberán ser de entre 20 y 90 segundos de duración y de un tamaño mínimo de 820 x312 pixels**.
+Era una forma de hacer que una página pareciera más viva.
 
----
+## Lo importante no era la función
 
-Esto es algo que muchos esperaban ya que abre todo un mundo de posibilidades que los usuarios y expertos en marketing o social media management tendrán que explorar y explotar.
+La función concreta no era lo más relevante.
+
+Lo importante era la tendencia: las plataformas sociales empujaban a las marcas hacia más vídeo, más movimiento y más contenido pensado para captar atención rápido.
+
+Eso también lo vimos con [Twitter Video](/blog/twittervideo/), Stories, Reels, TikTok y YouTube Shorts.
+
+## Vídeo sin sonido
+
+Otro detalle importante: muchos de estos vídeos se reproducían sin sonido.
+
+Eso obligaba a pensar en imágenes que se entendieran solas, textos sobreimpresos, ritmo visual y subtítulos.
+
+La misma lógica aplica hoy a casi cualquier contenido social. Si tu vídeo necesita audio para entenderse, probablemente pierdes parte de la audiencia.
+
+## Qué debería hacer una marca
+
+Más que perseguir cada función nueva, una marca debería preguntarse:
+
+- ¿Qué mensaje queremos transmitir en pocos segundos?
+- ¿Se entiende sin sonido?
+- ¿Está pensado para móvil?
+- ¿Tiene una llamada a la acción clara?
+- ¿Encaja con nuestra identidad visual?
+- ¿Lleva al usuario a una web o landing coherente?
+
+La creatividad social no puede vivir separada de la estrategia. Un buen vídeo debería conectar con un objetivo: leads, ventas, notoriedad, confianza o comunidad.
+
+## Conclusión
+
+Los vídeos de cabecera en Facebook fueron una función puntual, pero reflejaban un cambio más profundo: las marcas ya no podían limitarse a publicar imágenes estáticas y esperar resultados.
+
+El contenido social empezó a pedir movimiento, contexto y mensajes cada vez más claros.
+
+Si quieres ordenar tu contenido de redes o conectar vídeo social con objetivos reales, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
