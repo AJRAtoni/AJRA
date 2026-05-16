@@ -1,18 +1,36 @@
 ---
 layout: post
-title: Procreate se actualiza para los iPad Pro con M1
+title: "Procreate se optimizó para los iPad Pro con M1"
 date: 2021-05-30 10:00:00 +0300
 image: /images/247.jpeg
+image_alt: "Procreate en iPad Pro con chip M1 para ilustración digital"
+description: "Procreate se actualizó para aprovechar los iPad Pro con chip M1, mejorando rendimiento y permitiendo trabajar con más capas en lienzos grandes."
+resumen: "La actualización de Procreate para iPad Pro M1 mostró que la potencia del hardware empezaba a tener impacto real en apps creativas de iPad."
 source: AJRA-v09/_posts/2021-05-30-procreate-ipad-m1.md
 ---
 
-Procreate es la aplicación de ilustracion por excelencia en los iPad.
-Ahora la App se ha actualizado para ofrecer soporte completo a los nuevos iPad Pro con chip M1.
+Procreate se actualizó para aprovechar los iPad Pro con chip **M1**.
 
-Procreate ya se podía utilizar en los iPad con M1, pero con esta actualización se aprovecha al máximo la potencia de los procesadores M1, ofreciendo un rendimiento hasta 4 veces superior y la posibilidad de usar muchas más capas.
+La app ya funcionaba en esos modelos, pero esta versión prometía sacar más partido de la nueva potencia disponible.
 
-Por ejemplo en un lienzo 4K a 132 DPI ahora puedes utilizar hasta 115 capas sin problema alguno, una autentica barbaridad.
+## Más rendimiento y más capas
 
-Puedes descargar Procreate para iPad desde la App Store por $9.99.
+Procreate es una de las apps de ilustración más importantes del iPad.
 
-<a href="https://procreate.com/" class="cta-button button button--small" style="display: flex;">PROCREATE</a>
+Con esta actualización, el equipo hablaba de un rendimiento hasta cuatro veces superior en los nuevos iPad Pro y de la posibilidad de trabajar con muchas más capas.
+
+Por ejemplo, en un lienzo 4K a 132 DPI se podían usar hasta 115 capas.
+
+Para ilustradores y diseñadores, eso era una diferencia real: más margen para organizar, corregir y experimentar sin estar pendiente de límites técnicos.
+
+## El M1 también era para creativos en iPad
+
+El iPad Pro con M1 se presentó en [Spring Loaded](/blog/apple-event-springloaded/) con una potencia que parecía más propia de un Mac.
+
+Apps como Procreate ayudaban a justificar ese hardware.
+
+También encajaba con la evolución de herramientas creativas en iPad: [Photoshop](/blog/photoshop-ipad/), [Darkroom](/blog/darkroom-ipad/), [Affinity](/blog/affinity-m1/) y ahora Procreate empujaban al iPad hacia usos cada vez más profesionales.
+
+Puedes ver Procreate en su [web oficial](https://procreate.com/).
+
+Si quieres revisar un flujo de ilustración, edición de imagen o creación visual en iPad, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
