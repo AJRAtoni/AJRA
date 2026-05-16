@@ -1,32 +1,66 @@
 ---
 layout: post
-title: ¿Como medir el 20% de texto en las imágenes de Facebook?
+title: "Cómo medir el texto en imágenes para anuncios de Facebook"
 date: 2019-02-21 10:00:00 +0300
 image: /images/logo-facebook.jpg
+image_alt: "Herramienta de Facebook para medir texto en imágenes de anuncios"
+description: "Facebook limitaba el exceso de texto en imágenes promocionadas. Así funcionaba Text Overlay y qué conviene tener en cuenta al preparar creatividades."
+resumen: "La regla del 20% de texto en Facebook Ads obligaba a diseñar creatividades más limpias y a comprobarlas antes de invertir presupuesto."
 source: AJRA-v09/_posts/2019-02-21-medir-imagenes-facebook.md
 ---
 
-Quizás no lo sabíais pero Facebook no permite promocionar publicaciones que contengan mas de un 20% de texto en sus imágenes. Según ellos porque un exceso de texto puede parecer spam y hacer creer a las personas que tu anuncio es de baja calidad. Personalmente esta normativa nunca nos había afectado demasiado, nuestras imágenes nunca llevan demasiado texto y lo hacíamos todo a la vieja usanza… a ojo.
+Durante años Facebook fue bastante estricto con la cantidad de texto que podía aparecer en una imagen promocionada.
 
-Pero hace un tiempo nuestro buen amigo [Jose Ibora](https://www.facebook.com/jose.ibora) nos preguntaba si había algún modo de saber si tu imagen cumple con la regla del 20% de texto de Facebook. Estaba intentando promocionar una publicación que incluía un flyer de una discoteca, pero Facebook le devolvía un mensaje de error debido a la famosa norma del 20% y quería saber cuanto texto tenia que quitar para que Facebook la aceptara.
+La regla más conocida era el famoso 20%: si una creatividad tenía demasiado texto, podía rechazarse o rendir peor.
 
-Así que nos pusimos a buscar una herramienta que nos ayudara en este tema y aquí os la dejamos para que todos podáis disfrutar de ella, se trata de [Text Overlay](https://www.facebook.com/ads/tools/text_overlay).
+La explicación de Facebook era que el exceso de texto podía parecer spam o generar anuncios de baja calidad.
 
-## COMO USAR TEXT OVERLAY
+## El problema práctico
 
-[Text Overlay](https://www.facebook.com/ads/tools/text_overlay) es una herramienta propia de Facebook (así te aseguras que los resultados sean aceptados por Facebook Ads), y su uso es muy sencillo:
+El caso típico era un flyer con mucha información: fecha, precio, ubicación, horarios, logo, condiciones y llamadas a la acción dentro de la propia imagen.
+
+Visualmente podía funcionar como cartel, pero no como anuncio en Facebook.
+
+Ahí entraba Text Overlay, una herramienta de Facebook para comprobar si una imagen cumplía con sus criterios.
+
+## Cómo usar Text Overlay
+
+El funcionamiento era sencillo:
 
 1. Visitamos la pagina de Text Overlay.
 2. Seleccionamos la imagen que queremos comprobar.
-3. Nos aparece una cuadricula sobre la imagen en la que deberemos marcar los cuadrados sobre los que hay texto.
-4. A la derecha nos aparecerá el porcentaje de texto que contiene nuestra imagen. Si supera el 20% deberemos editar nuestra imagen, ya que de lo contrario no podremos promocionarla.
+3. Aparecía una cuadrícula sobre la imagen.
+4. Marcábamos los cuadros que contenían texto.
+5. La herramienta indicaba el porcentaje aproximado.
 
+Si superaba el límite, tocaba rediseñar.
 
-## MEDIDAS DE LAS IMÁGENES DE FACEBOOK
+## Mejor diseño, menos texto
 
-Ya que estamos metidos en el tema os queremos recordar los tamaño de las imágenes para paginas de fans en Facebook.
+Más allá de la norma concreta, la lección sigue siendo válida.
 
-- Formato estándar (cuadrado) — 403 x 403.
-- Formato destacado (rectangular) — 843 x 403.
+Una creatividad para anuncios no debería intentar contarlo todo dentro de la imagen.
 
-Espero que esta herramienta os sea útil, y recuerda que si estas interesado en montar una campaña de promoción en Facebook para tu empresa y no sabes como, puedes [contactar conmigo](mailto:info@ajra.es) e intentare ayudarte en todo lo posible
+Normalmente funciona mejor:
+
+- Imagen clara.
+- Mensaje corto.
+- Contraste suficiente.
+- Buen copy en el texto del anuncio.
+- Landing page que complete la información.
+
+Para campañas, también conviene revisar métricas y no quedarse solo en si Facebook acepta o no la imagen. Ya lo comenté al hablar de [métricas en Facebook Ads](/blog/metricas-facebook-ads/).
+
+## Imágenes y rendimiento
+
+Además del texto, hay que cuidar tamaño, peso, formato y legibilidad.
+
+Una imagen pesada puede afectar a carga y experiencia, y una imagen mal optimizada puede perjudicar tanto anuncios como SEO. Por eso conviene trabajar también la [optimización de imágenes](/blog/optimizar-imagenes/) y el [atributo ALT](/blog/Atributo-ALT/) cuando hablamos de web.
+
+## Lectura retrospectiva
+
+La regla del 20% cambió con el tiempo, pero el principio permanece: una creatividad cargada de texto suele funcionar peor.
+
+El anuncio debe llamar la atención y llevar al usuario al siguiente paso, no intentar meter todo el folleto dentro de la imagen.
+
+Si quieres revisar creatividades, campañas de Facebook Ads o imágenes para tu web, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

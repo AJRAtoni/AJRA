@@ -3,45 +3,75 @@ layout: post
 title: ¿Cómo optimizar las imágenes antes de subirlas a la web?
 date: 2019-03-28 10:00:00 +0300
 image: /images/127.jpg
+image_alt: "Herramienta de compresión de imágenes para optimizar peso antes de subirlas a una web"
+description: "Optimizar imágenes antes de subirlas a una web mejora velocidad, experiencia móvil, SEO y consumo de datos."
+resumen: "Las imágenes pesan mucho en una web. Reducir tamaño, cuidar formato, nombre de archivo y atributo ALT ayuda a cargar más rápido y posicionar mejor."
 source: AJRA-v09/_posts/2019-03-28-optimizar-imagenes.md
 ---
 
-En el articulo de hoy, os quiero a hablar sobre la importancia de optimizar las imágenes correctamente antes de subirlas a tu página web.
+Optimizar imágenes antes de subirlas a una web sigue siendo una de las tareas más simples y más olvidadas.
 
-## ¿Y porqué es tan importante optimizar las imágenes?
+Y afecta a casi todo: velocidad, SEO, experiencia móvil, consumo de datos y percepción de calidad.
+
+## Por qué importa optimizar imágenes
 
 La optimización de las imágenes de nuestra web es importante por varios motivos:
 
-Hoy en día casi el 50% de visitas a una web provienen de un dispositivo móvil y hay que pensar que la mayoría de conexiones 3G o 4G no son tan rápidas como desearíamos, por eso optimizando nuestras imágenes reduciremos considerablemente el tiempo de carga de nuestra web en dispositivos móviles. (Y de paso haremos que nuestros visitantes gasten menos en su tarifa de datos).
+Cada vez más visitas llegan desde móvil, y no todas las conexiones son rápidas o estables.
 
-Posicionamiento SEO: Haciendo un buen uso de las imágenes podemos aumentar el tráfico de nuestra web, nuestra imagen ya no sólo aparecerá en la búsqueda por imágenes de Google, y ahora también puede aparecer en la búsqueda universal, así que deberemos realizar una revisión del SEO de nuestras imágenes como el atributo ALT, el nombre del archivo, los datos EXIF, el peso y tamaño, etc… (en breve escribiré un artículo sobre el SEO para imágenes).
+Si una página carga imágenes enormes, el usuario espera más, consume más datos y tiene más probabilidades de abandonar.
 
-OK, ahora tenemos claro que hay que optimizar las imágenes antes de subirlas a la web pero **¿Cómo optimizar las imágenes?**
+La velocidad también afecta al rendimiento general de la web. Si quieres medirlo, puedes empezar con [PageSpeed Insights](/blog/pagespeed/).
 
-La primera opción es la más común, usar **Photoshop**.
+## SEO de imágenes
 
-Abrimos la imagen en cuestión y usamos la opción **“Guardar para web…”**
+Las imágenes también ayudan al SEO si se trabajan bien.
 
-Pero este método tiene varias pegas, no todo el mundo tiene **Photoshop** instalado y no todo el mundo sabe usarlo.
+Conviene revisar:
 
-Además Photoshop se ha convertido en un devorador de memoria RAM y es un programa demasiado pesado para realizar una tarea tan básica como la compresión y optimización de una imagen.
+- Nombre de archivo.
+- Peso.
+- Dimensiones.
+- Formato.
+- Contexto dentro de la página.
+- [Atributo ALT](/blog/Atributo-ALT/).
 
-Así que, la segunda opción que yo os recomiendo usar [Compressor.io](https://compressor.io).
+El objetivo no es solo aparecer en Google Imágenes. También es que Google entienda mejor el contenido y que la página sea más accesible.
 
----
+## Photoshop no siempre es necesario
 
-Se trata de una aplicación web con la capacidad de comprimir y optimizar imágenes llegando a reducir el tamaño de una imagen hasta el 90%.
+La opción clásica era abrir Photoshop y usar "Guardar para web".
 
-[Compressor.io](https://compressor.io) soporta cuatro tipos de archivo:
+Funciona, pero tiene pegas:
 
-Las imágenes las podemos subir de dos modos diferentes; haciendo uso del cargador de imágenes o usando el “arrastrar y soltar” que lo hace todo más cómodo.
+- No todo el mundo tiene Photoshop.
+- No todo el mundo sabe usarlo.
+- Es pesado para una tarea tan simple.
+- Puede ser lento si solo quieres comprimir una imagen.
 
-Una vez subida la imagen que deseamos optimizar tendremos la opción de seleccionar la compresión sin pérdida de calidad o la compresión máxima con una ligera pérdida de calidad.
+Para muchos casos, una herramienta web es suficiente.
 
-Sea cual sea la que seleccionemos veremos en tiempo real la compresión realizada y una comparativa de la imagen real y la imagen resultante.
+## Compressor.io
 
-Otra de las características de [Compressor.io](https://compressor.io) es que después de realizar la compresión nos da la posibilidad de descargar la imagen o de guardarla directamente en nuestra cuenta de Dropbox o de Google Drive.
+[Compressor.io](https://compressor.io) permitía comprimir y optimizar imágenes reduciendo su tamaño de forma considerable.
 
-Ahora ya sabes como rebajar el peso de las imágenes de tu web, así que piensa en tus usuarios, piensa en sus tarifas de datos, en los tiempos de carga de tu web y en el posicionamiento SEO de cara a Google.
+Podías subir imágenes mediante cargador o arrastrando y soltando.
 
-P.D.: Recuerda, si tienes alguna duda sobre este articulo o cualquier otro relacionado con el tema, [puedes contactar conmigo](mailto:info@ajra.es) e intentare ayudarte.
+Después elegías entre compresión sin pérdida o compresión máxima con algo de pérdida de calidad.
+
+La herramienta mostraba una comparativa entre la imagen original y la resultante, y permitía descargarla o guardarla en servicios como Dropbox o Google Drive.
+
+## Buenas prácticas rápidas
+
+Antes de subir una imagen a la web:
+
+- Ajusta dimensiones al tamaño real de uso.
+- Comprime el archivo.
+- Usa nombres descriptivos.
+- Añade ALT útil.
+- Evita imágenes decorativas pesadas.
+- Revisa cómo se ve en móvil.
+
+Optimizar imágenes no es una tarea estética. Es rendimiento, accesibilidad y SEO.
+
+Si quieres revisar las imágenes de tu web, mejorar velocidad o corregir problemas de SEO visual, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

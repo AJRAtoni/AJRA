@@ -1,37 +1,55 @@
 ---
 layout: post
-title: Elementor se integra con Slack
+title: "Elementor se integró con Slack para avisar de nuevos formularios"
 date: 2018-12-20 10:00:00 +0300
 image: /images/logo-elementor.jpg
+image_alt: "Logotipo de Elementor en una noticia sobre integración de formularios con Slack"
+description: "Elementor añadió integración con Slack para enviar avisos cuando un usuario completa un formulario en una web WordPress."
+resumen: "La integración de Elementor con Slack conectaba formularios web con el equipo, reduciendo el riesgo de que un lead se quedara sin atender."
 source: AJRA-v09/_posts/2018-12-20-elementor-slack.md
 ---
 
-Con la última actualización de **Elementor** ya podemos intrigarte nuestros formularios de contacto con **Slack**.
+Elementor añadió integración con Slack para sus formularios.
 
-Ahora cuando un usuario rellene un formulario de contacto de tu web puedes recibir la información en tu Slack.
+La idea era sencilla: cuando un usuario rellena un formulario de contacto en tu web, el equipo puede recibir el aviso directamente en un canal de Slack.
 
-Hasta ahora **Elementor** permitía la integración de formularios con plataformas como MailChimp, MailPoet, Zapier, ConverKit, HubSpot, ActiveCampaign, Drip y GetResponse y ahora los chicos de **Elementor** han decidido integrar su herramienta con Slack.
+## Por qué importa
 
+Un formulario no sirve de mucho si nadie lo atiende.
 
-## Slack
-Slack es una herramienta de colaboración y conversación en equipo, fundada por Stewart Butterfield.
+Muchas empresas pierden oportunidades porque los leads llegan a una bandeja poco revisada, a un email compartido caótico o a una persona que está fuera.
 
-Slack se ha convertido en una aplicación “imprescindible” para muchas empresas. Nuestro propio equipo lo utiliza para comunicarse entre sí.
+Enviar la notificación a Slack reduce esa fricción: el equipo ve el aviso donde ya está trabajando.
 
-La integración de Slack permite que el propietario del sitio sea notificado inmediatamente a través de Slack, siempre que un usuario envíe un formulario.
+## Slack como centro de trabajo
 
-## CÓMO FUNCIONA
+Slack se convirtió en una herramienta central de conversación para muchos equipos.
+
+No sustituye a una buena gestión comercial ni a un CRM, pero sí funciona muy bien como capa de alerta.
+
+Para formularios de contacto, presupuestos, soporte o solicitudes urgentes, recibir un aviso inmediato puede marcar la diferencia.
+
+## Cómo funcionaba la integración
+
 La forma de conectar Elementor y Slack es algo muy sencillo:
 
-- Lo primero es obtener la API de tu cuenta de Slack.
-- En Elementor seleccionamos el campo “Acciones después del envío” y pegamos ahí la URL de tu grupo de Slack.
-- Elige el canal al que desea enviar el mensaje.
-- Establezca el nombre de usuario que se mostrará como remitente.
-- Personaliza el texto que aparecerá antes del mensaje.
-- Establezca el título y la descripción de cada mensaje.
+- Obtener la URL o integración correspondiente de Slack.
+- En Elementor, seleccionar **Acciones después del envío**.
+- Añadir Slack como acción.
+- Elegir el canal al que se enviará el mensaje.
+- Definir el nombre del remitente.
+- Personalizar título, descripción y texto del aviso.
 
----
+Elementor ya se integraba con herramientas como Mailchimp, MailPoet, Zapier, ConvertKit, HubSpot, ActiveCampaign, Drip y GetResponse.
 
-Otra interesante implementación por parte de los chicos de **Elementor**.
+Slack añadía una capa más operativa: avisar al equipo en tiempo real.
 
-En caso de necesitar ayuda para integrar **Elementor** y **Slack** [podéis poneros en contacto conmigo](mailto:info@ajra.es).
+## Formularios y respuesta rápida
+
+Si usas WordPress, Elementor y formularios, conviene pensar qué ocurre después del envío.
+
+No basta con que el formulario funcione. Hay que definir quién responde, cuánto tarda y dónde se registra esa oportunidad.
+
+Este tipo de integración conecta bien con una idea más amplia de [CMS](/blog/cms/): una web no solo publica contenido, también debe conectar procesos de negocio.
+
+Si quieres revisar formularios, automatizaciones o integraciones entre tu web y tus herramientas de trabajo, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

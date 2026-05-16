@@ -1,25 +1,54 @@
 ---
 layout: post
-title: Google Fotos ahora soporta AirPlay
+title: "Google Fotos añadió soporte para AirPlay en iOS"
 date: 2019-04-25 10:00:00 +0300
 image: /images/128.jpg
+image_alt: "Google Fotos en iOS enviando imágenes y vídeos por AirPlay a un Apple TV"
+description: "Google Fotos para iOS añadió soporte para AirPlay, permitiendo enviar fotos y vídeos al Apple TV sin salir de la aplicación."
+resumen: "AirPlay en Google Fotos hizo más fácil mostrar imágenes en una pantalla grande desde iPhone, tanto en reuniones como en contextos familiares."
 source: AJRA-v09/_posts/2019-04-25-google-fotos-airplay.md
 ---
 
-Creo que no hace falta que os expliquemos lo que es **Google Fotos**, ni todas las cosas buenas que tiene esta app (por algo se ha convertido en una de las mas usadas en nuestros dispositivos iOS).
+Google Fotos para iOS añadió soporte para AirPlay.
 
-Parece que a alguien dentro de Google tambien le gusta esta app ya que no hay semana en la que no reciba una actualización con alguna novedad interesante.
+Eso permitía enviar fotos y vídeos directamente al Apple TV sin salir de la aplicación.
 
-Entre sus características ya teníamos:
+## Por qué era útil
 
-- Espacio ilimitado para fotos y videos.
-- Reconocimiento facial.
-- Reconocimiento de objetos (para su posterior indexación en el buscador integrado).
-- Edición de fotos y videos.
-- Creación de álbumes compartidos.
-- Autoborrado de las fotos locales que ya tienes copiadas en los servidores de Google.
-- Sincronización en multiples dispositivos.
-- Compresión de imágenes sin perdida.
-- Etc…
+Google Fotos ya era una de las apps más útiles para organizar imágenes en iOS.
 
-Y si todo esto no fuese suficiente esta semana **Google Fotos para iOS** se ha actualizado dando soporte para AirPlay, de forma que podremos enviar nuestras fotos y videos directamente al Apple TV y sin salir de la aplicación, algo que nos vendrá genial cuando estemos en una reunion con un cliente (o en una fiesta con la familia) y quieras mostrarle en la pantalla grande esas fotos del proyecto.
+Tenía copia en la nube, búsqueda, reconocimiento de objetos, álbumes compartidos, edición y sincronización entre dispositivos.
+
+Con AirPlay añadía una mejora muy práctica: enseñar contenido en pantalla grande.
+
+Esto puede servir para:
+
+- Revisar fotos con un cliente.
+- Mostrar imágenes de un proyecto.
+- Ver vídeos familiares.
+- Presentar una selección de producto.
+- Compartir un álbum sin pasar el móvil de mano en mano.
+
+## Google Fotos y el ecosistema Apple
+
+La función era interesante porque Google Fotos competía directamente con Fotos de Apple, pero al mismo tiempo se integraba con una tecnología del ecosistema Apple.
+
+Ese tipo de compatibilidad es buena para el usuario.
+
+No obliga a elegir una sola nube o una sola app para todo, aunque conviene recordar que depender de la nube requiere una estrategia de [copias de seguridad](/blog/copias-seguridad-google/).
+
+## Lo que cambió después
+
+En aquel momento Google Fotos seguía asociado a almacenamiento ilimitado.
+
+Años más tarde, Google cambió esa política, como comenté en [Google Fotos dejará de ofrecer almacenamiento ilimitado](/blog/google-photos/).
+
+Por eso este post también sirve como lectura retrospectiva: una app puede ser excelente y, aun así, cambiar sus condiciones con el tiempo.
+
+## Qué deja AirPlay en Google Fotos
+
+El soporte para AirPlay fue una mejora pequeña pero muy cómoda.
+
+Cuando una herramienta reduce pasos para enseñar, compartir o revisar contenido, se vuelve más útil en situaciones reales.
+
+Si quieres revisar cómo organizas fotos, copias de seguridad o presentaciones visuales para clientes, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

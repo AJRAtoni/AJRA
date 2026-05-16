@@ -1,85 +1,97 @@
 ---
 layout: post
-title: Usa contraseñas seguras
+title: "Usa contraseñas seguras y deja de reutilizarlas"
 date: 2019-05-27 10:00:00 +0300
 image: /images/129.jpg
+image_alt: "Pantalla de iOS con aviso de contraseñas débiles o reutilizadas"
+description: "Guía práctica para usar contraseñas más seguras: longitud, gestor de contraseñas, doble factor, contraseñas únicas y revisión de avisos en iOS."
+resumen: "La contraseña perfecta no sirve si la reutilizas en todos los servicios. Usa claves únicas, gestor de contraseñas y doble factor siempre que sea posible."
 source: AJRA-v09/_posts/2019-05-27-passwords-seguros.md
 ---
 
-Todos sabemos la importancia de utilizar contraseñas seguras en internet, es la forma de proteger y mantener segura nuestra información personal, nuestras conversaciones privadas o nuestras finanzas.
+Todos sabemos que usar contraseñas seguras es importante.
 
-Seguro que todos conocemos las normas básicas para tener una contraseña segura:
+Protegen información personal, conversaciones privadas, cuentas bancarias, herramientas de trabajo, redes sociales y servicios donde tenemos datos sensibles.
 
-## LONGITUD DE CONTRASEÑA
+El problema es que saberlo no siempre significa hacerlo bien.
 
-Utiliza contraseñas de un mínimo entre 8 y 10 caracteres.
+## Longitud antes que trucos
 
----
+Durante años se recomendó usar una mezcla de mayúsculas, minúsculas, números y símbolos.
 
-## LETRAS NÚMEROS Y CARACTERES ESPECIALES
+Sigue siendo útil, pero la longitud importa muchísimo.
 
-Una contraseña segura debe incorporar, además de las letras, un mínimo de un número y un carácter especial.
+Una contraseña larga o una frase de paso bien construida suele ser más resistente que una palabra corta llena de sustituciones previsibles.
 
-El principal objetivo es incorporar más variables a la contraseña.
+No sirve de mucho cambiar una `e` por un `3` o una `a` por un `4` si la base sigue siendo obvia.
 
-Pero ten cuidado, no uses el típico truco de cambiar una E por un 3, una I por un 1, in una A por un 4. La mayoría de programas que usan los hackers para descubrir una contraseña ya cuentan con eso.
+Los ataques modernos ya prueban patrones comunes.
 
----
+## No uses datos personales
 
-## USA MAYÚSCULAS Y MINÚSCULAS
+Una contraseña no debería tener relación clara con tu vida privada.
 
-A día de hoy la mayoría de los navegadores son “case sensitive”, diferencian entre mayúsculas y minúsculas. Recuerda que estás “hablando” con una máquina que trabaja en binario, así que una a es 0100 0001 y una A es 0110 0001.
+Muchas contraseñas no caen por una película de hackers, sino por ingeniería social y datos publicados en redes.
 
-Al igual que en el punto anterior al usar mayúsculas y minúsculas duplicamos la seguridad de nuestra contraseña.
+Si publicas fechas, nombres familiares, lugares, aficiones o rutinas, no los conviertas en contraseña.
 
----
+Quien intenta acceder a una cuenta empieza por lo fácil.
 
-## SIN RELACIÓN CON TU VIDA PRIVADA
+## Una contraseña para cada servicio
 
-Toda contraseña debería ser privada y evitar el tener relación con tu vida personal.
+Esta es la parte más importante: no reutilices contraseñas.
 
-La mayoría de las contraseñas que son robadas no son por complejos programas informáticos, son por ingeniería social y estudio de las redes sociales.
+Si usas la misma contraseña en varios servicios y uno se filtra, todas tus cuentas quedan en riesgo.
 
-Por ejemplo, imagina que acabas de ser padre, estás orgulloso y publicas en las redes sociales “Ya ha nacido la pequeña Lucia ❤️ #Familia #23Febrero”
+Por eso necesitas contraseñas únicas.
 
-Al ver eso el hacker de turno no dudará en probar combinaciones de tu contraseña como Lucia2302, 2302Lucia, Lucia23, etc…
+Y para eso necesitas un gestor de contraseñas.
 
-Así que recuerda, tu contraseña no debería tener relación con tu vida.
+Puede ser iCloud Keychain, 1Password, Bitwarden, Dashlane u otra opción fiable. Lo importante es que no intentes recordar cien contraseñas distintas.
 
----
+## No las guardes en papel ni en archivos sueltos
 
-## USA CONTRASEÑAS DIFERENTES EN LOS DIFERENTES SERVICIOS
+No sirve de mucho crear una contraseña excelente si luego la guardas en un archivo llamado `contraseñas.txt` en el escritorio.
 
-Si has seguido los pasos anteriores posiblemente tengas una contraseña segura, pero si aún así alguien consigue hacerse con ella lo importante es que no tengas la misma contraseña en todos los servicios, ya que habrías “regalado” el acceso a toda tu información.
+Tampoco conviene pegarla en un post-it junto al monitor.
 
----
+Usa un gestor de contraseñas y protege ese gestor con una clave maestra fuerte y doble factor si está disponible.
 
-## NO GUARDES TUS CONTRASEÑAS EN PAPEL O EN UN ARCHIVO DE TU ORDENADOR
+## Activa doble verificación
 
-No sirve de nada tener una contraseña súper segura, si luego la escribes en un Post-It y lo pegas al monitor de tu ordenador, o si la guardas en un archivo txt en el escritorio de tu PC con el nombre “contraseñas.txt”
+Activa la doble verificación en todos los servicios importantes.
 
----
+Mejor una app de autenticación o una llave física que depender solo de SMS, aunque cualquier segundo factor suele ser mejor que no tener ninguno.
 
-## UTILIZA LA DOBLE VERIFICACIÓN EN TODOS LOS SERVICIOS QUE LO PERMITAN
+Esto es especialmente importante en email, banca, redes sociales, servicios en la nube, tiendas online y herramientas de trabajo.
 
-La mayoría de los servicios que se toman en serio tu seguridad y privacidad ya incorporan el sistema de doble verificación.
+## Revisa los avisos de iOS
 
-Es decir que cuando introduces el usuario y contraseña se te envía un nuevo código de seguridad a tu smartphone, por lo cual ya has añadido un paso extra de seguridad.
+iOS puede avisarte de contraseñas débiles, repetidas o filtradas.
 
-Consejo: con los sistemas de doble verificación es recomendable utilizar dispositivos iOS bloqueados con sistemas biometricos como TouchID o FaceID.
+En iPhone puedes revisar:
 
----
+`Ajustes > Contraseñas`
 
-Hasta aquí el repaso de los principios básicos para tener una contraseña segura… seguro que lo has leído pensando, “que tontería, todo esto ya lo sabia”, bien, pues te propongo un ejercicio.
+Ahí verás advertencias de seguridad y enlaces para cambiar contraseñas en los servicios afectados.
 
-Coge tu dispositivo iOS y abre Ajustes — Contraseñas y cuentas — Contraseñas de webs y apps.
+Hazlo sin prisa, pero hazlo.
 
+Empieza por email, banco, Apple ID, Google, redes sociales y herramientas que uses para trabajar.
 
-Ahí podrás ver todas las contraseñas de páginas webs y Apps que están almacenadas en tu dispositivo.
+## Seguridad y hábitos
 
-Haz un poco de scroll y verás que muchas de ellas tienen un triángulo con una exclamación, eso quiere decir que esas contraseñas tiene algún problema de seguridad, ya sea porque son demasiado “débiles” o porque estén repetidas en diferentes servicios.
+La seguridad digital no depende de una contraseña perfecta.
 
+Depende de hábitos:
 
-Y todavía mejor iOS nos ofrece un enlace directo para cambiar la contraseña en la web en cuestión.
+- Contraseñas únicas.
+- Gestor fiable.
+- Doble factor.
+- Dispositivos actualizados.
+- Cuidado con enlaces sospechosos.
+- Menos información personal expuesta sin necesidad.
 
-***Así que ya tienes un trabajo pendiente, actualiza tus contraseñas y protege tu vida digital.***
+Esto conecta con otros problemas de privacidad que he comentado en el blog, como [Facebook Research](/blog/facebook-espia/) o [Cambridge Analytica](/blog/facebook-filtrados/).
+
+Si quieres revisar la seguridad básica de tus cuentas, contraseñas o herramientas digitales, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
