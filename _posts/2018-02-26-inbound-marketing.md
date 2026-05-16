@@ -1,58 +1,86 @@
 ---
 layout: post
-title: El Inbound Marketing
+title: "Inbound marketing: atraer clientes sin perseguirlos"
 date: 2018-02-26 10:00:00 +0300
 image: /images/91.jpg
+image_alt: "Embudo de inbound marketing con contenido, captación, conversión y fidelización"
+description: "El inbound marketing consiste en atraer clientes con contenido útil, entender a la audiencia, captar leads, convertirlos y mantener una relación a largo plazo."
+resumen: "El inbound marketing funciona cuando el contenido no es decoración: debe estar conectado con SEO, buyer persona, conversión, análisis y fidelización."
 source: AJRA-v09/_posts/2018-02-26-inbound-marketing.md
 ---
 
-El inbound marketing sigue siendo una de las grandes tendencias del Marketing Digital.
+El inbound marketing sigue siendo una de las ideas más útiles del marketing digital: atraer clientes con contenido y valor, no perseguirlos con interrupciones constantes.
 
-## ¿QUE ES EL INBOUND MARKETING?
-El marketing tradicional se basaba en técnicas intrusivas, básicamente en lanzarle anuncios a los usuarios con la esperanza de que alguno acabase comprando nuestro producto.
+No significa que la publicidad no sirva. Significa que una marca no puede depender solo de impactos pagados si quiere construir confianza, autoridad y relación.
 
-En cambio el inbound marketing es una técnica basada en atraer potenciales clientes (Leads) mediante la creación y distribución de contenido de interés.
+## Qué es el inbound marketing
 
-## ¿COMO FUNCIONA EL INBOUND MARKETING?
-Lo principal en una estrategia de inbound marketing es el contenido.
+El marketing tradicional se ha apoyado durante años en técnicas más intrusivas: lanzar anuncios, comprar espacios y esperar que parte de la audiencia termine comprando.
 
-Para que nuestra estrategia de inbound marketing funcione tenemos que prestar atención a estos puntos:
+El inbound marketing cambia el enfoque: crea contenido útil para atraer a personas que ya tienen una necesidad, una duda o un problema relacionado con lo que ofreces.
 
-## BUYER PERSONA
-Una buyer persona es una representación de nuestro potencial cliente, construida a partir de su información demográfica, comportamiento, necesidades y motivaciones.
+Ese contenido puede vivir en un blog, una newsletter, una guía, un vídeo, una landing page, una comparativa, un caso práctico o incluso una herramienta sencilla.
 
-El objetivo de construir un perfil de buyer persona es conocer y tener claro a quién estamos dirigiéndonos.
+La clave es que cada pieza tenga una función dentro del camino del cliente.
 
-## MARKETING DE CONTENIDOS
-Una vez que tenemos claro a quién estamos dirigiéndonos hay que crear un contenido de interés para ese público.
+## Buyer persona
 
-Un contenido que aporte valor y demuestre que nuestra marca es conocedora del tema que tratemos.
-En este punto es importante prestarle mucha atención al SEO.
+Antes de crear contenido hay que saber para quién estamos escribiendo.
 
-## DIFUSIÓN
-Cuando tengamos el contenido listo hay que difundirlo por diferentes canales: Web, blog, redes sociales, YouTube, etc…
+Una buyer persona es una representación de tu cliente potencial construida a partir de datos, comportamiento, necesidades, objeciones y motivaciones.
 
-No todos los casos son iguales, por eso para averiguar cuáles son los mejores canales en cada caso nos fijaremos en nuestro buyer persona, de este modo sabremos si es mejor usar Twitter, Facebook o Snapchat.
+No es un personaje inventado para rellenar una plantilla. Es una herramienta para tomar mejores decisiones:
 
-## CAPTACIÓN
-Una vez que conseguimos que los usuarios lleguen a nuestra web es el momento de captar su atención y conducirlos poco a poco hasta que cumplan nuestro objetivo, ya sea una venta, suscripción o o que nos hayamos planteado con antelación.
+- Qué problemas tratar.
+- Qué lenguaje usar.
+- Qué objeciones resolver.
+- Qué canales priorizar.
+- Qué tipo de conversión tiene sentido pedir.
 
-Para eso debemos tener una página web con una buena landing page, con unos CTA’s bien claros y un buen copywriting.
+## Contenido y SEO
 
-## FIDELIZACIÓN
-Si ya hemos conseguido atraer a los clientes gracias a nuestro contenido y lo hemos acompañado a lo largo de nuestra web hasta conseguir que “compren” lo que nosotros queremos, lo que no podemos hacer es darle una patada en el culo y olvidarnos de nuestro cliente.
+Una vez que sabes a quién te diriges, toca crear contenido que aporte valor.
 
-Ese es el momento de fidelizar a nuestro cliente, siempre se le puede enviar un mail consultando qué tal a sido su proceso de compra, si el producto recibido ha sido de su agrado, si estaría dispuesto a recomendar el producto a algún amigo, si desea seguir recibiendo más información y ofertas sobre productos similares… hay mil formas de mantener la relación con el cliente y hacerlo sentir importante.
+Aquí el SEO importa mucho. Si publicas contenido útil pero Google no lo entiende, rastrea mal tu web o encuentra problemas básicos, estás perdiendo oportunidades.
 
-Por ejemplo si el usuario ha comprado un teléfono móvil es un buen momento para enviarle alguna oferta sobre fundas o cargadores.
+Por eso conviene revisar errores como los que expliqué en [10 errores SEO que debemos evitar](/blog/errores-seo/): títulos, estructura, enlaces rotos, velocidad, contenido duplicado, imágenes y experiencia móvil.
 
-## ANÁLISIS
-Otro punto importantísimo en toda campaña de Marketing Digital es el análisis.
+El buen contenido no se escribe solo para posicionar. Se escribe para ayudar, demostrar criterio y acercar al usuario al siguiente paso.
 
-De nada nos sirve atraer leads a nuestra web si luego no analizamos, su respuesta a nuestras campañas.
+## Difusión
 
-Siempre tenemos que prestar atención al número de conversiones, el porcentaje de rebotes, o el tiempo que pasan los usuarios dentro de nuestra web (entre otros muchos datos) pero eso ya entra dentro de otro artículo sobre analítica web que publicaremos en breve.
+Cuando el contenido está listo hay que distribuirlo.
 
-En resumen el inbound marketing consiste en atraer a clientes a nuestra web mediante contenido de interés, para luego acompañarlo y guiarlo en el proceso de conversión y fidelizacion.
+Puede ser en la web, blog, redes sociales, YouTube, email, comunidades, campañas de pago o colaboraciones.
 
-Os seguiré hablando de algunas técnicas de inbound marketing, pero si tienes alguna duda o pregunta al respecto [puedes contactar conmigo](https://ajra.typeform.com/to/OIDPUV) y te intentare ayudar.
+No todos los canales sirven para todos los negocios. Si tu buyer persona está en LinkedIn, no tiene sentido obsesionarse con Snapchat. Si busca activamente una solución en Google, quizá el SEO y el SEM deban pesar más.
+
+La distribución no es un añadido final. Forma parte de la estrategia desde el principio.
+
+## Captación y conversión
+
+Cuando el usuario llega a tu web, necesitas conducirlo hacia un objetivo claro: suscripción, solicitud de información, compra, descarga, reserva o contacto.
+
+Ahí entran las landing pages, los CTA, el copywriting y la claridad de la oferta.
+
+Una [landing page](/blog/landing-page/) no debería intentar explicarlo todo. Debe reducir ruido y facilitar una acción concreta.
+
+## Fidelización
+
+El inbound no termina cuando alguien compra o deja sus datos.
+
+Después llega la relación: seguimiento, soporte, contenido posterior, emails útiles, recomendaciones y nuevas oportunidades.
+
+Si un usuario compra un teléfono, quizá tenga sentido ofrecerle una funda, un cargador o una guía de configuración. Si contrata un servicio, quizá necesite onboarding y documentación clara.
+
+Fidelizar no es insistir más. Es seguir aportando valor cuando la venta ya se ha producido.
+
+## Análisis
+
+Sin análisis, el inbound se convierte en publicar por intuición.
+
+Hay que medir conversiones, rebote, tiempo en página, clics, formularios, origen del tráfico, coste por lead y retorno. Para esto conviene tener clara la lógica del [ROI](/blog/roi/) y no quedarse solo en métricas bonitas.
+
+El inbound marketing consiste en atraer a clientes mediante contenido de interés, acompañarlos en su proceso de decisión y mantener una relación útil después.
+
+Si quieres revisar tu estrategia de contenidos, captación o conversión, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

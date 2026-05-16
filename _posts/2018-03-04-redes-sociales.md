@@ -1,80 +1,98 @@
 ---
 layout: post
-title: Redes Sociales para tu negocio
+title: "Redes sociales para tu negocio: voz, contenido, timing y conversación"
 date: 2018-03-04 10:00:00 +0300
 image: /images/95.jpg
+image_alt: "Plan de redes sociales para un negocio con calendario, contenido y conversación"
+description: "Gestionar redes sociales para un negocio requiere estrategia: definir voz, contenido, calendario, conversación y objetivos medibles."
+resumen: "Las redes sociales no funcionan por publicar al azar. Necesitan una voz clara, contenido útil, buen timing y conversación real con la comunidad."
 source: AJRA-v09/_posts/2018-03-04-redes-sociales.md
 ---
 
-Usar las redes sociales para promocionar tu negocio parece algo simple y sencillo.
+Usar redes sociales para promocionar un negocio parece sencillo.
 
-Lanzas un par de posts y listo, a esperar que tus clientes lleguen y comiencen a comprarte como locos.
+Publicas un par de posts, esperas unos likes y confías en que lleguen clientes.
 
-Pero en realidad eso no funciona así.
-Cada uno de tus posts debe formar parte de una estrategia clara y bien definida.
+Pero no funciona así.
 
-Gestionar bien las redes sociales es como montar una fiesta.
-Tu trabajo es que la gente se sienta cómoda, que se diviertan y lo pasen bien.
+Cada publicación debería formar parte de una estrategia clara: a quién hablas, qué quieres aportar, qué canal estás usando, qué acción esperas y cómo vas a medir si ha funcionado.
 
-Pero para ello tienes que tener un plan solido, una mente abierta y prestar toda tu atención a las necesidades y preferencia de tus invitados.
-Lo mismo ocurre con las cuentas en redes sociales.
+## Redes sociales no es solo publicar
 
-Para que todo funcione debidamente en las redes sociales, debes prestar atención a 4 cosas: la voz, el contenido, el timing y la conversación.
+Gestionar bien redes sociales se parece a organizar una conversación continua con tu comunidad.
 
-Vamos a ver de que se trata cada una:
+No basta con aparecer. Hay que escuchar, responder, aportar y mantener coherencia.
 
-# La voz
-Tienes que crear una forma de hablar con tus clientes.
-Debes definir si vas a hablarles de tu, de usted, como si fueses una persona o una compañía, etc…
+Para que funcione, conviene prestar atención a cuatro elementos: voz, contenido, timing y conversación.
 
-Para eso lo primero que debes hacer es conocer perfectamente a tus clientes.
+## La voz
 
-¿Cuales son sus intereses? ¿Dónde viven? ¿A qué se dedican? ¿Qué lugares visitan?
+La voz define cómo habla tu marca.
 
-En definitiva debes crear un Buyer Persona.
+No es lo mismo una asesoría fiscal que una tienda de zapatillas, una startup B2B que un restaurante de barrio.
+
+Antes de decidir si vas a hablar de tú, de usted, con humor, con tono técnico o con un estilo más cercano, necesitas entender a tus clientes.
+
+Qué les interesa, qué dudas tienen, qué lenguaje usan, dónde buscan información y qué esperan de ti.
+
+En definitiva, necesitas construir una buyer persona útil, igual que ocurre en una estrategia de [inbound marketing](/blog/inbound-marketing/).
 
 ## El contenido
-El contenido es el punto más importante (ya sea en tu blog o en redes sociales).
 
-El contenido que compartas en redes sociales debe mantener un estilo homogéneo que represente la imagen y principios de tu compañía.
+El contenido es el centro de cualquier estrategia social.
 
-Es importante tener en cuenta que no debes usar las redes sociales solo para venderte a ti o a tu producto.
+Debe mantener un estilo coherente con la marca y con el canal.
 
-Debes usarlas para contar tu historia, conectar con tu comunidad y para mostrar como es tu compañía o productos.
+Eso no significa publicar siempre lo mismo. Significa que todo debería responder a una intención reconocible:
 
-Una buena idea es mostrar a tu comunidad el “detrás de las cámaras”, compartir noticias del día a día de tu compañía, mostrar eventos, publicar tutoriales sobre tus productos, etc…
+- Educar.
+- Inspirar.
+- Resolver dudas.
+- Mostrar producto.
+- Enseñar procesos.
+- Contar historias reales.
+- Generar confianza.
 
-Otra buena idea es pedirle a tus clientes que opinen y compartan la experiencia de usar tus productos.
+No uses las redes solo para vender. Úsalas para contar tu historia, mostrar cómo trabajas, compartir aprendizajes y dar motivos para que alguien se quede cerca de tu marca.
 
-Todo esto ayudará a crear una comunidad más unida y participativa.
+También puedes pedir opinión a tus clientes, compartir experiencias de uso o activar dinámicas sencillas como encuestas. Las [encuestas en Instagram Stories](/blog/instagram-encuestas/) son un buen ejemplo de feedback rápido cuando se usan con criterio.
 
 ## El timing
-Hay que usar las redes sociales para llegar a nuestro público y generarles interese sobre tus productos o servicios, pero sin cruzar la línea y acabar siendo pesado.
-Por eso es tan importante el timing.
 
-Lo primero que tienes que hacer es definir el número de posts que vas a publicar diariamente.
-Eso variará dependiendo de cada caso y del público.
+Publicar demasiado puede cansar. Publicar demasiado poco puede hacer que parezca que la marca está abandonada.
 
-Una vez que tengas el timing claro deberías plasmarlo en un calendario de publicación.
+El timing depende de tu audiencia, canal, capacidad de producción y objetivo.
 
-Pero cuidado, es malo saturar a tu público, pero es igual de malo quedarse en silencio y dar la imagen de que tu compañía no tiene nada que decir.
+No hay una frecuencia universal. Por eso conviene revisar datos y no fiarse de recetas. Ya lo comenté al hablar de [la mejor hora para publicar en redes sociales](/blog/mejor-hora-publicar/).
+
+Una vez tengas una frecuencia razonable, llévala a un calendario editorial.
+
+El calendario no está para encorsetar. Está para evitar improvisar siempre a última hora.
 
 ## La conversación
-Por ultimo, recuerda que la conversación no se reduce exclusivamente a ti.
-Trata de conocer a tu publico, ellos son tu focus group.
-Haz preguntas.
-Inicia diálogos.
-Responde.
 
-## SOCIALIZA!
-Puedes presionar un poco las cosas de vez en cuando con una **llamada a la acción**.
-Por ejemplo puedes pedirle a tu público que haga algo, puedes pedirles que te envíen fotos usando cierto hashtag, que comparta fotos utilizando tu productos o que contesten una encuesta.
+Las redes sociales no son un escaparate unidireccional.
 
-Esta bien la idea de impulsar ventas en redes sociales, pero no te olvides de entretener a tu cliente, y aportarles algo de valor e interés.
+Tu comunidad puede hacer preguntas, quejarse, recomendarte, darte ideas o ayudarte a detectar problemas.
 
-Lo mejor de las redes sociales es que te permiten llegar a cualquiera, puedes interactuar con el vecino de abajo, la cajera del supermercado, el director del banco o la celebridad de turno, todos están al alcance de un post.
+Haz preguntas. Responde. Agradece. Reconoce errores. Participa con naturalidad.
 
-Habla con ellos, interactuar, pero no te olvides que de la misma forma todos pueden contactar contigo, así que debes estar atento y contestar a todos.
+Si alguien dedica tiempo a escribirte, lo peor que puedes hacer es tratarlo como ruido.
 
-Espero que este post te sirva para iniciar la andadura de tu compañía en redes sociales y recuerda que si necesitas consejo [puedes contactar conmigo](https://ajra.typeform.com/to/OIDPUV)*‌* e intentare ayudarte.
+## Socializa con intención
 
+Puedes usar llamadas a la acción: pedir una opinión, invitar a compartir una foto, responder una encuesta, guardar una publicación o visitar una landing.
+
+Pero cada CTA debe tener sentido. No pidas interacción por pedirla.
+
+También puedes combinar contenido orgánico con campañas pagadas, especialmente si necesitas alcance o segmentación. En ese caso, conviene medir bien y revisar métricas como las de [Facebook Ads](/blog/metricas-facebook-ads/).
+
+## Qué debería quedar claro
+
+Las redes sociales permiten llegar a casi cualquiera, pero eso no significa que cualquier publicación sirva.
+
+Habla con personas reales, no con una masa abstracta de seguidores.
+
+Una estrategia social sencilla pero bien pensada puede hacer más por tu marca que publicar sin rumbo todos los días.
+
+Si quieres revisar tus redes sociales, tu calendario de contenidos o la forma en la que tu negocio conversa con su comunidad, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

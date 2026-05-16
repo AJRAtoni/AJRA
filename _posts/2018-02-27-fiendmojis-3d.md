@@ -1,26 +1,54 @@
 ---
 layout: post
-title: Los nuevos Friendmojis
+title: "Friendmojis 3D: Snapchat seguía apostando por identidad y realidad aumentada"
 date: 2018-02-27 10:00:00 +0300
 image: /images/logo-snapchat.jpg
+image_alt: "Logotipo de Snapchat en una noticia sobre Friendmojis 3D y realidad aumentada"
+description: "Snapchat añadió Friendmojis 3D, una función para colocar Bitmojis propios y de amigos en escenas de realidad aumentada."
+resumen: "Friendmojis 3D mostraba una de las fortalezas de Snapchat: usar identidad, cámara y realidad aumentada para diferenciarse de Instagram y Facebook."
 source: AJRA-v09/_posts/2018-02-27-fiendmojis-3d.md
 ---
 
-Si hay una compañía tecnológica que me tiene fascinado a día de hoy, esa es **Snap Inc**.
+Snapchat añadió Friendmojis 3D, una función que permitía usar versiones virtuales de nosotros y de nuestros amigos dentro de escenas de realidad aumentada.
 
-Con **Evan Spiegel** a la cabeza descubrieron un mercado que ninguno había visto antes, una red social de imágenes efímeras que desaparecen con el paso del tiempo, así nació **Snapchat**.
+La novedad encajaba perfectamente con la identidad de Snap: cámara, avatar, expresión personal y formatos visuales difíciles de copiar sin perder algo por el camino.
 
-La idea gustó tanto que hasta **Mark Zuckerberg** se interesó e intento comprar **Snapchat**, a lo que **Evan Spiegel** se negó.
-Aún así **Facebook** acabó copiando esa características en toda y cada una de sus plataformas (Facebook, Messenger, Instagram, WhatsApp).
+## Snap y la identidad visual
 
-Aún así **Snapchat** no se ha rendido y ha ido incorporando novedades para diferenciar su aplicación del resto.
+Snap Inc. siempre me ha parecido una compañía interesante porque entendió antes que otros que la cámara podía ser una interfaz social, no solo una herramienta para hacer fotos.
 
-Comenzaron con la compra de Bitstrips y su famosa aplicación **Bitmoji** por tan solo $100 millones, luego introdujeron los filtros y ahora están apostando por la realidad aumentada.
+Snapchat nació alrededor de imágenes efímeras, mensajes que desaparecían y una forma de comunicación mucho más visual que textual.
 
-**Snapchat** está incorporando hoy una nueva funcionalidad que nos permite usar una versión virtual de nosotros mismo (nuestro Bitmoji en AR) y visitar a los **Bitmojis** de nuestros amigos.
+La idea fue tan potente que Facebook la replicó en Instagram, Messenger, Facebook y WhatsApp. Ya lo vimos con [Stories](/blog/stories-facebook/) y con la presión competitiva sobre [Snap Inc.](/blog/snap/).
 
-Para hacer uso de esta nueva funcionalidad hay que crear una escena, debemos abrir un chat con algún amigo, presionar el botón “capturar”, luego enfocamos a nuestro alrededor para elegir la lente **Friendmoji** y colocar nuestros **Bitmojis** donde queramos.
+Frente a esa copia, Snap tenía que seguir diferenciándose.
 
-Hay que destacar que solo podemos añadir a nuestro amigo a la diferencia escena si este ha creado antes un **Bitmoji** y lo ha vinculado a la app.
+## De Bitmoji a Friendmoji
 
-Los nuevos **Friendmojis 3D** están disponibles en la aplicación principal de **Snapchat** en Android e iOS desde hoy mismo.
+Una de las jugadas más inteligentes de Snap fue comprar Bitstrips, la empresa detrás de Bitmoji.
+
+Bitmoji permitía crear un avatar personal y usarlo en conversaciones, stickers y escenas. Con Friendmojis 3D, Snapchat daba un paso más: no solo aparecía tu avatar, también podías compartir escena con el avatar de un amigo.
+
+Para usarlo había que abrir un chat, pulsar el botón de captura, enfocar el entorno y elegir la lente Friendmoji.
+
+El requisito era que la otra persona también hubiera creado su Bitmoji y lo tuviera vinculado a Snapchat.
+
+## Realidad aumentada como lenguaje social
+
+Lo interesante no era solo la función concreta.
+
+Lo interesante era la dirección: Snapchat quería que la realidad aumentada fuera parte natural de la conversación.
+
+No como demo técnica, sino como algo cotidiano y divertido.
+
+Los filtros, lentes, Bitmojis y Friendmojis apuntaban a la misma idea: mezclar cámara, identidad y contexto en tiempo real.
+
+## Lectura retrospectiva
+
+Friendmojis 3D no cambió por sí solo el destino de Snapchat, pero sí mostró una línea de producto coherente.
+
+Mientras otras plataformas copiaban Stories, Snap seguía explorando el espacio entre cámara, avatar y AR.
+
+En una red social, diferenciarse no consiste solo en añadir funciones. Consiste en construir un lenguaje propio que los usuarios reconozcan.
+
+Si quieres pensar cómo diferenciar una marca o producto digital sin limitarte a copiar lo que hace la competencia, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
