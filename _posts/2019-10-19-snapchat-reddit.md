@@ -1,21 +1,36 @@
 ---
 layout: post
-title: Snapchat se alia con Reddit
+title: "Snapchat se alió con Reddit para compartir publicaciones en Stories"
 date: 2019-10-18 10:00:00 +0300
 image: /images/171.png
+image_alt: "Integración para compartir publicaciones de Reddit en Snapchat Stories"
+description: "Snapchat y Reddit permitieron compartir publicaciones de Reddit directamente en Stories, una integración pensada para ganar contenido y atraer públicos jóvenes."
+resumen: "La alianza entre Snapchat y Reddit mostró cómo las plataformas sociales buscan distribución cruzada: más contenido para unas, más tráfico para otras."
 source: AJRA-v09/_posts/2019-10-19-snapchat-reddit.md
 ---
 
-Parece que poco a poco **Snapchat** esta consiguiendo recuperarse de los ataques de **Facebook**.
+Snapchat seguía intentando recuperar terreno después de años de presión competitiva por parte de Facebook, Instagram y sus clones de Stories.
 
-Y para acabar de reinventarse **Snapchat** ha decidido aliarse con el agregado de noticias **Reddit**.
+En ese contexto, la app se alió con **Reddit** para permitir que los usuarios de iOS compartieran publicaciones de Reddit directamente en sus historias de Snapchat.
 
-Con la **alianza de Snapchat con Reddit**, los usuarios de iOS podrán compartir el contenido de **Reddit** en las historias de **Snapchat**.
+## Qué ganaba cada plataforma
 
-No me queda muy claro quién sale ganando con este acuerdo.
-Por un lado Reddit se acerca así a un sector de publico más joven.
-Y por otro lado Snapchat conseguirá que sus usuario publiquen más historias.
+La integración era sencilla: si tenías ambas apps instaladas, al compartir una publicación de Reddit aparecía Snapchat como destino.
 
-El funcionamiento es sencillo, si tienes ambas aplicaciones instaladas en tu dispositivo con iOS, cuando intenten compartir una publicación de **Reddit** verán una nueva opción de compartir con el logo de **Snapchat**.
+El contenido se publicaba en Stories y quienes lo vieran podían deslizar para abrir la publicación original en la app de Reddit.
 
-Los usuarios que **Snapchat** que vean una historia de **Reddit** compartida tendrán la posibilidad de deslizar hacia arriba para visitar la publicación de origen de origen desde la app nativa de **Reddit**.
+Reddit ganaba exposición ante un público más joven y más acostumbrado al formato Stories.
+
+Snapchat ganaba más contenido para sus historias, justo en un momento en el que necesitaba mantener actividad y relevancia.
+
+## La lectura estratégica
+
+La alianza no era enorme, pero sí interesante.
+
+Snapchat siempre entendió muy bien la comunicación visual, como comenté en el post sobre [qué fue Snapchat](/blog/snapchat/) y en el contexto de [Snap Inc.](/blog/snap/). Reddit, en cambio, siempre ha sido más fuerte en comunidades, conversación y enlaces.
+
+Juntar ambos mundos tenía sentido: contenido que nace en comunidades y se distribuye en un formato social más visual.
+
+También encaja con la historia de las Stories, un formato que acabó extendiéndose a casi todas las plataformas, incluido [Facebook Stories](/blog/stories-facebook/).
+
+Si quieres revisar qué canales sociales tienen sentido para distribuir contenido sin depender de una sola plataforma, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
