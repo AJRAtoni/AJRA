@@ -1,25 +1,52 @@
 ---
 layout: post
-title: SQUARESPACE TIPS 004 — Cambiar el punto focal de una imagen
+title: "Squarespace Tips 004: cambiar el punto focal de una imagen"
 date: 2019-06-01 10:00:00 +0300
 image: /images/135.jpg
+image_alt: "Configuración de punto focal en una imagen dentro de Squarespace"
+description: "Cómo cambiar el punto focal de una imagen en Squarespace para controlar qué zona se mantiene visible cuando se recorta."
+resumen: "El punto focal de Squarespace ayuda a evitar recortes incómodos en imágenes cuando una web se adapta a escritorio, móvil y tablet."
 source: AJRA-v09/_posts/2019-06-01-squarespace-tips-4.md
 ---
 
-Seguro que en alguna ocasión has subido una imagen a tu pagina web y ha aparecido recortada de forma extraña.
+Seguro que alguna vez has subido una imagen a tu web y ha aparecido recortada de forma extraña.
 
-O se veía bien en la vista de escritorio pero aparecía recortada en la vista de smartphone o tablet.
+Quizá se veía bien en escritorio, pero en móvil cortaba justo la parte importante.
 
-Squarespace esta preparado para estas cosas y te permite cambiar el punto focal de una imagen recortada para que se muestre la parte mas importante de la imagen.
+Squarespace permite ajustar el punto focal para indicar qué zona de la imagen debe mantenerse visible cuando el diseño recorta o adapta la fotografía.
 
-Se puede personalizar el punto focal en casi todos los bloques que incorporen imágenes, como:
+## Qué es el punto focal
 
-## Como establecer el punto focal de una imagen en Squarespace
+El punto focal es una referencia visual.
 
-El funcionamiento es muy sencillo, al añadir un bloque de image en nuestra web, veremos que aparece un pequeño circulo en el centro de la imagen, eso es el punto focal.
+Squarespace usa ese punto para decidir cómo centrar una imagen cuando tiene que recortarla en distintos formatos.
 
+Es especialmente útil en diseños responsive, donde la misma imagen puede mostrarse en proporciones distintas según el dispositivo.
 
-Basta con hacer click sobre el y arrastrarlo hasta la zona que nos interesa que se muestre en caso de recorte.
+## Cómo establecer el punto focal
 
+Al añadir un bloque de imagen en [Squarespace](/blog/squarespace/), verás un pequeño círculo sobre la imagen.
 
-Y listo, la imagen se centrará alrededor de donde se coloca este punto.
+Ese círculo es el punto focal.
+
+Solo tienes que hacer clic sobre él y arrastrarlo hacia la zona que te interesa conservar en caso de recorte.
+
+Por ejemplo:
+
+- Un rostro.
+- Un producto.
+- Un logotipo.
+- Un detalle importante.
+- El centro visual de una escena.
+
+Después guardas los cambios y revisas la imagen en escritorio y móvil.
+
+## Por qué conviene usarlo
+
+El punto focal no sustituye a una buena elección de imagen, pero evita muchos recortes incómodos.
+
+También ayuda a mantener una web más cuidada visualmente sin tener que subir versiones distintas de la misma imagen para cada dispositivo.
+
+Si trabajas mucho con imágenes, conviene combinar este ajuste con buenas prácticas de [optimización de imágenes](/blog/optimizar-imagenes/) y [atributo ALT](/blog/Atributo-ALT/).
+
+Si quieres revisar imágenes, diseño responsive o pequeños ajustes visuales de tu web en Squarespace, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

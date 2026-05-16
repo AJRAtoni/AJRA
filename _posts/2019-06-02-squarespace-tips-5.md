@@ -1,41 +1,68 @@
 ---
 layout: post
-title: SQUARESPACE TIPS 005 — Configurar Google Analytics en Squarespace
+title: "Squarespace Tips 005: configurar Google Analytics"
 date: 2019-06-02 10:00:00 +0300
 image: /images/logo-squarespace.jpg
+image_alt: "Configuración de Google Analytics dentro de Squarespace"
+description: "Cómo conectar Google Analytics con Squarespace para medir visitas, comportamiento y resultados de una web."
+resumen: "Squarespace incluye analíticas propias, pero conectar Google Analytics permite comparar datos y tomar mejores decisiones de contenido, SEO y negocio."
 source: AJRA-v09/_posts/2019-06-02-squarespace-tips-5.md
 ---
 
-Squarespace ofrece unas analíticas propias y bastante completas.
+Squarespace ofrece analíticas propias bastante útiles, pero muchos proyectos también necesitan Google Analytics.
 
-Pero seguro que muchos de vosotros preferís usar Google Analytics, y estas de suerte porque Squarespace ofrece una forma de sincronización muy sencilla con Analytics.
+Conectar ambas herramientas permite comparar datos, entender mejor el comportamiento de los usuarios y tomar decisiones con más contexto.
 
-## Cómo encontrar tu código de seguimiento
+## Encontrar el código de seguimiento
 
-Antes de hacer nada en Squarespace hay que ir a Google Analytics y encontrar nuestro ID de seguimiento.
+En 2019, el flujo habitual era localizar el ID de seguimiento de Google Analytics.
 
-Para eso hay que ir a **Google Analytics**, abrir la pestaña de Admin y en la columna central seleccionamos **Información de seguimiento > Código de seguimiento**, ahi aparece nuestro código de seguimiento y lo podemos copiar.
+Para ello había que entrar en Google Analytics, abrir **Admin** y buscar:
 
+`Información de seguimiento > Código de seguimiento`
 
-Ahora que hemos copiado nuestro código de seguimiento podemos volver a Squarespace.
+Ahí aparecía el código que se copiaba para conectarlo con la web.
 
-Recuerda que basta con poner nuestra url y apretar la tecla ESC para hacer login en Squarespace.
+Hoy conviene revisar el flujo exacto según la versión de Analytics que uses, especialmente si trabajas con GA4.
 
-Una vez en el backend de nuestro Squarespace debemos ir a **Configuración > Avanzado > Claves de API externas** y simplemente pegamos nuestro numero de cuenta de Google Analytics y ya estará todo listo.
+## Conectarlo en Squarespace
 
+Una vez copiado el identificador correspondiente, entramos en el panel de Squarespace.
 
-## Un par de cosas a tener en cuenta
+Si tienes activado el acceso rápido, recuerda que puedes usar el [login con la tecla ESC](/blog/squarespace-tip-1/).
 
-Los datos que muestre Google Analytics pueden no coincidir con las métricas de Squarespace, esto puede deberse a varios motivos:
+Después vamos a:
 
-1. Google Analytics cuenta la actividad de los administradores del sitio y de los usuarios que han iniciado sesionando.
+`Configuración > Avanzado > Claves de API externas`
 
-Squarespace utiliza diferentes medidas para filtrar el trafico no humano como los rastreadores y robots.
+Pegamos el identificador de Google Analytics y guardamos.
 
-2. Cuando actives Google Analytics pasaran uno o dos días antes de que Analytics muestre tus datos correctamente. Se paciente, vale la pena la espera.
+## Cosas a tener en cuenta
 
----
+Los datos de Google Analytics pueden no coincidir exactamente con las métricas de Squarespace.
 
-Como veis es muy sencillo sincronizar Google Analytics con Squarespace, y es algo que te proporciona una gran cantidad de información sobre los usuarios que visitan tu pagina web, lo que te ayudara a tomar decisiones en lo referente a tu blog o negocio.
+Esto puede ocurrir por varios motivos:
 
-***¿Y tú que métricas utilizas, las de Squarespace o las de Google Analytics?***
+1. Google Analytics y Squarespace pueden filtrar tráfico de forma distinta.
+2. Algunas visitas pueden bloquear scripts de analítica.
+3. Los administradores pueden aparecer o no según configuración.
+4. Los datos pueden tardar en reflejarse correctamente.
+
+No hay que obsesionarse con que ambos paneles den exactamente el mismo número.
+
+Lo importante es que la medición sea consistente para tomar decisiones.
+
+## Medir para decidir
+
+Conectar Analytics te ayuda a entender:
+
+- Qué páginas reciben más tráfico.
+- Desde dónde llegan los usuarios.
+- Qué contenidos retienen mejor.
+- Qué formularios o compras convierten.
+- Qué campañas funcionan.
+- Qué problemas de SEO o velocidad pueden estar afectando.
+
+Medir no sirve de nada si no se convierte en decisiones.
+
+Si quieres revisar analítica, eventos, SEO o medición de conversiones en Squarespace, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
