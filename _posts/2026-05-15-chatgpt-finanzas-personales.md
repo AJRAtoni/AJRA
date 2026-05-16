@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "ChatGPT también quiere ayudarte con tus finanzas personales"
 date: 2026-05-15 15:05:00 -0400
 description: "OpenAI empieza a probar una experiencia de finanzas personales dentro de ChatGPT. Interesante, útil y con varias preguntas importantes sobre privacidad."
 image: "/images/openai-personal-finance-chatgpt.webp"
 image_alt: "Pantallas de ChatGPT conectando cuentas financieras"
+resumen: "La preview de finanzas personales en ChatGPT muestra hacia dónde van los asistentes con datos reales: más utilidad, más contexto y más responsabilidad."
 categories: [ia, productividad, finanzas]
 source: "https://openai.com/index/personal-finance-chatgpt/"
 ---
@@ -114,7 +116,7 @@ No debería pensar por ti.
 
 ## Mi lectura
 
-A mí esta noticia me parece muy interesante porque encaja con una tendencia clara: los asistentes de IA van a dejar de ser una caja de texto genérica y van a empezar a conectarse con nuestros datos reales.
+A mí esta noticia me parece muy interesante porque encaja con una tendencia clara: los asistentes de IA van a dejar de ser una caja de texto genérica y van a empezar a conectarse con nuestros datos reales. Es la misma evolución que se ve cuando un [LLM](/blog/que-es-como-funciona-y-para-que-sirve-un-llm/) deja de responder en abstracto y empieza a trabajar con contexto, herramientas y límites.
 
 Calendario.
 Email.
@@ -140,3 +142,5 @@ En mi caso, que ya utilizo herramientas para revisar mis finanzas, esta noticia 
 
 Me gusta la idea de poder hablar con mis datos financieros.
 No me gusta tanto la idea de que todo eso viva necesariamente en una plataforma cerrada.
+
+Si quieres evaluar herramientas de IA para finanzas, productividad o automatización con una mirada práctica y prudente, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
