@@ -1,46 +1,50 @@
 ---
 layout: post
-title: Apple - Time for a recap
+title: "Apple Time Flies: resumen de Apple Watch, iPad y servicios"
 date: 2020-09-17 10:00:00 +0300
 image: /images/logo-apple.jpg
+image_alt: "Resumen del Apple Event Time Flies de septiembre de 2020"
+description: "Resumen del evento Time Flies de Apple: Apple Watch Series 6, Apple Watch SE, iPad, iPad Air, Apple Fitness+ y Apple One."
+resumen: "Time Flies fue una keynote sin iPhone, centrada en Apple Watch, iPad y servicios como Fitness+ y Apple One."
 source: AJRA-v09/_posts/2020-09-17-apple-event-timeforrecap.md
 ---
 
-Ya ha pasado la Keynote de Apple y seguro que ya habéis visto todas las novedades que se presentaron.
+Apple celebró la keynote **Time Flies** y confirmó que el evento iba por Apple Watch, iPad y servicios.
 
 <figure>
-<img src="/images/212.webp" alt="" />
+<img src="/images/212.webp" alt="Imagen promocional del evento Apple Time Flies" />
 </figure>
 
-Pero por si hay algún despistado en la sala voy a hacer un brevísimo resumen de todo lo que se presento, y os voy a dejar un par de enlaces en los que gente con más talento que yo hace sus reviews en video y podcast.
-
 ## Apple Watch
-[Apple Watch Series 6](https://www.apple.com/apple-watch-series-6/) - La evolución del (hasta ahora) actual Apple Watch Series 5, destaca la incorporación de un medidor de oxigeno en sangre.
 
-[Apple Watch SE](https://www.apple.com/apple-watch-se/) - Una version economic del Apple Watch con una ligera orientación al publico mas joven.
+Apple presentó el **Apple Watch Series 6**, con sensor de oxígeno en sangre como novedad más visible.
 
-[Nuevas correas “Solo Loop” y “Braided Solo Loop”](https://www.apple.com/shop/watch/bands)
+También llegó el **Apple Watch SE**, una versión más económica para ampliar el público del reloj.
+
+Además, Apple presentó nuevas correas **Solo Loop** y **Braided Solo Loop**.
 
 ## iPad
-[Nuevo iPad 10.2 inch](https://www.apple.com/ipad-10.2/) - El iPad mas “básico” actualiza su procesador para ser aun más potente y mantiene el diseño clásico.
 
-[Rediseño completo del iPad Air](https://www.apple.com/ipad-air/) - El iPad Air se rediseña al completo, ahora tiene el cuerpo de los iPad Pro un procesador de ultima generación y TouchID en el boton de encendido. (Sin duda seria el iPad que recomendaría a todo el mundo).
+El iPad básico de 10,2 pulgadas actualizó procesador manteniendo el diseño clásico.
+
+El iPad Air recibió un rediseño mucho más interesante: cuerpo inspirado en el iPad Pro, nuevo procesador y Touch ID en el botón de encendido.
+
+Era probablemente el iPad más fácil de recomendar para mucha gente.
 
 ## Servicios
-[Apple Fitness+](https://www.apple.com/apple-fitness-plus/) - El rumoreado servicio de Fitness de Apple en el que te ofrecen diferentes tipos de clases y ejercicios que serán monitorizados por tu Apple Watch.
 
-[Apple One](https://www.apple.com/apple-one/) - Apple cada vez tiene más servicios, para que no tengas que pagar una suscripción por cada uno de ellos llega Apple One, un bundle en el que pagaras menos y podrías compartir en familia.
+Apple presentó **Apple Fitness+**, un servicio de entrenamientos conectado con Apple Watch.
 
----
+También llegó **Apple One**, un paquete para agrupar suscripciones de Apple y pagar menos que contratándolas por separado.
 
-## Datos curiosos de la Keynote
-- Fue una presentación pregrabada y editada (como la WWDC 2020), con unas transiciones entre escenas muy chulas.
-- Fue una Keynote relativamente corta, aproximadamente 1 hora.
+Esta parte encajaba con la estrategia de servicios que ya vimos en los [resultados financieros de Apple](/blog/apple-q4/) y en movimientos como [AppleCare+ mensual](/blog/apple-care/).
 
----
+## Detalles del formato
 
-## Enlaces de interés
-Si queréis saber mas sobre lo que se presento en la Keynote os dejo un par de opciones interesantes:
+La keynote fue pregrabada, como la WWDC 2020, y duró aproximadamente una hora.
 
-- Podcast de [Apple Coding](https://cuonda.com/apple-coding/analisis-time-flies-apple-watch-series-6-se-ipad-air-4-ipad-8-fitness-y-apple-one) donde Julio analiza durante mas de una hora y media todo lo que se presento, sus características y opiniones al respecto.
-- Video de [Youtube de Victor Abarca](https://youtu.be/rm-Hh4YXj8A) donde hace un repaso a lo que sé presento de la forma ligera y amena a la que nos tiene acostumbrados.
+El formato virtual le permitió a Apple hacer una presentación muy editada, con transiciones visuales y ritmo más cercano a una pieza audiovisual que a una keynote tradicional.
+
+Este post continúa la previa del evento [Time Flies](/blog/apple-event-timesflies/).
+
+Si quieres preparar un resumen ejecutivo de producto, evento o lanzamiento tecnológico, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

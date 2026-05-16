@@ -1,34 +1,50 @@
 ---
 layout: post
-title: NVIDIA compra ARM por $40.000 millones
+title: "NVIDIA quiso comprar ARM por 40.000 millones de dólares"
 date: 2020-09-16 10:00:00 +0300
 image: /images/211.jpg
+image_alt: "Logotipos de NVIDIA y ARM asociados a una operación de compra"
+description: "NVIDIA anunció la compra de ARM por 40.000 millones de dólares, una operación estratégica que después no llegó a cerrarse por presión regulatoria."
+resumen: "La compra anunciada de ARM por NVIDIA fue una de las operaciones más importantes del sector chip, aunque terminó bloqueada por reguladores."
 source: AJRA-v09/_posts/2020-09-16-nvidia-arm.md
 ---
 
-Después de unas semanas de rumores se ha confirmado, mediante un comunicado de prensa, que **Nvidia ha comprado ARM por la nada despreciable cifra de $40.000 millones**.
+Después de semanas de rumores, NVIDIA anunció que quería comprar **ARM** por **40.000 millones de dólares**.
 
+La noticia era enorme para la industria tecnológica.
 
-Nvidia es la compañía líder en el sector de las GPUs, últimamente esta mostrando su interés por la IA y ahora han adquirido ARM.
+NVIDIA lideraba el mercado de GPUs y estaba creciendo con fuerza en inteligencia artificial. ARM, por su parte, estaba en el corazón de gran parte de la computación móvil.
 
-## ¿Que es ARM?
-ARM (Advanced RISC Machine) es una empresa de origen británico cuyo principal negocio es licenciar su propiedad intelectual, de forma que las empresas le compran la licencia a ARM para poder desarrollar procesadores basados en su arquitectura.
+## Qué es ARM
 
-Los procesadores basados en arquitectura ARM están en más del 90% de los dispositivos móviles a día de hoy: los chips A de Apple, los Exynos de Samsung, los Snapdragon de Qualcomm, los Mediatek chinos… todos corren sobre arquitectura ARM.
+ARM es una empresa británica cuyo negocio principal consiste en licenciar propiedad intelectual.
 
-¿Piensa en cualquier smartphone que hayas tenido? Seguro que funcionaba con un chip basado en ARM
+Otras compañías compran licencias para diseñar procesadores basados en su arquitectura.
 
-Esto es así porque hay algo hay algo que diferencia a los ARM frente al resto… el equilibrio entre potencia y consumo energético.
+La arquitectura ARM está presente en una cantidad enorme de dispositivos:
 
-## ¿Cómo puede afectar la compra de ARM por parte de Nvidia?
-Por el momento Nvidia ha declarado que van a seguir respetando y manteniendo todos los tratos que tienen con terceros, y que permanecerán neutral al negocio de ARM.
+- Chips A de Apple.
+- Exynos de Samsung.
+- Snapdragon de Qualcomm.
+- MediaTek.
+- Muchos procesadores móviles y embebidos.
 
-Eso parece querer decir que ARM seguirá licenciando su arquitectura para procesadores cómo ha venido haciendo hasta ahora.
+Su gran fortaleza siempre fue el equilibrio entre potencia y consumo energético.
 
-Pero hay una cosa que me ha llamado la atención, ARM ahora pasa a estar bajo el control de una empresa de Estados Unidos, ¿puede esto poner en problema a los fabricantes Chinos?
+## Por qué generó dudas
 
-¿Se puede aplicar aquí aquella famosa ley de Trump que impedía a empresas de Estados Unidos hacer negocios con empresas Chinas?
+NVIDIA afirmó que mantendría la neutralidad de ARM y respetaría los acuerdos existentes.
 
----
+Pero la pregunta era inevitable: ¿qué pasaría si una arquitectura tan importante quedaba bajo el control de una empresa que también compite en el sector?
 
-Sea como sea me mantendré al tanto de la evolución de esta noticia para ir informando.
+La operación abría debates sobre competencia, soberanía tecnológica, licencias y acceso de fabricantes de distintos países.
+
+## Lectura retrospectiva
+
+La compra no llegó a cerrarse.
+
+La presión regulatoria fue demasiado grande y la operación acabó abandonándose. Aun así, el anuncio sigue siendo relevante porque mostró el valor estratégico de ARM.
+
+También anticipaba una tendencia clave: la arquitectura ARM estaba ganando peso más allá del móvil. Apple lo demostraría poco después con Apple Silicon, una transición que ya venía insinuándose desde [Proyecto Kalamata](/blog/apple-kalamata/) y que explotó con los Mac M1 en la keynote [One More Thing](/blog/apple-event-one-more-thing/).
+
+Si quieres analizar una operación tecnológica, dependencia de proveedores o estrategia de hardware, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
