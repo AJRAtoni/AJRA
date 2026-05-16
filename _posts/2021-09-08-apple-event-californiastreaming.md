@@ -1,32 +1,39 @@
 ---
 layout: post
-title: Apple Event - 9.14 California Streaming
+title: "Apple Event California Streaming: cita para el iPhone 13"
 date: 2021-09-08 10:00:00 +0300
 image: /images/logo-apple.jpg
+image_alt: "Logotipo de Apple asociado al evento California Streaming"
+description: "Apple anunció el evento California Streaming para el 14 de septiembre de 2021, donde se esperaba la presentación del iPhone 13 y nuevos productos."
+resumen: "California Streaming fue la invitación al evento de septiembre de 2021: iPhone 13 casi asegurado, rumores de Apple Watch, AirPods y nuevos sistemas."
 source: AJRA-v09/_posts/2021-09-08-apple-event-californiastreaming.md
 ---
 
-Se acabo la espera, Apple ha puesto fecha al evento de presentación de los iPhone 13.
-**El evento se celebrara el proximo martes 14 de septiembre** y le han puesto el nombre de California Streaming (juego de palabras con la canción California Dreamin').
+Se acabó la espera: Apple puso fecha al evento de presentación del iPhone 13.
 
+El evento se celebraría el **14 de septiembre de 2021** bajo el nombre **California Streaming**, un juego de palabras con California Dreamin'.
 
-La invitación, como suele ser habitual últimamente, viene acompañada de una pequeña animación de realidad aumentada.
+Como venía siendo habitual, la invitación incluía una pequeña animación de realidad aumentada que Apple usaba para añadir conversación alrededor del evento.
 
+## Qué se esperaba
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We’re California Streaming on September 14th. See you real soon. 🏞 <a href="https://twitter.com/hashtag/AppleEvent?src=hash&amp;ref_src=twsrc%5Etfw">#AppleEvent</a> <a href="https://t.co/OjOvJFXlHd">pic.twitter.com/OjOvJFXlHd</a></p>&mdash; Greg Joswiak (@gregjoz) <a href="https://twitter.com/gregjoz/status/1435272731746979840?ref_src=twsrc%5Etfw">September 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-Ahora mismo todo son rumores y especulaciones sobre lo que podría presentar Apple en este evento, pero todo apunta a que veremos:
+En aquel momento todo eran rumores, pero las apuestas principales eran claras:
 
 - Nuevos modelos de iPhone.
-- Apple Watch con nuevo diseño.
+- Apple Watch con cambios de diseño.
 - AirPods 3.
-- Lanzamiento de todos los nuevos OS (iOS, iPadOS, watchOS, tvOS, etc…)
+- Fechas de lanzamiento para iOS, iPadOS, watchOS y tvOS.
 
+También quedaba la pregunta clásica: si habría algún One More Thing.
 
-***
+## Apple y la narrativa de eventos
 
+Los eventos de Apple funcionan casi como pequeños productos.
 
-**¿Tendremos algún One More Thing?**
+Nombre, invitación, animación, rumorología, cobertura, análisis posterior y lanzamiento coordinado.
 
-La semana que viene intentare escribir una edición especial de la Newsletter para comentar y analizar todo lo que presente Apple.
+Ya lo vimos en keynotes anteriores como [Time Flies](/blog/apple-event-timeforrecap/), [Spring Loaded](/blog/apple-event-springloaded/) o [One More Thing](/blog/apple-event-one-more-thing/).
+
+California Streaming seguía esa misma lógica: crear expectación antes de que el producto existiera públicamente.
+
+Si quieres preparar una cobertura, lanzamiento o comunicación de producto con una narrativa clara, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
