@@ -1,73 +1,65 @@
 ---
 layout: post
-title: Sublime Text
+title: "Sublime Text: el editor ligero que sigue teniendo sentido"
 date: 2016-08-10 10:00:00 +0300
 image: /images/logo-sublimetext.png
+image_alt: "Logo de Sublime Text y editor de código para desarrollo web"
+description: "Sublime Text fue uno de los editores favoritos para desarrollo web. Hoy convive con VS Code, Cursor y editores con IA, pero sigue teniendo lecciones útiles."
+resumen: "Sublime Text sigue siendo un ejemplo de editor rápido, ligero y extensible, aunque el flujo actual haya cambiado hacia VS Code, Cursor e IA."
 source: AJRA-v09/_posts/2016-08-10-sublime-text.md
 ---
 
-En este artículo quería hablaros de una de las herramientas que más uso en mí día a día. 
-Se trata de **Sublime Text**.
+Durante años, **Sublime Text** fue uno de mis editores favoritos para trabajar con código.
 
+Era rápido, ligero, multiplataforma y suficientemente flexible como para adaptarlo a casi cualquier flujo de trabajo. En una época en la que muchos editores eran lentos o demasiado rígidos, Sublime Text se sentía ágil.
 
-**Sublime Text** es posiblemente uno de los mejores y más flexibles editores de código que puedes encontrar a día de hoy y además se trata de una aplicación multiplataforma, por lo que no tienes excusa para utilizarlo desde Windows, GNU/Linux o macOS.
+Hoy el panorama ha cambiado. VS Code se convirtió en estándar para muchísimos desarrolladores, Cursor añadió una capa fuerte de IA y los IDEs modernos integran asistentes, terminales, depuración y extensiones cada vez más potentes.
 
-Puedes descargar su última versión desde aquí — [Sublime Text 3](https://www.sublimetext.com/3).
+Aun así, Sublime Text sigue siendo interesante por una razón: demuestra que una herramienta no necesita estar sobrecargada para ser útil.
 
-En este primer artículo vamos hacer un breve repaso a las características básicas que trae Sublime Text y en próximos artículos ya os contaremos más trucos, plugins o modificaciones qué hacer para adaptar el editor a nuestro gusto.
+## Por qué gustaba tanto Sublime Text
 
-## PESTAÑAS
+Sublime Text destacaba por varias cosas:
 
-Ahora ya estamos acostumbrado a que los navegadores funcionen con pestañas en lugar de con ventanas, pues este editor también permite trabajar con diferentes archivos abiertos en pestañas, lo cual es más cómodo y ágil.
+- Abría archivos enormes sin sufrir demasiado.
+- Era rápido en casi cualquier equipo.
+- Tenía resaltado de sintaxis para muchos lenguajes.
+- Permitía selecciones múltiples.
+- Tenía búsqueda rápida y eficaz.
+- Permitía instalar paquetes con Package Control.
+- Era fácil personalizar colores, snippets y atajos.
 
-## RESALTADO DE SINTAXIS
+La función de selecciones múltiples, por ejemplo, era una de esas pequeñas mejoras que cambiaban la forma de editar código. Seleccionabas una palabra, repetías la selección y modificabas varias coincidencias a la vez.
 
-Sublime Text incorpora resaltado a color de sintaxis, lo que facilita la lectura del código, además de enumerar cada una de las líneas.
+Hoy parece normal, pero en su momento era una maravilla.
 
-## AUTOCOMPLETADO
+## El contexto actual
 
-Esta es quizás una de las mejores cosas que tiene Sublime Text, el autocompletado.
+Si estás empezando ahora, probablemente acabarás usando VS Code, Cursor, JetBrains o algún editor con asistencia de IA.
 
-Esta característica nos ayudará a recordar cómo se escriben ciertos comandos o funciones.
+De hecho, he escrito sobre herramientas más recientes como [Cursor 2.0](/blog/cursor-2-0-el-ide-con-ia-que-revoluciona-el-desarrollo/) y [Google Antigravity](/blog/descubre-google-antigravity-el-ide-agentico-que-revoluciona-la-programacion-con-gemini-3-pro/), que apuntan hacia un futuro mucho más agentic y asistido.
 
-## SELECCIONES Y EDICIONES MÚLTIPLES
+Pero no conviene perder de vista la lección de Sublime: velocidad, foco y control importan.
 
-Otra de las características que hacen grande a Sublime Text y que ahorran mucho tiempo, si seleccionamos una palabra, comando, código, color o lo que sea y apretamos CRTL+D se seleccionará la siguiente coincidencia pudiendo así modificarlas todas al mismo tiempo.
+Un editor lleno de funciones no es necesariamente mejor si te distrae o hace lento tu flujo de trabajo.
 
-## AUTOCERRADO DE ETIQUETAS
+## Qué deberías valorar en un editor
 
-Con la simple combinación de teclas “ALT + .” nos podremos olvidar de cerrar etiquetas en HTML a qué Sublime Text se ocupará él solo de hacerlo.
+Más allá del nombre de la herramienta, yo miraría esto:
 
-## SALTAR A UNA LÍNEA
+- Que sea rápido en tu máquina.
+- Que tenga buen soporte para los lenguajes que usas.
+- Que te permita buscar y navegar código con facilidad.
+- Que tenga extensiones útiles, no infinitas extensiones instaladas sin criterio.
+- Que encaje con Git, terminal y tu forma de trabajar.
+- Que no te obligue a pelearte con la configuración cada dos días.
 
-En ocasiones los programadores tenemos que trabajar en archivos con miles de líneas, y por más que nos digan que el error está en la línea X es lento llegar a dar con ella.
+La herramienta correcta es la que te deja avanzar mejor, no la que está más de moda.
 
-Pero con **Sublime Text** se acabó ese problema ya que con la combinación “CTRL+G” podremos introducir la línea en la que queremos situarnos.
+## Sublime Text como recordatorio
 
-## CODE-FOLDING
+Sublime Text quizá ya no ocupa el lugar central que tuvo, pero sigue siendo un buen recordatorio de cómo debería sentirse una buena herramienta profesional: rápida, estable y discreta.
 
-Más características interesantes, en este caso es la posibilidad de plegar o desplegar bloques de código, para así centrarnos solo en la parte que nos interesa en ese momento.
+Si trabajas en desarrollo web, ecommerce o automatización, el editor es solo una parte del sistema. Lo importante es que tu entorno te permita pensar, construir y mantener proyectos sin fricción.
 
-## BÚSQUEDAS
-
-Esta es una de las características más básicas de cualquier editor de código, pero no esta de mas recordarla.
-
-Al igual que en la mayoría de los programas con un simple “CTRL+F” podremos buscar cualquier coincidencia durante todo el archivo.
-
-## PLUGINS
-
-Y por si todas estas características no bastasen para decir que **Sublime Text** es uno de los mejores editores de código que podemos encontrar, también tenemos el “Package Control”.
-
-El Package Control viene a ser un repositorio de plugins, como una App Store en la que podremos encontrar cientos de plugins que aportaran diferentes funcionalidades a nuestro ya de por sí genial editor.
-
-## ESQUEMA DE COLORES
-
-Y por ultimo (para no hacer más largo este articulo) hay que destacar que el programa incorpora un gestor de temas, que nos permite personalizar la apariencia y colores de **Sublime Text**.
-
-Por defecto el programa viene con unos 10 temas preinstalados, pero existe la posibilidad de descargar e instalar mas temas de paginas como [ColorSublime](http://colorsublime.com/), donde podremos navegar entre miles de temas y escoger el que mejor se adapte a nuestras necesidades.
-
-Personalmente yo uso el tema “[Monokai Contrast](http://colorsublime.com/?q=Monokai+contrast)”
-
-Esto es todo por hoy, y creo que es más que suficiente para darle una oportunidad al que posiblemente sea el mejor editor de código que puedes encontrar en la actualidad.
-
-Durante los próximos días escribiré una pequeña guía sobre la configuración básica de **Sublime Text**, una serie de breves tips que harán que este editor se adapte aún más a vuestra día a día.
+Si necesitas ayuda para ordenar un flujo de desarrollo o una web que se ha vuelto difícil de mantener, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

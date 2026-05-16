@@ -1,42 +1,90 @@
 ---
 layout: post
-title: ¿Que son los Micro y Macro resultados?
+title: "Qué son los micro y macro resultados en marketing digital"
 date: 2016-09-13 10:00:00 +0300
 image: /images/38.jpg
+image_alt: "Embudo de conversión con micro conversiones y macro conversiones"
+description: "No todas las conversiones tienen el mismo valor. Aprende a diferenciar micro y macro resultados para medir mejor tu web, campaña o embudo."
+resumen: "Los macro resultados son el objetivo final; los micro resultados son señales intermedias que ayudan a llegar hasta él."
 source: AJRA-v09/_posts/2016-09-13-micro-macro-resultados.md
 ---
 
-En este post quiero hablaros un poco de los Micro y Macro resultados.
+En marketing digital no todo resultado tiene el mismo peso.
 
-Si lo resumimos “muy mucho” la cosa queda así:
+Hay acciones que representan el objetivo final del negocio y otras que indican que el usuario está avanzando hacia ese objetivo.
 
-- **Los Macro son los resultados directos, es decir la conversión al momento.**
-- **Los Micro son pequeños cambios, o logros que no realizan la conversión al momento pero que dirigen hacia ella.**
+A eso podemos llamarlo **macro resultados** y **micro resultados**.
 
+## Qué es un macro resultado
 
-Hay muchas formas de medir los Micro y Macro resultados, y todo depende de cuales definamos en cada caso.
+Un macro resultado es la conversión principal.
 
-Para entenderlo mejor vamos a ver un ejemplo y luego definimos como se miden en este caso en concreto:
+Depende del proyecto, pero puede ser:
 
-Javi es un DJ que ofrece sus servicios.
+- Una venta.
+- Una reserva.
+- Una solicitud de presupuesto.
+- Una llamada cualificada.
+- Una suscripción de pago.
+- Una contratación.
 
-El cobra cada vez que alguien le contrata para su fiesta o evento, así que esta claro que su macro-objetivo es que le contraten.
+Es la acción que normalmente conecta de forma directa con negocio.
 
-Tras hacer un estudio de las estadísticas de su web nos dimos cuenta de que los usuarios que habían escuchado su música antes eran los que le acababan contratando.
+## Qué es un micro resultado
 
-Así que convertimos la descarga de sus sesiones de DJ en su micro-objetivo.
+Un micro resultado es una acción intermedia que no genera el objetivo final por sí sola, pero indica avance.
 
-**Para conseguir nuestro micro-objetivo usamos dos estrategias:**
+Por ejemplo:
 
-1. Crear un **Call to Action**, un botón llamativo que alentaba a los visitantes de su web a que se descargaran gratis su última sesión.
-2. Se creo una campaña de **Email Marketing** en la que se envió un correo a todos sus suscriptores avisando de que ya estaba disponible su nueva sesión y que su descarga era gratis.
+- Descargar una guía.
+- Ver una página clave.
+- Añadir un producto al carrito.
+- Iniciar checkout.
+- Ver un vídeo completo.
+- Hacer clic en un CTA.
+- Suscribirse a una newsletter.
+- Responder a un email.
 
-Estas dos pequeñas acciones ayudaron a aumentar las descargas de sus sesiones (micro-objetivos) y por ende el % de contactos y contrataciones (Macro-objetivos).
+Estos micro resultados ayudan a entender qué ocurre antes de la conversión final.
 
-Así que recuerda, lo primero es definir de forma clara cuales son tus micro y macro objetivos.
+## Un ejemplo sencillo
 
-Luego definir cuáles van a ser las acciones que realizaremos para cumplirlos y lo más importante, medir los resultados.
+Imagina un DJ que ofrece servicios para eventos.
 
-> Es muy difícil ganar la guerra (Macro) sin antes haber ganado las pequeñas batallas (micro).
+El macro resultado sería que alguien lo contrate.
 
-Y si necesitas ayuda para definir o conseguir tus Micro/Macro objetivos, siempre puedes [contactar conmigo](mailto:info@ajra.es) e intentare ayudarte.
+Pero quizá los usuarios que escuchan una sesión completa o descargan una demo tienen mucha más probabilidad de pedir presupuesto. En ese caso, escuchar o descargar la sesión sería un micro resultado importante.
+
+No es la venta final, pero ayuda a predecirla.
+
+## Por qué importa medir ambos
+
+Si solo miras el macro resultado, puedes quedarte sin información suficiente.
+
+Por ejemplo, si una campaña no genera ventas, necesitas saber dónde se rompe el camino:
+
+- ¿La gente no hace clic?
+- ¿Hace clic pero abandona la landing?
+- ¿Lee la oferta pero no completa el formulario?
+- ¿Añade al carrito pero no compra?
+- ¿Los leads llegan, pero no son cualificados?
+
+Los micro resultados ayudan a diagnosticar.
+
+## Conecta micro resultados con acciones concretas
+
+Cada micro resultado debería tener una acción asociada.
+
+Si quieres más descargas, necesitas una buena [llamada a la acción](/blog/call-to-action/). Si quieres captar contactos, necesitas entender qué es un [lead](/blog/lead/). Si quieres mejorar conversión, quizá necesitas revisar la [landing page](/blog/landing-page/) o hacer un [test A/B](/blog/test-ab/).
+
+Medir por medir no sirve. Medir debe ayudarte a decidir qué mejorar.
+
+## Conclusión
+
+Los macro resultados te dicen si el negocio está consiguiendo su objetivo.
+
+Los micro resultados te ayudan a entender cómo llega —o no llega— el usuario hasta ese objetivo.
+
+Es difícil ganar la guerra sin ganar pequeñas batallas antes.
+
+Si quieres definir los objetivos correctos para tu web, ecommerce o campaña, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

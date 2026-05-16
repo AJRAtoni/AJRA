@@ -1,27 +1,79 @@
 ---
 layout: post
-title: MailTrack - Doble-Checks en tu Gmail
+title: "Mailtrack: saber si han abierto tus correos en Gmail"
 date: 2017-02-18 10:00:00 +0300
 image: /images/41.jpg
+image_alt: "Mailtrack en Gmail con doble check de lectura de correos"
+description: "Mailtrack permite saber si un correo enviado desde Gmail ha sido abierto, pero conviene usar este tipo de seguimiento con criterio y respeto por la privacidad."
+resumen: "Mailtrack puede ser útil para ventas y seguimiento comercial, pero no sustituye una buena estrategia de email ni debe usarse sin criterio."
 source: AJRA-v09/_posts/2017-02-18-mailtrack.md
 ---
 
-Esta semana quiero recomendaros una aplicación de esas que uso a diario para mi trabajo, se trata de MailTrack.
+**Mailtrack** es una extensión que se integra con Gmail y permite saber si un correo ha sido abierto.
 
+Su idea es muy simple: añadir una especie de doble check, parecido al de WhatsApp, para indicar si el email llegó y si alguien lo abrió.
 
-## ¿Que es Mailtrack?
-Pues MailTrack está creado por una startup española, y lo que hace es algo muy sencillo, se trata de una extensión que se instala en nuestro navegador (Chrome, Firefox, etc…) y se integra con nuestra cuenta de Gmail, permitiéndonos saber cuando alguien lee el correo que le hemos enviado.
+En su momento era una herramienta muy práctica para seguimiento comercial, propuestas, presupuestos o correos importantes.
 
-Una vez instalada la extensión nos aparecerá delante de los mensajes de nuestro Gmail el típico “doble check” como el de WhatsApp.
+## Qué hace Mailtrack
 
-Y su funcionamiento es muy similar, un solo check quiere decir que Email ha llegado a su destinatario pero aún no ha sido leído.
+Mailtrack añade seguimiento de apertura a los correos enviados desde Gmail.
 
-Y cuando se muestra el doble check quiere decir que el mail ha llegado y ha sido abierto.
+Normalmente permite ver:
 
-Pero no solo indica nos indica eso, también nos dará información como, a qué hora fue leído, cuántas veces han vuelto a abrirlo y con qué dispositivo.
+- Si el correo fue abierto.
+- Cuándo se abrió.
+- Cuántas veces se abrió.
+- Desde qué dispositivo o contexto aproximado.
+- Notificaciones cuando alguien lee el mensaje.
 
-Y una de las cosas que más nos gusta es que no hace falta estar pendiente de la pantalla para ver cuando alguien abre el Email que le enviaste, en el apartado de notificaciones tiene una opción para recibir un Email avisando de la lectura del mensaje que hemos enviado.
+Esto puede ayudar a priorizar seguimiento. Si envías una propuesta y ves que el cliente la abre varias veces, quizá tiene sentido escribir o llamar después.
 
-Mailtrack tiene un plan gratuito (más que suficiente para un uso "normal") que es el que yo uso.
+## Para qué puede ser útil
 
-Si te interesa no lo dudes, [descargarlo y pruébalo en tu navegador](https://mailtrack.io/es/).
+Puede ser útil en casos como:
+
+- Seguimiento de propuestas comerciales.
+- Emails de ventas.
+- Presupuestos enviados.
+- Comunicación con leads.
+- Confirmación de lectura de documentos importantes.
+- Prospección B2B.
+
+Pero conviene no obsesionarse. Que alguien abra un correo no significa que tenga intención de comprar. Y que no aparezca una apertura no siempre significa que no lo haya leído.
+
+## Limitaciones y privacidad
+
+El tracking de emails suele funcionar mediante píxeles de seguimiento.
+
+Eso tiene limitaciones:
+
+- Algunos clientes de email bloquean imágenes.
+- Apple Mail Privacy Protection puede distorsionar aperturas.
+- Hay usuarios que bloquean trackers.
+- La apertura no equivale a interés real.
+- En algunos contextos, debes informar o tener cuidado con privacidad y normativa.
+
+Por eso hoy pondría más énfasis en usar estas herramientas con criterio.
+
+## Tracking no es estrategia
+
+Saber si alguien abrió un email puede ayudar, pero la estrategia sigue estando en otra parte:
+
+- Buen asunto.
+- Mensaje claro.
+- Oferta relevante.
+- Segmentación.
+- Timing.
+- Siguiente paso concreto.
+- Buen [call to action](/blog/call-to-action/).
+
+Si estás trabajando captación o newsletters, también puedes mirar herramientas pensadas para email marketing. Por ejemplo, publiqué una guía sobre [MailerLite para enviar emails sin volverte loco](/blog/mailerlite-para-enviar-emails-sin-volverte-loco/).
+
+## Conclusión
+
+Mailtrack puede ser una herramienta útil para saber si tus correos se abren, especialmente en ventas o seguimiento profesional.
+
+Pero úsalo como una señal más, no como una verdad absoluta. Lo importante sigue siendo escribir emails útiles, claros y respetuosos.
+
+Si quieres mejorar tus emails comerciales, automatizaciones o seguimiento de leads, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

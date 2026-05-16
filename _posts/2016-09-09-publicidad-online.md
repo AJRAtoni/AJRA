@@ -1,47 +1,82 @@
 ---
 layout: post
-title: Los beneficios de la publicidad online
+title: "Los beneficios de la publicidad online frente a la publicidad tradicional"
 date: 2016-09-09 10:00:00 +0300
 image: /images/37.jpg
+image_alt: "Campaña de publicidad online con segmentación, clics y medición"
+description: "La publicidad online permite segmentar, medir, optimizar y conectar inversión con resultados de una forma que la publicidad tradicional no siempre permite."
+resumen: "La gran ventaja de la publicidad online no es solo llegar a más gente, sino medir, aprender y optimizar cada euro invertido."
 source: AJRA-v09/_posts/2016-09-09-publicidad-online.md
 ---
 
-Hoy en quiero hablaros de los beneficios de la publicidad Online. 
-Para ello vamos a comenzar con un ejemplo:
+La publicidad online cambió la forma de invertir en marketing.
 
-José es el dueño de una empresa de zapatos, y para aumentar sus ventas decide poner un anuncio a página completa en una revista.
+Antes, una empresa podía pagar un anuncio en una revista, una valla o una cuña de radio y tener una visibilidad interesante, pero muy poca información real sobre qué había pasado después.
 
-Al llegar el fin de semana, José estará muy contento y el Domingo ira hasta el Kiosco, comprará la revista y vera su anuncio.
+Con la publicidad digital, la pregunta ya no es solo “¿cuánta gente lo ha visto?”, sino:
 
-### Pero ahora surgen un par de dudas:
+- ¿Quién lo ha visto?
+- ¿Quién hizo clic?
+- ¿Quién se registró?
+- ¿Quién compró?
+- ¿Cuánto costó cada resultado?
+- ¿Qué anuncio funcionó mejor?
 
-¿Sabe José si su anuncio ha llegado a mucha gente? ¿Sabe José si esa gente es su público objetivo? ¿Sabe José si el público que lo ha visto a acabado comprando sus zapatos? **La respuesta a las tres preguntas es la misma, NO.**
+## Segmentación
 
+Una de las mayores ventajas es la capacidad de segmentar.
 
-Todo eso sí soluciona con una campaña o un anuncio online, donde tendríamos beneficios como:
+Puedes mostrar anuncios según ubicación, intereses, intención de búsqueda, comportamiento, dispositivo, edad aproximada, listas de clientes, audiencias similares o visitas previas a tu web.
 
-- Segmentar nuestro público.
-- Selección de Keywords.
-- Localizar la campaña en una zona geográfica.
-- Optimización del gasto por PPC o por impresiones.
-- Control de las horas a las que se muestra el anuncio.
+Esto no significa que la segmentación sea perfecta. Las plataformas cambian, la privacidad pesa más y los datos disponibles no son los mismos que hace años.
 
-### Volvamos al tema de José y su tienda de zapatos.
+Pero sigue siendo mucho más preciso que lanzar un mensaje masivo sin saber a quién llega.
 
-En este caso se ha decidido a hacernos caso y poner un anuncio online.
+## Medición
 
-Así que lo idóneo sería mostrar el anuncio solo a la gente que viva en la misma zona en la que está su tienda de zapatos, y también decide poner un “**Call to Action**” dirigido a conseguir que la gente llame a la tienda. Por lo cual el anuncio debería mostrarse solo en los horarios en los que la tienda de zapatos de José está abierta.
+La publicidad online permite conectar inversión con resultados.
 
-José también tendría la posibilidad de poner anuncios **PPC** en buscadores como Google.
+Puedes medir clics, formularios, compras, llamadas, reservas, descargas o cualquier conversión relevante.
 
-Se trata de esos anuncios que le aparecen al usuario cuando busca algo relacionado con el producto que nosotros vendemos.
+Eso conecta directamente con métricas como el [ROI](/blog/roi/) y con la diferencia entre micro y macro conversiones, que explico en [qué son los micro y macro resultados](/blog/micro-macro-resultados/).
 
-(Os recomiendo usar [Google Trends](https://www.google.com/trends/) para hacer un estudio de las keywords idóneas para vuestro caso)
+## Optimización
 
-En el caso de José, podría usar palabras clave como “zapatos” o “deportivas” y añadirlas a sus keywords.
+Una campaña digital no debería lanzarse y olvidarse.
 
-De esta forma tendría un anuncio de su tienda de zapatos que iría dirigido al público específico, que le interesa lo que el vende y se encuentra en una zona cercana a su tienda.
+Lo normal es revisar:
 
-Pero aún queda lo mejor, una vez que José lanza su anuncio online, tendrá la posibilidad de hacer un seguimiento a las métricas y estadísticas, sabiendo así cuanta gente lo ha visto, cuantos hacen clics sobre el anuncio y cuantos acaban comprando los zapatos de la tienda de José.
+- Qué anuncios generan mejor respuesta.
+- Qué audiencias convierten mejor.
+- Qué palabras clave atraen tráfico útil.
+- Qué horarios funcionan.
+- Qué landing page convierte más.
+- Qué presupuesto merece escalarse.
 
-Y recuerda, si al igual que José, tú también tienes un negocio y quieres invertir en publicidad Online, pero no tienes muy claro cómo hacerlo, puedes [contactar conmigo](mailto:info@ajra.es) e intentare ayudarte.
+La publicidad online permite iterar. Si algo no funciona, puedes detenerlo, cambiarlo o probar una variante.
+
+## PPC, social ads y remarketing
+
+Dentro de la publicidad online hay muchos canales.
+
+Puedes trabajar campañas de búsqueda, como expliqué en el post sobre [SEM](/blog/sem/). También puedes hacer campañas en redes sociales, display, YouTube, shopping, remarketing o email.
+
+Cada canal responde a una intención distinta. No es lo mismo aparecer cuando alguien busca activamente “comprar zapatillas running” que interrumpir a alguien mientras mira Instagram.
+
+Por eso el mensaje y la oferta deben adaptarse al momento del usuario.
+
+## La publicidad online no arregla una mala oferta
+
+Invertir en anuncios no soluciona una web lenta, una oferta confusa o una página que no convierte.
+
+Si llevas tráfico a una mala experiencia, solo estás acelerando el desperdicio de presupuesto.
+
+Antes de escalar inversión conviene revisar la [landing page](/blog/landing-page/), el [call to action](/blog/call-to-action/), la velocidad de carga y el seguimiento de conversiones.
+
+## Conclusión
+
+La publicidad online permite segmentar, medir y optimizar con un nivel de control muy superior al de muchos formatos tradicionales.
+
+Pero para que funcione necesita estrategia: objetivo claro, buena oferta, medición fiable y mejora continua.
+
+Si quieres revisar tus campañas o montar una estrategia de publicidad digital con sentido, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
