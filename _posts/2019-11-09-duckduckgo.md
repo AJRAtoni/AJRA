@@ -1,30 +1,52 @@
 ---
 layout: post
-title: DuckDuckGo - El motor de búsqueda que se preocupa por nuestra privacidad
+title: "DuckDuckGo: buscar en internet con más privacidad"
 date: 2019-11-09 10:00:00 +0300
 image: /images/181.png
+image_alt: "Logotipo de DuckDuckGo, buscador centrado en privacidad"
+description: "DuckDuckGo es un buscador que no basa su propuesta en rastrear al usuario, una alternativa útil para reducir dependencia de Google."
+resumen: "Cambiar el buscador por defecto es una de las formas más sencillas de reducir rastreo y dependencia de Google sin cambiar todo tu flujo digital."
 source: AJRA-v09/_posts/2019-11-09-duckduckgo.md
 ---
 
-Google es el motor de búsqueda mas utilizado a nivel mundial, la mayoría de los usuarios cuando tienen que buscar algo directamente acuden a Google.
-Lo que muchos no saben es que Google almacenan todo lo que buscamos, que paginas visitamos, qué productos queremos comprar en Amazon, y básicamente cualquier dato sobre nosotros que ellos consideren util y del cual puedan sacar un beneficio económico.
+Google es el motor de búsqueda más utilizado del mundo.
 
-Pero ojo, Google no solo sabe lo que buscamos desde su motor de búsqueda.
-Google esta trackeando lo que hacemos en el 75% de las paginas webs de todo el mundo.
+Para mucha gente, buscar en internet es prácticamente sinónimo de "googlear". El problema es que esa comodidad también concentra una enorme cantidad de datos sobre intereses, hábitos, compras, dudas y navegación.
 
-Por eso en 2008 se creo DuckDuckGo, un motor de búsqueda que funciona de forma similar a Google, tu introduces un termino de búsqueda y el te devuelve un listado de resultados.
-La única diferencia es que DuckDuckGo no rastrea tu navegación a lo largo de la web, no guarda la información del usuario y mucho menos la vende a terceros.
+Por eso **DuckDuckGo** se hizo popular como alternativa centrada en privacidad.
 
-Hasta el momento DuckDuckGo se financia con [donaciones privadas](https://duckduckgo.com/donations) y ya ha recaudado mas de $1,900,000.
+## Qué propone DuckDuckGo
 
-A DuckDuckGo le gusta la transparencia y tienen una pagina web en la que puedes ver el [trafico que generan](https://duckduckgo.com/traffic), el numero de búsquedas totales, búsquedas diarias, etc…
+DuckDuckGo funciona como cualquier buscador: escribes una consulta y recibes resultados.
 
-Algo que me gusta de DuckDuckGo es que los resultados de las búsquedas no están paginados, por lo cual es mas fácil y cómodo el desplazarse haciendo scroll hasta encontrar el resultado que buscábamos.
+La diferencia está en su promesa de privacidad: no construir perfiles personales de búsqueda ni perseguir al usuario por toda la web.
 
-Aunque muchos no conozcáis DuckDuckGo hay que dejar claro que es uno de los 4 buscadores más importantes de internet junto a Google, Yahoo y Bing.
-Tal es su reconocimiento que su motor de búsqueda ya viene preconfigurado en Safari tanto para su version en macOS como en dispositivos iOS y iPadOS, tan solo debemos acceder a las preferencias del navegador y seleccionarlo.
+No significa que sea perfecto ni que todos los resultados sean siempre mejores. Significa que cambia el equilibrio entre comodidad, personalización y rastreo.
 
-- **En Safari para macOS** debemos ir a Safari → Preferencias → Búsqueda → En el desplegable “Buscador” debemos seleccionar DuckDuckGo.
-- **En Safari para iOS y iPadOS** debemos ir a Ajustes → Safari → Buscador → DuckDuckGo.
+## Una forma sencilla de empezar
 
-De esta forma cuándo realicemos una búsqueda directamente en la barra de direcciones de Safari este se ocupara de utilizar el motor de búsqueda de DuckDuckGo y no tendremos que preocuparnos de nuestra privacidad y nuestros datos.
+Si quieres reducir dependencia de Google, cambiar el buscador por defecto es una de las acciones más fáciles.
+
+En Safari para macOS:
+
+```text
+Safari > Ajustes > Búsqueda > Buscador > DuckDuckGo
+```
+
+En iOS y iPadOS:
+
+```text
+Ajustes > Safari > Buscador > DuckDuckGo
+```
+
+A partir de ahí, las búsquedas desde la barra de direcciones usarán DuckDuckGo.
+
+## Privacidad por capas
+
+DuckDuckGo encaja dentro de una estrategia más amplia: revisar navegador, buscador, correo, contraseñas, VPN y permisos.
+
+Ya hablé de esa idea en [No More Google](/blog/no-more-google/), y también al comentar herramientas como [Warp de Cloudflare](/blog/warp/) o prácticas básicas de [contraseñas seguras](/blog/passwords-seguros/).
+
+No hace falta cambiar todo de golpe. Cambiar el buscador por defecto es un buen primer paso.
+
+Si quieres revisar privacidad, navegación o dependencia de Google en tu día a día o en tu negocio, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

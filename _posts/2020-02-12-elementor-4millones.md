@@ -1,31 +1,53 @@
 ---
 layout: post
-title: Elementor llega a los 4 millones de instalaciones activas
+title: "Elementor alcanzó 4 millones de instalaciones activas"
 date: 2020-02-11 10:00:00 +0300
 image: /images/logo-elementor.jpg
+image_alt: "Logotipo de Elementor celebrando millones de instalaciones activas"
+description: "Elementor anunció 4 millones de instalaciones activas y abrió una votación para que la comunidad eligiera próximas funciones."
+resumen: "El crecimiento de Elementor mostraba el peso de los constructores visuales en WordPress: más control para usuarios, pero también más responsabilidad técnica."
 source: AJRA-v09/_posts/2020-02-12-elementor-4millones.md
 ---
 
-Los chicos de Elementor están de celebración.
-Hoy han anunciado que han llegado a los 4 millones de instalaciones activas.
+Elementor anunció que había alcanzado **4 millones de instalaciones activas**.
 
-Durante el ultimo año no han parado de presentar nuevas características y opciones que hacen de Elementor el editor visual mas interesante de WordPress:
+Era una cifra importante porque confirmaba algo que ya se veía en el ecosistema WordPress: los constructores visuales habían dejado de ser una rareza.
 
-- El PopUp Builder
-- Efectos de movimiento
-- El Hello Theme
-- Kits de plantillas mensuales
-- Tablas de contenido
-- Control avanzado de consultas
-- Biblioteca de iconos
-- El nuevo selector de color
-- Modo oscuro
+## Por qué creció tanto
 
-Para celebrarlo han decidido que la comunidad de usuarios sea la que decida cual sera la siguiente funcionalidad que se implementara en Elementor, tenemos varias opciones a elegir:
+Durante ese periodo Elementor había sumado muchas funciones:
 
-- **Recolección de Leads**: Con esta funcionalidad cuando un usuario utilice cualquiera de nuestros formularios de contacto creados con Elementor, el sistema guardara esos mails en una lista.
-- **Formularios con diferentes pasos**: Un creador de formularios que nos permita tener diferentes pasos en diferentes paginas.
-- **Lottie Widget**: un widget que permita el uso de la biblioteca Lottie la cual procesa animaciones de After Effects en tiempo real.
-- **Widget de Instagram**: un widget que permita mostrar el feed de tu instagram directamente en tu web creada con Elementor.
+- PopUp Builder.
+- Efectos de movimiento.
+- Hello Theme.
+- Kits de plantillas mensuales.
+- Tablas de contenido.
+- Control avanzado de consultas.
+- Biblioteca de iconos.
+- Nuevo selector de color.
+- Modo oscuro.
 
-No esperes mas, entra en la pagina de Elementor y vota que widget o característica quieres que sea la siguiente que implementen.
+Muchas de estas mejoras encajaban con lo que vimos en [Elementor 2.8](/blog/elementor-28/).
+
+## La comunidad como motor
+
+Para celebrarlo, Elementor propuso que la comunidad votara próximas funciones.
+
+Entre las opciones aparecían:
+
+- Recolección de leads desde formularios.
+- Formularios multipaso.
+- Widget de Lottie.
+- Widget de Instagram.
+
+La votación era interesante porque mostraba hacia dónde iba la herramienta: no solo maquetar páginas, sino cubrir más partes del marketing digital dentro de WordPress.
+
+## La lectura práctica
+
+Elementor da mucha autonomía, pero también puede generar webs pesadas si se usa sin criterio.
+
+Plantillas, animaciones, widgets y formularios son útiles cuando responden a una necesidad real. Si se añaden solo porque están disponibles, la web acaba siendo más lenta y difícil de mantener.
+
+Por eso conviene equilibrar diseño, conversión y rendimiento, especialmente si la web depende de formularios, [call to action](/blog/call-to-action/) y experiencia móvil.
+
+Si quieres revisar una web hecha con Elementor o decidir si tiene sentido usarlo en tu proyecto, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
