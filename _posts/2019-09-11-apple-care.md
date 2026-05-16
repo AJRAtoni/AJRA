@@ -1,24 +1,43 @@
 ---
 layout: post
-title: AppleCare+ pasa a un sistema de suscripción mensual
+title: "AppleCare+ pasó a un modelo de suscripción mensual"
 date: 2019-09-11 10:00:00 +0300
 image: /images/logo-apple.jpg
+image_alt: "Logotipo de Apple asociado al servicio AppleCare+"
+description: "AppleCare+ incorporó planes mensuales renovables, una opción más flexible que también reforzaba el modelo de ingresos recurrentes de Apple."
+resumen: "El cambio de AppleCare+ a suscripción mensual fue una pequeña noticia de soporte, pero encaja con el giro de Apple hacia servicios recurrentes."
 source: AJRA-v09/_posts/2019-09-11-apple-care.md
 ---
 
-Aún estamos con la resaca de la Keynote de ayer, pero Apple no para y hoy lanzado un anuncio sobre el nuevo funcionamiento del AppleCare+.
+Después de la keynote **By Innovation Only**, Apple movió otra pieza menos llamativa pero importante: **AppleCare+**.
 
 <figure>
-<img src="/images/157.jpeg" alt="" />
+<img src="/images/157.jpeg" alt="Información de AppleCare+ con cobertura mensual para dispositivos Apple" />
 </figure>
 
-Ahora puedes contratar AppleCare+ mediante suscripción mensual y durante toda la vida útil de tu dispositivo.
+La compañía empezó a permitir contratar AppleCare+ mediante suscripción mensual, manteniendo la cobertura durante la vida útil del dispositivo mientras el plan siguiera activo.
 
-En “Plazo y renovación del plan”, Apple describe cómo funcionan los planes mensuales ahora:
+Hasta entonces, lo más habitual era pensar en AppleCare+ como una compra cerrada de dos años. Con el pago mensual, Apple añadía más flexibilidad para el usuario y, al mismo tiempo, más recurrencia para su negocio.
 
-> Para los planes mensuales, el plazo de su plan es de un (1) mes. 
-> Su Plan se renovará automáticamente cada mes a menos que se cancele según lo establecido en la Sección 9 de “Cancelación” a continuación, incluso en el caso de que Apple ya no pueda reparar su Equipo Cubierto debido a la falta de disponibilidad de piezas de servicio, en cuyo caso Apple proporcionará usted con un aviso de cancelación por escrito con treinta (30) días de anticipación, o según lo exija la ley.
+## Qué cambiaba
 
-Como es lógico, el pago mensual nos sale más caro que el pago anual por adelantado, por ejemplo, dos años de cobertura de AppleCare+ para un iPhone 11 o XR nos costaría $191 si lo pagamos mensualmente y $149 si pagamos el total por adelantado.
+El plan mensual se renovaba automáticamente cada mes hasta que el usuario lo cancelara o hasta que Apple dejara de poder ofrecer servicio para ese equipo.
 
-La suscripción mensual también está vigente para los planes AppleCare + con cobertura contra robo y pérdida.
+En la práctica, eso significaba:
+
+- Menor barrera de entrada para contratar AppleCare+.
+- Posibilidad de mantener cobertura más allá del periodo inicial.
+- Más ingresos recurrentes para Apple.
+- Coste total potencialmente más alto si se mantiene durante mucho tiempo.
+
+Por ejemplo, dos años de cobertura para un iPhone 11 o XR podían salir más caros pagando mes a mes que pagando el plan completo por adelantado.
+
+La suscripción mensual también aplicaba a planes AppleCare+ con cobertura contra robo y pérdida.
+
+## Lectura retrospectiva
+
+Visto con el tiempo, este cambio encaja con lo que Apple estaba empujando en esa época: servicios, suscripciones y una relación más continua con el cliente.
+
+Lo vimos en la misma keynote con [Apple Arcade y Apple TV+](/blog/apple-event-innovation-only/). AppleCare+ era otra pieza del mismo tablero, aunque menos vistosa que un iPhone nuevo.
+
+Si quieres revisar costes de herramientas, suscripciones o servicios digitales antes de incorporarlos a tu negocio, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

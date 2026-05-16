@@ -1,118 +1,109 @@
 ---
 layout: post
-title: Plantillas en Spark Mail
+title: "Plantillas en Spark Mail para ahorrar tiempo con el email"
 date: 2019-09-06 10:00:00 +0300
 image: /images/logo-spark.jpg
+image_alt: "Logotipo de Spark Mail, cliente de correo para iOS, iPadOS y macOS"
+description: "Spark Mail añadió plantillas reutilizables con marcadores de posición para responder más rápido informes, presupuestos, FAQs y correos repetitivos."
+resumen: "Las plantillas de Spark convierten emails repetitivos en bloques reutilizables con campos variables, una función muy útil para productividad y atención al cliente."
 source: AJRA-v09/_posts/2019-09-06-plantillas-spark.md
 ---
 
-Hoy quiero hablaros de Spark, otra vez.
-No es la primera ve que hablo de Spark, pero no me canso de hacerlo ya que considero que es el mejor cliente de correos que podemos encontrar en iOS y iPadOS.
+Hoy toca hablar de Spark otra vez.
 
-Spark es de esas aplicaciones que tienen pequeñas características que nos facilitan el trabajo en nuestro día a día.
+No es la primera vez que aparece en el blog. Ya comenté funciones como [enviar más tarde y seguimiento de correos](/blog/spark-actualiza/) y también la llegada de [Spark 2](/blog/spark-2/). La razón es sencilla: Spark ha sido durante años uno de los clientes de correo más interesantes para iOS, iPadOS y macOS.
 
-Así que este artículo os voy a hablar de dos cosas que me encantan **APLICACIONES PARA iOS** y **PRODUCTIVIDAD**.
-
-<figure>
-<img src="/images/155.webp" alt="" />
-</figure>
-
-Spark cuenta con una característica que uso a diario y que me hace ahorrar tiempo, se trata de las plantillas.
-
-Las plantillas nos permiten escribir un correo electrónico e incluir marcadores de posición para nombres, números, fechas, etc… para después volver a usarlas y ahorrar tiempo.
-
-Yo tengo varios clientes a los que diariamente les envío un email con un reporte de las ventas de su comercio electrónico.
-Al principio le escribía el email cada día y se lo enviaba, pero eso me robaba mucho tiempo y no era una tarea escalable, cuantos más clientes tenga más tiempo perdería en estas pequeñas tareas.
-
-Así que lo que hice fue copiar y pegar ese email en la aplicación notas y cada día abría la app y copiaba y pegaba el texto, pero tenía que modificar el mail cada día con información como el nombre del cliente, fecha, etc… (no sería la primera vez que se me olvida cambiar un nombre y le envío el email a un cliente con el nombre de otro).
-
-Todo esto era un incordio hasta que llegaron los chicos de Readdle e implementaron las Plantillas a su aplicación Spark.
-
-Como habéis podido ver en el vídeo la función de Plantillas de Spark, nos permite guardar bloques de texto reutilizables que permiten especificar marcadores de posición, que luego se reemplazan por valores reales al enviar el email.
-
-Esto es genial y nos puede ahorrar mucho tiempo en correos electrónicos del tipo:
-- Informes
-- Actualizaciones de trabajo
-- Lanzamientos de productos
-- Presupuestos a clientes
-- Contestaciones a FAQs
-
-
-## COMO CREAR PLANTILLAS EN SPARK
-Crear una plantilla en Spark es una tarea muy sencilla, basta ir a Preferencias de Spark y la opción “Plantillas”.
-Luego hacemos click en el botón “Crear plantilla” y ahí podremos crear la plantilla con el texto y estructura que necesitemos.
+Esta vez la función clave son las plantillas.
 
 <figure>
-<img src="/images/155-2.jpg" alt="" />
+<img src="/images/155.webp" alt="Editor de plantillas de Spark Mail con campos reutilizables" />
 </figure>
 
-Una vez acabado guardamos la plantilla con el nombre que deseemos y así estará disponible en todo momento a solo un click de nuestro cliente de correos.
+## Qué son las plantillas de Spark
 
-## PLANTILLAS COMPARTIDAS
+Las plantillas permiten guardar correos reutilizables e incluir marcadores de posición para nombres, fechas, importes, productos o cualquier dato variable.
 
-Otra característica extra que tienen las plantillas de Spark es que se pueden compartir entre miembros de un mismo grupo de trabajo.
+El caso típico es un correo que repites muchas veces: informes, presupuestos, respuestas de soporte, actualizaciones de proyecto o contestaciones a preguntas frecuentes.
 
-Esto es muy útil por ejemplo en el equipo de asistencia al cliente de cualquier empresa.
-Se pueden guardar plantillas para las FAQs y se comparten entre todos los compañeros de trabajo, de esta forma es mucho más rápido y sencillo darle un buen servicio a sus clientes.
+Antes de tener plantillas, lo habitual era guardar textos en Notas, copiar y pegar, cambiar el nombre del cliente, actualizar la fecha y revisar que no quedara ningún dato del correo anterior.
 
-## MARCADORES DE POSICION
+Eso funciona, pero es fácil equivocarse. Y cuando una tarea se repite cada día, cualquier fricción se multiplica.
 
-Ya os he comentado el tema de los marcadores de posición y seguro que lo habéis visto en el vídeo, pero vamos a darles un vistazo rápido.
+Con las plantillas de Spark, ese bloque queda guardado dentro del propio cliente de correo y los campos variables se completan antes de enviar.
 
-Los marcadores de posición son valores de texto que pueden cambiar sobre la marcha al redactar o enviar un correo electrónico.
+## Para qué tipo de correos sirve
+
+Las plantillas son especialmente útiles para:
+
+- Informes recurrentes.
+- Actualizaciones de trabajo.
+- Lanzamientos de productos.
+- Presupuestos a clientes.
+- Respuestas de soporte.
+- Contestaciones a FAQs.
+
+Encajan muy bien con una forma de trabajar tipo [GTD](/blog/gtd-flujo-de-trabajo-y-productividad-sin-estres/): sacar tareas repetitivas de la cabeza y convertirlas en sistemas fiables.
+
+## Cómo crear una plantilla en Spark
+
+Crear una plantilla en Spark es sencillo:
+
+1. Abre las preferencias de Spark.
+2. Entra en la sección **Plantillas**.
+3. Haz clic en **Crear plantilla**.
+4. Escribe el texto y añade los campos que necesites.
+5. Guarda la plantilla con un nombre claro.
 
 <figure>
-<img src="/images/155-3.jpg" alt="" />
+<img src="/images/155-2.jpg" alt="Pantalla de creación de una plantilla en Spark Mail" />
 </figure>
 
-Para crear marcadores de posición en Spark, use el botón “Agregar marcador de posición” en la barra de herramientas.
+Después la tendrás disponible al redactar un correo.
 
-Hay dos tipos de marcadores de posición, las que vienen predefinidos por Spark y los que podemos crear y personalizar los usuarios:
+## Plantillas compartidas
 
-**Marcadores de posición preestablecido (Azules):**
-Los marcadores de posición azules son los que vienen integrados en Spark y extraen la información de forma automática y nos permiten utilizar información como:
+Otra función interesante es que las plantillas se pueden compartir con miembros de un mismo equipo.
 
-- Primer nombre del destinatario
-- Apellido del destinatario
-- Nombre completo del destinatario
-- Mi primer nombre
-- Mi apellido
-- Mi nombre completo
-Es útil por ejemplo para saludar a la persona que va a recibir el correo o cerrar con tu nombre al final de email.
+Para atención al cliente, ventas o soporte interno tiene mucho sentido: todos responden con criterios parecidos, se reducen errores y se mantiene un tono más consistente.
 
-**Marcadores de posición personalizados (Naranjas):**
-Los marcadores de posición naranjas son los que puedes personalizar con tus propios valores.
+## Marcadores de posición
 
-Estos marcadores de posición van genial cuando quieres escribir un valor personalizado y quieres que Spark te lo recuerde antes de enviar el mail.
-Si has incluido un marcador de posición naranja en tu plantilla y te olvidas de introducir un valor, Spark te lo recordará antes de dejarte enviar el correo.
+Los marcadores de posición son valores que Spark sustituye al preparar el correo.
 
-## EJEMPLO DE PLANTILLA:
+Hay dos tipos:
 
-Para este ejemplo, imaginemos que trabajas en una empresa de fabricación y que un cliente te ha enviado un correo electrónico solicitando un presupuesto para hacer un pedido.
+<figure>
+<img src="/images/155-3.jpg" alt="Marcadores de posición en una plantilla de Spark Mail" />
+</figure>
 
+**Marcadores predefinidos:** Spark puede completar datos como el primer nombre del destinatario, el apellido o tu propio nombre.
+
+**Marcadores personalizados:** tú defines el campo y Spark te pide completarlo antes de enviar. Son perfectos para importes, fechas, productos, números de pedido o cualquier dato que cambie en cada correo.
+
+## Ejemplo de plantilla
+
+Imagina que un cliente solicita un presupuesto:
+
+```text
 Hola, {Nombre del destinatario}:
 
-Gracias por enviarnos un correo electrónico con su consulta.
+Gracias por escribirnos.
 
-Estaremos encantados de ayudarte con tu pedido masivo de {product_name} y enviar la cotización adjunta para su lectura.
+Te envío el presupuesto para {product_name}.
 
 Nombre del producto: {product_name}
-
 Cantidad deseada: {product_quantity}
-
 Costo por unidad: {product_cost_per_unit}
-
 Total con descuento: {discounted_total}
 
-El pedido puede completarse y enviarse dentro de los {delivery_day_number} días desde la recepción del primer pago.
+El pedido puede prepararse en {delivery_day_number} días desde la confirmación.
 
-Por favor, háganos saber si tiene alguna pregunta.
+Si tienes cualquier duda, dime y lo revisamos.
 
-Gracias y saludos,
+Gracias,
 {Mi nombre completo}.
+```
 
----
+La clave no es escribir menos por escribir menos. La clave es reducir errores, responder con más consistencia y dejar el tiempo de verdad para los correos que sí necesitan pensamiento.
 
-Como podéis ver, la funcionalidad de Plantillas de Spark nos ayuda a ahorrar tiempo y a ser mas productivo.
-
-No lo dudes, descárgate Spark Mail y haz tus propias pruebas.
+Si quieres revisar tu flujo de email, plantillas de respuesta o procesos de atención al cliente, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

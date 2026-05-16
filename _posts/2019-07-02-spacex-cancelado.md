@@ -1,17 +1,30 @@
 ---
 layout: post
-title: Cancelado el lanzamiento del SpaceX a 9 segundos del despegue
+title: "SpaceX canceló un lanzamiento de Falcon 9 a 9 segundos del despegue"
 date: 2019-07-02 10:00:00 +0300
 image: /images/logo-spacex.jpg
+image_alt: "Logotipo de SpaceX sobre fondo oscuro"
+description: "Un lanzamiento de Falcon 9 se detuvo a solo 9 segundos del despegue, recordando que la automatización y la prudencia también forman parte del éxito espacial."
+resumen: "El aborto de lanzamiento de un Falcon 9 a segundos del despegue fue una muestra de cómo SpaceX prioriza seguridad, telemetría y capacidad de reacción."
 source: AJRA-v09/_posts/2019-07-02-spacex-cancelado.md
 ---
 
-Hoy **SpaceX** tenia programado el lanzamiento de un cohete **Falcon 9**.
+**SpaceX** tenía programado el lanzamiento de un cohete **Falcon 9** con un satélite de comunicaciones Intelsat 35e rumbo a una órbita geoestacionaria.
 
-En esta ocasión el **Falcon 9** tenia que transportar un satélite de comunicaciones (el Intelsat 35e) hasta una orbita geoestacionaria.
+El despegue estaba previsto desde la histórica plataforma 39A del Kennedy Space Center, en Florida, el mismo punto de partida de muchas misiones clave del programa espacial estadounidense.
 
-El despegue, como ya nos tienen acostumbrados, lo han iban a realizar desde **la famosa lanzadera 39A del Kennedy Space Center de Florida**.
+La sorpresa llegó cuando, a solo 9 segundos del despegue, los sistemas detuvieron la cuenta atrás.
 
-La sorpresa ha venido cuando a tan solo 9 segundos del despegue los técnicos han detenido el lanzamiento.
+## Un aborto también es una buena noticia
 
-La siguiente ventana de lanzamiento esta prevista para el Lunes 3 de Julio a las 7:37 p.m. EDT
+Visto desde fuera puede parecer un fallo. En realidad, este tipo de abortos son una parte normal de la operación espacial moderna.
+
+Si el cohete, la plataforma o cualquier sistema de apoyo detecta un parámetro fuera de rango, lo responsable es parar. Mejor perder una ventana de lanzamiento que arriesgar un cohete, una carga útil y una misión completa.
+
+Esta cultura técnica es una de las razones por las que SpaceX cambió el ritmo del sector. Ya lo vimos en otras misiones del blog, como [BulgariaSat-1](/blog/spacex-bulgariasat/), [Inmarsat-5](/blog/spacex-inmarsat/) o el primer despliegue de [Starlink](/blog/spacex-starlink/): cada lanzamiento combina ingeniería, logística y una cantidad enorme de datos en tiempo real.
+
+La siguiente ventana de lanzamiento quedó prevista para el lunes 3 de julio a las 7:37 p.m. EDT.
+
+Como lectura retrospectiva, este apunte recuerda algo importante: en tecnología, detenerse a tiempo también es parte del éxito.
+
+Si quieres comentar proyectos tecnológicos, automatización o cómo comunicar mejor este tipo de hitos, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

@@ -1,37 +1,58 @@
 ---
 layout: post
-title: SQUARESPACE TIPS 008 — La importancia del !Important
+title: "Squarespace Tips 008: cuándo usar !important en CSS"
 date: 2019-06-23 10:00:00 +0300
 image: /images/152-2.jpg
+image_alt: "Código CSS personalizado aplicado a una página creada en Squarespace"
+description: "El modificador !important puede ayudarte a sobrescribir estilos en Squarespace, pero conviene usarlo con criterio para no complicar el mantenimiento del CSS."
+resumen: "En Squarespace, !important sirve para dar prioridad a una regla CSS cuando choca con estilos existentes. Úsalo como recurso puntual, no como solución para todo."
 source: AJRA-v09/_posts/2019-06-23-squarespace-tip-8.md
 ---
 
-En el Tip anterior os explicábamos que es el código CSS y cómo usarlo en **Squarespace**.
+En el [tip anterior sobre CSS en Squarespace](/blog/squarespace-tip-7/) vimos cómo añadir estilos personalizados a una web.
 
-Muchos lo habéis probado y a algunos no os ha funcionado correctamente.
+El siguiente problema suele aparecer rápido: escribes una regla, la guardas, recargas la página y no cambia nada.
 
-Esto puede suceder cuando utilizas algún código CSS que entre en conflicto con el código preexistente en **Squarespace**.
+En muchos casos no es que el CSS esté mal escrito. Lo que ocurre es que entra en conflicto con estilos que **Squarespace** ya trae definidos en la plantilla.
 
-Para solucionar este problema hay que indicarle a tu sitio web que el código CSS que estás añadiendo es importante y tiene prioridad sobre el resto.
+Una forma de resolverlo es usar `!important`, una instrucción que le dice al navegador que esa regla tiene prioridad sobre otras reglas que afecten al mismo elemento.
 
-Eso lo hacemos utilizando el atributo !important.
+## Un ejemplo sencillo
 
-## Vamos con un ejemplo:
+Imagina que tienes dos reglas para los párrafos:
 
-En el siguiente ejemplo primero le estamos diciendo a la web que muestre el texto en rojo y acto seguido le decimos que lo muestre en negro.
+```css
+p {
+  color: red;
+}
 
-```
-p { color: red; } p { color: black; }
-```
-
-Como es lógico la web no puede mostrar el texto en dos colores al mismo tiempo, y por cómo funciona el código CSS la última orden es la que tiene efecto, así que en este ejemplo el texto se mostrará en negro.
-
-En ejemplo anterior podríamos usar el atributo !important para forzar que se mostrase en rojo.
-
-```
-p { color: red !important; } p { color: black; }
+p {
+  color: black;
+}
 ```
 
-En webs como **Squarespace**, las cuales ya tienen su hoja de estilos CSS preconfigurada tendremos que usar en muchas ocasiones el atributo !important para que nuestro CSS personalizado surja efecto.
+El navegador no puede mostrar el mismo texto en rojo y negro a la vez. En este caso, por cómo funciona la cascada de CSS, acabará aplicando el color negro.
 
-Y recuerda, en caso de que necesites ayuda con tu web en **Squarespace** y su código CSS [puedes contactar conmigo](mailto:info@ajra.es).
+Si quieres forzar el rojo, podrías escribir:
+
+```css
+p {
+  color: red !important;
+}
+
+p {
+  color: black;
+}
+```
+
+Con `!important`, la primera regla gana aunque después aparezca otra que intenta cambiar el color.
+
+## Cuándo usarlo en Squarespace
+
+En webs como **Squarespace**, donde la plantilla ya carga su propia hoja de estilos, `!important` puede ser útil para pequeños ajustes visuales: colores, tamaños, márgenes o detalles concretos que la plantilla insiste en sobrescribir.
+
+Pero no conviene usarlo por sistema. Si todo tu CSS acaba lleno de `!important`, cada cambio posterior será más difícil de mantener. Antes de añadirlo, revisa si puedes ser más específico con el selector o si estás apuntando al elemento correcto.
+
+Esta idea conecta con otros ajustes básicos de diseño en Squarespace, como [cambiar el favicon](/blog/squarespace-tips-6/) o [personalizar colores de forma consistente](/blog/colorzilla/): pequeños detalles, pero con impacto en la percepción final de la web.
+
+Si quieres revisar el CSS de tu web en Squarespace y ordenar los cambios sin romper la plantilla, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
