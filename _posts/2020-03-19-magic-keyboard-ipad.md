@@ -1,31 +1,46 @@
 ---
 layout: post
-title: Nuevo Magic Keyboard para el iPad
+title: "Magic Keyboard para iPad: el teclado con trackpad que cambió el enfoque"
 date: 2020-03-19 10:00:00 +0300
 image: /images/logo-apple.jpg
+image_alt: "Logotipo de Apple asociado al Magic Keyboard para iPad"
+description: "Apple presentó el Magic Keyboard para iPad con trackpad, retroiluminación, USB-C de carga y diseño flotante."
+resumen: "El Magic Keyboard fue importante porque convirtió el puntero del iPad en una experiencia oficial, no solo una función escondida en Accesibilidad."
 source: AJRA-v09/_posts/2020-03-19-magic-keyboard-ipad.md
 ---
 
-Apple ha presentado un nuevo modelo de iPad (del que ya os hablaré en otro artículo) y junto a el ha presentado el nuevo Magic Keyboard para iPad, un teclado con trackpad.
+Apple presentó un nuevo Magic Keyboard para iPad con trackpad integrado.
 
+Era una noticia importante porque reforzaba el cambio de dirección del iPad: de dispositivo táctil puro a herramienta de trabajo más flexible.
 
-Por fin Apple se ha decidido y le ha incorporado un trackpad al iPad, lo cual abre un nuevas formas de trabajar con este dispositivo.
+## Qué añadía
 
-El teclado incorpora la mayoría de características que la gente venía pidiendo hace tiempo, como por ejemplo:
+El Magic Keyboard incorporaba varias características muy esperadas:
 
-- Retroiluminación, lo que lo hace más cómodo a la hora de trabajar en la oscuridad.
-- Mecanismo de tijera de 1mm de recorrido, lo cual ofrece una muy buena sensación al escribir en el.
-- Un puerto USB-C que permite la carga del dispositivo dejando libre el puerto USB-C del iPad para otro as dispositivos.
-- El teclado al plegarlo se convierte en funda delantera y trasera.
-- El nuevo sistema flotante permite ajustar la inclinación del iPad para obtener el mejor punto de vista.
+- Trackpad integrado.
+- Teclas retroiluminadas.
+- Mecanismo de tijera con 1 mm de recorrido.
+- Puerto USB-C para cargar el iPad.
+- Diseño que funcionaba como funda delantera y trasera.
+- Sistema flotante para ajustar la inclinación de la pantalla.
 
+El puerto USB-C era especialmente útil porque permitía cargar el iPad dejando libre el puerto principal para accesorios.
 
-El único punto en el que el nuevo Magic Keyboard para iPad no es tan bonito, es el precio:
+## El precio
 
-- $299 para el modelo de 11 inch.
-- $349 para el modelo de 12.9 inch
+La parte menos amable era el precio:
 
----
+- 299 dólares para el modelo de 11 pulgadas.
+- 349 dólares para el modelo de 12,9 pulgadas.
 
-Podéis ver la pagina oficial del Magic Keyboard para iPad [desde aquí](https://www.apple.com/ipad-keyboards/).
-Y realizar su compra [desde aquí](https://www.apple.com/shop/product/MXQT2LL/A/magic-keyboard-for-ipad-pro-11%E2%80%91inch-2nd-generation-us-english).
+No era un accesorio barato, pero sí marcaba una apuesta clara de Apple.
+
+## Por qué fue importante
+
+Antes ya habíamos visto cómo [usar un ratón en iPadOS](/blog/raton-ipados/), pero esa función estaba más cerca de Accesibilidad que de un flujo principal de trabajo.
+
+Con el Magic Keyboard, el trackpad pasó a ser parte central de la experiencia.
+
+Ese camino continuaría con mejoras en [iPadOS 14](/blog/ipados-14/) y con más apps adaptadas a teclado, ratón y multitarea.
+
+Si quieres configurar un iPad como equipo de trabajo con teclado, trackpad, archivos y apps profesionales, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

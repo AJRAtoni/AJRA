@@ -1,25 +1,43 @@
 ---
 layout: post
-title: Jetpack se actualiza con mejoras en su buscador
+title: "Jetpack mejoró su buscador para WordPress"
 date: 2020-05-31 10:00:00 +0300
 image: /images/194.png
+image_alt: "Interfaz de Jetpack Search dentro de una web WordPress"
+description: "Jetpack actualizó su buscador con resultados instantáneos, filtros, corrección ortográfica, resaltado e indexación en tiempo real."
+resumen: "Una buena búsqueda interna ayuda a que los visitantes encuentren contenido, productos y respuestas dentro de una web WordPress grande."
 source: AJRA-v09/_posts/2020-05-31-jetpack-update.md
 ---
 
-Los chicos de **Automattic** (creadores de WordPress) han actualizado su famoso plugin Jetpack incluyendo importantes novedades en su buscador.
+Automattic, la empresa detrás de WordPress.com, actualizó Jetpack con mejoras importantes en su buscador.
 
-## La búsqueda de Jetpack ahora mejor.
-A medida que tu pagina crece, a tus visitantes les resulta más complicado encontrar lo que busca en ella. En **Automattic** lo saben y por eso han anunciado una nueva y mejorada búsqueda, una potente solución de búsqueda que hará que tus usuarios encuentren todo lo que busquen de forma rápida y sencilla.
+La búsqueda interna suele parecer secundaria hasta que una web empieza a crecer.
 
-¿Qué novedades incluye?
+Cuando hay muchos posts, productos o páginas, encontrar contenido rápido se vuelve clave.
 
-- Búsquedas instantáneas y filtros sin necesidad de recargar la pagina.
-- Compatibilidad mejorada con temas en versión móvil y para ordenador.
-- Priorización de resultados según el tráfico de tu web.
-- Corrección ortográfica y resultados de búsqueda por coincidencia de términos.
-- Términos de búsqueda resaltados en los comentarios y el contenido de tus entradas.
+## Qué mejoraba Jetpack Search
+
+La nueva búsqueda de Jetpack añadía:
+
+- Resultados instantáneos sin recargar la página.
+- Filtros.
+- Mejor compatibilidad con temas móviles y de escritorio.
+- Priorización de resultados según tráfico.
+- Corrección ortográfica.
+- Coincidencia de términos.
+- Términos resaltados en contenido y comentarios.
 - Indexación en tiempo real.
 
-Con estas mejoras podrás conseguir que tus visitantes encuentren lo que buscan y pasen mas tiempo en tu pagina web, y recuerda nadie puede comprar lo que no encuentra, así que si en tu web vendes productos no dudes en probar la renovada búsqueda de Jetpack.
+## Por qué importa
 
-<a href="https://es.jetpack.com/" class="cta-button button button--small" style="display: flex;">PROBAR JETPACK</a>
+Si un usuario no encuentra lo que busca, se va.
+
+En una tienda online, eso puede significar perder ventas. En un blog, puede significar que contenido útil quede enterrado. En una base de conocimiento, puede multiplicar preguntas de soporte.
+
+La búsqueda interna es parte de la experiencia de usuario, igual que la velocidad, la arquitectura de contenido o el SEO.
+
+Por eso conecta con temas como [errores SEO](/blog/errores-seo/), [PageSpeed](/blog/pagespeed/) y herramientas como [Site Kit by Google](/blog/sitekit-google/).
+
+Jetpack puede ser útil, pero no deja de ser otro plugin. En WordPress conviene equilibrar funcionalidad, rendimiento y mantenimiento, como recordaba en [WordPress 5.2.4](/blog/wordpress-524/).
+
+Si quieres revisar búsqueda interna, estructura de contenidos o rendimiento en WordPress, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

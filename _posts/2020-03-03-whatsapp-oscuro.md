@@ -1,22 +1,40 @@
 ---
 layout: post
-title: WhatsApp se actualiza en iOS y añada la opción de “modo oscuro”
+title: "WhatsApp para iOS añadió modo oscuro"
 date: 2020-03-03 10:00:00 +0300
 image: /images/logo-whatsapp.jpg
+image_alt: "Logotipo de WhatsApp asociado al modo oscuro en iOS"
+description: "WhatsApp incorporó modo oscuro en iOS usando las APIs de iOS 13 para adaptarse automáticamente a la apariencia del sistema."
+resumen: "El modo oscuro de WhatsApp fue una actualización esperada porque la app forma parte del uso diario de millones de personas."
 source: AJRA-v09/_posts/2020-03-03-whatsapp-oscuro.md
 ---
 
-Después de varios meses en fase beta, por fin han lanzado la actualización de WhatsApp que incorpora la opción de activar el “modo oscuro” en la famosa app de mensajería de Facebook.
+Después de varios meses en beta, WhatsApp lanzó su modo oscuro para iOS.
 
 <figure>
-<img src="/images/191.jpg" alt="" />
+<img src="/images/191.jpg" alt="Interfaz de WhatsApp en iOS con modo oscuro activado" />
 </figure>
 
-Como era de esperar WhatsApp hace uso de las API’s de iOS 13 para detectar si nuestro dispositivo tiene activado o no el modo oscuro para automáticamente cambiar su apariencia.
+La app aprovechaba las APIs de iOS 13 para detectar si el sistema estaba en modo claro u oscuro y adaptar la interfaz automáticamente.
 
-Para activar el modo oscuro hay que tener la app actualizada a la version 2.20.30 y ella sola detectara si nuestro teléfono esta en modo oscuro o no.
+## Cómo se activaba
 
-Entre otras novedades que incluye esta actualización esta la de filtrar las búsquedas por autor y contenido.
-Permitiendo así hacer búsquedas de las fotos o videos que envío X persona.
+Para usarlo había que tener WhatsApp actualizado a la versión 2.20.30 o posterior.
 
-<a href="https://www.whatsapp.com/download/" class="cta-button button button--small" style="display: flex;">DESCARGAR WHATSAPP</a>
+La app no necesitaba un interruptor propio: seguía la configuración del sistema.
+
+Si el iPhone estaba en modo oscuro, WhatsApp también.
+
+## Otras mejoras
+
+La actualización también añadió filtros de búsqueda por autor y contenido.
+
+Eso permitía encontrar fotos, vídeos o mensajes enviados por una persona concreta con más facilidad.
+
+## Por qué importaba
+
+El modo oscuro ya estaba llegando a sistemas, webs y herramientas profesionales. También expliqué cómo aplicarlo en una web con [`prefers-color-scheme`](/blog/modo-oscuro/).
+
+En una app como WhatsApp, que se usa a todas horas, este cambio tenía impacto real en comodidad visual.
+
+Si quieres revisar experiencia móvil, accesibilidad visual o adaptación de tu web al modo oscuro, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
