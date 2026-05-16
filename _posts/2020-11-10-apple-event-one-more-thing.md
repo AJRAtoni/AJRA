@@ -1,41 +1,46 @@
 ---
 layout: post
-title: La Keynote "One More Thing" y los procesadores M1 de Apple
+title: "One More Thing: Apple presentó los primeros Mac con M1"
 date: 2020-11-10 10:00:00 +0300
 image: /images/logo-apple.jpg
+image_alt: "Logotipo de Apple asociado a los primeros Mac con chip M1"
+description: "Apple presentó el chip M1 y los primeros Mac con Apple Silicon: MacBook Air, MacBook Pro de 13 pulgadas y Mac mini."
+resumen: "La keynote One More Thing marcó el inicio real de Apple Silicon en el Mac: más rendimiento, más eficiencia y control total de hardware y software."
 source: AJRA-v09/_posts/2020-11-10-apple-event-one-more-thing.md
 ---
 
-En la Keynote **One More Thing** Apple presento su nuevo procesador M1.
+En la keynote **One More Thing**, Apple presentó su nuevo procesador **M1**.
 
-Un procesador diseñado bajo arquitectura ARM y que será el corazón de los nuevos ordenadores de Apple.
+Era el primer chip Apple Silicon para Mac y el inicio de una transición muy importante.
 
+## Por qué importaba el M1
 
-Estos procesadores M1 se espera que sean un salto evolutivo, estarán varios escalones por encima de los anteriores macs con Intel, tanto en potencia como en consumo energético.
+El M1 estaba basado en arquitectura ARM y prometía un salto enorme en rendimiento por vatio.
 
-Gracias a los M1 Apple podrá hacer ordenadores más potentes y en los que la batería dure más.
+Apple podía diseñar el chip, el sistema operativo y buena parte del hardware como un conjunto, igual que llevaba años haciendo en iPhone y iPad.
 
----
+Ese control integrado era la clave: menos dependencia de Intel, más eficiencia y una experiencia más optimizada.
 
-Pero Apple no podía presentar un chip sim integrarlo en sus productos, así que durante la presentación vimos tres nuevos Macs:
+La transición venía preparándose desde hacía tiempo, como comenté al hablar de [Proyecto Kalamata](/blog/apple-kalamata/) y de la importancia estratégica de [ARM](/blog/nvidia-arm/).
 
-- MacBook Air
-- MacBook Pro 13"
-- Mac Mini
+## Los primeros Mac con M1
 
-Estos son los tres modelos que Apple presento y que vienen con el nuevo chip M1.
+Apple presentó tres equipos:
 
-Estéticamente son "casi" iguales a la generación anterior, simplemente tienen el nuevo procesador lo que los hace increíblemente más potentes, eficientes y con mejor rendimiento de batería.
+- MacBook Air.
+- MacBook Pro de 13 pulgadas.
+- Mac mini.
 
-Así que hay que comenzar a olvidarse un poco de velocidades de procesador, MHZ de las memorias RAM, velocidad de la cache... Apple ha conseguido crear un procesador en el que va todo integrado, por lo cual veremos algo parecido a lo que llevamos años viendo en los iPhone, procesadores que sobre el papel deberían parecer inferiores a los de la competencia, pero que acaban dando un mejor resultado en el uso real.
+Estéticamente eran muy parecidos a la generación anterior. Lo importante estaba dentro.
 
-Y esto es debido a la perfecta sincronización entre hardware y software.
+Los nuevos Mac prometían más potencia, menos consumo y mejores autonomías.
 
----
+## Mi caso
 
-Como curiosidad os diré que me he comprado un MacBook Air con el chip M1, un ultraportatil con un procesador increíble y que además ahora viene sin ventilador, por lo cual será tan silencioso como trabajar con un iPad.
+Como curiosidad, compré un MacBook Air con chip M1.
 
-<Img src=“/images/227-2.jpeg”> 
+Era un ultraportátil sin ventilador, silencioso como un iPad, pero con rendimiento de Mac.
 
+Después de esta presentación, muchas apps empezaron a adaptarse rápido, como vimos con [Affinity para M1](/blog/affinity-m1/) y [VLC para M1](/blog/vlc-m1/).
 
-Ya os iré contando más cuando me llegue y lo ponga a prueba.
+Si quieres revisar si un Mac con Apple Silicon encaja en tu flujo de trabajo o preparar una transición de equipo, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).

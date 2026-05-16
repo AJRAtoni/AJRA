@@ -1,18 +1,40 @@
 ---
 layout: post
-title: Tesla comienza a vender Tequila
+title: "Tesla Tequila: cuando una broma de Elon Musk acabó en producto"
 date: 2020-11-08 10:00:00 +0300
 image: /images/logo-tesla.jpg
+image_alt: "Logotipo de Tesla asociado al lanzamiento de Tesla Tequila"
+description: "Tesla lanzó una botella de tequila premium por 250 dólares, siguiendo la línea de productos nacidos de bromas de Elon Musk."
+resumen: "Tesla Tequila fue menos una noticia de bebidas y más una muestra de marketing: comunidad, escasez, diseño y cultura de marca."
 source: AJRA-v09/_posts/2020-11-08-tesla-tequila.md
 ---
 
-Todos conocemos a Elon Musk y sabemos que no es la primera vez que lo que comienza como una broma acaba transformándose en un producto que Tesla saca a la venta.
+Elon Musk tiene una habilidad especial para convertir bromas en productos reales.
 
-Ya paso con los [lanzallamas](https://www.theverge.com/tldr/2018/1/25/16933812/elon-musk-boring-company-flamethrower-price) o con los famosos [shorts rojos](https://nypost.com/2020/07/06/elon-musks-red-satin-tesla-short-shorts-sell-out-in-minutes/), pues el ultimo producto que Tesla ha sacado a la venta es **una botella de Tequila premium**.
+Ya había pasado con los lanzallamas de The Boring Company y con los famosos shorts rojos de Tesla.
 
+Después llegó **Tesla Tequila**.
 
-La botella de tequila tiene un precio de $250 y [se puede comprar desde la pagina de Tesla](https://shop.tesla.com/product/tesla-tequila).
+## Un producto improbable
 
-Según la descripción de la pagina web se trata de un "exclusivo tequila añejo de agave 100% Premium envejecido en barricas de roble francés, con una fruta seca y una pizca de vainilla ligera con un final equilibrado de canela y pimienta".
+Tesla puso a la venta una botella de tequila premium por **250 dólares**.
 
-<a href="https://shop.tesla.com/product/tesla-tequila" class="cta-button button button—small" style="display: flex;">TESLAQUILA</a> 
+La descripción hablaba de un tequila añejo de agave 100%, envejecido en barricas de roble francés, con notas de fruta seca, vainilla, canela y pimienta.
+
+Más allá del producto, lo interesante era la estrategia:
+
+- Edición limitada.
+- Diseño reconocible.
+- Comunidad muy implicada.
+- Conversación inmediata en redes.
+- Producto que parecía meme, pero se vendía como objeto de colección.
+
+## Lectura de marca
+
+Tesla no vendía solo un coche o una botella.
+
+Vendía pertenencia a una narrativa: tecnología, provocación, diseño, escasez y cultura fan.
+
+Es la misma razón por la que noticias como [Tesla Model Y](/blog/tesla-model-y/) o la evolución de [Tesla en bolsa](/blog/tesla-bolsa/) generaban tanta conversación. La marca siempre ha sabido ocupar mucho más espacio mediático del que tocaría por categoría.
+
+Si quieres revisar cómo convertir un lanzamiento en una historia de marca sin perder coherencia, puedes [escribirme a ajra@ajra.es](mailto:ajra@ajra.es).
