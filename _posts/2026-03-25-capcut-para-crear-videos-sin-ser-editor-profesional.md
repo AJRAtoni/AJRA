@@ -2,9 +2,8 @@
 title: "CapCut: para crear vídeos sin ser editor profesional"
 date: 2026-03-25 09:00:00 -0500
 description: "CapCut facilita crear vídeos decentes para redes sin aprender edición profesional desde cero."
-image: "/images/posts/capcut-gradient.webp"
-image_alt: "CapCut para crear vídeos sin ser editor profesional"
-recursos_logo: "/images/logos/recursos/capcut.webp"
+image: "/images/posts/Newsletter-012.webp"
+image_alt: "CapCut: para crear vídeos sin ser editor profesional"
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/012-CapCut.md"
 ---

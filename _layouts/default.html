@@ -22,7 +22,16 @@
     <main class="contenido blog-shell">
         <div class="container blog-container">
             <aside class="column blog-sidebar">
-                {% include profile-sidebar.html %}
+                <header class="sticky-column">
+                    <a href="{{ '/' | relative_url }}" aria-label="Volver al inicio"><img class="avatar" src="{{ '/images/AJRA.webp' | relative_url }}" alt="AJRA" width="150" height="150"></a>
+                    <h1>&lt;/AJRA&gt;</h1>
+                    <h2>👨🏻‍💻 Creative Dad &amp; Tech Geek</h2>
+                    <nav class="blog-nav" aria-label="Navegación principal">
+                        <a href="{{ '/' | relative_url }}">Inicio</a>
+                        <a href="{{ '/blog/' | relative_url }}">Blog</a>
+                        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+                    </nav>
+                </header>
             </aside>
             <section class="column blog-main">
                 {{ content }}

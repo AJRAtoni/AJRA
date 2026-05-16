@@ -2,9 +2,8 @@
 title: "Shopify para crear tu tienda online sin pelearte con la tecnología"
 date: 2026-02-18 09:00:00 -0500
 description: "Shopify ayuda a vender online con una base estable sin pelearte con servidores, pagos y plugins."
-image: "/images/posts/shopify-logo-gradient.webp"
+image: "/images/posts/Newsletter-007.webp"
 image_alt: "Shopify para crear tu tienda online sin pelearte con la tecnología"
-recursos_logo: "/images/logos/recursos/shopify.png"
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/007-Shopify.md"
 ---

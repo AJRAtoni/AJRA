@@ -5,7 +5,9 @@ layout: default
     <p class="eyebrow"><a href="{{ '/blog/' | relative_url }}">Blog</a> · {{ page.date | date: "%d/%m/%Y" }}</p>
     <h1>{{ page.title | escape }}</h1>
     {% if page.description %}<p class="post-lead">{{ page.description }}</p>{% endif %}
-    {% include recursos-featured.html item=page class="featured-image" loading="eager" %}
+    {% if page.image %}
+    <img class="featured-image" src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}">
+    {% endif %}
     <div class="post-content">
         {{ content }}
     </div>

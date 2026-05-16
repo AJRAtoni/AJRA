@@ -1,55 +1,82 @@
 ---
 layout: post
-title: ¿Que es un “Call to Action”?
+title: ¿Qué es un Call to Action?
 date: 2015-11-13 15:01:35 +0300
+description: "Un Call to Action es la llamada que guía al usuario hacia la acción que quieres que realice en tu web, landing page o campaña."
 image: /images/09.jpg
+image_alt: "¿Qué es un Call to Action?"
 source: AJRA-v09/_posts/2015-11-13-call-to-action.md
+resumen: Un Call to Action es la llamada que guía al usuario hacia la acción que quieres que realice en tu web, landing page o campaña.
 ---
 
-La idea es que mediante un botón, palabra o frase el usuario acabe realizando nuestro objetivo, ya sea hacer click en un botón, banner, rellenar un formulario de contacto, suscribirse a un newsletter, etc…
+Un **Call to Action**, o **CTA**, es una llamada a la acción: el texto, botón o enlace que indica al usuario cuál es el siguiente paso.
 
-Por lo que es muy importante tener claro nuestro objetivo antes de crear nuestro **"Call to Action"**.
+Puede ser algo tan directo como “Comprar ahora”, “Pedir presupuesto”, “Descargar guía”, “Reservar llamada” o “Suscribirme”.
 
-Los **"Call to Action"** no son exclusivo de una página web, también se puede incluir en redes sociales como Twitter y Facebook o en E-mail Marketing.
+La clave es que el CTA no es solo un botón bonito. Es el punto donde conectas el objetivo de tu web con la decisión que esperas del usuario.
 
-No hay que olvidar que en el Marketing Digital el contenido es el rey, si tienes buen contenido conseguirás visitas, y una vez que tengas visitas deberás usar los **"Call to Action"** para conseguir dirigirlas hacia tu objetivo.
+## Antes del CTA viene el objetivo
 
-## EL TAMAÑO IMPORTA
+Antes de diseñar una llamada a la acción tienes que tener claro qué quieres conseguir:
 
-Aunque te digan lo contrario el tamaño importa y mas en el caso de los **"Call to Action"**, cuanto más grande mejor.
+- una venta;
+- un formulario enviado;
+- una llamada;
+- una reserva;
+- una descarga;
+- una suscripción;
+- una visita a otra página;
+- una respuesta a una campaña.
 
-## ESPACIO EN BLANCO
+Si no sabes cuál es el objetivo, el CTA será confuso. Y si el CTA es confuso, la conversión baja.
 
-Para destacar el **"Call to Action"** lo mejor es dejar un espacio en blanco alrededor. Si cargamos demasiado una página haremos que el botón en cuestión no capte nuestra atención.
+Esto es especialmente importante en una [landing page](/blog/landing-page/), donde toda la página debería empujar hacia una única acción.
 
-Lo mejor es una página los más simple posible, basta con un pequeño texto explicativo y el botón en cuestión.
+## Cómo debe ser un buen Call to Action
 
-Y recordad poner **solo un CTA por web**, de nada sirve poner mas de una llamada a la acción, ya que eso confundirá al usuario y no sabra en cuál debe pulsar.
+Un buen CTA debería ser:
 
-## UBICACION
+1. **Claro.** La persona debe entender qué pasa al hacer clic.
+2. **Específico.** “Quiero mi presupuesto” suele funcionar mejor que “Enviar”.
+3. **Visible.** Debe destacar dentro de la página sin romper la experiencia.
+4. **Coherente.** El texto del botón debe coincidir con la promesa de la página.
+5. **Accionable.** Mejor usar verbos que indiquen movimiento: descargar, reservar, comprar, empezar.
 
-Hay muchas discusiones sobre dónde poner el **"Call to Action"** algunos dicen que lo mejor es ponerlo en la parte superior izquierda basándose en el orden de lectura occidental y que sería lo primero que verían. Pero basándoos en nuestra propia experiencia y los datos que hemos ido recopilando lo mejor seria ponerlo en la parte inferior derecha, siempre debajo de un texto explicativo o formulario de contacto.
+## Ubicación y contexto
 
-Lo único que esta claro es que el **"Call to Action"** debe estar dentro del **Above The Fold**, es decir, que no se debería tener qué hacer scroll para llegar al botón.
+Durante años se habló mucho de colocar el CTA “above the fold”, es decir, visible en el primer pantallazo. Sigue siendo una buena práctica en muchas páginas, pero no es una regla absoluta.
 
-## DIFERENCIACION
+Lo importante es que el CTA aparezca cuando la persona ya tiene suficiente contexto para actuar.
 
-Él **CTA** debe ser totalmente diferente y tiene que resaltar dentro del contenido de web. Los tres elementos que tenemos para destacar el **CTA** son el color, la forma y el copy.
+En páginas sencillas puede estar arriba. En ofertas más complejas puede repetirse después de explicar beneficios, prueba social o detalles del servicio.
 
-Es importante que el botón sobresalga sobre el resto de tu web y que tenga un texto (copy) llamativo y claro.
+Si quieres profundizar en ese concepto, tienes un artículo específico sobre [qué es el Above the Fold](/blog/abovethefold/).
 
-## CTA INTERACTIVO
+## Diseño: que parezca clicable
 
-Como se suele decir, el botón no debe solo ser un botón, debe parecerlo.
+Un CTA debe parecer un elemento interactivo. Parece obvio, pero muchas webs esconden sus acciones principales en textos poco visibles o botones sin contraste.
 
-Los usuarios están acostumbrados a que los botones y enlaces cambien de color cuando pasan el ratón por encima, así que procura que tú **CTA** tenga esa misma funcionalidad.
+Cuida especialmente:
 
-No se trata de que al pasar el ratón por encima cambie todo y salgan fuegos artificiales, basta con un ligero cambio para que al usuario le quede claro que ese botón el clickable.
+- color;
+- tamaño;
+- contraste;
+- espacio alrededor;
+- texto del botón;
+- comportamiento al pasar el cursor o tocar en móvil.
 
-## TEST A/B
+No hace falta convertirlo en una feria visual. Tiene que destacar lo suficiente para que no se pierda.
 
-Una de las cosas mas interesantes con los **CTA** es hacer un Test A/B para comprobar de entre varias versiones cual funciona mejor.
+## Prueba y mejora
 
-Estos son solo algunos de los consejos que os podemos dar, todos basándome en nuestras propias experiencias, lo cual no quiere decir que tenga porque funcionaros a todos, pero pruébalo y seguro que no quedaras defraudado.
+No existe un CTA perfecto para todos los casos. A veces cambia más el resultado una palabra que el color del botón.
 
-Y os recordamos que si necesitas ayuda con tus **CTA** me dedico profesionalmente a la asesoría y consultoría, así que [ponte en contacto conmigo](mailto:info@ajra.es) y veremos lo que puedo ayudarte.
+Por eso, cuando tengas tráfico suficiente, puedes hacer un [Test A/B](/blog/test-ab/) con diferentes versiones de texto, posición, color o estructura.
+
+## En resumen
+
+Un Call to Action es la pieza que transforma una visita en una acción.
+
+Si tu web recibe tráfico pero no consigue contactos, ventas o registros, revisar tus CTAs es uno de los primeros pasos que deberías dar.
+
+Si necesitas ayuda para mejorar las llamadas a la acción de tu web o campaña, puedes [ponerte en contacto conmigo](mailto:ajra@ajra.es) y vemos cómo optimizarlas.

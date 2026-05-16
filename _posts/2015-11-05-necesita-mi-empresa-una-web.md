@@ -1,36 +1,54 @@
 ---
 layout: post
-title: ¿Necesita mi empresa una pagina web?
+title: ¿Necesita mi empresa una página web?
 date: 2015-11-05 15:01:35 +0300
+description: "Tener una web sigue siendo una pieza básica para generar confianza, captar clientes y vender online sin depender solo de redes sociales o terceros."
 image: /images/05.jpg
+image_alt: "¿Necesita mi empresa una página web?"
 source: AJRA-v09/_posts/2015-11-05-necesita-mi-empresa-una-web.md
-resumen: Parece un poco extraño, pero todavía hay empresas que a día de hoy nos hacen
-  esta pregunta.
+resumen: Tener una web sigue siendo una pieza básica para generar confianza, captar clientes y vender online sin depender solo de redes sociales o terceros.
 ---
 
-Parece un poco extraño, pero todavía hay empresas que a día de hoy nos hacen esta pregunta.
+Parece una pregunta sencilla, pero todavía hay empresas que se la hacen: ¿de verdad necesita mi negocio una página web?
 
-## ¿NECESITA MI EMPRESA UNA PAGINA WEB?
+La respuesta corta es sí. Y no porque “todo el mundo tenga una”, sino porque una web propia sigue siendo uno de los activos digitales más importantes de cualquier empresa.
 
+Primero fueron los medios impresos, luego la radio, después la televisión y más tarde Internet. Hoy tus clientes buscan, comparan, investigan y toman decisiones desde el móvil antes de contactar, comprar o acercarse a una tienda.
 
-**La respuesta a esta pregunta es SI.**
+Por eso, tener presencia en Internet no es un extra: es una base mínima para que tu negocio pueda ser encontrado, entendido y recordado.
 
-Primero fueron los medios impresos, luego la radio, después la Television y ahora Internet. La Web se ha convertido en el medio de comunicación más utilizado, ya sea desde el ordenador o desde dispositivos móviles la gente está conectada permanentemente a Internet.
+## Por qué tu empresa necesita una web
 
-Por ese motivo, **que nuestra empresa tenga presencia en Internet se ha vuelto algo casi imprescindible.**
+Estos son algunos de los motivos más importantes:
 
-Existen varias razones por las cuales una página web es muy necesaria para tu negocio:
+1. **Genera confianza.** Una empresa, marca o producto con una web cuidada transmite más profesionalidad que una presencia limitada únicamente a redes sociales.
+2. **Ayuda a que te encuentren.** Muchos clientes investigan en Google antes de comprar, visitar una tienda o pedir presupuesto.
+3. **Explica qué haces.** Tu web debe dejar claro qué vendes, a quién ayudas y por qué deberían elegirte.
+4. **Convierte visitas en oportunidades.** Una web bien planteada puede captar formularios, llamadas, reservas, presupuestos o ventas.
+5. **Centraliza tu presencia digital.** Las redes sociales cambian, los algoritmos también. Tu web es el punto de referencia que controlas tú.
+6. **Facilita el contacto.** Un formulario, un email visible o una llamada a la acción clara reducen la fricción para quien quiere hablar contigo.
+7. **Permite vender o captar clientes 24/7.** Si tienes productos, servicios o reservas, tu web puede trabajar incluso cuando tú no estás delante.
 
-1. **Valor percibido**: Una empresa, marca o producto que tiene una pagina Web es percibida por el cliente con un valor añadido.
-2. Un 75% de los consumidores investigan la empresa, marca o producto por Internet antes de acercarse a la tienda.
-3. **Fuente de posibles clientes**: Una Web bien optimizada puede generar un mayor número de clientes potenciales que los creados por un equipo de ventas.
-4. Informa a los clientes de donde te pueden encontrar. Seguro que tu empresa tiene tarjetas de visita, esa misma función la cubre una página web.
-5. **Establecer una identidad**: Tienes la posibilidad de establecer una identidad especifica para tu negocio.
-6. Mediante un formulario de contacto en nuestra pagina web **estamos creando un método de comunicación rápido, fácil y gratuito para todos nuestro clientes**.
-7. Con una página web tus clientes pueden ver tus productos e incluso comprarlos los 365 días del año y a cualquier hora.
+## No basta con “tener una web”
 
-Estos son solo algunos de los motivos por los cuales tu empresa debería contar con una página web.
+Eso sí: una web no sirve de mucho si está abandonada, tarda demasiado en cargar o no tiene un objetivo claro.
 
-***
+Antes de crearla conviene responder a tres preguntas:
 
-Si estas interesado en crear una página web y no sabes por donde comenzar o como hacerlo puedes [contactar conmigo](mailto:info@ajra.es) y te ayudaré en todo lo posible.  
+- ¿Qué quiero que haga la persona que llegue a mi web?
+- ¿Necesito informar, captar contactos, vender o derivar hacia una conversación?
+- ¿Qué contenido necesita ver el cliente para confiar en mí?
+
+Si la respuesta principal es captar contactos o solicitudes concretas, quizá no necesites una web enorme: una buena [landing page](/blog/landing-page/) puede ser suficiente para empezar.
+
+Si ya tienes una web pero no convierte, revisa también la llamada a la acción. Un buen [Call to Action](/blog/call-to-action/) puede marcar la diferencia entre una visita que se va y una visita que contacta.
+
+Y si tu objetivo es vender online, la web debe estar pensada como un sistema completo: producto, confianza, pago, logística, email marketing y automatización. Para eso, plataformas como [Shopify](/blog/shopify-para-crear-tu-tienda-online-sin-pelearte-con-la-tecnologia/) pueden ser una buena opción cuando quieres centrarte en vender y no en pelearte con la parte técnica.
+
+## En resumen
+
+Tu empresa necesita una web si quieres construir una presencia digital propia, aparecer cuando tus clientes te buscan y convertir esa atención en oportunidades reales de negocio.
+
+No tiene que ser compleja desde el primer día. Pero sí debe ser clara, rápida, útil y estar alineada con el objetivo de tu empresa.
+
+Si estás pensando en crear o mejorar tu página web y no sabes por dónde empezar, puedes [contactar conmigo](mailto:ajra@ajra.es) y te ayudaré a aterrizar la mejor opción para tu caso.

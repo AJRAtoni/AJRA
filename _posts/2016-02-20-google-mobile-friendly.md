@@ -1,40 +1,73 @@
 ---
 layout: post
-title: ¿Que es el “Google Mobile Friendly”?
+title: ¿Qué significa que una web sea mobile friendly?
 date: 2016-02-20 15:01:35 +0300
+description: "Una web mobile friendly está adaptada a móviles: carga bien, se lee sin esfuerzo y permite navegar o comprar desde una pantalla pequeña."
 image: /images/16.jpg
+image_alt: "¿Qué significa que una web sea mobile friendly?"
 source: AJRA-v09/_posts/2016-02-20-google-mobile-friendly.md
+resumen: "Una web mobile friendly está adaptada a móviles: carga bien, se lee sin esfuerzo y permite navegar o comprar desde una pantalla pequeña."
 ---
 
-Hoy quiero hablaros de un tema importante para vuestras webs, y es algo que muchos clientes han estado preguntando estos días.
+Una web **mobile friendly** es una web que funciona bien en dispositivos móviles.
 
-## ¿PORQUE DESDE HACE UN TIEMPO HE PERDIDO LA MITAD DE VISITAS DIARIAS EN MI WEB?
+Esto incluye que se vea correctamente, cargue rápido, permita leer sin hacer zoom, tenga botones fáciles de pulsar y no obligue al usuario a pelearse con la página.
 
+Hoy no es un extra. Es básico.
 
-Bien, pues eso se debe a los cambios que realizó **Google** hace algún tiempo en su algoritmo.
+## Por qué importa tanto
 
-Google implementó la variable **“Mobile Friendly”**, que determina si tu web está adaptada para un dispositivo móvil.
+Gran parte del tráfico web llega desde móviles. En muchos negocios, la primera visita de un cliente ocurre desde el teléfono.
 
-Si está adaptada no hay problema, pero en el caso de que no esté adaptada, tu web no se mostrará en las búsquedas de Google que se realicen desde móviles.
+Si tu web no está adaptada, pierdes oportunidades:
 
-Por mucho que tu contenido sea relevante, o incluso que busquen directamente tu nombre… Si la web no está adaptada para móviles, no aparecerá en una búsqueda desde móvil.
+- peor experiencia de usuario;
+- menos contactos;
+- menos ventas;
+- más abandonos;
+- peor percepción de marca;
+- problemas de posicionamiento y rendimiento.
 
-Puede parecer que no, pero el cambio es crucial, basta ir a [los informes de Analytics](http://www.google.com/analytics/) y comprobar cuántas de nuestras visitas provienen de dispositivos móviles. (En mi caso, el 65% de las visitas provienen desde móviles).
+Tener una [página web](/blog/necesita-mi-empresa-una-web/) ya no basta. Tiene que funcionar bien en móvil.
 
-## ¿COMO PUEDO COMPROBAR SI MI WEB ESTÁ ADAPTADA PARA MÓVILES?
+## Qué debe cumplir una web mobile friendly
 
-Fácil, Google tiene una página en la que podemos insertar nuestra URL y ellos se encargan de revisar si nuestra web está adaptada o no para dispositivos móviles.
+Una web adaptada a móvil debería:
 
-Basta con [visitar este enlace](https://www.google.com/webmasters/tools/mobile-friendly/).
+1. Tener diseño responsive.
+2. Cargar rápido.
+3. Mostrar textos legibles.
+4. Evitar elementos que se salgan de pantalla.
+5. Tener botones y formularios cómodos de usar.
+6. Priorizar lo importante en el primer pantallazo.
+7. Facilitar llamadas, emails, compras o reservas.
 
-## MI WEB NO ESTÁ ADAPTADA. ¿COMO PUEDO ADAPTAR MI WEB PARA QUE SEA MOBILE FRIENDLY?
+Si es una [landing page](/blog/landing-page/), la claridad en móvil es todavía más importante, porque cada distracción reduce conversiones.
 
-Si tu web está creada sobre WordPress (Cómo debería ser 😜) estas de suerte, tienes varias soluciones y a cuál más fácil.
+## Cómo comprobarlo
 
-1. [Actualizar tu theme](https://wordpress.org/themes/) a uno que sea responsive.
-2. Utilizar el plugin [Jetpack](https://wordpress.org/plugins/jetpack/).
-3. Usar el plugin [WPTouch](http://www.wptouch.com/).
+Hoy Google ya no ofrece el antiguo “Mobile-Friendly Test” como antes, pero puedes revisar tu web con varias herramientas:
 
-Si, por el contrario, tu web no usa WordPress y está hecha “a mano” deberás adaptarla modificando código. (Uno de los inconvenientes de no usar WordPress).
+- Lighthouse en Chrome;
+- PageSpeed Insights;
+- Search Console;
+- pruebas manuales en móvil real;
+- revisión de formularios y procesos de compra desde el teléfono.
 
-Si estás un poco perdido y necesitas ayuda para adaptar tu web [no dudes en consultarme](mailto:info@ajra.es).
+No te quedes solo con la puntuación. Navega como lo haría un cliente.
+
+## Mobile friendly también es conversión
+
+La adaptación móvil no es solo diseño. También afecta a negocio.
+
+Un formulario demasiado largo, un botón pequeño, un checkout incómodo o una página lenta pueden hacer que una persona interesada abandone.
+
+Por eso conviene revisar titulares, estructura, velocidad, formularios y [Call to Action](/blog/call-to-action/) desde móvil.
+
+## En resumen
+
+Una web mobile friendly es una web pensada para el comportamiento real de los usuarios actuales.
+
+Si tu web recibe visitas desde móvil pero no convierte, puede que el problema no sea el tráfico, sino la experiencia.
+
+Si necesitas revisar si tu web está bien adaptada a móvil, puedes [contactar conmigo](mailto:ajra@ajra.es) y vemos qué habría que mejorar.

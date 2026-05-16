@@ -1,36 +1,72 @@
 ---
 layout: post
-title: ¿Que es el Copywriting?
+title: ¿Qué es el copywriting?
 date: 2015-11-15 15:01:35 +0300
+description: "El copywriting es escritura persuasiva: usar las palabras adecuadas para captar atención, explicar valor y provocar una acción."
 image: /images/11.webp
+image_alt: "¿Qué es el copywriting?"
 source: AJRA-v09/_posts/2015-11-15-copywriting.md
+resumen: "El copywriting es escritura persuasiva: usar las palabras adecuadas para captar atención, explicar valor y provocar una acción."
 ---
 
-Continuamos hablando de Marketing Digital, hoy te explico brevemente lo que es el **copywriting**.
+El **copywriting** es escritura persuasiva: elegir las palabras adecuadas para captar atención, explicar valor y mover a una persona hacia una acción.
 
-**El copywriting (escritura persuasiva) consiste en encontrar y escribir las palabras correctas con el objetivo de influir en un publico determinado.**
+No se trata de escribir “bonito”. Se trata de escribir con intención.
 
-# COPYWRITING: SIN PERSUASION NO HAY ACCION
+Un buen texto puede hacer que alguien entienda mejor tu producto, confíe en tu propuesta y haga clic en el [Call to Action](/blog/call-to-action/) correcto.
 
-El **copywriting** nos puede ayudar desde conseguir aumentar el trafico de nuestra web, conseguir que te dejen sus datos de contacto o convertir esos lectores en clientes.
+## Copywriting: sin claridad no hay acción
 
-A día de hoy el **copywriting** es considerado una de las técnicas mas efectivas del Marketing Digital.
+El copywriting puede ayudarte a:
 
-De media solo 2 de cada 10 visitantes de nuestra web lee los artículos al completo, el resto solo escanea el contenido por encima, así que el objetivo del **copywriting** es conseguir captar y mantener la atención de esos lectores linea a linea hasta que lleguen a nuestra [call to action](https://ajra.es/blog/call-to-action).
+- mejorar titulares;
+- explicar mejor una oferta;
+- aumentar conversiones en una [landing page](/blog/landing-page/);
+- conseguir más leads;
+- hacer que un email sea más claro;
+- reducir dudas antes de una compra;
+- convertir características en beneficios reales.
 
-**Algunos consejos sobre el copywriting:**
+La idea no es manipular. La idea es comunicar mejor.
 
-1. El titular es el 80% de tu articulo, si el titular no capta la atención del cliente posiblemente no llegue a leer el resto.
-2. Divide tus textos en bloques cortos, de un máximo de 7 frases por párrafo.
-3. No uses titulares genéricos, usa titulares seductores.
-4. Utiliza textos interesantes para acompañar tus [call to action](https://ajra.es/blog/call-to-action), no basta con un botón, hay que ayudarlo con un texto llamativo.
-5. No utilices enlaces con el texto “ENLACE”, escondelos bajo un texto interesante y relacionado con el contenido.
-6. Dale formato a tus textos para realzar la importancia de ciertos puntos, haz uso de la **negrita**, el subrayado, la cursiva o las MAYUSCULAS.
-7. Evita los colores en tus textos, cuanto mas sencillo mejor, vuelve al punto 5, usa el formato.
-8. Si quieres realzar varios puntos, beneficios o características de un producto usa las listas.
-9. En tus titulares haz preguntas a los lectores y contestalas tu mismo en el articulo.
-10. Atrévete a probar cosas nueva y luego analiza su resultado.
+## La mayoría no lee: escanea
 
-Esto es, de forma muy resumida, de lo que trata el **copywriting**.
+En una web, muchas personas no leen cada frase. Escanean.
 
-Y recuerda si necesitas ayuda o buscas a alguien que te lleve el copywriting de tu empresa [puedes contactar conmigo](mailto:info@ajra.es).
+Por eso el copy debe facilitar la lectura:
+
+- titulares claros;
+- párrafos cortos;
+- bullets;
+- negritas con sentido;
+- ejemplos concretos;
+- una estructura lógica;
+- una llamada a la acción fácil de identificar.
+
+Si el texto obliga a hacer demasiado esfuerzo, la persona se va.
+
+## Consejos básicos de copywriting
+
+Algunas reglas útiles:
+
+1. **Empieza por el cliente, no por ti.** Habla del problema que tiene y del resultado que busca.
+2. **Usa titulares específicos.** Un titular genérico se olvida rápido.
+3. **Convierte características en beneficios.** No solo qué hace algo, sino por qué le importa al usuario.
+4. **Evita bloques enormes de texto.** En digital, menos fricción suele significar más lectura.
+5. **No uses “clic aquí”.** El enlace debe explicar a dónde lleva o qué obtiene la persona.
+6. **Acompaña el CTA.** El botón importa, pero el texto que lo rodea también.
+7. **Prueba versiones.** Lo que parece evidente no siempre es lo que mejor convierte.
+
+## Copywriting y medición
+
+El copywriting no debería quedarse en opiniones del tipo “me gusta” o “no me gusta”.
+
+Cuando hay tráfico suficiente, puedes medir si una versión funciona mejor que otra con un [Test A/B](/blog/test-ab/): titulares, botones, formularios, bloques de beneficios o incluso el orden de la página.
+
+## En resumen
+
+El copywriting ayuda a que una web, email o anuncio comunique mejor y convierta con menos fricción.
+
+Si tienes tráfico pero no consigues contactos, ventas o registros, quizá no necesitas solo más visitas. Quizá necesitas mejores palabras.
+
+Si quieres mejorar los textos de tu web, landing o campaña, puedes [contactar conmigo](mailto:ajra@ajra.es) y revisamos qué está fallando.

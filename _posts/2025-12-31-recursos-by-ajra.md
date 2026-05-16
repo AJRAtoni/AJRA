@@ -2,9 +2,8 @@
 title: "RECURSOS by AJRA"
 date: 2025-12-31 09:00:00 -0500
 description: "RECURSOS by AJRA nace para recomendar herramientas útiles sin listas infinitas, humo ni pérdida de tiempo."
-image: "/images/posts/recursos-by-ajra-gradient.webp"
+image: "/images/ajra-sharing.webp"
 image_alt: "RECURSOS by AJRA"
-recursos_wordmark: "RECURSOS by AJRA"
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/00-Bienvenida.md"
 ---
