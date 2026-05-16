@@ -5,6 +5,7 @@ date: 2025-12-19 09:00:00 -0500
 description: "SAM Audio de Meta aplica la lógica de Segment Anything al sonido: separar voces, instrumentos o ruidos concretos mediante prompts y selección temporal."
 image: "https://img.youtube.com/vi/EG6YTROBGBw/hqdefault.jpg"
 image_alt: "SAM Audio de Meta: la IA que separa cualquier sonido con solo un prompt"
+resumen: "SAM Audio aplica la idea de segmentar cualquier cosa al sonido: aislar voces, instrumentos o ruidos mediante instrucciones más semánticas."
 categories: [youtube]
 tags: [ia, meta, audio, creadores, youtube]
 source: "youtube"
@@ -45,6 +46,8 @@ No conviene pensar en esto como magia perfecta. La separación de audio sigue si
 ## Idea central
 
 SAM Audio apunta a un futuro donde editar sonido sea menos técnico y más semántico: decir qué quieres aislar y dejar que el modelo haga la primera pasada.
+
+Si quieres mejorar un flujo de audio, vídeo o contenido apoyándote en IA sin perder calidad final, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

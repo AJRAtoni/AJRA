@@ -5,6 +5,7 @@ date: 2025-12-23 09:00:00 -0500
 description: "Una guía básica para montar un Bullet Journal desde cero y usarlo como sistema simple para tareas, hábitos y metas."
 image: "https://img.youtube.com/vi/Ha41SLe30fA/hqdefault.jpg"
 image_alt: "Bullet Journal para Principiantes: Configura tu Cuaderno en 5 Pasos FÁCILES"
+resumen: "El Bullet Journal funciona cuando se usa como sistema flexible para capturar, revisar y decidir, no como proyecto estético imposible de mantener."
 categories: [youtube]
 tags: [productividad, bullet-journal, organizacion, habitos, youtube]
 source: "youtube"
@@ -13,7 +14,7 @@ youtube_url: "https://www.youtube.com/watch?v=Ha41SLe30fA"
 transcription: "whisper-local"
 ---
 
-El Bullet Journal es una de esas herramientas que parece más complicada desde fuera que desde dentro. En realidad, su valor está justo en lo contrario: convertir una libreta en un sistema flexible para organizar tareas, ideas, hábitos y objetivos sin depender de una agenda rígida.
+El Bullet Journal es una de esas herramientas que parece más complicada desde fuera que desde dentro. En realidad, su valor está justo en lo contrario: convertir una libreta en un sistema flexible para organizar tareas, ideas, hábitos y objetivos sin depender de una agenda rígida. Si te interesa una versión más estructurada de productividad personal, también encaja con el enfoque de [GTD](/blog/gtd-flujo-de-trabajo-y-productividad-sin-estres/).
 
 En este vídeo lo planteo desde cero, para quien quiere empezar sin perderse entre layouts perfectos de Pinterest.
 
@@ -50,6 +51,8 @@ La versión útil suele ser más simple: páginas claras, símbolos básicos y u
 ## Idea central
 
 Un Bullet Journal no es una libreta bonita. Es una herramienta para pensar mejor, reducir ruido mental y tener un lugar único donde aterrizar tareas, hábitos y metas.
+
+Si quieres diseñar un sistema de productividad simple que puedas mantener sin convertirlo en otra carga, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "¿Que es, como funciona y para que sirve un LLM?"
+title: "¿Qué es, cómo funciona y para qué sirve un LLM?"
 date: 2025-12-22 09:00:00 -0500
 description: "Una explicación clara de qué es un LLM, cómo funciona y cómo aplicarlo a marketing, soporte, contenidos y automatización sin olvidar sus límites."
 image: "https://img.youtube.com/vi/dLg9LdhDR9M/hqdefault.jpg"
-image_alt: "¿Que es, como funciona y para que sirve un LLM?"
+image_alt: "¿Qué es, cómo funciona y para qué sirve un LLM?"
+resumen: "Un LLM es una capa de inteligencia lingüística útil para resumir, redactar, clasificar, programar y automatizar, siempre que se diseñe con límites."
 categories: [youtube]
 tags: [ia, llm, automatizacion, marketing-digital, youtube]
 source: "youtube"
@@ -38,7 +39,7 @@ Los usos prácticos son enormes:
 - Atender preguntas frecuentes.
 - Clasificar leads o tickets.
 - Ayudar a programar o depurar.
-- Diseñar automatizaciones con herramientas como n8n, Zapier o Make.
+- Diseñar automatizaciones con herramientas como n8n, Zapier o [Make](/blog/make-para-automatizar-procesos-de-forma-sencilla/).
 
 En marketing digital, especialmente, puede ahorrar tiempo en investigación, copy, segmentación y documentación.
 
@@ -51,6 +52,8 @@ La clave está en combinarlo con fuentes, verificaciones y límites claros.
 ## Idea central
 
 Un LLM es una capa de inteligencia lingüística que puedes conectar a muchos procesos. Cuanto mejor entiendas sus capacidades y límites, más útil será en tu negocio o trabajo diario.
+
+Si quieres identificar casos de uso realistas para LLMs en marketing, soporte, contenidos o automatización, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

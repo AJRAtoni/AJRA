@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "RECURSOS by AJRA"
 date: 2025-12-31 09:00:00 -0500
 description: "RECURSOS by AJRA nace para recomendar herramientas útiles sin listas infinitas, humo ni pérdida de tiempo."
 image: "/images/ajra-sharing.webp"
 image_alt: "RECURSOS by AJRA"
+resumen: "RECURSOS by AJRA es un directorio y newsletter para recomendar herramientas útiles con criterio, contexto y experiencia real."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/00-Bienvenida.md"
 ---
@@ -66,6 +68,8 @@ Si en algún momento deja de aportarte, te das de baja y listo.
 Sin dramas.
 
 La próxima edición ya entraremos en materia con el **primer recurso**.
+
+Si quieres sugerir una herramienta para analizarla o revisar tu stack actual, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 Un abrazo,
 AJRA

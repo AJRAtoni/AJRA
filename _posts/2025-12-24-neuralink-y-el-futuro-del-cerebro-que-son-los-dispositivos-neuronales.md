@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "🧠 Neuralink y el Futuro del Cerebro: ¿Qué Son los Dispositivos Neuronales?"
+title: "Neuralink y el futuro del cerebro: qué son los dispositivos neuronales"
 date: 2025-12-24 09:00:00 -0500
 description: "Qué son las interfaces cerebro-computadora, qué dispositivos existen hoy y por qué Neuralink es solo una parte de una carrera mucho más amplia."
 image: "https://img.youtube.com/vi/FK61WedtR2w/hqdefault.jpg"
-image_alt: "🧠 Neuralink y el Futuro del Cerebro: ¿Qué Son los Dispositivos Neuronales?"
+image_alt: "Neuralink y el futuro del cerebro: qué son los dispositivos neuronales"
+resumen: "Las interfaces cerebro-computadora prometen accesibilidad y nuevas formas de control, pero también abren preguntas serias sobre seguridad, privacidad y regulación."
 categories: [youtube]
 tags: [ia, neurotecnologia, neuralink, tecnologia, youtube]
 source: "youtube"
@@ -42,6 +43,8 @@ También hay preguntas difíciles: privacidad mental, dependencia tecnológica, 
 ## Idea central
 
 Los dispositivos neuronales no son magia, pero tampoco son humo. Están en una fase temprana, con avances reales y muchas incógnitas. Lo importante será separar el hype de los casos de uso que de verdad mejoran vidas.
+
+Si quieres convertir una tecnología emergente en contenido claro, prudente y útil para tu audiencia, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

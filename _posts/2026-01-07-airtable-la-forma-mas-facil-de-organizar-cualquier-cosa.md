@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "Airtable: La forma más fácil de organizar cualquier cosa"
 date: 2026-01-07 09:00:00 -0500
 description: "Airtable sirve para ordenar clientes, proyectos, contenidos y procesos sin montar sistemas complejos."
 image: "/images/posts/Newsletter-001.webp"
 image_alt: "Airtable: La forma más fácil de organizar cualquier cosa"
+resumen: "Airtable es útil cuando necesitas ordenar clientes, proyectos o contenidos con estructura de base de datos sin montar software a medida."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/001-Airtable.md"
 ---
@@ -69,7 +71,7 @@ Solo **una bien usada**.
 
 ## 🧠 En palabras de AJRA
 
-Airtable es **una opción excelente para freelancers y pymes** que quieren organizar mejor su negocio sin meterse en herramientas técnicas.
+Airtable es **una opción excelente para freelancers y pymes** que quieren organizar mejor su negocio sin meterse en herramientas técnicas. También puede ser una buena base antes de automatizar procesos con [Make](/blog/make-para-automatizar-procesos-de-forma-sencilla/).
 
 Es flexible, potente y muy versátil… **siempre que no lo conviertas en un monstruo lleno de automatizaciones innecesarias**.
 
@@ -83,7 +85,7 @@ He preparado la ficha completa con explicación, vídeo y recursos similares aqu
 
 La semana que viene: **otro recurso, otra recomendación**.
 
-Si tienes curiosidad por alguna herramienta concreta, respóndeme a este email y la tengo en cuenta.
+Si tienes curiosidad por alguna herramienta concreta, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es) y la tengo en cuenta.
 
 Un abrazo,
 

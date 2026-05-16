@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "Canva: La herramienta para crear sin ser diseñador"
 date: 2026-01-14 09:00:00 -0500
 description: "Canva ayuda a crear piezas visuales decentes y consistentes sin depender siempre de un diseñador."
 image: "/images/posts/Newsletter-002.webp"
 image_alt: "Canva: La herramienta para crear sin ser diseñador"
+resumen: "Canva no sustituye al diseño profesional, pero ayuda a mantener piezas visuales consistentes cuando se usa con plantillas y criterio."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/002-Canva.md"
 ---
@@ -84,7 +86,7 @@ He preparado la ficha completa con explicación, casos de uso y alternativas aqu
 👉 <https://recursos.ajra.es/#canva>
 
 La semana que viene: **otro recurso, otra recomendación**.
-Si hay alguna herramienta que quieras que analice, respóndeme a este email.
+Si hay alguna herramienta que quieras que analice, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 Un abrazo,
 **AJRA**

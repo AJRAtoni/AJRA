@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "VibeVoice : El TTS Open Source de Microsoft"
+title: "VibeVoice: el TTS open source de Microsoft"
 date: 2025-12-18 09:00:00 -0500
 description: "VibeVoice es el modelo open source de Microsoft para generar audio largo con varias voces, pensado para podcasts, diálogos y narraciones extensas."
 image: "https://img.youtube.com/vi/zEjrTpvfLe0/hqdefault.jpg"
-image_alt: "VibeVoice : El TTS Open Source de Microsoft"
+image_alt: "VibeVoice: el TTS open source de Microsoft"
+resumen: "VibeVoice lleva el texto a voz open source hacia audios largos, varias voces y casos de uso como podcasts, formación o narraciones."
 categories: [youtube]
 tags: [ia, tts, microsoft, audio, open-source, youtube]
 source: "youtube"
@@ -47,7 +48,9 @@ Ahí es donde estos modelos empiezan a competir de verdad.
 
 ## Idea central
 
-VibeVoice muestra hacia dónde va el TTS: menos clips aislados y más producción completa de audio. Si mantiene calidad en piezas largas, puede ser una herramienta muy útil para creadores y equipos de contenido.
+VibeVoice muestra hacia dónde va el TTS: menos clips aislados y más producción completa de audio. Encaja en la misma tendencia que herramientas como [ElevenReads](/blog/elevenreads-de-elevenlabs-asi-puedes-crear-audiolibros-con-ia/): convertir texto y conocimiento en audio útil. Si mantiene calidad en piezas largas, puede ser una herramienta muy útil para creadores y equipos de contenido.
+
+Si quieres diseñar un flujo de audio con IA para formación, podcasts o documentación interna, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 

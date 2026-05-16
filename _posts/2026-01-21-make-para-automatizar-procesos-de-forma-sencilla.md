@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "Make: para automatizar procesos de forma sencilla"
 date: 2026-01-21 09:00:00 -0500
 description: "Make permite automatizar tareas repetitivas conectando apps cuando el proceso ya está claro."
 image: "/images/posts/Newsletter-003.webp"
 image_alt: "Make: para automatizar procesos de forma sencilla"
+resumen: "Make funciona mejor cuando automatiza procesos que ya están claros: formularios, bases de datos, emails y tareas repetitivas."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/003-Make.md"
 ---
@@ -15,7 +17,7 @@ Hola 👋
 Seguimos con la idea de esta newsletter:
 **una herramienta a la semana**, bien explicada, con contexto real y sin humo.
 
-Después de poner orden (**Airtable**) y facilitar la creación (**Canva**),
+Después de poner orden ([**Airtable**](/blog/airtable-la-forma-mas-facil-de-organizar-cualquier-cosa/)) y facilitar la creación ([**Canva**](/blog/canva-la-herramienta-para-crear-sin-ser-disenador/)),
 hoy toca el siguiente paso 👇
 
 ## 🧩 El recurso de la semana: Make
@@ -104,7 +106,7 @@ He preparado la ficha completa con explicación, casos de uso y alternativas aqu
 👉 <https://recursos.ajra.es/#make>
 
 La semana que viene: **otro recurso, otra recomendación**.
-Si hay alguna tarea que repitas demasiado y quieras automatizar, respóndeme a este email.
+Si hay alguna tarea que repitas demasiado y quieras automatizar, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 Un abrazo,
 **AJRA**

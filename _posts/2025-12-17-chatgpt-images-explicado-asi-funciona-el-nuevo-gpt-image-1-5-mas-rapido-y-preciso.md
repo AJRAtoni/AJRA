@@ -5,6 +5,7 @@ date: 2025-12-17 09:00:00 -0500
 description: "ChatGPT Images y GPT-Image 1.5 mejoran la generación y edición de imágenes con más velocidad, mejor seguimiento de instrucciones y flujos creativos integrados."
 image: "https://img.youtube.com/vi/rAp2ERpIqEE/hqdefault.jpg"
 image_alt: "ChatGPT Images explicado: así funciona el nuevo GPT-Image 1.5 (más rápido y preciso que nunca)"
+resumen: "GPT-Image 1.5 refuerza ChatGPT como estudio creativo: más velocidad, edición localizada y un flujo visual más conversacional."
 categories: [youtube]
 tags: [ia, imagenes, chatgpt, openai, creatividad, youtube]
 source: "youtube"
@@ -37,11 +38,13 @@ Eso reduce fricción para usuarios que no quieren aprender veinte herramientas d
 
 ## La carrera con otros modelos
 
-Este movimiento también se entiende dentro de la competición con Google, Nano Banana Pro y otros modelos visuales. La pregunta ya no es solo cuál genera la imagen más bonita, sino cuál entiende mejor instrucciones, conserva consistencia y encaja mejor en un workflow profesional.
+Este movimiento también se entiende dentro de la competición con Google, [Nano Banana Pro](/blog/nano-banana-pro-la-nueva-revolucion-en-ia-para-generacion-de-imagenes-de-google/) y otros modelos visuales como [Flux.2](/blog/descubre-flux-2-lo-nuevo-de-black-forest-lab/). La pregunta ya no es solo cuál genera la imagen más bonita, sino cuál entiende mejor instrucciones, conserva consistencia y encaja mejor en un workflow profesional.
 
 ## Idea central
 
 ChatGPT Images no va solo de generar imágenes. Va de hacer que la creación visual sea más rápida, conversacional y editable. Para marketers y creadores, eso puede ahorrar muchas horas de prueba y error.
+
+Si quieres incorporar generación visual con IA en tu contenido, campañas o prototipos sin perder consistencia, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 
