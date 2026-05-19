@@ -5,7 +5,7 @@ date: 2026-05-18 09:00:00 -0400
 description: "Claude FM es una radio lo-fi 24/7 de Anthropic para programar, pensar y construir. Lo curioso: se lanza directamente desde Claude Code con el comando /radio."
 image: "/images/posts/claude-fm-mascot-gradient.webp"
 image_alt: "Mascota 8-bit de Claude FM con auriculares sobre fondo degradado AJRA"
-recursos_logo: "/images/logos/recursos/claude-fm-mascot-8bit.svg"
+recursos_logo: "/images/logos/recursos/claude-fm-mascot-8bit-v2.svg"
 recursos_logo_alt: "Mascota 8-bit de Claude FM"
 resumen: "Claude FM es una radio lo-fi 24/7 de Anthropic para programar, pensar y construir. Lo curioso: se lanza directamente desde Claude Code con el comando /radio."
 categories: [youtube]
