@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Claude FM: música para pensar y construir"
+title: "Claude FM: la radio lo-fi escondida en Claude Code"
 date: 2026-05-18 09:00:00 -0400
-description: "Claude FM es una sesión musical de Anthropic pensada para acompañar momentos de foco, trabajo creativo y construcción con IA."
+description: "Claude FM es una radio lo-fi 24/7 de Anthropic para programar, pensar y construir. Lo curioso: se lanza directamente desde Claude Code con el comando /radio."
 image: "https://img.youtube.com/vi/YmQ7jRgf4f0/hqdefault.jpg"
-image_alt: "Claude FM: música para pensar y construir"
-resumen: "Claude FM es una sesión musical de Anthropic pensada para acompañar momentos de foco, trabajo creativo y construcción con IA."
+image_alt: "Claude FM: la radio lo-fi escondida en Claude Code"
+resumen: "Claude FM es una radio lo-fi 24/7 de Anthropic para programar, pensar y construir. Lo curioso: se lanza directamente desde Claude Code con el comando /radio."
 categories: [youtube]
 tags: [youtube]
 source: "youtube"
@@ -13,14 +13,38 @@ youtube_id: "YmQ7jRgf4f0"
 youtube_url: "https://www.youtube.com/watch?v=YmQ7jRgf4f0"
 ---
 
-Claude FM es una sesión musical creada y curada por músicos para una idea muy concreta: darle al play y seguir pensando.
+Claude FM parece, a primera vista, una simple radio lo-fi para trabajar. Música tranquila, estética cozy, aire de “pon esto de fondo y sigue construyendo”. Pero el detalle interesante no está solo en YouTube: está en Claude Code.
 
-No es una keynote, no es una demo de producto y no intenta explicar la inteligencia artificial con gráficos imposibles. Es algo más sencillo, pero también muy interesante: una banda sonora para trabajar, construir y entrar en modo foco alrededor del universo Claude.
+Anthropic lo presentó de una forma muy de internet: un post de ClaudeDevs en X con una sola línea, `/radio`, y un vídeo corto. Sin gran explicación, sin nota de prensa, sin épica corporativa. Solo un comando.
 
-En un momento en el que las herramientas de IA compiten por funciones, modelos y benchmarks, este tipo de piezas recuerdan otra parte importante del ecosistema: la experiencia. Cómo se siente usar una herramienta, qué ambiente construye alrededor y qué tipo de rituales genera en quienes crean con ella.
+Y ese comando hace exactamente eso: dentro de Claude Code puedes escribir `/radio` y se abre Claude FM en el navegador. Una radio 24/7 con lo-fi hip hop y ambient beats pensada para acompañar sesiones largas de programación, escritura, debugging o construcción con IA.
 
-Claude FM encaja justo ahí: música para pensar, escribir, programar, diseñar o simplemente dejar de pelearte con el ruido mientras haces cosas.
+## Cómo se lanza Claude FM desde Claude Code
+
+La gracia está en que no necesitas buscar el canal manualmente. Si estás usando Claude Code, basta con abrir la interfaz y ejecutar:
+
+```bash
+/radio
+```
+
+Claude Code lanza el navegador y abre Claude FM. En algunos reportes de GitHub se ve el mensaje “Opening Claude FM in your browser…”, seguido de la apertura del stream. Es una función pequeña, casi absurda si la miras solo como feature técnica, pero bastante inteligente como gesto de producto.
+
+## Por qué esto importa más de lo que parece
+
+Las herramientas de IA para programar ya no compiten solo por completar código. También compiten por convertirse en el entorno donde pasas horas pensando, probando, rompiendo y arreglando cosas.
+
+Ahí Claude FM tiene sentido. No añade una capacidad nueva al modelo, no mejora el razonamiento y no arregla tus tests. Pero sí refuerza una idea: Claude Code quiere sentirse como un espacio de trabajo, no solo como una línea de comandos.
+
+OpenAI ha jugado con elementos de compañía y estado en sus herramientas. Anthropic, en cambio, ha elegido algo más externo y de marca: una radio, una estética, un pequeño ritual. Es menos útil en sentido estricto, pero más memorable.
+
+## Una función pequeña con mucha intención
+
+Lo interesante de `/radio` es precisamente su falta de complejidad. No mete un reproductor dentro del terminal, no convierte la música en una métrica del agente y no intenta parecer más profundo de lo que es. Abre una radio y ya.
+
+Pero ese “y ya” dice bastante. Las herramientas para crear con IA están empezando a construir cultura alrededor de sí mismas: comandos, mascotas, canales, rituales, bromas internas y pequeños guiños para developers.
+
+Claude FM es eso: una banda sonora oficial para pensar y construir con Claude. Una tontería bonita, sí. Pero también una señal de hacia dónde van estas herramientas: menos software frío, más entorno de trabajo con personalidad.
 
 ## Vídeo original
 
-<iframe class="youtube-embed" width="560" height="315" src="https://www.youtube.com/embed/YmQ7jRgf4f0" title="Claude FM: música para pensar y construir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youtube-embed" width="560" height="315" src="https://www.youtube.com/embed/YmQ7jRgf4f0" title="Claude FM: la radio lo-fi escondida en Claude Code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
