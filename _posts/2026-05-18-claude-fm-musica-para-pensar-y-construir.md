@@ -5,6 +5,8 @@ date: 2026-05-18 09:00:00 -0400
 description: "Claude FM es una radio lo-fi 24/7 de Anthropic para programar, pensar y construir. Lo curioso: se lanza directamente desde Claude Code con el comando /radio."
 image: "/images/posts/claude-fm-mascot-gradient.webp"
 image_alt: "Mascota 8-bit de Claude FM con auriculares sobre fondo degradado AJRA"
+recursos_logo: "/images/logos/recursos/claude-fm-mascot-8bit.svg"
+recursos_logo_alt: "Mascota 8-bit de Claude FM"
 resumen: "Claude FM es una radio lo-fi 24/7 de Anthropic para programar, pensar y construir. Lo curioso: se lanza directamente desde Claude Code con el comando /radio."
 categories: [youtube]
 tags: [youtube]
@@ -44,6 +46,8 @@ Lo interesante de `/radio` es precisamente su falta de complejidad. No mete un r
 Pero ese “y ya” dice bastante. Las herramientas para crear con IA están empezando a construir cultura alrededor de sí mismas: comandos, mascotas, canales, rituales, bromas internas y pequeños guiños para developers.
 
 Claude FM es eso: una banda sonora oficial para pensar y construir con Claude. Una tontería bonita, sí. Pero también una señal de hacia dónde van estas herramientas: menos software frío, más entorno de trabajo con personalidad.
+
+Si quieres revisar cómo encajar herramientas de IA, automatización o entornos de desarrollo en tu flujo de trabajo, escríbeme a [ajra@ajra.es](mailto:ajra@ajra.es).
 
 ## Vídeo original
 
