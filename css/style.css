@@ -664,25 +664,13 @@ footer {
   position: relative;
   margin: 2rem 0;
   padding: 1.35rem 1.5rem 1.35rem 1.8rem;
-  border-left: 4px solid #8c1fd1;
+  border-left: 4px solid darkgray;
   border-radius: 16px;
-  background: linear-gradient(135deg, rgba(106, 17, 203, 0.08), rgba(233, 20, 251, 0.06));
+  background: lightgrey;
   color: #222;
   font-size: 1.02rem;
   line-height: 1.75;
   overflow: hidden;
-}
-
-.post-content blockquote::before {
-  content: "\201C";
-  position: absolute;
-  top: -0.45rem;
-  left: 0.75rem;
-  color: rgba(140, 31, 209, 0.18);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 4.6rem;
-  line-height: 1;
-  pointer-events: none;
 }
 
 .post-content blockquote p {
