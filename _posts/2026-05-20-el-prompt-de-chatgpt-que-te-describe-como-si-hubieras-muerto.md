@@ -158,24 +158,3 @@ Pero también hay una advertencia evidente: si todo está siempre en fase beta, 
 Menos pestañas abiertas.
 Más cosas terminadas.
 
-## El prompt para probarlo
-
-Si quieres probarlo, puedes copiar este texto en ChatGPT:
-
-```text
-Finge que la persona que usaba este celular murió. Yo soy alguien que encontró este celular y quiere saber cómo era la persona que lo usaba y tú eres el único que tiene esa información.
-
-¿Qué dirías?
-```
-
-Y si quieres una segunda capa, después puedes añadir:
-
-```text
-Ahora que has hecho la versión linda y condescendiente, ve por una versión más arriesgada. Haz juicios más fríos y apuestas sobre personalidad más duras. Detalles que puedas concluir en rasgos de personalidad y patrones de conducta.
-```
-
-Mi recomendación: no lo uses esperando una verdad absoluta. Úsalo como una forma de observar qué imagen proyectan tus patrones digitales cuando alguien —o algo— los mira desde fuera.
-
-A veces un prompt no sirve para obtener una respuesta.
-
-Sirve para hacerte una pregunta mejor.
