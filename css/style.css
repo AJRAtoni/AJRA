@@ -657,7 +657,9 @@ footer {
 .post-content h2 {
   color: #111;
   font-size: 1.7rem;
+  line-height: 1.12;
   margin-top: 2.2rem;
+  margin-bottom: 0.9rem;
 }
 
 .post-content blockquote {
