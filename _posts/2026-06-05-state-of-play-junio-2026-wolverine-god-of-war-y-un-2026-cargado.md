@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "State of Play junio 2026: Wolverine, God of War y un calendario bastante cargado"
-date: 2026-06-07 09:00:00 -0400
+date: 2026-06-05 09:00:00 -0400
 description: "Sony condensó más de una hora de anuncios en el State of Play de junio 2026: Marvel's Wolverine, God of War Laufey, Until Dawn 2, Tomb Raider, Onimusha, Silent Hill y más fechas para PS5."
-image: "/images/posts/state-of-play-junio-2026.webp"
-image_alt: "Imagen editorial del State of Play de junio 2026 con símbolos de PlayStation sobre fondo azul"
+image: "/images/posts/state-of-play-junio-2026-gradient.webp"
+image_alt: "Imagen destacada del State of Play de junio 2026 con degradado AJRA y marca Play en blanco"
 resumen: "Sony condensó más de una hora de anuncios en el State of Play de junio 2026: Marvel's Wolverine, God of War Laufey, Until Dawn 2, Tomb Raider, Onimusha, Silent Hill y más fechas para PS5."
 categories: [videojuegos]
 tags: [videojuegos, playstation, state-of-play, ps5, sony]
