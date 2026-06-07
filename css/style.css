@@ -700,7 +700,7 @@ footer {
 .post-pagination {
   border-top: 1px solid #e7e7e7;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 12px;
   margin-top: 3rem;
   padding-top: 1.5rem;
@@ -714,8 +714,7 @@ footer {
 }
 
 .post-pagination .next {
-  grid-column: 2;
-  text-align: right;
+  text-align: left;
 }
 
 @media (max-width: 768px) {
