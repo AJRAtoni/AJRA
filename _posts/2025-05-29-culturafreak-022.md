@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #022"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple lanza el nuevo iPhone SE 2020 con potencia de iPhone 11 y precio ajustado, mientras Visual Studio Code se actualiza con mejoras para desarrolladores. También repasamos el..."
+card_subtitle: "Apple lanza el nuevo iPhone SE 2020 con potencia de iPhone 11 y precio ajustado."
 image: "https://img.youtube.com/vi/-jjFuGPf-Uw/hqdefault.jpg"
 image_alt: "CULTURAFREAK #022"
 resumen: "Apple lanza el nuevo iPhone SE 2020 con potencia de iPhone 11 y precio ajustado, mientras Visual Studio Code se actualiza con mejoras para desarrolladores. También repasamos el..."

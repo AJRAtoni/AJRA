@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #008"
 date: 2025-05-29 09:00:00 -0400
 description: "Semana tranquila pero con titulares curiosos: Elementor celebra su cumpleaños con descuento, Microsoft actualiza Excel para iOS con escaneo de hojas, y Dropbox sube precios..."
+card_subtitle: "Semana tranquila pero con titulares curiosos: Elementor celebra su cumpleaños con descuento."
 image: "https://img.youtube.com/vi/X76Gl84qB2c/hqdefault.jpg"
 image_alt: "CULTURAFREAK #008"
 resumen: "Semana tranquila pero con titulares curiosos: Elementor celebra su cumpleaños con descuento, Microsoft actualiza Excel para iOS con escaneo de hojas, y Dropbox sube precios..."

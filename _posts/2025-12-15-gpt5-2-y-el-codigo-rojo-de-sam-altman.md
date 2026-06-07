@@ -3,6 +3,7 @@ layout: post
 title: "GPT‑5.2 y el “Código Rojo” de Sam Altman"
 date: 2025-12-15 09:00:00 -0500
 description: "GPT-5.2 llega en un contexto de presión competitiva para OpenAI, con nuevas variantes y foco en velocidad, razonamiento y menor tasa de alucinaciones."
+card_subtitle: "GPT-5.2 importa menos por el número de versión que por el contexto."
 image: "https://img.youtube.com/vi/ZhMzAA8SN2k/hqdefault.jpg"
 image_alt: "GPT‑5.2 y el “Código Rojo” de Sam Altman"
 resumen: "GPT-5.2 importa menos por el número de versión que por el contexto: una guerra de modelos donde utilidad, fiabilidad y producto pesan más que el hype."

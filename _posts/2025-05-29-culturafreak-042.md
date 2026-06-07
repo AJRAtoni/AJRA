@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #042"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple lanza la beta pública de iOS y iPadOS 15, Windows 11 convierte su famosa pantalla azul en negra, y el Pentágono publica un informe sobre OVNIs (sí, en serio). También te..."
+card_subtitle: "Apple lanza la beta pública de iOS y iPadOS 15, Windows 11 convierte su famosa pantalla azul en negra."
 image: "https://img.youtube.com/vi/WEntpDP0umY/hqdefault.jpg"
 image_alt: "CULTURAFREAK #042"
 resumen: "Apple lanza la beta pública de iOS y iPadOS 15, Windows 11 convierte su famosa pantalla azul en negra, y el Pentágono publica un informe sobre OVNIs (sí, en serio). También te..."

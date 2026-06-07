@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #035"
 date: 2025-05-29 09:00:00 -0400
 description: "AWS se cae y deja sin timbres, aspiradoras y hasta visitas a medio planeta. El radiotelescopio de Arecibo colapsa definitivamente, y descubrimos joyitas como el Ekranoplano..."
+card_subtitle: "AWS se cae y deja sin timbres, aspiradoras y hasta visitas a medio planeta."
 image: "https://img.youtube.com/vi/2GHIj40Nz8A/hqdefault.jpg"
 image_alt: "CULTURAFREAK #035"
 resumen: "AWS se cae y deja sin timbres, aspiradoras y hasta visitas a medio planeta. El radiotelescopio de Arecibo colapsa definitivamente, y descubrimos joyitas como el Ekranoplano..."

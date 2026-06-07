@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #017"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple rompe récords financieros, Google compra Fitbit y Amazon se mete de lleno en el negocio de las noticias (y abre centros de datos en España). Hablamos también del avance..."
+card_subtitle: "Apple rompe récords financieros, Google compra Fitbit y Amazon se mete de lleno en el negocio de las noticias."
 image: "https://img.youtube.com/vi/t4cdW4BE4Wo/hqdefault.jpg"
 image_alt: "CULTURAFREAK #017"
 resumen: "Apple rompe récords financieros, Google compra Fitbit y Amazon se mete de lleno en el negocio de las noticias (y abre centros de datos en España). Hablamos también del avance..."

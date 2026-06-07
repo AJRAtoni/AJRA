@@ -5,6 +5,7 @@ date: 2018-04-14 10:00:00 +0300
 image: /images/logo-instagram.jpg
 image_alt: "Logotipo de Instagram en una noticia sobre la descarga de datos personales"
 description: "Instagram anunció una herramienta para descargar los datos subidos a la plataforma en el contexto del GDPR y las tensiones de privacidad en Facebook."
+card_subtitle: "La descarga de datos de Instagram fue una respuesta obligada por privacidad y regulación."
 resumen: "La descarga de datos de Instagram fue una respuesta obligada por privacidad y regulación: las plataformas ya no podían tratar los datos del usuario como algo invisible."
 source: AJRA-v09/_posts/2018-04-14-instagram-datos.md
 ---

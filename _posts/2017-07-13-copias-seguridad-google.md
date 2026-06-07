@@ -5,6 +5,7 @@ date: 2017-07-13 10:00:00 +0300
 image: /images/68.jpg
 image_alt: "Google Drive y copias de seguridad desde Mac o PC"
 description: "Google lanzó Backup and Sync para hacer copias de seguridad de Mac y PC en Drive, una solución cómoda pero limitada por espacio, coste y dependencia del proveedor."
+card_subtitle: "Google Drive podía simplificar las copias de seguridad, pero confiarlo todo a una sola nube nunca sustituye una estrategia."
 resumen: "Google Drive podía simplificar las copias de seguridad, pero confiarlo todo a una sola nube nunca sustituye una estrategia de backup bien pensada."
 source: AJRA-v09/_posts/2017-07-13-copias-seguridad-google.md
 ---

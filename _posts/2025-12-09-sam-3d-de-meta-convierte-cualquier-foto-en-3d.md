@@ -3,6 +3,7 @@ layout: post
 title: "SAM 3D de Meta: convierte CUALQUIER foto en 3D"
 date: 2025-12-09 09:00:00 -0500
 description: "SAM 3D de Meta convierte una imagen en una representación tridimensional, acercando la reconstrucción 3D a flujos mucho más simples."
+card_subtitle: "SAM 3D apunta a reducir la fricción de crear activos tridimensionales."
 image: "https://img.youtube.com/vi/vb6fBNWfVeM/hqdefault.jpg"
 image_alt: "SAM 3D de Meta: convierte CUALQUIER foto en 3D"
 resumen: "SAM 3D apunta a reducir la fricción de crear activos tridimensionales: partir de una foto y obtener geometría útil para prototipos o contenido."

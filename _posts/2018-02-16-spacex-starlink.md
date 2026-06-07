@@ -5,6 +5,7 @@ date: 2018-02-16 10:00:00 +0300
 image: /images/logo-spacex.jpg
 image_alt: "Logotipo de SpaceX asociado al lanzamiento de los primeros satélites de prueba de Starlink"
 description: "SpaceX preparó el lanzamiento del satélite español PAZ y de los dos primeros satélites de prueba de Starlink, una red que acabaría cambiando la conectividad por satélite."
+card_subtitle: "En 2018 Starlink todavía era una promesa. El lanzamiento de sus dos primeros satélites de prueba junto al satélite español."
 resumen: "En 2018 Starlink todavía era una promesa. El lanzamiento de sus dos primeros satélites de prueba junto al satélite español PAZ fue el primer paso visible de una infraestructura enorme."
 source: AJRA-v09/_posts/2018-02-16-spacex-starlink.md
 ---

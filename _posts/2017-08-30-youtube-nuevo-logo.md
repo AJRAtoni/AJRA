@@ -5,6 +5,7 @@ date: 2017-08-30 10:00:00 +0300
 image: /images/logo-youtube.png
 image_alt: "Nuevo logotipo de YouTube con el icono de play separado del nombre"
 description: "YouTube cambió su logotipo por primera vez en 12 años, separando el icono de play del texto y preparando la marca para móvil, apps, televisión y nuevos formatos."
+card_subtitle: "El rediseño de YouTube no fue radical, pero sí estratégico: hacer que el icono de play funcionara mejor como símbolo."
 resumen: "El rediseño de YouTube no fue radical, pero sí estratégico: hacer que el icono de play funcionara mejor como símbolo universal en cualquier pantalla."
 source: AJRA-v09/_posts/2017-08-30-youtube-nuevo-logo.md
 ---

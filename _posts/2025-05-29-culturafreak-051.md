@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #051"
 date: 2025-05-29 09:00:00 -0400
 description: "Facebook se transforma en Meta, Tesla alcanza los $1.000 por acción y vuelve a coronar a Elon Musk como el más rico del planeta, y la ISS tiene otro susto en órbita. Hablamos..."
+card_subtitle: "Facebook se transforma en Meta, Tesla alcanza los $1.000 por acción y vuelve a coronar a Elon Musk como el más rico."
 image: "https://img.youtube.com/vi/cP2QWMk0VxA/hqdefault.jpg"
 image_alt: "CULTURAFREAK #051"
 resumen: "Facebook se transforma en Meta, Tesla alcanza los $1.000 por acción y vuelve a coronar a Elon Musk como el más rico del planeta, y la ISS tiene otro susto en órbita. Hablamos..."

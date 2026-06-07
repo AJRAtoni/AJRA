@@ -5,6 +5,7 @@ date: 2017-10-06 10:00:00 +0300
 image: /images/logo-spacex.jpg
 image_alt: "Lanzamiento de SpaceX para la misión EchoStar 105/SES-11 con Falcon 9 reutilizado"
 description: "SpaceX preparó el lanzamiento de EchoStar 105/SES-11 con un Falcon 9 reutilizado, reforzando la normalización comercial de la reutilización espacial."
+card_subtitle: "La misión EchoStar 105/SES-11 era importante porque seguía convirtiendo la reutilización de Falcon 9 en una operación."
 resumen: "La misión EchoStar 105/SES-11 era importante porque seguía convirtiendo la reutilización de Falcon 9 en una operación comercial cada vez menos excepcional."
 source: AJRA-v09/_posts/2017-10-06-spacex-echostar.md
 ---

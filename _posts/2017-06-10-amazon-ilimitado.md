@@ -5,6 +5,7 @@ date: 2017-06-10 10:00:00 +0300
 image: /images/logo-amazon.jpg
 image_alt: "Amazon Cloud Drive y el cambio de almacenamiento ilimitado a planes limitados"
 description: "Amazon Cloud Drive eliminó su plan ilimitado, recordando que en servicios cloud lo ilimitado casi siempre tiene límites económicos, técnicos o estratégicos."
+card_subtitle: "Cuando un servicio cloud promete almacenamiento ilimitado, conviene preguntarse cuánto durará."
 resumen: "Cuando un servicio cloud promete almacenamiento ilimitado, conviene preguntarse cuánto durará, bajo qué condiciones y cómo sacar tus datos si cambia el plan."
 source: AJRA-v09/_posts/2017-06-10-amazon-ilimitado.md
 ---

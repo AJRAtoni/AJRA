@@ -3,6 +3,7 @@ layout: post
 title: "Bullet Journal para Principiantes: Configura tu Cuaderno en 5 Pasos FÁCILES"
 date: 2025-12-23 09:00:00 -0500
 description: "Una guía básica para montar un Bullet Journal desde cero y usarlo como sistema simple para tareas, hábitos y metas."
+card_subtitle: "El Bullet Journal funciona cuando se usa como sistema flexible para capturar, revisar y decidir."
 image: "https://img.youtube.com/vi/Ha41SLe30fA/hqdefault.jpg"
 image_alt: "Bullet Journal para Principiantes: Configura tu Cuaderno en 5 Pasos FÁCILES"
 resumen: "El Bullet Journal funciona cuando se usa como sistema flexible para capturar, revisar y decidir, no como proyecto estético imposible de mantener."

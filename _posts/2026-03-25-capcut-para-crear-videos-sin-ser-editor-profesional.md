@@ -3,6 +3,7 @@ layout: post
 title: "CapCut: para crear vídeos sin ser editor profesional"
 date: 2026-03-25 09:00:00 -0500
 description: "CapCut facilita crear vídeos decentes para redes sin aprender edición profesional desde cero."
+card_subtitle: "CapCut baja la barrera de entrada al vídeo para redes: edición simple."
 image: "/images/posts/capcut-gradient.webp"
 image_alt: "CapCut para crear vídeos sin ser editor profesional"
 recursos_logo: "/images/logos/recursos/capcut.webp"

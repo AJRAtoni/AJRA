@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #072"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple pone fecha a la WWDC24, Duolingo despide al 10% y lo reemplaza con IA, Meta calienta hogares con sus servidores y Stardew Valley se actualiza gratis. Además, Threads se..."
+card_subtitle: "Apple pone fecha a la WWDC24, Duolingo despide al 10% y lo reemplaza con IA."
 image: "https://img.youtube.com/vi/Alx0CYZzkiA/hqdefault.jpg"
 image_alt: "CULTURAFREAK #072"
 resumen: "Apple pone fecha a la WWDC24, Duolingo despide al 10% y lo reemplaza con IA, Meta calienta hogares con sus servidores y Stardew Valley se actualiza gratis. Además, Threads se..."

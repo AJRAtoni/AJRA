@@ -5,6 +5,7 @@ date: 2019-06-11 10:00:00 +0300
 image: /images/logo-elementor.jpg
 image_alt: "Logotipo de Elementor Pro en una noticia sobre descuento de aniversario"
 description: "Elementor Pro celebró su tercer aniversario con un 25% de descuento en planes y actualizaciones."
+card_subtitle: "Elementor Pro pasó de plugin práctico a pieza central para crear webs WordPress con más velocidad y control."
 resumen: "El descuento de Elementor Pro era una promoción puntual, pero sirve para mirar cómo Elementor se convirtió en una herramienta central para construir webs WordPress."
 source: AJRA-v09/_posts/2019-06-11-elementor-descuento.md
 ---

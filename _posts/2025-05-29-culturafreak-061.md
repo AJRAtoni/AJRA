@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #061"
 date: 2025-05-29 09:00:00 -0400
 description: "Esta semana hablamos del lanzamiento de Bootstrap Studio 6, el mini-dron Pixy de Snap, y la gran apuesta de Sony y LEGO por el metaverso de Epic Games. Además, navegamos por la..."
+card_subtitle: "Hablamos del lanzamiento de Bootstrap Studio 6, el mini-dron Pixy de Snap."
 image: "https://img.youtube.com/vi/HB-MI0qVt1M/hqdefault.jpg"
 image_alt: "CULTURAFREAK #061"
 resumen: "Esta semana hablamos del lanzamiento de Bootstrap Studio 6, el mini-dron Pixy de Snap, y la gran apuesta de Sony y LEGO por el metaverso de Epic Games. Además, navegamos por la..."

@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #002"
 date: 2025-05-29 09:00:00 -0400
 description: "En esta segunda entrega repasamos el móvil más caro desde 1996 (sí, es de Samsung), cómo han cambiado las empresas más valiosas del mundo en dos décadas, el próximo gran..."
+card_subtitle: "En esta segunda entrega repasamos el móvil más caro desde 1996 (sí, es de Samsung)."
 image: "https://img.youtube.com/vi/9bPcuc_bdSc/hqdefault.jpg"
 image_alt: "CULTURAFREAK #002"
 resumen: "En esta segunda entrega repasamos el móvil más caro desde 1996 (sí, es de Samsung), cómo han cambiado las empresas más valiosas del mundo en dos décadas, el próximo gran..."

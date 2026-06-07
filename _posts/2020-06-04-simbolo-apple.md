@@ -5,6 +5,7 @@ date: 2020-06-04 10:00:00 +0300
 image: /images/logo-apple.jpg
 image_alt: "Logotipo de Apple y símbolo de la manzana mordida"
 description: "Puedes escribir el símbolo de Apple en iPhone y iPad creando una sustitución de texto que convierta una abreviatura en el carácter ."
+card_subtitle: "La sustitución de texto de iOS y iPadOS sirve para escribir símbolos, frases repetidas."
 resumen: "La sustitución de texto de iOS y iPadOS sirve para escribir símbolos, frases repetidas, firmas o respuestas rápidas sin copiar y pegar cada vez."
 source: AJRA-v09/_posts/2020-06-04-simbolo-apple.md
 ---

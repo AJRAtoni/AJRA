@@ -5,6 +5,7 @@ date: 2017-06-23 10:00:00 +0300
 image: /images/logo-spacex.jpg
 image_alt: "Falcon 9 de SpaceX en la misión BulgariaSat-1"
 description: "SpaceX lanzó BulgariaSat-1 y recuperó un Falcon 9 reutilizado, otro paso importante hacia la normalización comercial de cohetes reutilizables."
+card_subtitle: "La misión BulgariaSat-1 fue relevante no solo por el satélite, sino porque demostró de nuevo que reutilizar un Falcon 9."
 resumen: "La misión BulgariaSat-1 fue relevante no solo por el satélite, sino porque demostró de nuevo que reutilizar un Falcon 9 podía formar parte de operaciones comerciales reales."
 source: AJRA-v09/_posts/2017-06-23-spacex-bulgariasat.md
 ---

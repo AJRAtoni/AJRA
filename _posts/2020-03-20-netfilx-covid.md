@@ -5,6 +5,7 @@ date: 2020-03-20 10:00:00 +0300
 image: /images/logo-netflix.jpg
 image_alt: "Logotipo de Netflix asociado a streaming durante el confinamiento"
 description: "Netflix redujo temporalmente el bitrate de sus emisiones en Europa para aliviar la carga de red durante el aumento de uso por confinamientos."
+card_subtitle: "Durante los confinamientos de 2020, el streaming dejó de ser solo entretenimiento."
 resumen: "Durante los confinamientos de 2020, el streaming dejó de ser solo entretenimiento: también se convirtió en una carga relevante para las infraestructuras de red."
 source: AJRA-v09/_posts/2020-03-20-netfilx-covid.md
 ---

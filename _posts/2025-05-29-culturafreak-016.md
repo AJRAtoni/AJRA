@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #016"
 date: 2025-05-29 09:00:00 -0400
 description: "Zuckerberg se enfrenta al Congreso por Libra, Google se queda sin espacio (literalmente), y la BBC entra en la Dark Web para esquivar censuras. Esta semana también hablamos del..."
+card_subtitle: "Zuckerberg se enfrenta al Congreso por Libra, Google se queda sin espacio (literalmente)."
 image: "https://img.youtube.com/vi/lw_IjfQ-1fI/hqdefault.jpg"
 image_alt: "CULTURAFREAK #016"
 resumen: "Zuckerberg se enfrenta al Congreso por Libra, Google se queda sin espacio (literalmente), y la BBC entra en la Dark Web para esquivar censuras. Esta semana también hablamos del..."

@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #076"
 date: 2025-05-29 09:00:00 -0400
 description: "Meta abre su sistema operativo Meta Horizon OS a otras marcas, Apple prepara nuevo evento, y las gafas Ray-Ban de Meta se vuelven multimodales. Además, WhatsApp añade PassKey..."
+card_subtitle: "Meta abre su sistema operativo Meta Horizon OS a otras marcas, Apple prepara nuevo evento."
 image: "https://img.youtube.com/vi/NzwaJrfHjks/hqdefault.jpg"
 image_alt: "CULTURAFREAK #076"
 resumen: "Meta abre su sistema operativo Meta Horizon OS a otras marcas, Apple prepara nuevo evento, y las gafas Ray-Ban de Meta se vuelven multimodales. Además, WhatsApp añade PassKey..."

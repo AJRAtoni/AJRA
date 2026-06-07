@@ -3,6 +3,7 @@ layout: post
 title: "¿Por Qué Medimos el Tiempo en 60? El Secreto del Sistema Sexagesimal"
 date: 2025-12-12 09:00:00 -0500
 description: "Por qué una hora tiene 60 minutos, qué tiene de especial el número 60 y cómo los sumerios dejaron una huella que seguimos usando cada día."
+card_subtitle: "Medimos el tiempo en 60 porque el sistema sexagesimal combinaba divisibilidad."
 image: "https://img.youtube.com/vi/HMGMfJseSpI/hqdefault.jpg"
 image_alt: "¿Por Qué Medimos el Tiempo en 60? El Secreto del Sistema Sexagesimal"
 resumen: "Medimos el tiempo en 60 porque el sistema sexagesimal combinaba divisibilidad, astronomía y una forma sorprendentemente práctica de contar con las manos."

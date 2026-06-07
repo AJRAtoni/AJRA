@@ -5,6 +5,7 @@ date: 2018-02-26 10:00:00 +0300
 image: /images/91.jpg
 image_alt: "Embudo de inbound marketing con contenido, captación, conversión y fidelización"
 description: "El inbound marketing consiste en atraer clientes con contenido útil, entender a la audiencia, captar leads, convertirlos y mantener una relación a largo plazo."
+card_subtitle: "El inbound marketing funciona cuando el contenido no es decoración."
 resumen: "El inbound marketing funciona cuando el contenido no es decoración: debe estar conectado con SEO, buyer persona, conversión, análisis y fidelización."
 source: AJRA-v09/_posts/2018-02-26-inbound-marketing.md
 ---

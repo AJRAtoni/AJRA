@@ -5,6 +5,7 @@ date: 2017-10-08 10:00:00 +0300
 image: /images/79.jpg
 image_alt: "Encuesta publicada en Instagram Stories para recoger respuestas rápidas"
 description: "Instagram añadió encuestas a Stories en 2017, una función sencilla que cambió la forma de pedir opinión rápida dentro de la propia red social."
+card_subtitle: "Las encuestas de Instagram Stories fueron una señal temprana de cómo las plataformas sociales empezaron a convertir."
 resumen: "Las encuestas de Instagram Stories fueron una señal temprana de cómo las plataformas sociales empezaron a convertir la interacción rápida en datos útiles para marcas y creadores."
 source: AJRA-v09/_posts/2017-10-08-instagram-encuestas.md
 ---

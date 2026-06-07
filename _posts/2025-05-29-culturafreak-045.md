@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #045"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple cumple 10 años bajo el mando de Tim Cook, se estrena el pago directo en tienda desde el iPhone y llegan los dominios personalizados a iCloud. Hablamos del mayor ataque..."
+card_subtitle: "Apple cumple 10 años bajo el mando de Tim Cook, se estrena el pago directo en tienda desde el iPhone y llegan los dominios."
 image: "https://img.youtube.com/vi/CXdsSKenkEo/hqdefault.jpg"
 image_alt: "CULTURAFREAK #045"
 resumen: "Apple cumple 10 años bajo el mando de Tim Cook, se estrena el pago directo en tienda desde el iPhone y llegan los dominios personalizados a iCloud. Hablamos del mayor ataque..."

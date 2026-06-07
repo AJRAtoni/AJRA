@@ -5,6 +5,7 @@ date: 2016-08-10 10:00:00 +0300
 image: /images/logo-sublimetext.png
 image_alt: "Logo de Sublime Text y editor de código para desarrollo web"
 description: "Sublime Text fue uno de los editores favoritos para desarrollo web. Hoy convive con VS Code, Cursor y editores con IA, pero sigue teniendo lecciones útiles."
+card_subtitle: "Sublime Text sigue siendo un ejemplo de editor rápido, ligero y extensible."
 resumen: "Sublime Text sigue siendo un ejemplo de editor rápido, ligero y extensible, aunque el flujo actual haya cambiado hacia VS Code, Cursor e IA."
 source: AJRA-v09/_posts/2016-08-10-sublime-text.md
 ---

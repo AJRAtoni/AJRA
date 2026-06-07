@@ -3,6 +3,7 @@ layout: post
 title: "Meta Quest Pro: realidad mixta, trabajo y metaverso"
 date: 2022-11-14 10:00:00 +0300
 description: "Meta Quest Pro fue el visor avanzado de Meta para realidad mixta, trabajo colaborativo y experiencias inmersivas."
+card_subtitle: "Meta Quest Pro apuntaba menos al juego masivo y más a productividad, colaboración y realidad mixta."
 image: /images/271.webp
 image_alt: "Meta Quest Pro como visor avanzado de realidad mixta"
 resumen: "Meta Quest Pro apuntaba menos al juego masivo y más a productividad, colaboración y realidad mixta, aunque su precio la dejaba en un nicho claro."

@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #052"
 date: 2025-05-29 09:00:00 -0400
 description: "De cómo ocultar un notch con estilo, a cómo bloquear a medio Twitter de un plumazo. Esta semana hablamos de Top Notch para MacBook Pro, de la IA de Rank Math que quiere..."
+card_subtitle: "De cómo ocultar un notch con estilo, a cómo bloquear a medio Twitter de un plumazo."
 image: "https://img.youtube.com/vi/uzz-o2WWlso/hqdefault.jpg"
 image_alt: "CULTURAFREAK #052"
 resumen: "De cómo ocultar un notch con estilo, a cómo bloquear a medio Twitter de un plumazo. Esta semana hablamos de Top Notch para MacBook Pro, de la IA de Rank Math que quiere..."

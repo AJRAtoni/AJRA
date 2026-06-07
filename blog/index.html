@@ -12,7 +12,7 @@ permalink: /blog/
             <div class="post-card-body">
                 <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time>
                 <h2>{{ post.title | escape }}</h2>
-                <p>{{ post.description | default: post.excerpt | markdownify | strip_html | normalize_whitespace | truncate: 150 }}</p>
+                <p>{{ post.card_subtitle | default: post.resumen | default: post.description | default: post.excerpt | markdownify | strip_html | normalize_whitespace | truncate: 150 }}</p>
             </div>
         </a>
     </article>

@@ -3,6 +3,7 @@ layout: post
 title: "Time Blocking: la técnica que organiza tu día por bloques"
 date: 2025-09-30 09:00:00 -0400
 description: "En este episodio hablamos del Time Blocking, una de las técnicas de productividad más efectivas para dejar de improvisar y empezar a planificar."
+card_subtitle: "Hablamos del Time Blocking, una de las técnicas de productividad más efectivas para dejar de improvisar y empezar."
 image: "https://img.youtube.com/vi/-Ui8h_aBvY8/hqdefault.jpg"
 image_alt: "Time Blocking: la técnica que organiza tu día por bloques"
 resumen: "En este episodio hablamos del Time Blocking, una de las técnicas de productividad más efectivas para dejar de improvisar y empezar a planificar."

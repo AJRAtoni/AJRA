@@ -5,6 +5,7 @@ date: 2017-06-08 10:00:00 +0300
 image: /images/logo-tesla.jpg
 image_alt: "Tesla Model Y y la evolución del SUV eléctrico de Tesla"
 description: "El primer teaser del Tesla Model Y apuntaba a un SUV eléctrico ambicioso. Años después, el modelo se convirtió en una pieza clave para Tesla."
+card_subtitle: "El Model Y pasó de teaser misterioso a uno de los modelos más importantes de Tesla."
 resumen: "El Model Y pasó de teaser misterioso a uno de los modelos más importantes de Tesla, demostrando el peso del formato SUV en la adopción del coche eléctrico."
 source: AJRA-v09/_posts/2017-06-08-tesla-model-y.md
 ---

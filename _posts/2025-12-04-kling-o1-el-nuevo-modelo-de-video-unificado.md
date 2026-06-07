@@ -3,6 +3,7 @@ layout: post
 title: "Kling O1: el nuevo modelo de vídeo unificado"
 date: 2025-12-04 09:00:00 -0500
 description: "Kling O1 propone un flujo unificado para generar y editar vídeo con texto, imágenes, clips y sujetos dentro de una misma herramienta."
+card_subtitle: "Kling O1 intenta llevar el vídeo con IA de la demo llamativa a un flujo más controlable."
 image: "https://img.youtube.com/vi/8l0Iyb2xkr8/hqdefault.jpg"
 image_alt: "Kling O1: el nuevo modelo de vídeo unificado"
 resumen: "Kling O1 intenta llevar el vídeo con IA de la demo llamativa a un flujo más controlable, con edición, referencias y coherencia en una misma herramienta."

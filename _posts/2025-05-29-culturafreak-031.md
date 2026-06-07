@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #031"
 date: 2025-05-29 09:00:00 -0400
 description: "¡Hay agua en la Luna! La NASA detecta hielo en zonas sombrías de la superficie lunar, y Apple lanza oficialmente Apple One, su pack de servicios todo-en-uno. También repasamos..."
+card_subtitle: "¡Hay agua en la Luna! La NASA detecta hielo en zonas sombrías de la superficie lunar."
 image: "https://img.youtube.com/vi/Zw289OSQn8s/hqdefault.jpg"
 image_alt: "CULTURAFREAK #031"
 resumen: "¡Hay agua en la Luna! La NASA detecta hielo en zonas sombrías de la superficie lunar, y Apple lanza oficialmente Apple One, su pack de servicios todo-en-uno. También repasamos..."

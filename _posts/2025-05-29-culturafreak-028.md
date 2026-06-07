@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #028"
 date: 2025-05-29 09:00:00 -0400
 description: "Amazon pone fecha al Prime Day 2020, Apple anuncia cuándo presentará sus resultados del Q4 y Google lanza un Pixel 5 que no sabe si es gama media o alta. El Museo del Prado..."
+card_subtitle: "Amazon pone fecha al Prime Day 2020, Apple anuncia cuándo presentará sus resultados del Q4 y Google lanza un Pixel 5 que no."
 image: "https://img.youtube.com/vi/JEEZ-5-U5fs/hqdefault.jpg"
 image_alt: "CULTURAFREAK #028"
 resumen: "Amazon pone fecha al Prime Day 2020, Apple anuncia cuándo presentará sus resultados del Q4 y Google lanza un Pixel 5 que no sabe si es gama media o alta. El Museo del Prado..."

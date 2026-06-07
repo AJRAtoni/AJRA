@@ -5,6 +5,7 @@ date: 2021-02-01 10:00:00 +0300
 image: /images/logo-tesla.jpg
 image_alt: "Logotipo de Tesla asociado al rediseño interior de los Model S y Model X"
 description: "Tesla presentó un rediseño interior para los Model S y Model X con pantalla horizontal, nuevo volante y una experiencia más alineada con el resto de la gama."
+card_subtitle: "El rediseño interior del Model S y Model X mostraba cómo Tesla trataba el coche como producto tecnológico."
 resumen: "El rediseño interior del Model S y Model X mostraba cómo Tesla trataba el coche como producto tecnológico: hardware, software e interfaz evolucionando juntos."
 source: AJRA-v09/_posts/2021-02-01-tesla-models.md
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #068"
 date: 2025-05-29 09:00:00 -0400
 description: "¡CULTURAFREAK está de vuelta! En esta nueva etapa, más personal y cercana, te cuento qué he estado haciendo estos meses, desde mis artículos recientes sobre productividad..."
+card_subtitle: "¡CULTURAFREAK está de vuelta! En esta nueva etapa, más personal y cercana, te cuento qué he estado haciendo estos meses."
 image: "https://img.youtube.com/vi/zWRCphMkanE/hqdefault.jpg"
 image_alt: "CULTURAFREAK #068"
 resumen: "¡CULTURAFREAK está de vuelta! En esta nueva etapa, más personal y cercana, te cuento qué he estado haciendo estos meses, desde mis artículos recientes sobre productividad..."

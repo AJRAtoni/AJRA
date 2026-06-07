@@ -3,6 +3,7 @@ layout: post
 title: "Hyper Dragon Ball Z: el juego por y para fans de Dragon Ball."
 date: 2025-09-05 09:00:00 -0400
 description: "Wicked Ambition es la nueva versión de Hyper Dragon Ball Z, un juego hecho por fans con alma de arcade clásico y combos dignos de un Budokai Tenkaichi."
+card_subtitle: "Wicked Ambition es la nueva versión de Hyper Dragon Ball Z, un juego hecho por fans con alma de arcade clásico y combos."
 image: "https://img.youtube.com/vi/adE6VygcZWI/hqdefault.jpg"
 image_alt: "Hyper Dragon Ball Z: el juego por y para fans de Dragon Ball."
 resumen: "Wicked Ambition es la nueva versión de Hyper Dragon Ball Z, un juego hecho por fans con alma de arcade clásico y combos dignos de un Budokai Tenkaichi."

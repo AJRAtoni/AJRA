@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #037"
 date: 2025-05-29 09:00:00 -0400
 description: "Elon Musk supera a Jeff Bezos y se convierte en la persona más rica del mundo. Mientras tanto, Jack Ma sigue desaparecido, Samsung prepara el Galaxy S21, y una comparativa..."
+card_subtitle: "Elon Musk supera a Jeff Bezos y se convierte en la persona más rica del mundo."
 image: "https://img.youtube.com/vi/rlxoYVTmxYQ/hqdefault.jpg"
 image_alt: "CULTURAFREAK #037"
 resumen: "Elon Musk supera a Jeff Bezos y se convierte en la persona más rica del mundo. Mientras tanto, Jack Ma sigue desaparecido, Samsung prepara el Galaxy S21, y una comparativa..."

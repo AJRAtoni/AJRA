@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #073"
 date: 2025-05-29 09:00:00 -0400
 description: "WordPress 6.5 ya está aquí, Apple activa ‘Spatial Persona’ en visionOS, y ahora podrás emular tus juegos retro desde la App Store. Además, Sam Altman, Jony Ive y Laurene Powell..."
+card_subtitle: "WordPress 6.5 ya está aquí, Apple activa ‘Spatial Persona’ en visionOS."
 image: "https://img.youtube.com/vi/o7bZIPrCRF0/hqdefault.jpg"
 image_alt: "CULTURAFREAK #073"
 resumen: "WordPress 6.5 ya está aquí, Apple activa ‘Spatial Persona’ en visionOS, y ahora podrás emular tus juegos retro desde la App Store. Además, Sam Altman, Jony Ive y Laurene Powell..."

@@ -5,6 +5,7 @@ date: 2017-06-18 10:00:00 +0300
 image: /images/logo-spacex.jpg
 image_alt: "Logotipo de SpaceX para el retraso del lanzamiento BulgariaSat-1"
 description: "SpaceX retrasó el lanzamiento de BulgariaSat-1 por una incidencia técnica en una válvula del carenado, un buen ejemplo de la prudencia necesaria en lanzamientos espaciales."
+card_subtitle: "El retraso de BulgariaSat-1 recordó que en el espacio no conviene forzar un lanzamiento."
 resumen: "El retraso de BulgariaSat-1 recordó que en el espacio no conviene forzar un lanzamiento: parar a tiempo también forma parte de ejecutar bien."
 source: AJRA-v09/_posts/2017-06-18-spacex-bulgariasat-cancelado.md
 ---

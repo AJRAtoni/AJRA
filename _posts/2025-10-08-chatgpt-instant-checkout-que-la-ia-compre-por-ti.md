@@ -3,6 +3,7 @@ layout: post
 title: "ChatGPT Instant Checkout: Que la IA compre por ti"
 date: 2025-10-08 09:00:00 -0400
 description: "OpenAI presenta ChatGPT Instant Checkout, una función que convierte la conversación en tienda: pides algo, la IA lo encuentra y lo compras en segundos, sin salir del chat."
+card_subtitle: "OpenAI presenta ChatGPT Instant Checkout, una función que convierte la conversación en tienda."
 image: "https://img.youtube.com/vi/oNyvljHmpGk/hqdefault.jpg"
 image_alt: "ChatGPT Instant Checkout: Que la IA compre por ti"
 resumen: "OpenAI presenta ChatGPT Instant Checkout, una función que convierte la conversación en tienda: pides algo, la IA lo encuentra y lo compras en segundos, sin salir del chat."

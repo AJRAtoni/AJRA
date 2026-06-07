@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #038"
 date: 2025-05-29 09:00:00 -0400
 description: "¡AJRA sigue vivo! Y con él, vuelve CULTURAFREAK. Esta semana hablamos del Ever Given desencallado en el Canal de Suez, Ghost 4.0 con soporte para newsletters, y un dock para..."
+card_subtitle: "¡AJRA sigue vivo! Y con él, vuelve CULTURAFREAK. Esta semana hablamos del Ever Given desencallado en el Canal de Suez."
 image: "https://img.youtube.com/vi/L4P4YQhFrm4/hqdefault.jpg"
 image_alt: "CULTURAFREAK #038"
 resumen: "¡AJRA sigue vivo! Y con él, vuelve CULTURAFREAK. Esta semana hablamos del Ever Given desencallado en el Canal de Suez, Ghost 4.0 con soporte para newsletters, y un dock para..."

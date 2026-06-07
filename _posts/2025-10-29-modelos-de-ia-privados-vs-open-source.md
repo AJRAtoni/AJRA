@@ -3,6 +3,7 @@ layout: post
 title: "Modelos de IA: Privados vs Open Source"
 date: 2025-10-29 09:00:00 -0400
 description: "En el mundo de la inteligencia artificial se libra una guerra silenciosa: los modelos cerrados y privados, controlados por gigantes como OpenAI, Google o Anthropic, contra los..."
+card_subtitle: "En el mundo de la inteligencia artificial se libra una guerra silenciosa."
 image: "https://img.youtube.com/vi/XqOrlzvdriY/hqdefault.jpg"
 image_alt: "Modelos de IA: Privados vs Open Source"
 resumen: "En el mundo de la inteligencia artificial se libra una guerra silenciosa: los modelos cerrados y privados, controlados por gigantes como OpenAI, Google o Anthropic, contra los..."

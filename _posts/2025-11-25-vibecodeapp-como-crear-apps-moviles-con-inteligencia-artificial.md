@@ -3,6 +3,7 @@ layout: post
 title: "VibecodeApp: Cómo Crear Apps Móviles con Inteligencia Artificial"
 date: 2025-11-25 09:00:00 -0500
 description: "Qué promete VibecodeApp, cómo encaja en el vibe coding y por qué crear apps con IA exige velocidad, criterio técnico y supervisión humana."
+card_subtitle: "VibecodeApp lleva el vibe coding al móvil: prototipos rápidos con IA."
 image: "https://img.youtube.com/vi/6A-nWvISfF8/hqdefault.jpg"
 image_alt: "VibecodeApp: Cómo Crear Apps Móviles con Inteligencia Artificial"
 resumen: "VibecodeApp lleva el vibe coding al móvil: prototipos rápidos con IA, útiles si se combinan con revisión técnica y buen criterio de producto."

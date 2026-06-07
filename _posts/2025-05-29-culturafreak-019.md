@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #019"
 date: 2025-05-29 09:00:00 -0400
 description: "¿Adicto al móvil? Google propone que lo cambies por una hoja de papel. Facebook lanza su sistema de pagos y GitHub planea guardar el código abierto… en el Ártico. Además, Apple..."
+card_subtitle: "¿Adicto al móvil? Google propone que lo cambies por una hoja de papel."
 image: "https://img.youtube.com/vi/kE1_cYVm0BM/hqdefault.jpg"
 image_alt: "CULTURAFREAK #019"
 resumen: "¿Adicto al móvil? Google propone que lo cambies por una hoja de papel. Facebook lanza su sistema de pagos y GitHub planea guardar el código abierto… en el Ártico. Además, Apple..."

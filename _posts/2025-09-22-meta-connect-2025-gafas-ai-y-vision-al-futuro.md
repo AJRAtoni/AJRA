@@ -3,6 +3,7 @@ layout: post
 title: "Meta Connect 2025: gafas, AI y visión al futuro"
 date: 2025-09-22 09:00:00 -0400
 description: "En este episodio hacemos un recorrido completo por lo más destacado del Meta Connect 2025: desde las nuevas Ray-Ban Display con pantalla integrada y la Meta Neural Band, hasta..."
+card_subtitle: "Recorrido por lo más destacado del Meta Connect 2025: desde las nuevas Ray-Ban Display con pantalla integrada y la Meta."
 image: "https://img.youtube.com/vi/pDc-BRSTqbk/hqdefault.jpg"
 image_alt: "Meta Connect 2025: gafas, AI y visión al futuro"
 resumen: "En este episodio hacemos un recorrido completo por lo más destacado del Meta Connect 2025: desde las nuevas Ray-Ban Display con pantalla integrada y la Meta Neural Band, hasta..."

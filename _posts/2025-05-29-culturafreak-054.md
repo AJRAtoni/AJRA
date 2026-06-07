@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #054"
 date: 2025-05-29 09:00:00 -0400
 description: "¡Volvemos tras un parón de dos meses! En este episodio te cuento cómo he rediseñado mi web personal con Jekyll y GitHub Pages, repasamos el hito bursátil de Apple y el batacazo..."
+card_subtitle: "¡Volvemos tras un parón de dos meses! En este episodio te cuento cómo he rediseñado mi web personal con Jekyll y GitHub."
 image: "https://img.youtube.com/vi/F-fTcrC5e_Q/hqdefault.jpg"
 image_alt: "CULTURAFREAK #054"
 resumen: "¡Volvemos tras un parón de dos meses! En este episodio te cuento cómo he rediseñado mi web personal con Jekyll y GitHub Pages, repasamos el hito bursátil de Apple y el batacazo..."

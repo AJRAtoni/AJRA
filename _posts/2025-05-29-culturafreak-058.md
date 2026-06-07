@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #058"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple lanza actualizaciones importantes (iOS 15.4, macOS 12.3 y más), Substack presenta su esperada app, Shopify se mete al juego con Linkpop, y descubrimos recursos útiles..."
+card_subtitle: "Apple lanza actualizaciones importantes (iOS 15.4, macOS 12.3 y más), Substack presenta su esperada app."
 image: "https://img.youtube.com/vi/yHtln14IuRA/hqdefault.jpg"
 image_alt: "CULTURAFREAK #058"
 resumen: "Apple lanza actualizaciones importantes (iOS 15.4, macOS 12.3 y más), Substack presenta su esperada app, Shopify se mete al juego con Linkpop, y descubrimos recursos útiles..."

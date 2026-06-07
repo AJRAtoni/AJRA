@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #023"
 date: 2025-05-29 09:00:00 -0400
 description: "Semana de WWDC 2020: Apple lo acapara todo, sus acciones rompen máximos históricos y los rumores vuelan. Facebook cambia de rumbo con Libra, que deja de ser criptomoneda para..."
+card_subtitle: "Semana de WWDC 2020: Apple lo acapara todo, sus acciones rompen máximos históricos y los rumores vuelan."
 image: "https://img.youtube.com/vi/FVMXVxgHZJM/hqdefault.jpg"
 image_alt: "CULTURAFREAK #023"
 resumen: "Semana de WWDC 2020: Apple lo acapara todo, sus acciones rompen máximos históricos y los rumores vuelan. Facebook cambia de rumbo con Libra, que deja de ser criptomoneda para..."

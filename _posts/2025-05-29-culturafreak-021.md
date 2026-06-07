@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #021"
 date: 2025-05-29 09:00:00 -0400
 description: "Vuelve CULTURAFREAK con una edición marcada por el COVID-19: se cancelan el MWC, la GDC y el F8, y están en duda Google I/O, WWDC, E3 y hasta los Juegos Olímpicos. Además..."
+card_subtitle: "Vuelve CULTURAFREAK con una edición marcada por el COVID-19: se cancelan el MWC, la GDC y el F8."
 image: "https://img.youtube.com/vi/TVE2omGqvg0/hqdefault.jpg"
 image_alt: "CULTURAFREAK #021"
 resumen: "Vuelve CULTURAFREAK con una edición marcada por el COVID-19: se cancelan el MWC, la GDC y el F8, y están en duda Google I/O, WWDC, E3 y hasta los Juegos Olímpicos. Además..."

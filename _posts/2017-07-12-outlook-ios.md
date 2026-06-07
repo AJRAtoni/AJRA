@@ -5,6 +5,7 @@ date: 2017-07-12 10:00:00 +0300
 image: /images/67.jpg
 image_alt: "Outlook para iOS con mejoras de respuesta rápida y búsqueda inteligente"
 description: "Outlook para iOS añadió respuestas rápidas, menciones y mejoras de búsqueda, acercando el email a una experiencia más conversacional y móvil."
+card_subtitle: "La actualización de Outlook para iOS mostraba hacia dónde iba el email."
 resumen: "La actualización de Outlook para iOS mostraba hacia dónde iba el email: menos pantalla de redacción pesada, más respuesta rápida, búsqueda inteligente y flujo móvil."
 source: AJRA-v09/_posts/2017-07-12-outlook-ios.md
 ---

@@ -5,6 +5,7 @@ date: 2019-06-10 10:00:00 +0300
 image: /images/logo-dropbox.png
 image_alt: "Logotipo de Dropbox en una noticia sobre cambios de almacenamiento y precio"
 description: "Dropbox Plus duplicó almacenamiento hasta 2 TB y añadió funciones como Smart Sync y Rewind, acompañadas de una subida de precio."
+card_subtitle: "Dropbox mejoró su plan Plus con más almacenamiento y funciones, pero también recordó que la nube barata o ilimitada casi."
 resumen: "Dropbox mejoró su plan Plus con más almacenamiento y funciones, pero también recordó que la nube barata o ilimitada casi siempre acaba ajustando condiciones."
 source: AJRA-v09/_posts/2019-06-10-dropbox-precios.md
 ---

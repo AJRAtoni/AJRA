@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #011"
 date: 2025-05-29 09:00:00 -0400
 description: "Trump levanta el veto a Huawei, Mozilla lanza una web para trolear anunciantes y Xiaomi presenta un móvil “solo para mujeres” con filtros para selfies (facepalm)."
+card_subtitle: "Huawei, Mozilla y Xiaomi protagonizan una semana de titulares raros, decisiones políticas y cultura tech."
 image: "https://img.youtube.com/vi/pwDtZT86Suk/hqdefault.jpg"
 image_alt: "CULTURAFREAK #011"
 resumen: "Trump levanta el veto a Huawei, Mozilla lanza una web para trolear anunciantes y Xiaomi presenta un móvil “solo para mujeres” con filtros para selfies (facepalm)."

@@ -5,6 +5,7 @@ date: 2019-10-18 10:00:00 +0300
 image: /images/171.png
 image_alt: "Integración para compartir publicaciones de Reddit en Snapchat Stories"
 description: "Snapchat y Reddit permitieron compartir publicaciones de Reddit directamente en Stories, una integración pensada para ganar contenido y atraer públicos jóvenes."
+card_subtitle: "La alianza entre Snapchat y Reddit mostró cómo las plataformas sociales buscan distribución cruzada."
 resumen: "La alianza entre Snapchat y Reddit mostró cómo las plataformas sociales buscan distribución cruzada: más contenido para unas, más tráfico para otras."
 source: AJRA-v09/_posts/2019-10-19-snapchat-reddit.md
 ---

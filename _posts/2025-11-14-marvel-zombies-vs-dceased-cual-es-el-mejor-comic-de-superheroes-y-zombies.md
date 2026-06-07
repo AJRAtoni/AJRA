@@ -3,6 +3,7 @@ layout: post
 title: "Marvel Zombies vs DCeased: ¿Cuál es el mejor cómic de superhéroes y zombies?"
 date: 2025-11-14 09:00:00 -0500
 description: "Una comparación entre Marvel Zombies y DCeased desde el terror físico, el horror psicológico y la pregunta clave: qué tipo de monstruo da más miedo."
+card_subtitle: "Marvel Zombies y DCeased usan superhéroes infectados para miedos distintos."
 image: "https://img.youtube.com/vi/R7CPqrcsC-0/hqdefault.jpg"
 image_alt: "Marvel Zombies vs DCeased: ¿Cuál es el mejor cómic de superhéroes y zombies?"
 resumen: "Marvel Zombies y DCeased usan superhéroes infectados para miedos distintos: horror corporal frente a terror psicológico con rostro conocido."

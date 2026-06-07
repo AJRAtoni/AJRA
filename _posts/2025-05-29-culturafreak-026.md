@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #026"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple presenta nuevos Apple Watch, iPads y el esperado Apple One en su evento “Time Flies”. Nvidia compra ARM por $40.000 millones, y Amazon ficha al exdirector de la NSA, lo..."
+card_subtitle: "Apple presenta nuevos Apple Watch, iPads y el esperado Apple One en su evento “Time Flies”."
 image: "https://img.youtube.com/vi/12_xZxGgaKk/hqdefault.jpg"
 image_alt: "CULTURAFREAK #026"
 resumen: "Apple presenta nuevos Apple Watch, iPads y el esperado Apple One en su evento “Time Flies”. Nvidia compra ARM por $40.000 millones, y Amazon ficha al exdirector de la NSA, lo..."

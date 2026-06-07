@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #027"
 date: 2025-05-29 09:00:00 -0400
 description: "Amazon presenta su dron espía doméstico, widgets personalizables revolucionan iOS 14 (y llenan los bolsillos de un diseñador), y Nintendo dice adiós a la 3DS. Kasparov pierde..."
+card_subtitle: "Amazon presenta su dron espía doméstico, widgets personalizables revolucionan iOS 14."
 image: "https://img.youtube.com/vi/Qf38hmd7H5I/hqdefault.jpg"
 image_alt: "CULTURAFREAK #027"
 resumen: "Amazon presenta su dron espía doméstico, widgets personalizables revolucionan iOS 14 (y llenan los bolsillos de un diseñador), y Nintendo dice adiós a la 3DS. Kasparov pierde..."

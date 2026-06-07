@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #056"
 date: 2025-05-29 09:00:00 -0400
 description: "Esta semana abrimos la puerta al Metaverso. Te cuento por qué todas las big tech están obsesionadas con crear su propia “realidad alternativa” y cómo los usuarios acabaremos..."
+card_subtitle: "Esta semana abrimos la puerta al Metaverso. Te cuento por qué todas las big tech están obsesionadas con crear su propia."
 image: "https://img.youtube.com/vi/jZEX-IautEE/hqdefault.jpg"
 image_alt: "CULTURAFREAK #056"
 resumen: "Esta semana abrimos la puerta al Metaverso. Te cuento por qué todas las big tech están obsesionadas con crear su propia “realidad alternativa” y cómo los usuarios acabaremos..."

@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #048"
 date: 2025-05-29 09:00:00 -0400
 description: "El iPhone 13 ya está en manos de los primeros usuarios y recopilamos las mejores reviews para decidir si merece la pena. Europa quiere imponer el USB-C a todos los móviles..."
+card_subtitle: "El iPhone 13 ya está en manos de los primeros usuarios y recopilamos las mejores reviews para decidir si merece la pena."
 image: "https://img.youtube.com/vi/gCsJZVF8TRA/hqdefault.jpg"
 image_alt: "CULTURAFREAK #048"
 resumen: "El iPhone 13 ya está en manos de los primeros usuarios y recopilamos las mejores reviews para decidir si merece la pena. Europa quiere imponer el USB-C a todos los móviles..."

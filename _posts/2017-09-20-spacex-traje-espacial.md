@@ -5,6 +5,7 @@ date: 2017-09-20 10:00:00 +0300
 image: /images/logo-spacex.jpg
 image_alt: "Traje espacial de SpaceX diseñado para astronautas dentro de la nave Dragon"
 description: "El traje espacial de SpaceX mostró cómo la compañía cuidaba no solo la ingeniería, sino también la narrativa visual de una nueva etapa espacial."
+card_subtitle: "El traje espacial de SpaceX no era un simple detalle estético: ayudaba a contar una idea de futuro."
 resumen: "El traje espacial de SpaceX no era un simple detalle estético: ayudaba a contar una idea de futuro, seguridad y diseño industrial alrededor de la nave Dragon."
 source: AJRA-v09/_posts/2017-09-20-spacex-traje-espacial.md
 ---

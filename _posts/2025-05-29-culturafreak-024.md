@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #024"
 date: 2025-05-29 09:00:00 -0400
 description: "Vuelve CULTURAFREAK con una edición cargada de Elon Musk: Tesla dispara en bolsa, Neuralink presenta avances para conectar el cerebro a chips, SpaceX sigue haciendo historia y..."
+card_subtitle: "Vuelve CULTURAFREAK con una edición cargada de Elon Musk: Tesla dispara en bolsa."
 image: "https://img.youtube.com/vi/xmI7uwDWkbw/hqdefault.jpg"
 image_alt: "CULTURAFREAK #024"
 resumen: "Vuelve CULTURAFREAK con una edición cargada de Elon Musk: Tesla dispara en bolsa, Neuralink presenta avances para conectar el cerebro a chips, SpaceX sigue haciendo historia y..."

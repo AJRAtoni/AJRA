@@ -3,6 +3,7 @@ layout: post
 title: "El Misterio del Nano Banana"
 date: 2025-09-02 09:00:00 -0400
 description: "Google presenta Nano Banana, su nuevo generador de imágenes por IA que promete rapidez, calidad y eficiencia incluso en dispositivos móviles."
+card_subtitle: "Google presenta Nano Banana, su nuevo generador de imágenes por IA que promete rapidez."
 image: "https://img.youtube.com/vi/411or4dh528/hqdefault.jpg"
 image_alt: "El Misterio del Nano Banana"
 resumen: "Google presenta Nano Banana, su nuevo generador de imágenes por IA que promete rapidez, calidad y eficiencia incluso en dispositivos móviles."

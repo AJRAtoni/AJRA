@@ -5,6 +5,7 @@ date: 2019-11-06 10:00:00 +0300
 image: /images/logo-facebook.jpg
 image_alt: "Logotipo corporativo de Facebook en mayúsculas"
 description: "Facebook actualizó su identidad corporativa para diferenciar la empresa matriz de la red social y agrupar productos como Instagram y WhatsApp."
+card_subtitle: "El nuevo logo de FACEBOOK buscaba aclarar una arquitectura de marca cada vez más compleja."
 resumen: "El nuevo logo de FACEBOOK buscaba aclarar una arquitectura de marca cada vez más compleja: empresa matriz, red social, Instagram, WhatsApp y más servicios."
 source: AJRA-v09/_posts/2019-11-06-facebook-logo.md
 ---

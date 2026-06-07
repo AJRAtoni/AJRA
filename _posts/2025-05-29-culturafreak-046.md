@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #046"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple celebra el evento California Streaming y Jon Prosser ya se adelanta con filtraciones del supuesto iPhone 14. Analizamos el primer tráiler interactivo de la historia con..."
+card_subtitle: "Apple celebra el evento California Streaming y Jon Prosser ya se adelanta con filtraciones del supuesto iPhone 14."
 image: "https://img.youtube.com/vi/x_NMFI9sDOg/hqdefault.jpg"
 image_alt: "CULTURAFREAK #046"
 resumen: "Apple celebra el evento California Streaming y Jon Prosser ya se adelanta con filtraciones del supuesto iPhone 14. Analizamos el primer tráiler interactivo de la historia con..."

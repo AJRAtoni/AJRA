@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #055"
 date: 2025-05-29 09:00:00 -0400
 description: "En este episodio hablamos del fichaje estrella: el fundador de WhatsApp se convierte en CEO de Signal. Te cuento qué es el curioso proyecto W3W para mapear el mundo con solo..."
+card_subtitle: "Hablamos del fichaje estrella: el fundador de WhatsApp se convierte en CEO de Signal."
 image: "https://img.youtube.com/vi/TaplR0345Z0/hqdefault.jpg"
 image_alt: "CULTURAFREAK #055"
 resumen: "En este episodio hablamos del fichaje estrella: el fundador de WhatsApp se convierte en CEO de Signal. Te cuento qué es el curioso proyecto W3W para mapear el mundo con solo..."

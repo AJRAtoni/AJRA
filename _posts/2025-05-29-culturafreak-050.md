@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #050"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple presenta sus MacBook Pro con los nuevos chips M1 Pro y M1 Max, Google lanza los Pixel 6 con su propio procesador, y Twitch sufre uno de los mayores hackeos de su..."
+card_subtitle: "Apple presenta sus MacBook Pro con los nuevos chips M1 Pro y M1 Max, Google lanza los Pixel 6 con su propio procesador."
 image: "https://img.youtube.com/vi/_0iJZN-EjZA/hqdefault.jpg"
 image_alt: "CULTURAFREAK #050"
 resumen: "Apple presenta sus MacBook Pro con los nuevos chips M1 Pro y M1 Max, Google lanza los Pixel 6 con su propio procesador, y Twitch sufre uno de los mayores hackeos de su..."

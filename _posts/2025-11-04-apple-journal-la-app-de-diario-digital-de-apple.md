@@ -3,6 +3,7 @@ layout: post
 title: "Apple Journal: La App de Diario Digital de Apple"
 date: 2025-11-04 09:00:00 -0500
 description: "Apple Journal parece una app simple para escribir recuerdos, pero también apunta a bienestar, privacidad e inteligencia artificial personal dentro del ecosistema Apple."
+card_subtitle: "Apple Journal es diario, bienestar y estrategia de contexto personal."
 image: "https://img.youtube.com/vi/xzEEGKYPqFA/hqdefault.jpg"
 image_alt: "Apple Journal: La App de Diario Digital de Apple"
 resumen: "Apple Journal es diario, bienestar y estrategia de contexto personal: una app sencilla que dice mucho sobre privacidad e IA en el ecosistema Apple."

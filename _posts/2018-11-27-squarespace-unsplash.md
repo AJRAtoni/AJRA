@@ -5,6 +5,7 @@ date: 2018-11-27 10:00:00 +0300
 image: /images/118.jpg
 image_alt: "Integración de Unsplash en Squarespace para buscar imágenes gratuitas"
 description: "Squarespace se asoció con Unsplash para ofrecer imágenes gratuitas y profesionales dentro del propio editor de páginas."
+card_subtitle: "La integración de Unsplash en Squarespace reducía una fricción habitual."
 resumen: "La integración de Unsplash en Squarespace reducía una fricción habitual: encontrar imágenes decentes para una web sin perder media tarde buscando bancos externos."
 source: AJRA-v09/_posts/2018-11-27-squarespace-unsplash.md
 ---

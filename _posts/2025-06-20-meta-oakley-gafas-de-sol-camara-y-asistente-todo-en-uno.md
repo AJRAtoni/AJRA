@@ -3,6 +3,7 @@ layout: post
 title: "Meta Oakley: gafas de sol, cámara y asistente todo en uno."
 date: 2025-06-20 09:00:00 -0400
 description: "Meta y Oakley lanzan unas smart glasses que combinan diseño deportivo con tecnología integrada: cámara, altavoces, micrófono y asistente de IA en un formato que no parece de..."
+card_subtitle: "Meta y Oakley lanzan unas smart glasses que combinan diseño deportivo con tecnología integrada."
 image: "https://img.youtube.com/vi/9bJYt_1hZIM/hqdefault.jpg"
 image_alt: "Meta Oakley: gafas de sol, cámara y asistente todo en uno."
 resumen: "Meta y Oakley lanzan unas smart glasses que combinan diseño deportivo con tecnología integrada: cámara, altavoces, micrófono y asistente de IA en un formato que no parece de..."

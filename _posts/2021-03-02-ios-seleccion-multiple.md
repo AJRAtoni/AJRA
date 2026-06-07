@@ -5,6 +5,7 @@ date: 2021-03-02 10:00:00 +0300
 image: /images/240.jpeg
 image_alt: "Gestos de iOS y iPadOS para seleccionar varios emails en Mail"
 description: "Un truco rápido para seleccionar varios emails en Mail de iPhone o iPad deslizando con dos dedos sobre la lista de mensajes."
+card_subtitle: "Seleccionar varios emails con dos dedos en Mail es un gesto pequeño, pero ahorra mucho tiempo cuando toca limpiar."
 resumen: "Seleccionar varios emails con dos dedos en Mail es un gesto pequeño, pero ahorra mucho tiempo cuando toca limpiar, mover o archivar mensajes."
 source: AJRA-v09/_posts/2021-03-02-ios-seleccion-multiple.md
 ---

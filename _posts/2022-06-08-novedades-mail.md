@@ -5,6 +5,7 @@ date: 2022-06-08 23:00 +0300
 image: /images/265.webp
 image_alt: "Novedades de Mail en iOS 16, iPadOS 16 y macOS Ventura"
 description: "Mail añadió programar envío, recordar más tarde, deshacer envío y previsualizaciones de enlaces en iOS 16, iPadOS 16 y macOS Ventura."
+card_subtitle: "Mail recibió varias funciones muy esperadas en WWDC22, muchas inspiradas en clientes como Spark."
 resumen: "Mail recibió varias funciones muy esperadas en WWDC22, muchas inspiradas en clientes como Spark: programar, recordar, deshacer y enriquecer enlaces."
 source: AJRA-v09/_posts/2022-06-08-novedades-mail.md
 ---

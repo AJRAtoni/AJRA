@@ -3,6 +3,7 @@ layout: post
 title: "La Ilusión del Pensamiento: el paper de Apple sobre IA"
 date: 2025-06-16 09:00:00 -0400
 description: "Apple publica un paper titulado “La Ilusión del Pensamiento”, donde analiza los límites actuales de los modelos de lenguaje y su aparente capacidad de razonar."
+card_subtitle: "Apple publica un paper titulado “La Ilusión del Pensamiento”, donde analiza los límites actuales de los modelos de lenguaje."
 image: "https://img.youtube.com/vi/kGyPzaLTrts/hqdefault.jpg"
 image_alt: "La Ilusión del Pensamiento: el paper de Apple sobre IA"
 resumen: "Apple publica un paper titulado “La Ilusión del Pensamiento”, donde analiza los límites actuales de los modelos de lenguaje y su aparente capacidad de razonar."

@@ -5,6 +5,7 @@ date: 2019-09-11 10:00:00 +0300
 image: /images/logo-apple.jpg
 image_alt: "Logotipo de Apple sobre fondo oscuro"
 description: "Resumen retrospectivo del Apple Event de septiembre de 2019, con Apple Arcade, Apple TV+, nuevo iPad, Apple Watch Series 5, iPhone 11 y iPhone 11 Pro."
+card_subtitle: "La keynote By Innovation Only marcó el giro de Apple hacia servicios y presentó una generación de iPhone centrada en cámaras."
 resumen: "La keynote By Innovation Only marcó el giro de Apple hacia servicios y presentó una generación de iPhone centrada en cámaras, batería y ecosistema."
 source: AJRA-v09/_posts/2019-09-10-apple-event-innovation-only.md
 ---

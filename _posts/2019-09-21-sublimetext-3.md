@@ -5,6 +5,7 @@ date: 2019-09-21 10:00:00 +0300
 image: /images/logo-sublimetext.png
 image_alt: "Logotipo de Sublime Text sobre fondo oscuro"
 description: "Sublime Text 3.0 consolidó un editor de código rápido, ligero y multiplataforma, con mejoras importantes tras un largo periodo de desarrollo."
+card_subtitle: "Sublime Text 3.0 fue una actualización importante para un editor que ganó popularidad por ser rápido."
 resumen: "Sublime Text 3.0 fue una actualización importante para un editor que ganó popularidad por ser rápido, estable y no estorbar al escribir código."
 source: AJRA-v09/_posts/2019-09-21-sublimetext-3.md
 ---

@@ -5,6 +5,7 @@ date: 2022-05-24 10:00:00 +0300
 image: /images/263.jpg
 image_alt: "iPadOS 16 como lista de deseos para mejorar productividad en iPad"
 description: "Lista de deseos para iPadOS 16 antes de WWDC22: Archivos, Mail, Calendario, Notas, Fotos, Wallet, Salud, llavero y monitores externos."
+card_subtitle: "Antes de WWDC22, el iPad necesitaba menos potencia desaprovechada y más herramientas reales de trabajo."
 resumen: "Antes de WWDC22, mi lista para iPadOS 16 seguía una idea clara: el iPad necesitaba menos potencia sin usar y más herramientas de productividad real."
 source: AJRA-v09/_posts/2022-05-24-deseos-ipados16.md
 ---

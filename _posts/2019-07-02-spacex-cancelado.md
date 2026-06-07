@@ -5,6 +5,7 @@ date: 2019-07-02 10:00:00 +0300
 image: /images/logo-spacex.jpg
 image_alt: "Logotipo de SpaceX sobre fondo oscuro"
 description: "Un lanzamiento de Falcon 9 se detuvo a solo 9 segundos del despegue, recordando que la automatización y la prudencia también forman parte del éxito espacial."
+card_subtitle: "El aborto de lanzamiento de un Falcon 9 a segundos del despegue fue una muestra de cómo SpaceX prioriza seguridad."
 resumen: "El aborto de lanzamiento de un Falcon 9 a segundos del despegue fue una muestra de cómo SpaceX prioriza seguridad, telemetría y capacidad de reacción."
 source: AJRA-v09/_posts/2019-07-02-spacex-cancelado.md
 ---

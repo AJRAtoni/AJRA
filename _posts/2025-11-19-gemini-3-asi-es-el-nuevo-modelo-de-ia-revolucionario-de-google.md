@@ -3,6 +3,7 @@ layout: post
 title: "Gemini 3: Así es el Nuevo Modelo de IA Revolucionario de Google"
 date: 2025-11-19 09:00:00 -0500
 description: "Qué cambia con Gemini 3, por qué Google lo presenta como su modelo más inteligente y cómo sus capacidades multimodales apuntan hacia una IA más agéntica."
+card_subtitle: "Gemini 3 apunta a una IA más multimodal, contextual y agéntica, donde el salto importante no es responder mejor."
 image: "https://img.youtube.com/vi/0b87OTE01fQ/hqdefault.jpg"
 image_alt: "Gemini 3: Así es el Nuevo Modelo de IA Revolucionario de Google"
 resumen: "Gemini 3 apunta a una IA más multimodal, contextual y agéntica, donde el salto importante no es responder mejor, sino actuar con más criterio."

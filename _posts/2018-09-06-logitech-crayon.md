@@ -5,6 +5,7 @@ date: 2018-09-06 10:00:00 +0300
 image: /images/112.jpg
 image_alt: "Logitech Crayon como alternativa al Apple Pencil para iPad"
 description: "Logitech Crayon llegó como una alternativa más económica al Apple Pencil para el iPad de 2018, con buena autonomía y sin sensibilidad a la presión."
+card_subtitle: "Logitech Crayon fue importante porque abrió el uso de lápiz digital en iPad a educación y usuarios que no necesitaban todas."
 resumen: "Logitech Crayon fue importante porque abrió el uso de lápiz digital en iPad a educación y usuarios que no necesitaban todas las funciones del Apple Pencil."
 source: AJRA-v09/_posts/2018-09-06-logitech-crayon.md
 ---

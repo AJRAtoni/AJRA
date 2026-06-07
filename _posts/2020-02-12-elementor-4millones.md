@@ -5,6 +5,7 @@ date: 2020-02-11 10:00:00 +0300
 image: /images/logo-elementor.jpg
 image_alt: "Logotipo de Elementor celebrando millones de instalaciones activas"
 description: "Elementor anunció 4 millones de instalaciones activas y abrió una votación para que la comunidad eligiera próximas funciones."
+card_subtitle: "El crecimiento de Elementor mostraba el peso de los constructores visuales en WordPress."
 resumen: "El crecimiento de Elementor mostraba el peso de los constructores visuales en WordPress: más control para usuarios, pero también más responsabilidad técnica."
 source: AJRA-v09/_posts/2020-02-12-elementor-4millones.md
 ---

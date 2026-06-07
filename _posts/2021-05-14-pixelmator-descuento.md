@@ -5,6 +5,7 @@ date: 2021-05-14 10:00:00 +0300
 image: /images/245.webp
 image_alt: "Interfaz de Pixelmator Pro como editor de imágenes para macOS"
 description: "Pixelmator Pro estuvo al 50% de descuento, una buena ocasión para revisar por qué era una alternativa interesante a Photoshop en Mac."
+card_subtitle: "Pixelmator Pro destacaba por rendimiento, pago único e integración con macOS."
 resumen: "Pixelmator Pro destacaba por rendimiento, pago único e integración con macOS, especialmente para quienes necesitaban editar imágenes sin vivir dentro de una suscripción."
 source: AJRA-v09/_posts/2021-05-14-pixelmator-descuento.md
 ---

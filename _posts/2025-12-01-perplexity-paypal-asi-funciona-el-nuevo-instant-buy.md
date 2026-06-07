@@ -3,6 +3,7 @@ layout: post
 title: "Perplexity + PayPal: así funciona el nuevo ‘Instant Buy’"
 date: 2025-12-01 09:00:00 -0500
 description: "La integración de Perplexity con PayPal convierte el chat en un posible asistente de compras capaz de recomendar y permitir pagos sin salir de la conversación."
+card_subtitle: "Instant Buy de Perplexity y PayPal apunta a un comercio conversacional donde buscar."
 image: "https://img.youtube.com/vi/x0oh9ajA_-M/hqdefault.jpg"
 image_alt: "Perplexity + PayPal: así funciona el nuevo ‘Instant Buy’"
 resumen: "Instant Buy de Perplexity y PayPal apunta a un comercio conversacional donde buscar, comparar y pagar empiezan a formar parte del mismo flujo."

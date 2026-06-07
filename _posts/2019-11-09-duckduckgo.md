@@ -5,6 +5,7 @@ date: 2019-11-09 10:00:00 +0300
 image: /images/181.png
 image_alt: "Logotipo de DuckDuckGo, buscador centrado en privacidad"
 description: "DuckDuckGo es un buscador que no basa su propuesta en rastrear al usuario, una alternativa útil para reducir dependencia de Google."
+card_subtitle: "Cambiar el buscador por defecto es una de las formas más sencillas de reducir rastreo y dependencia de Google sin cambiar."
 resumen: "Cambiar el buscador por defecto es una de las formas más sencillas de reducir rastreo y dependencia de Google sin cambiar todo tu flujo digital."
 source: AJRA-v09/_posts/2019-11-09-duckduckgo.md
 ---

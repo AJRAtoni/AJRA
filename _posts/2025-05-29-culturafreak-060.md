@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #060"
 date: 2025-05-29 09:00:00 -0400
 description: "Elon Musk quiere comprar Twitter y la polémica está servida. WhatsApp anuncia Comunidades, DuckDuckGo lanza su navegador para macOS, y descubrimos herramientas como..."
+card_subtitle: "Elon Musk quiere comprar Twitter y la polémica está servida."
 image: "https://img.youtube.com/vi/jC9Pw8TTsJM/hqdefault.jpg"
 image_alt: "CULTURAFREAK #060"
 resumen: "Elon Musk quiere comprar Twitter y la polémica está servida. WhatsApp anuncia Comunidades, DuckDuckGo lanza su navegador para macOS, y descubrimos herramientas como..."

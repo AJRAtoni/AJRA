@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #034"
 date: 2025-05-29 09:00:00 -0400
 description: "SpaceX lleva a cuatro astronautas a la ISS (incluyendo un peluche de Baby Yoda) y Tom Cruise confirma que rodará en el espacio. Esta semana también hablamos de Fleets, las..."
+card_subtitle: "SpaceX lleva a cuatro astronautas a la ISS (incluyendo un peluche de Baby Yoda) y Tom Cruise confirma que rodará."
 image: "https://img.youtube.com/vi/xuMH6cdNpH4/hqdefault.jpg"
 image_alt: "CULTURAFREAK #034"
 resumen: "SpaceX lleva a cuatro astronautas a la ISS (incluyendo un peluche de Baby Yoda) y Tom Cruise confirma que rodará en el espacio. Esta semana también hablamos de Fleets, las..."

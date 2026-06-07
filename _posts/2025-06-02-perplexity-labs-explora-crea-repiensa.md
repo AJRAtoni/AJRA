@@ -3,6 +3,7 @@ layout: post
 title: "Perplexity Labs: Explora. Crea. Repiensa."
 date: 2025-06-02 09:00:00 -0400
 description: "Perplexity da un paso más allá como buscador con el lanzamiento de Perplexity Labs, una plataforma pensada para explorar el futuro de la inteligencia artificial aplicada al..."
+card_subtitle: "Perplexity da un paso más allá como buscador con el lanzamiento de Perplexity Labs."
 image: "https://img.youtube.com/vi/hyGovAVpb_U/hqdefault.jpg"
 image_alt: "Perplexity Labs: Explora. Crea. Repiensa."
 resumen: "Perplexity da un paso más allá como buscador con el lanzamiento de Perplexity Labs, una plataforma pensada para explorar el futuro de la inteligencia artificial aplicada al..."

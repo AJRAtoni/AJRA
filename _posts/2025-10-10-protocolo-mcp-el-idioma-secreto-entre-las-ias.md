@@ -3,6 +3,7 @@ layout: post
 title: "Protocolo MCP: el idioma secreto entre las IAs"
 date: 2025-10-10 09:00:00 -0400
 description: "En este episodio hablamos del protocolo MCP (Model Context Protocol), el nuevo estándar que permite que distintas inteligencias artificiales y aplicaciones se comuniquen entre sí."
+card_subtitle: "Hablamos del protocolo MCP (Model Context Protocol), el nuevo estándar que permite que distintas inteligencias artificiales."
 image: "https://img.youtube.com/vi/f0wNO60Slb4/hqdefault.jpg"
 image_alt: "Protocolo MCP: el idioma secreto entre las IAs"
 resumen: "En este episodio hablamos del protocolo MCP (Model Context Protocol), el nuevo estándar que permite que distintas inteligencias artificiales y aplicaciones se comuniquen entre sí."

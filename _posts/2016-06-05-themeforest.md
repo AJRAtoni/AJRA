@@ -5,6 +5,7 @@ date: 2016-06-05 10:00:00 +0300
 image: /images/29.jpg
 image_alt: "Plantillas de WordPress y riesgos de themes sobrecargados"
 description: "Comprar un theme en ThemeForest puede parecer una solución rápida, pero muchos proyectos acaban pagando el precio en rendimiento, mantenimiento y dependencia."
+card_subtitle: "Un theme no debería resolverlo todo. Cuando diseño, contenido y funcionalidades se mezclan."
 resumen: "Un theme no debería resolverlo todo. Cuando diseño, contenido y funcionalidades se mezclan, cambiar o mantener la web se vuelve más difícil."
 source: AJRA-v09/_posts/2016-06-05-themeforest.md
 ---

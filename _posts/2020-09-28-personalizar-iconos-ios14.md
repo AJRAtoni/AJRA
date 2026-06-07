@@ -5,6 +5,7 @@ date: 2020-09-28 10:00:00 +0300
 image: /images/217.jpg
 image_alt: "Pantalla de inicio de iOS 14 personalizada con iconos y widgets"
 description: "iOS 14 puso de moda la personalización de pantallas de inicio con iconos y widgets, creando incluso un pequeño mercado de packs visuales."
+card_subtitle: "La personalización de iconos en iOS 14 demostró que una limitación del sistema podía convertirse en tendencia estética."
 resumen: "La personalización de iconos en iOS 14 demostró que una limitación del sistema podía convertirse en tendencia estética y oportunidad de negocio."
 source: AJRA-v09/_posts/2020-09-28-personalizar-iconos-ios14.md
 ---

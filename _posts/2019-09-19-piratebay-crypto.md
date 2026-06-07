@@ -5,6 +5,7 @@ date: 2019-09-19 10:00:00 +0300
 image: /images/159.webp
 image_alt: "Ilustración de criptomonedas y uso intensivo de CPU en una página web"
 description: "The Pirate Bay probó minería de criptomonedas en el navegador de sus visitantes, un caso temprano de cryptojacking y debate sobre monetización web."
+card_subtitle: "La minería en navegador de The Pirate Bay abrió una pregunta incómoda."
 resumen: "La minería en navegador de The Pirate Bay abrió una pregunta incómoda: cómo financiar una web sin publicidad invasiva y sin usar recursos del usuario sin permiso claro."
 source: AJRA-v09/_posts/2019-09-19-piratebay-crypto.md
 ---

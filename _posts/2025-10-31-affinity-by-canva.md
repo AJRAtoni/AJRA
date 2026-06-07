@@ -3,6 +3,7 @@ layout: post
 title: "Affinity by CANVA"
 date: 2025-10-31 09:00:00 -0500
 description: "El relanzamiento de Affinity bajo Canva: una suite profesional gratuita, nuevas herramientas de diseño y las dudas sobre IA, privacidad y suscripciones."
+card_subtitle: "Affinity bajo Canva abre una oportunidad enorme para diseño profesional gratuito."
 image: "https://img.youtube.com/vi/7yLhdyccpJY/hqdefault.jpg"
 image_alt: "Affinity by CANVA"
 resumen: "Affinity bajo Canva abre una oportunidad enorme para diseño profesional gratuito, pero también obliga a mirar modelo de negocio, IA y privacidad."

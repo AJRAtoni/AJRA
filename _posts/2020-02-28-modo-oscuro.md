@@ -5,6 +5,7 @@ date: 2020-02-18 10:00:00 +0300
 image: /images/190.jpg
 image_alt: "Ejemplo de una web adaptada a modo claro y modo oscuro"
 description: "Con prefers-color-scheme puedes adaptar los colores de una web al modo claro u oscuro configurado en el dispositivo del usuario."
+card_subtitle: "El modo oscuro en web no consiste en invertir colores: hay que usar CSS."
 resumen: "El modo oscuro en web no consiste en invertir colores: hay que usar CSS, cuidar contraste y adaptar componentes para que la experiencia sea cómoda."
 source: AJRA-v09/_posts/2020-02-28-modo-oscuro.md
 ---

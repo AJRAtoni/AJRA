@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #075"
 date: 2025-05-29 09:00:00 -0400
 description: "Meta lanza oficialmente LLaMA 3, el emulador Delta aterriza en iOS, y YouTube VR mejora su experiencia en Meta Quest 3. Además, Tesla despide al 10% de su plantilla y Musk..."
+card_subtitle: "Meta lanza oficialmente LLaMA 3, el emulador Delta aterriza en iOS, y YouTube VR mejora su experiencia en Meta Quest 3."
 image: "https://img.youtube.com/vi/sECSBElGd8Q/hqdefault.jpg"
 image_alt: "CULTURAFREAK #075"
 resumen: "Meta lanza oficialmente LLaMA 3, el emulador Delta aterriza en iOS, y YouTube VR mejora su experiencia en Meta Quest 3. Además, Tesla despide al 10% de su plantilla y Musk..."

@@ -3,6 +3,7 @@ layout: post
 title: "The Million Dollar Homepage: La historia de la web que ganó 1.000.000 de dólares vendiendo píxeles"
 date: 2025-12-11 09:00:00 -0500
 description: "La historia de The Million Dollar Homepage, el experimento viral que convirtió un millón de píxeles en más de un millón de dólares."
+card_subtitle: "The Million Dollar Homepage sigue siendo una lección de viralidad."
 image: "https://img.youtube.com/vi/8ECeyVeRGpM/hqdefault.jpg"
 image_alt: "The Million Dollar Homepage: La historia de la web que ganó 1.000.000 de dólares vendiendo píxeles"
 resumen: "The Million Dollar Homepage sigue siendo una lección de viralidad: una idea simple, una historia fácil de contar y una escasez imposible de ignorar."

@@ -3,6 +3,7 @@ layout: post
 title: "Steam Machine: ¿La revolución del gaming en el salón?"
 date: 2025-11-13 09:00:00 -0500
 description: "Un análisis de la nueva Steam Machine de Valve: hardware compacto, SteamOS, Proton, nuevo Steam Controller y los factores que decidirán si conquista el salón."
+card_subtitle: "La nueva Steam Machine tiene una segunda oportunidad gracias a Steam Deck, Proton y SteamOS, pero dependerá de precio."
 image: "https://img.youtube.com/vi/GWPxElSruzo/hqdefault.jpg"
 image_alt: "Steam Machine: ¿La revolución del gaming en el salón?"
 resumen: "La nueva Steam Machine tiene una segunda oportunidad gracias a Steam Deck, Proton y SteamOS, pero dependerá de precio, compatibilidad y experiencia real."

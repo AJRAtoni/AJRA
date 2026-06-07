@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #015"
 date: 2025-05-29 09:00:00 -0400
 description: "EE.UU. actualiza su sistema nuclear… que aún usaba disquetes. Una capa de invisibilidad estilo Harry Potter es real (gracias, HyperStealth), y Google Photos da almacenamiento..."
+card_subtitle: "EE.UU. actualiza su sistema nuclear que aún usaba disquetes. Una capa de invisibilidad estilo Harry Potter es real."
 image: "https://img.youtube.com/vi/n2QphTDMT-4/hqdefault.jpg"
 image_alt: "CULTURAFREAK #015"
 resumen: "EE.UU. actualiza su sistema nuclear… que aún usaba disquetes. Una capa de invisibilidad estilo Harry Potter es real (gracias, HyperStealth), y Google Photos da almacenamiento..."

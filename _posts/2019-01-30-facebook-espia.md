@@ -5,6 +5,7 @@ date: 2019-01-30 10:00:00 +0300
 image: /images/logo-facebook.jpg
 image_alt: "Logotipo de Facebook en una noticia sobre la app Facebook Research y privacidad"
 description: "Facebook pagó a usuarios para instalar Facebook Research, una VPN que permitía monitorizar gran parte de su actividad web y móvil."
+card_subtitle: "Facebook Research fue otro caso que mostró hasta dónde pueden llegar las plataformas para conseguir datos de comportamiento."
 resumen: "Facebook Research fue otro caso que mostró hasta dónde pueden llegar las plataformas para conseguir datos de comportamiento de los usuarios."
 source: AJRA-v09/_posts/2019-01-30-facebook-espia.md
 ---

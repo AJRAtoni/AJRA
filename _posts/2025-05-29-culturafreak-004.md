@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #004"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple calienta motores para presentar su plataforma de streaming, Spark permite delegar correos, y Dropbox recorta funciones a los usuarios gratuitos. Además: la wallet del..."
+card_subtitle: "Apple calienta motores para presentar su plataforma de streaming, Spark permite delegar correos."
 image: "https://img.youtube.com/vi/Atc_zYvQ5UI/hqdefault.jpg"
 image_alt: "CULTURAFREAK #004"
 resumen: "Apple calienta motores para presentar su plataforma de streaming, Spark permite delegar correos, y Dropbox recorta funciones a los usuarios gratuitos. Además: la wallet del..."

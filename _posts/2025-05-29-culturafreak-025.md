@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #025"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple anuncia su evento “Time Flies”, pero todo apunta a que no veremos el iPhone 12… aún. Mascarillas oficiales de Apple, novedades en Elementor 3.0, y el Gobierno español..."
+card_subtitle: "Apple anuncia su evento “Time Flies”, pero todo apunta a que no veremos el iPhone 12 aún."
 image: "https://img.youtube.com/vi/kfbWpGVvxfs/hqdefault.jpg"
 image_alt: "CULTURAFREAK #025"
 resumen: "Apple anuncia su evento “Time Flies”, pero todo apunta a que no veremos el iPhone 12… aún. Mascarillas oficiales de Apple, novedades en Elementor 3.0, y el Gobierno español..."

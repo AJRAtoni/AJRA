@@ -5,6 +5,7 @@ date: 2019-10-09 10:00:00 +0300
 image: /images/167.png
 image_alt: "Logotipo de Adobe Creative Cloud asociado a servicios en la nube"
 description: "Adobe anunció la suspensión de cuentas de Creative Cloud en Venezuela tras una orden ejecutiva de EEUU, un recordatorio de la dependencia de servicios cloud."
+card_subtitle: "El caso de Adobe en Venezuela mostró que el software por suscripción no depende solo de tecnología."
 resumen: "El caso de Adobe en Venezuela mostró que el software por suscripción no depende solo de tecnología: también depende de regulación, pagos y acceso a la nube."
 source: AJRA-v09/_posts/2019-10-09-adobe-venezuela.md
 ---

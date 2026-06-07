@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #029"
 date: 2025-05-29 09:00:00 -0400
 description: "Semana de Keynote: Apple presenta toda la familia iPhone 12 y el HomePod Mini. Mientras tanto, John McAfee es detenido en España por evasión de impuestos, Google rebautiza..."
+card_subtitle: "Semana de Keynote: Apple presenta toda la familia iPhone 12 y el HomePod Mini."
 image: "https://img.youtube.com/vi/sx5eAr13fkk/hqdefault.jpg"
 image_alt: "CULTURAFREAK #029"
 resumen: "Semana de Keynote: Apple presenta toda la familia iPhone 12 y el HomePod Mini. Mientras tanto, John McAfee es detenido en España por evasión de impuestos, Google rebautiza..."

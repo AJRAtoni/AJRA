@@ -5,6 +5,7 @@ date: 2018-03-19 10:00:00 +0300
 image: /images/logo-apple.jpg
 image_alt: "Invitación de Apple para la Keynote del 27 de marzo de 2018 en Chicago"
 description: "Apple anunció una Keynote para el 27 de marzo de 2018 en Chicago, con foco esperado en educación, iPad, Apple Pencil y posibles novedades de hardware."
+card_subtitle: "La Keynote de marzo de 2018 apuntaba a educación y iPad, pero también concentró rumores habituales sobre Apple Pencil, iOS."
 resumen: "La Keynote de marzo de 2018 apuntaba a educación y iPad, pero también concentró rumores habituales sobre Apple Pencil, iOS, MacBook Air e iPhone SE."
 source: AJRA-v09/_posts/2018-03-19-keynote-apple.md
 ---

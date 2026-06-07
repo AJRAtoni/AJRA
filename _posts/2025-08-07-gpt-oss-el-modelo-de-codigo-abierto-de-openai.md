@@ -3,6 +3,7 @@ layout: post
 title: "GPT-OSS: el modelo de código abierto de OpenAI"
 date: 2025-08-07 09:00:00 -0400
 description: "OpenAI lanza GPT-OSS, su primer modelo de lenguaje open source. En este episodio analizamos qué significa realmente “código abierto” en este contexto, qué nivel de potencia..."
+card_subtitle: "OpenAI lanza GPT-OSS, su primer modelo de lenguaje open source."
 image: "https://img.youtube.com/vi/sbBR90Es8CI/hqdefault.jpg"
 image_alt: "GPT-OSS: el modelo de código abierto de OpenAI"
 resumen: "OpenAI lanza GPT-OSS, su primer modelo de lenguaje open source. En este episodio analizamos qué significa realmente “código abierto” en este contexto, qué nivel de potencia..."

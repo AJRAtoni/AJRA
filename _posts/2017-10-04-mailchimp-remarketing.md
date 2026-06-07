@@ -5,6 +5,7 @@ date: 2017-10-04 10:00:00 +0300
 image: /images/75.jpg
 image_alt: "MailChimp y campañas de remarketing con Google Ads para tiendas online"
 description: "MailChimp incorporó campañas de Google Remarketing Ads para ayudar a tiendas online a recuperar visitantes que abandonaron la compra."
+card_subtitle: "El remarketing dentro de MailChimp simplificaba una idea muy potente para e-commerce."
 resumen: "El remarketing dentro de MailChimp simplificaba una idea muy potente para e-commerce: volver a impactar a quien ya mostró interés pero no terminó comprando."
 source: AJRA-v09/_posts/2017-10-04-mailchimp-remarketing.md
 ---

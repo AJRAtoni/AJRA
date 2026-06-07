@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #012"
 date: 2025-05-29 09:00:00 -0400
 description: "Neuralink de Elon Musk quiere conectar tu cerebro a una máquina, Apple se queda con el negocio 5G de Intel y Slack se pone más rápido y usable offline. También repasamos el..."
+card_subtitle: "Neuralink de Elon Musk quiere conectar tu cerebro a una máquina, Apple se queda con el negocio 5G de Intel y Slack se pone."
 image: "https://img.youtube.com/vi/OzSLcbuiANw/hqdefault.jpg"
 image_alt: "CULTURAFREAK #012"
 resumen: "Neuralink de Elon Musk quiere conectar tu cerebro a una máquina, Apple se queda con el negocio 5G de Intel y Slack se pone más rápido y usable offline. También repasamos el..."

@@ -5,6 +5,7 @@ date: 2019-05-27 10:00:00 +0300
 image: /images/129.jpg
 image_alt: "Pantalla de iOS con aviso de contraseñas débiles o reutilizadas"
 description: "Guía práctica para usar contraseñas más seguras: longitud, gestor de contraseñas, doble factor, contraseñas únicas y revisión de avisos en iOS."
+card_subtitle: "La contraseña perfecta no sirve si la reutilizas en todos los servicios."
 resumen: "La contraseña perfecta no sirve si la reutilizas en todos los servicios. Usa claves únicas, gestor de contraseñas y doble factor siempre que sea posible."
 source: AJRA-v09/_posts/2019-05-27-passwords-seguros.md
 ---

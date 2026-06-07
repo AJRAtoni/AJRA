@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #020"
 date: 2025-05-29 09:00:00 -0400
 description: "Tesla presenta su brutal CyberTruck, EE.UU. vuelve a darle una prórroga a Huawei y SpaceX ve cómo su Starship explota durante pruebas. Además, Mailchimp lanza un creador de..."
+card_subtitle: "Tesla presenta su brutal CyberTruck, EE.UU. vuelve a darle una prórroga a Huawei y SpaceX ve cómo su Starship explota."
 image: "https://img.youtube.com/vi/Anu57A5MQOw/hqdefault.jpg"
 image_alt: "CULTURAFREAK #020"
 resumen: "Tesla presenta su brutal CyberTruck, EE.UU. vuelve a darle una prórroga a Huawei y SpaceX ve cómo su Starship explota durante pruebas. Además, Mailchimp lanza un creador de..."

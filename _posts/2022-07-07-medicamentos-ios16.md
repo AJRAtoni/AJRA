@@ -5,6 +5,7 @@ date: 2022-07-07 10:00:00 +0300
 image: /images/266.webp
 image_alt: "Función Medicamentos de iOS 16 dentro de la app Salud"
 description: "iOS 16 añadió Medicamentos en la app Salud para registrar medicación, programar recordatorios y compartir información con profesionales sanitarios."
+card_subtitle: "Medicamentos en iOS 16 era una función sencilla, pero muy útil: registrar tomas."
 resumen: "Medicamentos en iOS 16 era una función sencilla, pero muy útil: registrar tomas, recibir avisos y llevar mejor control de tratamientos recurrentes."
 source: AJRA-v09/_posts/2022-07-07-medicamentos-ios16.md
 ---

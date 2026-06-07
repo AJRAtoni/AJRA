@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #043"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple implementa medidas de protección infantil en iOS 15 usando Machine Learning, generando mucho ruido mediático (y más de un malentendido). Microsoft lanza Windows 365, el..."
+card_subtitle: "Apple implementa medidas de protección infantil en iOS 15 usando Machine Learning."
 image: "https://img.youtube.com/vi/2yxxpTXHb1c/hqdefault.jpg"
 image_alt: "CULTURAFREAK #043"
 resumen: "Apple implementa medidas de protección infantil en iOS 15 usando Machine Learning, generando mucho ruido mediático (y más de un malentendido). Microsoft lanza Windows 365, el..."

@@ -5,6 +5,7 @@ date: 2018-03-08 10:00:00 +0300
 image: /images/96.jpg
 image_alt: "Outlook en móvil con referencia a Cortana como asistente integrado"
 description: "Microsoft exploró integrar Cortana en Outlook para iOS y Android, una señal temprana de la batalla por asistentes dentro del correo y la productividad."
+card_subtitle: "Cortana en Outlook reflejaba una idea que sigue vigente: el correo es un lugar perfecto para asistentes, recordatorios."
 resumen: "Cortana en Outlook reflejaba una idea que sigue vigente: el correo es un lugar perfecto para asistentes, recordatorios, agenda y automatización."
 source: AJRA-v09/_posts/2018-03-08-cortana-outlook.md
 ---

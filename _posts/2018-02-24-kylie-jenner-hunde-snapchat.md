@@ -5,6 +5,7 @@ date: 2018-02-24 10:00:00 +0300
 image: /images/logo-snapchat.jpg
 image_alt: "Logotipo de Snapchat en una noticia sobre la reacción de Kylie Jenner al rediseño de la app"
 description: "Kylie Jenner criticó el rediseño de Snapchat en 2018 y la caída en bolsa de Snap mostró hasta qué punto una app social depende de sus usuarios más influyentes."
+card_subtitle: "El tweet de Kylie Jenner contra Snapchat fue algo más que una anécdota."
 resumen: "El tweet de Kylie Jenner contra Snapchat fue algo más que una anécdota: evidenció el coste de rediseñar una red social sin cuidar hábitos, comunidad e influencia."
 source: AJRA-v09/_posts/2018-02-24-kylie-jenner-hunde-snapchat.md
 ---

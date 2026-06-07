@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #013"
 date: 2025-05-29 09:00:00 -0400
 description: "Alexa se mete en tus gafas (y en tu dedo), Facebook lanza su propio “Ready Player One” con Horizon, y los Surface Neo y Duo de Microsoft apuestan por lo arriesgado. También..."
+card_subtitle: "Alexa se mete en tus gafas (y en tu dedo), Facebook lanza su propio “Ready Player One” con Horizon."
 image: "https://img.youtube.com/vi/CGU_fzv-Gco/hqdefault.jpg"
 image_alt: "CULTURAFREAK #013"
 resumen: "Alexa se mete en tus gafas (y en tu dedo), Facebook lanza su propio “Ready Player One” con Horizon, y los Surface Neo y Duo de Microsoft apuestan por lo arriesgado. También..."

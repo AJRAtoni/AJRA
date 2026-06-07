@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #064"
 date: 2025-05-29 09:00:00 -0400
 description: "Readdle lanza su app Calendars para macOS, Logitech actualiza su ratón estrella con el MX Master 3S y descubrimos Emojitracker, una joya para freaks de las estadísticas..."
+card_subtitle: "Readdle lanza su app Calendars para macOS, Logitech actualiza su ratón estrella con el MX Master 3S y descubrimos."
 image: "https://img.youtube.com/vi/cUFyD-Og8q0/hqdefault.jpg"
 image_alt: "CULTURAFREAK #064"
 resumen: "Readdle lanza su app Calendars para macOS, Logitech actualiza su ratón estrella con el MX Master 3S y descubrimos Emojitracker, una joya para freaks de las estadísticas..."

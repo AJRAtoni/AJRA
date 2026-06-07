@@ -5,6 +5,7 @@ date: 2019-09-20 10:00:00 +0300
 image: /images/160.jpg
 image_alt: "Persona revisando servicios digitales y alternativas a Google"
 description: "Reducir dependencia de Google no tiene por qué ser una ruptura total: conviene revisar navegador, buscador, correo, nube, mapas y contraseñas por capas."
+card_subtitle: "El problema no es usar Google, sino depender de un único ecosistema para buscar, navegar, guardar contraseñas, escribir."
 resumen: "El problema no es usar Google, sino depender de un único ecosistema para buscar, navegar, guardar contraseñas, escribir, almacenar archivos y moverte por internet."
 source: AJRA-v09/_posts/2019-09-20-no-more-google.md
 ---

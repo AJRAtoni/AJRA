@@ -3,6 +3,7 @@ layout: post
 title: "¿Qué es, cómo funciona y para qué sirve un LLM?"
 date: 2025-12-22 09:00:00 -0500
 description: "Una explicación clara de qué es un LLM, cómo funciona y cómo aplicarlo a marketing, soporte, contenidos y automatización sin olvidar sus límites."
+card_subtitle: "Un LLM es una capa de inteligencia lingüística útil para resumir, redactar, clasificar, programar y automatizar."
 image: "https://img.youtube.com/vi/dLg9LdhDR9M/hqdefault.jpg"
 image_alt: "¿Qué es, cómo funciona y para qué sirve un LLM?"
 resumen: "Un LLM es una capa de inteligencia lingüística útil para resumir, redactar, clasificar, programar y automatizar, siempre que se diseñe con límites."

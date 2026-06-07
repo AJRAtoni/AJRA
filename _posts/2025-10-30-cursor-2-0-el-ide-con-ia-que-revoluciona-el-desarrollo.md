@@ -3,6 +3,7 @@ layout: post
 title: "CURSOR 2.0: El IDE con IA que revoluciona el desarrollo"
 date: 2025-10-30 09:00:00 -0500
 description: "Cursor 2.0 lleva la programación asistida por IA hacia un modelo centrado en agentes, Composer, trabajo en paralelo y herramientas integradas en el editor."
+card_subtitle: "Cursor 2.0 apunta a un desarrollo más dirigido por agentes: más intención, revisión y criterio técnico."
 image: "https://img.youtube.com/vi/Gfkn_c14DpA/hqdefault.jpg"
 image_alt: "CURSOR 2.0: El IDE con IA que revoluciona el desarrollo"
 resumen: "Cursor 2.0 apunta a un desarrollo más dirigido por agentes: más intención, revisión y criterio técnico; menos trabajo repetitivo dentro del editor."

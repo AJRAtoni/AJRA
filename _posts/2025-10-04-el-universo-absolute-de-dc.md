@@ -3,6 +3,7 @@ layout: post
 title: "El Universo Absolute de DC"
 date: 2025-10-04 09:00:00 -0400
 description: "DC Comics sacude su universo con la nueva línea Absolute, un relanzamiento que reinventa a sus héroes más icónicos desde un nuevo punto de partida."
+card_subtitle: "DC Comics sacude su universo con la nueva línea Absolute, un relanzamiento que reinventa a sus héroes más icónicos."
 image: "https://img.youtube.com/vi/9MIM9dZpNOo/hqdefault.jpg"
 image_alt: "El Universo Absolute de DC"
 resumen: "DC Comics sacude su universo con la nueva línea Absolute, un relanzamiento que reinventa a sus héroes más icónicos desde un nuevo punto de partida."

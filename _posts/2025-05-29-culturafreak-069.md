@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #069"
 date: 2025-05-29 09:00:00 -0400
 description: "Hoy me pongo el gorro de gamer y te cuento cómo he redescubierto mi pasión por los RPGs gracias a la Switch y a joyas como Zelda: Breath of the Wild y Persona 5. Además..."
+card_subtitle: "Hoy me pongo el gorro de gamer y te cuento cómo he redescubierto mi pasión por los RPGs gracias a la Switch y a joyas."
 image: "https://img.youtube.com/vi/RI2yBP45IeA/hqdefault.jpg"
 image_alt: "CULTURAFREAK #069"
 resumen: "Hoy me pongo el gorro de gamer y te cuento cómo he redescubierto mi pasión por los RPGs gracias a la Switch y a joyas como Zelda: Breath of the Wild y Persona 5. Además..."

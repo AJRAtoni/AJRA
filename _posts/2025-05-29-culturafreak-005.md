@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #005"
 date: 2025-05-29 09:00:00 -0400
 description: "Semana cargada: SpaceX clava el primer aterrizaje triple del Falcon Heavy, Israel se estrella (literalmente) en la Luna y Rusia presume de soldados con superpoderes entrenados..."
+card_subtitle: "Semana cargada: SpaceX clava el primer aterrizaje triple del Falcon Heavy."
 image: "https://img.youtube.com/vi/0iLBnB3-AL4/hqdefault.jpg"
 image_alt: "CULTURAFREAK #005"
 resumen: "Semana cargada: SpaceX clava el primer aterrizaje triple del Falcon Heavy, Israel se estrella (literalmente) en la Luna y Rusia presume de soldados con superpoderes entrenados..."

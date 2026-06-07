@@ -5,6 +5,7 @@ date: 2019-10-07 10:00:00 +0300
 image: /images/165.jpg
 image_alt: "Escritorio de macOS Catalina con la isla Catalina como fondo"
 description: "macOS Catalina eliminó iTunes, introdujo Catalyst, Sidecar, Tiempo de uso en Mac y renovó varias apps nativas del sistema."
+card_subtitle: "Catalina fue una actualización importante del Mac: separó iTunes, acercó apps de iPad a macOS y abrió la puerta a usar."
 resumen: "Catalina fue una actualización importante del Mac: separó iTunes, acercó apps de iPad a macOS y abrió la puerta a usar el iPad como segunda pantalla."
 source: AJRA-v09/_posts/2019-10-07-macos-catalina.md
 ---

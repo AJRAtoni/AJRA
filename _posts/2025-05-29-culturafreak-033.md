@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #033"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple lanza sus primeros Mac con chip M1 y promete revolucionar el ecosistema. Affinity se adelanta a Adobe y adapta toda su suite creativa a macOS Big Sur y Apple Silicon..."
+card_subtitle: "Apple lanza sus primeros Mac con chip M1 y promete revolucionar el ecosistema."
 image: "https://img.youtube.com/vi/pMa63YepgTw/hqdefault.jpg"
 image_alt: "CULTURAFREAK #033"
 resumen: "Apple lanza sus primeros Mac con chip M1 y promete revolucionar el ecosistema. Affinity se adelanta a Adobe y adapta toda su suite creativa a macOS Big Sur y Apple Silicon..."

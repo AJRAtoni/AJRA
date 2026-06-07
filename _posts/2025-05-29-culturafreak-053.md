@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #053"
 date: 2025-05-29 09:00:00 -0400
 description: "Semana intensa entre campañas de Black Friday y hacks millonarios. En este episodio hablamos de Apple Business Essentials, el hackeo a GoDaddy y el lanzamiento de Twitter Blue..."
+card_subtitle: "Semana intensa entre campañas de Black Friday y hacks millonarios."
 image: "https://img.youtube.com/vi/BuUxZ-UFA5U/hqdefault.jpg"
 image_alt: "CULTURAFREAK #053"
 resumen: "Semana intensa entre campañas de Black Friday y hacks millonarios. En este episodio hablamos de Apple Business Essentials, el hackeo a GoDaddy y el lanzamiento de Twitter Blue..."

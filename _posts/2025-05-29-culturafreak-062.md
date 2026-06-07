@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #062"
 date: 2025-05-29 09:00:00 -0400
 description: "Resumen exprés pero cargado de novedades: Apple anuncia la WWDC 2022, Word sufre una grave vulnerabilidad, y Amazon por fin acepta EPUB en Kindle. Además, Google se mete de..."
+card_subtitle: "Resumen exprés pero cargado de novedades: Apple anuncia la WWDC 2022, Word sufre una grave vulnerabilidad."
 image: "https://img.youtube.com/vi/ekMiSKQzTfU/hqdefault.jpg"
 image_alt: "CULTURAFREAK #062"
 resumen: "Resumen exprés pero cargado de novedades: Apple anuncia la WWDC 2022, Word sufre una grave vulnerabilidad, y Amazon por fin acepta EPUB en Kindle. Además, Google se mete de..."

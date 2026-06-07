@@ -5,6 +5,7 @@ date: 2018-06-04 10:00:00 +0300
 image: /images/logo-github.jpg
 image_alt: "Logotipo de GitHub en una noticia sobre la compra por parte de Microsoft"
 description: "Microsoft anunció la compra de GitHub por 7.500 millones de dólares, una operación clave para su relación con desarrolladores y open source."
+card_subtitle: "La compra de GitHub por Microsoft parecía arriesgada en 2018, pero encajaba con la nueva estrategia de Satya Nadella."
 resumen: "La compra de GitHub por Microsoft parecía arriesgada en 2018, pero encajaba con la nueva estrategia de Satya Nadella: acercarse a desarrolladores y al open source."
 source: AJRA-v09/_posts/2018-06-04-microsoft-compra-github.md
 ---

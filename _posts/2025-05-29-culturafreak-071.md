@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #071"
 date: 2025-05-29 09:00:00 -0400
 description: "¡Volvemos en 2024! Te cuento con qué equipo tecnológico empiezo el año (spoiler: minimalismo, M2 y muchos EarPods), y presento RECURSOS by AJRA, un nuevo proyecto con..."
+card_subtitle: "¡Volvemos en 2024! Te cuento con qué equipo tecnológico empiezo el año."
 image: "https://img.youtube.com/vi/eokqAHtBiMo/hqdefault.jpg"
 image_alt: "CULTURAFREAK #071"
 resumen: "¡Volvemos en 2024! Te cuento con qué equipo tecnológico empiezo el año (spoiler: minimalismo, M2 y muchos EarPods), y presento RECURSOS by AJRA, un nuevo proyecto con..."

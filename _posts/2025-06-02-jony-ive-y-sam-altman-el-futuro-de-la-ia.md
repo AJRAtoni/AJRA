@@ -3,6 +3,7 @@ layout: post
 title: "Jony Ive & Sam Altman. El futuro de la iA"
 date: 2025-06-02 09:00:00 -0400
 description: "En este episodio, exploramos la trascendental unión entre el visionario diseñador Jony Ive, conocido por su trabajo en Apple, y el líder en inteligencia artificial, OpenAI."
+card_subtitle: "Exploramos la trascendental unión entre el visionario diseñador Jony Ive, conocido por su trabajo en Apple."
 image: "https://img.youtube.com/vi/pCdoP024rQo/hqdefault.jpg"
 image_alt: "Jony Ive & Sam Altman. El futuro de la iA"
 resumen: "En este episodio, exploramos la trascendental unión entre el visionario diseñador Jony Ive, conocido por su trabajo en Apple, y el líder en inteligencia artificial, OpenAI."

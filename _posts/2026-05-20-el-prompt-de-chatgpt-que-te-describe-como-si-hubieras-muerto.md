@@ -3,6 +3,7 @@ layout: post
 title: "El prompt de ChatGPT que te describe como si hubieras muerto"
 date: 2026-05-20 09:00:00 -0400
 description: "Un prompt viral propone pedirle a ChatGPT que reconstruya cómo eras como persona a partir de tu teléfono. Lo probé y el resultado fue incómodo, bonito y demasiado preciso."
+card_subtitle: "Un prompt viral propone pedirle a ChatGPT que reconstruya cómo eras como persona a partir de tu teléfono."
 image: "/images/placeholder.webp"
 image_alt: "Imagen de portada placeholder de AJRA"
 resumen: "Un prompt viral propone pedirle a ChatGPT que reconstruya cómo eras como persona a partir de tu teléfono. Lo probé y el resultado fue incómodo, bonito y demasiado preciso."

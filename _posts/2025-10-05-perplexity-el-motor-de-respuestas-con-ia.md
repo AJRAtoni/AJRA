@@ -3,6 +3,7 @@ layout: post
 title: "Perplexity: El Motor de Respuestas con IA"
 date: 2025-10-05 09:00:00 -0400
 description: "En este episodio hablamos de Perplexity, el buscador potenciado por inteligencia artificial que está cambiando cómo encontramos y entendemos la información."
+card_subtitle: "Hablamos de Perplexity, el buscador potenciado por inteligencia artificial que está cambiando cómo encontramos y entendemos."
 image: "https://img.youtube.com/vi/A4qAnVM64N8/hqdefault.jpg"
 image_alt: "Perplexity: El Motor de Respuestas con IA"
 resumen: "En este episodio hablamos de Perplexity, el buscador potenciado por inteligencia artificial que está cambiando cómo encontramos y entendemos la información."

@@ -5,6 +5,7 @@ date: 2017-05-11 10:00:00 +0300
 image: /images/49.webp
 image_alt: "Cabecera de Facebook con vídeo para una página de empresa"
 description: "Facebook probó vídeos de cabecera para páginas, una señal más de cómo el contenido social empezó a moverse hacia vídeo, loops y piezas visuales rápidas."
+card_subtitle: "Los vídeos de cabecera de Facebook fueron otra pista de una tendencia mayor."
 resumen: "Los vídeos de cabecera de Facebook fueron otra pista de una tendencia mayor: las marcas necesitaban pensar cada vez más en movimiento, móvil y atención rápida."
 source: AJRA-v09/_posts/2017-05-11-Facebook-video-cabecera.md
 ---

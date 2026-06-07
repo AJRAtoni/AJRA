@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #047"
 date: 2025-05-29 09:00:00 -0400
 description: "¡Apple desata novedades! Repasamos todo lo presentado en el evento California Streaming: iPhone 13, iPad mini, Apple Watch Series 7 y más. Además, ya puedes actualizar a iOS 15..."
+card_subtitle: "¡Apple desata novedades! Repasamos todo lo presentado en el evento California Streaming."
 image: "https://img.youtube.com/vi/03rybSQltYs/hqdefault.jpg"
 image_alt: "CULTURAFREAK #047"
 resumen: "¡Apple desata novedades! Repasamos todo lo presentado en el evento California Streaming: iPhone 13, iPad mini, Apple Watch Series 7 y más. Además, ya puedes actualizar a iOS 15..."

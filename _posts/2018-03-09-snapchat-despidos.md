@@ -5,6 +5,7 @@ date: 2018-03-09 10:00:00 +0300
 image: /images/logo-snapchat.jpg
 image_alt: "Logotipo de Snapchat en una noticia sobre los despidos de ingeniería en Snap Inc."
 description: "Snap Inc. despidió al 10% de sus ingenieros en 2018, una decisión marcada por pérdidas, presión competitiva y dudas sobre su camino hacia la rentabilidad."
+card_subtitle: "Los despidos de Snap mostraban la tensión entre innovación, crecimiento y negocio sostenible en una compañía presionada."
 resumen: "Los despidos de Snap mostraban la tensión entre innovación, crecimiento y negocio sostenible en una compañía presionada por Instagram y Facebook."
 source: AJRA-v09/_posts/2018-03-09-snapchat-despidos.md
 ---

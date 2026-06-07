@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #063"
 date: 2025-05-29 09:00:00 -0400
 description: "Semana intensa tras la WWDC 2022 de Apple: repasamos todas las novedades de iOS 16, iPadOS 16, macOS Ventura y el rediseñado MacBook Air con chip M2. Además, GitHub anuncia el..."
+card_subtitle: "Semana intensa tras la WWDC 2022 de Apple: repasamos todas las novedades de iOS 16, iPadOS 16."
 image: "https://img.youtube.com/vi/yFGR3R5rZyw/hqdefault.jpg"
 image_alt: "CULTURAFREAK #063"
 resumen: "Semana intensa tras la WWDC 2022 de Apple: repasamos todas las novedades de iOS 16, iPadOS 16, macOS Ventura y el rediseñado MacBook Air con chip M2. Además, GitHub anuncia el..."

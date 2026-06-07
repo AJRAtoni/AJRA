@@ -5,6 +5,7 @@ date: 2018-10-12 10:00:00 +0300
 image: /images/116.jpg
 image_alt: "Configuración de favicon en Squarespace para cambiar el icono del navegador"
 description: "Cómo cambiar el favicon de una web en Squarespace y qué formato, tamaño y resolución conviene usar."
+card_subtitle: "El favicon es pequeño, pero ayuda a reconocer tu web en pestañas, favoritos y marcadores."
 resumen: "El favicon es pequeño, pero ayuda a reconocer tu web en pestañas, favoritos y marcadores. En Squarespace se puede cambiar desde los ajustes de diseño."
 source: AJRA-v09/_posts/2018-10-12-squarespace-tip-3.md
 ---

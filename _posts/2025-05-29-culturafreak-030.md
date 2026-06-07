@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #030"
 date: 2025-05-29 09:00:00 -0400
 description: "Muere el presidente de Samsung, Adobe lanza Illustrator para iPad y Airbnb ficha a Jony Ive para rediseñar su experiencia de usuario. También hablamos de Halide Mark II en..."
+card_subtitle: "Muere el presidente de Samsung, Adobe lanza Illustrator para iPad y Airbnb ficha a Jony Ive para rediseñar su experiencia."
 image: "https://img.youtube.com/vi/0esVrGOx2gk/hqdefault.jpg"
 image_alt: "CULTURAFREAK #030"
 resumen: "Muere el presidente de Samsung, Adobe lanza Illustrator para iPad y Airbnb ficha a Jony Ive para rediseñar su experiencia de usuario. También hablamos de Halide Mark II en..."

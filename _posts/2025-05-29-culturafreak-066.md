@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #066"
 date: 2025-05-29 09:00:00 -0400
 description: "¡He vuelto! Tras casi tres meses de silencio, te traigo una edición cargada de noticias tech, gadgets y curiosidades freak. Hablamos del enésimo drama de Elon Musk con Twitter..."
+card_subtitle: "¡He vuelto! Tras casi tres meses de silencio, te traigo una edición cargada de noticias tech, gadgets y curiosidades freak."
 image: "https://img.youtube.com/vi/rfEaL08AMsA/hqdefault.jpg"
 image_alt: "CULTURAFREAK #066"
 resumen: "¡He vuelto! Tras casi tres meses de silencio, te traigo una edición cargada de noticias tech, gadgets y curiosidades freak. Hablamos del enésimo drama de Elon Musk con Twitter..."

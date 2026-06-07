@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #014"
 date: 2025-05-29 09:00:00 -0400
 description: "WhatsApp empieza a banear grupos por bromas pesadas, macOS Catalina ya está disponible y Adobe se apaga en Venezuela por orden presidencial. La criptomoneda de Facebook pierde..."
+card_subtitle: "WhatsApp empieza a banear grupos por bromas pesadas, macOS Catalina ya está disponible y Adobe se apaga en Venezuela."
 image: "https://img.youtube.com/vi/C4RJWCPSiBs/hqdefault.jpg"
 image_alt: "CULTURAFREAK #014"
 resumen: "WhatsApp empieza a banear grupos por bromas pesadas, macOS Catalina ya está disponible y Adobe se apaga en Venezuela por orden presidencial. La criptomoneda de Facebook pierde..."

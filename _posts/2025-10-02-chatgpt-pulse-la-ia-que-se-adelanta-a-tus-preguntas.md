@@ -3,6 +3,7 @@ layout: post
 title: "ChatGPT Pulse: la IA que se adelanta a tus preguntas"
 date: 2025-10-02 09:00:00 -0400
 description: "Con ChatGPT Pulse, OpenAI da un paso hacia una IA verdaderamente proactiva: ya no esperas a preguntarle, ahora es ella quien te avisa, resume y anticipa la información que..."
+card_subtitle: "Con ChatGPT Pulse, OpenAI da un paso hacia una IA verdaderamente proactiva."
 image: "https://img.youtube.com/vi/iJRr4pgRctE/hqdefault.jpg"
 image_alt: "ChatGPT Pulse: la IA que se adelanta a tus preguntas"
 resumen: "Con ChatGPT Pulse, OpenAI da un paso hacia una IA verdaderamente proactiva: ya no esperas a preguntarle, ahora es ella quien te avisa, resume y anticipa la información que..."

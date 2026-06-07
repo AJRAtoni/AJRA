@@ -5,6 +5,7 @@ date: 2021-09-08 10:00:00 +0300
 image: /images/logo-apple.jpg
 image_alt: "Logotipo de Apple asociado al evento California Streaming"
 description: "Apple anunció el evento California Streaming para el 14 de septiembre de 2021, donde se esperaba la presentación del iPhone 13 y nuevos productos."
+card_subtitle: "California Streaming fue la invitación al evento de septiembre de 2021."
 resumen: "California Streaming fue la invitación al evento de septiembre de 2021: iPhone 13 casi asegurado, rumores de Apple Watch, AirPods y nuevos sistemas."
 source: AJRA-v09/_posts/2021-09-08-apple-event-californiastreaming.md
 ---

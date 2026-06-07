@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #070"
 date: 2025-05-30 09:00:00 -0400
 description: "En este episodio me pongo personal y te cuento cómo he perdido 13 kilos (sin magia, solo con apps y constancia). Te hablo de mi rutina con Apple Watch, Lose It!, Gentle Streak..."
+card_subtitle: "En este episodio me pongo personal y te cuento cómo he perdido 13 kilos (sin magia, solo con apps y constancia)."
 image: "https://img.youtube.com/vi/h60-4Z5roWM/hqdefault.jpg"
 image_alt: "CULTURAFREAK #070"
 resumen: "En este episodio me pongo personal y te cuento cómo he perdido 13 kilos (sin magia, solo con apps y constancia). Te hablo de mi rutina con Apple Watch, Lose It!, Gentle Streak..."

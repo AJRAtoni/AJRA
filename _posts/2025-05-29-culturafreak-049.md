@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #049"
 date: 2025-05-29 09:00:00 -0400
 description: "Amazon lanza una avalancha de productos tech, incluyendo un robot estilo Wall-e llamado Astro. Jony Ive se une a Ferrari, Twitter acepta Bitcoin como propina, y Facebook vuelve..."
+card_subtitle: "Amazon lanza una avalancha de productos tech, incluyendo un robot estilo Wall-e llamado Astro."
 image: "https://img.youtube.com/vi/nLTT1s3j89g/hqdefault.jpg"
 image_alt: "CULTURAFREAK #049"
 resumen: "Amazon lanza una avalancha de productos tech, incluyendo un robot estilo Wall-e llamado Astro. Jony Ive se une a Ferrari, Twitter acepta Bitcoin como propina, y Facebook vuelve..."

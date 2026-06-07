@@ -5,6 +5,7 @@ date: 2019-11-09 10:00:00 +0300
 image: /images/182.jpg
 image_alt: "Captura de página completa en Safari para iPadOS guardada como PDF"
 description: "iPadOS permite capturar una página web completa desde Safari y guardarla como PDF en Archivos."
+card_subtitle: "La captura de página completa en iPadOS es una función pequeña, pero muy útil para guardar webs, documentación."
 resumen: "La captura de página completa en iPadOS es una función pequeña, pero muy útil para guardar webs, documentación, presupuestos o referencias en PDF."
 source: AJRA-v09/_posts/2019-11-13-captura-ipados.md
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #065"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple rompe récords financieros una vez más en su Q3 2022, mientras Meta sube el precio de las Quest 2 en plena fiebre del Metaverso. Hablamos de una nueva extensión para..."
+card_subtitle: "Apple rompe récords financieros una vez más en su Q3 2022, mientras Meta sube el precio de las Quest 2 en plena fiebre."
 image: "https://img.youtube.com/vi/dvasAA9f4bY/hqdefault.jpg"
 image_alt: "CULTURAFREAK #065"
 resumen: "Apple rompe récords financieros una vez más en su Q3 2022, mientras Meta sube el precio de las Quest 2 en plena fiebre del Metaverso. Hablamos de una nueva extensión para..."

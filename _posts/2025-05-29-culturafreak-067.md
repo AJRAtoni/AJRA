@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #067"
 date: 2025-05-29 09:00:00 -0400
 description: "Esta semana te traigo una buena dosis de noticias tech y cultura freak: la NASA lanza su supercohete SLS para la misión Artemis, iCloud Web estrena rediseño, y ya están a la..."
+card_subtitle: "Esta semana te traigo una buena dosis de noticias tech y cultura freak."
 image: "https://img.youtube.com/vi/QHOgyKxdJII/hqdefault.jpg"
 image_alt: "CULTURAFREAK #067"
 resumen: "Esta semana te traigo una buena dosis de noticias tech y cultura freak: la NASA lanza su supercohete SLS para la misión Artemis, iCloud Web estrena rediseño, y ya están a la..."

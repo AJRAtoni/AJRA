@@ -3,6 +3,7 @@ layout: post
 title: "Project Indigo: la nueva cámara de Adobe que trae la fotografía profesional al iPhone"
 date: 2025-06-23 09:00:00 -0400
 description: "Adobe lanza Project Indigo, su app de cámara experimental para iPhone que combina fotografía computacional avanzada y controles manuales tipo DSLR."
+card_subtitle: "Adobe lanza Project Indigo, su app de cámara experimental para iPhone que combina fotografía computacional avanzada."
 image: "https://img.youtube.com/vi/p-SV6ME7mNg/hqdefault.jpg"
 image_alt: "Project Indigo: la nueva cámara de Adobe que trae la fotografía profesional al iPhone"
 resumen: "Adobe lanza Project Indigo, su app de cámara experimental para iPhone que combina fotografía computacional avanzada y controles manuales tipo DSLR."

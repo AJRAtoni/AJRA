@@ -5,6 +5,7 @@ date: 2019-05-03 10:00:00 +0300
 image: /images/130.jpg
 image_alt: "Logotipo de Tumblr en una noticia sobre el interés de Pornhub por comprar la plataforma"
 description: "Pornhub mostró interés por comprar Tumblr después de que Verizon prohibiera el contenido adulto y la plataforma perdiera parte de su comunidad."
+card_subtitle: "El interés de Pornhub por Tumblr reflejaba un problema clásico de plataformas."
 resumen: "El interés de Pornhub por Tumblr reflejaba un problema clásico de plataformas: cambiar una norma central puede expulsar a la comunidad que daba valor al producto."
 source: AJRA-v09/_posts/2019-05-03-pornhub-quiere-tumblr.md
 ---

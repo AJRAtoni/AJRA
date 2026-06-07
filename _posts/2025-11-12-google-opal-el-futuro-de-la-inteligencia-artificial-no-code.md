@@ -3,6 +3,7 @@ layout: post
 title: "Google Opal: El Futuro de la Inteligencia Artificial No-Code"
 date: 2025-11-12 09:00:00 -0500
 description: "Google Opal promete crear mini apps de inteligencia artificial desde un prompt. Una mirada clara a su potencial, sus fallos actuales y lo que podría cambiar en el no-code."
+card_subtitle: "Google Opal apunta a una nueva capa del no-code: describir mini apps con lenguaje natural y dejar que la IA construya."
 image: "https://img.youtube.com/vi/ZlILXui1CJY/hqdefault.jpg"
 image_alt: "Google Opal: El Futuro de la Inteligencia Artificial No-Code"
 resumen: "Google Opal apunta a una nueva capa del no-code: describir mini apps con lenguaje natural y dejar que la IA construya prototipos compartibles."

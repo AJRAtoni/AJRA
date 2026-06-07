@@ -5,6 +5,7 @@ date: 2019-05-30 10:00:00 +0300
 image: /images/133.jpg
 image_alt: "Eric Schmidt en una noticia sobre su salida del consejo de Alphabet"
 description: "Eric Schmidt anunció su salida del consejo de Alphabet en 2019, cerrando una etapa de 18 años vinculada a Google."
+card_subtitle: "La salida de Eric Schmidt del consejo de Alphabet cerró una etapa clave."
 resumen: "La salida de Eric Schmidt del consejo de Alphabet cerró una etapa clave: fue el ejecutivo adulto que ayudó a convertir Google en una compañía global."
 source: AJRA-v09/_posts/2019-05-30-eric-schmidt.md
 ---

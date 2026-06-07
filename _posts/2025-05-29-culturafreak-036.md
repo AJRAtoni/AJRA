@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #036"
 date: 2025-05-29 09:00:00 -0400
 description: "Salesforce compra Slack por 27.700 millones y Apple lanza sus AirPods Max por $549, desatando debates sobre calidad, precio y hype. También repasamos curiosidades como los..."
+card_subtitle: "Salesforce compra Slack por 27.700 millones y Apple lanza sus AirPods Max por $549, desatando debates sobre calidad."
 image: "https://img.youtube.com/vi/-3wCo4yBcro/hqdefault.jpg"
 image_alt: "CULTURAFREAK #036"
 resumen: "Salesforce compra Slack por 27.700 millones y Apple lanza sus AirPods Max por $549, desatando debates sobre calidad, precio y hype. También repasamos curiosidades como los..."

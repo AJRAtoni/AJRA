@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #041"
 date: 2025-05-29 09:00:00 -0400
 description: "John McAfee es encontrado muerto en una prisión catalana tras aprobarse su extradición a EE.UU. Mientras tanto, Synology lanza DSM 7.0 con mejoras clave en seguridad, Brave..."
+card_subtitle: "John McAfee es encontrado muerto en una prisión catalana tras aprobarse su extradición a EE.UU."
 image: "https://img.youtube.com/vi/v1Mb9dBOn-A/hqdefault.jpg"
 image_alt: "CULTURAFREAK #041"
 resumen: "John McAfee es encontrado muerto en una prisión catalana tras aprobarse su extradición a EE.UU. Mientras tanto, Synology lanza DSM 7.0 con mejoras clave en seguridad, Brave..."

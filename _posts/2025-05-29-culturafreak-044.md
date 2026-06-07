@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #044"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple renueva su tienda online y Elon Musk presenta el Tesla Bot, dejando claro que Tesla va más allá de los coches. Xiaomi no se queda atrás y lanza el CyberDog, su robot..."
+card_subtitle: "Apple renueva su tienda online y Elon Musk presenta el Tesla Bot, dejando claro que Tesla va más allá de los coches."
 image: "https://img.youtube.com/vi/nPcvfsarOjM/hqdefault.jpg"
 image_alt: "CULTURAFREAK #044"
 resumen: "Apple renueva su tienda online y Elon Musk presenta el Tesla Bot, dejando claro que Tesla va más allá de los coches. Xiaomi no se queda atrás y lanza el CyberDog, su robot..."

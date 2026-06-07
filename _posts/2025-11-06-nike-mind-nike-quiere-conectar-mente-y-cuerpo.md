@@ -3,6 +3,7 @@ layout: post
 title: "Nike Mind: ¡Nike quiere conectar Mente y Cuerpo!"
 date: 2025-11-06 09:00:00 -0500
 description: "Nike Mind propone una nueva categoría de calzado sensorial: menos obsesión por correr más rápido y más foco en concentración, calma y recuperación."
+card_subtitle: "Nike Mind cambia la conversación del rendimiento físico puro hacia una experiencia sensorial que promete conectar atención."
 image: "https://img.youtube.com/vi/_sqs_rifizg/hqdefault.jpg"
 image_alt: "Nike Mind: ¡Nike quiere conectar Mente y Cuerpo!"
 resumen: "Nike Mind cambia la conversación del rendimiento físico puro hacia una experiencia sensorial que promete conectar atención, recuperación y cuerpo."

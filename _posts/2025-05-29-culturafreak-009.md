@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #009"
 date: 2025-05-29 09:00:00 -0400
 description: "Huawei mete anuncios en la pantalla de bloqueo, Facebook lanza su propia criptomoneda (Libra) y Apple apuesta fuerte por la privacidad con “Sign in with Apple”. Además..."
+card_subtitle: "Huawei mete anuncios en la pantalla de bloqueo, Facebook lanza su propia criptomoneda (Libra) y Apple apuesta fuerte."
 image: "https://img.youtube.com/vi/Tjpgar-cEh8/hqdefault.jpg"
 image_alt: "CULTURAFREAK #009"
 resumen: "Huawei mete anuncios en la pantalla de bloqueo, Facebook lanza su propia criptomoneda (Libra) y Apple apuesta fuerte por la privacidad con “Sign in with Apple”. Además..."

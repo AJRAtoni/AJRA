@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #059"
 date: 2025-05-29 09:00:00 -0400
 description: "Probamos Webflow, el editor web No-Code que está marcando tendencia; descubrimos ComicTrack, la app perfecta para llevar el control de tu colección de cómics; Google Domains..."
+card_subtitle: "Probamos Webflow, el editor web No-Code que está marcando tendencia."
 image: "https://img.youtube.com/vi/-zopmieLpS4/hqdefault.jpg"
 image_alt: "CULTURAFREAK #059"
 resumen: "Probamos Webflow, el editor web No-Code que está marcando tendencia; descubrimos ComicTrack, la app perfecta para llevar el control de tu colección de cómics; Google Domains..."

@@ -5,6 +5,7 @@ date: 2019-05-28 10:00:00 +0300
 image: /images/logo-snapchat.jpg
 image_alt: "Logotipo de Snapchat en una noticia sobre Bitmoji for Games"
 description: "Bitmoji for Games permitió a desarrolladores integrar avatares de Bitmoji dentro de videojuegos mediante un SDK."
+card_subtitle: "Bitmoji for Games ampliaba la identidad digital de Snapchat: tu avatar dejaba de vivir solo en stickers y podía entrar."
 resumen: "Bitmoji for Games ampliaba la identidad digital de Snapchat: tu avatar dejaba de vivir solo en stickers y podía entrar en experiencias interactivas."
 source: AJRA-v09/_posts/2019-05-28-bitmoji-para-juegos.md
 ---

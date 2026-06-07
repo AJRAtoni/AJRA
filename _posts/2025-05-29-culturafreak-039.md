@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #039"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple presenta sus nuevos iMac de colores con chip M1, iPad Pro con pantalla miniLED, AirTags, Apple TV 4K con nuevo mando y mucho más en su Keynote “Spring Loaded”. Además..."
+card_subtitle: "Apple presenta sus nuevos iMac de colores con chip M1, iPad Pro con pantalla miniLED, AirTags."
 image: "https://img.youtube.com/vi/7Dv3Yimad14/hqdefault.jpg"
 image_alt: "CULTURAFREAK #039"
 resumen: "Apple presenta sus nuevos iMac de colores con chip M1, iPad Pro con pantalla miniLED, AirTags, Apple TV 4K con nuevo mando y mucho más en su Keynote “Spring Loaded”. Además..."

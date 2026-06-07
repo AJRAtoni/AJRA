@@ -5,6 +5,7 @@ date: 2017-11-22 10:00:00 +0300
 image: /images/logo-spark.jpg
 image_alt: "Logotipo de Spark, cliente de correo para iOS y macOS"
 description: "Spark 1.11 añadió envío programado y seguimiento de correos, dos funciones pensadas para trabajar mejor con email en iOS y macOS."
+card_subtitle: "La actualización de Spark reforzó una idea muy útil: el correo no debería ser solo una bandeja de entrada."
 resumen: "La actualización de Spark reforzó una idea muy útil: el correo no debería ser solo una bandeja de entrada, sino una herramienta de productividad."
 source: AJRA-v09/_posts/2017-11-22-spark-actualiza.md
 ---

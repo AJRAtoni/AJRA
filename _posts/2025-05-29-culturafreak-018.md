@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #018"
 date: 2025-05-29 09:00:00 -0400
 description: "Facebook cambia de logo, TikTok supera los 1.000 millones de usuarios y Apple TV+ sorprende con una calidad de vídeo superior a Netflix. Además, DuckDuckGo sigue ganando..."
+card_subtitle: "Facebook cambia de logo, TikTok supera los 1.000 millones de usuarios y Apple TV+ sorprende con una calidad de vídeo."
 image: "https://img.youtube.com/vi/W4EpH6R_pMA/hqdefault.jpg"
 image_alt: "CULTURAFREAK #018"
 resumen: "Facebook cambia de logo, TikTok supera los 1.000 millones de usuarios y Apple TV+ sorprende con una calidad de vídeo superior a Netflix. Además, DuckDuckGo sigue ganando..."

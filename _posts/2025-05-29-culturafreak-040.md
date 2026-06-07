@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #040"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple planea abrir sus propios centros médicos, Windows 11 se filtra antes de tiempo, y los texanos descubren que su aire acondicionado puede ser controlado… por su compañía..."
+card_subtitle: "Apple planea abrir sus propios centros médicos, Windows 11 se filtra antes de tiempo."
 image: "https://img.youtube.com/vi/koq--reBFzM/hqdefault.jpg"
 image_alt: "CULTURAFREAK #040"
 resumen: "Apple planea abrir sus propios centros médicos, Windows 11 se filtra antes de tiempo, y los texanos descubren que su aire acondicionado puede ser controlado… por su compañía..."

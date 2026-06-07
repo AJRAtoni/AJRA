@@ -3,6 +3,7 @@ layout: post
 title: "Metroidvania: el género que nació de dos leyendas"
 date: 2025-10-03 09:00:00 -0400
 description: "En este episodio exploramos el origen y la evolución del término Metroidvania, ese híbrido entre Metroid y Castlevania que hoy define a un género entero de videojuegos."
+card_subtitle: "En este episodio exploramos el origen y la evolución del término Metroidvania."
 image: "https://img.youtube.com/vi/t6E7PZ8rXWE/hqdefault.jpg"
 image_alt: "Metroidvania: el género que nació de dos leyendas"
 resumen: "En este episodio exploramos el origen y la evolución del término Metroidvania, ese híbrido entre Metroid y Castlevania que hoy define a un género entero de videojuegos."

@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #032"
 date: 2025-05-29 09:00:00 -0400
 description: "Apple anuncia su keynote “One More Thing” para presentar los primeros Macs con Apple Silicon, mientras Elon Musk convierte una broma en realidad vendiendo tequila a $250 la..."
+card_subtitle: "Apple anuncia su keynote “One More Thing” para presentar los primeros Macs con Apple Silicon."
 image: "https://img.youtube.com/vi/GMvNepygGEc/hqdefault.jpg"
 image_alt: "CULTURAFREAK #032"
 resumen: "Apple anuncia su keynote “One More Thing” para presentar los primeros Macs con Apple Silicon, mientras Elon Musk convierte una broma en realidad vendiendo tequila a $250 la..."

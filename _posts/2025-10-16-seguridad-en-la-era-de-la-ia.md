@@ -3,6 +3,7 @@ layout: post
 title: "Seguridad en la era de la IA"
 date: 2025-10-16 09:00:00 -0400
 description: "En este video exploramos cómo la inteligencia artificial está transformando la seguridad digital y por qué la alianza entre Perplexity y 1Password marca un antes y un después..."
+card_subtitle: "Exploramos cómo la inteligencia artificial está transformando la seguridad digital y por qué la alianza entre Perplexity."
 image: "https://img.youtube.com/vi/Bl25vgy3fMc/hqdefault.jpg"
 image_alt: "Seguridad en la era de la IA"
 resumen: "En este video exploramos cómo la inteligencia artificial está transformando la seguridad digital y por qué la alianza entre Perplexity y 1Password marca un antes y un después..."

@@ -3,6 +3,7 @@ layout: post
 title: "WhatsApp llega al Apple Watch"
 date: 2025-11-05 09:00:00 -0500
 description: "WhatsApp por fin llega de forma oficial al Apple Watch, con respuestas, fotos y notas de voz, pero todavía con una gran limitación: depende del iPhone."
+card_subtitle: "WhatsApp llegó por fin al Apple Watch con una experiencia oficial útil para respuestas rápidas."
 image: "https://img.youtube.com/vi/6nahUGR0dD8/hqdefault.jpg"
 image_alt: "WhatsApp llega al Apple Watch"
 resumen: "WhatsApp llegó por fin al Apple Watch con una experiencia oficial útil para respuestas rápidas, aunque todavía depende demasiado del iPhone."

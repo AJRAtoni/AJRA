@@ -5,6 +5,7 @@ date: 2022-07-14 10:00:00 +0300
 image: /images/269.webp
 image_alt: "Rediseño de Game Center en iOS 16, iPadOS 16 y macOS Ventura"
 description: "Apple rediseñó Game Center para mostrar mejor actividad de amigos, progreso, tablas de clasificación y logros en iOS 16, iPadOS 16 y macOS Ventura."
+card_subtitle: "El rediseño de Game Center intentó devolver visibilidad a una capa social de juegos que llevaba años algo escondida dentro."
 resumen: "El rediseño de Game Center intentó devolver visibilidad a una capa social de juegos que llevaba años algo escondida dentro del ecosistema Apple."
 source: AJRA-v09/_posts/2022-07-14-nuevo-game-center.md
 ---

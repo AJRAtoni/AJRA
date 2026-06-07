@@ -3,6 +3,7 @@ layout: post
 title: "Neuralink y el futuro del cerebro: qué son los dispositivos neuronales"
 date: 2025-12-24 09:00:00 -0500
 description: "Qué son las interfaces cerebro-computadora, qué dispositivos existen hoy y por qué Neuralink es solo una parte de una carrera mucho más amplia."
+card_subtitle: "Las interfaces cerebro-computadora prometen accesibilidad y nuevas formas de control."
 image: "https://img.youtube.com/vi/FK61WedtR2w/hqdefault.jpg"
 image_alt: "Neuralink y el futuro del cerebro: qué son los dispositivos neuronales"
 resumen: "Las interfaces cerebro-computadora prometen accesibilidad y nuevas formas de control, pero también abren preguntas serias sobre seguridad, privacidad y regulación."

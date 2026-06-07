@@ -5,6 +5,7 @@ date: 2020-03-19 10:00:00 +0300
 image: /images/logo-apple.jpg
 image_alt: "Logotipo de Apple asociado al Magic Keyboard para iPad"
 description: "Apple presentó el Magic Keyboard para iPad con trackpad, retroiluminación, USB-C de carga y diseño flotante."
+card_subtitle: "El Magic Keyboard fue importante porque convirtió el puntero del iPad en una experiencia oficial."
 resumen: "El Magic Keyboard fue importante porque convirtió el puntero del iPad en una experiencia oficial, no solo una función escondida en Accesibilidad."
 source: AJRA-v09/_posts/2020-03-19-magic-keyboard-ipad.md
 ---

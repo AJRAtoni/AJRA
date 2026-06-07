@@ -3,6 +3,7 @@ layout: post
 title: "ChatGPT también quiere ayudarte con tus finanzas personales"
 date: 2026-05-15 15:05:00 -0400
 description: "OpenAI empieza a probar una experiencia de finanzas personales dentro de ChatGPT. Interesante, útil y con varias preguntas importantes sobre privacidad."
+card_subtitle: "La preview de finanzas personales en ChatGPT muestra hacia dónde van los asistentes con datos reales."
 image: "/images/openai-personal-finance-chatgpt.webp"
 image_alt: "Pantallas de ChatGPT conectando cuentas financieras"
 resumen: "La preview de finanzas personales en ChatGPT muestra hacia dónde van los asistentes con datos reales: más utilidad, más contexto y más responsabilidad."

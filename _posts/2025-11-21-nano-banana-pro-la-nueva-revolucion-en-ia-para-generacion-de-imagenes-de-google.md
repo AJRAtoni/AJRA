@@ -3,6 +3,7 @@ layout: post
 title: "Nano Banana Pro: ¡La Nueva Revolución en IA para Generación de Imágenes de Google!"
 date: 2025-11-21 09:00:00 -0500
 description: "Qué aporta Nano Banana Pro, cómo mejora texto y consistencia visual, y por qué puede cambiar flujos de diseño, marketing y creación visual."
+card_subtitle: "Nano Banana Pro importa porque intenta resolver dos límites clásicos de la imagen con IA."
 image: "https://img.youtube.com/vi/jivRdj_JMJk/hqdefault.jpg"
 image_alt: "Nano Banana Pro: ¡La Nueva Revolución en IA para Generación de Imágenes de Google!"
 resumen: "Nano Banana Pro importa porque intenta resolver dos límites clásicos de la imagen con IA: texto legible y consistencia visual entre escenas."

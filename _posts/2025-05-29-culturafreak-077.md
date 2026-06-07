@@ -3,6 +3,7 @@ layout: post
 title: "CULTURAFREAK #077"
 date: 2025-05-29 09:00:00 -0400
 description: "Repasamos los lanzamientos tech de la semana: el nuevo ChatGPT o1 con habilidades de razonamiento, el iPhone 16 y novedades de Apple, la app de Perplexity para Mac, y las..."
+card_subtitle: "Repasamos los lanzamientos tech de la semana: el nuevo ChatGPT o1 con habilidades de razonamiento."
 image: "https://img.youtube.com/vi/07Gkt_3RN_g/hqdefault.jpg"
 image_alt: "CULTURAFREAK #077"
 resumen: "Repasamos los lanzamientos tech de la semana: el nuevo ChatGPT o1 con habilidades de razonamiento, el iPhone 16 y novedades de Apple, la app de Perplexity para Mac, y las..."
