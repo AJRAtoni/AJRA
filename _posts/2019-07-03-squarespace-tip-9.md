@@ -2,7 +2,7 @@
 layout: post
 title: "Squarespace Tips 009: cómo crear anchor links"
 date: 2019-07-03 10:00:00 +0300
-image: /images/152.jpg
+image: /images/blog/152.jpg
 image_alt: "Página creada en Squarespace con secciones enlazadas mediante anchor links"
 description: "Los anchor links permiten llevar al usuario a una sección concreta dentro de una misma página. Así puedes crearlos en Squarespace sin complicarte."
 card_subtitle: "Un anchor link es un enlace interno a una sección concreta de una página."

@@ -2,7 +2,7 @@
 layout: post
 title: "Gutenberg: el editor de bloques que cambió WordPress"
 date: 2018-08-17 10:00:00 +0300
-image: /images/logo-wordpress.jpg
+image: /images/blog/logo-wordpress.jpg
 image_alt: "Logotipo de WordPress en una noticia sobre Gutenberg y el editor de bloques"
 description: "Gutenberg llegó como el nuevo editor de bloques de WordPress, anticipando el cambio que se convertiría en estándar a partir de WordPress 5.0."
 resumen: "Gutenberg no era solo un editor nuevo: era el primer paso de WordPress hacia una experiencia de creación basada en bloques reutilizables."

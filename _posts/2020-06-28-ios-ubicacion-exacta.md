@@ -2,7 +2,7 @@
 layout: post
 title: "Cómo desactivar la ubicación exacta en iOS y iPadOS"
 date: 2020-06-28 10:00:00 +0300
-image: /images/205.jpg
+image: /images/blog/205.jpg
 image_alt: "Ajustes de privacidad de ubicación exacta en iOS"
 description: "iOS 14 y iPadOS 14 permitieron desactivar la ubicación exacta por aplicación para compartir solo una posición aproximada."
 resumen: "No todas las apps necesitan saber tu ubicación precisa. iOS 14 permitió compartir una ubicación aproximada por app."
@@ -14,7 +14,7 @@ iOS 14 y iPadOS 14 añadieron una función muy útil para privacidad: desactivar
 Eso permite que una app conozca una ubicación aproximada, pero no el punto exacto en el que estás.
 
 <figure>
-<img src="/images/205-2.jpg" alt="Interruptor de ubicación exacta en los ajustes de localización de iOS" />
+<img src="/images/blog/205-2.jpg" alt="Interruptor de ubicación exacta en los ajustes de localización de iOS" />
 </figure>
 
 ## Por qué tiene sentido

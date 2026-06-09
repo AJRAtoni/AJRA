@@ -2,7 +2,7 @@
 layout: post
 title: "Mailtrack: saber si han abierto tus correos en Gmail"
 date: 2017-02-18 10:00:00 +0300
-image: /images/41.jpg
+image: /images/blog/41.jpg
 image_alt: "Mailtrack en Gmail con doble check de lectura de correos"
 description: "Mailtrack permite saber si un correo enviado desde Gmail ha sido abierto, pero conviene usar este tipo de seguimiento con criterio y respeto por la privacidad."
 resumen: "Mailtrack puede ser útil para ventas y seguimiento comercial, pero no sustituye una buena estrategia de email ni debe usarse sin criterio."

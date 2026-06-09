@@ -2,7 +2,7 @@
 layout: post
 title: "Código CSS para aplicar modo oscuro en una web"
 date: 2020-02-18 10:00:00 +0300
-image: /images/190.jpg
+image: /images/blog/190.jpg
 image_alt: "Ejemplo de una web adaptada a modo claro y modo oscuro"
 description: "Con prefers-color-scheme puedes adaptar los colores de una web al modo claro u oscuro configurado en el dispositivo del usuario."
 card_subtitle: "El modo oscuro en web no consiste en invertir colores: hay que usar CSS."
@@ -25,7 +25,7 @@ Las opciones habituales son:
 - `dark`
 
 <figure>
-<img src="/images/190-1.jpg" alt="Ejemplo visual de modo oscuro aplicado a una interfaz web" />
+<img src="/images/blog/190-1.jpg" alt="Ejemplo visual de modo oscuro aplicado a una interfaz web" />
 </figure>
 
 ## Ejemplo básico

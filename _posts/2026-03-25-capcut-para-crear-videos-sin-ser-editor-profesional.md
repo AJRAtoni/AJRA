@@ -4,9 +4,9 @@ title: "CapCut: para crear vídeos sin ser editor profesional"
 date: 2026-03-25 09:00:00 -0500
 description: "CapCut facilita crear vídeos decentes para redes sin aprender edición profesional desde cero."
 card_subtitle: "CapCut baja la barrera de entrada al vídeo para redes: edición simple."
-image: "/images/posts/capcut-gradient.webp"
+image: "/images/blog/capcut-gradient.webp"
 image_alt: "CapCut para crear vídeos sin ser editor profesional"
-recursos_logo: "/images/logos/recursos/capcut.webp"
+recursos_logo: "/images/blog/capcut.webp"
 resumen: "CapCut baja la barrera de entrada al vídeo para redes: edición simple, subtítulos automáticos y formatos reutilizables sin aprender Premiere."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/012-CapCut.md"

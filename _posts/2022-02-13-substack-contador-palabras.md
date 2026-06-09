@@ -2,7 +2,7 @@
 layout: post
 title: "Substack añadió contador de palabras a su editor"
 date: 2022-02-13 10:00:00 +0300
-image: /images/logo-substack.jpg
+image: /images/blog/logo-substack.jpg
 image_alt: "Logotipo de Substack asociado al contador de palabras del editor"
 description: "Substack añadió un contador de palabras y caracteres a su editor, una mejora pequeña pero útil para quienes escriben newsletters de forma regular."
 card_subtitle: "El contador de palabras de Substack parecía un detalle menor, pero para escribir newsletters con ritmo."

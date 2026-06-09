@@ -3,7 +3,7 @@ layout: post
 title: ¿Qué es el Above the Fold?
 date: 2016-01-15 15:01:35 +0300
 description: "Above the Fold es la parte visible de una página antes de hacer scroll; sigue siendo importante, pero debe entenderse en contexto móvil."
-image: /images/12.jpg
+image: /images/blog/12.jpg
 image_alt: "¿Qué es el Above the Fold?"
 source: AJRA-v09/_posts/2016-01-15-abovethefold.md
 resumen: Above the Fold es la parte visible de una página antes de hacer scroll; sigue siendo importante, pero debe entenderse en contexto móvil.

@@ -2,7 +2,7 @@
 layout: post
 title: "Procreate se optimizó para los iPad Pro con M1"
 date: 2021-05-30 10:00:00 +0300
-image: /images/247.jpeg
+image: /images/blog/247.jpeg
 image_alt: "Procreate en iPad Pro con chip M1 para ilustración digital"
 description: "Procreate se actualizó para aprovechar los iPad Pro con chip M1, mejorando rendimiento y permitiendo trabajar con más capas en lienzos grandes."
 resumen: "La actualización de Procreate para iPad Pro M1 mostró que la potencia del hardware empezaba a tener impacto real en apps creativas de iPad."

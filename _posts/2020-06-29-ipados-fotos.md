@@ -2,7 +2,7 @@
 layout: post
 title: "iPadOS 14 añadió descripciones a fotos y vídeos"
 date: 2020-06-29 10:00:00 +0300
-image: /images/206.jpg
+image: /images/blog/206.jpg
 image_alt: "App Fotos en iPadOS con campo para añadir pie de foto"
 description: "iPadOS 14 permitió añadir pies de foto y descripciones a imágenes y vídeos para encontrarlos mejor desde la búsqueda."
 resumen: "Añadir descripciones a fotos y vídeos ayuda a encontrar recuerdos, capturas y archivos visuales cuando la fototeca empieza a crecer."
@@ -16,7 +16,7 @@ Hacemos capturas, recibimos imágenes, guardamos documentos, descargamos recurso
 iPadOS 14 añadió una solución sencilla: escribir una descripción bajo cada imagen o vídeo.
 
 <figure>
-<img src="/images/206-1.webp" alt="Campo de pie de foto en la app Fotos de iPadOS 14" />
+<img src="/images/blog/206-1.webp" alt="Campo de pie de foto en la app Fotos de iPadOS 14" />
 </figure>
 
 ## Cómo añadir una descripción

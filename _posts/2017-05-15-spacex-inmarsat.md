@@ -2,7 +2,7 @@
 layout: post
 title: "SpaceX e Inmarsat-5: otro paso en la normalización del Falcon 9"
 date: 2017-05-15 10:00:00 +0300
-image: /images/logo-spacex.jpg
+image: /images/blog/logo-spacex.jpg
 image_alt: "Lanzamiento de SpaceX Falcon 9 para poner en órbita el satélite Inmarsat-5 F4"
 description: "El lanzamiento de Inmarsat-5 F4 con Falcon 9 fue otro ejemplo de cómo SpaceX estaba normalizando lanzamientos comerciales cada vez más ambiciosos."
 card_subtitle: "El Inmarsat-5 F4 mostró el papel de SpaceX en la nueva etapa de lanzamientos comerciales."

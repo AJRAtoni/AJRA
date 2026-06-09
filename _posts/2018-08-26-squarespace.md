@@ -2,7 +2,7 @@
 layout: post
 title: "Qué es Squarespace y cuándo tiene sentido usarlo"
 date: 2018-08-26 10:00:00 +0300
-image: /images/110.jpg
+image: /images/blog/110.jpg
 image_alt: "Interfaz de Squarespace para crear páginas web con plantillas y editor visual"
 description: "Squarespace es una plataforma integral para crear webs, blogs y tiendas online con hosting, plantillas, editor visual, dominio, SSL y herramientas integradas."
 resumen: "Squarespace simplifica la creación de una web al integrar diseño, hosting, CMS, formularios, analítica y comercio en una misma plataforma."

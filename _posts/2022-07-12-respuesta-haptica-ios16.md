@@ -2,7 +2,7 @@
 layout: post
 title: "Cómo activar la respuesta háptica del teclado en iOS 16"
 date: 2022-07-12 10:00:00 +0300
-image: /images/267.webp
+image: /images/blog/267.webp
 image_alt: "Respuesta háptica del teclado en iOS 16"
 description: "iOS 16 añadió una opción para activar vibración háptica al escribir con el teclado del iPhone."
 resumen: "La respuesta háptica del teclado en iOS 16 es un ajuste pequeño, pero cambia la sensación de escritura en el iPhone."

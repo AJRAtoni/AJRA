@@ -2,7 +2,7 @@
 layout: post
 title: "Apple Peek Performance: Mac Studio, M1 Ultra e iPad Air M1"
 date: 2022-03-09 10:00:00 +0300
-image: /images/logo-apple.jpg
+image: /images/blog/logo-apple.jpg
 image_alt: "Logotipo de Apple asociado al evento Peek Performance de 2022"
 description: "Resumen del Apple Event Peek Performance: iPhone SE 3, iPad Air con M1, M1 Ultra, Mac Studio, Studio Display y nuevos acabados del iPhone 13."
 resumen: "Peek Performance fue un evento centrado en potencia: Apple llevó el M1 al iPad Air, presentó el M1 Ultra y estrenó el Mac Studio."
@@ -25,23 +25,23 @@ Apple anunció:
 - Studio Display con panel Retina 5K de 27 pulgadas.
 
 <figure>
-<img src="/images/257.jpeg" alt="Nuevos acabados verdes para iPhone 13" />
+<img src="/images/blog/257.jpeg" alt="Nuevos acabados verdes para iPhone 13" />
 </figure>
 
 <figure>
-<img src="/images/257-2.jpeg" alt="iPhone SE de tercera generación presentado en Peek Performance" />
+<img src="/images/blog/257-2.jpeg" alt="iPhone SE de tercera generación presentado en Peek Performance" />
 </figure>
 
 <figure>
-<img src="/images/257-3.jpeg" alt="iPad Air con chip M1 presentado por Apple" />
+<img src="/images/blog/257-3.jpeg" alt="iPad Air con chip M1 presentado por Apple" />
 </figure>
 
 <figure>
-<img src="/images/257-4.jpeg" alt="Chip M1 Ultra presentado en Apple Peek Performance" />
+<img src="/images/blog/257-4.jpeg" alt="Chip M1 Ultra presentado en Apple Peek Performance" />
 </figure>
 
 <figure>
-<img src="/images/257-5.jpeg" alt="Mac Studio con M1 Max y M1 Ultra" />
+<img src="/images/blog/257-5.jpeg" alt="Mac Studio con M1 Max y M1 Ultra" />
 </figure>
 
 ## La lectura del evento

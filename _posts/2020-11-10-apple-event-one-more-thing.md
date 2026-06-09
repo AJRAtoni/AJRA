@@ -2,7 +2,7 @@
 layout: post
 title: "One More Thing: Apple presentó los primeros Mac con M1"
 date: 2020-11-10 10:00:00 +0300
-image: /images/logo-apple.jpg
+image: /images/blog/logo-apple.jpg
 image_alt: "Logotipo de Apple asociado a los primeros Mac con chip M1"
 description: "Apple presentó el chip M1 y los primeros Mac con Apple Silicon: MacBook Air, MacBook Pro de 13 pulgadas y Mac mini."
 card_subtitle: "La keynote One More Thing marcó el inicio real de Apple Silicon en el Mac."

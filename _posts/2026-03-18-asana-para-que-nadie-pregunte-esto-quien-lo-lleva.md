@@ -3,9 +3,9 @@ layout: post
 title: "Asana: para que nadie pregunte \"¿esto quién lo lleva?\""
 date: 2026-03-18 09:00:00 -0500
 description: "Asana ayuda a ordenar tareas, responsables y fechas para que el equipo deje de trabajar a ciegas."
-image: "/images/posts/asana-logo-gradient.webp"
+image: "/images/blog/asana-logo-gradient.webp"
 image_alt: "Asana: para que nadie pregunte \"¿esto quién lo lleva?\""
-recursos_logo: "/images/logos/recursos/asana.png"
+recursos_logo: "/images/blog/asana.png"
 resumen: "Asana ayuda a que tareas, responsables y fechas estén visibles para que el equipo deje de trabajar entre mensajes sueltos y recordatorios."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/011-Asana.md"

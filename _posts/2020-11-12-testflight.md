@@ -2,7 +2,7 @@
 layout: post
 title: "TestFlight 3.0 añadió actualizaciones automáticas"
 date: 2020-11-12 10:00:00 +0300
-image: /images/229.jpg
+image: /images/blog/229.jpg
 image_alt: "TestFlight en iOS con opción de actualizaciones automáticas"
 description: "TestFlight 3.0 permitió activar actualizaciones automáticas para betas de apps en iOS y iPadOS."
 resumen: "Las actualizaciones automáticas en TestFlight quitaron fricción a betatesters y equipos que prueban varias apps a la vez."
@@ -20,7 +20,7 @@ Hasta ese momento, actualizar betas en TestFlight podía ser pesado.
 Había que entrar y actualizar versión por versión.
 
 <figure>
-<img src="/images/229-2.jpeg" alt="Pantalla de TestFlight mostrando una beta de app en iOS" />
+<img src="/images/blog/229-2.jpeg" alt="Pantalla de TestFlight mostrando una beta de app en iOS" />
 </figure>
 
 ## Qué cambió en TestFlight 3.0

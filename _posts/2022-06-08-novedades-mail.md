@@ -2,7 +2,7 @@
 layout: post
 title: "WWDC22: novedades de Mail en iOS 16, iPadOS 16 y macOS Ventura"
 date: 2022-06-08 23:00 +0300
-image: /images/265.webp
+image: /images/blog/265.webp
 image_alt: "Novedades de Mail en iOS 16, iPadOS 16 y macOS Ventura"
 description: "Mail añadió programar envío, recordar más tarde, deshacer envío y previsualizaciones de enlaces en iOS 16, iPadOS 16 y macOS Ventura."
 card_subtitle: "Mail recibió varias funciones muy esperadas en WWDC22, muchas inspiradas en clientes como Spark."
@@ -17,7 +17,7 @@ Después del [resumen general de WWDC22](/blog/wwdc22-resumen/), tocaba mirar un
 En mi lista de [deseos para iPadOS 16](/blog/deseos-ipados16/) pedía que Mail se acercara un poco a Spark. En parte, eso fue justo lo que pasó.
 
 <figure>
-<img src="/images/265-2.webp" alt="Mail en iPadOS 16 con nuevas opciones de envío" />
+<img src="/images/blog/265-2.webp" alt="Mail en iPadOS 16 con nuevas opciones de envío" />
 </figure>
 
 ## Programar email
@@ -27,7 +27,7 @@ Mail añadió la posibilidad de enviar un correo más tarde.
 Podías elegir opciones rápidas, como enviar esa noche o al día siguiente, o personalizar fecha y hora.
 
 <figure>
-<img src="/images/265-3.webp" alt="Programar envío de correo en Mail de iPadOS 16" />
+<img src="/images/blog/265-3.webp" alt="Programar envío de correo en Mail de iPadOS 16" />
 </figure>
 
 ## Recordar email más tarde

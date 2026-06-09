@@ -2,7 +2,7 @@
 layout: post
 title: "Squarespace Tips 002: cómo usar una fuente propia"
 date: 2018-10-11 10:00:00 +0300
-image: /images/115.jpg
+image: /images/blog/115.jpg
 image_alt: "Editor de CSS personalizado de Squarespace para cargar una fuente propia"
 description: "Cómo cargar una fuente personalizada en Squarespace y aplicarla con CSS a títulos u otros elementos de la web."
 resumen: "Usar una fuente propia en Squarespace es posible subiendo el archivo y declarando la tipografía con @font-face en CSS personalizado."

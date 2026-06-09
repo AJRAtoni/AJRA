@@ -2,7 +2,7 @@
 layout: post
 title: "ComicTrack: seguimiento de cómics en iPhone y iPad"
 date: 2022-04-10 10:00:00 +0300
-image: /images/259.jpg
+image: /images/blog/259.jpg
 image_alt: "ComicTrack como app para hacer seguimiento de lecturas de cómics"
 description: "ComicTrack permite llevar un seguimiento de cómics, colecciones y nuevas publicaciones desde iPhone y iPad, con widgets para iPadOS."
 card_subtitle: "ComicTrack me llamó la atención porque hacía con los cómics algo parecido a lo que TV Time hacía con series."

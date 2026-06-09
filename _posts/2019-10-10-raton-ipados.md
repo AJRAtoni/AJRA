@@ -2,7 +2,7 @@
 layout: post
 title: "Cómo usar un ratón en iPadOS"
 date: 2019-10-10 10:00:00 +0300
-image: /images/168.jpg
+image: /images/blog/168.jpg
 image_alt: "iPad con iPadOS usando un ratón Bluetooth como dispositivo señalador"
 description: "iPadOS 13 permitió conectar ratones Bluetooth desde Accesibilidad mediante AssistiveTouch, un primer paso hacia el soporte de puntero en iPad."
 resumen: "El soporte inicial de ratón en iPadOS estaba algo escondido en Accesibilidad, pero marcó el camino hacia un iPad más útil para trabajo."

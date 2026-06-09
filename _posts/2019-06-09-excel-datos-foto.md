@@ -2,7 +2,7 @@
 layout: post
 title: "Excel para iOS empezó a importar tablas desde una foto"
 date: 2019-06-09 10:00:00 +0300
-image: /images/142.jpg
+image: /images/blog/142.jpg
 image_alt: "Excel para iOS importando datos de una tabla fotografiada"
 description: "Microsoft actualizó Excel para iOS con una función para fotografiar una tabla e importarla como datos editables en una hoja de cálculo."
 resumen: "Importar datos desde una foto en Excel fue una mejora práctica: convertía una tarea manual y tediosa en un flujo casi automático."
@@ -29,7 +29,7 @@ Antes tocaba copiar a mano o buscar una herramienta OCR.
 Con esta función, Excel acercaba esa captura directamente a la hoja de cálculo.
 
 <figure>
-<img src="/images/142-1.webp" alt="Excel para iOS detectando una tabla fotografiada para importarla como datos" />
+<img src="/images/blog/142-1.webp" alt="Excel para iOS detectando una tabla fotografiada para importarla como datos" />
 </figure>
 
 ## OCR dentro del flujo de trabajo

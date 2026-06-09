@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft anunció 3.000 despidos: de vender licencias a vender nube"
 date: 2017-07-14 10:00:00 +0300
-image: /images/69.jpg
+image: /images/blog/69.jpg
 image_alt: "Microsoft y el cambio estratégico desde licencias de Windows hacia servicios cloud"
 description: "Microsoft anunció 3.000 despidos en 2017 dentro de una reestructuración comercial que reflejaba el cambio desde licencias tradicionales hacia Azure y servicios cloud."
 card_subtitle: "Los despidos de Microsoft en 2017 fueron una señal clara del giro de la compañía."

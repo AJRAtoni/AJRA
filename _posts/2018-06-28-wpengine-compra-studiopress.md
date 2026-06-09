@@ -2,7 +2,7 @@
 layout: post
 title: "WP Engine compró StudioPress y el framework Genesis"
 date: 2018-06-28 10:00:00 +0300
-image: /images/108.jpg
+image: /images/blog/108.jpg
 image_alt: "WP Engine y StudioPress en una noticia sobre Genesis Framework para WordPress"
 description: "WP Engine compró StudioPress, incluyendo Genesis Framework y sus temas, para integrarlos en sus planes de hosting WordPress."
 resumen: "La compra de StudioPress por WP Engine unía hosting gestionado, framework de WordPress y temas profesionales en una misma oferta."

@@ -2,7 +2,7 @@
 layout: post
 title: ¿Cómo optimizar las imágenes antes de subirlas a la web?
 date: 2019-03-28 10:00:00 +0300
-image: /images/127.jpg
+image: /images/blog/127.jpg
 image_alt: "Herramienta de compresión de imágenes para optimizar peso antes de subirlas a una web"
 description: "Optimizar imágenes antes de subirlas a una web mejora velocidad, experiencia móvil, SEO y consumo de datos."
 card_subtitle: "Las imágenes pesan mucho en una web. Reducir tamaño, cuidar formato."

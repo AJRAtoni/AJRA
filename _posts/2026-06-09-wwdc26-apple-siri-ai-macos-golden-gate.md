@@ -4,9 +4,9 @@ title: "WWDC26: Apple por fin enseña su Siri con IA"
 date: 2026-06-09 09:20:00 -0400
 description: "Apple usó la WWDC26 para enseñar macOS 27 Golden Gate, ajustes en Liquid Glass, mejoras de rendimiento y, sobre todo, una nueva Siri AI integrada en Apple Intelligence."
 card_subtitle: "Siri AI, macOS Golden Gate, Liquid Glass ajustable y una Apple Intelligence mucho más metida en el sistema."
-image: "/images/posts/wwdc26-apple-gradient.webp"
+image: "/images/blog/wwdc26-apple-gradient.webp"
 image_alt: "Logo de Apple blanco sobre degradado morado y fucsia de AJRA para WWDC26"
-recursos_logo: "/images/logos/recursos/apple-wwdc26.png"
+recursos_logo: "/images/blog/apple-wwdc26.png"
 recursos_logo_alt: "Logo de Apple"
 resumen: "Apple usó la WWDC26 para enseñar macOS 27 Golden Gate, ajustes en Liquid Glass, mejoras de rendimiento y, sobre todo, una nueva Siri AI integrada en Apple Intelligence."
 categories: [ia]

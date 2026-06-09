@@ -2,7 +2,7 @@
 layout: post
 title: "Adobe dejó de operar en Venezuela por una orden ejecutiva de EEUU"
 date: 2019-10-09 10:00:00 +0300
-image: /images/167.png
+image: /images/blog/167.png
 image_alt: "Logotipo de Adobe Creative Cloud asociado a servicios en la nube"
 description: "Adobe anunció la suspensión de cuentas de Creative Cloud en Venezuela tras una orden ejecutiva de EEUU, un recordatorio de la dependencia de servicios cloud."
 card_subtitle: "El caso de Adobe en Venezuela mostró que el software por suscripción no depende solo de tecnología."

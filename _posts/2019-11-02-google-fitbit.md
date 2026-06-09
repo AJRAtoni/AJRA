@@ -2,7 +2,7 @@
 layout: post
 title: "Google compró Fitbit: wearables, salud y datos"
 date: 2019-11-02 10:00:00 +0300
-image: /images/176.jpg
+image: /images/blog/176.jpg
 image_alt: "Pulsera Fitbit asociada a métricas de salud y actividad"
 description: "Google anunció la compra de Fitbit por 2.100 millones de dólares, una operación que mezclaba wearables, salud, datos y competencia con Apple Watch."
 resumen: "La compra de Fitbit por Google no iba solo de pulseras: iba de salud, sensores, ecosistema y datos personales."

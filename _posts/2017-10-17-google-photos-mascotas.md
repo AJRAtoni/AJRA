@@ -2,7 +2,7 @@
 layout: post
 title: "Google Photos empezó a reconocer mascotas: IA cotidiana antes de que habláramos tanto de IA"
 date: 2017-10-17 10:00:00 +0300
-image: /images/81.jpg
+image: /images/blog/81.jpg
 image_alt: "Google Photos agrupando fotos de mascotas mediante reconocimiento automático"
 description: "Google Photos añadió reconocimiento de mascotas en 2017, una función sencilla que mostraba cómo el machine learning empezaba a integrarse en productos cotidianos."
 card_subtitle: "El reconocimiento de mascotas en Google Photos fue una pequeña mejora de producto y, a la vez."

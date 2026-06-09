@@ -3,7 +3,7 @@ layout: post
 title: ¿Qué significa que una web sea mobile friendly?
 date: 2016-02-20 15:01:35 +0300
 description: "Una web mobile friendly está adaptada a móviles: carga bien, se lee sin esfuerzo y permite navegar o comprar desde una pantalla pequeña."
-image: /images/16.jpg
+image: /images/blog/16.jpg
 image_alt: "¿Qué significa que una web sea mobile friendly?"
 source: AJRA-v09/_posts/2016-02-20-google-mobile-friendly.md
 resumen: "Una web mobile friendly está adaptada a móviles: carga bien, se lee sin esfuerzo y permite navegar o comprar desde una pantalla pequeña."

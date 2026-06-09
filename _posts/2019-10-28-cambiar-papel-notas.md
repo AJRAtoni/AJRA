@@ -2,7 +2,7 @@
 layout: post
 title: "Cómo cambiar el tipo de papel en Notas de iPadOS"
 date: 2019-10-27 10:00:00 +0300
-image: /images/173.jpg
+image: /images/blog/173.jpg
 image_alt: "Apple Notes en iPadOS con líneas y cuadrículas para escritura manual"
 description: "La app Notas de iPadOS permite cambiar el fondo de una nota con líneas o cuadrículas, algo útil para escribir, dibujar o tomar apuntes con Apple Pencil."
 resumen: "Cambiar el tipo de papel en Notas ayuda a adaptar la app a escritura manual, bocetos, esquemas y apuntes con Apple Pencil."

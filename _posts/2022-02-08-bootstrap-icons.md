@@ -2,7 +2,7 @@
 layout: post
 title: "Bootstrap Icons 1.8.0 añadió más de 140 iconos"
 date: 2022-02-08 10:00:00 +0300
-image: /images/255.jpg
+image: /images/blog/255.jpg
 image_alt: "Nuevos iconos de Bootstrap Icons 1.8.0"
 description: "Bootstrap Icons 1.8.0 añadió más de 140 iconos nuevos, incluyendo corazones para San Valentín y más iconos de archivos por extensión."
 resumen: "Bootstrap Icons siguió creciendo como librería práctica para interfaces web: ligera, consistente y fácil de integrar en proyectos pequeños."
@@ -14,13 +14,13 @@ La librería **Bootstrap Icons** se actualizó a la versión 1.8.0.
 La novedad principal era la incorporación de más de 140 iconos, superando ya los 1.700 disponibles.
 
 <figure>
-<img src="/images/255.jpg" alt="Iconos de corazones añadidos en Bootstrap Icons 1.8.0" />
+<img src="/images/blog/255.jpg" alt="Iconos de corazones añadidos en Bootstrap Icons 1.8.0" />
 </figure>
 
 Entre los nuevos iconos había bastantes corazones pensados para San Valentín y más variantes de archivos con sus extensiones correspondientes.
 
 <figure>
-<img src="/images/255_2.jpeg" alt="Iconos de archivos y extensiones en Bootstrap Icons" />
+<img src="/images/blog/255_2.jpeg" alt="Iconos de archivos y extensiones en Bootstrap Icons" />
 </figure>
 
 ## Por qué me gusta tener librerías de iconos a mano

@@ -2,7 +2,7 @@
 layout: post
 title: "Instagram Stories en Facebook: la estrategia de copiar, distribuir y saturar"
 date: 2017-10-05 10:00:00 +0300
-image: /images/logo-instagram.jpg
+image: /images/blog/logo-instagram.jpg
 image_alt: "Instagram Stories compartidas también en Facebook Stories"
 description: "Facebook permitió compartir Instagram Stories en Facebook, una jugada para extender el formato que copió a Snapchat, aunque también abrió el riesgo de saturación."
 card_subtitle: "Compartir Stories de Instagram en Facebook tenía sentido operativo."

@@ -2,7 +2,7 @@
 layout: post
 title: "¿Cuál es la mejor hora para publicar en redes sociales?"
 date: 2016-03-16 15:01:35 +0300
-image: /images/18.jpg
+image: /images/blog/18.jpg
 image_alt: "Calendario editorial y horarios de publicación en redes sociales"
 description: "La mejor hora para publicar en redes sociales no es universal: depende de tu audiencia, tu canal, tu objetivo y tus datos. Así puedes decidirla sin adivinar."
 resumen: "La mejor hora para publicar no se copia: se calcula con datos de tu audiencia y se revisa de forma periódica."

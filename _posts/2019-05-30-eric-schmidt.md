@@ -2,7 +2,7 @@
 layout: post
 title: "Eric Schmidt dejó el consejo de Alphabet tras 18 años en Google"
 date: 2019-05-30 10:00:00 +0300
-image: /images/133.jpg
+image: /images/blog/133.jpg
 image_alt: "Eric Schmidt en una noticia sobre su salida del consejo de Alphabet"
 description: "Eric Schmidt anunció su salida del consejo de Alphabet en 2019, cerrando una etapa de 18 años vinculada a Google."
 card_subtitle: "La salida de Eric Schmidt del consejo de Alphabet cerró una etapa clave."

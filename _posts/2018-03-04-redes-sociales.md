@@ -2,7 +2,7 @@
 layout: post
 title: "Redes sociales para tu negocio: voz, contenido, timing y conversación"
 date: 2018-03-04 10:00:00 +0300
-image: /images/95.jpg
+image: /images/blog/95.jpg
 image_alt: "Plan de redes sociales para un negocio con calendario, contenido y conversación"
 description: "Gestionar redes sociales para un negocio requiere estrategia: definir voz, contenido, calendario, conversación y objetivos medibles."
 card_subtitle: "Las redes sociales no funcionan por publicar al azar. Necesitan una voz clara, contenido útil."

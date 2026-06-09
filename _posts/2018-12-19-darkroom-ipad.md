@@ -2,7 +2,7 @@
 layout: post
 title: "Darkroom 4.0 llegó al iPad con una interfaz adaptada"
 date: 2018-12-19 10:00:00 +0300
-image: /images/123.jpg
+image: /images/blog/123.jpg
 image_alt: "Darkroom 4.0 en iPad con interfaz de edición fotográfica adaptada a pantalla grande"
 description: "Darkroom 4.0 llevó su editor de fotos al iPad con una interfaz nueva, responsive y compatible con teclado externo."
 resumen: "La llegada de Darkroom al iPad fue otra señal de que el iPad empezaba a ser una herramienta seria para edición fotográfica móvil."

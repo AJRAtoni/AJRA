@@ -2,7 +2,7 @@
 layout: post
 title: "Squarespace compró Unfold para reforzar su lado social"
 date: 2019-11-03 10:00:00 +0300
-image: /images/177.jpg
+image: /images/blog/177.jpg
 image_alt: "Plantillas visuales de Unfold para crear Stories de Instagram"
 description: "Squarespace adquirió Unfold, una app para crear Stories con mejor diseño, reforzando su expansión más allá de la creación de páginas web."
 resumen: "La compra de Unfold mostró que Squarespace quería cubrir más partes de la presencia online: web, marca, logo, email y contenido social."

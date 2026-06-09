@@ -2,7 +2,7 @@
 layout: post
 title: "Halide llegó al iPad con una interfaz pensada para pantalla grande"
 date: 2021-05-19 10:00:00 +0300
-image: /images/246.webp
+image: /images/blog/246.webp
 image_alt: "Halide para iPad con interfaz de cámara adaptada a pantalla grande"
 description: "Halide lanzó versión para iPad con una interfaz específica, ProView, soporte RAW, Apple ProRAW, modo manual y herramientas avanzadas de enfoque."
 resumen: "Halide para iPad no fue un simple port de iPhone: intentó resolver cómo se usa una cámara avanzada en una pantalla mucho más grande."

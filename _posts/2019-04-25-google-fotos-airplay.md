@@ -2,7 +2,7 @@
 layout: post
 title: "Google Fotos añadió soporte para AirPlay en iOS"
 date: 2019-04-25 10:00:00 +0300
-image: /images/128.jpg
+image: /images/blog/128.jpg
 image_alt: "Google Fotos en iOS enviando imágenes y vídeos por AirPlay a un Apple TV"
 description: "Google Fotos para iOS añadió soporte para AirPlay, permitiendo enviar fotos y vídeos al Apple TV sin salir de la aplicación."
 card_subtitle: "AirPlay en Google Fotos hizo más fácil mostrar imágenes en una pantalla grande desde iPhone."

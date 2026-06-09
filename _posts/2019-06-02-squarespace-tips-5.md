@@ -2,7 +2,7 @@
 layout: post
 title: "Squarespace Tips 005: configurar Google Analytics"
 date: 2019-06-02 10:00:00 +0300
-image: /images/logo-squarespace.jpg
+image: /images/blog/logo-squarespace.jpg
 image_alt: "Configuración de Google Analytics dentro de Squarespace"
 description: "Cómo conectar Google Analytics con Squarespace para medir visitas, comportamiento y resultados de una web."
 card_subtitle: "Squarespace incluye analíticas propias, pero conectar Google Analytics permite comparar datos y tomar mejores decisiones."

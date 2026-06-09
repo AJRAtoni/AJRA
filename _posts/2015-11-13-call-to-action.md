@@ -3,7 +3,7 @@ layout: post
 title: ¿Qué es un Call to Action?
 date: 2015-11-13 15:01:35 +0300
 description: "Un Call to Action es la llamada que guía al usuario hacia la acción que quieres que realice en tu web, landing page o campaña."
-image: /images/09.jpg
+image: /images/blog/09.jpg
 image_alt: "¿Qué es un Call to Action?"
 source: AJRA-v09/_posts/2015-11-13-call-to-action.md
 resumen: Un Call to Action es la llamada que guía al usuario hacia la acción que quieres que realice en tu web, landing page o campaña.

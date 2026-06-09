@@ -2,7 +2,7 @@
 layout: post
 title: "Google cerró Inbox: otra buena idea que acabó absorbida por Gmail"
 date: 2018-09-13 10:00:00 +0300
-image: /images/113.jpg
+image: /images/blog/113.jpg
 image_alt: "Aplicación Inbox de Google antes de su cierre en 2019"
 description: "Google anunció el cierre de Inbox para marzo de 2019, después de usarlo durante años como laboratorio de funciones para Gmail."
 card_subtitle: "Inbox fue una app querida porque probó ideas útiles para gestionar el correo."

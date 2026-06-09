@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon Cloud Drive dejó de ser ilimitado: la letra pequeña de la nube"
 date: 2017-06-10 10:00:00 +0300
-image: /images/logo-amazon.jpg
+image: /images/blog/logo-amazon.jpg
 image_alt: "Amazon Cloud Drive y el cambio de almacenamiento ilimitado a planes limitados"
 description: "Amazon Cloud Drive eliminó su plan ilimitado, recordando que en servicios cloud lo ilimitado casi siempre tiene límites económicos, técnicos o estratégicos."
 card_subtitle: "Cuando un servicio cloud promete almacenamiento ilimitado, conviene preguntarse cuánto durará."

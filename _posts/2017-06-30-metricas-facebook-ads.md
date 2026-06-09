@@ -2,7 +2,7 @@
 layout: post
 title: "Nuevas métricas en Facebook Ads: medir mejor para optimizar mejor"
 date: 2017-06-30 10:00:00 +0300
-image: /images/logo-facebook.jpg
+image: /images/blog/logo-facebook.jpg
 image_alt: "Logotipo de Facebook para hablar de métricas en Facebook Ads"
 description: "Facebook añadió nuevas métricas a Ads Manager para dar más contexto a los anunciantes, después de varios problemas de confianza con sus estadísticas."
 card_subtitle: "Las métricas nuevas de Facebook Ads recordaban algo básico: una campaña no se optimiza con fe."

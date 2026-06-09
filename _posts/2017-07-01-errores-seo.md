@@ -2,7 +2,7 @@
 layout: post
 title: "10 errores SEO que debemos evitar"
 date: 2017-07-01 10:00:00 +0300
-image: /images/66.jpg
+image: /images/blog/66.jpg
 image_alt: "Lista de errores SEO comunes que conviene evitar en una web"
 description: "Repaso actualizado a 10 errores SEO habituales: sitemap, canonical, velocidad, encabezados, ALT, meta descripción, keyword stuffing, duplicados, enlaces rotos y mobile friendly."
 resumen: "El SEO no va de trucos mágicos, sino de evitar errores básicos que impiden que Google entienda, rastree y valore bien una web."

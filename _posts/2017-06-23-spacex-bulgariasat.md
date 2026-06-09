@@ -2,7 +2,7 @@
 layout: post
 title: "SpaceX puso en órbita BulgariaSat-1 con un Falcon 9 reutilizado"
 date: 2017-06-23 10:00:00 +0300
-image: /images/logo-spacex.jpg
+image: /images/blog/logo-spacex.jpg
 image_alt: "Falcon 9 de SpaceX en la misión BulgariaSat-1"
 description: "SpaceX lanzó BulgariaSat-1 y recuperó un Falcon 9 reutilizado, otro paso importante hacia la normalización comercial de cohetes reutilizables."
 card_subtitle: "La misión BulgariaSat-1 fue relevante no solo por el satélite, sino porque demostró de nuevo que reutilizar un Falcon 9."
@@ -15,7 +15,7 @@ SpaceX volvió a conseguirlo: puso en órbita el BulgariaSat-1 con un Falcon 9 r
 El satélite de telecomunicaciones búlgaro debía llegar a una órbita alta, lo que hacía la misión especialmente exigente por la energía necesaria y por las condiciones de reentrada.
 
 <figure>
-<img src="/images/63.jpg" alt="Lanzamiento de un Falcon 9 de SpaceX durante una misión orbital" />
+<img src="/images/blog/63.jpg" alt="Lanzamiento de un Falcon 9 de SpaceX durante una misión orbital" />
 </figure>
 
 ## No era un lanzamiento cualquiera

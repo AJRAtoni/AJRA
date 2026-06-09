@@ -4,9 +4,9 @@ title: "Summer Game Fest 2026"
 date: 2026-06-07 09:00:00 -0400
 description: "El Summer Game Fest 2026 dejó dos horas de anuncios, remakes, secuelas y fechas: Resident Evil Veronica, Final Fantasy VII Revelation, Stellar Blade: Blood Rain, Guild Wars 3, Alien: Isolation 2 y más."
 card_subtitle: "Los grandes anuncios del Summer Game Fest 2026, entre remakes, secuelas y regresos con mucho ruido gamer."
-image: "/images/posts/summer-game-fest-2026-logo-gradient.webp"
+image: "/images/blog/summer-game-fest-2026-logo-gradient.webp"
 image_alt: "Summer Game Fest 2026 en blanco sobre degradado morado AJRA"
-recursos_logo: "/images/logos/recursos/summer-game-fest-2026.png"
+recursos_logo: "/images/blog/summer-game-fest-2026.png"
 recursos_logo_alt: "Summer Game Fest 2026"
 resumen: "El Summer Game Fest 2026 dejó dos horas de anuncios, remakes, secuelas y fechas: Resident Evil Veronica, Final Fantasy VII Revelation, Stellar Blade: Blood Rain, Guild Wars 3, Alien: Isolation 2 y más."
 categories: [videojuegos]

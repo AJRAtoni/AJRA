@@ -2,7 +2,7 @@
 layout: post
 title: "Hi, Speed: Apple anunció evento para el 13 de octubre de 2020"
 date: 2020-10-06 10:00:00 +0300
-image: /images/logo-apple.jpg
+image: /images/blog/logo-apple.jpg
 image_alt: "Invitación del Apple Event Hi, Speed de octubre de 2020"
 description: "Apple anunció el evento Hi, Speed para el 13 de octubre de 2020, donde se esperaba la llegada del iPhone 12 y el 5G."
 resumen: "Después de Time Flies, Apple preparó Hi, Speed: el evento que apuntaba claramente al iPhone 12 y a la velocidad del 5G."
@@ -14,7 +14,7 @@ Apple envió las invitaciones para su evento **Hi, Speed**.
 La keynote tendría lugar el **13 de octubre de 2020** a las 10:00 a.m. PDT y se podría seguir online desde la web de Apple.
 
 <figure>
-<img src="/images/218.webp" alt="Invitación del evento Hi, Speed de Apple" />
+<img src="/images/blog/218.webp" alt="Invitación del evento Hi, Speed de Apple" />
 </figure>
 
 ## Qué se esperaba

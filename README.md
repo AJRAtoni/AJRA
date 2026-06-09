@@ -2,7 +2,7 @@
 
 Bienvenido al repositorio de mi página personal, accesible en [https://ajra.es](https://ajra.es).
 
-![Screenshot de mi página web](/images/AJRA_Screenshot.jpeg)
+![Screenshot de mi página web](/images/blog/AJRA_Screenshot.jpeg)
 
 Esta web sirve como un cajón desastre de mis actividades e intereses, incluyendo mis últimas colaboraciones profesionales, las series y películas que estoy viendo, los videojuegos a los que estoy jugando, y varias maneras de conectarse conmigo.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Sublime Text: el editor ligero que sigue teniendo sentido"
 date: 2016-08-10 10:00:00 +0300
-image: /images/logo-sublimetext.png
+image: /images/blog/logo-sublimetext.png
 image_alt: "Logo de Sublime Text y editor de código para desarrollo web"
 description: "Sublime Text fue uno de los editores favoritos para desarrollo web. Hoy convive con VS Code, Cursor y editores con IA, pero sigue teniendo lecciones útiles."
 card_subtitle: "Sublime Text sigue siendo un ejemplo de editor rápido, ligero y extensible."

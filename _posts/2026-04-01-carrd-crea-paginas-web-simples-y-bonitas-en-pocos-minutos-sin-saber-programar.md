@@ -3,9 +3,9 @@ layout: post
 title: "Carrd: crea páginas web simples y bonitas en pocos minutos sin saber programar"
 date: 2026-04-01 09:00:00 -0500
 description: "Carrd permite lanzar páginas simples de una sola página rápido, barato y sin saber programar."
-image: "/images/posts/carrd-gradient.webp"
+image: "/images/blog/carrd-gradient.webp"
 image_alt: "Carrd para crear landing pages no-code simples y rápidas"
-recursos_logo: "/images/logos/recursos/carrd.webp"
+recursos_logo: "/images/blog/carrd.webp"
 resumen: "Carrd es ideal para lanzar una landing, bio-link o página de servicios simple sin convertir una web pequeña en un proyecto enorme."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/013-Carrd.md"

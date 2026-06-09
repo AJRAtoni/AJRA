@@ -2,7 +2,7 @@
 layout: post
 title: "Sign in with Apple: login rápido con foco en privacidad"
 date: 2019-06-13 10:00:00 +0300
-image: /images/logo-apple.jpg
+image: /images/blog/logo-apple.jpg
 image_alt: "Logotipo de Apple en una noticia sobre Sign in with Apple"
 description: "Apple presentó Sign in with Apple en WWDC 2019, una alternativa a los logins sociales basada en privacidad, Face ID, Touch ID y alias de email."
 card_subtitle: "Sign in with Apple fue una respuesta directa a los botones de login de Facebook y Google."
@@ -21,7 +21,7 @@ Registrarse en una app o web suele ser aburrido: formulario, email, contraseña,
 Facebook, Google y Twitter ya habían resuelto parte de esa fricción con botones de login.
 
 <figure>
-<img src="/images/146.png" alt="Botones de login social con Facebook, Google y Twitter" />
+<img src="/images/blog/146.png" alt="Botones de login social con Facebook, Google y Twitter" />
 </figure>
 
 El problema es que esos botones también pueden compartir datos de uso con la plataforma que facilita el registro.
@@ -35,7 +35,7 @@ Apple presentó Sign in with Apple como una alternativa similar en comodidad, pe
 La promesa era clara: facilitar el registro sin trackear ni monetizar el uso de la app.
 
 <figure>
-<img src="/images/146-2.jpg" alt="Pantalla de Sign in with Apple como alternativa privada de registro" />
+<img src="/images/blog/146-2.jpg" alt="Pantalla de Sign in with Apple como alternativa privada de registro" />
 </figure>
 
 El sistema funcionaba con Touch ID o Face ID, lo que hacía el registro rápido y seguro dentro del ecosistema Apple.
@@ -43,7 +43,7 @@ El sistema funcionaba con Touch ID o Face ID, lo que hacía el registro rápido 
 ## Email aleatorio y de uso único
 
 <figure>
-<img src="/images/146-3.jpg" alt="Opción de ocultar email real mediante alias en Sign in with Apple" />
+<img src="/images/blog/146-3.jpg" alt="Opción de ocultar email real mediante alias en Sign in with Apple" />
 </figure>
 
 La función más interesante era ocultar tu email real.

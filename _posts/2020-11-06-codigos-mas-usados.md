@@ -2,7 +2,7 @@
 layout: post
 title: "Los códigos de desbloqueo más usados siguen siendo un problema"
 date: 2020-11-06 10:00:00 +0300
-image: /images/224.jpg
+image: /images/blog/224.jpg
 image_alt: "Teclado numérico de desbloqueo en un smartphone"
 description: "Muchos usuarios siguen usando códigos de desbloqueo muy predecibles como 1234, 0000 o 1111. Conviene cambiarlos por códigos más largos."
 resumen: "Un código corto y predecible puede anular buena parte de la seguridad de un teléfono, aunque uses Face ID o Touch ID."

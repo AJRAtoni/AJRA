@@ -2,7 +2,7 @@
 layout: post
 title: "Squarespace Tips 006: cambiar el favicon de tu web"
 date: 2019-06-12 10:00:00 +0300
-image: /images/logo-squarespace.jpg
+image: /images/blog/logo-squarespace.jpg
 image_alt: "Configuración del favicon en Squarespace para personalizar el icono del navegador"
 description: "Cómo cambiar el favicon de una web en Squarespace y qué requisitos conviene cuidar en formato, tamaño y resolución."
 resumen: "Un favicon personalizado ayuda a reconocer tu web en pestañas y marcadores. En Squarespace se cambia desde Logo y título."

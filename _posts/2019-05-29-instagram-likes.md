@@ -2,7 +2,7 @@
 layout: post
 title: "Instagram empezó a ocultar el contador de Me gusta"
 date: 2019-05-29 10:00:00 +0300
-image: /images/logo-instagram.jpg
+image: /images/blog/logo-instagram.jpg
 image_alt: "Logotipo de Instagram en una noticia sobre ocultar el contador de Me gusta"
 description: "Instagram probó ocultar el contador público de Me gusta para reducir la competición social y cambiar la forma de medir contenido."
 card_subtitle: "Ocultar los Me gusta en Instagram apuntaba a un problema real: cuando la métrica se vuelve protagonista."

@@ -2,7 +2,7 @@
 layout: post
 title: "El traje espacial de SpaceX: diseño, narrativa y confianza tecnológica"
 date: 2017-09-20 10:00:00 +0300
-image: /images/logo-spacex.jpg
+image: /images/blog/logo-spacex.jpg
 image_alt: "Traje espacial de SpaceX diseñado para astronautas dentro de la nave Dragon"
 description: "El traje espacial de SpaceX mostró cómo la compañía cuidaba no solo la ingeniería, sino también la narrativa visual de una nueva etapa espacial."
 card_subtitle: "El traje espacial de SpaceX no era un simple detalle estético: ayudaba a contar una idea de futuro."
@@ -15,7 +15,7 @@ Elon Musk publicó una imagen del traje espacial que utilizarían los astronauta
 Lo interesante no era solo ver un traje nuevo. Era ver cómo SpaceX estaba construyendo una narrativa completa alrededor de su programa tripulado.
 
 <figure>
-<img src="/images/04.webp" alt="Traje espacial blanco de SpaceX para astronautas de la cápsula Dragon" />
+<img src="/images/blog/04.webp" alt="Traje espacial blanco de SpaceX para astronautas de la cápsula Dragon" />
 </figure>
 
 ## No era un mockup

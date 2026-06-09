@@ -2,7 +2,7 @@
 layout: post
 title: "Facebook y el remarketing en el mundo real"
 date: 2017-09-26 10:00:00 +0300
-image: /images/72.jpg
+image: /images/blog/72.jpg
 image_alt: "Facebook Ads y remarketing basado en visitas a tiendas físicas"
 description: "Facebook exploraba usar visitas a tiendas físicas para mejorar la segmentación publicitaria, un ejemplo temprano de unión entre datos móviles, retail y remarketing."
 card_subtitle: "El remarketing de Facebook basado en visitas físicas mostraba el valor —y el riesgo— de conectar comportamiento offline."

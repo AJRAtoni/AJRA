@@ -2,7 +2,7 @@
 layout: post
 title: "GitHub llegó a iOS y iPadOS"
 date: 2020-03-22 10:00:00 +0300
-image: /images/logo-github.jpg
+image: /images/blog/logo-github.jpg
 image_alt: "Logotipo de GitHub asociado a su app para iOS y iPadOS"
 description: "GitHub lanzó su aplicación oficial para iOS y iPadOS, centrada en revisar notificaciones, issues y pull requests desde el móvil."
 card_subtitle: "La primera app oficial de GitHub para iOS no servía para programar, pero sí para seguir conversaciones."
@@ -33,7 +33,7 @@ Servía sobre todo para:
 - Seguir conversaciones de proyectos.
 
 <figure>
-<img src="/images/261.jpg" alt="App oficial de GitHub en iOS mostrando actividad de repositorios" />
+<img src="/images/blog/261.jpg" alt="App oficial de GitHub en iOS mostrando actividad de repositorios" />
 </figure>
 
 Eso ya era suficiente para muchas situaciones: desbloquear una revisión, contestar una duda o seguir un proyecto sin abrir el portátil.

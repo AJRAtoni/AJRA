@@ -2,7 +2,7 @@
 layout: post
 title: "Cómo escribir el símbolo de Apple en iOS y iPadOS"
 date: 2020-06-04 10:00:00 +0300
-image: /images/logo-apple.jpg
+image: /images/blog/logo-apple.jpg
 image_alt: "Logotipo de Apple y símbolo de la manzana mordida"
 description: "Puedes escribir el símbolo de Apple en iPhone y iPad creando una sustitución de texto que convierta una abreviatura en el carácter ."
 card_subtitle: "La sustitución de texto de iOS y iPadOS sirve para escribir símbolos, frases repetidas."
@@ -30,7 +30,7 @@ La solución cómoda es usar **sustitución de texto**.
 8. En **Función rápida**, escribe una abreviatura que recuerdes.
 
 <figure>
-<img src="/images/195.jpg" alt="Pantalla de sustitución de texto en iOS para crear un atajo" />
+<img src="/images/blog/195.jpg" alt="Pantalla de sustitución de texto en iOS para crear un atajo" />
 </figure>
 
 Cuando escribas esa abreviatura, iOS o iPadOS la reemplazará por el símbolo.

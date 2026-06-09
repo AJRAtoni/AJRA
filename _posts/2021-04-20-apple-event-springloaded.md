@@ -2,7 +2,7 @@
 layout: post
 title: "Apple Spring Loaded: AirTag, iMac M1 y iPad Pro M1"
 date: 2021-04-20 10:00:00 +0300
-image: /images/logo-apple.jpg
+image: /images/blog/logo-apple.jpg
 image_alt: "Logotipo de Apple asociado al evento Spring Loaded de 2021"
 description: "Resumen del Apple Event Spring Loaded: AirTag, iMac de colores con M1, iPad Pro con M1, Apple TV 4K, podcasts de pago y iPhone 12 morado."
 resumen: "Spring Loaded fue una keynote muy cargada: Apple llevó el M1 al iMac y al iPad Pro, presentó AirTag y reforzó servicios como Podcasts."

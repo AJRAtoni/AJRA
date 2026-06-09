@@ -2,7 +2,7 @@
 layout: post
 title: "Squarespace Tips 004: cambiar el punto focal de una imagen"
 date: 2019-06-01 10:00:00 +0300
-image: /images/135.jpg
+image: /images/blog/135.jpg
 image_alt: "Configuración de punto focal en una imagen dentro de Squarespace"
 description: "Cómo cambiar el punto focal de una imagen en Squarespace para controlar qué zona se mantiene visible cuando se recorta."
 resumen: "El punto focal de Squarespace ayuda a evitar recortes incómodos en imágenes cuando una web se adapta a escritorio, móvil y tablet."

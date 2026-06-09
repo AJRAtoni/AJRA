@@ -2,7 +2,7 @@
 layout: post
 title: "Apple renovó su app Developer antes de la WWDC 2020"
 date: 2020-06-17 10:00:00 +0300
-image: /images/logo-apple.jpg
+image: /images/blog/logo-apple.jpg
 image_alt: "Logotipo de Apple Developer asociado a la WWDC 2020"
 description: "Apple actualizó su app Developer, antes llamada WWDC, con historias, noticias, vídeos y recursos para desarrolladores."
 resumen: "La app Developer se volvió más importante en 2020 porque la WWDC pasó a celebrarse online y necesitaba centralizar contenido técnico."
@@ -14,7 +14,7 @@ La **WWDC 2020** estaba a punto de empezar y Apple actualizó su app **Developer
 La app, antes conocida como WWDC, pasó a estar disponible para iOS, iPadOS y macOS.
 
 <figure>
-<img src="/images/201.jpg" alt="App Apple Developer con contenido de la WWDC 2020" />
+<img src="/images/blog/201.jpg" alt="App Apple Developer con contenido de la WWDC 2020" />
 </figure>
 
 ## Qué incluía

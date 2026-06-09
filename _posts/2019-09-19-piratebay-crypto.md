@@ -2,7 +2,7 @@
 layout: post
 title: "The Pirate Bay usó la CPU de sus visitantes para minar criptomonedas"
 date: 2019-09-19 10:00:00 +0300
-image: /images/159.webp
+image: /images/blog/159.webp
 image_alt: "Ilustración de criptomonedas y uso intensivo de CPU en una página web"
 description: "The Pirate Bay probó minería de criptomonedas en el navegador de sus visitantes, un caso temprano de cryptojacking y debate sobre monetización web."
 card_subtitle: "La minería en navegador de The Pirate Bay abrió una pregunta incómoda."

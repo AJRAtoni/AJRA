@@ -2,7 +2,7 @@
 layout: post
 title: "Squarespace añadió reutilización de imágenes ya subidas"
 date: 2019-06-05 10:00:00 +0300
-image: /images/138.jpg
+image: /images/blog/138.jpg
 image_alt: "Selector de imágenes reutilizadas en Squarespace para evitar subir archivos duplicados"
 description: "Squarespace añadió una función para reutilizar imágenes ya subidas a la web, acelerando el flujo de edición y evitando duplicados."
 card_subtitle: "Reutilizar imágenes en Squarespace parece un detalle menor, pero mejora mucho el flujo de trabajo cuando una misma imagen se."

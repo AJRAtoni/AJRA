@@ -3,9 +3,9 @@ layout: post
 title: "Buffer: para estar en redes sin vivir pegado al móvil"
 date: 2026-01-28 09:00:00 -0500
 description: "Buffer ayuda a programar contenido en redes y mantener presencia sin vivir pendiente del móvil."
-image: "/images/posts/buffer-logo-gradient.webp"
+image: "/images/blog/buffer-logo-gradient.webp"
 image_alt: "Buffer: para estar en redes sin vivir pegado al móvil"
-recursos_logo: "/images/logos/recursos/buffer.png"
+recursos_logo: "/images/blog/buffer.png"
 resumen: "Buffer sirve para programar contenido en redes, mantener presencia y recuperar foco cuando las redes son apoyo, no el centro del negocio."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/004-Buffer.md"

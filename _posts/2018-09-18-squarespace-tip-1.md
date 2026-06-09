@@ -2,7 +2,7 @@
 layout: post
 title: "Squarespace Tips 001: login rápido con la tecla ESC"
 date: 2018-09-18 10:00:00 +0300
-image: /images/114.jpg
+image: /images/blog/114.jpg
 image_alt: "Panel de Squarespace con opción de login rápido mediante tecla ESC"
 description: "Primer tip de Squarespace: cómo activar el acceso rápido al panel de control de tu web usando la tecla ESC."
 resumen: "El login con la tecla ESC es un ajuste pequeño de Squarespace, pero ahorra tiempo si entras a menudo al panel de administración."

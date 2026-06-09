@@ -2,7 +2,7 @@
 layout: post
 title: "Cómo mostrar solo emails no leídos en Mail de iOS y iPadOS"
 date: 2020-11-01 10:00:00 +0300
-image: /images/222.webp
+image: /images/blog/222.webp
 image_alt: "Filtro de emails no leídos en Mail para iOS y iPadOS"
 description: "La app Mail de iOS y iPadOS permite filtrar la bandeja para mostrar solo mensajes no leídos con un botón."
 resumen: "Filtrar emails no leídos ayuda a encontrar mensajes pendientes sin vaciar toda la bandeja de entrada."
@@ -23,7 +23,7 @@ Mail de iOS y iPadOS permite filtrar rápidamente la bandeja para mostrar solo l
 4. La bandeja mostrará solo los emails no leídos.
 
 <figure>
-<img src="/images/222-1.jpeg" alt="Botón de filtro para emails no leídos en Mail de iOS" />
+<img src="/images/blog/222-1.jpeg" alt="Botón de filtro para emails no leídos en Mail de iOS" />
 </figure>
 
 Para volver a ver todos los correos, toca otra vez el icono de filtro.

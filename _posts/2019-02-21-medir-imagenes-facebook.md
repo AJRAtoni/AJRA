@@ -2,7 +2,7 @@
 layout: post
 title: "Cómo medir el texto en imágenes para anuncios de Facebook"
 date: 2019-02-21 10:00:00 +0300
-image: /images/logo-facebook.jpg
+image: /images/blog/logo-facebook.jpg
 image_alt: "Herramienta de Facebook para medir texto en imágenes de anuncios"
 description: "Facebook limitaba el exceso de texto en imágenes promocionadas. Así funcionaba Text Overlay y qué conviene tener en cuenta al preparar creatividades."
 resumen: "La regla del 20% de texto en Facebook Ads obligaba a diseñar creatividades más limpias y a comprobarlas antes de invertir presupuesto."

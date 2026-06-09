@@ -3,9 +3,9 @@ layout: post
 title: "MailerLite para enviar emails sin volverte loco"
 date: 2026-02-25 09:00:00 -0500
 description: "MailerLite sirve para enviar newsletters y automatizaciones básicas sin convertir el email marketing en un lío."
-image: "/images/posts/mailerlite-logo-gradient.webp"
+image: "/images/blog/mailerlite-logo-gradient.webp"
 image_alt: "MailerLite para enviar emails sin volverte loco"
-recursos_logo: "/images/logos/recursos/mailerlite.png"
+recursos_logo: "/images/blog/mailerlite.png"
 resumen: "MailerLite es una opción honesta para empezar con newsletters, formularios y automatizaciones básicas sin complicar el email marketing."
 categories: [recursos]
 source: "AJRAos/projects/recursos-by-ajra/PUBLISHED/008-MailerLite.md"

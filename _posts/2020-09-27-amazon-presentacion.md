@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon presentó nuevos Echo, cámaras, Fire TV y Luna"
 date: 2020-09-27 10:00:00 +0300
-image: /images/logo-amazon.jpg
+image: /images/blog/logo-amazon.jpg
 image_alt: "Logotipo de Amazon asociado a su evento anual de hardware"
 description: "Amazon renovó su hardware con nuevos Echo, cámaras Blink y Ring, Fire TV Stick y Luna, su servicio de juego en streaming."
 resumen: "El evento anual de Amazon mostró la misma estrategia de fondo: más dispositivos, más Alexa y más presencia en casa."

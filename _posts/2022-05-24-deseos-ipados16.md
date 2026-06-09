@@ -2,7 +2,7 @@
 layout: post
 title: "Lo que esperaba de iPadOS 16 antes de la WWDC22"
 date: 2022-05-24 10:00:00 +0300
-image: /images/263.jpg
+image: /images/blog/263.jpg
 image_alt: "iPadOS 16 como lista de deseos para mejorar productividad en iPad"
 description: "Lista de deseos para iPadOS 16 antes de WWDC22: Archivos, Mail, Calendario, Notas, Fotos, Wallet, Salud, llavero y monitores externos."
 card_subtitle: "Antes de WWDC22, el iPad necesitaba menos potencia desaprovechada y más herramientas reales de trabajo."
@@ -19,7 +19,7 @@ En 2022 el contexto era todavía más claro: el iPad tenía potencia de sobra, p
 ## Archivos
 
 <figure>
-<img src="/images/248-2.jpeg" alt="App Archivos de iPadOS como gestor de documentos" />
+<img src="/images/blog/248-2.jpeg" alt="App Archivos de iPadOS como gestor de documentos" />
 </figure>
 
 Archivos había mejorado, pero seguía echando en falta acciones básicas de escritorio, como renombrar archivos en lote.
@@ -29,7 +29,7 @@ Si el iPad quería ser dispositivo principal, la gestión de documentos tenía q
 ## Mail
 
 <figure>
-<img src="/images/248-3.jpeg" alt="App Mail de iPadOS con bandeja de entrada" />
+<img src="/images/blog/248-3.jpeg" alt="App Mail de iPadOS con bandeja de entrada" />
 </figure>
 
 Mail era una de mis apps diarias.
@@ -46,7 +46,7 @@ Varias de estas ideas venían de usar Spark, que ya había destacado por funcion
 ## Calendario y recordatorios
 
 <figure>
-<img src="/images/248-4.jpeg" alt="Calendario de iPadOS con bloques de tiempo" />
+<img src="/images/blog/248-4.jpeg" alt="Calendario de iPadOS con bloques de tiempo" />
 </figure>
 
 Quería creación de eventos con lenguaje natural, más control de colores y una integración opcional con recordatorios.
@@ -56,7 +56,7 @@ Aunque GTD no recomienda mezclarlo todo, en la práctica muchas personas necesit
 ## Notas
 
 <figure>
-<img src="/images/248-5.jpeg" alt="App Notas de iPadOS para escribir documentos" />
+<img src="/images/blog/248-5.jpeg" alt="App Notas de iPadOS para escribir documentos" />
 </figure>
 
 Notas era cada vez más potente, pero seguía pidiendo dos cosas:
@@ -69,7 +69,7 @@ Para quienes escribimos mucho, esas dos funciones habrían reducido la necesidad
 ## Fotos
 
 <figure>
-<img src="/images/248-7.jpeg" alt="App Fotos de iPadOS con biblioteca fotográfica" />
+<img src="/images/blog/248-7.jpeg" alt="App Fotos de iPadOS con biblioteca fotográfica" />
 </figure>
 
 En Fotos seguía esperando etiquetado manual de caras y mejor edición de metadatos.
@@ -79,13 +79,13 @@ Ya había mejoras interesantes, como las [descripciones en Fotos de iPadOS](/blo
 ## Wallet, Salud y llavero
 
 <figure>
-<img src="/images/263-2.jpeg" alt="Wallet como app pendiente en iPadOS" />
+<img src="/images/blog/263-2.jpeg" alt="Wallet como app pendiente en iPadOS" />
 </figure>
 
 Me habría gustado tener Wallet en iPadOS para consultar Apple Card, transacciones, pagos y pases.
 
 <figure>
-<img src="/images/263-3.jpeg" alt="App Salud como deseo para iPadOS" />
+<img src="/images/blog/263-3.jpeg" alt="App Salud como deseo para iPadOS" />
 </figure>
 
 También quería ver Salud en iPad para consultar datos recogidos por Apple Watch.
@@ -95,7 +95,7 @@ Y en seguridad, una app dedicada al llavero de iCloud habría tenido mucho senti
 ## Monitores externos
 
 <figure>
-<img src="/images/263-4.jpeg" alt="iPad conectado a un monitor externo" />
+<img src="/images/blog/263-4.jpeg" alt="iPad conectado a un monitor externo" />
 </figure>
 
 Este seguía siendo mi gran deseo.

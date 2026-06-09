@@ -2,7 +2,7 @@
 layout: post
 title: "Qué es el Growth Hacking y por qué no va de trucos mágicos"
 date: 2016-03-26 10:00:00 +0300
-image: /images/21.jpg
+image: /images/blog/21.jpg
 image_alt: "Embudo de crecimiento con experimentos, métricas y optimización"
 description: "El Growth Hacking no consiste en trucos virales, sino en experimentar rápido, medir bien y encontrar palancas reales de crecimiento."
 resumen: "Growth Hacking es una forma de trabajar: hipótesis, experimentos, medición y aprendizaje rápido."

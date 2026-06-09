@@ -2,7 +2,7 @@
 layout: post
 title: "Squarespace Tips 008: cuándo usar !important en CSS"
 date: 2019-06-23 10:00:00 +0300
-image: /images/152-2.jpg
+image: /images/blog/152-2.jpg
 image_alt: "Código CSS personalizado aplicado a una página creada en Squarespace"
 description: "El modificador !important puede ayudarte a sobrescribir estilos en Squarespace, pero conviene usarlo con criterio para no complicar el mantenimiento del CSS."
 card_subtitle: "En Squarespace, !important sirve para dar prioridad a una regla CSS cuando choca con estilos existentes."

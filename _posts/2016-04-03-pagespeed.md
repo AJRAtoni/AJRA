@@ -2,7 +2,7 @@
 layout: post
 title: "Cómo medir la velocidad de tu web con PageSpeed Insights"
 date: 2016-04-03 10:00:00 +0300
-image: /images/22.jpg
+image: /images/blog/22.jpg
 image_alt: "Análisis de rendimiento web con PageSpeed Insights y Core Web Vitals"
 description: "La velocidad de carga afecta a SEO, conversión y experiencia de usuario. Así puedes medirla con PageSpeed Insights y saber qué mejorar."
 resumen: "Medir la velocidad web es el primer paso para mejorar experiencia, SEO y conversión."

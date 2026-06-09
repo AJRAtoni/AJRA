@@ -2,7 +2,7 @@
 layout: post
 title: "Vídeo de cabecera en Facebook: qué enseñó sobre contenido social"
 date: 2017-05-11 10:00:00 +0300
-image: /images/49.webp
+image: /images/blog/49.webp
 image_alt: "Cabecera de Facebook con vídeo para una página de empresa"
 description: "Facebook probó vídeos de cabecera para páginas, una señal más de cómo el contenido social empezó a moverse hacia vídeo, loops y piezas visuales rápidas."
 card_subtitle: "Los vídeos de cabecera de Facebook fueron otra pista de una tendencia mayor."

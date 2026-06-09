@@ -2,7 +2,7 @@
 layout: post
 title: "Cómo proteger notas con contraseña en iOS y iPadOS"
 date: 2020-12-16 10:00:00 +0300
-image: /images/234.webp
+image: /images/blog/234.webp
 image_alt: "Nota protegida con contraseña en Apple Notes para iOS"
 description: "La app Notas permite bloquear notas concretas con contraseña, Face ID o Touch ID para proteger información sensible."
 resumen: "Bloquear una nota añade una capa extra de privacidad cuando alguien usa tu iPhone o iPad desbloqueado."
@@ -24,7 +24,7 @@ En esos casos puede que no quieras que ciertas notas queden a la vista.
 5. Confirma el bloqueo.
 
 <figure>
-<img src="/images/234-2.webp" alt="Opción para bloquear una nota en iOS y iPadOS" />
+<img src="/images/blog/234-2.webp" alt="Opción para bloquear una nota en iOS y iPadOS" />
 </figure>
 
 Después, esa nota requerirá contraseña, Face ID o Touch ID según tu configuración.

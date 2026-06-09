@@ -2,7 +2,7 @@
 layout: post
 title: "Time Flies: Apple anunció keynote para el 15 de septiembre de 2020"
 date: 2020-09-09 10:00:00 +0300
-image: /images/logo-apple.jpg
+image: /images/blog/logo-apple.jpg
 image_alt: "Invitación del Apple Event Time Flies de septiembre de 2020"
 description: "Apple anunció el evento virtual Time Flies para el 15 de septiembre de 2020, con pistas hacia Apple Watch, iPad y realidad aumentada."
 resumen: "La invitación Time Flies anticipaba un evento centrado en Apple Watch e iPad, no necesariamente en el iPhone 12."
@@ -14,7 +14,7 @@ Apple envió las invitaciones para su keynote **Time Flies**.
 El evento tendría lugar el martes **15 de septiembre de 2020** y se celebraría de forma virtual desde el Apple Park.
 
 <figure>
-<img src="/images/209.jpg" alt="Invitación del evento Time Flies de Apple con gráfico en realidad aumentada" />
+<img src="/images/blog/209.jpg" alt="Invitación del evento Time Flies de Apple con gráfico en realidad aumentada" />
 </figure>
 
 ## Las pistas de la invitación

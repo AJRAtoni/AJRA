@@ -2,7 +2,7 @@
 layout: post
 title: "Squarespace Logo pasó a ser gratis para usuarios de la plataforma"
 date: 2019-06-07 10:00:00 +0300
-image: /images/140.jpg
+image: /images/blog/140.jpg
 image_alt: "Herramienta Squarespace Logo para crear logotipos sencillos"
 description: "Squarespace Logo pasó a ser gratuito para usuarios de Squarespace, permitiendo crear logotipos simples con texto e iconos de The Noun Project."
 card_subtitle: "Squarespace Logo no sustituye a un proceso de branding profesional."
@@ -17,7 +17,7 @@ Era una herramienta sencilla para crear un logotipo rápido sin salir del ecosis
 ## Qué era Squarespace Logo
 
 <figure>
-<img src="/images/140.jpeg" alt="Interfaz de Squarespace Logo para crear un logotipo con texto e icono" />
+<img src="/images/blog/140.jpeg" alt="Interfaz de Squarespace Logo para crear un logotipo con texto e icono" />
 </figure>
 
 Squarespace Logo permitía crear un logotipo combinando texto e iconos.

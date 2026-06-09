@@ -2,7 +2,7 @@
 layout: post
 title: "WWDC22: resumen de iOS 16, iPadOS 16, macOS Ventura y M2"
 date: 2022-06-06 23:00 +0300
-image: /images/264.webp
+image: /images/blog/264.webp
 image_alt: "Resumen de la WWDC22 con iOS 16, iPadOS 16, macOS Ventura y chip M2"
 description: "Resumen de la WWDC22: iOS 16, iPadOS 16, watchOS 9, macOS Ventura, Stage Manager, Passkeys, Freeform, M2 y nuevo MacBook Air."
 resumen: "La WWDC22 fue una keynote cargada: iOS 16 renovó la pantalla de bloqueo, iPadOS apostó por Stage Manager y Apple presentó el chip M2."
@@ -18,17 +18,17 @@ Fue una semana de sesiones, vídeos y betas, pero la keynote inaugural ya dejó 
 La pantalla de bloqueo del iPhone recibió una personalización mucho más profunda, con widgets, estilos y una nueva gestión de notificaciones.
 
 <figure>
-<img src="/images/264-1.jpeg" alt="Pantalla de bloqueo personalizable en iOS 16" />
+<img src="/images/blog/264-1.jpeg" alt="Pantalla de bloqueo personalizable en iOS 16" />
 </figure>
 
 También llegaron la Fototeca Compartida de iCloud, edición y deshacer envío en Mensajes, SharePlay desde Mensajes, Live Text en vídeo y la posibilidad de separar sujetos del fondo en imágenes.
 
 <figure>
-<img src="/images/264-2.jpeg" alt="Fototeca Compartida de iCloud presentada en iOS 16" />
+<img src="/images/blog/264-2.jpeg" alt="Fototeca Compartida de iCloud presentada en iOS 16" />
 </figure>
 
 <figure>
-<img src="/images/264-3.jpeg" alt="Novedades de Mensajes en iOS 16" />
+<img src="/images/blog/264-3.jpeg" alt="Novedades de Mensajes en iOS 16" />
 </figure>
 
 ## Mail, Safari y seguridad
@@ -66,7 +66,7 @@ La keynote también incluyó:
 - Ajustes del Sistema rediseñado en macOS.
 
 <figure>
-<img src="/images/264-4.jpeg" alt="Live Text en vídeo durante la presentación de iOS 16" />
+<img src="/images/blog/264-4.jpeg" alt="Live Text en vídeo durante la presentación de iOS 16" />
 </figure>
 
 ## M2 y nuevo MacBook Air
@@ -74,7 +74,7 @@ La keynote también incluyó:
 Apple también presentó el chip **M2** y un nuevo MacBook Air completamente rediseñado.
 
 <figure>
-<img src="/images/264-5.jpeg" alt="MacBook Air rediseñado con chip M2 presentado en WWDC22" />
+<img src="/images/blog/264-5.jpeg" alt="MacBook Air rediseñado con chip M2 presentado en WWDC22" />
 </figure>
 
 La WWDC22 dejó claro que Apple quería empujar el software hacia productividad, colaboración y seguridad, mientras seguía avanzando en Apple Silicon.

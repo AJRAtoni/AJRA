@@ -2,7 +2,7 @@
 layout: post
 title: "Proyecto Kalamata: cuando Apple preparaba el salto del Mac a sus propios chips"
 date: 2018-04-04 10:00:00 +0300
-image: /images/logo-apple.jpg
+image: /images/blog/logo-apple.jpg
 image_alt: "Logotipo de Apple en una noticia sobre el Proyecto Kalamata y los futuros chips propios para Mac"
 description: "El Proyecto Kalamata anticipó el salto de Apple desde Intel hacia procesadores propios en Mac, una transición que más tarde se materializó con Apple Silicon."
 card_subtitle: "En 2018 el Proyecto Kalamata era un rumor importante. Visto con perspectiva."
@@ -15,7 +15,7 @@ En 2018 empezó a sonar con fuerza el Proyecto Kalamata: el plan de Apple para d
 [Mark Gurman](https://www.bloomberg.com/news/articles/2018-04-02/apple-is-said-to-plan-move-from-intel-to-own-mac-chips-from-2020) fue quien puso el nombre sobre la mesa. Según esa información, Apple quería empezar la transición alrededor de 2020.
 
 <figure>
-<img src="/images/100.jpg" alt="Procesador de Apple como anticipo del salto del Mac a chips propios" />
+<img src="/images/blog/100.jpg" alt="Procesador de Apple como anticipo del salto del Mac a chips propios" />
 </figure>
 
 Visto desde hoy, aquel rumor era mucho más que una filtración interesante. Era el inicio visible del camino hacia Apple Silicon.

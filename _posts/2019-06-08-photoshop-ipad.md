@@ -2,7 +2,7 @@
 layout: post
 title: "Photoshop para iPad abrió su beta: Adobe se acercaba al iPad profesional"
 date: 2019-06-08 10:00:00 +0300
-image: /images/141.jpg
+image: /images/blog/141.jpg
 image_alt: "Photoshop para iPad en fase beta como herramienta creativa profesional"
 description: "Adobe abrió el registro para la beta de Photoshop para iPad, una app que prometía llevar una experiencia completa de edición al tablet de Apple."
 card_subtitle: "La beta de Photoshop para iPad fue importante porque reforzaba la idea del iPad como herramienta creativa profesional."

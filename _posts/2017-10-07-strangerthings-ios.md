@@ -2,7 +2,7 @@
 layout: post
 title: "Netflix lanzó el juego móvil de Stranger Things: contenido, nostalgia y marketing"
 date: 2017-10-07 10:00:00 +0300
-image: /images/78.jpg
+image: /images/blog/78.jpg
 image_alt: "Juego móvil de Stranger Things con estética retro para iOS y Android"
 description: "Netflix lanzó un juego móvil gratuito de Stranger Things con estética retro, una pieza de marketing que ampliaba la experiencia de la serie antes de su nueva temporada."
 card_subtitle: "El juego de Stranger Things fue más que merchandising: una forma inteligente de convertir una serie en experiencia."

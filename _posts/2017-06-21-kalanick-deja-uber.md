@@ -2,7 +2,7 @@
 layout: post
 title: "Travis Kalanick dejó de ser CEO de Uber: crecimiento, cultura y coste reputacional"
 date: 2017-06-21 10:00:00 +0300
-image: /images/62.jpg
+image: /images/blog/62.jpg
 image_alt: "Travis Kalanick y Uber como caso de cultura corporativa y reputación"
 description: "La dimisión de Travis Kalanick como CEO de Uber mostró que el crecimiento agresivo puede pasar factura cuando la cultura interna y la reputación se deterioran."
 card_subtitle: "Uber creció a una velocidad brutal, pero la salida de Kalanick recordó que escalar sin cuidar cultura."

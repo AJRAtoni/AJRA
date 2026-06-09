@@ -2,7 +2,7 @@
 layout: post
 title: "La importancia del atributo alt en las imágenes"
 date: 2017-04-02 10:00:00 +0300
-image: /images/43.jpg
+image: /images/blog/43.jpg
 image_alt: "Ejemplo de atributo alt en una imagen para SEO y accesibilidad"
 description: "El atributo alt ayuda a mejorar accesibilidad, SEO y comprensión de imágenes. Aprende cuándo usarlo y cómo escribir textos alternativos útiles."
 resumen: "El atributo alt no es solo SEO: también es accesibilidad, contexto y una forma de hacer la web más usable."

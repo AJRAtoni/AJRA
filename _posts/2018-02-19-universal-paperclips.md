@@ -2,7 +2,7 @@
 layout: post
 title: "Universal Paperclips: el juego minimalista que convierte la IA en una obsesión"
 date: 2018-02-19 10:00:00 +0300
-image: /images/87.jpg
+image: /images/blog/87.jpg
 image_alt: "Interfaz minimalista de Universal Paperclips con botones y contador de clips"
 description: "Universal Paperclips es un juego minimalista sobre fabricar clips, optimizar recursos y llevar una inteligencia artificial hasta sus últimas consecuencias."
 card_subtitle: "Universal Paperclips parece un juego sencillo de navegador, pero funciona como una sátira brillante sobre automatización."

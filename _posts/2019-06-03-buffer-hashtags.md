@@ -2,7 +2,7 @@
 layout: post
 title: "Buffer añadió primer comentario para hashtags en Instagram"
 date: 2019-06-03 10:00:00 +0300
-image: /images/136.jpg
+image: /images/blog/136.jpg
 image_alt: "Buffer programando una publicación de Instagram con hashtags en el primer comentario"
 description: "Buffer añadió la opción de publicar un primer comentario en Instagram, facilitando separar hashtags del texto principal."
 resumen: "El primer comentario en Buffer ayudaba a mantener captions más limpios en Instagram sin renunciar a una estrategia de hashtags."

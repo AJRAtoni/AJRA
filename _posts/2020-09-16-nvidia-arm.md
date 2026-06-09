@@ -2,7 +2,7 @@
 layout: post
 title: "NVIDIA quiso comprar ARM por 40.000 millones de dólares"
 date: 2020-09-16 10:00:00 +0300
-image: /images/211.jpg
+image: /images/blog/211.jpg
 image_alt: "Logotipos de NVIDIA y ARM asociados a una operación de compra"
 description: "NVIDIA anunció la compra de ARM por 40.000 millones de dólares, una operación estratégica que después no llegó a cerrarse por presión regulatoria."
 resumen: "La compra anunciada de ARM por NVIDIA fue una de las operaciones más importantes del sector chip, aunque terminó bloqueada por reguladores."

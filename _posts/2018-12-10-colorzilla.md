@@ -2,7 +2,7 @@
 layout: post
 title: "ColorZilla: una extensión sencilla para capturar colores de cualquier web"
 date: 2018-12-10 10:00:00 +0300
-image: /images/119.jpg
+image: /images/blog/119.jpg
 image_alt: "Extensión ColorZilla para capturar colores y obtener códigos hexadecimales"
 description: "ColorZilla es una extensión para Chrome y Firefox que permite seleccionar colores de una web, copiar su código hexadecimal y analizar paletas."
 card_subtitle: "ColorZilla ahorra tiempo a diseñadores y desarrolladores porque permite capturar colores reales de una página sin abrir."

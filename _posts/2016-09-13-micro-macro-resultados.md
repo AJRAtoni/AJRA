@@ -2,7 +2,7 @@
 layout: post
 title: "Qué son los micro y macro resultados en marketing digital"
 date: 2016-09-13 10:00:00 +0300
-image: /images/38.jpg
+image: /images/blog/38.jpg
 image_alt: "Embudo de conversión con micro conversiones y macro conversiones"
 description: "No todas las conversiones tienen el mismo valor. Aprende a diferenciar micro y macro resultados para medir mejor tu web, campaña o embudo."
 resumen: "Los macro resultados son el objetivo final; los micro resultados son señales intermedias que ayudan a llegar hasta él."

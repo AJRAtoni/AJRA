@@ -2,7 +2,7 @@
 layout: post
 title: "No More Google: reducir dependencia sin volverse loco"
 date: 2019-09-20 10:00:00 +0300
-image: /images/160.jpg
+image: /images/blog/160.jpg
 image_alt: "Persona revisando servicios digitales y alternativas a Google"
 description: "Reducir dependencia de Google no tiene por qué ser una ruptura total: conviene revisar navegador, buscador, correo, nube, mapas y contraseñas por capas."
 card_subtitle: "El problema no es usar Google, sino depender de un único ecosistema para buscar, navegar, guardar contraseñas, escribir."

@@ -2,7 +2,7 @@
 layout: post
 title: "Nuevas tarjetas de visita de AJRA"
 date: 2020-10-22 10:00:00 +0300
-image: /images/219.jpeg
+image: /images/blog/219.jpeg
 image_alt: "Tarjetas de visita minimalistas de AJRA"
 description: "Después del cambio de CUBODEKUBRICK a AJRA, tocaba actualizar también las tarjetas de visita."
 resumen: "Un cambio de marca no termina en la web: también hay que revisar tarjetas, perfiles, dominios, firmas y materiales que siguen circulando."
@@ -24,7 +24,7 @@ Así que abrí el iPad, entré en Canva, diseñé algo rápido y lo mandé a imp
 Quería algo muy sencillo y minimalista.
 
 <figure>
-<img src="/images/219-2.jpeg" alt="Detalle de las nuevas tarjetas de visita de AJRA" />
+<img src="/images/blog/219-2.jpeg" alt="Detalle de las nuevas tarjetas de visita de AJRA" />
 </figure>
 
 ## La lección

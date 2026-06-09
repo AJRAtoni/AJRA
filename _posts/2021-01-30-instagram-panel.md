@@ -2,7 +2,7 @@
 layout: post
 title: "Instagram lanzó un panel para cuentas profesionales y creadores"
 date: 2021-01-30 10:00:00 +0300
-image: /images/237.jpg
+image: /images/blog/237.jpg
 image_alt: "Panel profesional de Instagram para revisar estadísticas y herramientas de crecimiento"
 description: "Instagram activó un panel profesional para creadores y empresas con métricas, accesos a herramientas de crecimiento y recursos para mejorar la cuenta."
 card_subtitle: "El panel profesional de Instagram concentraba estadísticas y herramientas en un mismo lugar."

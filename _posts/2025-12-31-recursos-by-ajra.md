@@ -3,7 +3,7 @@ layout: post
 title: "RECURSOS by AJRA"
 date: 2025-12-31 09:00:00 -0500
 description: "RECURSOS by AJRA nace para recomendar herramientas útiles sin listas infinitas, humo ni pérdida de tiempo."
-image: "/images/posts/recursos-by-ajra-gradient.webp"
+image: "/images/blog/recursos-by-ajra-gradient.webp"
 image_alt: "RECURSOS by AJRA"
 recursos_wordmark: "RECURSOS by AJRA"
 resumen: "RECURSOS by AJRA es un directorio y newsletter para recomendar herramientas útiles con criterio, contexto y experiencia real."

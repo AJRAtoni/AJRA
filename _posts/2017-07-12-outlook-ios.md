@@ -2,7 +2,7 @@
 layout: post
 title: "Outlook para iOS se actualizó con respuestas rápidas y búsquedas más inteligentes"
 date: 2017-07-12 10:00:00 +0300
-image: /images/67.jpg
+image: /images/blog/67.jpg
 image_alt: "Outlook para iOS con mejoras de respuesta rápida y búsqueda inteligente"
 description: "Outlook para iOS añadió respuestas rápidas, menciones y mejoras de búsqueda, acercando el email a una experiencia más conversacional y móvil."
 card_subtitle: "La actualización de Outlook para iOS mostraba hacia dónde iba el email."
@@ -17,7 +17,7 @@ La más interesante era la respuesta rápida: un cuadro de texto directamente de
 Puede parecer una mejora pequeña, pero cambiaba bastante la sensación de uso.
 
 <figure>
-<img src="/images/67-1.webp" alt="Interfaz de Outlook para iOS con respuesta rápida" />
+<img src="/images/blog/67-1.webp" alt="Interfaz de Outlook para iOS con respuesta rápida" />
 </figure>
 
 ## El email se acercaba al chat

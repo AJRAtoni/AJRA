@@ -2,7 +2,7 @@
 layout: post
 title: "Google Allo, los bots y el comienzo de la mensajería inteligente"
 date: 2016-04-19 10:00:00 +0300
-image: /images/25.jpg
+image: /images/blog/25.jpg
 image_alt: "Aplicaciones de mensajería con asistentes y bots conversacionales"
 description: "Google Allo desapareció, pero anticipó una idea que hoy es central: asistentes, bots y conversaciones potenciadas por inteligencia artificial."
 resumen: "Google Allo fue un producto fallido, pero apuntó hacia una tendencia que hoy domina: bots, asistentes e IA conversacional."

@@ -2,7 +2,7 @@
 layout: post
 title: "Netflix redujo bitrate en Europa durante el confinamiento por COVID-19"
 date: 2020-03-20 10:00:00 +0300
-image: /images/logo-netflix.jpg
+image: /images/blog/logo-netflix.jpg
 image_alt: "Logotipo de Netflix asociado a streaming durante el confinamiento"
 description: "Netflix redujo temporalmente el bitrate de sus emisiones en Europa para aliviar la carga de red durante el aumento de uso por confinamientos."
 card_subtitle: "Durante los confinamientos de 2020, el streaming dejó de ser solo entretenimiento."

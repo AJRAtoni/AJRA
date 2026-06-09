@@ -4,7 +4,7 @@ title: ¿Necesita mi empresa una página web?
 date: 2015-11-05 15:01:35 +0300
 description: "Tener una web sigue siendo una pieza básica para generar confianza, captar clientes y vender online sin depender solo de redes sociales o terceros."
 card_subtitle: "Tener una web sigue siendo una pieza básica para generar confianza."
-image: /images/05.jpg
+image: /images/blog/05.jpg
 image_alt: "¿Necesita mi empresa una página web?"
 source: AJRA-v09/_posts/2015-11-05-necesita-mi-empresa-una-web.md
 resumen: Tener una web sigue siendo una pieza básica para generar confianza, captar clientes y vender online sin depender solo de redes sociales o terceros.

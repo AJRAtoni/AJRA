@@ -2,7 +2,7 @@
 layout: post
 title: "Las acciones de Apple marcaron un nuevo máximo histórico en junio de 2020"
 date: 2020-06-09 10:00:00 +0300
-image: /images/logo-apple.jpg
+image: /images/blog/logo-apple.jpg
 image_alt: "Logotipo de Apple asociado a resultados bursátiles"
 description: "Tras la caída inicial por COVID-19, las acciones de Apple volvieron a marcar máximo histórico en junio de 2020."
 resumen: "El máximo histórico de Apple en 2020 reflejaba confianza en hardware, servicios y resiliencia del ecosistema durante un momento complicado."

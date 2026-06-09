@@ -2,7 +2,7 @@
 layout: post
 title: "Los beneficios de la publicidad online frente a la publicidad tradicional"
 date: 2016-09-09 10:00:00 +0300
-image: /images/37.jpg
+image: /images/blog/37.jpg
 image_alt: "Campaña de publicidad online con segmentación, clics y medición"
 description: "La publicidad online permite segmentar, medir, optimizar y conectar inversión con resultados de una forma que la publicidad tradicional no siempre permite."
 resumen: "La gran ventaja de la publicidad online no es solo llegar a más gente, sino medir, aprender y optimizar cada euro invertido."

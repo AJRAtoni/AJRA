@@ -2,7 +2,7 @@
 layout: post
 title: "Game Center se rediseñó en iOS 16, iPadOS 16 y macOS Ventura"
 date: 2022-07-14 10:00:00 +0300
-image: /images/269.webp
+image: /images/blog/269.webp
 image_alt: "Rediseño de Game Center en iOS 16, iPadOS 16 y macOS Ventura"
 description: "Apple rediseñó Game Center para mostrar mejor actividad de amigos, progreso, tablas de clasificación y logros en iOS 16, iPadOS 16 y macOS Ventura."
 card_subtitle: "El rediseño de Game Center intentó devolver visibilidad a una capa social de juegos que llevaba años algo escondida dentro."
@@ -15,7 +15,7 @@ Durante la WWDC22, Apple anunció un rediseño de **Game Center** para iOS 16, i
 Game Center nació en iOS 4 como una forma de conectar jugadores, logros y partidas online, pero durante años quedó bastante escondido.
 
 <figure>
-<img src="/images/269-1.webp" alt="Nueva interfaz de Game Center con actividad de amigos y juegos" />
+<img src="/images/blog/269-1.webp" alt="Nueva interfaz de Game Center con actividad de amigos y juegos" />
 </figure>
 
 ## Qué cambiaba

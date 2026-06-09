@@ -2,7 +2,7 @@
 layout: post
 title: "Photo History: cómo el color cambia nuestra percepción del pasado"
 date: 2020-11-09 10:00:00 +0300
-image: /images/226.webp
+image: /images/blog/226.webp
 image_alt: "Experimento Photo History comparando fotografías históricas y percepción de color"
 description: "Photo History es un experimento interactivo que muestra cómo el color de una fotografía afecta a la fecha que le asignamos."
 resumen: "La estética condiciona cómo leemos una imagen: una foto en blanco y negro parece más antigua, aunque quizá no lo sea."

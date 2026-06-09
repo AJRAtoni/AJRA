@@ -2,7 +2,7 @@
 layout: post
 title: "Cuidado con ThemeForest: cuando un theme bonito se convierte en un problema"
 date: 2016-06-05 10:00:00 +0300
-image: /images/29.jpg
+image: /images/blog/29.jpg
 image_alt: "Plantillas de WordPress y riesgos de themes sobrecargados"
 description: "Comprar un theme en ThemeForest puede parecer una solución rápida, pero muchos proyectos acaban pagando el precio en rendimiento, mantenimiento y dependencia."
 card_subtitle: "Un theme no debería resolverlo todo. Cuando diseño, contenido y funcionalidades se mezclan."

@@ -2,7 +2,7 @@
 layout: post
 title: "Plantillas en Spark Mail para ahorrar tiempo con el email"
 date: 2019-09-06 10:00:00 +0300
-image: /images/logo-spark.jpg
+image: /images/blog/logo-spark.jpg
 image_alt: "Logotipo de Spark Mail, cliente de correo para iOS, iPadOS y macOS"
 description: "Spark Mail añadió plantillas reutilizables con marcadores de posición para responder más rápido informes, presupuestos, FAQs y correos repetitivos."
 card_subtitle: "Las plantillas de Spark convierten emails repetitivos en bloques reutilizables con campos variables."
@@ -17,7 +17,7 @@ No es la primera vez que aparece en el blog. Ya comenté funciones como [enviar 
 Esta vez la función clave son las plantillas.
 
 <figure>
-<img src="/images/155.webp" alt="Editor de plantillas de Spark Mail con campos reutilizables" />
+<img src="/images/blog/155.webp" alt="Editor de plantillas de Spark Mail con campos reutilizables" />
 </figure>
 
 ## Qué son las plantillas de Spark
@@ -56,7 +56,7 @@ Crear una plantilla en Spark es sencillo:
 5. Guarda la plantilla con un nombre claro.
 
 <figure>
-<img src="/images/155-2.jpg" alt="Pantalla de creación de una plantilla en Spark Mail" />
+<img src="/images/blog/155-2.jpg" alt="Pantalla de creación de una plantilla en Spark Mail" />
 </figure>
 
 Después la tendrás disponible al redactar un correo.
@@ -74,7 +74,7 @@ Los marcadores de posición son valores que Spark sustituye al preparar el corre
 Hay dos tipos:
 
 <figure>
-<img src="/images/155-3.jpg" alt="Marcadores de posición en una plantilla de Spark Mail" />
+<img src="/images/blog/155-3.jpg" alt="Marcadores de posición en una plantilla de Spark Mail" />
 </figure>
 
 **Marcadores predefinidos:** Spark puede completar datos como el primer nombre del destinatario, el apellido o tu propio nombre.

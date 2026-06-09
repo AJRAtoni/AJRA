@@ -2,7 +2,7 @@
 layout: post
 title: "Samsung canceló reservas del Galaxy Fold tras los fallos iniciales"
 date: 2019-06-04 10:00:00 +0300
-image: /images/137.jpg
+image: /images/blog/137.jpg
 image_alt: "Samsung Galaxy Fold en una noticia sobre reservas canceladas tras problemas de lanzamiento"
 description: "Samsung canceló reservas del Galaxy Fold después de retrasar indefinidamente el lanzamiento por fallos detectados en unidades de prueba."
 resumen: "El caso Galaxy Fold mostró el riesgo de llevar una tecnología nueva al mercado antes de que el producto esté preparado para uso real."

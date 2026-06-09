@@ -2,7 +2,7 @@
 layout: post
 title: "Twitter cerró su app oficial para macOS: una retirada que decía mucho del producto"
 date: 2018-02-23 10:00:00 +0300
-image: /images/logo-twitter.jpg
+image: /images/blog/logo-twitter.jpg
 image_alt: "Logotipo de Twitter asociado al cierre de su aplicación oficial para macOS"
 description: "Twitter retiró su app oficial para macOS en 2018, una decisión que reflejaba sus problemas históricos para cuidar clientes nativos fuera del móvil."
 card_subtitle: "El cierre de Twitter para macOS no fue sorprendente: la app llevaba tiempo abandonada y la compañía prefería concentrarse."

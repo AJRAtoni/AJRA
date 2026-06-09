@@ -2,7 +2,7 @@
 layout: post
 title: "Cómo sincronizar Trello con tu calendario"
 date: 2019-10-08 10:00:00 +0300
-image: /images/166.jpg
+image: /images/blog/166.jpg
 image_alt: "Calendario de Trello con tarjetas organizadas por fecha de vencimiento"
 description: "Trello permite ver tareas con fecha en calendario y sincronizarlas con apps externas mediante un enlace iCalendar."
 resumen: "Sincronizar Trello con tu calendario ayuda a ver tareas y fechas de vencimiento junto al resto de compromisos del día."

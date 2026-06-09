@@ -2,7 +2,7 @@
 layout: post
 title: "Squarespace Tips 007: personalizar el CSS de tu web"
 date: 2019-06-17 10:00:00 +0300
-image: /images/148.jpg
+image: /images/blog/148.jpg
 image_alt: "Editor de CSS personalizado de Squarespace para ajustar el diseño de una web"
 description: "Cómo usar CSS personalizado en Squarespace para modificar detalles visuales que no aparecen en el editor de estilos."
 resumen: "Squarespace es fácil de usar, pero el CSS personalizado permite ajustar detalles finos cuando la plantilla no ofrece una opción directa."

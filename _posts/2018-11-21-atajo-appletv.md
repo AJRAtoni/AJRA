@@ -2,7 +2,7 @@
 layout: post
 title: "Atajo de Siri para encender el Apple TV con la voz"
 date: 2018-11-21 10:00:00 +0300
-image: /images/117.png
+image: /images/blog/117.png
 image_alt: "Atajo de Siri para encender un Apple TV mediante comando de voz"
 description: "Cómo crear un Atajo de Siri para encender el Apple TV usando su IP, número de serie y una URL local."
 card_subtitle: "Los Atajos de Siri permiten automatizar tareas pequeñas."

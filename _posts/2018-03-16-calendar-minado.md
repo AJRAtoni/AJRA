@@ -2,7 +2,7 @@
 layout: post
 title: "Calendar 2 minaba Monero con tu CPU: monetización, permisos y confianza"
 date: 2018-03-16 10:00:00 +0300
-image: /images/98.jpg
+image: /images/blog/98.jpg
 image_alt: "Aplicación Calendar 2 retirada de la Mac App Store por minar criptomonedas"
 description: "Calendar 2 fue retirada de la Mac App Store tras usar la CPU de los usuarios para minar Monero, incluso cuando la opción debía estar desactivada."
 card_subtitle: "El caso Calendar 2 mostró que la monetización alternativa no puede apoyarse en permisos confusos ni en comportamientos."

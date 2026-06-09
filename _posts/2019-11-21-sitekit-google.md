@@ -2,7 +2,7 @@
 layout: post
 title: "Site Kit by Google: el plugin oficial de Google para WordPress"
 date: 2019-11-19 10:00:00 +0300
-image: /images/184.jpg
+image: /images/blog/184.jpg
 image_alt: "Panel de Site Kit by Google dentro de WordPress"
 description: "Site Kit by Google permite conectar Analytics, Search Console, PageSpeed Insights y otros servicios de Google desde el panel de WordPress."
 card_subtitle: "Site Kit simplifica la conexión entre WordPress y herramientas de Google."

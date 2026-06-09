@@ -2,7 +2,7 @@
 layout: post
 title: "Squarespace integró Unsplash para encontrar imágenes sin salir del editor"
 date: 2018-11-27 10:00:00 +0300
-image: /images/118.jpg
+image: /images/blog/118.jpg
 image_alt: "Integración de Unsplash en Squarespace para buscar imágenes gratuitas"
 description: "Squarespace se asoció con Unsplash para ofrecer imágenes gratuitas y profesionales dentro del propio editor de páginas."
 card_subtitle: "La integración de Unsplash en Squarespace reducía una fricción habitual."

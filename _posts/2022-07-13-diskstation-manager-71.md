@@ -2,7 +2,7 @@
 layout: post
 title: "DiskStation Manager 7.1: actualización para NAS Synology"
 date: 2022-07-13 10:00:00 +0300
-image: /images/268.webp
+image: /images/blog/268.webp
 image_alt: "DiskStation Manager 7.1 de Synology para gestionar un NAS"
 description: "Synology lanzó DiskStation Manager 7.1 con mejoras de administración, rendimiento, seguridad y soporte para sus NAS."
 resumen: "DSM 7.1 reforzaba lo que hace atractivo a un NAS Synology: administración clara, fiabilidad, seguridad y control local de archivos."

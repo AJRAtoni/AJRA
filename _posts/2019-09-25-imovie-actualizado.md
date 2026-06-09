@@ -2,7 +2,7 @@
 layout: post
 title: "iMovie y Clips se actualizaron para iOS 13 y iPadOS 13"
 date: 2019-09-25 10:00:00 +0300
-image: /images/162.jpg
+image: /images/blog/162.jpg
 image_alt: "Interfaz de edición de vídeo en iMovie y Clips para iOS"
 description: "Apple actualizó iMovie y Clips para adaptarlas a iOS 13 y iPadOS 13, con modo oscuro, acceso a unidades externas y nuevos recursos creativos."
 resumen: "La actualización de iMovie y Clips para iOS 13 reforzó la idea de que el iPhone y el iPad podían editar vídeo de forma cada vez más seria."
@@ -16,7 +16,7 @@ La novedad visible era el modo oscuro, pero había cambios más interesantes par
 ## iMovie
 
 <figure>
-<img src="/images/162.jpeg" alt="Edición de un proyecto de vídeo en iMovie para iOS 13" />
+<img src="/images/blog/162.jpeg" alt="Edición de un proyecto de vídeo en iMovie para iOS 13" />
 </figure>
 
 iMovie llegó a la versión 2.2.8 con soporte para acceder a contenido desde unidades USB, lectores de tarjetas SD y discos duros externos.

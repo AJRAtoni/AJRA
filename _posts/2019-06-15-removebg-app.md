@@ -2,7 +2,7 @@
 layout: post
 title: "Remove.bg lanzó app de escritorio para eliminar fondos por lotes"
 date: 2019-06-15 10:00:00 +0300
-image: /images/147.jpg
+image: /images/blog/147.jpg
 image_alt: "Aplicación de escritorio de Remove.bg para eliminar fondos de imágenes por lotes"
 description: "Remove.bg lanzó una app para Windows, Mac y Linux que permitía eliminar fondos de múltiples imágenes usando su API."
 resumen: "La app de Remove.bg convirtió una herramienta web útil en un flujo de trabajo más potente para procesar imágenes por lotes."

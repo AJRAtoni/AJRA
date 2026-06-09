@@ -3,7 +3,7 @@ layout: post
 title: ¿Qué es el copywriting?
 date: 2015-11-15 15:01:35 +0300
 description: "El copywriting es escritura persuasiva: usar las palabras adecuadas para captar atención, explicar valor y provocar una acción."
-image: /images/11.webp
+image: /images/blog/11.webp
 image_alt: "¿Qué es el copywriting?"
 source: AJRA-v09/_posts/2015-11-15-copywriting.md
 resumen: "El copywriting es escritura persuasiva: usar las palabras adecuadas para captar atención, explicar valor y provocar una acción."

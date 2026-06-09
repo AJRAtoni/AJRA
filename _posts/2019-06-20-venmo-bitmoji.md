@@ -2,7 +2,7 @@
 layout: post
 title: "Venmo integró Bitmoji para personalizar notas de pago"
 date: 2019-06-20 10:00:00 +0300
-image: /images/150.jpeg
+image: /images/blog/150.jpeg
 image_alt: "Venmo usando Bitmoji para personalizar notas de pago entre usuarios"
 description: "Venmo integró Bitmoji para que los usuarios pudieran añadir sus avatares personalizados en notas de pago."
 resumen: "La integración de Bitmoji en Venmo mostraba cómo incluso los pagos sociales podían incorporar identidad visual y expresión personal."

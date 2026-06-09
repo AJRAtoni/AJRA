@@ -2,7 +2,7 @@
 layout: post
 title: "Apple Escape from the Office y Business Essentials"
 date: 2022-04-14 10:00:00 +0300
-image: /images/260.jpg
+image: /images/blog/260.jpg
 image_alt: "Apple Escape from the Office como vídeo promocional de Apple Business"
 description: "Apple publicó Escape from the Office, un vídeo de tono humorístico para promocionar Apple Business Essentials y el uso de sus dispositivos en pequeñas empresas."
 card_subtitle: "Escape from the Office funcionaba porque Apple vendía herramientas de empresa sin sonar como una demo corporativa fría."

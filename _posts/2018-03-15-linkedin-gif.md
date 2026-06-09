@@ -2,7 +2,7 @@
 layout: post
 title: "LinkedIn añadió GIFs: incluso la red profesional quería parecer más humana"
 date: 2018-03-15 10:00:00 +0300
-image: /images/logo-linkedin.jpg
+image: /images/blog/logo-linkedin.jpg
 image_alt: "Logotipo de LinkedIn en una noticia sobre GIFs en mensajes directos"
 description: "LinkedIn añadió GIFs animados a sus mensajes directos, una decisión que mostraba cómo incluso las redes profesionales adoptaban códigos de comunicación más informales."
 card_subtitle: "La llegada de GIFs a LinkedIn parecía extraña, pero encajaba con una tendencia clara."

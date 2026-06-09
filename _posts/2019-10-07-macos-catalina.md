@@ -2,7 +2,7 @@
 layout: post
 title: "macOS Catalina ya estaba disponible: adiós iTunes, hola Catalyst y Sidecar"
 date: 2019-10-07 10:00:00 +0300
-image: /images/165.jpg
+image: /images/blog/165.jpg
 image_alt: "Escritorio de macOS Catalina con la isla Catalina como fondo"
 description: "macOS Catalina eliminó iTunes, introdujo Catalyst, Sidecar, Tiempo de uso en Mac y renovó varias apps nativas del sistema."
 card_subtitle: "Catalina fue una actualización importante del Mac: separó iTunes, acercó apps de iPad a macOS y abrió la puerta a usar."

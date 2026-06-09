@@ -2,7 +2,7 @@
 layout: post
 title: "SpaceX e Iridium-3: otro Falcon 9 recuperado en una misión comercial"
 date: 2017-10-10 10:00:00 +0300
-image: /images/logo-spacex.jpg
+image: /images/blog/logo-spacex.jpg
 image_alt: "Logotipo de SpaceX asociado a la misión Iridium-3 con Falcon 9"
 description: "SpaceX lanzó la misión Iridium-3 en octubre de 2017 y recuperó la primera etapa del Falcon 9 en el océano Pacífico."
 resumen: "Iridium-3 fue otro ejemplo de cómo SpaceX estaba convirtiendo la recuperación de Falcon 9 en una rutina comercial cada vez más fiable."

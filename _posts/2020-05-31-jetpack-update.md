@@ -2,7 +2,7 @@
 layout: post
 title: "Jetpack mejoró su buscador para WordPress"
 date: 2020-05-31 10:00:00 +0300
-image: /images/194.png
+image: /images/blog/194.png
 image_alt: "Interfaz de Jetpack Search dentro de una web WordPress"
 description: "Jetpack actualizó su buscador con resultados instantáneos, filtros, corrección ortográfica, resaltado e indexación en tiempo real."
 resumen: "Una buena búsqueda interna ayuda a que los visitantes encuentren contenido, productos y respuestas dentro de una web WordPress grande."

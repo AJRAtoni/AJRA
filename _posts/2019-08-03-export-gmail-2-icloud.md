@@ -2,7 +2,7 @@
 layout: post
 title: "Cómo exportar contactos de Gmail a iCloud"
 date: 2019-08-03 10:00:00 +0300
-image: /images/153.jpg
+image: /images/blog/153.jpg
 image_alt: "Contactos de Google exportados en formato vCard para importarlos en iCloud"
 description: "Guía sencilla para exportar contactos de Gmail en formato vCard e importarlos en iCloud desde la web de Apple."
 resumen: "Mover contactos de Google a iCloud es básicamente exportar una vCard desde Google Contacts e importarla en Contactos de iCloud."

@@ -2,7 +2,7 @@
 layout: post
 title: "Formatos de imagen para web: JPG, PNG, GIF, WebP y AVIF"
 date: 2017-04-03 10:00:00 +0300
-image: /images/44.jpg
+image: /images/blog/44.jpg
 image_alt: "Comparativa de formatos de imagen para web: JPG, PNG, GIF, WebP y AVIF"
 description: "Elegir bien el formato de imagen ayuda a mejorar calidad, peso, SEO y velocidad de carga. Repaso actualizado de JPG, PNG, GIF, WebP y AVIF."
 resumen: "No hay un único formato perfecto: JPG, PNG, GIF, WebP y AVIF tienen usos distintos según calidad, transparencia, animación y rendimiento."

@@ -2,7 +2,7 @@
 layout: post
 title: "Nueva app de Squarespace: gestionar tu web desde el móvil"
 date: 2018-12-14 10:00:00 +0300
-image: /images/121.jpg
+image: /images/blog/121.jpg
 image_alt: "App móvil de Squarespace para gestionar una web desde iPhone"
 description: "Squarespace lanzó una app móvil para administrar webs, publicar contenido, subir imágenes, editar páginas y contactar con soporte desde el teléfono."
 resumen: "La app de Squarespace reforzó una idea clave: gestionar una web ya no tenía por qué depender siempre de estar delante del ordenador."

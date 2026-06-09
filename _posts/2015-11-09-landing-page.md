@@ -3,7 +3,7 @@ layout: post
 title: ¿Qué es una landing page?
 date: 2015-11-09 15:01:35 +0300
 description: "Una landing page es una página creada con un único objetivo: convertir una visita en una acción concreta."
-image: /images/07.jpg
+image: /images/blog/07.jpg
 image_alt: "¿Qué es una landing page?"
 source: AJRA-v09/_posts/2015-11-09-landing-page.md
 resumen: "Una landing page es una página creada con un único objetivo: convertir una visita en una acción concreta."
@@ -58,7 +58,7 @@ Depende del objetivo, pero casi siempre conviene incluir:
 
 Aquí tienes el ejemplo original que acompañaba este artículo:
 
-<img src="/images/08.jpg" alt="Ejemplo de landing page">
+<img src="/images/blog/08.jpg" alt="Ejemplo de landing page">
 
 ## No hay landing perfecta sin test
 

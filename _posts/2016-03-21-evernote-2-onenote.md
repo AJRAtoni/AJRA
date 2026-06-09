@@ -2,7 +2,7 @@
 layout: post
 title: "Cómo exportar las notas de Evernote a OneNote"
 date: 2016-03-21 10:00:00 +0300
-image: /images/20.jpg
+image: /images/blog/20.jpg
 image_alt: "Migración de notas desde Evernote a Microsoft OneNote"
 description: "Evernote ya no es la única opción para guardar notas. Si quieres migrar a OneNote u otro sistema, esto es lo que deberías tener en cuenta."
 resumen: "Migrar notas no va solo de cambiar de app: conviene ordenar, limpiar y decidir qué sistema vas a usar después."

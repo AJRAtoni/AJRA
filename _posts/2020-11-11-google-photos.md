@@ -2,7 +2,7 @@
 layout: post
 title: "Google Fotos dejó atrás el almacenamiento ilimitado gratuito"
 date: 2020-11-11 10:00:00 +0300
-image: /images/228.png
+image: /images/blog/228.png
 image_alt: "Logotipo de Google Fotos asociado al cambio de almacenamiento"
 description: "Google anunció que desde el 1 de junio de 2021 las nuevas fotos y vídeos contarían dentro de los 15 GB compartidos de la cuenta."
 card_subtitle: "El fin del almacenamiento ilimitado de Google Fotos fue un recordatorio claro."

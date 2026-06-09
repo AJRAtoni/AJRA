@@ -2,7 +2,7 @@
 layout: post
 title: "Gmail para iPhone y iPad se integró con la app Archivos"
 date: 2020-02-18 10:00:00 +0300
-image: /images/189.jpg
+image: /images/blog/189.jpg
 image_alt: "Gmail en iPhone adjuntando documentos desde la app Archivos de iOS"
 description: "Gmail añadió integración con la app Archivos de iOS, facilitando adjuntar documentos desde iCloud Drive y otros proveedores compatibles."
 resumen: "La integración de Gmail con Archivos hizo más cómodo adjuntar documentos en iPhone y iPad sin depender solo de fotos o archivos recientes."

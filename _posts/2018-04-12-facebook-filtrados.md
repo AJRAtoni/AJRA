@@ -2,7 +2,7 @@
 layout: post
 title: "Facebook permitió comprobar si Cambridge Analytica accedió a tus datos"
 date: 2018-04-12 10:00:00 +0300
-image: /images/logo-facebook.jpg
+image: /images/blog/logo-facebook.jpg
 image_alt: "Logotipo de Facebook en una noticia sobre Cambridge Analytica y datos comprometidos"
 description: "Facebook lanzó una herramienta para comprobar si los datos de un usuario pudieron verse afectados por el caso Cambridge Analytica."
 card_subtitle: "La herramienta de Facebook no resolvía el problema de fondo, pero ayudaba a visibilizar una cuestión clave."

@@ -4,9 +4,9 @@ title: "Hermes Agent: un asistente que no solo responde, aprende"
 date: 2026-05-16 09:00:00 -0400
 description: "Hermes Agent es un agente de IA open source pensado para trabajar contigo, recordar contexto y mejorar sus propias rutinas con el uso."
 card_subtitle: "Hermes Agent combina memoria, skills y herramientas para pasar de asistente reactivo a agente operativo."
-image: "/images/posts/hermes-agent-gradient.webp"
+image: "/images/blog/hermes-agent-gradient.webp"
 image_alt: "Logo de Hermes Agent en blanco sobre degradado morado"
-recursos_logo: "/images/logos/recursos/hermes-agent.png"
+recursos_logo: "/images/blog/hermes-agent.png"
 recursos_logo_alt: "Hermes Agent"
 resumen: "Hermes Agent no es solo otro chatbot con herramientas: es un agente autoalojable con memoria, skills y un bucle de aprendizaje que lo hace más útil con el tiempo."
 categories: [ia, automatizacion, productividad]

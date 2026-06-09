@@ -2,7 +2,7 @@
 layout: post
 title: "De dónde viene el término blockbuster"
 date: 2021-05-01 10:00:00 +0300
-image: /images/244.jpg
+image: /images/blog/244.jpg
 image_alt: "Cartel de cine asociado al origen del término blockbuster"
 description: "Una lectura breve sobre el origen del término blockbuster y cómo pasó de un contexto bélico a usarse para hablar de grandes éxitos de taquilla."
 card_subtitle: "Blockbuster no nació como palabra de marketing cinematográfico: su historia viene de mucho antes y ayuda a entender cómo."
