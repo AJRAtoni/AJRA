@@ -2,8 +2,10 @@
 layout: post
 title: "BulgariaSat-1: por qué SpaceX retrasó el lanzamiento del Falcon 9"
 date: 2017-06-18 10:00:00 +0300
-image: /images/blog/logo-spacex.jpg
-image_alt: "Logotipo de SpaceX para el retraso del lanzamiento BulgariaSat-1"
+image: /images/blog/spacex-gradient.webp
+image_alt: "Logo de SpaceX centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/spacex.png
+recursos_logo_alt: "Logo de SpaceX"
 description: "SpaceX retrasó el lanzamiento de BulgariaSat-1 por una incidencia técnica en una válvula del carenado, un buen ejemplo de la prudencia necesaria en lanzamientos espaciales."
 card_subtitle: "El retraso de BulgariaSat-1 recordó que en el espacio no conviene forzar un lanzamiento."
 resumen: "El retraso de BulgariaSat-1 recordó que en el espacio no conviene forzar un lanzamiento: parar a tiempo también forma parte de ejecutar bien."

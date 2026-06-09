@@ -2,8 +2,10 @@
 layout: post
 title: "Google Domains salió de beta antes de acabar en Squarespace"
 date: 2022-04-12 10:00:00 +0300
-image: /images/blog/logo-google-domains.jpg
-image_alt: "Logotipo de Google Domains como registrador de dominios"
+image: /images/blog/google-domains-gradient.webp
+image_alt: "Logo de Google Domains centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/google-domains.png
+recursos_logo_alt: "Logo de Google Domains"
 description: "Google Domains salió de beta en 2022 tras años como servicio de dominios sencillo, aunque más tarde Google vendería el negocio a Squarespace."
 resumen: "Google Domains fue un buen ejemplo de producto cómodo y bien integrado que, aun así, acabó fuera del foco estratégico de Google."
 source: AJRA-v09/_posts/2022-04-12-google-domains.md

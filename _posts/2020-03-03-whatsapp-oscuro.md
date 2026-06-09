@@ -2,8 +2,10 @@
 layout: post
 title: "WhatsApp para iOS añadió modo oscuro"
 date: 2020-03-03 10:00:00 +0300
-image: /images/blog/logo-whatsapp.jpg
-image_alt: "Logotipo de WhatsApp asociado al modo oscuro en iOS"
+image: /images/blog/whatsapp-gradient.webp
+image_alt: "Logo de WhatsApp centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/whatsapp.png
+recursos_logo_alt: "Logo de WhatsApp"
 description: "WhatsApp incorporó modo oscuro en iOS usando las APIs de iOS 13 para adaptarse automáticamente a la apariencia del sistema."
 resumen: "El modo oscuro de WhatsApp fue una actualización esperada porque la app forma parte del uso diario de millones de personas."
 source: AJRA-v09/_posts/2020-03-03-whatsapp-oscuro.md

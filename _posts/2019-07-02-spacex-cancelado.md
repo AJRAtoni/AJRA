@@ -2,8 +2,10 @@
 layout: post
 title: "SpaceX canceló un lanzamiento de Falcon 9 a 9 segundos del despegue"
 date: 2019-07-02 10:00:00 +0300
-image: /images/blog/logo-spacex.jpg
-image_alt: "Logotipo de SpaceX sobre fondo oscuro"
+image: /images/blog/spacex-gradient.webp
+image_alt: "Logo de SpaceX centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/spacex.png
+recursos_logo_alt: "Logo de SpaceX"
 description: "Un lanzamiento de Falcon 9 se detuvo a solo 9 segundos del despegue, recordando que la automatización y la prudencia también forman parte del éxito espacial."
 card_subtitle: "El aborto de lanzamiento de un Falcon 9 a segundos del despegue fue una muestra de cómo SpaceX prioriza seguridad."
 resumen: "El aborto de lanzamiento de un Falcon 9 a segundos del despegue fue una muestra de cómo SpaceX prioriza seguridad, telemetría y capacidad de reacción."

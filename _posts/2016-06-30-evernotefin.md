@@ -2,8 +2,10 @@
 layout: post
 title: "Evernote y el riesgo de perder la confianza de tus usuarios"
 date: 2016-06-30 10:00:00 +0300
-image: /images/blog/logo-evernote.jpg
-image_alt: "Logo de Evernote y alternativas de productividad"
+image: /images/blog/evernote-gradient.webp
+image_alt: "Logo de Evernote centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/evernote.png
+recursos_logo_alt: "Logo de Evernote"
 description: "Evernote fue líder en notas digitales, pero sus cambios de precios y límites muestran cómo una mala estrategia puede empujar usuarios hacia alternativas."
 resumen: "El caso Evernote demuestra que monetizar una herramienta sin cuidar la confianza puede acelerar la fuga de usuarios."
 source: AJRA-v09/_posts/2016-06-30-evernotefin.md

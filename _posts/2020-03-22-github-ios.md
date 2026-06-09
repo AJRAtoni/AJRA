@@ -2,8 +2,10 @@
 layout: post
 title: "GitHub llegó a iOS y iPadOS"
 date: 2020-03-22 10:00:00 +0300
-image: /images/blog/logo-github.jpg
-image_alt: "Logotipo de GitHub asociado a su app para iOS y iPadOS"
+image: /images/blog/github-gradient.webp
+image_alt: "Logo de GitHub centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/github.png
+recursos_logo_alt: "Logo de GitHub"
 description: "GitHub lanzó su aplicación oficial para iOS y iPadOS, centrada en revisar notificaciones, issues y pull requests desde el móvil."
 card_subtitle: "La primera app oficial de GitHub para iOS no servía para programar, pero sí para seguir conversaciones."
 resumen: "La primera app oficial de GitHub para iOS no servía para programar, pero sí para seguir conversaciones, notificaciones y revisiones desde cualquier lugar."

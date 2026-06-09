@@ -2,8 +2,10 @@
 layout: post
 title: "Instagram preparó la descarga de tus datos antes de la llegada del GDPR"
 date: 2018-04-14 10:00:00 +0300
-image: /images/blog/logo-instagram.jpg
-image_alt: "Logotipo de Instagram en una noticia sobre la descarga de datos personales"
+image: /images/blog/instagram-gradient.webp
+image_alt: "Logo de Instagram centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/instagram.png
+recursos_logo_alt: "Logo de Instagram"
 description: "Instagram anunció una herramienta para descargar los datos subidos a la plataforma en el contexto del GDPR y las tensiones de privacidad en Facebook."
 card_subtitle: "La descarga de datos de Instagram fue una respuesta obligada por privacidad y regulación."
 resumen: "La descarga de datos de Instagram fue una respuesta obligada por privacidad y regulación: las plataformas ya no podían tratar los datos del usuario como algo invisible."

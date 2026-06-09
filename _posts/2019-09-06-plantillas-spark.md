@@ -2,8 +2,10 @@
 layout: post
 title: "Plantillas en Spark Mail para ahorrar tiempo con el email"
 date: 2019-09-06 10:00:00 +0300
-image: /images/blog/logo-spark.jpg
-image_alt: "Logotipo de Spark Mail, cliente de correo para iOS, iPadOS y macOS"
+image: /images/blog/spark-gradient.webp
+image_alt: "Logo de Spark centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/spark.png
+recursos_logo_alt: "Logo de Spark"
 description: "Spark Mail añadió plantillas reutilizables con marcadores de posición para responder más rápido informes, presupuestos, FAQs y correos repetitivos."
 card_subtitle: "Las plantillas de Spark convierten emails repetitivos en bloques reutilizables con campos variables."
 resumen: "Las plantillas de Spark convierten emails repetitivos en bloques reutilizables con campos variables, una función muy útil para productividad y atención al cliente."

@@ -2,8 +2,10 @@
 layout: post
 title: "Friendmojis 3D: Snapchat seguía apostando por identidad y realidad aumentada"
 date: 2018-02-27 10:00:00 +0300
-image: /images/blog/logo-snapchat.jpg
-image_alt: "Logotipo de Snapchat en una noticia sobre Friendmojis 3D y realidad aumentada"
+image: /images/blog/snapchat-gradient.webp
+image_alt: "Logo de Snapchat centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/snapchat.png
+recursos_logo_alt: "Logo de Snapchat"
 description: "Snapchat añadió Friendmojis 3D, una función para colocar Bitmojis propios y de amigos en escenas de realidad aumentada."
 card_subtitle: "Friendmojis 3D mostraba una de las fortalezas de Snapchat: usar identidad."
 resumen: "Friendmojis 3D mostraba una de las fortalezas de Snapchat: usar identidad, cámara y realidad aumentada para diferenciarse de Instagram y Facebook."

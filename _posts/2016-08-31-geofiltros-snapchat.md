@@ -2,8 +2,10 @@
 layout: post
 title: "Geofiltros de Snapchat: marketing local, eventos y contenido contextual"
 date: 2016-08-31 10:00:00 +0300
-image: /images/blog/logo-snapchat.jpg
-image_alt: "Geofiltros de Snapchat aplicados a marketing local y eventos"
+image: /images/blog/snapchat-gradient.webp
+image_alt: "Logo de Snapchat centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/snapchat.png
+recursos_logo_alt: "Logo de Snapchat"
 description: "Los geofiltros de Snapchat fueron una forma temprana de mezclar ubicación, creatividad y contenido social para eventos y negocios locales."
 resumen: "Los geofiltros enseñaron una idea útil: el contenido funciona mejor cuando tiene contexto de lugar, momento y audiencia."
 source: AJRA-v09/_posts/2016-08-31-geofiltros-snapchat.md

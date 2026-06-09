@@ -2,8 +2,10 @@
 layout: post
 title: "Twitter añadió marcadores: guardar tweets sin usar el Me gusta"
 date: 2018-03-01 10:00:00 +0300
-image: /images/blog/logo-twitter.jpg
-image_alt: "Logotipo de Twitter en una noticia sobre la llegada de los marcadores"
+image: /images/blog/twitter-gradient.webp
+image_alt: "Logo de Twitter centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/twitter.png
+recursos_logo_alt: "Logo de Twitter"
 description: "Twitter añadió marcadores para guardar tweets de forma privada, separando la acción de guardar de la señal pública del Me gusta."
 resumen: "Los marcadores de Twitter resolvieron una fricción básica: guardar contenido para más tarde sin convertirlo en una aprobación pública."
 source: AJRA-v09/_posts/2018-03-01-marcadores-twitter.md

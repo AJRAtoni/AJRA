@@ -2,8 +2,10 @@
 layout: post
 title: "Tesla superó a BMW en bolsa: cuando el mercado empezó a valorar el futuro"
 date: 2017-06-12 10:00:00 +0300
-image: /images/blog/logo-tesla.jpg
-image_alt: "Logotipo de Tesla para analizar su valoración bursátil frente a BMW"
+image: /images/blog/tesla-gradient.webp
+image_alt: "Logo de Tesla centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/tesla.png
+recursos_logo_alt: "Logo de Tesla"
 description: "En 2017 Tesla superó a BMW en capitalización bursátil, una señal de que el mercado empezaba a valorar más la narrativa de futuro que las ventas presentes."
 card_subtitle: "Tesla adelantando a BMW en bolsa fue menos una foto industrial y más una apuesta del mercado por software, baterías."
 resumen: "Tesla adelantando a BMW en bolsa fue menos una foto industrial y más una apuesta del mercado por software, baterías, marca y crecimiento futuro."

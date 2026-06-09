@@ -2,8 +2,10 @@
 layout: post
 title: "WhatsApp para iOS añadió previsualización multimedia y aviso de enlaces sospechosos"
 date: 2018-09-05 10:00:00 +0300
-image: /images/blog/logo-whatsapp.jpg
-image_alt: "Logotipo de WhatsApp en una noticia sobre nuevas funciones para iOS"
+image: /images/blog/whatsapp-gradient.webp
+image_alt: "Logo de WhatsApp centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/whatsapp.png
+recursos_logo_alt: "Logo de WhatsApp"
 description: "WhatsApp para iPhone añadió previsualización de imágenes, GIFs y vídeos desde notificaciones, además de avisos ante enlaces sospechosos."
 card_subtitle: "La actualización de WhatsApp para iOS fue pequeña, pero útil: mejor privacidad al previsualizar contenido y más protección."
 resumen: "La actualización de WhatsApp para iOS fue pequeña, pero útil: mejor privacidad al previsualizar contenido y más protección ante enlaces de phishing."

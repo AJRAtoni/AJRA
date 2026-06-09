@@ -2,8 +2,10 @@
 layout: post
 title: "Amazon compró Whole Foods: cuando el e-commerce entró en el supermercado"
 date: 2017-06-23 10:00:00 +0300
-image: /images/blog/logo-amazon.jpg
-image_alt: "Logotipo de Amazon para analizar la compra de Whole Foods"
+image: /images/blog/amazon-gradient.webp
+image_alt: "Logo de Amazon centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/amazon.png
+recursos_logo_alt: "Logo de Amazon"
 description: "La compra de Whole Foods por Amazon fue mucho más que una adquisición: un movimiento estratégico para unir e-commerce, alimentación, logística y experiencia física."
 card_subtitle: "Amazon comprando Whole Foods mostró que el futuro del retail no iba a ser solo online u offline, sino una mezcla de datos."
 resumen: "Amazon comprando Whole Foods mostró que el futuro del retail no iba a ser solo online u offline, sino una mezcla de datos, logística, tienda física y hábitos de compra."

@@ -2,8 +2,10 @@
 layout: post
 title: "Spark añadió enviar más tarde y seguimiento de correos"
 date: 2017-11-22 10:00:00 +0300
-image: /images/blog/logo-spark.jpg
-image_alt: "Logotipo de Spark, cliente de correo para iOS y macOS"
+image: /images/blog/spark-gradient.webp
+image_alt: "Logo de Spark centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/spark.png
+recursos_logo_alt: "Logo de Spark"
 description: "Spark 1.11 añadió envío programado y seguimiento de correos, dos funciones pensadas para trabajar mejor con email en iOS y macOS."
 card_subtitle: "La actualización de Spark reforzó una idea muy útil: el correo no debería ser solo una bandeja de entrada."
 resumen: "La actualización de Spark reforzó una idea muy útil: el correo no debería ser solo una bandeja de entrada, sino una herramienta de productividad."

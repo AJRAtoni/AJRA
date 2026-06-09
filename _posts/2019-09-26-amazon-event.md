@@ -2,8 +2,10 @@
 layout: post
 title: "Amazon renovó su hardware y puso a Alexa en el centro"
 date: 2019-09-26 10:00:00 +0300
-image: /images/blog/logo-amazon.jpg
-image_alt: "Logotipo de Amazon asociado a dispositivos Echo y Alexa"
+image: /images/blog/amazon-gradient.webp
+image_alt: "Logo de Amazon centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/amazon.png
+recursos_logo_alt: "Logo de Amazon"
 description: "El evento anual de hardware de Amazon renovó dispositivos Echo y reforzó el papel de Alexa como capa de interacción para el hogar conectado."
 resumen: "El evento de Amazon no iba solo de altavoces: iba de llevar Alexa a más contextos, mejorar privacidad y consolidar el hogar conectado."
 source: AJRA-v09/_posts/2019-09-26-amazon-event.md

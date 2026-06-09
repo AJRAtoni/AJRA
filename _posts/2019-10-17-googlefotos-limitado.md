@@ -2,8 +2,10 @@
 layout: post
 title: "Pixel 4 perdió almacenamiento ilimitado original en Google Fotos"
 date: 2019-10-17 10:00:00 +0300
-image: /images/blog/logo-googlefotos.jpg
-image_alt: "Logotipo de Google Fotos sobre fondo claro"
+image: /images/blog/google-fotos-gradient.webp
+image_alt: "Logo de Google Fotos centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/google-fotos.png
+recursos_logo_alt: "Logo de Google Fotos"
 description: "Google eliminó el almacenamiento ilimitado en calidad original para Pixel 4, mientras el formato HEIF del iPhone generó una excepción curiosa."
 resumen: "El caso Pixel 4 y Google Fotos mostró que las ventajas de almacenamiento en la nube pueden cambiar rápido y que los formatos importan."
 source: AJRA-v09/_posts/2019-10-17-googlefotos-limitado.md

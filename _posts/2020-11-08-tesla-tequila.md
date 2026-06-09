@@ -2,8 +2,10 @@
 layout: post
 title: "Tesla Tequila: cuando una broma de Elon Musk acabó en producto"
 date: 2020-11-08 10:00:00 +0300
-image: /images/blog/logo-tesla.jpg
-image_alt: "Logotipo de Tesla asociado al lanzamiento de Tesla Tequila"
+image: /images/blog/tesla-gradient.webp
+image_alt: "Logo de Tesla centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/tesla.png
+recursos_logo_alt: "Logo de Tesla"
 description: "Tesla lanzó una botella de tequila premium por 250 dólares, siguiendo la línea de productos nacidos de bromas de Elon Musk."
 resumen: "Tesla Tequila fue menos una noticia de bebidas y más una muestra de marketing: comunidad, escasez, diseño y cultura de marca."
 source: AJRA-v09/_posts/2020-11-08-tesla-tequila.md

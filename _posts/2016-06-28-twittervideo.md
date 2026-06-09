@@ -2,8 +2,10 @@
 layout: post
 title: "Twitter Video: cuando Twitter empezó a tomarse en serio el vídeo"
 date: 2016-06-28 10:00:00 +0300
-image: /images/blog/logo-twitter.jpg
-image_alt: "Logo de Twitter y evolución del vídeo en redes sociales"
+image: /images/blog/twitter-gradient.webp
+image_alt: "Logo de Twitter centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/twitter.png
+recursos_logo_alt: "Logo de Twitter"
 description: "Twitter amplió sus vídeos a 140 segundos en 2016. Visto con perspectiva, fue una señal temprana de la batalla por el vídeo social."
 resumen: "El salto de Twitter al vídeo largo anticipó una tendencia que hoy domina todas las plataformas sociales."
 source: AJRA-v09/_posts/2016-06-28-twittervideo.md

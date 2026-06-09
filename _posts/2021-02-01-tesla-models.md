@@ -2,8 +2,10 @@
 layout: post
 title: "Tesla renovó el interior de los Model S y Model X"
 date: 2021-02-01 10:00:00 +0300
-image: /images/blog/logo-tesla.jpg
-image_alt: "Logotipo de Tesla asociado al rediseño interior de los Model S y Model X"
+image: /images/blog/tesla-gradient.webp
+image_alt: "Logo de Tesla centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/tesla.png
+recursos_logo_alt: "Logo de Tesla"
 description: "Tesla presentó un rediseño interior para los Model S y Model X con pantalla horizontal, nuevo volante y una experiencia más alineada con el resto de la gama."
 card_subtitle: "El rediseño interior del Model S y Model X mostraba cómo Tesla trataba el coche como producto tecnológico."
 resumen: "El rediseño interior del Model S y Model X mostraba cómo Tesla trataba el coche como producto tecnológico: hardware, software e interfaz evolucionando juntos."

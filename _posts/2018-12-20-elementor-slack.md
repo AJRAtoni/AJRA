@@ -2,8 +2,10 @@
 layout: post
 title: "Elementor se integró con Slack para avisar de nuevos formularios"
 date: 2018-12-20 10:00:00 +0300
-image: /images/blog/logo-elementor.jpg
-image_alt: "Logotipo de Elementor en una noticia sobre integración de formularios con Slack"
+image: /images/blog/elementor-gradient.webp
+image_alt: "Logo de Elementor centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/elementor.png
+recursos_logo_alt: "Logo de Elementor"
 description: "Elementor añadió integración con Slack para enviar avisos cuando un usuario completa un formulario en una web WordPress."
 resumen: "La integración de Elementor con Slack conectaba formularios web con el equipo, reduciendo el riesgo de que un lead se quedara sin atender."
 source: AJRA-v09/_posts/2018-12-20-elementor-slack.md

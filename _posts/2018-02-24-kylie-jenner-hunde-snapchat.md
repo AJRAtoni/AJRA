@@ -2,8 +2,10 @@
 layout: post
 title: "Kylie Jenner, Snapchat y el riesgo de rediseñar contra tus usuarios"
 date: 2018-02-24 10:00:00 +0300
-image: /images/blog/logo-snapchat.jpg
-image_alt: "Logotipo de Snapchat en una noticia sobre la reacción de Kylie Jenner al rediseño de la app"
+image: /images/blog/snapchat-gradient.webp
+image_alt: "Logo de Snapchat centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/snapchat.png
+recursos_logo_alt: "Logo de Snapchat"
 description: "Kylie Jenner criticó el rediseño de Snapchat en 2018 y la caída en bolsa de Snap mostró hasta qué punto una app social depende de sus usuarios más influyentes."
 card_subtitle: "El tweet de Kylie Jenner contra Snapchat fue algo más que una anécdota."
 resumen: "El tweet de Kylie Jenner contra Snapchat fue algo más que una anécdota: evidenció el coste de rediseñar una red social sin cuidar hábitos, comunidad e influencia."

@@ -2,8 +2,10 @@
 layout: post
 title: "SpaceX, Starlink y PAZ: el lanzamiento que anticipó el internet por satélite"
 date: 2018-02-16 10:00:00 +0300
-image: /images/blog/logo-spacex.jpg
-image_alt: "Logotipo de SpaceX asociado al lanzamiento de los primeros satélites de prueba de Starlink"
+image: /images/blog/spacex-gradient.webp
+image_alt: "Logo de SpaceX centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/spacex.png
+recursos_logo_alt: "Logo de SpaceX"
 description: "SpaceX preparó el lanzamiento del satélite español PAZ y de los dos primeros satélites de prueba de Starlink, una red que acabaría cambiando la conectividad por satélite."
 card_subtitle: "En 2018 Starlink todavía era una promesa. El lanzamiento de sus dos primeros satélites de prueba junto al satélite español."
 resumen: "En 2018 Starlink todavía era una promesa. El lanzamiento de sus dos primeros satélites de prueba junto al satélite español PAZ fue el primer paso visible de una infraestructura enorme."

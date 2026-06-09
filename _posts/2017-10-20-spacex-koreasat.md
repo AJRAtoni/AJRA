@@ -2,8 +2,10 @@
 layout: post
 title: "SpaceX lanzó Koreasat-5A y volvió a recuperar un Falcon 9"
 date: 2017-10-30 10:00:00 +0300
-image: /images/blog/logo-spacex.jpg
-image_alt: "Logotipo de SpaceX asociado al lanzamiento del satélite Koreasat-5A"
+image: /images/blog/spacex-gradient.webp
+image_alt: "Logo de SpaceX centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/spacex.png
+recursos_logo_alt: "Logo de SpaceX"
 description: "SpaceX puso en órbita el satélite de comunicaciones Koreasat-5A y recuperó la primera etapa del Falcon 9 en la barcaza Of Course I Still Love You."
 card_subtitle: "El lanzamiento de Koreasat-5A fue otra misión comercial que consolidó la recuperación de Falcon 9 como parte normal."
 resumen: "El lanzamiento de Koreasat-5A fue otra misión comercial que consolidó la recuperación de Falcon 9 como parte normal del modelo operativo de SpaceX."
