@@ -6,6 +6,8 @@ description: "Apple usó la WWDC26 para enseñar macOS 27 Golden Gate, ajustes e
 card_subtitle: "Siri AI, macOS Golden Gate, Liquid Glass ajustable y una Apple Intelligence mucho más metida en el sistema."
 image: "/images/posts/wwdc26-apple-gradient.webp"
 image_alt: "Logo de Apple blanco sobre degradado morado y fucsia de AJRA para WWDC26"
+recursos_logo: "/images/logos/recursos/apple-wwdc26.png"
+recursos_logo_alt: "Logo de Apple"
 resumen: "Apple usó la WWDC26 para enseñar macOS 27 Golden Gate, ajustes en Liquid Glass, mejoras de rendimiento y, sobre todo, una nueva Siri AI integrada en Apple Intelligence."
 categories: [ia]
 tags: [apple, wwdc26, apple-intelligence, siri, ios-27, macos-golden-gate, liquid-glass]
