@@ -2,8 +2,10 @@
 layout: post
 title: "Facebook Research: vender tu privacidad por 20 dólares al mes"
 date: 2019-01-30 10:00:00 +0300
-image: /images/blog/logo-facebook.jpg
+image: /images/blog/facebook-gradient.webp
 image_alt: "Logotipo de Facebook en una noticia sobre la app Facebook Research y privacidad"
+recursos_logo: /images/blog/facebook.png
+recursos_logo_alt: "Logo de Facebook"
 description: "Facebook pagó a usuarios para instalar Facebook Research, una VPN que permitía monitorizar gran parte de su actividad web y móvil."
 card_subtitle: "Facebook Research fue otro caso que mostró hasta dónde pueden llegar las plataformas para conseguir datos de comportamiento."
 resumen: "Facebook Research fue otro caso que mostró hasta dónde pueden llegar las plataformas para conseguir datos de comportamiento de los usuarios."

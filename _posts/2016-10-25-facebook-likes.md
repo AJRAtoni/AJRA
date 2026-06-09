@@ -2,8 +2,10 @@
 layout: post
 title: "Facebook y la falsa importancia de los Me gusta"
 date: 2016-11-25 10:00:00 +0300
-image: /images/blog/logo-facebook.jpg
+image: /images/blog/facebook-gradient.webp
 image_alt: "Métricas de Facebook y diferencia entre likes, engagement y conversiones"
+recursos_logo: /images/blog/facebook.png
+recursos_logo_alt: "Logo de Facebook"
 description: "Los Me gusta pueden dar sensación de éxito, pero una estrategia digital debería centrarse en participación, leads, ventas y objetivos de negocio."
 resumen: "Los likes son una métrica visible, pero no necesariamente una métrica útil para tomar decisiones de negocio."
 source: AJRA-v09/_posts/2016-10-25-facebook-likes.md

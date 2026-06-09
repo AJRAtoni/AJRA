@@ -2,8 +2,10 @@
 layout: post
 title: "FACEBOOK cambió su logo para separar empresa y red social"
 date: 2019-11-06 10:00:00 +0300
-image: /images/blog/logo-facebook.jpg
+image: /images/blog/facebook-gradient.webp
 image_alt: "Logotipo corporativo de Facebook en mayúsculas"
+recursos_logo: /images/blog/facebook.png
+recursos_logo_alt: "Logo de Facebook"
 description: "Facebook actualizó su identidad corporativa para diferenciar la empresa matriz de la red social y agrupar productos como Instagram y WhatsApp."
 card_subtitle: "El nuevo logo de FACEBOOK buscaba aclarar una arquitectura de marca cada vez más compleja."
 resumen: "El nuevo logo de FACEBOOK buscaba aclarar una arquitectura de marca cada vez más compleja: empresa matriz, red social, Instagram, WhatsApp y más servicios."

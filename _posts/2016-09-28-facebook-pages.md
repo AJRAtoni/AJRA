@@ -2,8 +2,10 @@
 layout: post
 title: "Páginas de Facebook: presencia, anuncios y el límite de depender de una plataforma"
 date: 2016-09-28 10:00:00 +0300
-image: /images/blog/logo-facebook.jpg
+image: /images/blog/facebook-gradient.webp
 image_alt: "Páginas de Facebook para negocios y anuncios en redes sociales"
+recursos_logo: /images/blog/facebook.png
+recursos_logo_alt: "Logo de Facebook"
 description: "Tener una página de Facebook puede ayudar a un negocio, pero no sustituye una web propia ni una estrategia que no dependa de una sola plataforma."
 resumen: "Facebook sigue siendo útil para negocios, pero una página no debería ser el centro absoluto de tu presencia digital."
 source: AJRA-v09/_posts/2016-09-28-facebook-pages.md
