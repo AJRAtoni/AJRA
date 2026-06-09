@@ -2,8 +2,10 @@
 layout: post
 title: "AppleCare+ pasó a un modelo de suscripción mensual"
 date: 2019-09-11 10:00:00 +0300
-image: /images/blog/apple.png
+image: /images/blog/apple-gradient.webp
 image_alt: "Logotipo de Apple asociado al servicio AppleCare+"
+recursos_logo: /images/blog/apple.png
+recursos_logo_alt: "Logo de Apple"
 description: "AppleCare+ incorporó planes mensuales renovables, una opción más flexible que también reforzaba el modelo de ingresos recurrentes de Apple."
 card_subtitle: "El cambio de AppleCare+ a suscripción mensual fue una pequeña noticia de soporte."
 resumen: "El cambio de AppleCare+ a suscripción mensual fue una pequeña noticia de soporte, pero encaja con el giro de Apple hacia servicios recurrentes."

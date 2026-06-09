@@ -2,8 +2,10 @@
 layout: post
 title: "Cómo firmar un PDF desde el iPad sin apps de terceros"
 date: 2020-07-01 10:00:00 +0300
-image: /images/blog/apple.png
+image: /images/blog/apple-gradient.webp
 image_alt: "iPad firmando un documento PDF con herramientas nativas de iPadOS"
+recursos_logo: /images/blog/apple.png
+recursos_logo_alt: "Logo de Apple"
 description: "iPadOS permite firmar documentos PDF con Marcación y devolverlos sin instalar aplicaciones de terceros."
 resumen: "Firmar PDFs desde el iPad fue una de esas funciones que se volvieron imprescindibles durante el teletrabajo y el confinamiento."
 source: AJRA-v09/_posts/2020-07-01-ipad-firmar-pdf.md

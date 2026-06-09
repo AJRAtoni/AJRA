@@ -2,8 +2,10 @@
 layout: post
 title: "Apple Peek Performance: Mac Studio, M1 Ultra e iPad Air M1"
 date: 2022-03-09 10:00:00 +0300
-image: /images/blog/apple.png
+image: /images/blog/apple-gradient.webp
 image_alt: "Logotipo de Apple asociado al evento Peek Performance de 2022"
+recursos_logo: /images/blog/apple.png
+recursos_logo_alt: "Logo de Apple"
 description: "Resumen del Apple Event Peek Performance: iPhone SE 3, iPad Air con M1, M1 Ultra, Mac Studio, Studio Display y nuevos acabados del iPhone 13."
 resumen: "Peek Performance fue un evento centrado en potencia: Apple llevó el M1 al iPad Air, presentó el M1 Ultra y estrenó el Mac Studio."
 source: AJRA-v09/_posts/2022-03-09-apple-event-peekperformance.md

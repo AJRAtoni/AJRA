@@ -2,8 +2,10 @@
 layout: post
 title: "Apple Clips 3.0 añadió nueva interfaz, formatos y vídeo HDR"
 date: 2020-10-28 10:00:00 +0300
-image: /images/blog/apple.png
+image: /images/blog/apple-gradient.webp
 image_alt: "Logotipo de Apple asociado a la app Clips 3.0"
+recursos_logo: /images/blog/apple.png
+recursos_logo_alt: "Logo de Apple"
 description: "Clips 3.0 llegó con interfaz renovada, edición vertical y horizontal, nuevos stickers, bandas sonoras y grabación HDR en iPhone 12."
 resumen: "Clips 3.0 fue la actualización más importante de la app: más formatos, edición a pantalla completa y mejor encaje con vídeo social."
 source: AJRA-v09/_posts/2020-10-29-apple-clips-3.md

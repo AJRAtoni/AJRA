@@ -2,8 +2,10 @@
 layout: post
 title: "One More Thing: Apple anunció evento para el 10 de noviembre de 2020"
 date: 2020-11-04 10:00:00 +0300
-image: /images/blog/apple.png
+image: /images/blog/apple-gradient.webp
 image_alt: "Logotipo de Apple asociado al evento One More Thing"
+recursos_logo: /images/blog/apple.png
+recursos_logo_alt: "Logo de Apple"
 description: "Apple anunció el evento One More Thing, donde se esperaba la llegada de los primeros Mac con Apple Silicon."
 resumen: "One More Thing apuntaba a la transición más importante del Mac en años: el salto a Apple Silicon."
 source: AJRA-v09/_posts/2020-11-04-apple-event.md

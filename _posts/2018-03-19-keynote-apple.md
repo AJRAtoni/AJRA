@@ -2,8 +2,10 @@
 layout: post
 title: "Keynote de Apple del 27 de marzo de 2018: educación, iPad y rumores"
 date: 2018-03-19 10:00:00 +0300
-image: /images/blog/apple.png
+image: /images/blog/apple-gradient.webp
 image_alt: "Invitación de Apple para la Keynote del 27 de marzo de 2018 en Chicago"
+recursos_logo: /images/blog/apple.png
+recursos_logo_alt: "Logo de Apple"
 description: "Apple anunció una Keynote para el 27 de marzo de 2018 en Chicago, con foco esperado en educación, iPad, Apple Pencil y posibles novedades de hardware."
 card_subtitle: "La Keynote de marzo de 2018 apuntaba a educación y iPad, pero también concentró rumores habituales sobre Apple Pencil, iOS."
 resumen: "La Keynote de marzo de 2018 apuntaba a educación y iPad, pero también concentró rumores habituales sobre Apple Pencil, iOS, MacBook Air e iPhone SE."

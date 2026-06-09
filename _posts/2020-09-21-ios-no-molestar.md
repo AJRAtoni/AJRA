@@ -2,8 +2,10 @@
 layout: post
 title: "Activar No molestar hasta salir de un lugar en iOS"
 date: 2020-09-21 10:00:00 +0300
-image: /images/blog/apple.png
+image: /images/blog/apple-gradient.webp
 image_alt: "Centro de Control de iOS con la opción No molestar activada"
+recursos_logo: /images/blog/apple.png
+recursos_logo_alt: "Logo de Apple"
 description: "iOS permite activar No molestar hasta que salgas de un lugar, una opción útil para reuniones, cine, consultas o momentos de concentración."
 resumen: "No molestar por ubicación evita el problema clásico: silenciar el iPhone para una reunión y olvidarte de volver a activar notificaciones."
 source: AJRA-v09/_posts/2020-09-21-ios-no-molestar.md

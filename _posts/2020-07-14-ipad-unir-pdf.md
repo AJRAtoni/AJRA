@@ -2,8 +2,10 @@
 layout: post
 title: "Cómo unir varios PDFs desde el iPad"
 date: 2020-07-14 10:00:00 +0300
-image: /images/blog/apple.png
+image: /images/blog/apple-gradient.webp
 image_alt: "Archivos en iPadOS combinando varios documentos PDF"
+recursos_logo: /images/blog/apple.png
+recursos_logo_alt: "Logo de Apple"
 description: "iPadOS permite unir varios documentos PDF en un solo archivo usando herramientas nativas, sin depender de apps externas."
 resumen: "Unir PDFs desde el iPad es una tarea sencilla si sabes dónde buscar: Archivos y las acciones rápidas de iPadOS cubren muchos casos diarios."
 source: AJRA-v09/_posts/2020-07-14-ipad-unir-pdf.md

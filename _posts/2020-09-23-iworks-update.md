@@ -2,8 +2,10 @@
 layout: post
 title: "Pages, Numbers y Keynote se actualizaron para iOS 14 y iPadOS 14"
 date: 2020-09-23 10:00:00 +0300
-image: /images/blog/apple.png
+image: /images/blog/apple-gradient.webp
 image_alt: "Logotipo de Apple asociado a Pages, Numbers y Keynote"
+recursos_logo: /images/blog/apple.png
+recursos_logo_alt: "Logo de Apple"
 description: "Apple actualizó iWork a la versión 10.2 con soporte para Scribble, nuevas plantillas, selector de imágenes y mejoras en tablas."
 resumen: "La actualización de iWork para iOS 14 y iPadOS 14 reforzó el uso del iPad como herramienta de productividad con Apple Pencil."
 source: AJRA-v09/_posts/2020-09-23-iworks-update.md
