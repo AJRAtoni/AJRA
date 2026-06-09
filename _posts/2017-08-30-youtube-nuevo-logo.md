@@ -2,8 +2,10 @@
 layout: post
 title: "YouTube cambió su logotipo: una marca preparada para vivir fuera del escritorio"
 date: 2017-08-30 10:00:00 +0300
-image: /images/blog/logo-youtube.png
-image_alt: "Nuevo logotipo de YouTube con el icono de play separado del nombre"
+image: /images/blog/youtube-gradient.webp
+image_alt: "Logo de YouTube centrado sobre fondo degradado morado y fucsia"
+recursos_logo: /images/blog/youtube.png
+recursos_logo_alt: "Logo de YouTube"
 description: "YouTube cambió su logotipo por primera vez en 12 años, separando el icono de play del texto y preparando la marca para móvil, apps, televisión y nuevos formatos."
 card_subtitle: "El rediseño de YouTube no fue radical, pero sí estratégico: hacer que el icono de play funcionara mejor como símbolo."
 resumen: "El rediseño de YouTube no fue radical, pero sí estratégico: hacer que el icono de play funcionara mejor como símbolo universal en cualquier pantalla."
