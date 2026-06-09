@@ -2,7 +2,7 @@
 layout: post
 title: "Apple actualizó el firmware de los AirPods con audio espacial"
 date: 2020-09-15 10:00:00 +0300
-image: /images/blog/logo-apple.jpg
+image: /images/blog/apple.png
 image_alt: "AirPods Pro asociados a una actualización de firmware"
 description: "Apple lanzó el firmware 3A283 para AirPods y AirPods Pro, con audio espacial en AirPods Pro y cambio automático entre dispositivos."
 resumen: "La actualización 3A283 de AirPods Pro activó funciones prometidas en la WWDC 2020, como audio espacial y cambio automático."

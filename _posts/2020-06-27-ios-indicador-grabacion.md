@@ -2,7 +2,7 @@
 layout: post
 title: "iOS 14 añadió indicadores de cámara y micrófono"
 date: 2020-06-27 10:00:00 +0300
-image: /images/blog/logo-apple.jpg
+image: /images/blog/apple.png
 image_alt: "Logotipo de Apple asociado a privacidad de cámara y micrófono"
 description: "iOS 14 y iPadOS 14 añadieron indicadores visuales para avisar cuando una app usa cámara o micrófono."
 resumen: "Los indicadores de cámara y micrófono de iOS 14 hicieron visible algo importante: cuándo una app está accediendo a sensores sensibles."

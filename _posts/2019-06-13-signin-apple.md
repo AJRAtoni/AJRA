@@ -2,7 +2,7 @@
 layout: post
 title: "Sign in with Apple: login rápido con foco en privacidad"
 date: 2019-06-13 10:00:00 +0300
-image: /images/blog/logo-apple.jpg
+image: /images/blog/apple.png
 image_alt: "Logotipo de Apple en una noticia sobre Sign in with Apple"
 description: "Apple presentó Sign in with Apple en WWDC 2019, una alternativa a los logins sociales basada en privacidad, Face ID, Touch ID y alias de email."
 card_subtitle: "Sign in with Apple fue una respuesta directa a los botones de login de Facebook y Google."

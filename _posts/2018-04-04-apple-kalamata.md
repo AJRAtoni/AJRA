@@ -2,7 +2,7 @@
 layout: post
 title: "Proyecto Kalamata: cuando Apple preparaba el salto del Mac a sus propios chips"
 date: 2018-04-04 10:00:00 +0300
-image: /images/blog/logo-apple.jpg
+image: /images/blog/apple.png
 image_alt: "Logotipo de Apple en una noticia sobre el Proyecto Kalamata y los futuros chips propios para Mac"
 description: "El Proyecto Kalamata anticipó el salto de Apple desde Intel hacia procesadores propios en Mac, una transición que más tarde se materializó con Apple Silicon."
 card_subtitle: "En 2018 el Proyecto Kalamata era un rumor importante. Visto con perspectiva."

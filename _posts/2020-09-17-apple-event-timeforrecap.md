@@ -2,7 +2,7 @@
 layout: post
 title: "Apple Time Flies: resumen de Apple Watch, iPad y servicios"
 date: 2020-09-17 10:00:00 +0300
-image: /images/blog/logo-apple.jpg
+image: /images/blog/apple.png
 image_alt: "Resumen del Apple Event Time Flies de septiembre de 2020"
 description: "Resumen del evento Time Flies de Apple: Apple Watch Series 6, Apple Watch SE, iPad, iPad Air, Apple Fitness+ y Apple One."
 resumen: "Time Flies fue una keynote sin iPhone, centrada en Apple Watch, iPad y servicios como Fitness+ y Apple One."
