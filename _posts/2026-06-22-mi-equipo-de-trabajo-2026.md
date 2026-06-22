@@ -5,7 +5,7 @@ date: 2026-06-22 09:00:00 -0400
 description: "En 2026 mi equipo de trabajo vuelve al minimalismo digital: MacBook Neo, iPhone Air y menos piezas alrededor."
 image: "/images/placeholder.webp"
 image_alt: "Imagen de portada placeholder de AJRA"
-resumen: "Después de años probando iPad, Mac mini, monitores, periféricos y setups cada vez más completos, en 2026 mi equipo de trabajo se reduce a MacBook Neo + iPhone Air."
+resumen: "En 2026 mi equipo de trabajo vuelve al minimalismo digital: MacBook Neo, iPhone Air y menos piezas alrededor."
 categories: [productividad]
 tags: [apple, minimalismo-digital, hardware, macbook-neo, iphone-air]
 source: "AJRAos/reviews/2026-05-16-mi-equipo-trabajo-2026.md"
