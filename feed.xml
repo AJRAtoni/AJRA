@@ -10,7 +10,7 @@ layout: null
     <atom:link href="{{ '/feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
     <language>es</language>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    {% for post in site.posts limit:20 %}
+    {% for post in site.posts %}
     <item>
       <title>{{ post.title | xml_escape }}</title>
       <description>{{ post.description | default: post.excerpt | markdownify | strip_html | normalize_whitespace | xml_escape }}</description>
