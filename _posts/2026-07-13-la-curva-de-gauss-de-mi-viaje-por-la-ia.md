@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "La curva de Gauss de mi viaje por la IA"
+title: "Mi viaje por la IA"
 date: 2026-07-13 10:00:00 -0400
 description: "De mis primeras pruebas con GPT-2 a los agentes y la vuelta a ChatGPT: una historia de curiosidad, acumulación, saturación y simplificación."
 image: "/images/blog/curva-gauss-viaje-ia.webp"
