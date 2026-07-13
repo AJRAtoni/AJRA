@@ -5,7 +5,7 @@ date: 2026-07-13 10:00:00 -0400
 description: "De mis primeras pruebas con GPT-2 a los agentes y la vuelta a ChatGPT: una historia de curiosidad, acumulación, saturación y simplificación."
 image: "/images/blog/curva-gauss-viaje-ia.webp"
 image_alt: "Una campana de Gauss que representa un viaje personal por las herramientas de inteligencia artificial"
-resumen: "He probado modelos, buscadores, generadores de imágenes, vídeo y agentes. Mi recorrido por la IA no ha sido una línea recta: ha sido una curva de Gauss."
+resumen: "De mis primeras pruebas con GPT-2 a los agentes y la vuelta a ChatGPT: una historia de curiosidad, acumulación, saturación y simplificación."
 categories: [ia, productividad]
 status: draft
 ---
