@@ -52,6 +52,10 @@ a {
   top: 4rem;
 }
 
+.sticky-column > h2 {
+  font-size: 1.19rem;
+}
+
 @media (min-width: 1100px) {
   .container {
     padding: 4rem;
