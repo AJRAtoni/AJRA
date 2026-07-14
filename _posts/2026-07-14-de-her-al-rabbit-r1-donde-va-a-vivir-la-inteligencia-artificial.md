@@ -229,9 +229,7 @@ No sé cuál de esas ideas acabará funcionando.
 
 Pero sí sé que el listón está mucho más alto que fabricar un aparato extraño y ponerle IA en el nombre.
 
-## Volver a Theodore
-
-Al terminar vuelvo a la escena de *Her*.
+## Volviendo a HER
 
 Theodore camina por la ciudad hablando con Samantha y apenas mira el dispositivo que lleva consigo. Cuando vi la película por primera vez pensaba en lo increíble que era aquella inteligencia.
 
