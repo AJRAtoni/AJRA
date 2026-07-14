@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "De Her al Rabbit R1: dónde va a vivir la inteligencia artificial"
+title: "¿Dónde va a vivir la inteligencia artificial?"
 date: 2026-07-14 11:45:00 -0400
 description: "Construimos cuerpos para la inteligencia artificial antes de que existiera un cerebro capaz de habitarlos."
 card_subtitle: "Construimos cuerpos para la inteligencia artificial antes de que existiera un cerebro capaz de habitarlos."
