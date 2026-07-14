@@ -45,6 +45,10 @@ El Humane AI Pin tenía una idea muy atractiva.
 
 En lugar de mirar una pantalla, llevaríamos la inteligencia sobre la ropa. Hablaríamos con ella, usaría una cámara para entender lo que teníamos delante y proyectaría información sobre la palma de la mano.
 
+<figure>
+<img src="/images/blog/humane-ai-pin.webp" alt="Humane AI Pin blanco con proyector y cámara" />
+</figure>
+
 Era uno de esos productos que se entienden mejor en un vídeo de presentación que en el uso diario.
 
 Costaba 699 dólares y requería una suscripción de 24 dólares al mes. A cambio prometía reducir nuestra dependencia del teléfono y convertir la IA en una presencia ambiental.
@@ -70,6 +74,10 @@ Humane dejó una lección incómoda: cuando un aparato depende por completo de s
 El Rabbit R1 tomó otra dirección.
 
 Era naranja, pequeño y deliberadamente visible. Teenage Engineering participó en su diseño y se notaba. Tenía una pantalla, una cámara giratoria, un botón para hablar y bastante más personalidad que la mayoría de los dispositivos actuales.
+
+<figure>
+<img src="/images/blog/rabbit-r1.webp" alt="Tres dispositivos Rabbit R1 naranjas sobre fondo negro" />
+</figure>
 
 Además, costaba 199 dólares y no exigía una suscripción mensual.
 
@@ -99,6 +107,10 @@ El usuario instala Rabbit Agent en su ordenador y el R1 se convierte en una inte
 
 Puede parecer un detalle técnico, pero cambia por completo la forma de entender el producto.
 
+<figure>
+<img src="/images/blog/rabbit-r1-rabbitos-2-3.webp" alt="Rabbit R1 mostrando la interfaz de rabbitOS 2.3" />
+</figure>
+
 Quizá el Rabbit R1 no necesitaba tener una gran inteligencia propia. Necesitaba conectarse con una que ya supiera trabajar.
 
 El aparato pone la cámara, el micrófono y el botón. [Hermes](/blog/hermes-agent-un-asistente-que-no-solo-responde-aprende/) u OpenClaw ponen la memoria, las herramientas y la capacidad de actuar.
@@ -122,6 +134,10 @@ OpenAI y Work Louder han elegido el 15 de julio de 2026 para desvelar un pequeñ
 No es el misterioso dispositivo de consumo que OpenAI desarrolla con Jony Ive. Tampoco parece un asistente autónomo comparable al Rabbit R1 o al Humane AI Pin.
 
 Es algo mucho más modesto: una forma de sacar los controles de Codex de la pantalla y colocarlos sobre el escritorio.
+
+<figure>
+<img src="/images/blog/openai-codex-work-louder.webp" alt="Controlador físico de escritorio para OpenAI Codex desarrollado con Work Louder" />
+</figure>
 
 Hasta que conozcamos la ficha definitiva, el Creator Micro 2 de Work Louder es la mejor referencia para imaginar qué pretende hacer.
 
@@ -166,6 +182,10 @@ Y ya tenemos bastantes.
 En junio de 2025 publiqué una pieza sobre [la alianza entre Sam Altman y Jony Ive](/blog/jony-ive-y-sam-altman-el-futuro-de-la-ia/). La terminaba con una pregunta bastante sencilla: ¿es el futuro o una fantasía millonaria?
 
 Un año después, la pregunta sigue abierta.
+
+<figure>
+<img src="/images/blog/jony-ive-sam-altman.webp" alt="Jony Ive y Sam Altman" />
+</figure>
 
 La colaboración entre OpenAI, Jony Ive y LoveFrom empezó alrededor de 2023. Las primeras exploraciones se convirtieron en diseños tangibles y llevaron a la creación de io.
 
