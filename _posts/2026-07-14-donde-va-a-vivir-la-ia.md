@@ -136,7 +136,7 @@ No es el misterioso dispositivo de consumo que OpenAI desarrolla con Jony Ive. T
 Es algo mucho más modesto: una consola de mando para sacar los controles de Codex de la pantalla y colocarlos sobre el escritorio.
 
 <figure>
-<img src="/images/blog/openai-codex-work-louder.webp" alt="Codex Micro, controlador físico para ChatGPT Codex desarrollado con Work Louder" />
+<img src="/images/blog/openai-codex-micro.webp" alt="Codex Micro, controlador físico para ChatGPT Codex desarrollado con Work Louder" />
 </figure>
 
 El aspecto final confirma que no es un teclado genérico con otro logotipo. Tiene trece interruptores mecánicos, sensor táctil, dial y joystick; funciona por Bluetooth o USB-C en Mac y Windows.
