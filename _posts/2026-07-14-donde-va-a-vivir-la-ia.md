@@ -129,33 +129,29 @@ Solo es la puerta.
 
 ## OpenAI pone Codex encima del escritorio
 
-OpenAI y Work Louder han elegido el 15 de julio de 2026 para desvelar un pequeño controlador físico para Codex, conocido antes de su presentación como Codex Micro.
+El anuncio ya está aquí. [OpenAI y Work Louder han lanzado Codex Micro](https://openai.com/supply/co-lab/work-louder/), un controlador físico para ChatGPT Codex que cuesta 230 dólares.
 
 No es el misterioso dispositivo de consumo que OpenAI desarrolla con Jony Ive. Tampoco parece un asistente autónomo comparable al Rabbit R1 o al Humane AI Pin.
 
-Es algo mucho más modesto: una forma de sacar los controles de Codex de la pantalla y colocarlos sobre el escritorio.
+Es algo mucho más modesto: una consola de mando para sacar los controles de Codex de la pantalla y colocarlos sobre el escritorio.
 
 <figure>
-<img src="/images/blog/openai-codex-work-louder.webp" alt="Controlador físico de escritorio para OpenAI Codex desarrollado con Work Louder" />
+<img src="/images/blog/openai-codex-work-louder.webp" alt="Codex Micro, controlador físico para ChatGPT Codex desarrollado con Work Louder" />
 </figure>
 
-Hasta que conozcamos la ficha definitiva, el Creator Micro 2 de Work Louder es la mejor referencia para imaginar qué pretende hacer.
+El aspecto final confirma que no es un teclado genérico con otro logotipo. Tiene trece interruptores mecánicos, sensor táctil, dial y joystick; funciona por Bluetooth o USB-C en Mac y Windows.
 
-El Creator Micro 2 tiene trece teclas mecánicas, un joystick, un dial y un sensor táctil. Permite configurar seis capas, abrir un menú radial con el joystick y cambiar automáticamente de perfil según la aplicación activa. La iluminación RGB indica qué conjunto de acciones está disponible. Todo se configura con Input, la aplicación de Work Louder para asignar atajos y secuencias a los controles físicos.
+Lo interesante está en cómo los han conectado con Codex. Las Agent Keys muestran con luz RGB el estado de cada agente: si está pensando, trabajando, esperando o ha terminado. El joystick abre flujos habituales, como revisar una pull request, depurar un error o refactorizar código.
 
-Todavía no sabemos qué partes de esa arquitectura conservará el dispositivo de OpenAI. Puede que tenga perfiles propios para Codex o una integración más profunda. También podría ser una edición personalizada con iconos y atajos preparados.
+Las teclas de comando dan acceso directo a aceptar, rechazar, usar push-to-talk o abrir un chat nuevo. Y el dial permite ajustar el nivel de razonamiento en ese momento: rápido para una tarea sencilla, más profundo cuando el trabajo lo pide.
 
-Pero la posibilidad resulta interesante.
-
-Imagino botones para iniciar una tarea, revisar modificaciones, aprobar un cambio o interrumpir un agente. No porque OpenAI haya confirmado ese mapa, sino porque son decisiones que ahora mismo suceden dentro de ventanas y menús.
-
-El valor de un aparato así estaría en convertir acciones abstractas en gestos repetibles y, con el tiempo, en memoria muscular. No necesita meter otro modelo de IA dentro de una caja.
+El valor de un aparato así está en convertir acciones abstractas en gestos repetibles y, con el tiempo, en memoria muscular. No necesita meter otro modelo de IA dentro de una caja.
 
 Es una entrada bastante menos espectacular al hardware que prometer el sustituto del teléfono. También puede ser más sensata.
 
 OpenAI no necesita convencer a millones de personas para que lleven un objeto nuevo colgado de la ropa. Solo tiene que conseguir que quienes trabajan con Codex prefieran pulsar un botón antes que buscar una función en la pantalla.
 
-Quizá el primer objeto físico de OpenAI sea, simplemente, una mejor forma de dirigir a los agentes que ya trabajan con nosotros.
+No es la respuesta definitiva a dónde vivirá la IA. Pero sí es una idea muy concreta de cómo podríamos dirigir a los agentes que ya trabajan con nosotros.
 
 ## El teléfono no piensa rendirse
 
@@ -243,7 +239,7 @@ Puede que Apple haya entendido mejor el problema. Quizá no haga falta inventar 
 
 Si Siri AI consigue entender el contexto de mis mensajes, emails, archivos, pantalla, calendario y recordatorios, y puedo hablarle desde el iPhone o los AirPods, estaría bastante cerca de lo que acabo de describir.
 
-Humane demostró que un diseño elegante no compensa una experiencia poco fiable. Rabbit encontró otra utilidad al mejorar lo que había detrás. Work Louder propone tocar la IA en lugar de encerrarla en otro asistente. OpenAI y Jony Ive todavía tienen que demostrar que existe una categoría nueva y no solo otro accesorio bonito.
+Humane demostró que un diseño elegante no compensa una experiencia poco fiable. Rabbit encontró otra utilidad al mejorar lo que había detrás. Codex Micro propone una consola de mando para trabajar con agentes, no otro asistente. OpenAI y Jony Ive todavía tienen que demostrar que existe una categoría nueva y no solo otro accesorio bonito.
 
 No sé cuál de esas ideas acabará funcionando.
 
