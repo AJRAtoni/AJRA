@@ -1,0 +1,28 @@
+{
+  "profile_url": "https://gametrack.app/user/ajra/playing",
+  "source_url": "https://gametrack.app/user/ajra/playing",
+  "games": [
+    {
+      "id": 1880,
+      "title": "Baldur's Gate: Enhanced Edition",
+      "platform": "Mac",
+      "url": "https://gametrack.app/game/1880",
+      "poster_url": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7ugr.jpg"
+    },
+    {
+      "id": 1440,
+      "title": "Fire Emblem: The Sacred Stones",
+      "platform": "GBA",
+      "url": "https://gametrack.app/game/1440",
+      "poster_url": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co25q4.jpg"
+    },
+    {
+      "id": 3225,
+      "title": "No Man's Sky",
+      "platform": "Mac",
+      "url": "https://gametrack.app/game/3225",
+      "poster_url": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6zat.jpg"
+    }
+  ],
+  "updated_at": "2026-08-06T14:49:20+00:00"
+}

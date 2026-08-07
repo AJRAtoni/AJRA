@@ -15,6 +15,52 @@
     <meta property="og:image" content="images/ajra-sharing.webp">
     <meta property="og:url" content="https://ajra.es">
     <link rel="canonical" href="https://ajra.es/">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "WebSite",
+                    "@id": "https://ajra.es/#website",
+                    "name": "AJRA",
+                    "url": "https://ajra.es/",
+                    "description": "Web Developer & Data Analyst"
+                },
+                {
+                    "@type": "ProfilePage",
+                    "@id": "https://ajra.es/#profile",
+                    "url": "https://ajra.es/",
+                    "name": "AJRA",
+                    "description": "Web Developer & Data Analyst. Ayudo a personas y empresas a mejorar su presencia online.",
+                    "isPartOf": {
+                        "@id": "https://ajra.es/#website"
+                    },
+                    "mainEntity": {
+                        "@id": "https://ajra.es/#person"
+                    }
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https://ajra.es/#person",
+                    "name": "AJRA",
+                    "alternateName": "AJRA Toni",
+                    "url": "https://ajra.es/",
+                    "image": "https://ajra.es/images/AJRA.webp",
+                    "jobTitle": "Web Developer & Data Analyst",
+                    "description": "Ayudo a personas y empresas a mejorar su presencia online.",
+                    "sameAs": [
+                        "https://www.threads.net/@ajra_toni",
+                        "https://www.instagram.com/Ajra_toni/",
+                        "https://www.youtube.com/@ajratoni",
+                        "https://letterboxd.com/Ajra/",
+                        "https://www.linkedin.com/in/ajratoni/",
+                        "https://github.com/ajratoni/",
+                        "https://ajra.substack.com"
+                    ]
+                }
+            ]
+        }
+    </script>
     <!-- Google Analytics tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJCYQTS88L"></script>
     <script>
@@ -24,7 +70,7 @@
 
         gtag('config', 'G-QJCYQTS88L');
     </script>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -33,14 +79,15 @@
             <div class="column">
                 <!-- Contenido de la primera columna -->
                 <header class="sticky-column">
-                    <img class="avatar" src="images/AJRA.webp" alt="AJRA" width="150px" height="150px">
+                    <img class="avatar" src="images/AJRA.webp" alt="AJRA" width="150" height="150">
                     <h1>&lt;/AJRA&gt;</h1>
-                    <h2>👨🏻‍💻 Web Developer & Data Analyst</h2>
+                    <h2>👨🏻‍💻 Web Developer &amp; Data Analyst</h2>
                     <h3>Ayudo a personas y empresas a mejorar su presencia online.</h3>
                 </header>
             </div>
             <div class="column">
                 <!-- Contenido de la segunda columna -->
+
 
                 <!-- Contenido Redes Sociales -->
                 <h2>Puedes encontrarme en...</h2>
@@ -63,7 +110,7 @@
                         </div>
                     </a>
 
-                    <a href="mailto:info@ajra.es" target="_blank" class="caja email" aria-label="Enlace a mi email">
+                    <a href="mailto:ajra@ajra.es" target="_blank" class="caja email" aria-label="Enlace a mi email">
                         <img class="logo-blanco" src="images/email.svg" alt="Email Logo">
                         <div class="info black">
                             <h2 class="title">Email</h2>
@@ -95,12 +142,12 @@
                             <p class="handle">@AJRATONI</p>
                         </div>
                     </a>
-                    <a href="https://culturafreak.substack.com" target="_blank" class="caja substack"
-                        aria-label="Enlace a mi newsletter">
+                    <a href="https://ajra.substack.com" target="_blank" class="caja substack"
+                        aria-label="Enlace a Substack by AJRA">
                         <img class="logo-blanco" src="images/substack.svg" alt="Substack Logo">
                         <div class="info black">
                             <h2 class="title">Substack</h2>
-                            <p class="handle">CULTURAFREAK</p>
+                            <p class="handle">by AJRA</p>
                         </div>
                     </a>
 
@@ -115,15 +162,27 @@
                     </a>
                 </section>
 
-                <!-- Contenido Trabajos -->
-                <h2>Mis Trabajos...</h2>
+                <!-- Contenido Side Projects -->
+                <h2>Mis side projects...</h2>
                 <section class="trabajos">
-                    <a href="https://culturafreak.com" class="caja trabajo1" aria-label="Visitar CulturaFreak"></a>
+                    <a href="https://ajra.es/recursos" class="caja trabajo1" aria-label="Visitar recursos de AJRA"></a>
                     <a href="https://marvel.ajra.es" class="caja trabajo2"
                         aria-label="Visitar Marvel Studios timeline"></a>
-                    <a href="https://ajra.es/recursos" class="caja trabajo3" aria-label="Visitar recursos de AJRA"></a>
-                    <a href="https://ajra.gumroad.com/l/prompts" class="caja trabajo4"
-                        aria-label="Visitar mi tienda de prompts"></a>
+                    <a href="https://saravrai.com" class="caja trabajo3" aria-label="Visitar Sara Vrai"></a>
+                    <a href="https://salud.ajra.es" class="caja trabajo4"
+                        aria-label="Visitar AJRA Health">
+                        <div class="health-project__header">
+                            <strong><span>AJRA</span> <span>HEALTH</span></strong>
+                            <svg class="health-project__pulse" viewBox="0 0 120 24" aria-hidden="true">
+                                <path pathLength="1" d="M0 12h26l7-8 11 16 10-14 9 12 7-6h50" />
+                            </svg>
+                        </div>
+                        <div class="health-project__references" aria-hidden="true">
+                            <img src="images/health/01-punto-de-partida.webp" alt="">
+                            <img src="images/health/05-mitad-del-camino.webp" alt="" loading="lazy">
+                            <img src="images/health/10-plena-forma.webp" alt="" loading="lazy">
+                        </div>
+                    </a>
                     <a href="https://dc.ajra.es" class="caja trabajo5" aria-label="Visitar DC Universe timeline"></a>
                     <a href="https://eventos.ajra.es" class="caja trabajo6" aria-label="Mi Calendario de Eventos"></a>
                 </section>
@@ -131,21 +190,20 @@
                 <!-- Estoy viendo -->
                 <h2>¿Qué estoy viendo?</h2>
                 <section class="tv">
-                    <a href="https://trakt.tv/users/ajra" target="_blank" class="caja tv1"
-                        aria-label="Enlace a mis series">
-                        <img class="logo-normal" src="images/trakttv.webp" loading="lazy" alt="Trakt TV">
+                    <a href="https://letterboxd.com/ajra/" target="_blank" rel="noopener noreferrer"
+                        class="caja tv1" aria-label="Ver mi perfil de Letterboxd">
+                        <img class="logo-normal" src="images/letterboxd.svg" loading="lazy" alt="Letterboxd">
                         <div class="info">
-                            <h2 class="title">Trakt TV</h2>
+                            <h2 class="title">LETTERBOXD</h2>
                             <p class="handle">@AJRA</p>
                         </div>
                     </a>
-                    <a href="https://trakt.tv/users/ajra" target="_blank" class="caja caja-tv tv2"
-                        aria-label="Contenido en espera de Trakt">
+                    <a href="https://letterboxd.com/ajra/" target="_blank" rel="noopener noreferrer"
+                        class="caja caja-tv tv2" data-letterboxd-card="0" aria-label="Última película vista">
                         <div class="mitad">
-                            <img class="logo-normal" src="images/trakttv.webp" loading="lazy" alt="Trakt TV">
+                            <img class="logo-normal" src="images/letterboxd.svg" loading="lazy" alt="Letterboxd">
                             <div class="info">
                                 <h2 class="title">CARGANDO...</h2>
-                                <p class="handle">Sincronizando Trakt</p>
                             </div>
                         </div>
                         <div class="mitad">
@@ -153,13 +211,12 @@
                                 alt="Cargando contenido">
                         </div>
                     </a>
-                    <a href="https://trakt.tv/users/ajra" target="_blank" class="caja caja-tv tv3"
-                        aria-label="Contenido en espera de Trakt">
+                    <a href="https://letterboxd.com/ajra/" target="_blank" rel="noopener noreferrer"
+                        class="caja caja-tv tv3" data-letterboxd-card="1" aria-label="Película vista recientemente">
                         <div class="mitad">
-                            <img class="logo-normal" src="images/trakttv.webp" loading="lazy" alt="Trakt TV">
+                            <img class="logo-normal" src="images/letterboxd.svg" loading="lazy" alt="Letterboxd">
                             <div class="info">
-                                <h2 class="title">PREPARANDO...</h2>
-                                <p class="handle">Actualizando biblioteca</p>
+                                <h2 class="title">CARGANDO...</h2>
                             </div>
                         </div>
                         <div class="mitad">
@@ -167,13 +224,12 @@
                                 alt="Cargando contenido">
                         </div>
                     </a>
-                    <a href="https://trakt.tv/users/ajra" target="_blank" class="caja caja-tv tv4"
-                        aria-label="Contenido en espera de Trakt">
+                    <a href="https://letterboxd.com/ajra/" target="_blank" rel="noopener noreferrer"
+                        class="caja caja-tv tv4" data-letterboxd-card="2" aria-label="Película vista recientemente">
                         <div class="mitad">
-                            <img class="logo-normal" src="images/trakttv.webp" loading="lazy" alt="Trakt TV">
+                            <img class="logo-normal" src="images/letterboxd.svg" loading="lazy" alt="Letterboxd">
                             <div class="info">
-                                <h2 class="title">SINCRONIZANDO...</h2>
-                                <p class="handle">Esperando datos</p>
+                                <h2 class="title">CARGANDO...</h2>
                             </div>
                         </div>
                         <div class="mitad">
@@ -186,18 +242,21 @@
                 <!-- Estoy jugando -->
                 <h2>¿A que estoy jugando?</h2>
                 <section class="juegos">
-                    <a href="https://gametrack.app/users/ajra/" class="caja caja-juego"
-                        aria-label="Enlace a mis juegos"><img src="images/gametrack.webp" class="juego1" loading="lazy"
+                    <a href="https://gametrack.app/user/ajra/playing" target="_blank" rel="noopener noreferrer"
+                        class="caja caja-juego gametrack-profile" aria-label="Ver los juegos que estoy jugando en GameTrack"><img src="images/gametrack.png" class="juego1" loading="lazy"
                             alt="GameTrack"></a>
-                    <a href="https://gametrack.app/game/1561" class="caja caja-juego"
-                        aria-label="Enlace a mis juegos"><img src="images/juego1.webp" class="juego2" loading="lazy"
-                            alt="Pokemon Red"></a>
-                    <a href="https://gametrack.app/game/3225" class="caja caja-juego"
-                        aria-label="Enlace a mis juegos"><img src="images/juego2.webp" class="juego3" loading="lazy"
-                            alt="No Man's Sky"></a>
-                    <a href="https://gametrack.app/game/14593" class="caja caja-juego"
-                        aria-label="Enlace a mis juegos"><img src="images/juego3.webp" class="juego4" loading="lazy"
-                            alt="Hollow Knight"></a>
+                    <a href="https://gametrack.app/game/1440" target="_blank" rel="noopener noreferrer"
+                        class="caja caja-juego" data-gametrack-card="0"
+                        aria-label="Cargando juego desde GameTrack"><img class="juego2" loading="lazy"
+                            alt=""></a>
+                    <a href="https://gametrack.app/game/325609" target="_blank" rel="noopener noreferrer"
+                        class="caja caja-juego" data-gametrack-card="1"
+                        aria-label="Cargando juego desde GameTrack"><img class="juego3" loading="lazy"
+                            alt=""></a>
+                    <a href="https://gametrack.app/game/1880" target="_blank" rel="noopener noreferrer"
+                        class="caja caja-juego" data-gametrack-card="2"
+                        aria-label="Cargando juego desde GameTrack"><img class="juego4" loading="lazy"
+                            alt=""></a>
                 </section>
 
 
@@ -205,7 +264,13 @@
                 <h2>Otras cosas...</h2>
                 <section class="cosas">
                     <a href="https://www.google.com/maps/@25.682489454072723,-80.4194488346887,9.591831176230313z"
-                        class="caja cosa1" aria-label="Enlace a mis cosas"> </a>
+                        class="caja cosa1" aria-label="Abrir mi ubicación en Google Maps">
+                        <span class="map-cloud cloud-one" aria-hidden="true"></span>
+                        <span class="map-cloud cloud-two" aria-hidden="true"></span>
+                        <span class="map-cloud cloud-three" aria-hidden="true"></span>
+                        <span class="flight-shadow" aria-hidden="true"></span>
+                        <span class="flight-plane" aria-hidden="true">✈︎</span>
+                    </a>
                     <div class="caja cosa2">
                         <p><strong>¿Has hecho las cosas?</strong></p>
                         <p>Recuerda hacer las cosas, las cosas no se van a hacer solas.</p>
@@ -228,10 +293,11 @@
         <script>
             document.getElementById("year").textContent = new Date().getFullYear();
         </script>
-        &copy; Desarrollado con 🧠 & 💛 por &lt;/AJRA&gt; <br>
+        &copy; Desarrollado con 🧠 &amp; 💛 por &lt;/AJRA&gt; <br>
 
     </footer>
-    <script src="js/trakt.js"></script>
+    <script src="js/letterboxd.js?v=2"></script>
+    <script src="js/gametrack.js?v=1"></script>
 </body>
 
 </html>

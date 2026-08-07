@@ -1,1 +1,8 @@
 .DS_Store
+.claude/
+CLAUDE.md
+_site/
+.jekyll-cache/
+.sass-cache/
+
+docs/

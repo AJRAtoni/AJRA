@@ -1,0 +1,95 @@
+name: Update media data
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-media-data.yml"
+      - "scripts/update_letterboxd.py"
+      - "scripts/update_gametrack.py"
+  schedule:
+    - cron: "0 0,12 * * *"
+      timezone: "America/New_York"
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: update-media-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Update Letterboxd and GameTrack data
+        run: |
+          python scripts/update_letterboxd.py
+          python scripts/update_gametrack.py
+
+      - name: Validate generated data
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          requirements = {
+              Path("data/letterboxd.json"): ("films", {"title", "url", "poster_url"}),
+              Path("data/gametrack.json"): ("games", {"title", "url", "poster_url"}),
+          }
+
+          for path, (collection, required_fields) in requirements.items():
+              payload = json.loads(path.read_text(encoding="utf-8"))
+              records = payload.get(collection)
+              if not isinstance(records, list) or len(records) != 3:
+                  raise SystemExit(f"{path} must contain exactly three {collection}")
+              for index, record in enumerate(records):
+                  missing = required_fields - record.keys()
+                  if missing or not all(record[field] for field in required_fields):
+                      raise SystemExit(
+                          f"{path} record {index} has missing or empty fields: {sorted(missing)}"
+                      )
+          PY
+
+      - name: Detect changes
+        id: changes
+        run: |
+          if git diff --quiet -- data/letterboxd.json data/gametrack.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit updated data
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/letterboxd.json data/gametrack.json
+          git commit -m "Update media data"
+          git push
+
+      - name: Request GitHub Pages rebuild
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          curl --fail-with-body --request POST \
+            --header "Accept: application/vnd.github+json" \
+            --header "Authorization: Bearer $GH_TOKEN" \
+            --header "X-GitHub-Api-Version: 2026-03-10" \
+            "https://api.github.com/repos/${{ github.repository }}/pages/builds"
