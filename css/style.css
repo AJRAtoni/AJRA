@@ -226,12 +226,18 @@ a {
 .trabajos {
   padding-bottom: 4rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: minmax(332px, auto);
   gap: 20px 20px;
   grid-auto-flow: row;
-  grid-template-areas: "trabajo1 trabajo2 trabajo3 trabajo4" "trabajo1 trabajo5 trabajo6 trabajo4";
+  grid-template-areas: "trabajo6 trabajo2 trabajo5 trabajo4";
   height: auto;
+}
+
+.trabajos > .caja {
+  box-sizing: border-box;
+  min-width: 0;
+  min-height: 332px;
 }
 
 .trabajo1 {
@@ -244,7 +250,8 @@ a {
 
 .trabajo2 {
   grid-area: trabajo2;
-  background-image: url("../images/trabajo2.webp");
+  background-image: url("../images/trabajo-marvel-vertical.webp");
+  background-color: #000000;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -371,7 +378,8 @@ a {
 
 .trabajo5 {
   grid-area: trabajo5;
-  background-image: url("../images/trabajo5.webp");
+  background-image: url("../images/trabajo-dc-vertical.webp");
+  background-color: #f8f8f8;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -379,7 +387,8 @@ a {
 
 .trabajo6 {
   grid-area: trabajo6;
-  background-image: url("../images/trabajo6.webp");
+  background-image: url("../images/trabajo-calendario-vertical.webp");
+  background-color: #f3f3f3;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -387,9 +396,9 @@ a {
 
 @media (max-width: 768px) {
   .trabajos {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "trabajo1 trabajo2" "trabajo1 trabajo5" "trabajo3 trabajo4" "trabajo6 trabajo4";
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(332px, auto));
+    grid-template-areas: "trabajo6 trabajo2" "trabajo5 trabajo4";
   }
 }
 

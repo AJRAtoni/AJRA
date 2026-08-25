@@ -23,6 +23,15 @@ FIRESTORE_ROOT = (
 )
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "gametrack.json"
+GAME_REPLACEMENTS: dict[int, dict[str, Any]] = {
+    1440: {
+        "id": 337036,
+        "title": "Tomodachi Life: Living the Dream",
+        "platform": "Switch 2",
+        "url": "https://gametrack.app/game/337036",
+        "poster_url": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobdqd.jpg",
+    }
+}
 
 
 def request_json(url: str, body: dict[str, Any] | None = None) -> Any:
@@ -104,19 +113,25 @@ def fetch_games() -> list[dict[str, Any]]:
         game_id = int(scalar(game, "gameID", 0))
         title = str(scalar(game, "title", "")).strip()
         poster = cover_url(str(scalar(game, "posterURL", "")))
-        if not game_id or not title or not poster or game_id in seen:
+        if not game_id or not title or not poster:
             continue
 
-        seen.add(game_id)
-        games.append(
+        game_data = GAME_REPLACEMENTS.get(
+            game_id,
             {
                 "id": game_id,
                 "title": title,
                 "platform": str(scalar(game, "ownedPlatform", "")),
                 "url": f"https://gametrack.app/game/{game_id}",
                 "poster_url": poster,
-            }
+            },
         )
+        output_id = int(game_data["id"])
+        if output_id in seen:
+            continue
+
+        seen.add(output_id)
+        games.append(game_data)
         if len(games) == 3:
             break
 
