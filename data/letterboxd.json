@@ -3,6 +3,26 @@
   "source_url": "https://letterboxd.com/ajra/rss/",
   "films": [
     {
+      "title": "Grand Theft Auto VI: An Extended Look",
+      "year": "2026",
+      "watched_date": "2026-08-27",
+      "rating": null,
+      "rating_text": "",
+      "rewatch": false,
+      "url": "https://letterboxd.com/ajra/film/grand-theft-auto-vi-an-extended-look/",
+      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/6/0/9/8/9/0/1609890-grand-theft-auto-vi-an-extended-look-0-600-0-900-crop.jpg?v=467b6becd6"
+    },
+    {
+      "title": "Americana",
+      "year": "2023",
+      "watched_date": "2026-08-25",
+      "rating": 3.0,
+      "rating_text": "★★★",
+      "rewatch": false,
+      "url": "https://letterboxd.com/ajra/film/americana-2023/",
+      "poster_url": "https://a.ltrbxd.com/resized/film-poster/8/3/9/5/1/6/839516-americana-2023-0-600-0-900-crop.jpg?v=a3ac7282a0"
+    },
+    {
       "title": "Bitter Christmas",
       "year": "2026",
       "watched_date": "2026-08-21",
@@ -11,27 +31,7 @@
       "rewatch": false,
       "url": "https://letterboxd.com/ajra/film/bitter-christmas/",
       "poster_url": "https://a.ltrbxd.com/resized/film-poster/9/8/1/4/3/7/981437-bitter-christmas-0-600-0-900-crop.jpg?v=e53e0d2801"
-    },
-    {
-      "title": "Disclosure Day",
-      "year": "2026",
-      "watched_date": "2026-08-10",
-      "rating": 3.0,
-      "rating_text": "★★★",
-      "rewatch": false,
-      "url": "https://letterboxd.com/ajra/film/disclosure-day/",
-      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/1/5/9/2/5/1/1159251-disclosure-day-0-600-0-900-crop.jpg?v=9ae810e4bb"
-    },
-    {
-      "title": "Feeling It",
-      "year": "2022",
-      "watched_date": "2026-08-07",
-      "rating": 3.5,
-      "rating_text": "★★★½",
-      "rewatch": false,
-      "url": "https://letterboxd.com/ajra/film/feeling-it/",
-      "poster_url": "https://a.ltrbxd.com/resized/film-poster/9/0/7/6/0/9/907609-feeling-it-0-600-0-900-crop.jpg?v=922b91a784"
     }
   ],
-  "updated_at": "2026-08-23T04:41:51+00:00"
+  "updated_at": "2026-08-28T16:27:10+00:00"
 }
