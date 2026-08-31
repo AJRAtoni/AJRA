@@ -3,11 +3,18 @@
   "source_url": "https://gametrack.app/user/ajra/playing",
   "games": [
     {
-      "id": 1880,
-      "title": "Baldur's Gate: Enhanced Edition",
-      "platform": "Mac",
-      "url": "https://gametrack.app/game/1880",
-      "poster_url": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7ugr.jpg"
+      "id": 338079,
+      "title": "Elden Ring: Tarnished Edition",
+      "platform": "Switch 2",
+      "url": "https://gametrack.app/game/338079",
+      "poster_url": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc8ea.jpg"
+    },
+    {
+      "id": 1877,
+      "title": "Cyberpunk 2077",
+      "platform": "Switch 2",
+      "url": "https://gametrack.app/game/1877",
+      "poster_url": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaih8.jpg"
     },
     {
       "id": 337036,
@@ -15,14 +22,7 @@
       "platform": "Switch 2",
       "url": "https://gametrack.app/game/337036",
       "poster_url": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobdqd.jpg"
-    },
-    {
-      "id": 3225,
-      "title": "No Man's Sky",
-      "platform": "Mac",
-      "url": "https://gametrack.app/game/3225",
-      "poster_url": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6zat.jpg"
     }
   ],
-  "updated_at": "2026-08-25T19:18:13+00:00"
+  "updated_at": "2026-08-31T14:10:33+00:00"
 }

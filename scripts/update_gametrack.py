@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
-"""Update AJRA.es in-progress games from AJRA's public GameTrack profile."""
+"""Update AJRA.es with AJRA's pinned in-progress games."""
 
 from __future__ import annotations
 
 import json
 import os
 import tempfile
-import urllib.parse
-import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -15,129 +13,35 @@ from typing import Any
 
 USERNAME = "ajra"
 PROFILE_URL = f"https://gametrack.app/user/{USERNAME}/playing"
-PROJECT_ID = "firebase-gametrack"
-API_KEY = "AIzaSyC7C-64IEIr30EGILwbOiaOZJttEpfpsUw"
-FIRESTORE_ROOT = (
-    f"https://firestore.googleapis.com/v1/projects/{PROJECT_ID}"
-    "/databases/(default)/documents"
-)
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "gametrack.json"
-GAME_REPLACEMENTS: dict[int, dict[str, Any]] = {
-    1440: {
+PINNED_GAMES: list[dict[str, Any]] = [
+    {
+        "id": 338079,
+        "title": "Elden Ring: Tarnished Edition",
+        "platform": "Switch 2",
+        "url": "https://gametrack.app/game/338079",
+        "poster_url": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc8ea.jpg",
+    },
+    {
+        "id": 1877,
+        "title": "Cyberpunk 2077",
+        "platform": "Switch 2",
+        "url": "https://gametrack.app/game/1877",
+        "poster_url": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaih8.jpg",
+    },
+    {
         "id": 337036,
         "title": "Tomodachi Life: Living the Dream",
         "platform": "Switch 2",
         "url": "https://gametrack.app/game/337036",
         "poster_url": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobdqd.jpg",
-    }
-}
-
-
-def request_json(url: str, body: dict[str, Any] | None = None) -> Any:
-    data = json.dumps(body).encode("utf-8") if body is not None else None
-    request = urllib.request.Request(
-        url,
-        data=data,
-        headers={
-            "Content-Type": "application/json",
-            "User-Agent": "AJRA.es GameTrack sync",
-        },
-        method="POST" if body is not None else "GET",
-    )
-    with urllib.request.urlopen(request, timeout=45) as response:
-        return json.load(response)
-
-
-def user_id() -> str:
-    query = {
-        "structuredQuery": {
-            "select": {"fields": [{"fieldPath": "username"}]},
-            "from": [{"collectionId": "users"}],
-            "where": {
-                "fieldFilter": {
-                    "field": {"fieldPath": "username"},
-                    "op": "EQUAL",
-                    "value": {"stringValue": USERNAME},
-                }
-            },
-            "limit": 1,
-        }
-    }
-    endpoint = f"{FIRESTORE_ROOT}:runQuery?{urllib.parse.urlencode({'key': API_KEY})}"
-    results = request_json(endpoint, query)
-    document = next((item.get("document") for item in results if item.get("document")), None)
-    if not document:
-        raise RuntimeError(f"GameTrack profile @{USERNAME} was not found")
-    return str(document["name"]).rsplit("/", 1)[-1]
-
-
-def scalar(fields: dict[str, Any], name: str, default: Any = "") -> Any:
-    value = fields.get(name, {})
-    for kind in ("stringValue", "integerValue", "doubleValue", "booleanValue"):
-        if kind in value:
-            return value[kind]
-    return default
-
-
-def cover_url(source: str) -> str:
-    if not source.startswith("https://images.igdb.com/igdb/image/upload/"):
-        return ""
-    filename = Path(urllib.parse.urlparse(source).path).stem
-    if not filename:
-        return ""
-    return f"https://images.igdb.com/igdb/image/upload/t_cover_big_2x/{filename}.jpg"
+    },
+]
 
 
 def fetch_games() -> list[dict[str, Any]]:
-    uid = user_id()
-    query = urllib.parse.urlencode(
-        {
-            "key": API_KEY,
-            "pageSize": 100,
-            "orderBy": "date desc",
-        }
-    )
-    endpoint = f"{FIRESTORE_ROOT}/posts/{uid}/nowPlaying?{query}"
-    response = request_json(endpoint)
-
-    games: list[dict[str, Any]] = []
-    seen: set[int] = set()
-    for document in response.get("documents", []):
-        game = (
-            document.get("fields", {})
-            .get("game", {})
-            .get("mapValue", {})
-            .get("fields", {})
-        )
-        game_id = int(scalar(game, "gameID", 0))
-        title = str(scalar(game, "title", "")).strip()
-        poster = cover_url(str(scalar(game, "posterURL", "")))
-        if not game_id or not title or not poster:
-            continue
-
-        game_data = GAME_REPLACEMENTS.get(
-            game_id,
-            {
-                "id": game_id,
-                "title": title,
-                "platform": str(scalar(game, "ownedPlatform", "")),
-                "url": f"https://gametrack.app/game/{game_id}",
-                "poster_url": poster,
-            },
-        )
-        output_id = int(game_data["id"])
-        if output_id in seen:
-            continue
-
-        seen.add(output_id)
-        games.append(game_data)
-        if len(games) == 3:
-            break
-
-    if len(games) < 3:
-        raise RuntimeError("GameTrack returned fewer than three usable games")
-    return games
+    return [game.copy() for game in PINNED_GAMES]
 
 
 def comparable(payload: dict[str, Any]) -> dict[str, Any]:
