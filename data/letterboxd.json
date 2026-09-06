@@ -3,6 +3,16 @@
   "source_url": "https://letterboxd.com/ajra/rss/",
   "films": [
     {
+      "title": "The Runner",
+      "year": "2026",
+      "watched_date": "2026-09-05",
+      "rating": 1.5,
+      "rating_text": "★½",
+      "rewatch": false,
+      "url": "https://letterboxd.com/ajra/film/the-runner-2026-2/",
+      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/2/7/1/2/7/5/1271275-the-runner-2026-2-0-600-0-900-crop.jpg?v=d2e0c447b6"
+    },
+    {
       "title": "Grand Theft Auto VI: An Extended Look",
       "year": "2026",
       "watched_date": "2026-08-27",
@@ -21,17 +31,7 @@
       "rewatch": false,
       "url": "https://letterboxd.com/ajra/film/americana-2023/",
       "poster_url": "https://a.ltrbxd.com/resized/film-poster/8/3/9/5/1/6/839516-americana-2023-0-600-0-900-crop.jpg?v=a3ac7282a0"
-    },
-    {
-      "title": "Bitter Christmas",
-      "year": "2026",
-      "watched_date": "2026-08-21",
-      "rating": 3.5,
-      "rating_text": "★★★½",
-      "rewatch": false,
-      "url": "https://letterboxd.com/ajra/film/bitter-christmas/",
-      "poster_url": "https://a.ltrbxd.com/resized/film-poster/9/8/1/4/3/7/981437-bitter-christmas-0-600-0-900-crop.jpg?v=e53e0d2801"
     }
   ],
-  "updated_at": "2026-08-28T16:27:10+00:00"
+  "updated_at": "2026-09-06T08:31:26+00:00"
 }
