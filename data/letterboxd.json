@@ -3,6 +3,16 @@
   "source_url": "https://letterboxd.com/ajra/rss/",
   "films": [
     {
+      "title": "Facing El Chapo",
+      "year": "2026",
+      "watched_date": "2026-09-27",
+      "rating": 3.5,
+      "rating_text": "★★★½",
+      "rewatch": false,
+      "url": "https://letterboxd.com/ajra/film/facing-el-chapo/",
+      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/4/8/9/9/3/9/1489939-facing-el-chapo-0-600-0-900-crop.jpg?v=f0775998f5"
+    },
+    {
       "title": "Barreda",
       "year": "2026",
       "watched_date": "2026-09-20",
@@ -21,17 +31,7 @@
       "rewatch": false,
       "url": "https://letterboxd.com/ajra/film/mayday-2026/",
       "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/0/2/5/2/0/3/1025203-mayday-2026-0-600-0-900-crop.jpg?v=d05a68f0b6"
-    },
-    {
-      "title": "Undercover",
-      "year": "2024",
-      "watched_date": "2026-09-06",
-      "rating": 4.0,
-      "rating_text": "★★★★",
-      "rewatch": false,
-      "url": "https://letterboxd.com/ajra/film/undercover-2024-1/",
-      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/0/9/9/3/1/6/1099316-undercover-2024-1-0-600-0-900-crop.jpg?v=2bfaba1ce8"
     }
   ],
-  "updated_at": "2026-09-21T09:46:41+00:00"
+  "updated_at": "2026-09-28T10:43:18+00:00"
 }
