@@ -486,19 +486,19 @@ a {
   object-fit: contain;
 }
 
-.juego1 {
+.juegos > :nth-child(1) {
   grid-area: juego1;
 }
 
-.juego2 {
+.juegos > :nth-child(2) {
   grid-area: juego2;
 }
 
-.juego3 {
+.juegos > :nth-child(3) {
   grid-area: juego3;
 }
 
-.juego4 {
+.juegos > :nth-child(4) {
   grid-area: juego4;
 }
 

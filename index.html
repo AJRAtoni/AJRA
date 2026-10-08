@@ -1,43 +1,302 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#ffffff" />
-    <meta name="description" content="Conoce a AJRA y su trabajo en desarrollo web, ecommerce y análisis de datos." />
-    <meta property="og:title" content="AJRA — ¿Hablamos?" />
-    <meta property="og:description" content="Ayudo a personas y empresas a mejorar su presencia online." />
-    <meta property="og:image" content="https://ajra.es/images/ajra-sharing.webp" />
-    <meta property="og:url" content="https://ajra.es/" />
-    <link rel="canonical" href="https://ajra.es/" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
-    <meta name="robots" content="index, follow" />
-    <title>AJRA — ¿Hablamos?</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f0f0f0">
+    <title>&lt;/AJRA&gt;</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <meta name="description" content="AJRA - Web Developer & Data Analyst">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="AJRA">
+    <meta property="og:description" content="Web Developer & Data Analyst">
+    <meta property="og:image" content="images/ajra-sharing.webp">
+    <meta property="og:url" content="https://ajra.es">
+    <link rel="canonical" href="https://ajra.es/">
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@graph": [
-          {"@type":"WebSite","@id":"https://ajra.es/#website","name":"AJRA","url":"https://ajra.es/","description":"Web Developer & Data Analyst"},
-          {"@type":"ProfilePage","@id":"https://ajra.es/#profile","url":"https://ajra.es/","name":"AJRA","description":"Web Developer & Data Analyst. Ayudo a personas y empresas a mejorar su presencia online.","isPartOf":{"@id":"https://ajra.es/#website"},"mainEntity":{"@id":"https://ajra.es/#person"}},
-          {"@type":"Person","@id":"https://ajra.es/#person","name":"AJRA","alternateName":"AJRA Toni","url":"https://ajra.es/","image":"https://ajra.es/images/AJRA.webp","jobTitle":"Web Developer & Data Analyst","description":"Ayudo a personas y empresas a mejorar su presencia online.","sameAs":["https://www.threads.net/@ajra_toni","https://www.instagram.com/Ajra_toni/","https://www.youtube.com/@ajratoni","https://letterboxd.com/Ajra/","https://www.linkedin.com/in/ajratoni/","https://github.com/ajratoni/","https://ajra.substack.com"]}
-        ]
-      }
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "WebSite",
+                    "@id": "https://ajra.es/#website",
+                    "name": "AJRA",
+                    "url": "https://ajra.es/",
+                    "description": "Web Developer & Data Analyst"
+                },
+                {
+                    "@type": "ProfilePage",
+                    "@id": "https://ajra.es/#profile",
+                    "url": "https://ajra.es/",
+                    "name": "AJRA",
+                    "description": "Web Developer & Data Analyst. Ayudo a personas y empresas a mejorar su presencia online.",
+                    "isPartOf": {
+                        "@id": "https://ajra.es/#website"
+                    },
+                    "mainEntity": {
+                        "@id": "https://ajra.es/#person"
+                    }
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https://ajra.es/#person",
+                    "name": "AJRA",
+                    "alternateName": "AJRA Toni",
+                    "url": "https://ajra.es/",
+                    "image": "https://ajra.es/images/AJRA.webp",
+                    "jobTitle": "Web Developer & Data Analyst",
+                    "description": "Ayudo a personas y empresas a mejorar su presencia online.",
+                    "sameAs": [
+                        "https://www.threads.net/@ajra_toni",
+                        "https://www.instagram.com/Ajra_toni/",
+                        "https://www.youtube.com/@ajratoni",
+                        "https://letterboxd.com/Ajra/",
+                        "https://www.linkedin.com/in/ajratoni/",
+                        "https://github.com/ajratoni/",
+                        "https://ajra.substack.com"
+                    ]
+                }
+            ]
+        }
     </script>
+    <!-- Google Analytics tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJCYQTS88L"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { window.dataLayer.push(arguments); }
-      gtag('js', new Date());
-      gtag('config', 'G-QJCYQTS88L');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-QJCYQTS88L');
     </script>
-    <script type="module" crossorigin src="/assets/index-BMsS5fK1.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DlWd3luF.css">
-  </head>
-  <body>
-    <a class="skip-link" href="#conversation">Ir a la conversación</a>
-    <div id="app"></div>
-    <noscript><main><h1>AJRA</h1><p>Para utilizar la conversación, activa JavaScript. También puedes contactar directamente en <a href="mailto:ajra@ajra.es">ajra@ajra.es</a>.</p></main></noscript>
-  </body>
+    <link href="css/style.css?v=20261008" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <main class="contenido">
+        <div class="container">
+            <div class="column">
+                <!-- Contenido de la primera columna -->
+                <header class="sticky-column">
+                    <img class="avatar" src="images/AJRA.webp" alt="AJRA" width="150" height="150">
+                    <h1>&lt;/AJRA&gt;</h1>
+                    <h2>👨🏻‍💻 Web Developer &amp; Data Analyst</h2>
+                    <h3>Ayudo a personas y empresas a mejorar su presencia online.</h3>
+                </header>
+            </div>
+            <div class="column">
+                <!-- Contenido de la segunda columna -->
+
+
+                <!-- Contenido Redes Sociales -->
+                <h2>Puedes encontrarme en...</h2>
+                <section class="sociales">
+                    <a href="https://www.threads.net/@ajra_toni" target="_blank" class="caja threads"
+                        aria-label="Enlace a mi perfil en Threads">
+                        <img class="logo-blanco" src="images/threads.svg" alt="Threads Logo">
+                        <div class="info">
+                            <h2 class="title">Threads</h2>
+                            <p class="handle">@AJRA_TONI</p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.instagram.com/Ajra_toni/" target="_blank" class="caja instagram"
+                        aria-label="Enlace a mi perfil en Instagram">
+                        <img class="logo-blanco" src="images/instagram.svg" alt="Instagram Logo">
+                        <div class="info">
+                            <h2 class="title">Instagram</h2>
+                            <p class="handle">@AJRA_TONI</p>
+                        </div>
+                    </a>
+
+                    <a href="mailto:ajra@ajra.es" target="_blank" class="caja email" aria-label="Enlace a mi email">
+                        <img class="logo-blanco" src="images/email.svg" alt="Email Logo">
+                        <div class="info black">
+                            <h2 class="title">Email</h2>
+                            <p class="handle">@AJRA.ES</p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.youtube.com/@ajratoni" target="_blank" class="caja youtube-card"
+                        aria-label="Enlace a mi canal de YouTube">
+                        <img class="logo-blanco" src="images/youtube.svg" alt="Youtube Logo">
+                        <div class="info">
+                            <h2 class="title">YouTube</h2>
+                            <p class="handle">@AJRATONI</p>
+                        </div>
+                    </a>
+                    <a href="https://letterboxd.com/Ajra/" target="_blank" class="caja letterboxd"
+                        aria-label="Enlace a mi perfil en Letterboxd">
+                        <img class="logo-normal" src="images/letterboxd.svg" alt="Letterboxd Logo">
+                        <div class="info">
+                            <h2 class="title">Letterboxd</h2>
+                            <p class="handle">@AJRA</p>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ajratoni/" target="_blank" class="caja linkedin"
+                        aria-label="Enlace a mi perfil en Linkedin">
+                        <img class="logo-blanco" src="images/linkedin.svg" alt="LinkedIn Logo">
+                        <div class="info">
+                            <h2 class="title">LinkedIn</h2>
+                            <p class="handle">@AJRATONI</p>
+                        </div>
+                    </a>
+                    <a href="https://ajra.substack.com" target="_blank" class="caja substack"
+                        aria-label="Enlace a Substack by AJRA">
+                        <img class="logo-blanco" src="images/substack.svg" alt="Substack Logo">
+                        <div class="info black">
+                            <h2 class="title">Substack</h2>
+                            <p class="handle">by AJRA</p>
+                        </div>
+                    </a>
+
+
+                    <a href="https://github.com/ajratoni/" target="_blank" class="caja github"
+                        aria-label="Enlace a mi perfil en GitHub">
+                        <img class="logo-blanco" src="images/github.svg" alt="GitHub Logo">
+                        <div class="info">
+                            <h2 class="title">GitHub</h2>
+                            <p class="handle">@AJRA</p>
+                        </div>
+                    </a>
+                </section>
+
+                <!-- Contenido Side Projects -->
+                <h2>Mis side projects...</h2>
+                <section class="trabajos">
+                    <a href="https://eventos.ajra.es" class="caja trabajo6" aria-label="Mi Calendario de Eventos"></a>
+                    <a href="https://marvel.ajra.es" class="caja trabajo2"
+                        aria-label="Visitar Marvel Studios timeline"></a>
+                    <a href="https://dc.ajra.es" class="caja trabajo5" aria-label="Visitar DC Universe timeline"></a>
+                    <a href="https://salud.ajra.es" class="caja trabajo4"
+                        aria-label="Visitar AJRA Health">
+                        <div class="health-project__header">
+                            <strong><span>AJRA</span> <span>HEALTH</span></strong>
+                            <svg class="health-project__pulse" viewBox="0 0 120 24" aria-hidden="true">
+                                <path pathLength="1" d="M0 12h26l7-8 11 16 10-14 9 12 7-6h50" />
+                            </svg>
+                        </div>
+                        <div class="health-project__references" aria-hidden="true">
+                            <img src="images/health/01-punto-de-partida.webp" alt="">
+                            <img src="images/health/05-mitad-del-camino.webp" alt="" loading="lazy">
+                            <img src="images/health/10-plena-forma.webp" alt="" loading="lazy">
+                        </div>
+                    </a>
+                </section>
+
+                <!-- Estoy viendo -->
+                <h2>¿Qué estoy viendo?</h2>
+                <section class="tv">
+                    <a href="https://letterboxd.com/ajra/" target="_blank" rel="noopener noreferrer"
+                        class="caja tv1" aria-label="Ver mi perfil de Letterboxd">
+                        <img class="logo-normal" src="images/letterboxd.svg" loading="lazy" alt="Letterboxd">
+                        <div class="info">
+                            <h2 class="title">LETTERBOXD</h2>
+                            <p class="handle">@AJRA</p>
+                        </div>
+                    </a>
+                    <a href="https://letterboxd.com/ajra/" target="_blank" rel="noopener noreferrer"
+                        class="caja caja-tv tv2" data-letterboxd-card="0" aria-label="Última película vista">
+                        <div class="mitad">
+                            <img class="logo-normal" src="images/letterboxd.svg" loading="lazy" alt="Letterboxd">
+                            <div class="info">
+                                <h2 class="title">CARGANDO...</h2>
+                            </div>
+                        </div>
+                        <div class="mitad">
+                            <img class="poster" src="images/cineytv-placeholder.webp" loading="lazy"
+                                alt="Cargando contenido">
+                        </div>
+                    </a>
+                    <a href="https://letterboxd.com/ajra/" target="_blank" rel="noopener noreferrer"
+                        class="caja caja-tv tv3" data-letterboxd-card="1" aria-label="Película vista recientemente">
+                        <div class="mitad">
+                            <img class="logo-normal" src="images/letterboxd.svg" loading="lazy" alt="Letterboxd">
+                            <div class="info">
+                                <h2 class="title">CARGANDO...</h2>
+                            </div>
+                        </div>
+                        <div class="mitad">
+                            <img class="poster" src="images/cineytv-placeholder.webp" loading="lazy"
+                                alt="Cargando contenido">
+                        </div>
+                    </a>
+                    <a href="https://letterboxd.com/ajra/" target="_blank" rel="noopener noreferrer"
+                        class="caja caja-tv tv4" data-letterboxd-card="2" aria-label="Película vista recientemente">
+                        <div class="mitad">
+                            <img class="logo-normal" src="images/letterboxd.svg" loading="lazy" alt="Letterboxd">
+                            <div class="info">
+                                <h2 class="title">CARGANDO...</h2>
+                            </div>
+                        </div>
+                        <div class="mitad">
+                            <img class="poster" src="images/cineytv-placeholder.webp" loading="lazy"
+                                alt="Cargando contenido">
+                        </div>
+                    </a>
+                </section>
+
+                <!-- Estoy jugando -->
+                <h2>¿A que estoy jugando?</h2>
+                <section class="juegos">
+                    <a href="https://gametrack.app/user/ajra/playing" target="_blank" rel="noopener noreferrer"
+                        class="caja caja-juego gametrack-profile" aria-label="Ver los juegos que estoy jugando en GameTrack"><img src="images/gametrack.png" class="juego1" loading="lazy"
+                            alt="GameTrack"></a>
+                    <a href="https://gametrack.app/game/338079" target="_blank" rel="noopener noreferrer"
+                        class="caja caja-juego" data-gametrack-card="0"
+                        aria-label="Elden Ring: Tarnished Edition en GameTrack"><img class="juego2" loading="lazy"
+                            src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc8ea.jpg" alt="Elden Ring: Tarnished Edition"></a>
+                    <a href="https://gametrack.app/game/1877" target="_blank" rel="noopener noreferrer"
+                        class="caja caja-juego" data-gametrack-card="1"
+                        aria-label="Cyberpunk 2077 en GameTrack"><img class="juego3" loading="lazy"
+                            src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaih8.jpg" alt="Cyberpunk 2077"></a>
+                    <a href="https://gametrack.app/game/337036" target="_blank" rel="noopener noreferrer"
+                        class="caja caja-juego" data-gametrack-card="2"
+                        aria-label="Tomodachi Life: Living the Dream en GameTrack"><img class="juego4" loading="lazy"
+                            src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobdqd.jpg" alt="Tomodachi Life: Living the Dream"></a>
+                </section>
+
+
+                <!-- Otras cosas -->
+                <h2>Otras cosas...</h2>
+                <section class="cosas">
+                    <a href="https://www.google.com/maps/@25.682489454072723,-80.4194488346887,9.591831176230313z"
+                        class="caja cosa1" aria-label="Abrir mi ubicación en Google Maps">
+                        <span class="map-cloud cloud-one" aria-hidden="true"></span>
+                        <span class="map-cloud cloud-two" aria-hidden="true"></span>
+                        <span class="map-cloud cloud-three" aria-hidden="true"></span>
+                        <span class="flight-shadow" aria-hidden="true"></span>
+                        <span class="flight-plane" aria-hidden="true">✈︎</span>
+                    </a>
+                    <div class="caja cosa2">
+                        <p><strong>¿Has hecho las cosas?</strong></p>
+                        <p>Recuerda hacer las cosas, las cosas no se van a hacer solas.</p>
+                    </div>
+                    <a href="https://www.buymeacoffee.com/ajra" target="_blank" class="caja cosa3"
+                        aria-label="Enlace a mis buymeacoffee">
+                        <img class="logo-coffe" src="images/buymeacoffee.webp" alt="BuyMeaCoffee Logo" loading="lazy">
+                        <div class="info">
+                            <h2 class="title black">Cómprame un café</h2>
+                            <p class="handle black">@AJRA</p>
+                        </div>
+                    </a>
+                </section>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <span id="year"></span>
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+        &copy; Desarrollado con 🧠 &amp; 💛 por &lt;/AJRA&gt; <br>
+
+    </footer>
+    <script src="js/letterboxd.js?v=2"></script>
+    <script src="js/gametrack.js?v=1"></script>
+</body>
+
 </html>
