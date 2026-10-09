@@ -3,35 +3,35 @@
   "source_url": "https://letterboxd.com/ajra/rss/",
   "films": [
     {
-      "title": "The Beloved",
+      "title": "The AI Doc: Or How I Became an Apocaloptimist",
       "year": "2026",
-      "watched_date": "2026-10-04",
-      "rating": 4.5,
-      "rating_text": "★★★★½",
+      "watched_date": "2026-10-08",
+      "rating": 3.0,
+      "rating_text": "★★★",
       "rewatch": false,
-      "url": "https://letterboxd.com/ajra/film/the-beloved-2026/",
-      "poster_url": "https://a.ltrbxd.com/resized/film-poster/9/6/8/3/5/7/968357-the-beloved-2026-0-600-0-900-crop.jpg?v=4479b11471"
+      "url": "https://letterboxd.com/ajra/film/the-ai-doc-or-how-i-became-an-apocaloptimist/",
+      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/4/6/4/9/3/3/1464933-the-ai-doc-or-how-i-became-an-apocaloptimist-0-600-0-900-crop.jpg?v=4f8067aed0"
     },
     {
-      "title": "Resident Evil",
+      "title": "Untold Mr. T: I Pity the Fool",
       "year": "2026",
-      "watched_date": "2026-10-03",
-      "rating": 3.5,
-      "rating_text": "★★★½",
-      "rewatch": false,
-      "url": "https://letterboxd.com/ajra/film/resident-evil-2026/",
-      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/3/0/2/7/1/7/1302717-untitled-resident-evil-reboot-0-600-0-900-crop.jpg?v=a688bf1bc7"
-    },
-    {
-      "title": "Schumacher ’94 — The Birth of a Legend",
-      "year": "2026",
-      "watched_date": "2026-10-02",
+      "watched_date": "2026-10-07",
       "rating": 2.5,
       "rating_text": "★★½",
       "rewatch": false,
-      "url": "https://letterboxd.com/ajra/film/schumacher-94-the-birth-of-a-legend/",
-      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/6/1/7/8/0/1/1617801-schumacher-94-the-birth-of-a-legend-0-600-0-900-crop.jpg?v=04554dd6ae"
+      "url": "https://letterboxd.com/ajra/film/untold-mr-t-i-pity-the-fool/",
+      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/6/0/5/4/6/9/1605469-untold-mr-t-i-pity-the-fool-0-600-0-900-crop.jpg?v=c6a91eb336"
+    },
+    {
+      "title": "Unabomber",
+      "year": "2026",
+      "watched_date": "2026-10-06",
+      "rating": 3.0,
+      "rating_text": "★★★",
+      "rewatch": false,
+      "url": "https://letterboxd.com/ajra/film/unabomber-2026/",
+      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/3/6/9/2/1/1/1369211-unabomber-2026-0-600-0-900-crop.jpg?v=8b88a65b3a"
     }
   ],
-  "updated_at": "2026-10-05T11:17:39+00:00"
+  "updated_at": "2026-10-09T11:12:23+00:00"
 }
