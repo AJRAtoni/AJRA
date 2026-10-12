@@ -13,6 +13,16 @@
       "poster_url": "https://a.ltrbxd.com/resized/film-poster/6/3/6/7/6/1/636761-evil-dead-rise-0-600-0-900-crop.jpg?v=51a7fe0b29"
     },
     {
+      "title": "Matchbox the Movie",
+      "year": "2026",
+      "watched_date": "2026-10-10",
+      "rating": 2.0,
+      "rating_text": "★★",
+      "rewatch": false,
+      "url": "https://letterboxd.com/ajra/film/matchbox-the-movie/",
+      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/0/3/4/4/9/9/1034499-matchbox-the-movie-0-600-0-900-crop.jpg?v=9c1f7e4492"
+    },
+    {
       "title": "The AI Doc: Or How I Became an Apocaloptimist",
       "year": "2026",
       "watched_date": "2026-10-08",
@@ -21,17 +31,7 @@
       "rewatch": false,
       "url": "https://letterboxd.com/ajra/film/the-ai-doc-or-how-i-became-an-apocaloptimist/",
       "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/4/6/4/9/3/3/1464933-the-ai-doc-or-how-i-became-an-apocaloptimist-0-600-0-900-crop.jpg?v=4f8067aed0"
-    },
-    {
-      "title": "Untold Mr. T: I Pity the Fool",
-      "year": "2026",
-      "watched_date": "2026-10-07",
-      "rating": 2.5,
-      "rating_text": "★★½",
-      "rewatch": false,
-      "url": "https://letterboxd.com/ajra/film/untold-mr-t-i-pity-the-fool/",
-      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/6/0/5/4/6/9/1605469-untold-mr-t-i-pity-the-fool-0-600-0-900-crop.jpg?v=c6a91eb336"
     }
   ],
-  "updated_at": "2026-10-12T11:46:21+00:00"
+  "updated_at": "2026-10-12T22:48:37+00:00"
 }
