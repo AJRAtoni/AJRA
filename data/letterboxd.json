@@ -3,6 +3,16 @@
   "source_url": "https://letterboxd.com/ajra/rss/",
   "films": [
     {
+      "title": "Animals",
+      "year": "2026",
+      "watched_date": "2026-10-13",
+      "rating": 3.0,
+      "rating_text": "★★★",
+      "rewatch": false,
+      "url": "https://letterboxd.com/ajra/film/animals-2026/",
+      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/1/1/9/2/3/4/1119234-animals-2026-2-0-600-0-900-crop.jpg?v=6c15da80a6"
+    },
+    {
       "title": "Evil Dead Rise",
       "year": "2023",
       "watched_date": "2026-10-11",
@@ -21,17 +31,7 @@
       "rewatch": false,
       "url": "https://letterboxd.com/ajra/film/matchbox-the-movie/",
       "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/0/3/4/4/9/9/1034499-matchbox-the-movie-0-600-0-900-crop.jpg?v=9c1f7e4492"
-    },
-    {
-      "title": "The AI Doc: Or How I Became an Apocaloptimist",
-      "year": "2026",
-      "watched_date": "2026-10-08",
-      "rating": 3.0,
-      "rating_text": "★★★",
-      "rewatch": false,
-      "url": "https://letterboxd.com/ajra/film/the-ai-doc-or-how-i-became-an-apocaloptimist/",
-      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/4/6/4/9/3/3/1464933-the-ai-doc-or-how-i-became-an-apocaloptimist-0-600-0-900-crop.jpg?v=4f8067aed0"
     }
   ],
-  "updated_at": "2026-10-12T22:48:37+00:00"
+  "updated_at": "2026-10-16T08:53:30+00:00"
 }
