@@ -387,9 +387,9 @@ a {
 
 .trabajo6 {
   grid-area: trabajo6;
-  background-image: url("../images/trabajo-calendario-vertical.webp");
-  background-color: #f3f3f3;
-  background-size: cover;
+  background-image: url("../images/trabajo-eventos-20261020.webp");
+  background-color: #f5f5f7;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
