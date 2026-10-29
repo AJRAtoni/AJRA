@@ -3,6 +3,16 @@
   "source_url": "https://letterboxd.com/ajra/rss/",
   "films": [
     {
+      "title": "La Bola Negra",
+      "year": "2026",
+      "watched_date": "2026-10-29",
+      "rating": 5.0,
+      "rating_text": "★★★★★",
+      "rewatch": false,
+      "url": "https://letterboxd.com/ajra/film/la-bola-negra/",
+      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/3/0/2/0/3/0/1302030-la-bola-negra-0-600-0-900-crop.jpg?v=d8dd544a16"
+    },
+    {
       "title": "Soulm8te",
       "year": "2026",
       "watched_date": "2026-10-16",
@@ -21,17 +31,7 @@
       "rewatch": false,
       "url": "https://letterboxd.com/ajra/film/animals-2026/",
       "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/1/1/9/2/3/4/1119234-animals-2026-2-0-600-0-900-crop.jpg?v=6c15da80a6"
-    },
-    {
-      "title": "Evil Dead Rise",
-      "year": "2023",
-      "watched_date": "2026-10-11",
-      "rating": 3.0,
-      "rating_text": "★★★",
-      "rewatch": false,
-      "url": "https://letterboxd.com/ajra/film/evil-dead-rise/",
-      "poster_url": "https://a.ltrbxd.com/resized/film-poster/6/3/6/7/6/1/636761-evil-dead-rise-0-600-0-900-crop.jpg?v=51a7fe0b29"
     }
   ],
-  "updated_at": "2026-10-17T18:18:09+00:00"
+  "updated_at": "2026-10-29T20:57:19+00:00"
 }
