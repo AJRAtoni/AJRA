@@ -3,9 +3,19 @@
   "source_url": "https://letterboxd.com/ajra/rss/",
   "films": [
     {
-      "title": "La Bola Negra",
+      "title": "La luz",
       "year": "2026",
       "watched_date": "2026-10-29",
+      "rating": 4.0,
+      "rating_text": "★★★★",
+      "rewatch": false,
+      "url": "https://letterboxd.com/ajra/film/la-luz-2026/",
+      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/4/7/7/9/2/4/1477924-la-luz-2026-0-600-0-900-crop.jpg?v=5c5199c059"
+    },
+    {
+      "title": "La Bola Negra",
+      "year": "2026",
+      "watched_date": "2026-10-28",
       "rating": 5.0,
       "rating_text": "★★★★★",
       "rewatch": false,
@@ -21,17 +31,7 @@
       "rewatch": false,
       "url": "https://letterboxd.com/ajra/film/soulm8te/",
       "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/1/8/8/5/1/8/1188518-soulm8te-0-600-0-900-crop.jpg?v=46dab2e076"
-    },
-    {
-      "title": "Animals",
-      "year": "2026",
-      "watched_date": "2026-10-13",
-      "rating": 3.0,
-      "rating_text": "★★★",
-      "rewatch": false,
-      "url": "https://letterboxd.com/ajra/film/animals-2026/",
-      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/1/1/9/2/3/4/1119234-animals-2026-2-0-600-0-900-crop.jpg?v=6c15da80a6"
     }
   ],
-  "updated_at": "2026-10-29T20:57:19+00:00"
+  "updated_at": "2026-10-30T10:45:38+00:00"
 }
