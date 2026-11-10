@@ -17,11 +17,11 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "gametrack.json"
 PINNED_GAMES: list[dict[str, Any]] = [
     {
-        "id": 338079,
-        "title": "Elden Ring: Tarnished Edition",
+        "id": 405460,
+        "title": "The Legend of Zelda: Ocarina of Time",
         "platform": "Switch 2",
-        "url": "https://gametrack.app/game/338079",
-        "poster_url": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc8ea.jpg",
+        "url": "https://gametrack.app/game/405460",
+        "poster_url": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocv5r.jpg",
     },
     {
         "id": 1877,
