@@ -435,17 +435,6 @@ a {
   gap: 14px;
 }
 
-.post-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.caja-post .avatar {
-  width: 45px;
-  height: 45px;
-}
-
 .tv1 {
   grid-area: tv1;
   background: #202830;
@@ -475,9 +464,9 @@ a {
 }
 
 .poster-post {
-  width: 168px;
+  width: 100%;
   max-width: 100%;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 2 / 1;
   object-fit: cover;
   border-radius: 8px;
 }
