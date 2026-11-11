@@ -230,7 +230,7 @@ a {
   grid-template-rows: minmax(332px, auto);
   gap: 20px 20px;
   grid-auto-flow: row;
-  grid-template-areas: "trabajo6 trabajo2 trabajo5 trabajo4";
+  grid-template-areas: ". trabajo2 trabajo5 .";
   height: auto;
 }
 
@@ -397,8 +397,8 @@ a {
 @media (max-width: 768px) {
   .trabajos {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-template-rows: repeat(2, minmax(332px, auto));
-    grid-template-areas: "trabajo6 trabajo2" "trabajo5 trabajo4";
+    grid-template-rows: minmax(332px, auto);
+    grid-template-areas: "trabajo2 trabajo5";
   }
 }
 
