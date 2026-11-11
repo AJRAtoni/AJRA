@@ -428,6 +428,13 @@ a {
   justify-content: space-between;
 }
 
+.caja-post {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 14px;
+}
+
 .tv1 {
   grid-area: tv1;
   background: #202830;
@@ -457,9 +464,9 @@ a {
 }
 
 .poster-post {
-  width: 168px;
+  width: 100%;
   max-width: 100%;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 2 / 1;
   object-fit: cover;
   border-radius: 8px;
 }
