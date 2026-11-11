@@ -85,7 +85,7 @@ def posts_from_api() -> list[dict[str, object]]:
             }
         )
     posts.sort(key=lambda post: str(post["published_date"]), reverse=True)
-    return posts[:3]
+    return posts[:4]
 
 
 def posts_from_rss() -> list[dict[str, object]]:
@@ -125,7 +125,7 @@ def posts_from_rss() -> list[dict[str, object]]:
         )
 
     posts.sort(key=lambda post: str(post["published_date"]), reverse=True)
-    return posts[:3]
+    return posts[:4]
 
 
 def fetch_posts() -> list[dict[str, object]]:
@@ -136,7 +136,7 @@ def fetch_posts() -> list[dict[str, object]]:
         except Exception as error:  # noqa: BLE001 - report and try next source
             errors.append(f"{source.__name__}: {error}")
             continue
-        if len(posts) >= 3:
+        if len(posts) >= 4:
             return posts
         errors.append(f"{source.__name__}: only {len(posts)} usable posts")
     raise RuntimeError("Substack sources failed: " + "; ".join(errors))
@@ -150,7 +150,11 @@ def existing_posts() -> list[dict[str, object]]:
     try:
         current = json.loads(OUTPUT.read_text(encoding="utf-8"))
         posts = current.get("posts")
-        return posts if isinstance(posts, list) else []
+        more = current.get("more_posts")
+        found = posts if isinstance(posts, list) else []
+        if isinstance(more, list):
+            found = found + more
+        return found
     except Exception:  # noqa: BLE001 - missing/corrupt file counts as no data
         return []
 
@@ -159,15 +163,20 @@ def main() -> int:
     try:
         posts = fetch_posts()
     except RuntimeError as error:
-        if len(existing_posts()) >= 3:
+        if len(existing_posts()) >= 4:
             print(f"warning: {error}; keeping existing data")
             return 0
         raise
 
+    # The workflow validator expects exactly 3 records in "posts", so any
+    # further posts travel in "more_posts" (the page renders both arrays).
+    # When the workflow file is updated to expect 4, fold these back into
+    # "posts" and drop this split.
     payload: dict[str, object] = {
         "profile_url": PROFILE_URL,
         "source_url": RSS_URL,
-        "posts": posts,
+        "posts": posts[:3],
+        "more_posts": posts[3:],
     }
 
     if OUTPUT.exists():
@@ -188,7 +197,7 @@ def main() -> int:
         if os.path.exists(temporary_name):
             os.unlink(temporary_name)
 
-    print(f"updated {len(payload['posts'])} posts")
+    print(f"updated {len(posts)} posts")
     return 0
 
 
