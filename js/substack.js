@@ -21,9 +21,8 @@ async function renderSubstackPosts() {
         if (!response.ok) throw new Error('No se pudieron cargar los datos de Substack');
 
         const data = await response.json();
-        const posts = [...(data.posts || []), ...(data.more_posts || [])];
         cards.forEach((card, index) => {
-            const post = posts[index];
+            const post = data.posts[index];
             if (post) renderPost(card, post);
             else card.hidden = true;
         });

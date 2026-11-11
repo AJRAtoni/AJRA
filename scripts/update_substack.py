@@ -150,11 +150,7 @@ def existing_posts() -> list[dict[str, object]]:
     try:
         current = json.loads(OUTPUT.read_text(encoding="utf-8"))
         posts = current.get("posts")
-        more = current.get("more_posts")
-        found = posts if isinstance(posts, list) else []
-        if isinstance(more, list):
-            found = found + more
-        return found
+        return posts if isinstance(posts, list) else []
     except Exception:  # noqa: BLE001 - missing/corrupt file counts as no data
         return []
 
@@ -168,15 +164,10 @@ def main() -> int:
             return 0
         raise
 
-    # The workflow validator expects exactly 3 records in "posts", so any
-    # further posts travel in "more_posts" (the page renders both arrays).
-    # When the workflow file is updated to expect 4, fold these back into
-    # "posts" and drop this split.
     payload: dict[str, object] = {
         "profile_url": PROFILE_URL,
         "source_url": RSS_URL,
-        "posts": posts[:3],
-        "more_posts": posts[3:],
+        "posts": posts,
     }
 
     if OUTPUT.exists():
