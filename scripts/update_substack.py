@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Update AJRA.es latest posts using only AJRA's public Substack RSS feed."""
+"""Update AJRA.es latest posts from AJRA's public Substack.
+
+Primary source: the publication archive API (JSON). Fallback: the RSS feed.
+If both sources fail but a valid data/substack.json already exists, the
+existing data is kept and the script exits successfully so a Substack
+outage cannot break the Letterboxd/GameTrack update in the same workflow.
+"""
 
 from __future__ import annotations
 
@@ -16,8 +22,13 @@ from urllib.parse import urlparse
 
 
 RSS_URL = "https://ajra.substack.com/feed"
+API_URL = "https://ajra.substack.com/api/v1/archive?sort=new&limit=12"
 PROFILE_URL = "https://ajra.substack.com"
 CONTENT_NS = "http://purl.org/rss/1.0/modules/content/"
+USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+)
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "substack.json"
 
@@ -34,6 +45,12 @@ class FirstImageParser(HTMLParser):
         self.src = values.get("src") or ""
 
 
+def fetch_url(url: str) -> bytes:
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(request, timeout=45) as response:
+        return response.read()
+
+
 def text(item: ET.Element, name: str) -> str:
     value = item.findtext(name)
     return value.strip() if value else ""
@@ -48,13 +65,31 @@ def image_from_html(html: str) -> str:
     return ""
 
 
-def fetch_posts() -> list[dict[str, object]]:
-    request = urllib.request.Request(
-        RSS_URL,
-        headers={"User-Agent": "AJRA.es Substack sync"},
-    )
-    with urllib.request.urlopen(request, timeout=45) as response:
-        root = ET.fromstring(response.read())
+def posts_from_api() -> list[dict[str, object]]:
+    payload = json.loads(fetch_url(API_URL))
+    posts: list[dict[str, object]] = []
+    for entry in payload.get("posts", []):
+        title = (entry.get("title") or "").strip()
+        url = (entry.get("canonical_url") or "").strip()
+        image_url = (entry.get("cover_image") or "").strip()
+        if not title or not url or not image_url:
+            continue
+        if entry.get("audience") not in (None, "everyone"):
+            continue
+        posts.append(
+            {
+                "title": title,
+                "published_date": (entry.get("post_date") or "")[:10],
+                "url": url,
+                "image_url": image_url,
+            }
+        )
+    posts.sort(key=lambda post: str(post["published_date"]), reverse=True)
+    return posts[:3]
+
+
+def posts_from_rss() -> list[dict[str, object]]:
+    root = ET.fromstring(fetch_url(RSS_URL))
 
     posts: list[dict[str, object]] = []
     seen: set[str] = set()
@@ -90,20 +125,49 @@ def fetch_posts() -> list[dict[str, object]]:
         )
 
     posts.sort(key=lambda post: str(post["published_date"]), reverse=True)
-    if len(posts) < 3:
-        raise RuntimeError("Substack RSS returned fewer than three usable posts")
     return posts[:3]
+
+
+def fetch_posts() -> list[dict[str, object]]:
+    errors: list[str] = []
+    for source in (posts_from_api, posts_from_rss):
+        try:
+            posts = source()
+        except Exception as error:  # noqa: BLE001 - report and try next source
+            errors.append(f"{source.__name__}: {error}")
+            continue
+        if len(posts) >= 3:
+            return posts
+        errors.append(f"{source.__name__}: only {len(posts)} usable posts")
+    raise RuntimeError("Substack sources failed: " + "; ".join(errors))
 
 
 def comparable(payload: dict[str, object]) -> dict[str, object]:
     return {key: value for key, value in payload.items() if key != "updated_at"}
 
 
+def existing_posts() -> list[dict[str, object]]:
+    try:
+        current = json.loads(OUTPUT.read_text(encoding="utf-8"))
+        posts = current.get("posts")
+        return posts if isinstance(posts, list) else []
+    except Exception:  # noqa: BLE001 - missing/corrupt file counts as no data
+        return []
+
+
 def main() -> int:
+    try:
+        posts = fetch_posts()
+    except RuntimeError as error:
+        if len(existing_posts()) >= 3:
+            print(f"warning: {error}; keeping existing data")
+            return 0
+        raise
+
     payload: dict[str, object] = {
         "profile_url": PROFILE_URL,
         "source_url": RSS_URL,
-        "posts": fetch_posts(),
+        "posts": posts,
     }
 
     if OUTPUT.exists():
