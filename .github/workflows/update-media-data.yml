@@ -50,15 +50,15 @@ jobs:
           from pathlib import Path
 
           requirements = {
-              Path("data/letterboxd.json"): ("films", {"title", "url", "poster_url"}),
-              Path("data/gametrack.json"): ("games", {"title", "url", "poster_url"}),
-              Path("data/substack.json"): ("posts", {"title", "url", "image_url"}),
+              Path("data/letterboxd.json"): ("films", {"title", "url", "poster_url"}, 3),
+              Path("data/gametrack.json"): ("games", {"title", "url", "poster_url"}, 3),
+              Path("data/substack.json"): ("posts", {"title", "url", "image_url"}, 4),
           }
 
-          for path, (collection, required_fields) in requirements.items():
+          for path, (collection, required_fields, expected_count) in requirements.items():
               payload = json.loads(path.read_text(encoding="utf-8"))
               records = payload.get(collection)
-              if not isinstance(records, list) or len(records) != 3:
+              if not isinstance(records, list) or len(records) != expected_count:
                   raise SystemExit(f"{path} must contain exactly three {collection}")
               for index, record in enumerate(records):
                   missing = required_fields - record.keys()
