@@ -456,6 +456,14 @@ a {
   border-radius: 8px;
 }
 
+.poster-post {
+  width: 168px;
+  max-width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 @media (max-width: 768px) {
   .tv {
     grid-template-columns: 1fr;
