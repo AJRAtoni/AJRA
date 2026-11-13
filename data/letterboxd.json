@@ -3,6 +3,16 @@
   "source_url": "https://letterboxd.com/ajra/rss/",
   "films": [
     {
+      "title": "Collision Course",
+      "year": "2026",
+      "watched_date": "2026-11-11",
+      "rating": 2.5,
+      "rating_text": "★★½",
+      "rewatch": false,
+      "url": "https://letterboxd.com/ajra/film/collision-course-2026-1/",
+      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/4/4/4/5/2/3/1444523-collision-course-2026-1-0-600-0-900-crop.jpg?v=d48db60e01"
+    },
+    {
       "title": "The Dog Stars",
       "year": "2026",
       "watched_date": "2026-11-05",
@@ -21,17 +31,7 @@
       "rewatch": false,
       "url": "https://letterboxd.com/ajra/film/tony-2026/",
       "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/2/0/9/0/0/1/1209001-tony-2026-0-600-0-900-crop.jpg?v=63ce7b9234"
-    },
-    {
-      "title": "Ali G: Who Iz I?",
-      "year": "2026",
-      "watched_date": "2026-11-02",
-      "rating": 2.0,
-      "rating_text": "★★",
-      "rewatch": false,
-      "url": "https://letterboxd.com/ajra/film/ali-g-who-iz-i/",
-      "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/5/9/4/1/9/3/1594193-ali-g-who-iz-i-0-600-0-900-crop.jpg?v=0e3e07fb61"
     }
   ],
-  "updated_at": "2026-11-06T21:58:43+00:00"
+  "updated_at": "2026-11-13T22:25:00+00:00"
 }
